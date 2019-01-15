@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>If/Else on @Mina&#39;s Life travel</title>
-    <link>https://minayu.io/tags/if-else/</link>
+    <link>https://minayu416.github.io/tags/if-else/</link>
     <description>Recent content in If/Else on @Mina&#39;s Life travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Jan 2019 08:56:12 +0000</lastBuildDate>
     
-	<atom:link href="https://minayu.io/tags/if-else/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://minayu416.github.io/tags/if-else/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[技術小筆記] sh/bash 檔 字串判斷回傳0/1</title>
-      <link>https://minayu.io/2019/01/tech-note-sh-str-len-if-else/</link>
+      <link>https://minayu416.github.io/2019/01/tech-note-sh-str-len-if-else/</link>
       <pubDate>Fri, 11 Jan 2019 08:56:12 +0000</pubDate>
       
-      <guid>https://minayu.io/2019/01/tech-note-sh-str-len-if-else/</guid>
+      <guid>https://minayu416.github.io/2019/01/tech-note-sh-str-len-if-else/</guid>
       <description>&lt;p&gt;這個case是寫一個.sh檔，跑了以後會去找test.txt檔案&lt;/p&gt;
 
 &lt;p&gt;在sh 指令中，跑完指令系統回傳0 代表成功, 回傳1代表失敗&lt;/p&gt;
