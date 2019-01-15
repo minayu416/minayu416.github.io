@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Ming - Jung YU">
+<meta name="keywords" content="">
+<meta name="description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output">
+
+
+<meta property="og:description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output">
+<meta name="twitter:title" content="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output">
+<meta property="og:url" content="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+<meta property="twitter:url" content="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+<meta property="og:site_name" content="@Mina&#39;s Life travel">
+<meta property="og:description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output">
+<meta name="twitter:description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2018-12-03T04:02:48">
+  
+  
+    <meta property="article:modified_time" content="2018-12-03T04:02:48">
+  
+  
+  
+    
+      <meta property="article:section" content="IT Things">
+    
+      <meta property="article:section" content="[後端] 1萬小時 - 後端工程師養成計劃">
+    
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+
+
+    <title>[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output</title>
+
+    
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+
+    <link rel="icon" href="https://minayu416.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://minayu416.github.io/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+      
+        <link rel="stylesheet"  href="https://minayu416.github.io/css/my-custom.css">
+      
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://minayu416.github.io/">@Mina&#39;s Life travel</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://minayu416.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://minayu416.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ming - Jung YU</h4>
+        
+          <h5 class="sidebar-profile-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/minayu416" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu0416.wordpress.com/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-wordpress"></i>
+      
+      <span class="sidebar-button-desc">My WP Blog</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu416.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="5"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      [後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-12-03T04:02:48Z">
+        
+  December 3, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://minayu416.github.io/categories/it-things">IT Things</a>, 
+    
+      <a class="category-link" href="https://minayu416.github.io/categories/%e5%be%8c%e7%ab%af-1%e8%90%ac%e5%b0%8f%e6%99%82-%e5%be%8c%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%a4%8a%e6%88%90%e8%a8%88%e5%8a%83">[後端] 1萬小時 - 後端工程師養成計劃</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>在<a href="https://ming-jung-yu-1993.com/19337/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5-%e5%a6%82%e4%bd%95%e7%aa%81%e7%a0%b4%e6%96%b0%e6%89%8b%e9%9a%8e%e6%ae%b5/">如何突破新手階段</a>中，好像沒有太深刻提到重構的部分</p>
+
+<p>在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出</p>
+
+<p>在這篇稍微筆記一下重構，順便想講一下Input/Output</p>
+
+<p>在新手時期，我們習慣將程式一次性從頭寫到尾</p>
+
+<p>習慣for迴圈包for迴圈</p>
+
+<p>但這往往在除錯的時候造成作業困難</p>
+
+<p>列一下重構的解釋
+<a href="https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84"><strong>重構 Refactoring</strong></a></p>
+
+<p>重構為敏捷開發方法之一</p>
+
+<p>指的是將原先寫的程式碼在不影響輸出的情況下做簡化，增加可讀性</p>
+
+<p>這麼一來萬一出Bugs, 也比較好Debug，尤其是當你面對上萬條程式碼時</p>
+
+<p>打個比方，假設我要連接db insert 五筆資料</p>
+
+<p>一部分的程式碼開始會是這樣寫</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>如果要五筆資料那就</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>可是如果要五筆不同的資料呢？</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Jason', 'Jason@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Koff', 'Koff@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Annie', 'Annie@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Bob', 'Bob@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>複製五筆改一下就好，可是我就被罵了xDDDD</p>
+
+<p>後來我改了程式碼</p>
+
+<pre><code>def insert_data():
+    sql = &quot;INSERT INTO User(User,Email) VALUES &quot;
+    engine.execute(&quot;{sql}('{user}', '{email}')&quot;.format(sql=sql, user=user, email=email))
+
+def connection():
+    engine = ...
+    connection = engine.connect()
+    insert_data()
+    connection.close()
+
+user_list = [Amy, Koff, Jason, Bob, Cathy]
+for i in user_list:
+    user = i
+    email = &quot;...&quot;
+    connection()
+</code></pre>
+
+<p>我不知道這樣寫會不會work，不過範例是這樣</p>
+
+<p>這還是蠻淺的部分</p>
+
+<p>未來要是遇到更多更複雜的程式碼</p>
+
+<p>「硬幹」不會是一個好方法，「硬寫」也不會</p>
+
+<p>除了讓程式碼可讀性降低，容易出錯外，抓錯也很難抓</p>
+
+<p>雖然現在手邊沒有比較好的例子</p>
+
+<p>假設你寫了迴圈包迴圈，再加If/Else 的語法</p>
+
+<p>亦或者寫的程式複雜度比這個更好</p>
+
+<p>將你寫的程式做重構整理會比較好</p>
+
+<p>雖然我現在也還是在很幼幼的階級，但會秉持著兩個原則去更改我的程式</p>
+
+<ol>
+<li><p>不要寫重複的程式碼，若會有需重複作業的，看能不能抽出去為一個函式做共用功能</p></li>
+
+<li><p>看到看起來覺得不好看的程式碼，就思考一下有沒有其他方法能好看點</p></li>
+</ol>
+
+<p>剛進公司的時候我寫的程式碼也是很難看，也是經過很多練習到現在才”稍微“好一點</p>
+
+<hr />
+
+<p>再來是** Input/ Output**</p>
+
+<p>這部分分為兩個</p>
+
+<ol>
+<li><p>當自己覺得很頭痛不知道該怎麼寫功能時</p></li>
+
+<li><p>當後端與前端或其他做溝通/連接時</p></li>
+</ol>
+
+<p>在寫程式的時候，會遇到很多次不知所措</p>
+
+<p>前輩會跟我說，當你遇到開發一個新功能時，你只要關心程式的Input/ Output</p>
+
+<p>也就是說，你會送怎樣形式的資料進程式，還有經過你寫的程式後，輸出的資料會長怎麼樣</p>
+
+<p>若輸進(Input) 的指令是一個代碼(假設225)，輸出(Output)得是對應到225的dataframe</p>
+
+<p>輸進輸出都定好了，接下來的工作就是如何將225跟225的dataframe串起並輸出</p>
+
+<p>然後就分細節去撰寫了</p>
+
+<hr />
+
+<p>再來就是前端跟後端在溝通時，所使用的格式</p>
+
+<p>通常前端跟後端使用的語言會不同，所以他們溝通的形式就是Json(或其他)</p>
+
+<p>所以在寫程式的時候，後端要注意前端傳進什麼資料(Input)，並注意前端要什麼資料(Output)</p>
+
+<p>前端也是注意後端傳進什麼資料(Input)，要做什麼功能(Output)</p>
+
+<p>只要輸入輸出是對的，通常程式都是可以Work，至於其他的細節又是別的事了</p>
+
+<p>只是說當需要開發新功能，或不知道程式怎麼做的時候：</p>
+
+<ul>
+<li><p>先定好輸入輸出的規格</p></li>
+
+<li><p>根據如何將輸入變成輸出做程式規劃</p></li>
+
+<li><p>拆解程式細節並一一做撰寫</p></li>
+</ul>
+
+<p>這篇先分享到這，有更新在後續做修改囉</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu416.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/" data-tooltip="[後端小菜鳥] 練好基本功">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/" data-tooltip="[後端小菜鳥] 軟體工程師的筆記本">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Ming - Jung YU. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu416.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/" data-tooltip="[後端小菜鳥] 練好基本功">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/" data-tooltip="[後端小菜鳥] 軟體工程師的筆記本">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminayu416.github.io%2F2018%2F12%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5%25E5%2588%259D%25E9%259A%258E%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%25AB%25E9%25AD%2594%25E9%25AC%25BC%25E8%25A8%2593%25E7%25B7%25B44-%25E9%2587%258D%25E6%25A7%258Brefactoring-inputoutput%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fminayu416.github.io%2F2018%2F12%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5%25E5%2588%259D%25E9%259A%258E%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%25AB%25E9%25AD%2594%25E9%25AC%25BC%25E8%25A8%2593%25E7%25B7%25B44-%25E9%2587%258D%25E6%25A7%258Brefactoring-inputoutput%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fminayu416.github.io%2F2018%2F12%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5%25E5%2588%259D%25E9%259A%258E%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%25AB%25E9%25AD%2594%25E9%25AC%25BC%25E8%25A8%2593%25E7%25B7%25B44-%25E9%2587%258D%25E6%25A7%258Brefactoring-inputoutput%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ming - Jung YU</h4>
+    
+      <div id="about-card-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Back-End Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Taiwan
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2018/11/%E5%BE%85%E5%AD%B8%E7%AD%86%E8%A8%98/">
+                <h3 class="media-heading">2019年新年新希望</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+真正要學會一樣東西，就是去教授它
+
+</blockquote>
+
+<p> －－同事之說</p>
+
+<p>人生真的是活到老學到老</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/be-yourself-be-unique/">
+                <h3 class="media-heading">[正能量] 做獨特的自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>這篇是少數的樂觀文</p>
+
+<p>我的部落格，在2017/02 搬到這裏wordpress，就一直經營到現在</p>
+
+<p>童年的我，就具有著很奇妙的怪僻，我知道這個行為很奇怪，但我沒有正視它</p>
+
+<p>我常常會突然就蹦出很多思想/想法，任由著他們在腦內飛奔，所以我都得盡快找到可以記錄的紙筆/電腦/手機，好讓我把這些天外飛來的思緒安頓在所有可以記錄的媒介中</p>
+
+<p>這個怪僻也在未來幫助我許多</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/tech-note-sh-str-len-if-else/">
+                <h3 class="media-heading">[技術小筆記] sh/bash 檔 字串判斷回傳0/1</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>這個case是寫一個.sh檔，跑了以後會去找test.txt檔案</p>
+
+<p>在sh 指令中，跑完指令系統回傳0 代表成功, 回傳1代表失敗</p>
+
+<p>我想要做一個find 檔案，有找到就回傳1: 失敗, 沒找到就回傳0: 成功</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/from-wordpress-to-hugo/">
+                <h3 class="media-heading">[Blog] 從Wordpress 移動到 Hugo</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況</p>
+
+<p>感覺好久沒打文章了，我應該神隱一陣子了</p>
+
+<p>我成功用Hugo架出我的網站，並部屬到Github上</p>
+
+<p>這是我的新網站: <a href="https://minayu416.github.io/">https://minayu416.github.io/</a></p>
+
+<p>還有許多功能還沒Ready，不過大致上已經做好根基了</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/next-step-the-seo/">
+                <h3 class="media-heading">[BLOG] 下一站，SEO優化</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>我從沒想過，我會經營我的部落格，經營到開始研究SEO的優化</blockquote>
+
+<p>這對我來說是遙不可及的夢想</p>
+
+<p>從剛開始，我僅僅只是秉持著<code>紀錄每一天，記錄我所學</code>，來發表文章</p>
+
+<p>原始於由於研究所過得太忙碌，一天一天時間迅速飛去，不希望這樣日子一過，在未來回想時卻忘卻過去的每一刻，於是將生活與所學的知識記錄下來</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/">
+                <h3 class="media-heading">[Back-End Newbie]The Devil Training of Junior(5) - Introducing Refactoring</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+Do you code what you don’t know?
+<br>
+Do you code with MANY **F****OR** loop?
+<br>
+How to throwout the tag of a NEWBIE?
+
+</blockquote>
+
+<h3 id="these-can-be-solved">THESE CAN BE SOLVED！！</h3></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2019/01/%E6%96%B0%E5%B9%B4%E5%9B%9E%E9%A1%A7%E9%81%8E%E5%BE%80-%E5%96%9C%E5%A5%BD%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E8%88%87%E5%A4%96%E8%AA%9E%E7%9A%84%E8%87%AA%E5%B7%B1/">
+                <h3 class="media-heading">[新年回顧過往] 喜好網頁開發與外語的自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>2019 新的一年來臨</p>
+
+<p>回顧自己在人生的這段路程上不斷的迷茫，茫然</p>
+
+<p>在2018的後半段找回自己對於興趣的熱情，證明自己的選擇不是錯的</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/">
+                <h3 class="media-heading">[後端小菜鳥]初階工程師魔鬼訓練(5) - 淺談重構Refactoring</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>你還在撰寫出醜醜的程式碼嗎？
+
+你還埋沒在那不知如何解決的三層for迴圈嗎？
+
+還在被前輩唸嗎？
+
+如何擺脫菜鳥的名號？</blockquote>
+
+<h3 id="這些都可以被解決">這些都可以被解決！</h3></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/">
+                <h3 class="media-heading">[後端小菜鳥] 新鮮人如何學溝通與情緒控管</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>我就是覺得很生氣，很不爽，但我真的無法指出哪點不爽，無法說明重點是甚麼
+
+我就發現，這一切都怪怪的，就是哪邊怪怪的，但又說不出個所以</blockquote>
+
+<pre><code>屁呢，那個人一定是看我不爽
+
+最好啦，他一定是看我菜鳥故意噹我
+
+e04, 不要做了，走人！
+</code></pre></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu416.github.io/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/">
+                <h3 class="media-heading">[BLOG] 部落格的架設煩惱 - Wordpress &#43; Bluehost</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>好久沒來這撰寫我的文章了</p>
+
+<p>至從上個月3號衝動之下買了三年費的bluehost，一鍵安裝wordpress來試試看</p>
+
+<p>反正有一個月內免費退費機制，但我覺得第一次買三年很划算</p>
+
+<p>當初是因為自己單方面認為初次買三年很便宜＋送一年Domain</p>
+
+<p>而且三年感覺很久，我可以有一個自己的網站＋自己制訂的Domain三年？</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         434 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://minayu416.github.io/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://minayu416.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/minayu416.github.io\/2018\/12\/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput\/';
+          
+            this.page.identifier = '\/2018\/12\/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'minayu';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
