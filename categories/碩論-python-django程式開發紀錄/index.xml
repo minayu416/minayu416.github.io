@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>碩論 Python/ Django程式開發紀錄 on @Mina&#39;s Life travel</title>
-    <link>http://minayu.github.io/categories/%E7%A2%A9%E8%AB%96-python-django%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/</link>
+    <link>https://minayu.github.io/categories/%E7%A2%A9%E8%AB%96-python-django%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/</link>
     <description>Recent content in 碩論 Python/ Django程式開發紀錄 on @Mina&#39;s Life travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Aug 2018 10:13:58 +0000</lastBuildDate>
     
-	<atom:link href="http://minayu.github.io/categories/%E7%A2%A9%E8%AB%96-python-django%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://minayu.github.io/categories/%E7%A2%A9%E8%AB%96-python-django%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(7)圓滿結束</title>
-      <link>http://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</link>
+      <link>https://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</link>
       <pubDate>Sat, 25 Aug 2018 10:13:58 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
+      <guid>https://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
       <description>&lt;p&gt;好啦~&lt;/p&gt;
 
 &lt;p&gt;經過一番寒徹骨&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(6)(內含開發心得)</title>
-      <link>http://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</link>
+      <link>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</link>
       <pubDate>Thu, 24 May 2018 10:02:34 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;p&gt;這次，我就不說自己完成幾%了&lt;/p&gt;
 
 &lt;p&gt;免得雷到自己XD&lt;/p&gt;</description>
@@ -39,10 +39,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(5)</title>
-      <link>http://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</link>
+      <link>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</link>
       <pubDate>Wed, 09 May 2018 08:40:52 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
       <description>&lt;p&gt;程式，終於完成80%，進入最終測試階段了&lt;/p&gt;
 
 &lt;p&gt;還來不及update，日子就一天一天的過&lt;/p&gt;</description>
@@ -50,10 +50,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(5)-SERVER端/open, save file to vm/cloud/</title>
-      <link>http://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</link>
+      <link>https://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</link>
       <pubDate>Thu, 03 May 2018 07:21:59 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
       <description>&lt;p&gt;打開KKBOX，放一首偏抒發的慢歌來配著打文章&lt;/p&gt;
 
 &lt;p&gt;上一篇忘記什麼時候發了&lt;/p&gt;
@@ -63,19 +63,19 @@
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發-備份</title>
-      <link>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</link>
       <pubDate>Mon, 30 Apr 2018 13:48:47 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</guid>
       <description>&lt;p&gt;url.py&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(4)-Server端/Insert database / view/model</title>
-      <link>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</link>
       <pubDate>Fri, 27 Apr 2018 10:21:40 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
       <description>&lt;p&gt;我希望今天能夠把server端寫好&lt;/p&gt;
 
 &lt;p&gt;明天就能開始規劃我的client端怎麼寫&lt;/p&gt;</description>
@@ -83,10 +83,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(3)</title>
-      <link>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</link>
       <pubDate>Thu, 26 Apr 2018 09:32:22 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
       <description>&lt;p&gt;寫程式，有一個很重要的觀念&lt;/p&gt;
 
 &lt;p&gt;就是&lt;/p&gt;
@@ -106,10 +106,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(2)</title>
-      <link>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</link>
       <pubDate>Tue, 24 Apr 2018 06:09:07 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
       <description>&lt;p&gt;老話一句&lt;/p&gt;
 
 &lt;p&gt;卡了多少天，就是隔多少天才發文章&lt;/p&gt;</description>
@@ -117,10 +117,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(1)</title>
-      <link>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</link>
       <pubDate>Tue, 17 Apr 2018 06:58:09 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
       <description>&lt;p&gt;網址附贈：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&lt;/a&gt;&lt;/p&gt;
@@ -130,10 +130,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(4)</title>
-      <link>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</link>
       <pubDate>Sat, 07 Apr 2018 05:02:39 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
       <description>&lt;blockquote&gt;pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)&lt;/blockquote&gt;
 
 &lt;p&gt;Error: 2003&lt;/p&gt;
@@ -143,10 +143,10 @@
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(3)</title>
-      <link>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</link>
       <pubDate>Fri, 06 Apr 2018 10:18:00 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
       <description>&lt;p&gt;Could not find a version that satisfies the requirement MySQL-python==1.2.4 (from versions: )&lt;/p&gt;
 
 &lt;p&gt;No matching distribution found for MySQL-python==1.2.4&lt;/p&gt;</description>
@@ -154,10 +154,10 @@
     
     <item>
       <title>[Develop]Python 桌機版開發之(2)</title>
-      <link>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</link>
       <pubDate>Mon, 02 Apr 2018 09:55:42 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
       <description>&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
 
 &lt;p&gt;&lt;del&gt;我已經放棄裝PyQt4了&lt;/del&gt;&lt;/p&gt;
@@ -167,10 +167,10 @@
     
     <item>
       <title>[Develop]Python 桌機版開發遇到之問題(1)</title>
-      <link>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</link>
       <pubDate>Mon, 02 Apr 2018 08:39:25 +0000</pubDate>
       
-      <guid>http://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</guid>
       <description>&lt;p&gt;有鑒於自己最近剛接手一個做到一半的桌機開發程式&lt;/p&gt;
 
 &lt;p&gt;由於自己只用過Django and Python 寫過網頁&lt;/p&gt;
