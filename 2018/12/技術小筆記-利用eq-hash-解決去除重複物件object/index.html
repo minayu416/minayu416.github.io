@@ -27,8 +27,8 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
 <meta name="twitter:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
-<meta property="og:url" content="http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
-<meta property="twitter:url" content="http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+<meta property="og:url" content="http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+<meta property="twitter:url" content="http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
 <meta property="og:site_name" content="@Mina&#39;s Life travel">
 <meta property="og:description" content="恩&hellip; 我重新改寫一下這篇
 
@@ -82,12 +82,12 @@
     <title>[技術小筆記] 利用eq, hash 解決去除重複物件(object)</title>
 
     
-    <link rel="icon" href="http://minayu.site/img/favicon.jpg">
+    <link rel="icon" href="http://minayu.github.io/img/favicon.jpg">
     
 
     
 
-    <link rel="canonical" href="http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+    <link rel="canonical" href="http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
 
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
@@ -97,11 +97,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
     
     
-    <link rel="stylesheet" href="http://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    <link rel="stylesheet" href="http://minayu.github.io/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
     
     
       
-        <link rel="stylesheet"  href="http://minayu.site/css/my-custom.css">
+        <link rel="stylesheet"  href="http://minayu.github.io/css/my-custom.css">
       
     
 
@@ -129,12 +129,12 @@ if (!doNotTrack) {
       <header id="header" data-behavior="5">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="http://minayu.site/">@Mina&#39;s Life travel</a>
+    <a class="header-title-link" href="http://minayu.github.io/">@Mina&#39;s Life travel</a>
   </div>
   
     
       <a class="header-right-picture "
-         href="http://minayu.site/#about">
+         href="http://minayu.github.io/#about">
     
     
     
@@ -150,7 +150,7 @@ if (!doNotTrack) {
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
-        <a href="http://minayu.site/#about">
+        <a href="http://minayu.github.io/#about">
           <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Ming - Jung YU</h4>
@@ -163,7 +163,7 @@ if (!doNotTrack) {
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/">
+      <a class="sidebar-button-link " href="http://minayu.github.io/">
     
       <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
@@ -173,7 +173,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/categories">
+      <a class="sidebar-button-link " href="http://minayu.github.io/categories">
     
       <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
       
@@ -183,7 +183,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/tags">
+      <a class="sidebar-button-link " href="http://minayu.github.io/tags">
     
       <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
       
@@ -193,7 +193,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/archives">
+      <a class="sidebar-button-link " href="http://minayu.github.io/archives">
     
       <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
       
@@ -203,7 +203,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/#about">
+      <a class="sidebar-button-link " href="http://minayu.github.io/#about">
     
       <i class="sidebar-button-icon fa fa-lg fa-question"></i>
       
@@ -241,7 +241,7 @@ if (!doNotTrack) {
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="http://minayu.site/index.xml">
+      <a class="sidebar-button-link " href="http://minayu.github.io/index.xml">
     
       <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
       
@@ -283,9 +283,9 @@ if (!doNotTrack) {
   
     <span>in</span>
     
-      <a class="category-link" href="http://minayu.site/categories/it-things">IT Things</a>, 
+      <a class="category-link" href="http://minayu.github.io/categories/it-things">IT Things</a>, 
     
-      <a class="category-link" href="http://minayu.site/categories/%e5%be%8c%e7%ab%af-%e6%8a%80%e8%a1%93%e5%b0%8f%e7%ad%86%e8%a8%98">[後端] 技術小筆記</a>
+      <a class="category-link" href="http://minayu.github.io/categories/%e5%be%8c%e7%ab%af-%e6%8a%80%e8%a1%93%e5%b0%8f%e7%ad%86%e8%a8%98">[後端] 技術小筆記</a>
     
   
 
@@ -522,7 +522,7 @@ for data, book in library:
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.site/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.github.io/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -530,7 +530,7 @@ for data, book in library:
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.site/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.github.io/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -548,19 +548,19 @@ for data, book in library:
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -608,7 +608,7 @@ for data, book in library:
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.site/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.github.io/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -616,7 +616,7 @@ for data, book in library:
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.site/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://minayu.github.io/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -634,19 +634,19 @@ for data, book in library:
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -676,19 +676,19 @@ for data, book in library:
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fminayu.github.io%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2Fminayu.github.io%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2Fminayu.github.io%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
@@ -749,7 +749,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2018/11/%E5%BE%85%E5%AD%B8%E7%AD%86%E8%A8%98/">
+              <a class="link-unstyled" href="http://minayu.github.io/2018/11/%E5%BE%85%E5%AD%B8%E7%AD%86%E8%A8%98/">
                 <h3 class="media-heading">2019年新年新希望</h3>
               </a>
               <span class="media-meta">
@@ -774,7 +774,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/be-yourself-be-unique/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/be-yourself-be-unique/">
                 <h3 class="media-heading">[正能量] 做獨特的自己</h3>
               </a>
               <span class="media-meta">
@@ -799,7 +799,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/tech-note-sh-str-len-if-else/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/tech-note-sh-str-len-if-else/">
                 <h3 class="media-heading">[技術小筆記] sh/bash 檔 字串判斷回傳0/1</h3>
               </a>
               <span class="media-meta">
@@ -820,7 +820,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/from-wordpress-to-hugo/">
                 <h3 class="media-heading">[Blog] 從Wordpress 移動到 Hugo</h3>
               </a>
               <span class="media-meta">
@@ -845,7 +845,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/next-step-the-seo/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/next-step-the-seo/">
                 <h3 class="media-heading">[BLOG] 下一站，SEO優化</h3>
               </a>
               <span class="media-meta">
@@ -868,7 +868,7 @@ for data, book in library:
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/">
                 <h3 class="media-heading">[Back-End Newbie]The Devil Training of Junior(5) - Introducing Refactoring</h3>
               </a>
               <span class="media-meta">
@@ -895,7 +895,7 @@ How to throwout the tag of a NEWBIE?
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2019/01/%E6%96%B0%E5%B9%B4%E5%9B%9E%E9%A1%A7%E9%81%8E%E5%BE%80-%E5%96%9C%E5%A5%BD%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E8%88%87%E5%A4%96%E8%AA%9E%E7%9A%84%E8%87%AA%E5%B7%B1/">
+              <a class="link-unstyled" href="http://minayu.github.io/2019/01/%E6%96%B0%E5%B9%B4%E5%9B%9E%E9%A1%A7%E9%81%8E%E5%BE%80-%E5%96%9C%E5%A5%BD%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E8%88%87%E5%A4%96%E8%AA%9E%E7%9A%84%E8%87%AA%E5%B7%B1/">
                 <h3 class="media-heading">[新年回顧過往] 喜好網頁開發與外語的自己</h3>
               </a>
               <span class="media-meta">
@@ -916,7 +916,7 @@ How to throwout the tag of a NEWBIE?
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/">
+              <a class="link-unstyled" href="http://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/">
                 <h3 class="media-heading">[後端小菜鳥]初階工程師魔鬼訓練(5) - 淺談重構Refactoring</h3>
               </a>
               <span class="media-meta">
@@ -941,7 +941,7 @@ How to throwout the tag of a NEWBIE?
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/">
+              <a class="link-unstyled" href="http://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/">
                 <h3 class="media-heading">[後端小菜鳥] 新鮮人如何學溝通與情緒控管</h3>
               </a>
               <span class="media-meta">
@@ -967,7 +967,7 @@ e04, 不要做了，走人！
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="http://minayu.site/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/">
+              <a class="link-unstyled" href="http://minayu.github.io/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/">
                 <h3 class="media-heading">[BLOG] 部落格的架設煩惱 - Wordpress &#43; Bluehost</h3>
               </a>
               <span class="media-meta">
@@ -1004,7 +1004,7 @@ e04, 不要做了，走人！
     
   
     
-    <div id="cover" style="background-image:url('http://minayu.site/images/cover.jpg');"></div>
+    <div id="cover" style="background-image:url('http://minayu.github.io/images/cover.jpg');"></div>
   
 
 
@@ -1016,7 +1016,7 @@ e04, 不要做了，走人！
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
 
 
-<script src="http://minayu.site/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+<script src="http://minayu.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
 
 
 <script lang="javascript">
@@ -1051,7 +1051,7 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'http:\/\/minayu.site\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/';
+          this.page.url = 'http:\/\/minayu.github.io\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/';
           
             this.page.identifier = '\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/'
           

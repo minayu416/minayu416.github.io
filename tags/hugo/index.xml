@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on @Mina&#39;s Life travel</title>
-    <link>http://minayu.site/tags/hugo/</link>
+    <link>http://minayu.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on @Mina&#39;s Life travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 16:42:45 +0000</lastBuildDate>
     
-	<atom:link href="http://minayu.site/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://minayu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Blog] 從Wordpress 移動到 Hugo</title>
-      <link>http://minayu.site/2019/01/from-wordpress-to-hugo/</link>
+      <link>http://minayu.github.io/2019/01/from-wordpress-to-hugo/</link>
       <pubDate>Tue, 08 Jan 2019 16:42:45 +0000</pubDate>
       
-      <guid>http://minayu.site/2019/01/from-wordpress-to-hugo/</guid>
+      <guid>http://minayu.github.io/2019/01/from-wordpress-to-hugo/</guid>
       <description>&lt;p&gt;看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況&lt;/p&gt;
 
 &lt;p&gt;感覺好久沒打文章了，我應該神隱一陣子了&lt;/p&gt;
