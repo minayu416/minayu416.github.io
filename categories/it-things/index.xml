@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>It Things on @Mina&#39;s Life travel</title>
-    <link>https://minayu.site/categories/it-things/</link>
+    <link>https://minayu.github.io/categories/it-things/</link>
     <description>Recent content in It Things on @Mina&#39;s Life travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Jan 2019 08:56:12 +0000</lastBuildDate>
     
-	<atom:link href="https://minayu.site/categories/it-things/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://minayu.github.io/categories/it-things/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[技術小筆記] sh/bash 檔 字串判斷回傳0/1</title>
-      <link>https://minayu.site/2019/01/tech-note-sh-str-len-if-else/</link>
+      <link>https://minayu.github.io/2019/01/tech-note-sh-str-len-if-else/</link>
       <pubDate>Fri, 11 Jan 2019 08:56:12 +0000</pubDate>
       
-      <guid>https://minayu.site/2019/01/tech-note-sh-str-len-if-else/</guid>
+      <guid>https://minayu.github.io/2019/01/tech-note-sh-str-len-if-else/</guid>
       <description>&lt;p&gt;這個case是寫一個.sh檔，跑了以後會去找test.txt檔案&lt;/p&gt;
 
 &lt;p&gt;在sh 指令中，跑完指令系統回傳0 代表成功, 回傳1代表失敗&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>[Blog] 從Wordpress 移動到 Hugo</title>
-      <link>https://minayu.site/2019/01/from-wordpress-to-hugo/</link>
+      <link>https://minayu.github.io/2019/01/from-wordpress-to-hugo/</link>
       <pubDate>Tue, 08 Jan 2019 16:42:45 +0000</pubDate>
       
-      <guid>https://minayu.site/2019/01/from-wordpress-to-hugo/</guid>
+      <guid>https://minayu.github.io/2019/01/from-wordpress-to-hugo/</guid>
       <description>&lt;p&gt;看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況&lt;/p&gt;
 
 &lt;p&gt;感覺好久沒打文章了，我應該神隱一陣子了&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>[BLOG] 下一站，SEO優化</title>
-      <link>https://minayu.site/2019/01/next-step-the-seo/</link>
+      <link>https://minayu.github.io/2019/01/next-step-the-seo/</link>
       <pubDate>Mon, 07 Jan 2019 21:42:45 +0000</pubDate>
       
-      <guid>https://minayu.site/2019/01/next-step-the-seo/</guid>
+      <guid>https://minayu.github.io/2019/01/next-step-the-seo/</guid>
       <description>&lt;blockquote&gt;我從沒想過，我會經營我的部落格，經營到開始研究SEO的優化&lt;/blockquote&gt;
 
 &lt;p&gt;這對我來說是遙不可及的夢想&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>[Back-End Newbie]The Devil Training of Junior(5) - Introducing Refactoring</title>
-      <link>https://minayu.site/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/</link>
+      <link>https://minayu.github.io/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/</link>
       <pubDate>Thu, 03 Jan 2019 11:42:45 +0000</pubDate>
       
-      <guid>https://minayu.site/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/</guid>
+      <guid>https://minayu.github.io/2019/01/back-end-newbiethe-devil-training-of-junior5-introducing-refactoring/</guid>
       <description>&lt;blockquote&gt;
 
 Do you code what you don’t know?
@@ -77,10 +77,10 @@ How to throwout the tag of a NEWBIE?
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(5) - 淺談重構Refactoring</title>
-      <link>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/</link>
+      <link>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/</link>
       <pubDate>Wed, 26 Dec 2018 15:33:33 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/</guid>
+      <guid>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B45-%E6%B7%BA%E8%AB%87%E9%87%8D%E6%A7%8Brefactoring/</guid>
       <description>&lt;blockquote&gt;你還在撰寫出醜醜的程式碼嗎？
 
 你還埋沒在那不知如何解決的三層for迴圈嗎？
@@ -94,10 +94,10 @@ How to throwout the tag of a NEWBIE?
     
     <item>
       <title>[後端小菜鳥] 新鮮人如何學溝通與情緒控管</title>
-      <link>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/</link>
+      <link>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/</link>
       <pubDate>Wed, 26 Dec 2018 13:28:38 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/</guid>
+      <guid>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/</guid>
       <description>&lt;blockquote&gt;我就是覺得很生氣，很不爽，但我真的無法指出哪點不爽，無法說明重點是甚麼
 
 我就發現，這一切都怪怪的，就是哪邊怪怪的，但又說不出個所以&lt;/blockquote&gt;
@@ -112,10 +112,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[BLOG] 部落格的架設煩惱 - Wordpress &#43; Bluehost</title>
-      <link>https://minayu.site/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/</link>
+      <link>https://minayu.github.io/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/</link>
       <pubDate>Thu, 20 Dec 2018 06:11:01 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/</guid>
+      <guid>https://minayu.github.io/2018/12/%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E6%9E%B6%E8%A8%AD%E7%85%A9%E6%83%B1/</guid>
       <description>&lt;p&gt;好久沒來這撰寫我的文章了&lt;/p&gt;
 
 &lt;p&gt;至從上個月3號衝動之下買了三年費的bluehost，一鍵安裝wordpress來試試看&lt;/p&gt;
@@ -129,10 +129,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[技術小筆記] Git 指令</title>
-      <link>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98git%E6%8C%87%E4%BB%A4/</link>
+      <link>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98git%E6%8C%87%E4%BB%A4/</link>
       <pubDate>Tue, 11 Dec 2018 07:37:19 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98git%E6%8C%87%E4%BB%A4/</guid>
+      <guid>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98git%E6%8C%87%E4%BB%A4/</guid>
       <description>&lt;p&gt;最基礎的git 指令被隱藏在先前的後端小菜鳥學習筆記內，有機會再把他整理出來&lt;/p&gt;
 
 &lt;p&gt;後端小菜鳥學習筆記系列是當初上班太忙碌，資訊又不斷的往我的腦袋塞(雖然現在也差不多啦XDDDD)&lt;/p&gt;
@@ -148,10 +148,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[技術小筆記] 利用eq, hash 解決去除重複物件(object)</title>
-      <link>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/</link>
+      <link>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/</link>
       <pubDate>Mon, 10 Dec 2018 07:49:32 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/</guid>
+      <guid>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/</guid>
       <description>&lt;p&gt;恩&amp;hellip; 我重新改寫一下這篇&lt;/p&gt;
 
 &lt;p&gt;因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟&lt;/p&gt;
@@ -163,10 +163,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[技術小筆記] list 串列中,如何將重複值去除, 取unique值</title>
-      <link>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-list-%E4%B8%B2%E5%88%97%E4%B8%AD%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A4%87%E5%80%BC%E5%8E%BB%E9%99%A4-%E5%8F%96unique%E5%80%BC/</link>
+      <link>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-list-%E4%B8%B2%E5%88%97%E4%B8%AD%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A4%87%E5%80%BC%E5%8E%BB%E9%99%A4-%E5%8F%96unique%E5%80%BC/</link>
       <pubDate>Fri, 07 Dec 2018 12:12:42 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-list-%E4%B8%B2%E5%88%97%E4%B8%AD%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A4%87%E5%80%BC%E5%8E%BB%E9%99%A4-%E5%8F%96unique%E5%80%BC/</guid>
+      <guid>https://minayu.github.io/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-list-%E4%B8%B2%E5%88%97%E4%B8%AD%E5%A6%82%E4%BD%95%E5%B0%87%E9%87%8D%E8%A4%87%E5%80%BC%E5%8E%BB%E9%99%A4-%E5%8F%96unique%E5%80%BC/</guid>
       <description>&lt;p&gt;list 串列中，如何將Class Object重複值去除,，取unique值？&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How to remove duplicate class object in List?&lt;/strong&gt;&lt;/p&gt;</description>
@@ -174,10 +174,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥] 軟體工程師的筆記本</title>
-      <link>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/</link>
+      <link>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/</link>
       <pubDate>Mon, 03 Dec 2018 09:02:40 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/</guid>
+      <guid>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E7%AD%86%E8%A8%98%E6%9C%AC/</guid>
       <description>&lt;p&gt;生長在資訊科技迅速發展的年代，初始使用電腦，打開空白的記事本&lt;/p&gt;
 
 &lt;p&gt;陽春白色畫面，搭配簡簡單單的幾個小功能 －字型, 大小, 粗體, 斜體, 刪除線&lt;/p&gt;
@@ -191,10 +191,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output</title>
-      <link>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/</link>
+      <link>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/</link>
       <pubDate>Mon, 03 Dec 2018 04:02:48 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/</guid>
+      <guid>https://minayu.github.io/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/</guid>
       <description>&lt;p&gt;在&lt;a href=&#34;https://ming-jung-yu-1993.com/19337/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5-%e5%a6%82%e4%bd%95%e7%aa%81%e7%a0%b4%e6%96%b0%e6%89%8b%e9%9a%8e%e6%ae%b5/&#34;&gt;如何突破新手階段&lt;/a&gt;中，好像沒有太深刻提到重構的部分&lt;/p&gt;
 
 &lt;p&gt;在被列為初階工程師應學的幾個項目中，重構是其中一項
@@ -205,10 +205,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥] 練好基本功</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/</link>
       <pubDate>Wed, 28 Nov 2018 11:40:35 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/</guid>
       <description>&lt;p&gt;隨著資訊科技越來越發達&lt;/p&gt;
 
 &lt;p&gt;「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨&lt;/p&gt;
@@ -220,10 +220,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥] 如何突破新手階段</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/</link>
       <pubDate>Fri, 23 Nov 2018 11:18:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/</guid>
       <description>&lt;p&gt;在背景知識不太夠，程式技術也才剛起步時&lt;/p&gt;
 
 &lt;p&gt;新手通常是利用關鍵字查找Google&lt;/p&gt;
@@ -241,10 +241,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥] 程式沒有這麼難-學會拆解問題</title>
-      <link>https://minayu.site/2018/11/%E7%A8%8B%E5%BC%8F%E6%B2%92%E6%9C%89%E9%80%99%E9%BA%BC%E9%9B%A3-%E5%AD%B8%E6%9C%83%E6%8B%86%E8%A7%A3%E5%95%8F%E9%A1%8C/</link>
+      <link>https://minayu.github.io/2018/11/%E7%A8%8B%E5%BC%8F%E6%B2%92%E6%9C%89%E9%80%99%E9%BA%BC%E9%9B%A3-%E5%AD%B8%E6%9C%83%E6%8B%86%E8%A7%A3%E5%95%8F%E9%A1%8C/</link>
       <pubDate>Thu, 15 Nov 2018 11:13:58 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E7%A8%8B%E5%BC%8F%E6%B2%92%E6%9C%89%E9%80%99%E9%BA%BC%E9%9B%A3-%E5%AD%B8%E6%9C%83%E6%8B%86%E8%A7%A3%E5%95%8F%E9%A1%8C/</guid>
+      <guid>https://minayu.github.io/2018/11/%E7%A8%8B%E5%BC%8F%E6%B2%92%E6%9C%89%E9%80%99%E9%BA%BC%E9%9B%A3-%E5%AD%B8%E6%9C%83%E6%8B%86%E8%A7%A3%E5%95%8F%E9%A1%8C/</guid>
       <description>&lt;blockquote&gt;程式語言就只是工具&lt;/blockquote&gt;
 
 &lt;p&gt;初學程式的新人們，不太能理解這段話，無法想像那些將程式語言學到精通的前輩們，卻告訴我們程式語言僅僅只是個工具。&lt;/p&gt;
@@ -254,10 +254,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥] Debug 流程</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-debug-%E6%B5%81%E7%A8%8B/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-debug-%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Wed, 14 Nov 2018 10:56:24 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-debug-%E6%B5%81%E7%A8%8B/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-debug-%E6%B5%81%E7%A8%8B/</guid>
       <description>&lt;p&gt;原先是在&lt;a href=&#34;https://ming-jung-yu-1993.com/18573/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%e5%ad%b8%e7%bf%92%e8%a8%98%e9%8c%844/&#34;&gt;後端小菜鳥學習記錄(4)&lt;/a&gt; 的Debug流程，但由於我覺得早期寫的後端學習筆記比較亂，畢竟當初剛進公司，也很霧煞煞亂糟糟，也為了針對工作的時數做統計，還有針對每天的學習做紀錄&lt;/p&gt;
 
 &lt;p&gt;所以無論是來自前輩的教導，還是自己領悟跟找尋到的知識/資料，都全部混在一起&lt;/p&gt;
@@ -267,10 +267,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(3)-軟體開發不只有程式語言</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B43-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%B8%8D%E5%8F%AA%E6%9C%89/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B43-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%B8%8D%E5%8F%AA%E6%9C%89/</link>
       <pubDate>Tue, 13 Nov 2018 11:08:39 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B43-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%B8%8D%E5%8F%AA%E6%9C%89/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B43-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E4%B8%8D%E5%8F%AA%E6%9C%89/</guid>
       <description>&lt;p&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;後端工程師魔鬼訓練&#34;&gt;&lt;strong&gt;後端工程師魔鬼訓練&lt;/strong&gt;&lt;/h2&gt;
@@ -288,10 +288,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>個人網頁架設及內容說</title>
-      <link>https://minayu.site/2018/11/%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81%E6%9E%B6%E8%A8%AD%E5%8F%8A%E5%85%A7%E5%AE%B9%E8%AA%AA/</link>
+      <link>https://minayu.github.io/2018/11/%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81%E6%9E%B6%E8%A8%AD%E5%8F%8A%E5%85%A7%E5%AE%B9%E8%AA%AA/</link>
       <pubDate>Sun, 11 Nov 2018 15:10:28 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81%E6%9E%B6%E8%A8%AD%E5%8F%8A%E5%85%A7%E5%AE%B9%E8%AA%AA/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81%E6%9E%B6%E8%A8%AD%E5%8F%8A%E5%85%A7%E5%AE%B9%E8%AA%AA/</guid>
       <description>&lt;p&gt;對於出生於資訊爆炸的時代的人們&lt;/p&gt;
 
 &lt;p&gt;紙本紀錄漸漸被電腦與手機取代&lt;/p&gt;
@@ -307,10 +307,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(2)-Design Pattern / Unit Test</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A514-design-pattern-unit-test/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A514-design-pattern-unit-test/</link>
       <pubDate>Fri, 09 Nov 2018 01:52:10 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A514-design-pattern-unit-test/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A514-design-pattern-unit-test/</guid>
       <description>&lt;pre&gt;&lt;code&gt;11/9
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -325,10 +325,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(1)-錄影練習方法/Debug/敏捷開發</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A513-%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A9%A6%E7%85%89%E8%B5%B7%E5%A7%8B-%E9%8C%84%E5%BD%B1%E7%B7%B4%E7%BF%92%E6%96%B9%E6%B3%95-debug/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A513-%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A9%A6%E7%85%89%E8%B5%B7%E5%A7%8B-%E9%8C%84%E5%BD%B1%E7%B7%B4%E7%BF%92%E6%96%B9%E6%B3%95-debug/</link>
       <pubDate>Thu, 08 Nov 2018 19:21:13 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A513-%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A9%A6%E7%85%89%E8%B5%B7%E5%A7%8B-%E9%8C%84%E5%BD%B1%E7%B7%B4%E7%BF%92%E6%96%B9%E6%B3%95-debug/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A513-%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A9%A6%E7%85%89%E8%B5%B7%E5%A7%8B-%E9%8C%84%E5%BD%B1%E7%B7%B4%E7%BF%92%E6%96%B9%E6%B3%95-debug/</guid>
       <description>&lt;p&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;昨日，8年級溫室小花朵的自己，終於在辦公室會議裡，見識到我在研究所課程[敏捷開發與管理]的Paper中看到的名詞: &lt;strong&gt;Scrum, Sprint&lt;/strong&gt;&lt;/p&gt;
@@ -342,10 +342,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>後端小菜鳥學習記錄(12)- 壓力大炸掉的開始</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8412-%E5%A3%93%E5%8A%9B%E5%A4%A7%E7%82%B8%E6%8E%89%E7%9A%84%E9%96%8B%E5%A7%8B/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8412-%E5%A3%93%E5%8A%9B%E5%A4%A7%E7%82%B8%E6%8E%89%E7%9A%84%E9%96%8B%E5%A7%8B/</link>
       <pubDate>Wed, 07 Nov 2018 03:35:16 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8412-%E5%A3%93%E5%8A%9B%E5%A4%A7%E7%82%B8%E6%8E%89%E7%9A%84%E9%96%8B%E5%A7%8B/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8412-%E5%A3%93%E5%8A%9B%E5%A4%A7%E7%82%B8%E6%8E%89%E7%9A%84%E9%96%8B%E5%A7%8B/</guid>
       <description>&lt;p&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;主管不見了，離開了&lt;/p&gt;
@@ -361,10 +361,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>後端小菜鳥學習記錄(11)</title>
-      <link>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8411/</link>
+      <link>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8411/</link>
       <pubDate>Fri, 02 Nov 2018 16:48:27 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8411/</guid>
+      <guid>https://minayu.github.io/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8411/</guid>
       <description>&lt;p&gt;這週終於把任務全刷完一遍了&lt;/p&gt;
 
 &lt;p&gt;再一個感覺一知半解的狀態下&lt;/p&gt;
@@ -376,10 +376,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>研究所那回事(2) - 精神上真的要Hold住</title>
-      <link>https://minayu.site/2018/10/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B2-%E7%B2%BE%E7%A5%9E%E4%B8%8A%E7%9C%9F%E7%9A%84%E8%A6%81hold%E4%BD%8F/</link>
+      <link>https://minayu.github.io/2018/10/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B2-%E7%B2%BE%E7%A5%9E%E4%B8%8A%E7%9C%9F%E7%9A%84%E8%A6%81hold%E4%BD%8F/</link>
       <pubDate>Sat, 27 Oct 2018 08:03:33 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/10/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B2-%E7%B2%BE%E7%A5%9E%E4%B8%8A%E7%9C%9F%E7%9A%84%E8%A6%81hold%E4%BD%8F/</guid>
+      <guid>https://minayu.github.io/2018/10/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B2-%E7%B2%BE%E7%A5%9E%E4%B8%8A%E7%9C%9F%E7%9A%84%E8%A6%81hold%E4%BD%8F/</guid>
       <description>&lt;p&gt;在碩班教室，某位男教授某次上課開玩笑的調侃著說&lt;/p&gt;
 
 &lt;p&gt;唸到博士的人，腦袋都怪怪的&lt;/p&gt;</description>
@@ -387,10 +387,10 @@ e04, 不要做了，走人！
     
     <item>
       <title>後端小菜鳥學習記錄(10)</title>
-      <link>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8410/</link>
+      <link>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8410/</link>
       <pubDate>Fri, 26 Oct 2018 16:42:23 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8410/</guid>
+      <guid>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%8410/</guid>
       <description>&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;6.5hours for Tasks&lt;/strong&gt;&lt;/p&gt;
@@ -402,10 +402,10 @@ AND condition2
     
     <item>
       <title>後端小菜鳥學習記錄(9)- 將三觀導正</title>
-      <link>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%849-%E5%B0%87%E4%B8%89%E8%A7%80%E5%B0%8E%E6%AD%A3/</link>
+      <link>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%849-%E5%B0%87%E4%B8%89%E8%A7%80%E5%B0%8E%E6%AD%A3/</link>
       <pubDate>Mon, 22 Oct 2018 02:54:59 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%849-%E5%B0%87%E4%B8%89%E8%A7%80%E5%B0%8E%E6%AD%A3/</guid>
+      <guid>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%849-%E5%B0%87%E4%B8%89%E8%A7%80%E5%B0%8E%E6%AD%A3/</guid>
       <description>&lt;p&gt;在歷經了新手腦袋炸開混沌時期，我們逐漸向更高階層的程式level邁進&lt;/p&gt;
 
 &lt;p&gt;上段時期，取得門票進入了軟體開發的殿堂&lt;/p&gt;
@@ -415,10 +415,10 @@ AND condition2
     
     <item>
       <title>後端小菜鳥學習記錄(8)</title>
-      <link>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%848/</link>
+      <link>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%848/</link>
       <pubDate>Mon, 15 Oct 2018 02:18:19 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%848/</guid>
+      <guid>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%848/</guid>
       <description>&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;10:10-11:00 學五個函式 1hours&lt;/p&gt;
@@ -430,10 +430,10 @@ AND condition2
     
     <item>
       <title>後端小菜鳥學習記錄(7)-進入Pandas啦！</title>
-      <link>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/</link>
+      <link>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/</link>
       <pubDate>Fri, 05 Oct 2018 16:12:55 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/</guid>
+      <guid>https://minayu.github.io/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/</guid>
       <description>&lt;p&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;1&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one&#34;&gt;https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one&lt;/a&gt;&lt;/p&gt;
@@ -443,10 +443,10 @@ AND condition2
     
     <item>
       <title>後端小菜鳥學習記錄(6)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%846/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%846/</link>
       <pubDate>Fri, 28 Sep 2018 09:17:29 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%846/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%846/</guid>
       <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;25&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;將新電腦的環境裝好及測試(1hr)&lt;/strong&gt;&lt;/p&gt;
@@ -461,10 +461,10 @@ docker exec -it ***** bash
     
     <item>
       <title>後端小菜鳥學習記錄(5)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%845/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%845/</link>
       <pubDate>Fri, 21 Sep 2018 09:34:09 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%845/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%845/</guid>
       <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;20&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;功能測過正常可以跑了，接下來就是準備測效能，優化效能！&lt;/p&gt;</description>
@@ -472,10 +472,10 @@ docker exec -it ***** bash
     
     <item>
       <title>後端小菜鳥學習記錄(4)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%844/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%844/</link>
       <pubDate>Thu, 20 Sep 2018 02:13:25 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%844/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%844/</guid>
       <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;17&lt;/sub&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;#看看資料庫Table內有幾筆資料
@@ -488,10 +488,10 @@ truncate TABLE User;
     
     <item>
       <title>後端小菜鳥學習記錄(3)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%843/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%843/</link>
       <pubDate>Mon, 17 Sep 2018 02:12:01 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%843/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%843/</guid>
       <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;14&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;帶了之前自己買的Introducing Python書(早10~早11:30)&lt;/p&gt;
@@ -503,10 +503,10 @@ truncate TABLE User;
     
     <item>
       <title>後端小菜鳥學習記錄(2)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%842/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%842/</link>
       <pubDate>Fri, 14 Sep 2018 01:53:53 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%842/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%842/</guid>
       <description>&lt;p&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;看“資料視覺化，使用python與js”書&lt;/p&gt;
@@ -518,19 +518,19 @@ truncate TABLE User;
     
     <item>
       <title>後端小菜鳥學習記錄(1)</title>
-      <link>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%841/</link>
+      <link>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%841/</link>
       <pubDate>Tue, 11 Sep 2018 11:16:55 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%841/</guid>
+      <guid>https://minayu.github.io/2018/09/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%B7%A5%E4%BD%9C%E8%A8%98%E9%8C%841/</guid>
       <description>&lt;p&gt;紀錄後端學習&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(7)圓滿結束</title>
-      <link>https://minayu.site/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</link>
+      <link>https://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</link>
       <pubDate>Sat, 25 Aug 2018 10:13:58 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
+      <guid>https://minayu.github.io/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
       <description>&lt;p&gt;好啦~&lt;/p&gt;
 
 &lt;p&gt;經過一番寒徹骨&lt;/p&gt;
@@ -542,10 +542,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(6)(內含開發心得)</title>
-      <link>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</link>
+      <link>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</link>
       <pubDate>Thu, 24 May 2018 10:02:34 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;p&gt;這次，我就不說自己完成幾%了&lt;/p&gt;
 
 &lt;p&gt;免得雷到自己XD&lt;/p&gt;</description>
@@ -553,10 +553,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(5)</title>
-      <link>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</link>
+      <link>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</link>
       <pubDate>Wed, 09 May 2018 08:40:52 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
       <description>&lt;p&gt;程式，終於完成80%，進入最終測試階段了&lt;/p&gt;
 
 &lt;p&gt;還來不及update，日子就一天一天的過&lt;/p&gt;</description>
@@ -564,10 +564,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(5)-SERVER端/open, save file to vm/cloud/</title>
-      <link>https://minayu.site/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</link>
+      <link>https://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</link>
       <pubDate>Thu, 03 May 2018 07:21:59 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
+      <guid>https://minayu.github.io/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
       <description>&lt;p&gt;打開KKBOX，放一首偏抒發的慢歌來配著打文章&lt;/p&gt;
 
 &lt;p&gt;上一篇忘記什麼時候發了&lt;/p&gt;
@@ -577,19 +577,19 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發-備份</title>
-      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</link>
       <pubDate>Mon, 30 Apr 2018 13:48:47 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</guid>
       <description>&lt;p&gt;url.py&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(4)-Server端/Insert database / view/model</title>
-      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</link>
       <pubDate>Fri, 27 Apr 2018 10:21:40 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
       <description>&lt;p&gt;我希望今天能夠把server端寫好&lt;/p&gt;
 
 &lt;p&gt;明天就能開始規劃我的client端怎麼寫&lt;/p&gt;</description>
@@ -597,10 +597,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(3)</title>
-      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</link>
       <pubDate>Thu, 26 Apr 2018 09:32:22 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
       <description>&lt;p&gt;寫程式，有一個很重要的觀念&lt;/p&gt;
 
 &lt;p&gt;就是&lt;/p&gt;
@@ -620,10 +620,10 @@ truncate TABLE User;
     
     <item>
       <title>巨量資料課程-記錄一下網站</title>
-      <link>https://minayu.site/2018/04/%E6%96%87%E5%AD%97%E9%9B%B2%E7%94%A2%E7%94%9F%E7%B6%B2%E7%AB%99/</link>
+      <link>https://minayu.github.io/2018/04/%E6%96%87%E5%AD%97%E9%9B%B2%E7%94%A2%E7%94%9F%E7%B6%B2%E7%AB%99/</link>
       <pubDate>Tue, 24 Apr 2018 06:12:51 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/%E6%96%87%E5%AD%97%E9%9B%B2%E7%94%A2%E7%94%9F%E7%B6%B2%E7%AB%99/</guid>
+      <guid>https://minayu.github.io/2018/04/%E6%96%87%E5%AD%97%E9%9B%B2%E7%94%A2%E7%94%9F%E7%B6%B2%E7%AB%99/</guid>
       <description>&lt;p&gt;文字雲產生網站&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.playpcesor.com/2017/06/WordArt-Tagul.html&#34;&gt;https://www.playpcesor.com/2017/06/WordArt-Tagul.html&lt;/a&gt;&lt;/p&gt;
@@ -633,10 +633,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(2)</title>
-      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</link>
       <pubDate>Tue, 24 Apr 2018 06:09:07 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
       <description>&lt;p&gt;老話一句&lt;/p&gt;
 
 &lt;p&gt;卡了多少天，就是隔多少天才發文章&lt;/p&gt;</description>
@@ -644,10 +644,10 @@ truncate TABLE User;
     
     <item>
       <title>研究所那回事</title>
-      <link>https://minayu.site/2018/04/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B/</link>
+      <link>https://minayu.github.io/2018/04/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B/</link>
       <pubDate>Fri, 20 Apr 2018 08:22:15 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B/</guid>
+      <guid>https://minayu.github.io/2018/04/%E7%A0%94%E7%A9%B6%E6%89%80%E9%82%A3%E5%9B%9E%E4%BA%8B/</guid>
       <description>&lt;p&gt;有鑒於最近和兩位好朋友談到研究所那點事&lt;/p&gt;
 
 &lt;p&gt;其中一位是剛交換學生回來，碩二下，然後還沒開始他的前三章，以及他完全不知道自己到底要做什麼&lt;/p&gt;
@@ -661,10 +661,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(1)</title>
-      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</link>
+      <link>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</link>
       <pubDate>Tue, 17 Apr 2018 06:58:09 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
       <description>&lt;p&gt;網址附贈：&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&lt;/a&gt;&lt;/p&gt;
@@ -674,10 +674,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(4)</title>
-      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</link>
       <pubDate>Sat, 07 Apr 2018 05:02:39 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
       <description>&lt;blockquote&gt;pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)&lt;/blockquote&gt;
 
 &lt;p&gt;Error: 2003&lt;/p&gt;
@@ -687,10 +687,10 @@ truncate TABLE User;
     
     <item>
       <title>[DEVELOP]PYTHON 桌機版開發之(3)</title>
-      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</link>
       <pubDate>Fri, 06 Apr 2018 10:18:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
       <description>&lt;p&gt;Could not find a version that satisfies the requirement MySQL-python==1.2.4 (from versions: )&lt;/p&gt;
 
 &lt;p&gt;No matching distribution found for MySQL-python==1.2.4&lt;/p&gt;</description>
@@ -698,10 +698,10 @@ truncate TABLE User;
     
     <item>
       <title>[Develop]Python 桌機版開發之(2)</title>
-      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</link>
       <pubDate>Mon, 02 Apr 2018 09:55:42 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
       <description>&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
 
 &lt;p&gt;&lt;del&gt;我已經放棄裝PyQt4了&lt;/del&gt;&lt;/p&gt;
@@ -711,10 +711,10 @@ truncate TABLE User;
     
     <item>
       <title>[Develop]Python 桌機版開發遇到之問題(1)</title>
-      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</link>
+      <link>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</link>
       <pubDate>Mon, 02 Apr 2018 08:39:25 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</guid>
+      <guid>https://minayu.github.io/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E9%81%87%E5%88%B0%E4%B9%8B%E5%95%8F%E9%A1%8C1/</guid>
       <description>&lt;p&gt;有鑒於自己最近剛接手一個做到一半的桌機開發程式&lt;/p&gt;
 
 &lt;p&gt;由於自己只用過Django and Python 寫過網頁&lt;/p&gt;
@@ -726,10 +726,10 @@ truncate TABLE User;
     
     <item>
       <title>碩班日常-第三彈-教授辭職/轉換學校教</title>
-      <link>https://minayu.site/2018/01/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%89%E5%BD%88-%E6%95%99%E6%8E%88%E8%BE%AD%E8%81%B7-%E8%BD%89%E6%8F%9B%E5%AD%B8%E6%A0%A1%E6%95%99/</link>
+      <link>https://minayu.github.io/2018/01/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%89%E5%BD%88-%E6%95%99%E6%8E%88%E8%BE%AD%E8%81%B7-%E8%BD%89%E6%8F%9B%E5%AD%B8%E6%A0%A1%E6%95%99/</link>
       <pubDate>Sun, 21 Jan 2018 09:57:37 +0000</pubDate>
       
-      <guid>https://minayu.site/2018/01/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%89%E5%BD%88-%E6%95%99%E6%8E%88%E8%BE%AD%E8%81%B7-%E8%BD%89%E6%8F%9B%E5%AD%B8%E6%A0%A1%E6%95%99/</guid>
+      <guid>https://minayu.github.io/2018/01/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%89%E5%BD%88-%E6%95%99%E6%8E%88%E8%BE%AD%E8%81%B7-%E8%BD%89%E6%8F%9B%E5%AD%B8%E6%A0%A1%E6%95%99/</guid>
       <description>&lt;p&gt;我在這個學校已經待了快六年了&lt;/p&gt;
 
 &lt;p&gt;大學四年，研究所提早進來&lt;/p&gt;
@@ -749,10 +749,10 @@ truncate TABLE User;
     
     <item>
       <title>架Wordpress on Amazon Could遇到的問題</title>
-      <link>https://minayu.site/2017/12/%E6%9E%B6wordpress-on-amazon-could%E9%81%87%E5%88%B0%E7%9A%84%E5%95%8F%E9%A1%8C/</link>
+      <link>https://minayu.github.io/2017/12/%E6%9E%B6wordpress-on-amazon-could%E9%81%87%E5%88%B0%E7%9A%84%E5%95%8F%E9%A1%8C/</link>
       <pubDate>Tue, 26 Dec 2017 15:18:30 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/%E6%9E%B6wordpress-on-amazon-could%E9%81%87%E5%88%B0%E7%9A%84%E5%95%8F%E9%A1%8C/</guid>
+      <guid>https://minayu.github.io/2017/12/%E6%9E%B6wordpress-on-amazon-could%E9%81%87%E5%88%B0%E7%9A%84%E5%95%8F%E9%A1%8C/</guid>
       <description>&lt;p&gt;在Wordpress裡，要載插件時，會遇到Wordpress需要進入Web Host的狀況&lt;/p&gt;
 
 &lt;p&gt;在這邊我卡了超 級 久&lt;/p&gt;
@@ -766,10 +766,10 @@ truncate TABLE User;
     
     <item>
       <title>網址小筆記</title>
-      <link>https://minayu.site/2017/12/%E7%B6%B2%E5%9D%80%E5%B0%8F%E7%AD%86%E8%A8%98/</link>
+      <link>https://minayu.github.io/2017/12/%E7%B6%B2%E5%9D%80%E5%B0%8F%E7%AD%86%E8%A8%98/</link>
       <pubDate>Sun, 24 Dec 2017 15:44:15 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/%E7%B6%B2%E5%9D%80%E5%B0%8F%E7%AD%86%E8%A8%98/</guid>
+      <guid>https://minayu.github.io/2017/12/%E7%B6%B2%E5%9D%80%E5%B0%8F%E7%AD%86%E8%A8%98/</guid>
       <description>&lt;p&gt;我這兩天搞在AWS架Wordpress搞到快瘋了&lt;/p&gt;
 
 &lt;p&gt;都已經到了wordpress的安裝頁面了&lt;/p&gt;
@@ -779,10 +779,10 @@ truncate TABLE User;
     
     <item>
       <title>Python學習筆記</title>
-      <link>https://minayu.site/2017/12/python%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
+      <link>https://minayu.github.io/2017/12/python%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
       <pubDate>Thu, 21 Dec 2017 14:46:03 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/python%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</guid>
+      <guid>https://minayu.github.io/2017/12/python%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</guid>
       <description>&lt;p&gt;今日晚上學校請了產學合作的講師來替大家上Python入門&lt;/p&gt;
 
 &lt;p&gt;講師po出了可以自學Python的講義&lt;/p&gt;
@@ -794,10 +794,10 @@ truncate TABLE User;
     
     <item>
       <title>[做實驗]為什麼MOOCs的學習者會跳出(Drop-out)?</title>
-      <link>https://minayu.site/2017/12/%E5%81%9A%E5%AF%A6%E9%A9%97%E7%82%BA%E4%BB%80%E9%BA%BCmoocs%E7%9A%84%E5%AD%B8%E7%BF%92%E8%80%85%E6%9C%83%E8%B7%B3%E5%87%BAdrop-out/</link>
+      <link>https://minayu.github.io/2017/12/%E5%81%9A%E5%AF%A6%E9%A9%97%E7%82%BA%E4%BB%80%E9%BA%BCmoocs%E7%9A%84%E5%AD%B8%E7%BF%92%E8%80%85%E6%9C%83%E8%B7%B3%E5%87%BAdrop-out/</link>
       <pubDate>Thu, 21 Dec 2017 14:41:21 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/%E5%81%9A%E5%AF%A6%E9%A9%97%E7%82%BA%E4%BB%80%E9%BA%BCmoocs%E7%9A%84%E5%AD%B8%E7%BF%92%E8%80%85%E6%9C%83%E8%B7%B3%E5%87%BAdrop-out/</guid>
+      <guid>https://minayu.github.io/2017/12/%E5%81%9A%E5%AF%A6%E9%A9%97%E7%82%BA%E4%BB%80%E9%BA%BCmoocs%E7%9A%84%E5%AD%B8%E7%BF%92%E8%80%85%E6%9C%83%E8%B7%B3%E5%87%BAdrop-out/</guid>
       <description>&lt;p&gt;不好意思，由於昨日口試被學校的老師給問倒&lt;/p&gt;
 
 &lt;p&gt;因此，我決定今天開始做一個為期6周的實驗&lt;/p&gt;</description>
@@ -805,10 +805,10 @@ truncate TABLE User;
     
     <item>
       <title>碩班日常-第二彈-小學弟的發飆與大學部的黑暗</title>
-      <link>https://minayu.site/2017/12/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%BA%8C%E5%BD%88-%E5%B0%8F%E5%AD%B8%E5%BC%9F%E7%9A%84%E7%99%BC%E9%A3%86%E8%88%87%E5%A4%A7%E5%AD%B8%E9%83%A8%E7%9A%84%E9%BB%91%E6%9A%97/</link>
+      <link>https://minayu.github.io/2017/12/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%BA%8C%E5%BD%88-%E5%B0%8F%E5%AD%B8%E5%BC%9F%E7%9A%84%E7%99%BC%E9%A3%86%E8%88%87%E5%A4%A7%E5%AD%B8%E9%83%A8%E7%9A%84%E9%BB%91%E6%9A%97/</link>
       <pubDate>Tue, 19 Dec 2017 14:03:17 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%BA%8C%E5%BD%88-%E5%B0%8F%E5%AD%B8%E5%BC%9F%E7%9A%84%E7%99%BC%E9%A3%86%E8%88%87%E5%A4%A7%E5%AD%B8%E9%83%A8%E7%9A%84%E9%BB%91%E6%9A%97/</guid>
+      <guid>https://minayu.github.io/2017/12/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%BA%8C%E5%BD%88-%E5%B0%8F%E5%AD%B8%E5%BC%9F%E7%9A%84%E7%99%BC%E9%A3%86%E8%88%87%E5%A4%A7%E5%AD%B8%E9%83%A8%E7%9A%84%E9%BB%91%E6%9A%97/</guid>
       <description>&lt;p&gt;咳咳，就在剛剛詢問小學弟有沒有範例圖&lt;/p&gt;
 
 &lt;p&gt;我又被小學弟刷版一次&lt;/p&gt;
@@ -818,10 +818,10 @@ truncate TABLE User;
     
     <item>
       <title>想重學電腦科學</title>
-      <link>https://minayu.site/2017/12/%E6%83%B3%E9%87%8D%E5%AD%B8%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8/</link>
+      <link>https://minayu.github.io/2017/12/%E6%83%B3%E9%87%8D%E5%AD%B8%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8/</link>
       <pubDate>Tue, 19 Dec 2017 10:37:01 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/12/%E6%83%B3%E9%87%8D%E5%AD%B8%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8/</guid>
+      <guid>https://minayu.github.io/2017/12/%E6%83%B3%E9%87%8D%E5%AD%B8%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8/</guid>
       <description>&lt;p&gt;有鑒於最近突然想起來一個名詞&lt;/p&gt;
 
 &lt;p&gt;也就是暗網(DeepWeb)&lt;/p&gt;
@@ -831,10 +831,10 @@ truncate TABLE User;
     
     <item>
       <title>理科人(資訊)闖進文組世界的故事</title>
-      <link>https://minayu.site/2017/11/%E7%90%86%E7%A7%91%E4%BA%BA%E8%B3%87%E8%A8%8A%E9%97%96%E9%80%B2%E6%96%87%E7%B5%84%E4%B8%96%E7%95%8C%E7%9A%84%E6%95%85%E4%BA%8B/</link>
+      <link>https://minayu.github.io/2017/11/%E7%90%86%E7%A7%91%E4%BA%BA%E8%B3%87%E8%A8%8A%E9%97%96%E9%80%B2%E6%96%87%E7%B5%84%E4%B8%96%E7%95%8C%E7%9A%84%E6%95%85%E4%BA%8B/</link>
       <pubDate>Sun, 19 Nov 2017 12:31:37 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/11/%E7%90%86%E7%A7%91%E4%BA%BA%E8%B3%87%E8%A8%8A%E9%97%96%E9%80%B2%E6%96%87%E7%B5%84%E4%B8%96%E7%95%8C%E7%9A%84%E6%95%85%E4%BA%8B/</guid>
+      <guid>https://minayu.github.io/2017/11/%E7%90%86%E7%A7%91%E4%BA%BA%E8%B3%87%E8%A8%8A%E9%97%96%E9%80%B2%E6%96%87%E7%B5%84%E4%B8%96%E7%95%8C%E7%9A%84%E6%95%85%E4%BA%8B/</guid>
       <description>&lt;p&gt;好啦，原本是因為看翻譯看得很累很累&lt;/p&gt;
 
 &lt;p&gt;連現在正在沈迷的遊戲都到了另類瓶頸破不了關，只好來生篇文章填補一下失落的心情&lt;/p&gt;</description>
@@ -842,10 +842,10 @@ truncate TABLE User;
     
     <item>
       <title>碩班日常-第一彈-我與學弟們的緣分</title>
-      <link>https://minayu.site/2017/11/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%80%E5%BD%88-%E6%88%91%E8%88%87%E5%AD%B8%E5%BC%9F%E5%80%91%E7%9A%84%E7%B7%A3%E5%88%86/</link>
+      <link>https://minayu.github.io/2017/11/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%80%E5%BD%88-%E6%88%91%E8%88%87%E5%AD%B8%E5%BC%9F%E5%80%91%E7%9A%84%E7%B7%A3%E5%88%86/</link>
       <pubDate>Fri, 17 Nov 2017 13:31:54 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/11/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%80%E5%BD%88-%E6%88%91%E8%88%87%E5%AD%B8%E5%BC%9F%E5%80%91%E7%9A%84%E7%B7%A3%E5%88%86/</guid>
+      <guid>https://minayu.github.io/2017/11/%E7%A2%A9%E7%8F%AD%E6%97%A5%E5%B8%B8-%E7%AC%AC%E4%B8%80%E5%BD%88-%E6%88%91%E8%88%87%E5%AD%B8%E5%BC%9F%E5%80%91%E7%9A%84%E7%B7%A3%E5%88%86/</guid>
       <description>&lt;p&gt;好吧，就在我剛剛拔完智齒，咬著一塊紗布，還不知道能做什麼的自己&lt;/p&gt;
 
 &lt;p&gt;趁這個時間點發一篇文&lt;/p&gt;
@@ -857,10 +857,10 @@ truncate TABLE User;
     
     <item>
       <title>英文論文寫作的基本格式</title>
-      <link>https://minayu.site/2017/09/%E8%8B%B1%E6%96%87%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/</link>
+      <link>https://minayu.github.io/2017/09/%E8%8B%B1%E6%96%87%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Fri, 29 Sep 2017 06:51:58 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/09/%E8%8B%B1%E6%96%87%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>https://minayu.github.io/2017/09/%E8%8B%B1%E6%96%87%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/</guid>
       <description>&lt;p&gt;筆記一下，本文來自&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://blog.udn.com/trjason/240148&#34;&gt;英文論文寫作的基本格式&lt;/a&gt;&lt;/p&gt;</description>
@@ -868,10 +868,10 @@ truncate TABLE User;
     
     <item>
       <title>哎呀，這不是一個選了可能會炸掉的課表嗎？</title>
-      <link>https://minayu.site/2017/09/%E5%93%8E%E5%91%80%E9%80%99%E4%B8%8D%E6%98%AF%E4%B8%80%E5%80%8B%E9%81%B8%E4%BA%86%E5%8F%AF%E8%83%BD%E6%9C%83%E7%82%B8%E6%8E%89%E7%9A%84%E8%AA%B2%E8%A1%A8%E5%97%8E/</link>
+      <link>https://minayu.github.io/2017/09/%E5%93%8E%E5%91%80%E9%80%99%E4%B8%8D%E6%98%AF%E4%B8%80%E5%80%8B%E9%81%B8%E4%BA%86%E5%8F%AF%E8%83%BD%E6%9C%83%E7%82%B8%E6%8E%89%E7%9A%84%E8%AA%B2%E8%A1%A8%E5%97%8E/</link>
       <pubDate>Thu, 21 Sep 2017 11:22:18 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/09/%E5%93%8E%E5%91%80%E9%80%99%E4%B8%8D%E6%98%AF%E4%B8%80%E5%80%8B%E9%81%B8%E4%BA%86%E5%8F%AF%E8%83%BD%E6%9C%83%E7%82%B8%E6%8E%89%E7%9A%84%E8%AA%B2%E8%A1%A8%E5%97%8E/</guid>
+      <guid>https://minayu.github.io/2017/09/%E5%93%8E%E5%91%80%E9%80%99%E4%B8%8D%E6%98%AF%E4%B8%80%E5%80%8B%E9%81%B8%E4%BA%86%E5%8F%AF%E8%83%BD%E6%9C%83%E7%82%B8%E6%8E%89%E7%9A%84%E8%AA%B2%E8%A1%A8%E5%97%8E/</guid>
       <description>&lt;p&gt;哈囉各位大家好&lt;/p&gt;
 
 &lt;p&gt;今天是驚嚇星期四&lt;/p&gt;
@@ -881,10 +881,10 @@ truncate TABLE User;
     
     <item>
       <title>研究所教我的事 Part 2</title>
-      <link>https://minayu.site/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B-part-2/</link>
+      <link>https://minayu.github.io/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B-part-2/</link>
       <pubDate>Fri, 08 Sep 2017 15:13:45 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B-part-2/</guid>
+      <guid>https://minayu.github.io/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B-part-2/</guid>
       <description>&lt;p&gt;抱歉&lt;/p&gt;
 
 &lt;p&gt;有鑒於我有這個本事將Wordpress的資料庫寫爆(字太多網頁炸掉)&lt;/p&gt;
@@ -894,10 +894,10 @@ truncate TABLE User;
     
     <item>
       <title>研究所教我的事</title>
-      <link>https://minayu.site/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B/</link>
+      <link>https://minayu.github.io/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B/</link>
       <pubDate>Fri, 08 Sep 2017 13:39:45 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B/</guid>
+      <guid>https://minayu.github.io/2017/09/%E7%A0%94%E7%A9%B6%E6%89%80%E6%95%99%E6%88%91%E7%9A%84%E4%BA%8B/</guid>
       <description>&lt;p&gt;今日工作會議開完了&lt;/p&gt;
 
 &lt;p&gt;最近頭髮越來越長了，自信也就越來越好了&lt;/p&gt;
@@ -909,10 +909,10 @@ truncate TABLE User;
     
     <item>
       <title>理科思維 VS 文科思維: 思考方式的不同</title>
-      <link>https://minayu.site/2017/09/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C/</link>
+      <link>https://minayu.github.io/2017/09/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C/</link>
       <pubDate>Fri, 01 Sep 2017 15:26:18 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/09/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C/</guid>
+      <guid>https://minayu.github.io/2017/09/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C/</guid>
       <description>&lt;p&gt;有鑒於剛剛和好朋友聊天聊到&lt;/p&gt;
 
 &lt;p&gt;因此又讓我產生想寫一篇文的想法&lt;/p&gt;
@@ -928,10 +928,10 @@ truncate TABLE User;
     
     <item>
       <title>新來的女資訊人員</title>
-      <link>https://minayu.site/2017/08/%E6%96%B0%E4%BE%86%E7%9A%84%E5%A5%B3%E8%B3%87%E8%A8%8A%E4%BA%BA%E5%93%A1/</link>
+      <link>https://minayu.github.io/2017/08/%E6%96%B0%E4%BE%86%E7%9A%84%E5%A5%B3%E8%B3%87%E8%A8%8A%E4%BA%BA%E5%93%A1/</link>
       <pubDate>Thu, 31 Aug 2017 11:17:55 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/08/%E6%96%B0%E4%BE%86%E7%9A%84%E5%A5%B3%E8%B3%87%E8%A8%8A%E4%BA%BA%E5%93%A1/</guid>
+      <guid>https://minayu.github.io/2017/08/%E6%96%B0%E4%BE%86%E7%9A%84%E5%A5%B3%E8%B3%87%E8%A8%8A%E4%BA%BA%E5%93%A1/</guid>
       <description>&lt;p&gt;抱歉，由於實在是太生氣了&lt;/p&gt;
 
 &lt;p&gt;所以決定來發一篇文敬這位讓我生氣的女資訊人員&lt;/p&gt;</description>
@@ -939,10 +939,10 @@ truncate TABLE User;
     
     <item>
       <title>工程師好跩跟不懂資訊的老闆</title>
-      <link>https://minayu.site/2017/08/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%A5%BD%E8%B7%A9%E8%B7%9F%E4%B8%8D%E6%87%82%E8%B3%87%E8%A8%8A%E7%9A%84%E8%80%81%E9%97%86/</link>
+      <link>https://minayu.github.io/2017/08/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%A5%BD%E8%B7%A9%E8%B7%9F%E4%B8%8D%E6%87%82%E8%B3%87%E8%A8%8A%E7%9A%84%E8%80%81%E9%97%86/</link>
       <pubDate>Wed, 30 Aug 2017 12:25:48 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/08/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%A5%BD%E8%B7%A9%E8%B7%9F%E4%B8%8D%E6%87%82%E8%B3%87%E8%A8%8A%E7%9A%84%E8%80%81%E9%97%86/</guid>
+      <guid>https://minayu.github.io/2017/08/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%A5%BD%E8%B7%A9%E8%B7%9F%E4%B8%8D%E6%87%82%E8%B3%87%E8%A8%8A%E7%9A%84%E8%80%81%E9%97%86/</guid>
       <description>&lt;p&gt;最近幾天我都會上網看「RD很跩」之類的文章&lt;/p&gt;
 
 &lt;p&gt;但我最近真的蠻受夠新來的資訊新手&lt;/p&gt;</description>
@@ -950,37 +950,37 @@ truncate TABLE User;
     
     <item>
       <title>學Coding筆記-Django/Python&#39;s CMS, Git, Editor</title>
-      <link>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor-2/</link>
+      <link>https://minayu.github.io/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor-2/</link>
       <pubDate>Sat, 19 Aug 2017 05:13:18 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor-2/</guid>
+      <guid>https://minayu.github.io/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor-2/</guid>
       <description>&lt;p&gt;不～專業教學文&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>學Coding筆記-Django/Python&#39;s CMS, Git, Editor</title>
-      <link>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</link>
+      <link>https://minayu.github.io/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</link>
       <pubDate>Sat, 19 Aug 2017 05:13:18 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</guid>
+      <guid>https://minayu.github.io/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</guid>
       <description>&lt;p&gt;不～專業教學文&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Django/Python 不同apps 如何寫進url.py</title>
-      <link>https://minayu.site/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</link>
+      <link>https://minayu.github.io/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</link>
       <pubDate>Thu, 17 Aug 2017 02:57:50 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</guid>
+      <guid>https://minayu.github.io/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</guid>
       <description>&lt;p&gt;主題蠻抽象的，不過正是剛剛在開發網頁時新學到的&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The gap between people, who knows CS and who don&#39;t.</title>
-      <link>https://minayu.site/2017/07/the-gap-between-people-who-knows-cs-and-who-dont-2/</link>
+      <link>https://minayu.github.io/2017/07/the-gap-between-people-who-knows-cs-and-who-dont-2/</link>
       <pubDate>Sat, 22 Jul 2017 15:40:24 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/07/the-gap-between-people-who-knows-cs-and-who-dont-2/</guid>
+      <guid>https://minayu.github.io/2017/07/the-gap-between-people-who-knows-cs-and-who-dont-2/</guid>
       <description>&lt;p&gt;其實本來中文標題想下「不懂資訊的凡人」&lt;/p&gt;
 
 &lt;p&gt;但其實太針對了XD，只好改英文&lt;/p&gt;
@@ -990,10 +990,10 @@ truncate TABLE User;
     
     <item>
       <title>The gap between people, who knows CS and who don&#39;t.</title>
-      <link>https://minayu.site/2017/07/the-gap-between-people-who-knows-cs-and-who-dont/</link>
+      <link>https://minayu.github.io/2017/07/the-gap-between-people-who-knows-cs-and-who-dont/</link>
       <pubDate>Sat, 22 Jul 2017 15:40:24 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/07/the-gap-between-people-who-knows-cs-and-who-dont/</guid>
+      <guid>https://minayu.github.io/2017/07/the-gap-between-people-who-knows-cs-and-who-dont/</guid>
       <description>&lt;p&gt;其實本來中文標題想下「不懂資訊的凡人」&lt;/p&gt;
 
 &lt;p&gt;但其實太針對了XD，只好改英文&lt;/p&gt;
@@ -1003,10 +1003,10 @@ truncate TABLE User;
     
     <item>
       <title>理科思維 VS 文科思維: 資訊人看文組語言定義與描述</title>
-      <link>https://minayu.site/2017/07/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E8%B3%87%E8%A8%8A%E4%BA%BA%E7%9C%8B%E6%96%87%E7%B5%84%E8%AA%9E%E8%A8%80%E5%AE%9A%E7%BE%A9%E8%88%87%E6%8F%8F%E8%BF%B0/</link>
+      <link>https://minayu.github.io/2017/07/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E8%B3%87%E8%A8%8A%E4%BA%BA%E7%9C%8B%E6%96%87%E7%B5%84%E8%AA%9E%E8%A8%80%E5%AE%9A%E7%BE%A9%E8%88%87%E6%8F%8F%E8%BF%B0/</link>
       <pubDate>Thu, 20 Jul 2017 16:07:23 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/07/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E8%B3%87%E8%A8%8A%E4%BA%BA%E7%9C%8B%E6%96%87%E7%B5%84%E8%AA%9E%E8%A8%80%E5%AE%9A%E7%BE%A9%E8%88%87%E6%8F%8F%E8%BF%B0/</guid>
+      <guid>https://minayu.github.io/2017/07/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E8%B3%87%E8%A8%8A%E4%BA%BA%E7%9C%8B%E6%96%87%E7%B5%84%E8%AA%9E%E8%A8%80%E5%AE%9A%E7%BE%A9%E8%88%87%E6%8F%8F%E8%BF%B0/</guid>
       <description>&lt;p&gt;剛剛擠出一篇檢討自己的長文後&lt;/p&gt;
 
 &lt;p&gt;接著想要趁今天來更新自己在這段忙碌時刻學到的所有的學習，知識及道理。&lt;/p&gt;</description>
@@ -1014,10 +1014,10 @@ truncate TABLE User;
     
     <item>
       <title>架網站-找尋資料</title>
-      <link>https://minayu.site/2017/06/%E6%9E%B6%E7%B6%B2%E7%AB%99-%E6%89%BE%E5%B0%8B%E8%B3%87%E6%96%99/</link>
+      <link>https://minayu.github.io/2017/06/%E6%9E%B6%E7%B6%B2%E7%AB%99-%E6%89%BE%E5%B0%8B%E8%B3%87%E6%96%99/</link>
       <pubDate>Wed, 21 Jun 2017 13:56:33 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/06/%E6%9E%B6%E7%B6%B2%E7%AB%99-%E6%89%BE%E5%B0%8B%E8%B3%87%E6%96%99/</guid>
+      <guid>https://minayu.github.io/2017/06/%E6%9E%B6%E7%B6%B2%E7%AB%99-%E6%89%BE%E5%B0%8B%E8%B3%87%E6%96%99/</guid>
       <description>&lt;p&gt;我的夢想是自己架一個自己的網站，不敢說變成部落格主QQ，雖然也有這麼想過XD&lt;/p&gt;
 
 &lt;p&gt;最近想要再次搬家到一個新的網站，不過目前還在找尋，找不太到下一個接班人&lt;/p&gt;
@@ -1027,28 +1027,28 @@ truncate TABLE User;
     
     <item>
       <title>Django-新增頁面&#43;重run伺服器</title>
-      <link>https://minayu.site/2017/05/django-%E6%96%B0%E5%A2%9E%E9%A0%81%E9%9D%A2%E9%87%8Drun%E4%BC%BA%E6%9C%8D%E5%99%A8/</link>
+      <link>https://minayu.github.io/2017/05/django-%E6%96%B0%E5%A2%9E%E9%A0%81%E9%9D%A2%E9%87%8Drun%E4%BC%BA%E6%9C%8D%E5%99%A8/</link>
       <pubDate>Mon, 01 May 2017 14:32:23 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/05/django-%E6%96%B0%E5%A2%9E%E9%A0%81%E9%9D%A2%E9%87%8Drun%E4%BC%BA%E6%9C%8D%E5%99%A8/</guid>
+      <guid>https://minayu.github.io/2017/05/django-%E6%96%B0%E5%A2%9E%E9%A0%81%E9%9D%A2%E9%87%8Drun%E4%BC%BA%E6%9C%8D%E5%99%A8/</guid>
       <description>&lt;p&gt;我要先來記每個指令，不然太久我都會忘記QQ&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>待學清單</title>
-      <link>https://minayu.site/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</link>
+      <link>https://minayu.github.io/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</link>
       <pubDate>Sun, 23 Apr 2017 02:52:47 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</guid>
+      <guid>https://minayu.github.io/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</guid>
       <description>&lt;p&gt;先筆記下來，之後有機會再回來看&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>初次玩Bitnami/WP-multiple(1)</title>
-      <link>https://minayu.site/2017/04/%E5%88%9D%E6%AC%A1%E7%8E%A9bitnamiwp-multiple1/</link>
+      <link>https://minayu.github.io/2017/04/%E5%88%9D%E6%AC%A1%E7%8E%A9bitnamiwp-multiple1/</link>
       <pubDate>Fri, 21 Apr 2017 15:14:38 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/04/%E5%88%9D%E6%AC%A1%E7%8E%A9bitnamiwp-multiple1/</guid>
+      <guid>https://minayu.github.io/2017/04/%E5%88%9D%E6%AC%A1%E7%8E%A9bitnamiwp-multiple1/</guid>
       <description>&lt;p&gt;在一個很混亂很混亂的情況下&lt;/p&gt;
 
 &lt;p&gt;學長建議我做個筆記&lt;/p&gt;
@@ -1058,10 +1058,10 @@ truncate TABLE User;
     
     <item>
       <title>Something need to know for website designer</title>
-      <link>https://minayu.site/2017/04/something-need-to-know-for-website-designer/</link>
+      <link>https://minayu.github.io/2017/04/something-need-to-know-for-website-designer/</link>
       <pubDate>Thu, 13 Apr 2017 15:20:26 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/04/something-need-to-know-for-website-designer/</guid>
+      <guid>https://minayu.github.io/2017/04/something-need-to-know-for-website-designer/</guid>
       <description>&lt;p&gt;learning note&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1077,10 +1077,10 @@ truncate TABLE User;
     
     <item>
       <title>Content Management Systems(CMS)</title>
-      <link>https://minayu.site/2017/04/content-management-systemscms/</link>
+      <link>https://minayu.github.io/2017/04/content-management-systemscms/</link>
       <pubDate>Tue, 11 Apr 2017 11:44:14 +0000</pubDate>
       
-      <guid>https://minayu.site/2017/04/content-management-systemscms/</guid>
+      <guid>https://minayu.github.io/2017/04/content-management-systemscms/</guid>
       <description>&lt;p&gt;自己說自己程式差，一定是你不會管理你的程式！&lt;/p&gt;
 
 &lt;p&gt;那什麼？&lt;/p&gt;
@@ -1092,10 +1092,10 @@ truncate TABLE User;
     
     <item>
       <title>終端機與Django,python 安裝與打開一個project篇</title>
-      <link>https://minayu.site/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</link>
+      <link>https://minayu.github.io/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</link>
       <pubDate>Mon, 25 Jul 2016 21:15:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</guid>
+      <guid>https://minayu.github.io/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2018/10/27&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;點開這篇文，我也是會心一笑&lt;/p&gt;
@@ -1107,10 +1107,10 @@ truncate TABLE User;
     
     <item>
       <title>[Html,Css]那些我曾經不懂卻又卡很久的事</title>
-      <link>https://minayu.site/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</link>
+      <link>https://minayu.github.io/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</link>
       <pubDate>Tue, 21 Jun 2016 17:31:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</guid>
+      <guid>https://minayu.github.io/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</guid>
       <description>&lt;p&gt;由於我的程式除了c跟c++以外不是去上課學的，所以通常都是邊寫邊查怎麼寫。&lt;/p&gt;
 
 &lt;p&gt;常常碰壁然後突破碰壁然後突破，所以習慣性的把當初碰壁的資料給存起來。&lt;/p&gt;
@@ -1122,10 +1122,10 @@ truncate TABLE User;
     
     <item>
       <title>[html,javascript]一個表單多個按鈕</title>
-      <link>https://minayu.site/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</link>
+      <link>https://minayu.github.io/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</link>
       <pubDate>Tue, 21 Jun 2016 16:40:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</guid>
+      <guid>https://minayu.github.io/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</guid>
       <description>&lt;p&gt;由於剛剛自己在找方法的時候，碰壁蠻久的，就是有關於一個表單多個按鈕的問題。&lt;/p&gt;
 
 &lt;p&gt;有鑒於昨天學弟跟我說，不會找不到方法，是你不會找方法，言下之意就是不會打key word。&lt;/p&gt;</description>
