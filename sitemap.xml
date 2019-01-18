@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/01/english-resume/</loc>
+    <lastmod>2019-01-18T10:47:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/2019/01/about-me/</loc>
+    <lastmod>2019-01-18T10:46:56+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/01/be-yourself-be-unique/</loc>
     <lastmod>2019-01-15T17:43:00+08:00</lastmod>
   </url>
@@ -2179,6 +2189,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/about-me/</loc>
+    <lastmod>2019-01-18T10:46:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/archives/</loc>
     <priority>0</priority>
   </url>
@@ -2210,6 +2226,12 @@
   <url>
     <loc>https://minayu.site/categories/course-note/</loc>
     <lastmod>2017-09-25T08:33:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/english/</loc>
+    <lastmod>2019-01-18T10:47:26+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2262,6 +2284,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/resume/</loc>
+    <lastmod>2019-01-18T10:47:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/seo/</loc>
     <lastmod>2019-01-07T21:42:45+00:00</lastmod>
     <priority>0</priority>
@@ -2281,7 +2309,7 @@
   
   <url>
     <loc>https://minayu.site/tags/</loc>
-    <lastmod>2019-01-15T17:43:00+08:00</lastmod>
+    <lastmod>2019-01-18T10:46:56+08:00</lastmod>
     <priority>0</priority>
   </url>
   
