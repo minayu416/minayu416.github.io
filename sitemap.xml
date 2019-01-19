@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/01/bind-domain-ssl-with-hugo-github/</loc>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/01/english-resume/</loc>
     <lastmod>2019-01-18T10:47:26+08:00</lastmod>
   </url>
@@ -2213,19 +2218,25 @@
   
   <url>
     <loc>https://minayu.site/categories/blog-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B/</loc>
-    <lastmod>2019-01-08T16:42:45+00:00</lastmod>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minayu.site/categories/</loc>
-    <lastmod>2019-01-08T16:42:45+00:00</lastmod>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minayu.site/categories/course-note/</loc>
     <lastmod>2017-09-25T08:33:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/domain/</loc>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2242,8 +2253,20 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/github/</loc>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/godaddy/</loc>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/hugo/</loc>
-    <lastmod>2019-01-08T16:42:45+00:00</lastmod>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2255,7 +2278,7 @@
   
   <url>
     <loc>https://minayu.site/categories/it-things/</loc>
-    <lastmod>2019-01-11T08:56:12+00:00</lastmod>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2298,6 +2321,12 @@
   <url>
     <loc>https://minayu.site/tags/sh/</loc>
     <lastmod>2019-01-11T08:56:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/ssl/</loc>
+    <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
