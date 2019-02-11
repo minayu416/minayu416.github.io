@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/02/travel-hokkaido-east-day2/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/02/travel-hokkaido-east-day1/</loc>
     <lastmod>2019-02-10T00:20:06+08:00</lastmod>
   </url>
@@ -2464,7 +2469,7 @@
   
   <url>
     <loc>https://minayu.site/categories/travel-diary/</loc>
-    <lastmod>2019-02-10T00:20:06+08:00</lastmod>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2477,6 +2482,12 @@
   <url>
     <loc>https://minayu.site/tags/wordpress/</loc>
     <lastmod>2019-01-08T16:42:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC-%E7%84%BC%E3%81%8D%E3%81%9D%E3%81%B0-%E9%A2%A8%E6%9C%88-fugetsu-sapporo/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2495,6 +2506,12 @@
   <url>
     <loc>https://minayu.site/tags/%E5%8C%97%E6%B5%B7%E9%81%93/</loc>
     <lastmod>2019-02-10T00:20:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E5%8C%97%E6%B5%B7%E9%81%93-hokkaido/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2523,8 +2540,20 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/%E6%94%AF%E7%AC%8F%E6%B9%96-lake-shikotsu/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E6%94%AF%E7%AC%8F%E6%B9%96%E5%86%B0%E6%BF%A4%E7%A5%AD-ice-festival/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/categories/%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93/</loc>
-    <lastmod>2019-02-10T00:20:06+08:00</lastmod>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2573,6 +2602,12 @@
   <url>
     <loc>https://minayu.site/categories/%E7%A2%A9%E8%AB%96-python-django%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/</loc>
     <lastmod>2018-08-25T10:13:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E7%B4%80%E5%9C%8B%E4%BC%8A%E6%9B%B8%E5%BA%97-books-kinokuniya/</loc>
+    <lastmod>2019-02-10T00:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
