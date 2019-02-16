@@ -62,10 +62,6 @@
     <link rel="stylesheet" href="https://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
     
     
-      
-        <link rel="stylesheet"  href="https://minayu.site/css/my-custom.css">
-      
-    
 
     
       
@@ -230,7 +226,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -290,7 +286,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -352,7 +348,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -418,7 +414,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -476,7 +472,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -534,7 +530,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -590,7 +586,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -646,7 +642,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -702,7 +698,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -762,7 +758,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -822,7 +818,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -880,7 +876,7 @@ if (!doNotTrack) {
 
   
 
-<article class="postShorten postShorten--thumbnailimg-top" itemscope itemType="http://schema.org/BlogPosting">
+<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
     
     <div class="postShorten-header">
@@ -931,44 +927,29 @@ if (!doNotTrack) {
 
             
             
-  
-    <div class="scroll-bar">
-        <span class="btn btn--default btn--big pagination-next">
-          Read More
-        </span>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
-            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-            crossorigin="anonymous">
-    </script>
-
-    <script>
-      $(document).ready(function () {
-        var loadPage =  6 ;
-        var totalPages =  7 ;
-
-        $('.pagination-next').on('click', function () {
-          loadPage = loadPage + 1;
-
-          if (loadPage > totalPages) { return; }
-
-          var url = '';
-          if ("/categories/it-things/" == '/') {
-              url = '/page/' + loadPage;
-          } else {
-              url =  '\/categories\/it-things\//page/' + loadPage;
-          }
-          $.get(url, function (result) {
-            $('.scroll-bar').before($(result).find('article'));
-            if (loadPage === totalPages) {
-              $('.scroll-bar').remove()
-            }
-          });
-        });
-      });
-    </script>
-  
+  <div class="pagination-bar">
+    <ul class="pagination">
+      
+        
+          <li class="pagination-prev">
+            <a class="btn btn--default btn--small" href="https://minayu.site/categories/it-things/page/5/">
+              <i class="fa fa-angle-left text-base icon-mr"></i>
+              <span>OLDER POSTS</span>
+            </a>
+          </li>
+        
+        
+          <li class="pagination-next">
+            <a class="btn btn--default btn--small" href="https://minayu.site/categories/it-things/page/7/">
+              <span>NEWER POSTS</span>
+              <i class="fa fa-angle-right text-base icon-ml"></i>
+            </a>
+          </li>
+        
+      
+      <li class="pagination-number">page 6 of 7</li>
+    </ul>
+  </div>
 
 
           </section>
