@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/02/explore-myself/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/02/travel-hokkaido-east-day6/</loc>
     <lastmod>2019-02-10T00:20:47+08:00</lastmod>
   </url>
@@ -2326,6 +2331,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/find-myself/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/gatwick-airport/</loc>
     <lastmod>2019-01-24T14:58:12+08:00</lastmod>
     <priority>0</priority>
@@ -2404,8 +2415,20 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/me/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/categories/me/</loc>
     <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/myself/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
