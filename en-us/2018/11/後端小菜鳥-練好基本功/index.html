@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Ming-Jung YU">
+<meta name="keywords" content="">
+<meta name="description" content="隨著資訊科技越來越發達
+
+「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨
+
+為了追求「速成」，許多補習班/ 甚至有可能是學校教授，你的學長姐紛紛傳授了快速學成，追求效率的方法
+
+為了履行研究所教授告訴我的「做中學，學中做」，我帶著僅僅做幾個小的網頁專案及什麼都會一點的經驗，投入了現在的工作">
+
+
+<meta property="og:description" content="隨著資訊科技越來越發達
+
+「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨
+
+為了追求「速成」，許多補習班/ 甚至有可能是學校教授，你的學長姐紛紛傳授了快速學成，追求效率的方法
+
+為了履行研究所教授告訴我的「做中學，學中做」，我帶著僅僅做幾個小的網頁專案及什麼都會一點的經驗，投入了現在的工作">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[後端小菜鳥] 練好基本功">
+<meta name="twitter:title" content="[後端小菜鳥] 練好基本功">
+<meta property="og:url" content="https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+<meta property="twitter:url" content="https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+<meta property="og:site_name" content="English">
+<meta property="og:description" content="隨著資訊科技越來越發達
+
+「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨
+
+為了追求「速成」，許多補習班/ 甚至有可能是學校教授，你的學長姐紛紛傳授了快速學成，追求效率的方法
+
+為了履行研究所教授告訴我的「做中學，學中做」，我帶著僅僅做幾個小的網頁專案及什麼都會一點的經驗，投入了現在的工作">
+<meta name="twitter:description" content="隨著資訊科技越來越發達
+
+「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨
+
+為了追求「速成」，許多補習班/ 甚至有可能是學校教授，你的學長姐紛紛傳授了快速學成，追求效率的方法
+
+為了履行研究所教授告訴我的「做中學，學中做」，我帶著僅僅做幾個小的網頁專案及什麼都會一點的經驗，投入了現在的工作">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2018-11-28T11:40:35">
+  
+  
+    <meta property="article:modified_time" content="2018-11-28T11:40:35">
+  
+  
+  
+    
+      <meta property="article:section" content="IT Things">
+    
+      <meta property="article:section" content="[後端] 1萬小時 - 後端工程師養成計劃">
+    
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+
+
+    <title>[後端小菜鳥] 練好基本功 - @Mina's Life Travel</title>
+
+    
+    <link rel="icon" href="https://minayu.site/img/favicon.jpg">
+    
+
+    
+
+    <link rel="canonical" href="https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://minayu.site/">English</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://minayu.site/2019/01/about-me">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://minayu.site/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ming-Jung YU</h4>
+        
+          <h5 class="sidebar-profile-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/2019/01/about-me">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/minayu416" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu0416.wordpress.com/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-wordpress"></i>
+      
+      <span class="sidebar-button-desc">My WP Blog</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      [後端小菜鳥] 練好基本功
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-11-28T11:40:35Z">
+        
+  November 28, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://minayu.site/categories/it-things">IT Things</a>, 
+    
+      <a class="category-link" href="https://minayu.site/categories/%e5%be%8c%e7%ab%af-1%e8%90%ac%e5%b0%8f%e6%99%82-%e5%be%8c%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%a4%8a%e6%88%90%e8%a8%88%e5%8a%83">[後端] 1萬小時 - 後端工程師養成計劃</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>隨著資訊科技越來越發達</p>
+
+<p>「程式語言」被媒體擴大宣傳，處處可見廣告及文宣，使得人人學Code時代來臨</p>
+
+<p>為了追求「速成」，許多補習班/ 甚至有可能是學校教授，你的學長姐紛紛傳授了快速學成，追求效率的方法</p>
+
+<p>為了履行研究所教授告訴我的「做中學，學中做」，我帶著僅僅做幾個小的網頁專案及什麼都會一點的經驗，投入了現在的工作</p>
+
+<p>程式語言，甚至說是「資訊科技」，好入門卻難精，在這樣的過程中，「程式語言」往往只扮演著其中一個角色</p>
+
+<p>在資訊系的學科中，「程式語言」只是其中必修(但擋修)的科目之一，資訊科技可說是包羅萬象，絕非僅有「程式語言」這麼簡單可概括</p>
+
+<hr />
+
+<p>還記得我兩年半前下定決心踏入資訊科技後，剛入學卻發現有著各式各樣的資訊領域</p>
+
+<blockquote>人工智慧，穿戴式裝置，嵌入式系統，網頁設計，大數據分析，工業4.0，資訊安全，開發APP，物聯網</blockquote>
+
+<p>瞬間變得更茫然</p>
+
+<p>每一個資訊領域又有著不同的知識與技能</p>
+
+<p>第一步該做的就是選定想發展的領域</p>
+
+<p>就我來說，我希望發展網頁設計</p>
+
+<p>本身是學Python 來寫網頁後端，在這條道路上目前正在經歷菜鳥新人時期</p>
+
+<p>我本身的經驗如前面所說，雖然本科是資訊系但大學真的都在由我玩四年</p>
+
+<p>研究所時期，利用了速成的方法，邊進行專案邊學習，還歷經了接不同專案，就學不同技能，造就了什麼都會一點但什麼都不精通</p>
+
+<p>帶著淺淺的背景知識(還是從專案學的)，薄薄的python技能(可能只有c語言的for迴圈概念)，連list, dict是什麼都不知道</p>
+
+<p>前端只會css, html，不會用git, docker 的情況下開始求職</p>
+
+<p>看著目前現階段大部分公司會要求要有什麼樣的技能</p>
+
+<p>稍微了解後，就直接上陣</p>
+
+<p>以為到處會被打槍的情況下，發現其實還是有很多工作主動發出邀請面試</p>
+
+<hr />
+
+<p>新人的第一關就是俗稱找一家公司「練功」，有沒有前輩指導，我覺得還蠻重要的</p>
+
+<p>多問，多學，不懂就問，被罵也問，不受批評不進步，不會導正之前的三觀</p>
+
+<p>開始你會發現，自己速成出來離外面公司的要求有一個GAP橫溝，只好缺什麼補什麼</p>
+
+<p>針對公司要求的專案，要有怎麼樣的知識/技能去完成任務</p>
+
+<p>以及要有怎麼樣的基本功，能夠加快進步的腳步</p>
+
+<p>接下來列出幾個基本功</p>
+
+<ol>
+<li><p>程式語言</p></li>
+
+<li><p>背景知識</p></li>
+
+<li><p>作業系統/環境架置</p></li>
+
+<li><p>GitHub/ GitLab</p></li>
+
+<li><p>google能力 (哈哈XD)</p></li>
+</ol>
+
+<p>在這之後的從新人突破慢慢進步到初階工程師</p>
+
+<p>之前寫的<a href="https://minayu.site/2018/11/後端小菜鳥-如何突破新手階段/">這篇</a>可以提供點方向</p>
+
+<pre><code>程式語言
+</code></pre>
+
+<p>針對想前進的領域主要運用的程式語言學習</p>
+
+<p>從開始求職到最近進公司兩三個月了，常常收到「你應該要買一本程式語言的書，重頭看到尾」</p>
+
+<p>程式語言是工具，主要是解決問題，與電腦溝通的工具</p>
+
+<p>既然得將它當作工具來解決每個問題，建構每個軟體，完成每個電腦的任務</p>
+
+<p>運用自如，就得需要熟悉整個程式語言</p>
+
+<p>當成為Junior工程師的瞬間，公司的前輩就會將你當作已經會使用工具了XD，代表可以的話得在進公司前就先把程式語言練熟XD</p>
+
+<p><strong>刷LeetCode</strong> 是一種方法(前輩提議)</p>
+
+<p><strong>買本書從頭看到尾(實作到尾)</strong>，這已經有兩個以上的前輩跟我建議</p>
+
+<p>除了自己本身學的程式語言外，還有牽扯到相關領域的背景知識也需要學習</p>
+
+<p>打個比方，用JAVA學JSP, JAVA要熟以外，跟網頁有關的SQL語法也要一併學習</p>
+
+<p>SQL , 還有分Mysql, Sqlite , &hellip; 各家有些微不同，還有版本上語法不同XD</p>
+
+<p>當邊做專案，邊出錯邊查邊學，整體效率就會變慢很許多QQ</p>
+
+<p>因此，當成為一個初階工程師前最好將程式語言運用自如</p>
+
+<p>當然，如果不小心還沒打好基本功就進去公司的話,&hellip; 就期待後續發展了xD</p>
+
+<pre><code>背景知識
+</code></pre>
+
+<p>以做網頁來當sample的話</p>
+
+<p>大架構的前後端，資料庫/後端及怎麼渲染前端中間的互動都要能熟悉</p>
+
+<p>甚至更細節的專業背景，網路, Httpd &hellip; 之類的知識也要知道</p>
+
+<p>剛開始進公司的第一個任務是做效率的API</p>
+
+<p>我這個新手光是能將伺服器, 資料庫, 客戶端接起來就先惡補了好多知識</p>
+
+<p>接下來居然要達成每秒輸出輸入達幾千次的效能問題</p>
+
+<p>程式寫法, 連結的環節, 掉資料問題, debug 就讓我吃不消了XD</p>
+
+<p>前端網頁的框架, 怎麼與後端伺服器互動, &hellip; 之類的，還有許多更多的背景知識，要多細節有多細節，雖然無法在工作前完全學習完畢，但基礎知識還是得先學著了解</p>
+
+<pre><code>作業系統/環境架置
+</code></pre>
+
+<p>無論平時是使用mac還是windows，建議<strong>Linux系統</strong>一定要學</p>
+
+<p>很多伺服器架設及伺服器端的運用都以linux系統為主</p>
+
+<p>其中的<strong>shell</strong>指令，可以的話要先學起來</p>
+
+<p>在此就奉上前輩推薦的<a href="http://linux.vbird.org/">鳥哥的Linux私房菜</a></p>
+
+<p>學電腦資訊一定要會用linux呀!!</p>
+
+<pre><code>GitHub/ GitLab
+</code></pre>
+
+<p>版本控制系統</p>
+
+<p>如果不想如<a href="https://minayu.site/2018/05/developpython-django-之rest-api開發5-server端-open-save-file-to-vm-cloud/">這篇</a>的我，因為一個失誤造成僅僅幾行卻花了幾天寫的程式碼缺失，一定要學會用版本控制Git</p>
+
+<p>且目前許多公司都已要求要會git</p>
+
+<p>我在研究所的時候都還不太會用，雖然現在進到公司裡，也還不太會使用就是XD</p>
+
+<p>但自己辛苦邊卡邊寫三週的程式碼，在一個失誤後全部都沒了</p>
+
+<p>當下由於卡畢業進度，整個人近乎崩潰，嚇死</p>
+
+<p>版本控制系統主要是GitHub/GitLab平台，除了其他強大的功能外</p>
+
+<p>基本上就是將程式碼推上平台存起來(先簡單講)</p>
+
+<p>每一次推上平台都需要將本次有新增/刪除/改寫的程式碼及檔案做一個review，確定後才能上傳平台</p>
+
+<p>且每次上傳都會有不同的版本號碼，代表每次的跟動</p>
+
+<p>很有條理, 方便及效率的將開發程式的過程步驟分明</p>
+
+<p>萬一遇到斷線，電腦被偷, 或者其他事情，程式都存在平台上</p>
+
+<p>這邊記錄一些git 指令</p>
+
+<pre><code>git log -p
+git push -f
+git diff
+git reset --hard
+
+
+# 做 git squash，整併/更改所有已commit的動作
+# 利用log 來找出要整併的分支的前一個動作版本碼
+git log
+# 下這個指令來進行squash 動作
+git rebase -i [版本碼]
+
+# ... 會有兩個步驟，都更改完儲存離開為執行
+
+
+
+
+
+google能力 (哈哈XD)
+</code></pre>
+
+<p>報什麼Error Log 就將關鍵字複製貼上google 看能怎麼解決</p>
+
+<p>還有遇到什麼問題，不會寫，或不確定也上google 找到能初步執行成功的函式/小程式</p>
+
+<p>然後再進行改寫，近一步的Debug學習可以參考<a href="https://minayu.site/2018/11/後端小菜鳥-如何突破新手階段/">這篇</a>，應該有稍微解說學習Debug工具，還有<a href="https://minayu.site/2018/11/後端小菜鳥-debug-流程/">這篇</a>是將前輩教導我的Debug 遇到問題之流程解說記錄下來</p>
+
+<p>前幾篇應該也都大部分寫Debug 的重要與學習</p>
+
+<p>遇到問題，或者不會寫時，先google，真的查過沒找到，都不會了，在做詢問</p>
+
+<p>也有幾個程式的交流網站可以分享／瀏覽 / 詢問</p>
+
+<hr />
+
+<p>那我先將基本功的資訊寫到這，後續有要補充或做更改再回來更改囉</p>
+
+<p>感謝觀看！</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/" data-tooltip="[後端小菜鳥] 如何突破新手階段">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/" data-tooltip="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Ming-Jung YU. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E5%A6%82%E4%BD%95%E7%AA%81%E7%A0%B4%E6%96%B0%E6%89%8B%E9%9A%8E%E6%AE%B5/" data-tooltip="[後端小菜鳥] 如何突破新手階段">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%88%9D%E9%9A%8E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B44-%E9%87%8D%E6%A7%8Brefactoring-inputoutput/" data-tooltip="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2018/11/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminayu.site%2F2018%2F11%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5-%25E7%25B7%25B4%25E5%25A5%25BD%25E5%259F%25BA%25E6%259C%25AC%25E5%258A%259F%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fminayu.site%2F2018%2F11%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5-%25E7%25B7%25B4%25E5%25A5%25BD%25E5%259F%25BA%25E6%259C%25AC%25E5%258A%259F%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fminayu.site%2F2018%2F11%2F%25E5%25BE%258C%25E7%25AB%25AF%25E5%25B0%258F%25E8%258F%259C%25E9%25B3%25A5-%25E7%25B7%25B4%25E5%25A5%25BD%25E5%259F%25BA%25E6%259C%25AC%25E5%258A%259F%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ming-Jung YU</h4>
+    
+      <div id="about-card-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Back-End Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Taiwan
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-improvement/">
+                <h3 class="media-heading">2019年新年新希望</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+真正要學會一樣東西，就是去教授它
+
+</blockquote>
+
+<p> －－同事之說</p>
+
+<p>人生真的是活到老學到老</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/it-things-quickly-and-quality/">
+                <h3 class="media-heading">[我在新創科技業的日子] 迅速與品質</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁跑單元測試的時間, 來發篇沈睡在草稿夾裡許久的文章</p>
+
+<p>前陣子跟同事聊天，驚覺自己貌似是那個後端新手的幸運兒，因為誠懇的態度感動了前主管兼面試官，讓本菜鳥得以進入社會的殿堂發展自己的後端長才</p>
+
+<p>想想當初只不過第一次面試，當然要客套話說盡，沒想到居然無意之間被選上qqq，大感動！</p>
+
+<p>哪這麼偉大，據科普顯示，才不會有人願意使用職場新手擔任後端工程師，因為一個搞不好，系統就會炸掉qq</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/explore-myself/">
+                <h3 class="media-heading">[Me] 探索自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>剛下班回到家</p>
+
+<p>我呆坐在我房間角落的滾輪椅，把握所剩不多的休閒時間。</p>
+
+<p>一瞬間所有工作上令人映像深刻的場景衝向腦內，像是錄放映機般一幕幕在腦內中上演</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day6/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 6 回台灣/新千歲機場</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>最後一天要回台灣了</p>
+
+<h1 id="前往千歲機場">前往千歲機場</h1>
+
+<p>早上六點半起了大早，搭乘八點的おおぞら号從帶廣前往南千歲，大約一個半小時。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day5/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 5 釧路/塘路/釧路湿原/帶廣</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="前往釧路湿原">前往釧路湿原</h1>
+
+<p>原先是想搭乘早上八點的摩周號前往釧路湿原遊玩，規劃行程拜訪了其他部落客的行程，可以在釧路湿原站下車一路遊玩漫步到細岡站在搭列車到塘路站。沒想到後來我仔細觀察時刻表後才發現冬天早上的班次沒有一班列車會到達釧路湿原。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day4/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 4 網走/流冰破冰船/前往釧路</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="網走">網走</h1>
+
+<p>原先以為網走會是整躺行程最冷的地方，畢竟處於北海道右上方，加上海上的破冰船可能是開放空間氣溫直下零下10幾度，結果早上出太陽，體感溫度只有3-4度，特涼爽，破冰船船內也有冷氣。對比於我們對網走的幻象就是一個大雪大風的印象好像不是這麼的符合</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day3/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 3 前往網走/札幌雪祭/旭川平和通買物公園</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>第三天的行程被我媽稱為<code>一波三折</code>，受到前一天的大雪，使得今天大部分前往網走的列車都停駛，雖然最後晚上11點順利到達網走，但原先規劃下午在網走的行程都被迫取消，這也是我們在幾次自由行中第一次面臨的突發事件與抉擇。</p>
+
+<p>不過雖然今日在網走的主要行程沒有去成，但也多兩個行程，包含參觀大通公園的2019年札幌雪祭與旭川的平和買物公園健行。最重要的是兩個人在討論進退的過程，挺充實的呢！</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day2/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 2 千歲/支笏湖/紀國伊書店/風月</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>今天是本次北海道札幌/道東的第二天，本日主要行程為支笏湖與札幌車站的紀伊國屋書店買書。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day1/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] 行程說明與DAY 1 札幌/大通/王子飯店</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>我還在思考，我要不要趁現在發文章，因為折騰了整個早上五點起床到現在晚上七點才順利搭上前往網走的鄂霍次克二後列車，等了整天。
+以往都是趁坐車寫文章，回去台灣也未必有時間靜下心來把這次的自由行寫完，因為真的蠻刺激（?）的。</p>
+
+<p>按照慣例將本次自由行資訊交代一下，接著就進第一天行程：</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/01/2018-%E8%8B%B1%E5%9C%8B-%E5%86%B0%E5%B3%B6-%E8%BF%BD%E5%B0%8B%E6%A5%B5%E5%85%89%E7%AC%AC%E4%B8%80%E5%A4%9C-%E9%A3%9B%E5%BE%80%E5%86%B0%E5%B3%B6-%E8%97%8D%E6%B9%96-blue-lagoon/">
+                <h3 class="media-heading">[2018 英國/冰島] 追尋極光第一夜 - 飛往冰島/藍湖 Blue Lagoon</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h2 id="2018-英國-冰島團體行">2018 英國/冰島團體行</h2>
+
+<pre><code>第二天: [追尋極光第1夜] 
+倫敦 &gt; (飛行3小時) &gt; 
+雷克雅維克(冰島西南部)
+藍色溫泉湖(地熱溫泉浴)
+乘船出海尋訪幸福極光
+</code></pre></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         450 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://minayu.site/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://minayu.site/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/minayu.site\/2018\/11\/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F\/';
+          
+            this.page.identifier = '\/2018\/11\/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E7%B7%B4%E5%A5%BD%E5%9F%BA%E6%9C%AC%E5%8A%9F\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'minayu';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
