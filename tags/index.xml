@@ -194,7 +194,7 @@
     <item>
       <title>Junior</title>
       <link>https://minayu.site/tags/junior/</link>
-      <pubDate>Sat, 23 Feb 2019 12:13:13 +0800</pubDate>
+      <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
       
       <guid>https://minayu.site/tags/junior/</guid>
       <description></description>
@@ -233,6 +233,15 @@
       <pubDate>Sun, 20 Jan 2019 22:36:27 +0800</pubDate>
       
       <guid>https://minayu.site/tags/new-category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://minayu.site/tags/python/</link>
+      <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/python/</guid>
       <description></description>
     </item>
     
@@ -426,6 +435,15 @@
     </item>
     
     <item>
+      <title>單元測試 Unit Test</title>
+      <link>https://minayu.site/tags/%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-unit-test/</link>
+      <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-unit-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>塘路 Tōro Station</title>
       <link>https://minayu.site/tags/%E5%A1%98%E8%B7%AF-t%C5%8Dro-station/</link>
       <pubDate>Sun, 10 Feb 2019 00:20:38 +0800</pubDate>
@@ -449,6 +467,15 @@
       <pubDate>Sun, 10 Feb 2019 00:20:38 +0800</pubDate>
       
       <guid>https://minayu.site/tags/%E5%B8%B6%E5%BB%A3-obihiro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>後端 Back End</title>
+      <link>https://minayu.site/tags/%E5%BE%8C%E7%AB%AF-back-end/</link>
+      <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E5%BE%8C%E7%AB%AF-back-end/</guid>
       <description></description>
     </item>
     
