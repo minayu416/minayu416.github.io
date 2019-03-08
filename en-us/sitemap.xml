@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/03/it-things-backend-unit-test/</loc>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/02/it-things-quickly-and-quality/</loc>
     <lastmod>2019-02-23T12:13:13+08:00</lastmod>
   </url>
@@ -2269,8 +2274,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="mu"
-                href="https://minayu.site/mu/archives/"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/archives/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2321,8 +2326,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="mu"
-                href="https://minayu.site/mu/categories/"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2355,8 +2360,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="mu"
-                href="https://minayu.site/mu/"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2433,13 +2438,13 @@
   
   <url>
     <loc>https://minayu.site/categories/it-things/</loc>
-    <lastmod>2019-02-23T12:13:13+08:00</lastmod>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minayu.site/tags/junior/</loc>
-    <lastmod>2019-02-23T12:13:13+08:00</lastmod>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2491,14 +2496,20 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="mu"
-                href="https://minayu.site/mu/post/"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
                 href="https://minayu.site/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/python/</loc>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -2567,8 +2578,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="mu"
-                href="https://minayu.site/mu/tags/"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2662,6 +2673,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-unit-test/</loc>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/%E5%A1%98%E8%B7%AF-t%C5%8Dro-station/</loc>
     <lastmod>2019-02-10T00:20:38+08:00</lastmod>
     <priority>0</priority>
@@ -2681,7 +2698,13 @@
   
   <url>
     <loc>https://minayu.site/categories/%E5%BE%8C%E7%AB%AF-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</loc>
-    <lastmod>2019-02-23T12:13:13+08:00</lastmod>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E5%BE%8C%E7%AB%AF-back-end/</loc>
+    <lastmod>2019-03-05T17:17:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   

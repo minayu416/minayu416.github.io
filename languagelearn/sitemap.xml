@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/2018/11/2019-test-multilingual-web/</loc>
+    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/archives/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://minayu.site/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/archives/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://minayu.site/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/categories/language-learning/</loc>
+    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/</loc>
+    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://minayu.site/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/post/</loc>
+    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://minayu.site/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/languagelearn/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://minayu.site/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="languagelearn"
+                href="https://minayu.site/languagelearn/tags/"
+                />
+  </url>
+  
+</urlset>
