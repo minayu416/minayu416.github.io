@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Ming-Jung YU">
+<meta name="keywords" content="">
+<meta name="description" content="恩&hellip; 我重新改寫一下這篇
+
+因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
+
+我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
+
+今天介紹 __eq__, __hash__在Python 物件Object的做法">
+
+
+<meta property="og:description" content="恩&hellip; 我重新改寫一下這篇
+
+因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
+
+我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
+
+今天介紹 __eq__, __hash__在Python 物件Object的做法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
+<meta name="twitter:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
+<meta property="og:url" content="https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+<meta property="twitter:url" content="https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+<meta property="og:site_name" content="@Mina&#39;s Life Travel">
+<meta property="og:description" content="恩&hellip; 我重新改寫一下這篇
+
+因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
+
+我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
+
+今天介紹 __eq__, __hash__在Python 物件Object的做法">
+<meta name="twitter:description" content="恩&hellip; 我重新改寫一下這篇
+
+因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
+
+我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
+
+今天介紹 __eq__, __hash__在Python 物件Object的做法">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2018-12-10T07:49:32">
+  
+  
+    <meta property="article:modified_time" content="2018-12-10T07:49:32">
+  
+  
+  
+    
+      <meta property="article:section" content="IT Things">
+    
+      <meta property="article:section" content="[後端] 1萬小時 - 後端工程師養成計劃">
+    
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+
+
+    <title>[技術小筆記] 利用eq, hash 解決去除重複物件(object) - @Mina's Life Travel</title>
+
+    
+    <link rel="icon" href="https://minayu.site/img/favicon.jpg">
+    
+
+    
+
+    <link rel="canonical" href="https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://minayu.site/">@Mina&#39;s Life Travel</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://minayu.site/2019/01/about-me">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://minayu.site/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ming-Jung YU</h4>
+        
+          <h5 class="sidebar-profile-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/2019/01/about-me">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/minayu416" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu0416.wordpress.com/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-wordpress"></i>
+      
+      <span class="sidebar-button-desc">My WP Blog</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      [技術小筆記] 利用eq, hash 解決去除重複物件(object)
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-12-10T07:49:32Z">
+        
+  December 10, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://minayu.site/categories/it-things">IT Things</a>, 
+    
+      <a class="category-link" href="https://minayu.site/categories/%e5%be%8c%e7%ab%af-1%e8%90%ac%e5%b0%8f%e6%99%82-%e5%be%8c%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%a4%8a%e6%88%90%e8%a8%88%e5%8a%83">[後端] 1萬小時 - 後端工程師養成計劃</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>恩&hellip; 我重新改寫一下這篇</p>
+
+<p>因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟</p>
+
+<p>我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題</p>
+
+<p>今天介紹 <code>__eq__, __hash__</code>在Python 物件Object的做法</p>
+
+<hr />
+
+<p>起初是因為一連串重複的object list中取除獨特的物件list</p>
+
+<p>若set() 使用在數值上，是可以直接去除重複值的</p>
+
+<pre><code>&gt;&gt;&gt; list = [2,3,4,5,5,5,5,2,2,3,4,5]
+&gt;&gt;&gt; list
+[2, 3, 4, 5, 5, 5, 5, 2, 2, 3, 4, 5]
+&gt;&gt;&gt; set(list)
+{2, 3, 4, 5}
+</code></pre>
+
+<p>所以代表set利用在數字上是可以去除重複值</p>
+
+<p>假設我的物件List長這樣</p>
+
+<pre><code>o_list = [data, data, data, data, data, data]
+</code></pre>
+
+<p>其中只會有3個物件是獨立的，但利用set()去實作並沒有篩選出獨立的3個物件</p>
+
+<p>我先後參考這些文件撰寫出程式碼</p>
+
+<p><a href="https://stackoverflow.com/questions/3942303/how-does-a-python-set-check-if-two-objects-are-equal-what-methods-does-an-o">How does a Python set([]) check if two objects are equal? What methods does an object need to define to customise this?</a></p>
+
+<p><a href="https://stackoverflow.com/questions/15580490/how-to-remove-duplicates-in-set-for-objects">How to remove duplicates in set for objects?</a></p>
+
+<p>以及許多</p>
+
+<p>然後造樣寫了一個這個</p>
+
+<pre><code>class RemoveDuplicate(object):
+
+    def __init__(self, data):
+        self.data = data.data
+        self.id = data.id
+        self.column = data.column_name
+        self.table = data.table_name
+
+    def __eq__(self, other):
+        return (self.id) == (other.id)
+
+    def __hash__(self):
+        return hash(self.id)
+
+data_set = set()
+for data, book in library:
+    for each_data in list(data):
+        data_list.add(RemoveDuplicate(each_data))
+</code></pre>
+
+<p>最後比較折騰我的原因是因為我的程式實際上傳的data 資料是 Object 裡又包Object</p>
+
+<p>而且剛好內部的object 是<code>unhashable</code></p>
+
+<p>我的data簡單來說長這樣</p>
+
+<pre><code>data
+    id = 1
+    object(OrderedDict)
+    column = &quot;...&quot;
+    table = &quot;...&quot;
+</code></pre>
+
+<p>在我的data中有包了一個object 是 OrderedDict，他是不可被hash</p>
+
+<hr />
+
+<p>來介紹一下此篇 Object, Equal, Hash</p>
+
+<p>Equal 這個功能，前輩說在各大程式語言內都看得到，例如JAVA  <a href="https://openhome.cc/Gossip/JavaEssence/ObjectEquality.html">openhome.cc</a> ，<a href="http://www.codedata.com.tw/java/object-equality-1/">CodeData</a></p>
+
+<p>例如<a href="https://dotblogs.com.tw/onebin/2017/01/26/180419">C #</a></p>
+
+<p>前輩丟了這篇給我讓我捉模一下 <a href="https://hynek.me/articles/hashes-and-equality/">Python Hashes and Equality</a></p>
+
+<p>Equal 在這寫是檢查兩個物件有沒有相同</p>
+
+<p>而相同的依據就是 <code>__eq__</code> 去定義</p>
+
+<pre><code>def __eq__(self, other):
+    return (self.id) == (other.id)
+</code></pre>
+
+<p>在我的程式碼內是使用data.id 若相同就是同個物件</p>
+
+<p>什麼Hash? <a href="https://zh.wikipedia.org/wiki/%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B8">雜湊函式</a></p>
+
+<p>講一個例子就是有一副樸克牌，Hash的元件為紅心，黑桃，方塊及梅花</p>
+
+<p>接下來塞52張不同花色的牌卡下去後，經過Hash，樸克牌會像牌七一樣，同樣花色的排一排，該是紅心的牌他就會排在紅心的List後</p>
+
+<pre><code>紅心, [紅心Q, 紅心3, 紅心1, ...]
+
+黑桃, [黑桃1, 黑桃K, 黑桃2,...]
+</code></pre>
+
+<p>Hash 算是將物件中的某幾個元件(自己定)建立為固定的指紋, 若資料符合一系列的指紋就會被識別出來</p>
+
+<p>而且可被Hash(Hashable)的元件要是不可變動(Immutable)，這樣才能拿來作eq比較</p>
+
+<pre><code># 我用id 當hash
+def __hash__(self):
+    return hash(self.id)
+</code></pre>
+
+<p>所以<strong>eq</strong> + <strong>hash</strong> ，就是hash會篩選出不同的桶子，而eq則會去比對說不同桶子內若其中有什麼元件是相同的，就會判定兩個桶子(物件)是一樣的</p>
+
+<p>根據Python2.7<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__">文章</a>中，</p>
+
+<p>要使用Set做eq比較，<strong>唯有被hash過的物件才會被放進eq比較</strong></p>
+
+<p>若Class Object沒有<a href="https://docs.python.org/2/reference/datamodel.html#object.__eq__"><code>__eq__()</code></a> 的話，那就不用<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
+
+<p>可是如果有使用<a href="https://docs.python.org/2/reference/datamodel.html#object.__eq__"><code>__eq__()</code></a> ，就一定要用<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
+
+<p>意思是寫了eq, 就要用hash，而set會自動呼叫<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
+
+<p>來看一下Python 3與 2的文件 <a href="https://docs.python.org/3.6/library/stdtypes.html#set">set 3.6</a> 及 <a href="https://docs.python.org/2/library/sets.html">set 2.7</a></p>
+
+<pre><code>set 內的元件必須要可被Hash
+The elements of a set must be &lt;span class=&quot;xref std std-term&quot;&gt;hashable&lt;/span&gt;.
+
+
+
+
+set不能包含可變動的元件，像是list或字典。
+但他可包含不可變動的群組，像是tuple
+As a result, &lt;strong&gt;sets cannot contain mutable elements&lt;/strong&gt; such as lists or dictionaries.
+However, they &lt;strong&gt;can contain immutable collections&lt;/strong&gt; such as tuples or instances of&lt;code class=&quot;xref py py-class docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ImmutableSet&lt;/span&gt;&lt;/code&gt;.
+</code></pre>
+
+<hr />
+
+<h3 id="甚麼是mutable-immutable">甚麼是Mutable/ Immutable?</h3>
+
+<p>我找了一篇文章</p>
+
+<p><img src="http://minayu0416.files.wordpress.com/2018/12/1_oErPCXv1PFcuuizXqGEEbw.png" alt="" /></p>
+
+<h1 id="http-minayu0416-files-wordpress-com-2018-12-2018-12-10-下午3-43-40-png"><img src="http://minayu0416.files.wordpress.com/2018/12/2018-12-10-下午3.43.40.png" alt="" /></h1>
+
+<h1 id="mutable-vs-immutable-objects-in-python-https-medium-com-meghamohan-mutable-and-immutable-side-of-python-c2145cf72747"><a href="https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747">Mutable vs Immutable Objects in Python</a></h1>
+
+<p>裡面提及</p>
+
+<blockquote>**Mutable objects(我就翻為可變動物件)**:</blockquote>
+
+<blockquote>list, dict, set, byte array</blockquote>
+
+<blockquote>**Immutable objects(不可變動):**</blockquote>
+
+<blockquote>int, float, complex, string, tuple, frozen set [note: immutable version of set], bytes</blockquote>
+
+<p>要使用Set 及 <strong>eq</strong>和 <strong>hash</strong></p>
+
+<p>首先確定eq的條件，接著</p>
+
+<p>只有被hash的元件才會拿來做比較</p>
+
+<p>set 會自動執行hash, 若沒有hash函式就不會進到eq</p>
+
+<p>只有可被hash(不可變動的元件Immutable)，才可做為eq 做比對</p>
+
+<p>至於如果遇到字典, 串列，或者像我的例子中OrderedDict&rsquo;，真的要對這些變動元件做hash怎麼辦呢?</p>
+
+<p>在我的data 物件中，包含了<strong>OrderedDict</strong>, 而<strong>OrderedDict</strong>,屬於Dictionary的一種</p>
+
+<p>Dictionary 是 <strong>Mutable objects</strong>, 不可被<strong>hash</strong></p>
+
+<p><a href="https://stackoverflow.com/questions/15880765/python-unhashable-type-ordereddict">Python unhashable type: &lsquo;OrderedDict&rsquo;</a></p>
+
+<p>In your case, <code>var1</code> contains some object that is not hashable (it does not implement <code>hash()</code>).
+This object is an <code>OrderedDict</code>, which is a <strong>mutable object</strong> and is <strong>not hashable</strong> by design.</p>
+
+<h3 id="對於unhashable的物件-你可使用">對於unhashable的物件，你可使用</h3>
+
+<pre><code>frozenset() 回傳
+</code></pre>
+
+<p>以下是我的程式碼</p>
+
+<pre><code>class RemoveDuplicate(object):
+    def __init__(self, data):
+        &lt;strong&gt;self.data = data.data&lt;/strong&gt;
+        self.id = data.id
+        self.column = data.column_name
+        self.table = data.table_name
+
+    def __eq__(self, other):
+        return (self.id) == (other.id)
+
+    def __hash__(self):
+        return hash((self.id, &lt;strong&gt;frozenset(self.data)&lt;/strong&gt;, self.table, self.column))
+
+data_set = set()
+for data, book in library:
+    for each_data in list(data):
+        data_list.add(RemoveDuplicate(each_data))
+</code></pre>
+
+<p>粗字是OrderedDict 物件，可以使用這樣的方法來Hash</p>
+
+<p>參考文章, <a href="https://stackoverflow.com/questions/1151658/python-hashable-dicts/6014481">此篇</a>可以解決dict unhashable</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Ming-Jung YU. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%B8-%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92/" data-tooltip="[教育心理學] 如何學習">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/12/%E6%88%91%E6%94%B9%E8%AE%8A/" data-tooltip="我。改變">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fminayu.site%2F2018%2F12%2F%25E6%258A%2580%25E8%25A1%2593%25E5%25B0%258F%25E7%25AD%2586%25E8%25A8%2598-%25E5%2588%25A9%25E7%2594%25A8eq-hash-%25E8%25A7%25A3%25E6%25B1%25BA%25E5%258E%25BB%25E9%2599%25A4%25E9%2587%258D%25E8%25A4%2587%25E7%2589%25A9%25E4%25BB%25B6object%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ming-Jung YU</h4>
+    
+      <div id="about-card-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Back-End Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Taiwan
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-improvement/">
+                <h3 class="media-heading">2019年新年新希望</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+真正要學會一樣東西，就是去教授它
+
+</blockquote>
+
+<p> －－同事之說</p>
+
+<p>人生真的是活到老學到老</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-test-multilingual-web/">
+                <h3 class="media-heading">測試多語網站</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>本篇文章為測試多語網站的測試文章</p>
+
+<p>若有成功可點擊<a href="https:minayu.site/">minayu.site</a>回到部落格主頁</p>
+
+<p>點擊<a href="https:minayu.site/languagelearn/">minayu.site/languagelearn/</a>進入多語網站</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/03/it-things-backend-unit-test/">
+                <h3 class="media-heading">[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR</p>
+
+<p>在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為<code>單元測試 Unit Test</code></p>
+
+<p>延伸閱讀： <a href="https://minayu.site/2019/02/it-things-quickly-and-quality">[我在新創科技業的日子] 迅速與品質</a></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/it-things-quickly-and-quality/">
+                <h3 class="media-heading">[我在新創科技業的日子] 迅速與品質</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁跑單元測試的時間, 來發篇沈睡在草稿夾裡許久的文章</p>
+
+<p>前陣子跟同事聊天，驚覺自己貌似是那個後端新手的幸運兒，因為誠懇的態度感動了前主管兼面試官，讓本菜鳥得以進入社會的殿堂發展自己的後端長才</p>
+
+<p>想想當初只不過第一次面試，當然要客套話說盡，沒想到居然無意之間被選上qqq，大感動！</p>
+
+<p>哪這麼偉大，據科普顯示，才不會有人願意使用職場新手擔任後端工程師，因為一個搞不好，系統就會炸掉qq</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/explore-myself/">
+                <h3 class="media-heading">[Me] 探索自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>剛下班回到家</p>
+
+<p>我呆坐在我房間角落的滾輪椅，把握所剩不多的休閒時間。</p>
+
+<p>一瞬間所有工作上令人映像深刻的場景衝向腦內，像是錄放映機般一幕幕在腦內中上演</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day6/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 6 回台灣/新千歲機場</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>最後一天要回台灣了</p>
+
+<h1 id="前往千歲機場">前往千歲機場</h1>
+
+<p>早上六點半起了大早，搭乘八點的おおぞら号從帶廣前往南千歲，大約一個半小時。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day5/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 5 釧路/塘路/釧路湿原/帶廣</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="前往釧路湿原">前往釧路湿原</h1>
+
+<p>原先是想搭乘早上八點的摩周號前往釧路湿原遊玩，規劃行程拜訪了其他部落客的行程，可以在釧路湿原站下車一路遊玩漫步到細岡站在搭列車到塘路站。沒想到後來我仔細觀察時刻表後才發現冬天早上的班次沒有一班列車會到達釧路湿原。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day4/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 4 網走/流冰破冰船/前往釧路</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="網走">網走</h1>
+
+<p>原先以為網走會是整躺行程最冷的地方，畢竟處於北海道右上方，加上海上的破冰船可能是開放空間氣溫直下零下10幾度，結果早上出太陽，體感溫度只有3-4度，特涼爽，破冰船船內也有冷氣。對比於我們對網走的幻象就是一個大雪大風的印象好像不是這麼的符合</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day3/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 3 前往網走/札幌雪祭/旭川平和通買物公園</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>第三天的行程被我媽稱為<code>一波三折</code>，受到前一天的大雪，使得今天大部分前往網走的列車都停駛，雖然最後晚上11點順利到達網走，但原先規劃下午在網走的行程都被迫取消，這也是我們在幾次自由行中第一次面臨的突發事件與抉擇。</p>
+
+<p>不過雖然今日在網走的主要行程沒有去成，但也多兩個行程，包含參觀大通公園的2019年札幌雪祭與旭川的平和買物公園健行。最重要的是兩個人在討論進退的過程，挺充實的呢！</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day2/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 2 千歲/支笏湖/紀國伊書店/風月</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>今天是本次北海道札幌/道東的第二天，本日主要行程為支笏湖與札幌車站的紀伊國屋書店買書。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         451 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://minayu.site/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://minayu.site/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/minayu.site\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/';
+          
+            this.page.identifier = '\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'minayu';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

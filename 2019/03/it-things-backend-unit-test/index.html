@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Ming-Jung YU">
+<meta name="keywords" content="後端 Back-end, junior, python, 單元測試 Unit Test">
+<meta name="description" content="趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR
+
+在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為單元測試 Unit Test
+
+延伸閱讀： [我在新創科技業的日子] 迅速與品質">
+
+
+<meta property="og:description" content="趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR
+
+在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為單元測試 Unit Test
+
+延伸閱讀： [我在新創科技業的日子] 迅速與品質">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest">
+<meta name="twitter:title" content="[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest">
+<meta property="og:url" content="https://minayu.site/2019/03/it-things-backend-unit-test/">
+<meta property="twitter:url" content="https://minayu.site/2019/03/it-things-backend-unit-test/">
+<meta property="og:site_name" content="@Mina&#39;s Life Travel">
+<meta property="og:description" content="趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR
+
+在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為單元測試 Unit Test
+
+延伸閱讀： [我在新創科技業的日子] 迅速與品質">
+<meta name="twitter:description" content="趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR
+
+在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為單元測試 Unit Test
+
+延伸閱讀： [我在新創科技業的日子] 迅速與品質">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2019-03-05T17:17:08">
+  
+  
+    <meta property="article:modified_time" content="2019-03-05T17:17:08">
+  
+  
+  
+    
+      <meta property="article:section" content="IT Things">
+    
+      <meta property="article:section" content="[後端] 1萬小時 - 後端工程師養成計劃">
+    
+  
+  
+    
+      <meta property="article:tag" content="後端 Back-end">
+    
+      <meta property="article:tag" content="junior">
+    
+      <meta property="article:tag" content="python">
+    
+      <meta property="article:tag" content="單元測試 Unit Test">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+
+
+    <title>[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest - @Mina's Life Travel</title>
+
+    
+    <link rel="icon" href="https://minayu.site/img/favicon.jpg">
+    
+
+    
+
+    <link rel="canonical" href="https://minayu.site/2019/03/it-things-backend-unit-test/">
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://minayu.site/">@Mina&#39;s Life Travel</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://minayu.site/2019/01/about-me">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://minayu.site/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ming-Jung YU</h4>
+        
+          <h5 class="sidebar-profile-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/2019/01/about-me">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/minayu416" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu0416.wordpress.com/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-wordpress"></i>
+      
+      <span class="sidebar-button-desc">My WP Blog</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      [後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-03-05T17:17:08&#43;08:00">
+        
+  March 5, 2019
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://minayu.site/categories/it-things">IT Things</a>, 
+    
+      <a class="category-link" href="https://minayu.site/categories/%e5%be%8c%e7%ab%af-1%e8%90%ac%e5%b0%8f%e6%99%82-%e5%be%8c%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%a4%8a%e6%88%90%e8%a8%88%e5%8a%83">[後端] 1萬小時 - 後端工程師養成計劃</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR</p>
+
+<p>在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為<code>單元測試 Unit Test</code></p>
+
+<p>延伸閱讀： <a href="https://minayu.site/2019/02/it-things-quickly-and-quality">[我在新創科技業的日子] 迅速與品質</a></p>
+
+<p>說到單元測試除了品質三部曲外，另外的就是敏捷軟體開發中，極限編程方法(Extreme programming)的<a href="https://zh.wikipedia.org/wiki/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91">測試驅動開發, TDD</a></p>
+
+<p>這些概念，早在我研究所時期，修過的專案管理中接觸，沒想到進了公司做軟體開發，實際接觸到當時僅存在於書本上的概念時特別感到新奇與感動</p>
+
+<p>當時在做TDD的介紹時，單純認為怎麼可能先在開發前就寫好測試，那要怎麼寫？直到進了公司後，隨著mentor的引導，讓我接觸到單元測試後，才懂這一切的運作</p>
+
+<h1 id="單元測試的功用">單元測試的功用</h1>
+
+<p>依據<a href="https://zh.wikipedia.org/wiki/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91">測試驅動開發</a>的wiki解釋，</p>
+
+<pre><code>測試驅動開發(TDD)是戴兩頂帽子思考的開發方式：先戴上實現功能(Achieve Feature)的帽子，在測試的輔助下，快速實現其功能；
+再戴上重構的帽子，在測試的保護下，通過去除冗餘的代碼，提高代碼質量。
+
+測試驅動著整個開發過程：首先，驅動代碼的設計和功能的實現；其後，驅動代碼的再設計和重構。
+</code></pre>
+
+<p>總結上，單元測試可以做到 <code>實現功能 + 重構</code>以及確保<code>程式的品質</code></p>
+
+<p>不太像純寫網頁可以藉由資訊為呈現或排版亂掉來馬上得知有無錯誤，後端程式的開發居多無法透過介面得知是否有錯誤，僅能透過OutPut的值簡單判斷以及掌握DEBUG工具來釐清錯誤根源。</p>
+
+<p>那麼先撰寫單元測試再撰寫功能程式碼的流程，主要是可以通過寫測試來<code>假設</code>使用情境，釐清這個函式/功能會怎麼使用，預想他應該要獲得什麼答案以及他會實現什麼功能，進而達到設計/假設會需要幾個函式/設計模式/物件來達成此功能。</p>
+
+<p>像是我們要假設達成一個讀取Excel並轉成json的功能，當做完單元測試後，也許我們會假設函式如下</p>
+
+<pre><code class="language-py">def read_csv(csv_file):
+    # 讀取excel file
+    pass
+
+def trans_csv_to_json(data):
+    # 轉換excel to json
+    pass
+
+</code></pre>
+
+<p>類似這樣的假設函式，然後再慢慢的實作功能以達到符合測試及達成功能需求</p>
+
+<h1 id="單元測試的3a-arrange-act-assert">單元測試的3A: Arrange, Act, Assert</h1>
+
+<p>初次見到 <code>3A</code> 這個名詞是我的mentor在撰寫我的新手訓練文件時所使用的詞，在我還萌新時期(我現在也還是個萌新啊！)，我以為這是個三個不同的概念，這讓我當初對<code>單元測試</code>引發了感覺很深不可測的幻想</p>
+
+<pre><code>3A: Arrange, Act, Assert
+
+意思是一個單元測試會由3A的概念組成
+
+Arrange: 假設測試的場景, 像是準備假資料, 準備變數, 相關函式
+
+Act: 執行測試的目標, 可能是函式/物件...
+
+Assert: 驗正結果是否正確, 撰寫期待的符合條件
+
+</code></pre>
+
+<p>在舉一個例子，假設有一個功能是要測試<code>database的資料寫入</code></p>
+
+<h3 id="arrange">Arrange</h3>
+
+<pre><code class="language-py"># 在這個場景中，有可能實際存入的Database在客戶端
+# 因此 Arrange 可能是做一個假的FakeDataBase
+def setUp(self):
+    FakeDataBase = open(&quot;test.sqlite&quot;) # 好吧我承認我暫時寫不出來xD
+    # 就是準備一個假的sqlite 來假設有db的場景
+
+def tearDown(self):
+    # 記得假設函式在做完測試後 clear db
+
+</code></pre>
+
+<h3 id="act">Act</h3>
+
+<pre><code class="language-py"># 佈置好準備測試的函式/物件及功能...
+from py_file import inset_data
+
+# 準備要輸入的假資料
+prepare_data = {'customer', 'Amy'}
+
+# 測試目標函式
+inset_data(prepare_data)
+
+</code></pre>
+
+<h3 id="assert">Assert</h3>
+
+<pre><code class="language-py"># 假設資料已經輸入進去了
+# 也許用pymysql, sqlalchemy 之類套件做讀取
+with engine.connect() as connection:
+    data = pd.read_sql_table(database), connection)
+
+# 可以利用各種assert 方法來驗證期望的答案
+self.assertTrue(data = ['customer', 'Amy'])
+self.assertEqual(['customer', 'Amy'], data)
+</code></pre>
+
+<hr>
+
+<h1 id="自身感想">自身感想</h1>
+
+<p>在剛開始接觸開發後端時，由於是<code>開發網頁</code>可以直接render前端，萬一有錯誤，大不了就是前端炸掉沒看到東西。無論是除錯或開發我都還能用<code>ipython</code>或 <code>python console</code> 來做驗證。</p>
+
+<p>但是當我還是<code>超級小萌新時期</code>，剛開始開發公司的產品，由於沒有前端能檢視錯誤，完全不知道該怎麼實作，不知道前段的函式會送什麼格式與資料，也不知道我要實作的函式要送出什麼資料才不會造成後續的功能錯掉。</p>
+
+<p>雖然跟著前個mentor學使用debug工具追蹤程式碼後，也還是不知道怎麼實作，我也無法在一堆連續性互相依存的函式中尋找進入點，驗證我實作的功能，有段時間十分痛苦</p>
+
+<p>起初接觸單元測試時，由於不清楚不了解，光撰寫單元測試的時間可以佔掉整體開發時間的70%，讓我的實作時間大幅降低，讓我覺得很生氣。有時候甚至先實作功能，才來寫單元測試，往往因為寫單元測試花更多的時間，那時候就覺得很不必要。</p>
+
+<p>現在經歷一段時間了，有天才發現單元測試的神奇，就是可以透過測試來設計這個功能會怎麼被使用，最後會有什麼結果。</p>
+
+<p>當開發一個新的功能，實作會有什麼函式，我都能大致上列出來</p>
+
+<h1 id="缺點">缺點</h1>
+
+<p>貌似上述所言都著重在於單元測試的<code>好</code>，接下來來講一下<code>缺點</code>平衡一下</p>
+
+<pre><code>有好就有壞！
+</code></pre>
+
+<p>根據wiki的負面評價</p>
+
+<pre><code>1. 開發者可能只完成滿足了測試的代碼，而忽略了對實際需求的實現。
+</code></pre>
+
+<p>我的想法是有時候我自己真的是因為懶惰加上工作量很大需要快速開發時，我就只會針對 <code>當前的函式</code>做簡單的測試，絲毫不會考慮前者函式與後者函式會不會有接不上的問題。</p>
+
+<pre><code>2. 會放慢開發實際代碼的速度，特別對於要求開發速度的原型開發造成不利。
+</code></pre>
+
+<p>雖然可以透過測試來假定使用方法與期望結果，但先是要撰寫單元測試就會花費不少時間，更別說之後要撰寫實際的代碼，有時候撰寫到最後也會發現開發完實際代碼與測試不符，需要將測試做修改</p>
+
+<pre><code>3. 對於GUI,資料庫和Web應用而言。構造單元測試比較困難，如果強行構造單元測試，反而給維護帶來額外的工作量。
+</code></pre>
+
+<p>第一句不明瞭，但確實有時候&rdquo;無法&rdquo;撰寫單元測試，&rdquo;無法&rdquo;切割為單元，甚至需要專案內全部的代碼run過一遍才能驗證答案，這就變成整合測試。</p>
+
+<pre><code>4. 使得開發更為關注用例和測試案例，而不是設計本身。
+</code></pre>
+
+<p>嗯，有的時候當單元測試完成後，撰寫實際程式代碼會為了 &ldquo;符合&rdquo; 單元測試，而並非完成原先的功能需求。若測試與程式碼設計本身有矛盾衝突時，寫起來會很困擾</p>
+
+<pre><code>5. 測試驅動開發(先寫測試再實作, TDD)會導致單元測試的覆蓋度不夠，比如可能缺乏邊界測試。在實際的操作中，和非測試驅動開發一樣，當代碼完成以後還是需要補充單元測試，提高測試的覆蓋度。
+</code></pre>
+
+<p>測試會過就好啦，還邊界不邊界個什麼呢？</p>
+
+<hr>
+
+<p>qq, 所以說 <code>先寫測試在實作</code> 會花費比較多時間在寫測試，而後續的實作很容易會變成我要<code>通過測試</code>而努力，偏離原先的設計。</p>
+
+<p>再來若先做實作在測試，會變成花更多的時間在<code>過度設計</code> 實作，測試就亂寫一通 xD</p>
+
+<p>所以上述第五點提及，先撰寫測試，完成實作後，再回來補充單元測試，提高測試的功用!</p>
+
+<p>無論先寫測試還是後寫，只要前輩壓著你寫，你就是得寫</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/%E5%BE%8C%E7%AB%AF-back-end/">後端 Back-end</a>
+
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/junior/">junior</a>
+
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/python/">python</a>
+
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-unit-test/">單元測試 Unit Test</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/02/it-things-quickly-and-quality/" data-tooltip="[我在新創科技業的日子] 迅速與品質">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/11/2019-test-multilingual-web/" data-tooltip="測試多語網站">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Ming-Jung YU. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/02/it-things-quickly-and-quality/" data-tooltip="[我在新創科技業的日子] 迅速與品質">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2018/11/2019-test-multilingual-web/" data-tooltip="測試多語網站">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2019/03/it-things-backend-unit-test/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminayu.site%2F2019%2F03%2Fit-things-backend-unit-test%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fminayu.site%2F2019%2F03%2Fit-things-backend-unit-test%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fminayu.site%2F2019%2F03%2Fit-things-backend-unit-test%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ming-Jung YU</h4>
+    
+      <div id="about-card-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Back-End Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Taiwan
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-improvement/">
+                <h3 class="media-heading">2019年新年新希望</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+真正要學會一樣東西，就是去教授它
+
+</blockquote>
+
+<p> －－同事之說</p>
+
+<p>人生真的是活到老學到老</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-test-multilingual-web/">
+                <h3 class="media-heading">測試多語網站</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>本篇文章為測試多語網站的測試文章</p>
+
+<p>若有成功可點擊<a href="https:minayu.site/">minayu.site</a>回到部落格主頁</p>
+
+<p>點擊<a href="https:minayu.site/languagelearn/">minayu.site/languagelearn/</a>進入多語網站</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/03/it-things-backend-unit-test/">
+                <h3 class="media-heading">[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR</p>
+
+<p>在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為<code>單元測試 Unit Test</code></p>
+
+<p>延伸閱讀： <a href="https://minayu.site/2019/02/it-things-quickly-and-quality">[我在新創科技業的日子] 迅速與品質</a></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/it-things-quickly-and-quality/">
+                <h3 class="media-heading">[我在新創科技業的日子] 迅速與品質</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁跑單元測試的時間, 來發篇沈睡在草稿夾裡許久的文章</p>
+
+<p>前陣子跟同事聊天，驚覺自己貌似是那個後端新手的幸運兒，因為誠懇的態度感動了前主管兼面試官，讓本菜鳥得以進入社會的殿堂發展自己的後端長才</p>
+
+<p>想想當初只不過第一次面試，當然要客套話說盡，沒想到居然無意之間被選上qqq，大感動！</p>
+
+<p>哪這麼偉大，據科普顯示，才不會有人願意使用職場新手擔任後端工程師，因為一個搞不好，系統就會炸掉qq</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/explore-myself/">
+                <h3 class="media-heading">[Me] 探索自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>剛下班回到家</p>
+
+<p>我呆坐在我房間角落的滾輪椅，把握所剩不多的休閒時間。</p>
+
+<p>一瞬間所有工作上令人映像深刻的場景衝向腦內，像是錄放映機般一幕幕在腦內中上演</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day6/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 6 回台灣/新千歲機場</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>最後一天要回台灣了</p>
+
+<h1 id="前往千歲機場">前往千歲機場</h1>
+
+<p>早上六點半起了大早，搭乘八點的おおぞら号從帶廣前往南千歲，大約一個半小時。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day5/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 5 釧路/塘路/釧路湿原/帶廣</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="前往釧路湿原">前往釧路湿原</h1>
+
+<p>原先是想搭乘早上八點的摩周號前往釧路湿原遊玩，規劃行程拜訪了其他部落客的行程，可以在釧路湿原站下車一路遊玩漫步到細岡站在搭列車到塘路站。沒想到後來我仔細觀察時刻表後才發現冬天早上的班次沒有一班列車會到達釧路湿原。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day4/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 4 網走/流冰破冰船/前往釧路</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="網走">網走</h1>
+
+<p>原先以為網走會是整躺行程最冷的地方，畢竟處於北海道右上方，加上海上的破冰船可能是開放空間氣溫直下零下10幾度，結果早上出太陽，體感溫度只有3-4度，特涼爽，破冰船船內也有冷氣。對比於我們對網走的幻象就是一個大雪大風的印象好像不是這麼的符合</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day3/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 3 前往網走/札幌雪祭/旭川平和通買物公園</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>第三天的行程被我媽稱為<code>一波三折</code>，受到前一天的大雪，使得今天大部分前往網走的列車都停駛，雖然最後晚上11點順利到達網走，但原先規劃下午在網走的行程都被迫取消，這也是我們在幾次自由行中第一次面臨的突發事件與抉擇。</p>
+
+<p>不過雖然今日在網走的主要行程沒有去成，但也多兩個行程，包含參觀大通公園的2019年札幌雪祭與旭川的平和買物公園健行。最重要的是兩個人在討論進退的過程，挺充實的呢！</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day2/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 2 千歲/支笏湖/紀國伊書店/風月</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>今天是本次北海道札幌/道東的第二天，本日主要行程為支笏湖與札幌車站的紀伊國屋書店買書。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         451 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://minayu.site/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://minayu.site/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/minayu.site\/2019\/03\/it-things-backend-unit-test\/';
+          
+            this.page.identifier = '\/2019\/03\/it-things-backend-unit-test\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'minayu';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

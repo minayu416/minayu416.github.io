@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Ming-Jung YU">
+<meta name="keywords" content="hugo, wordpress, github, blog">
+<meta name="description" content="看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況
+
+感覺好久沒打文章了，我應該神隱一陣子了
+
+我成功用Hugo架出我的網站，並部屬到Github上
+
+這是我的新網站: https://minayu416.github.io/
+
+還有許多功能還沒Ready，不過大致上已經做好根基了">
+
+
+<meta property="og:description" content="看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況
+
+感覺好久沒打文章了，我應該神隱一陣子了
+
+我成功用Hugo架出我的網站，並部屬到Github上
+
+這是我的新網站: https://minayu416.github.io/
+
+還有許多功能還沒Ready，不過大致上已經做好根基了">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[Blog] 從Wordpress 移動到 Hugo">
+<meta name="twitter:title" content="[Blog] 從Wordpress 移動到 Hugo">
+<meta property="og:url" content="https://minayu.site/2019/01/from-wordpress-to-hugo/">
+<meta property="twitter:url" content="https://minayu.site/2019/01/from-wordpress-to-hugo/">
+<meta property="og:site_name" content="@Mina&#39;s Life Travel">
+<meta property="og:description" content="看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況
+
+感覺好久沒打文章了，我應該神隱一陣子了
+
+我成功用Hugo架出我的網站，並部屬到Github上
+
+這是我的新網站: https://minayu416.github.io/
+
+還有許多功能還沒Ready，不過大致上已經做好根基了">
+<meta name="twitter:description" content="看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況
+
+感覺好久沒打文章了，我應該神隱一陣子了
+
+我成功用Hugo架出我的網站，並部屬到Github上
+
+這是我的新網站: https://minayu416.github.io/
+
+還有許多功能還沒Ready，不過大致上已經做好根基了">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2019-01-08T16:42:45">
+  
+  
+    <meta property="article:modified_time" content="2019-01-08T16:42:45">
+  
+  
+  
+    
+      <meta property="article:section" content="IT Things">
+    
+      <meta property="article:section" content="[BLOG] 關於部落格的那點事">
+    
+  
+  
+    
+      <meta property="article:tag" content="hugo">
+    
+      <meta property="article:tag" content="wordpress">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=640">
+
+
+    <title>[Blog] 從Wordpress 移動到 Hugo - @Mina's Life Travel</title>
+
+    
+    <link rel="icon" href="https://minayu.site/img/favicon.jpg">
+    
+
+    
+
+    <link rel="canonical" href="https://minayu.site/2019/01/from-wordpress-to-hugo/">
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://minayu.site/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://minayu.site/">@Mina&#39;s Life Travel</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://minayu.site/2019/01/about-me">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://minayu.site/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ming-Jung YU</h4>
+        
+          <h5 class="sidebar-profile-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu.site/2019/01/about-me">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/minayu416" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://minayu0416.wordpress.com/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-wordpress"></i>
+      
+      <span class="sidebar-button-desc">My WP Blog</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      [Blog] 從Wordpress 移動到 Hugo
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-01-08T16:42:45Z">
+        
+  January 8, 2019
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://minayu.site/categories/it-things">IT Things</a>, 
+    
+      <a class="category-link" href="https://minayu.site/categories/blog-%e9%97%9c%e6%96%bc%e9%83%a8%e8%90%bd%e6%a0%bc%e7%9a%84%e9%82%a3%e9%bb%9e%e4%ba%8b">[BLOG] 關於部落格的那點事</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在update近況</p>
+
+<p>感覺好久沒打文章了，我應該神隱一陣子了</p>
+
+<p>我成功用Hugo架出我的網站，並部屬到Github上</p>
+
+<p>這是我的新網站: <a href="https://minayu416.github.io/">https://minayu416.github.io/</a></p>
+
+<p>還有許多功能還沒Ready，不過大致上已經做好根基了</p>
+
+<p>該是寫文章來分享一下</p>
+
+<p>由於上班之後，能夠做自己的事的時間很少，在動工之前，我找了兩三周的資料</p>
+
+<p>就是不希望我又像<a href="https://minayu0416.wordpress.com/2018/12/20/%e9%83%a8%e8%90%bd%e6%a0%bc%e7%9a%84%e6%9e%b6%e8%a8%ad%e7%85%a9%e6%83%b1/">上次衝動租Bluehost</a>，架好網站後發現苗頭不對，所以趕緊搬回這邊XD</p>
+
+<p>雖然找了很多網站，但是真正施工時，又遇上不少問題</p>
+
+<hr />
+
+<h4><strong>此篇分享從Wordpress搬家到Hugo並部屬到Gituhb上</strong></h4>
+
+<hr />
+
+<h3>找尋資料</h3>
+對於Hugo還一無所知，Hugo與Wordpress這種CMS是不太一樣的系統
+<br>
+我前後參考了幾了網站來了解Hugo是一個 靜態網站生產器
+<br>
+一開始覺得很不靠鋪，我也是wordpress用戶，少了資料庫的靜態網頁生產器怎麼能媲美功能美滿的CMS呢?
+<br>
+後來我錯了, 架好Hugo後，我發現我可以離開Wordpress的限制，自由的改動網站的外觀，以及添加任何我想要的功能
+
+非常的自由，但要有一個認知就是
+<pre>從此之後想要甚麼都要自己手動做qq</pre>
+所以我看了些比對的文章，像是<a href="https://snipcart.com/blog/choose-best-static-site-generator">選個最好的靜態網頁生產器</a>, <a href="https://hk.saowen.com/a/1235d1cc2719ca4180dc1cd7185b4f6f28731490d1eead9e834d580fe3f25f32">Jekyll vs Hugo</a>
+<br>
+首先也要記得參觀<a href="https://gohugo.io/">Hugo官網</a>,選主題時你會常常在主題頁面中停留
+<br>
+用Hugo怎能不看Hugo官網呢?
+<br>
+再來我擔心沒有後台我就變成了不會寫文章的手殘
+<br>
+所以我找到了跟Hugo與Github相容的CMS: <a href="https://forestry.io/">Forestry</a>
+<br>
+<span style="color: #ff0000;">(可是我昨天實際用過Forestry，不可否認很好用，但我現在卻正在調查她是不是造成我的網頁掛掉的兇手 ...，等我查明後才會推薦，這讓我的心情很鬱悶)</span>
+<br>
+有機會分下個文章跟大家分享
+
+<hr />
+
+
+<h3>架設Hugo</h3>
+我找了一堆網站，來輔助我架設Hugo
+
+等到我真的開始實作後，我發現完全架不起來
+
+這份簡報是我歷經千辛萬苦，架了幾十次，跟著架才成功的指南
+<pre>讚</pre>
+[請服用](
+https://speakerdeck.com/fukuball/create-static-website-with-hugo-in-2-minutes)
+
+ 
+
+我是使用Mac
+<br>
+開啟你的終端機! Lets DO it
+<br>
+<h4>首先安裝Hugo</h4>
+<pre>$ brew install hugo</pre>
+<strong>如果沒有brew，可以試試看<a href="http://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/">這篇文章</a>裝一下</strong>
+<h4>新建一個網站</h4>
+<pre>hugo new site mysite</pre>
+此時您的網站已經初始生成
+<h4>進入網站資料夾</h4>
+<pre>cd mysite</pre>
+內部的資料夾包刮 content, theme, layout, ....
+
+<hr />
+
+<h3>安裝Theme</h3>
+接著就去Hugo官網挑挑你愛的主題吧!
+<br>
+我是挑 <a href="https://themes.gohugo.io/hugo-tranquilpeak-theme/">Tranquilpeak</a>
+<br>
+每個主題點進Download都會進到該主題的Github
+<br>
+那我們就用Git指令把主題裝到我們的網站資料夾內
+
+進到主題資料夾安裝
+<pre>$ cd themes</pre>
+這邊以Tranquilpeak為例
+<pre>$ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git</pre>
+裝好後利用ls指令會看到hugo-Tranquilpeak-theme資料夾在您眼前
+<pre>$ ls</pre>
+<pre>hugo-Tranquilpeak-theme</pre>
+接著看你要使用編譯器，還是手動拉
+
+將一些相關文件從theme複製到你的根目錄
+<h4>將你的主題theme資料夾內 "archetyps" 內的檔案複製到你的"archetyps"</h4>
+這邊是用hugo-Tranquilpeak-theme 主題
+
+將hugo-Tranquilpeak-theme/archetyps/內容移動至 mysite/archetyps/內
+<h4>將你的主題theme資料夾內 exampleSite 內的檔案, 直接取代根目錄的檔案</h4>
+忘記在哪邊看到，在簡報中是沒有看到這個部分
+
+要順利先將主題的頁面刻出來，就將 exampleSite 內像是content, static 都直接複製取代掉你的mysite/ 中的content 及 static
+<h4>將你的主題theme資料夾內 exampleSite 內的config.toml, 直接取代掉根目錄的config.toml</h4>
+就是取代mysite/config.toml 中
+
+接下來回到根目錄
+
+將hugo run 起來 就能看到完整的主題頁面
+<pre>$ hugo server</pre>
+先求有再求好
+
+接下來就是您的工作囉~
+
+打開根目錄的config.toml 檔案, 將參數改一改，改成你要的
+
+<hr />
+
+<h3>將Wordpress文章輸出, 轉為，並放入Hugo</h3>
+當初要實作時，我參考了一個網站，發現完全不work
+
+我也實際參觀<a href="https://gohugo.io/tools/migrations/">Hugo migrations</a>的頁面，照著上面的一些功能，也是不work xD
+
+後來參照<a href="https://samaxes.com/2016/02/static-site-from-wordpress-to-hugo/">from wordpre to hugo</a> 的文章後，使用了<a href="https://github.com/thomasf/exitwp">Exitwp</a> ，才順利把文章從xml 轉到md檔
+
+ 
+<h4>Wordpress後台 Export 你的文章 .xml</h4>
+<pre>[你的wordpress url]/wp-admin/</pre>
+可以進到wordpress的管理員後台
+
+ 
+<pre>點選 Tools > Export</pre>
+可以進去Export文章的網頁
+
+＊若沒有Export 要去 Plugin 安裝，wordpress.com都會有，Wordpress.org可能要安裝套件Plugin
+<pre>選擇免費的 Start Export</pre>
+開始把你的部落格點匯出，完成的檔案會寄信到您的信箱
+
+ 
+<h4>用外部套件將Wordpress XML 轉為Hugo 使用md</h4>
+參考網站: <a href="https://samaxes.com/2016/02/static-site-from-wordpress-to-hugo/">from wordpre to hugo</a>,  <a href="https://github.com/thomasf/exitwp">Exitwp</a>
+
+ 
+
+將 exitwp 下載下來
+<pre>git clone https://github.com/thomasf/exitwp.git</pre>
+ 
+<pre>將 wordpress xml 放進 <a id="e03749db1993712bf76cd083f3ab87be-de6c3bce5b1adf4f013dff71c72f32bda59e3f22" class="js-navigation-open" title="wordpress-xml" href="https://github.com/thomasf/exitwp/tree/master/wordpress-xml">wordpress-xml</a> 資料夾中</pre>
+ 
+
+<span style="color: #ff0000;">＊請注意這個套件的環境為python 2.7</span>
+<pre>pip install pip_requirements.txt</pre>
+或者
+<pre>pip install</pre>
+<ul>
+    <li>html2text</li>
+    <li>PyYAML</li>
+    <li>Beautiful soup</li>
+</ul>
+ 
+
+驅動python程式來轉檔
+<pre>python exitwp.py</pre>
+幸運沒報錯的話，就可以進build資料夾領取md囉~
+
+ 
+<h4>將轉出的.md檔放進hugo內</h4>
+這個部分老實說要看不同的主題會有不同的要求，主要看你的 網站資料夾 內的 "archetyps" / themes/你的主題/archetyps/內的.md檔怎麼定義一篇部落格
+
+將輸出的.md檔放進Hugo, 通常會是這幾個資料夾，取決於你的theme/exampleSite/content 內容
+<pre>content/blog</pre>
+<pre>content/post</pre>
+<pre>content/posts</pre>
+ 
+
+確認一下每篇md檔有沒有和archetyps 內.md規範符合
+
+至少要有archetyps 內.md 內規定的幾個元素
+
+有可能是
+<pre>title</pre>
+<pre>layout</pre>
+ 
+<pre>注意一下是 yaml 還是toml</pre>
+<pre>－－－－－－</pre>
+<pre>－－－－－－</pre>
+或
+<pre>＋＋＋＋＋</pre>
+<pre>＋＋＋＋＋</pre>
+最後，到根目錄跑一次建置，進入 1313 看一下網頁有沒有問題，就可以準備部署囉!
+<pre>hugo server</pre>
+<h3></h3>
+
+<hr />
+
+<p><h3>部屬至Github</h3>
+將網頁建在哪都可以，AWS, GCP 或其他平台，而我看大部分的人都部屬在github上</p>
+
+<p>這部分我自己做的也不是很好，沒辦法建議甚麼qq</p>
+
+<p> </p>
+
+<p>你可以參考<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hugo本身的網站</a></p>
+
+<p> </p>
+
+<p>但我用的方法:<a href="https://medium.com/@chs_wei/%E5%9C%A8-github-%E9%83%A8%E7%BD%B2-hugo-%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-9c40682dfe40">這位部落格主提供的方法</a></p>
+
+<p><h3></h3>
+在github分成兩個repo，一個是放你build網站的程式資料夾(當然你也可以選擇不存)</p>
+
+<p>另外一個則是取名為
+<pre>你的帳號名稱.github.io</pre>
+ </p>
+
+<p>這個指令會生成public資料夾
+<pre>hugo</pre>
+<pre>cd public</pre>
+ </p>
+
+<p>接著再按照新開的repo上有指南，把git init 後，往github repo 推送</p>
+
+<p> </p>
+
+<p>應該不用幾分後，進入你的網站
+<pre>[使用者名稱].github.io</pre>
+就可以看到你的網站囉!</p>
+
+<p> 
+<h3>問題大哉問</h3>
+＊exitwp不能跑?</p>
+
+<p>除了注意一下環境要是python2.7外，若想使用python3執行</p>
+
+<p>我想可以試試看在exitwp.py 程式裡，把print 換成 print() 語法</p>
+
+<p>我有試過，但我忘了有沒有成功</p>
+
+<p> </p>
+
+<p>＊exitwp系統說缺少yaml，可是我執行 pip install yaml 卻說沒有這個套件?</p>
+
+<p>正確的套件是 PyYAML
+<pre>pip install PyYAML</pre>
+ </p>
+
+<p>＊theme 內只有theme.toml 沒有 config.toml?</p>
+
+<p>theme 內的 config.toml 在 範例網站的資料夾內</p>
+
+<p>應該會有個 exampleSite 的demo 網站\，裡面有demo用的config.toml</p>
+
+<p> </p>
+
+<p>＊為什麼我hugo server後畫面是空白的?</p>
+
+<p>很多教學文章都是說將theme clone下來後，把config.toml檔改一改就好了</p>
+
+<p>但實際上需要把 exampleSite 內的 archetyps, static 及 content 最好都取代根目錄的資料</p>
+
+<p>(注意不要把exampleSite 內的content/post內容取代掉你的文章)</p>
+
+<p>確認主題可以顯示後，再把你的部落格文章.md檔放進 content內</p>
+
+<p> </p>
+
+<p>＊為什麼我把我的文章放進content後跑不出來？</p>
+
+<p>我想這要參考一下 theme 內的 archetyps 怎麼定義為一篇文章</p>
+
+<p> </p>
+
+<p> </p>
+
+<p>以上大致上是我架站時發生的一些問題</p>
+
+<p>原先以為調查兩三周後可以順利實作，但真正到了實作時又遇上了一些困難，但我的網頁初版還是用了我半天的時間內完成</p>
+
+<p> </p>
+
+<p>只不過我昨天手賤 去使用了第三方的網站來讀取我的github 直接做操作</p>
+
+<p>在我歡樂愉悅的沉浸在這美麗又舒服的操作時，發現他把我很多網頁都搞壞了</p>
+
+<p>偏偏這假日忘了帶電腦回來， 好鬱悶阿 &hellip;..</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/hugo/">hugo</a>
+
+  <a class="tag tag--primary tag--small" href="https://minayu.site/tags/wordpress/">wordpress</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/01/next-step-the-seo/" data-tooltip="[BLOG] 下一站，SEO優化">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/01/tech-note-sh-str-len-if-else/" data-tooltip="[技術小筆記] sh/bash 檔 字串判斷回傳0/1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 Ming-Jung YU. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/01/next-step-the-seo/" data-tooltip="[BLOG] 下一站，SEO優化">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://minayu.site/2019/01/tech-note-sh-str-len-if-else/" data-tooltip="[技術小筆記] sh/bash 檔 字串判斷回傳0/1">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://minayu.site/2019/01/from-wordpress-to-hugo/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminayu.site%2F2019%2F01%2Ffrom-wordpress-to-hugo%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fminayu.site%2F2019%2F01%2Ffrom-wordpress-to-hugo%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fminayu.site%2F2019%2F01%2Ffrom-wordpress-to-hugo%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/d90afc01985939b9f0bd7d099e363f64?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ming-Jung YU</h4>
+    
+      <div id="about-card-bio">Aquarius Moon, IT Master, Life Traveler, Coding, Learn Language, Numerology</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Back-End Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Taiwan
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-improvement/">
+                <h3 class="media-heading">2019年新年新希望</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><blockquote>
+
+真正要學會一樣東西，就是去教授它
+
+</blockquote>
+
+<p> －－同事之說</p>
+
+<p>人生真的是活到老學到老</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2018/11/2019-test-multilingual-web/">
+                <h3 class="media-heading">測試多語網站</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>本篇文章為測試多語網站的測試文章</p>
+
+<p>若有成功可點擊<a href="https:minayu.site/">minayu.site</a>回到部落格主頁</p>
+
+<p>點擊<a href="https:minayu.site/languagelearn/">minayu.site/languagelearn/</a>進入多語網站</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/03/it-things-backend-unit-test/">
+                <h3 class="media-heading">[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Mar 3, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR</p>
+
+<p>在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為<code>單元測試 Unit Test</code></p>
+
+<p>延伸閱讀： <a href="https://minayu.site/2019/02/it-things-quickly-and-quality">[我在新創科技業的日子] 迅速與品質</a></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/it-things-quickly-and-quality/">
+                <h3 class="media-heading">[我在新創科技業的日子] 迅速與品質</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>趁跑單元測試的時間, 來發篇沈睡在草稿夾裡許久的文章</p>
+
+<p>前陣子跟同事聊天，驚覺自己貌似是那個後端新手的幸運兒，因為誠懇的態度感動了前主管兼面試官，讓本菜鳥得以進入社會的殿堂發展自己的後端長才</p>
+
+<p>想想當初只不過第一次面試，當然要客套話說盡，沒想到居然無意之間被選上qqq，大感動！</p>
+
+<p>哪這麼偉大，據科普顯示，才不會有人願意使用職場新手擔任後端工程師，因為一個搞不好，系統就會炸掉qq</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/explore-myself/">
+                <h3 class="media-heading">[Me] 探索自己</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>剛下班回到家</p>
+
+<p>我呆坐在我房間角落的滾輪椅，把握所剩不多的休閒時間。</p>
+
+<p>一瞬間所有工作上令人映像深刻的場景衝向腦內，像是錄放映機般一幕幕在腦內中上演</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day6/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 6 回台灣/新千歲機場</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>最後一天要回台灣了</p>
+
+<h1 id="前往千歲機場">前往千歲機場</h1>
+
+<p>早上六點半起了大早，搭乘八點的おおぞら号從帶廣前往南千歲，大約一個半小時。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day5/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 5 釧路/塘路/釧路湿原/帶廣</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="前往釧路湿原">前往釧路湿原</h1>
+
+<p>原先是想搭乘早上八點的摩周號前往釧路湿原遊玩，規劃行程拜訪了其他部落客的行程，可以在釧路湿原站下車一路遊玩漫步到細岡站在搭列車到塘路站。沒想到後來我仔細觀察時刻表後才發現冬天早上的班次沒有一班列車會到達釧路湿原。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day4/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 4 網走/流冰破冰船/前往釧路</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><h1 id="網走">網走</h1>
+
+<p>原先以為網走會是整躺行程最冷的地方，畢竟處於北海道右上方，加上海上的破冰船可能是開放空間氣溫直下零下10幾度，結果早上出太陽，體感溫度只有3-4度，特涼爽，破冰船船內也有冷氣。對比於我們對網走的幻象就是一個大雪大風的印象好像不是這麼的符合</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day3/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 3 前往網走/札幌雪祭/旭川平和通買物公園</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>第三天的行程被我媽稱為<code>一波三折</code>，受到前一天的大雪，使得今天大部分前往網走的列車都停駛，雖然最後晚上11點順利到達網走，但原先規劃下午在網走的行程都被迫取消，這也是我們在幾次自由行中第一次面臨的突發事件與抉擇。</p>
+
+<p>不過雖然今日在網走的主要行程沒有去成，但也多兩個行程，包含參觀大通公園的2019年札幌雪祭與旭川的平和買物公園健行。最重要的是兩個人在討論進退的過程，挺充實的呢！</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://minayu.site/2019/02/travel-hokkaido-east-day2/">
+                <h3 class="media-heading">[2019 北海道 札幌/道東] DAY 2 千歲/支笏湖/紀國伊書店/風月</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>今天是本次北海道札幌/道東的第二天，本日主要行程為支笏湖與札幌車站的紀伊國屋書店買書。</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         451 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://minayu.site/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://minayu.site/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/minayu.site\/2019\/01\/from-wordpress-to-hugo\/';
+          
+            this.page.identifier = '\/2019\/01\/from-wordpress-to-hugo\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'minayu';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
