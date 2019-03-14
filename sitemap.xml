@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/03/%E8%AA%9E%E8%A8%80-%E5%8F%B0%E7%81%A3%E8%88%87%E6%97%A5%E6%9C%AC%E7%9A%84%E6%9B%B8%E5%BA%97%E8%A7%80%E5%AF%9F%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/03/it-things-backend-unit-test/</loc>
     <lastmod>2019-03-05T17:17:08+08:00</lastmod>
   </url>
@@ -2312,6 +2317,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/bookstore/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/categories/</loc>
     <lastmod>2019-01-19T23:46:50+08:00</lastmod>
     <priority>0</priority>
@@ -2408,6 +2419,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/japan/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/junior/</loc>
     <lastmod>2019-03-05T17:17:08+08:00</lastmod>
     <priority>0</priority>
@@ -2421,19 +2438,25 @@
   
   <url>
     <loc>https://minayu.site/categories/language/</loc>
-    <lastmod>2018-12-17T11:08:05+00:00</lastmod>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://minayu.site/tags/me/</loc>
-    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
+    <loc>https://minayu.site/tags/language-learning/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minayu.site/categories/me/</loc>
     <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/me/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2510,6 +2533,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/taiwan/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/tampax/</loc>
     <lastmod>2019-01-20T21:21:01+08:00</lastmod>
     <priority>0</priority>
@@ -2530,6 +2559,12 @@
   <url>
     <loc>https://minayu.site/categories/travel-diary/</loc>
     <lastmod>2019-02-10T00:20:47+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/trend/</loc>
+    <lastmod>2019-03-13T14:22:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
