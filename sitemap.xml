@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/2019/03/%E4%BF%84%E6%96%87-%E5%9B%A0%E7%82%BA%E6%97%A5%E5%8A%87%E6%88%91%E9%96%8B%E5%A7%8B%E5%AD%B8%E7%BF%92%E4%BF%84%E6%96%87-%E4%BF%84%E6%96%87%E6%96%87%E6%B3%95%E6%9B%B8%E4%BB%8B%E7%B4%B9/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/2019/03/it-things-backend-unit-test/</loc>
     <lastmod>2019-03-05T17:17:08+08:00</lastmod>
   </url>
@@ -2322,6 +2327,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/book/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/bookstore/</loc>
     <lastmod>2019-03-13T14:22:11+08:00</lastmod>
     <priority>0</priority>
@@ -2384,6 +2395,12 @@
   <url>
     <loc>https://minayu.site/tags/godaddy/</loc>
     <lastmod>2019-01-19T23:46:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/grammer/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2454,6 +2471,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/learning/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/me/</loc>
     <lastmod>2019-02-23T11:01:37+08:00</lastmod>
     <priority>0</priority>
@@ -2498,6 +2521,18 @@
   <url>
     <loc>https://minayu.site/tags/review/</loc>
     <lastmod>2019-02-23T12:13:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/russian/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/categories/russian/</loc>
+    <lastmod>2019-03-13T13:28:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
