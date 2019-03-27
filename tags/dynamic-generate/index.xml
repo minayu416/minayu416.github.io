@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic Generate on @Mina&#39;s Life Travel</title>
+    <link>https://minayu.site/tags/dynamic-generate/</link>
+    <description>Recent content in Dynamic Generate on @Mina&#39;s Life Travel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 16:55:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://minayu.site/tags/dynamic-generate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Python] 動態生成單元測試/設置環境, 移除環境</title>
+      <link>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</link>
+      <pubDate>Fri, 22 Mar 2019 16:55:34 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</guid>
+      <description>&lt;p&gt;學了一陣子實作單元測試後, 先前是前輩會先把單元測試的架構寫好讓我去實作code&lt;/p&gt;
+
+&lt;p&gt;但前輩走了之後，現在的單元測試已經無法符合新開發的功能，必須去研究新的方法來稍微改寫框架，這篇主要紀錄新學習的單元測試相關的功能 &lt;code&gt;動態生成單元測試&lt;/code&gt; 及 &lt;code&gt;設置測試環境, 移除環境&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

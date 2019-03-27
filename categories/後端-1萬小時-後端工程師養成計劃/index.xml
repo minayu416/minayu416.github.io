@@ -6,10 +6,21 @@
     <description>Recent content in 後端 1萬小時 後端工程師養成計劃 on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Mar 2019 17:17:08 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 16:55:34 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/categories/%E5%BE%8C%E7%AB%AF-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Python] 動態生成單元測試/設置環境, 移除環境</title>
+      <link>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</link>
+      <pubDate>Fri, 22 Mar 2019 16:55:34 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</guid>
+      <description>&lt;p&gt;學了一陣子實作單元測試後, 先前是前輩會先把單元測試的架構寫好讓我去實作code&lt;/p&gt;
+
+&lt;p&gt;但前輩走了之後，現在的單元測試已經無法符合新開發的功能，必須去研究新的方法來稍微改寫框架，這篇主要紀錄新學習的單元測試相關的功能 &lt;code&gt;動態生成單元測試&lt;/code&gt; 及 &lt;code&gt;設置測試環境, 移除環境&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</title>
