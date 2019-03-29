@@ -23,6 +23,19 @@
     </item>
     
     <item>
+      <title>[後端小菜鳥] Python Decorator 實作學習</title>
+      <link>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</link>
+      <pubDate>Wed, 13 Mar 2019 18:41:28 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</guid>
+      <description>&lt;p&gt;在約莫一兩個月前，我被賦予一個任務是利用Python Decorator做重構&lt;/p&gt;
+
+&lt;p&gt;當時我還不知道使用Decorator來解決問題，可以砍掉專案一半的代碼&lt;/p&gt;
+
+&lt;p&gt;Decorator是一個超棒的方法，但對於我來說它並不太好學習。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</title>
       <link>https://minayu.site/2019/03/it-things-backend-unit-test/</link>
       <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
