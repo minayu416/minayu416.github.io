@@ -30,10 +30,10 @@
     
     <item>
       <title>[Apple] Airpods 1 開箱/搭配 Android手機</title>
-      <link>https://minayu.site/2019/03/apple-airpods-1-%E9%96%8B%E7%AE%B1-%E6%90%AD%E9%85%8D-android%E6%89%8B%E6%A9%9F/</link>
+      <link>https://minayu.site/2019/03/wow-i-get-airpods/</link>
       <pubDate>Fri, 29 Mar 2019 22:37:17 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/apple-airpods-1-%E9%96%8B%E7%AE%B1-%E6%90%AD%E9%85%8D-android%E6%89%8B%E6%A9%9F/</guid>
+      <guid>https://minayu.site/2019/03/wow-i-get-airpods/</guid>
       <description>&lt;p&gt;嗨，大家！&lt;/p&gt;
 
 &lt;p&gt;這是&amp;hellip;. 完全超少在本網站出現的&lt;/p&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>[後端小菜鳥] Python Decorator 實作學習</title>
-      <link>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</link>
+      <link>https://minayu.site/2019/03/it-things-learn-python-decorator/</link>
       <pubDate>Wed, 13 Mar 2019 18:41:28 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</guid>
+      <guid>https://minayu.site/2019/03/it-things-learn-python-decorator/</guid>
       <description>&lt;p&gt;在約莫一兩個月前，我被賦予一個任務是利用Python Decorator做重構&lt;/p&gt;
 
 &lt;p&gt;當時我還不知道使用Decorator來解決問題，可以砍掉專案一半的代碼&lt;/p&gt;
@@ -225,6 +225,19 @@
 以往都是趁坐車寫文章，回去台灣也未必有時間靜下心來把這次的自由行寫完，因為真的蠻刺激（?）的。&lt;/p&gt;
 
 &lt;p&gt;按照慣例將本次自由行資訊交代一下，接著就進第一天行程：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[設計模式 Design Pattern] Builder Pattern</title>
+      <link>https://minayu.site/2019/02/it-thing-builder-pattern/</link>
+      <pubDate>Fri, 01 Feb 2019 11:13:45 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/02/it-thing-builder-pattern/</guid>
+      <description>&lt;p&gt;要不是前輩們逼著自己學 Class 物件的實作，可能我到現在都還不會寫任何Class&lt;/p&gt;
+
+&lt;p&gt;我一直覺得Class很難，看著前輩們各種高超的物件使用，我覺得我大概一輩子都學不會吧？&lt;/p&gt;
+
+&lt;p&gt;接到的任務是使用Class Builder 重構專案的程式碼，雖然沒有我理解Decorator這麼的困難，大概花了我半天(?）還是一天的時間嘗試&lt;/p&gt;</description>
     </item>
     
     <item>

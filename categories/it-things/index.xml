@@ -13,10 +13,10 @@
     
     <item>
       <title>[後端小菜鳥] Python Decorator 實作學習</title>
-      <link>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</link>
+      <link>https://minayu.site/2019/03/it-things-learn-python-decorator/</link>
       <pubDate>Wed, 13 Mar 2019 18:41:28 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-python-decorator-%E5%AF%A6%E4%BD%9C%E5%AD%B8%E7%BF%92/</guid>
+      <guid>https://minayu.site/2019/03/it-things-learn-python-decorator/</guid>
       <description>&lt;p&gt;在約莫一兩個月前，我被賦予一個任務是利用Python Decorator做重構&lt;/p&gt;
 
 &lt;p&gt;當時我還不知道使用Decorator來解決問題，可以砍掉專案一半的代碼&lt;/p&gt;
@@ -50,6 +50,19 @@
 &lt;p&gt;想想當初只不過第一次面試，當然要客套話說盡，沒想到居然無意之間被選上qqq，大感動！&lt;/p&gt;
 
 &lt;p&gt;哪這麼偉大，據科普顯示，才不會有人願意使用職場新手擔任後端工程師，因為一個搞不好，系統就會炸掉qq&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[設計模式 Design Pattern] Builder Pattern</title>
+      <link>https://minayu.site/2019/02/it-thing-builder-pattern/</link>
+      <pubDate>Fri, 01 Feb 2019 11:13:45 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/02/it-thing-builder-pattern/</guid>
+      <description>&lt;p&gt;要不是前輩們逼著自己學 Class 物件的實作，可能我到現在都還不會寫任何Class&lt;/p&gt;
+
+&lt;p&gt;我一直覺得Class很難，看著前輩們各種高超的物件使用，我覺得我大概一輩子都學不會吧？&lt;/p&gt;
+
+&lt;p&gt;接到的任務是使用Class Builder 重構專案的程式碼，雖然沒有我理解Decorator這麼的困難，大概花了我半天(?）還是一天的時間嘗試&lt;/p&gt;</description>
     </item>
     
     <item>
