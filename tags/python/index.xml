@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on @Mina&#39;s Life Travel</title>
+    <title>python on @Mina&#39;s Life Travel</title>
     <link>https://minayu.site/tags/python/</link>
-    <description>Recent content in Python on @Mina&#39;s Life Travel</description>
+    <description>Recent content in python on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2019 16:55:34 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>[Python] 動態生成單元測試/設置環境, 移除環境</title>
-      <link>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</link>
+      <link>https://minayu.site/blog/unittest-dynamic-generate-test-case-setup-teardown/</link>
       <pubDate>Fri, 22 Mar 2019 16:55:34 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/unittest-dynamic-generate-test-case-setup-teardown/</guid>
+      <guid>https://minayu.site/blog/unittest-dynamic-generate-test-case-setup-teardown/</guid>
       <description>&lt;p&gt;學了一陣子實作單元測試後, 先前是前輩會先把單元測試的架構寫好讓我去實作code&lt;/p&gt;
 
 &lt;p&gt;但前輩走了之後，現在的單元測試已經無法符合新開發的功能，必須去研究新的方法來稍微改寫框架，這篇主要紀錄新學習的單元測試相關的功能 &lt;code&gt;動態生成單元測試&lt;/code&gt; 及 &lt;code&gt;設置測試環境, 移除環境&lt;/code&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>[後端小菜鳥] Python Decorator 實作學習</title>
-      <link>https://minayu.site/2019/03/it-things-learn-python-decorator/</link>
+      <link>https://minayu.site/blog/it-things-learn-python-decorator/</link>
       <pubDate>Wed, 13 Mar 2019 18:41:28 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/it-things-learn-python-decorator/</guid>
+      <guid>https://minayu.site/blog/it-things-learn-python-decorator/</guid>
       <description>&lt;p&gt;在約莫一兩個月前，我被賦予一個任務是利用Python Decorator做重構&lt;/p&gt;
 
 &lt;p&gt;當時我還不知道使用Decorator來解決問題，可以砍掉專案一半的代碼&lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</title>
-      <link>https://minayu.site/2019/03/it-things-backend-unit-test/</link>
+      <link>https://minayu.site/blog/it-things-backend-unit-test/</link>
       <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
       
-      <guid>https://minayu.site/2019/03/it-things-backend-unit-test/</guid>
+      <guid>https://minayu.site/blog/it-things-backend-unit-test/</guid>
       <description>&lt;p&gt;趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR&lt;/p&gt;
 
 &lt;p&gt;在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為&lt;code&gt;單元測試 Unit Test&lt;/code&gt;&lt;/p&gt;

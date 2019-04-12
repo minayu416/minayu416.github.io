@@ -1,0 +1,1562 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://minayu.site"
+        },
+        "articleSection" : "blog",
+        "name" : "[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output",
+        "headline" : "[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output",
+        "description" : "<p>在<a href="https://minayu.site/2018/11/後端小菜鳥-如何突破新手階段/">如何突破新手階段</a>中，好像沒有太深刻提到重構的部分</p>
+
+<p>在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出</p>
+
+<p>在這篇稍微筆記一下重構，順便想講一下Input/Output</p>",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-12-03 04:02:48 &#43;0000 &#43;0000",
+        "dateModified" : "2018-12-03 04:02:48 &#43;0000 &#43;0000",
+        "url" : "https://minayu.site/blog/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b44-%e9%87%8d%e6%a7%8brefactoring-inputoutput/",
+        "wordCount" : "188",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.53" />
+        
+
+
+  
+    
+    
+  
+
+  
+
+  <link rel="icon" href='https://minayu.site/img/favicon.jpg'>
+
+
+
+
+        
+            <meta name="author" content="minayu416">
+        
+        
+            
+                <meta name="description" content="自信､ 正面思考､ 獨立､ 勇敢､ 表達､ 挑戰">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output"/>
+<meta name="twitter:description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output"/>
+<meta name="twitter:site" content="@MingJungYU"/>
+
+        <meta property="og:title" content="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output" />
+<meta property="og:description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://minayu.site/blog/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b44-%e9%87%8d%e6%a7%8brefactoring-inputoutput/" /><meta property="article:published_time" content="2018-12-03T04:02:48&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-03T04:02:48&#43;00:00"/>
+
+        <meta property="og:image" content="https://minayu.site/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output">
+<meta itemprop="description" content="在如何突破新手階段中，好像沒有太深刻提到重構的部分
+
+在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出
+
+在這篇稍微筆記一下重構，順便想講一下Input/Output">
+
+
+<meta itemprop="datePublished" content="2018-12-03T04:02:48&#43;00:00" />
+<meta itemprop="dateModified" content="2018-12-03T04:02:48&#43;00:00" />
+<meta itemprop="wordCount" content="188">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://minayu.site/css/main.css">
+            <link rel="stylesheet" href="https://minayu.site/css/add-on.css">
+            <link rel="stylesheet" href="https://minayu.site/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://minayu.site/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://minayu.site/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/itemized/">
+                            <i class="fa fa-list">&nbsp;</i>Itemized
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://minayu.site">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://minayu.site">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://minayu.site/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/itemized/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Itemized
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/blog/2019-improvement/">2019年新年新希望</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-16'>
+                                    November 16, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/blog/2019-improvement/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2018/11//cropped-img_9342-1.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/blog/overcome-insecure-love/">如何克服愛情裡的不安全感</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-04-06'>
+                                    April 6, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/blog/2019-improvement-april-review/">2019年新年新希望 - 第一季 Review</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-04-04'>
+                                    April 4, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/blog/wow-i-get-airpods/">[Apple] Airpods 1 開箱/搭配 Android手機</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-03-29'>
+                                    March 29, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/blog/wow-i-get-airpods/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2019/03//selfiecity_20190329215625_save1033579026270333942.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/blog/stop-prepare-and-go/">[Me] 整頓自己，準備出發</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-03-27'>
+                                    March 27, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;text=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output&amp;via=MingJungYU" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;description=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by minayu416&amp;body=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://minayu.site/blog/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b44-%e9%87%8d%e6%a7%8brefactoring-inputoutput/">[後端小菜鳥]初階工程師魔鬼訓練(4) - 重構Refactoring / Input&amp;Output</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-12-03'>
+            December 3, 2018</time>
+        <span class="author">minayu416</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;text=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output&amp;via=MingJungYU" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;title=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f&amp;description=%5b%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5%5d%e5%88%9d%e9%9a%8e%e5%b7%a5%e7%a8%8b%e5%b8%ab%e9%ad%94%e9%ac%bc%e8%a8%93%e7%b7%b4%284%29%20-%20%e9%87%8d%e6%a7%8bRefactoring%20%2f%20Input%26Output" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by minayu416&amp;body=https%3a%2f%2fminayu.site%2fblog%2f%25e5%25be%258c%25e7%25ab%25af%25e5%25b0%258f%25e8%258f%259c%25e9%25b3%25a5%25e5%2588%259d%25e9%259a%258e%25e5%25b7%25a5%25e7%25a8%258b%25e5%25b8%25ab%25e9%25ad%2594%25e9%25ac%25bc%25e8%25a8%2593%25e7%25b7%25b44-%25e9%2587%258d%25e6%25a7%258brefactoring-inputoutput%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    <p>在<a href="https://minayu.site/2018/11/後端小菜鳥-如何突破新手階段/">如何突破新手階段</a>中，好像沒有太深刻提到重構的部分</p>
+
+<p>在被列為初階工程師應學的幾個項目中，重構是其中一項
+搭配單元測試，能將發揮出高效率低Bug的產出</p>
+
+<p>在這篇稍微筆記一下重構，順便想講一下Input/Output</p>
+
+<p>在新手時期，我們習慣將程式一次性從頭寫到尾</p>
+
+<p>習慣for迴圈包for迴圈</p>
+
+<p>但這往往在除錯的時候造成作業困難</p>
+
+<p>列一下重構的解釋
+<a href="https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84"><strong>重構 Refactoring</strong></a></p>
+
+<p>重構為敏捷開發方法之一</p>
+
+<p>指的是將原先寫的程式碼在不影響輸出的情況下做簡化，增加可讀性</p>
+
+<p>這麼一來萬一出Bugs, 也比較好Debug，尤其是當你面對上萬條程式碼時</p>
+
+<p>打個比方，假設我要連接db insert 五筆資料</p>
+
+<p>一部分的程式碼開始會是這樣寫</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>如果要五筆資料那就</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>可是如果要五筆不同的資料呢？</p>
+
+<pre><code>engine = ...
+connection = engine.connect()
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Amy', 'Amy@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Jason', 'Jason@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Koff', 'Koff@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Annie', 'Annie@123')&quot;)
+engine.execute(&quot;INSERT INTO User(User,Email) VALUES ('Bob', 'Bob@123')&quot;)
+connection.close()
+</code></pre>
+
+<p>複製五筆改一下就好，可是我就被罵了xDDDD</p>
+
+<p>後來我改了程式碼</p>
+
+<pre><code>def insert_data():
+    sql = &quot;INSERT INTO User(User,Email) VALUES &quot;
+    engine.execute(&quot;{sql}('{user}', '{email}')&quot;.format(sql=sql, user=user, email=email))
+
+def connection():
+    engine = ...
+    connection = engine.connect()
+    insert_data()
+    connection.close()
+
+user_list = [Amy, Koff, Jason, Bob, Cathy]
+for i in user_list:
+    user = i
+    email = &quot;...&quot;
+    connection()
+</code></pre>
+
+<p>我不知道這樣寫會不會work，不過範例是這樣</p>
+
+<p>這還是蠻淺的部分</p>
+
+<p>未來要是遇到更多更複雜的程式碼</p>
+
+<p>「硬幹」不會是一個好方法，「硬寫」也不會</p>
+
+<p>除了讓程式碼可讀性降低，容易出錯外，抓錯也很難抓</p>
+
+<p>雖然現在手邊沒有比較好的例子</p>
+
+<p>假設你寫了迴圈包迴圈，再加If/Else 的語法</p>
+
+<p>亦或者寫的程式複雜度比這個更好</p>
+
+<p>將你寫的程式做重構整理會比較好</p>
+
+<p>雖然我現在也還是在很幼幼的階級，但會秉持著兩個原則去更改我的程式</p>
+
+<ol>
+<li><p>不要寫重複的程式碼，若會有需重複作業的，看能不能抽出去為一個函式做共用功能</p></li>
+
+<li><p>看到看起來覺得不好看的程式碼，就思考一下有沒有其他方法能好看點</p></li>
+</ol>
+
+<p>剛進公司的時候我寫的程式碼也是很難看，也是經過很多練習到現在才”稍微“好一點</p>
+
+<hr />
+
+<p>再來是** Input/ Output**</p>
+
+<p>這部分分為兩個</p>
+
+<ol>
+<li><p>當自己覺得很頭痛不知道該怎麼寫功能時</p></li>
+
+<li><p>當後端與前端或其他做溝通/連接時</p></li>
+</ol>
+
+<p>在寫程式的時候，會遇到很多次不知所措</p>
+
+<p>前輩會跟我說，當你遇到開發一個新功能時，你只要關心程式的Input/ Output</p>
+
+<p>也就是說，你會送怎樣形式的資料進程式，還有經過你寫的程式後，輸出的資料會長怎麼樣</p>
+
+<p>若輸進(Input) 的指令是一個代碼(假設225)，輸出(Output)得是對應到225的dataframe</p>
+
+<p>輸進輸出都定好了，接下來的工作就是如何將225跟225的dataframe串起並輸出</p>
+
+<p>然後就分細節去撰寫了</p>
+
+<hr />
+
+<p>再來就是前端跟後端在溝通時，所使用的格式</p>
+
+<p>通常前端跟後端使用的語言會不同，所以他們溝通的形式就是Json(或其他)</p>
+
+<p>所以在寫程式的時候，後端要注意前端傳進什麼資料(Input)，並注意前端要什麼資料(Output)</p>
+
+<p>前端也是注意後端傳進什麼資料(Input)，要做什麼功能(Output)</p>
+
+<p>只要輸入輸出是對的，通常程式都是可以Work，至於其他的細節又是別的事了</p>
+
+<p>只是說當需要開發新功能，或不知道程式怎麼做的時候：</p>
+
+<ul>
+<li><p>先定好輸入輸出的規格</p></li>
+
+<li><p>根據如何將輸入變成輸出做程式規劃</p></li>
+
+<li><p>拆解程式細節並一一做撰寫</p></li>
+</ul>
+
+<p>這篇先分享到這，有更新在後續做修改囉</p>
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://minayu.site/categories/it-things-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83">[IT Things] 1萬小時 - 後端工程師養成計劃</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "minayu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://minayu.site/blog/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5-%e7%b7%b4%e5%a5%bd%e5%9f%ba%e6%9c%ac%e5%8a%9f/"
+                class="button big previous">[後端小菜鳥] 練好基本功</a></li>
+    
+
+    
+        <li><a href="https://minayu.site/blog/%e5%be%8c%e7%ab%af%e5%b0%8f%e8%8f%9c%e9%b3%a5-%e8%bb%9f%e9%ab%94%e5%b7%a5%e7%a8%8b%e5%b8%ab%e7%9a%84%e7%ad%86%e8%a8%98%e6%9c%ac/"
+                class="button big next">[後端小菜鳥] 軟體工程師的筆記本</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://minayu.site/' class="logo"><img src="https://minayu.site/img/logo.jpg" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>@Mina&#39;s Life Travel</h2>
+        <p>自信､ 正面思考､ 獨立､ 勇敢､ 表達､ 挑戰 <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/minayu416" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//minayu0416.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+
+
+  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/MingJungYU" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:yuukoyu416@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/blog/2019-improvement/">2019年新年新希望</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-16'>
+                November 16, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/blog/2019-improvement/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2018/11//cropped-img_9342-1.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/blog/overcome-insecure-love/">如何克服愛情裡的不安全感</a>
+              </h3>
+              
+              <time class="published" datetime='2019-04-06'>
+                April 6, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/blog/2019-improvement-april-review/">2019年新年新希望 - 第一季 Review</a>
+              </h3>
+              
+              <time class="published" datetime='2019-04-04'>
+                April 4, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/blog/wow-i-get-airpods/">[Apple] Airpods 1 開箱/搭配 Android手機</a>
+              </h3>
+              
+              <time class="published" datetime='2019-03-29'>
+                March 29, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/blog/wow-i-get-airpods/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2019/03//selfiecity_20190329215625_save1033579026270333942.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/blog/stop-prepare-and-go/">[Me] 整頓自己，準備出發</a>
+              </h3>
+              
+              <time class="published" datetime='2019-03-27'>
+                March 27, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://minayu.site/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/me/">Me</a>
+                <span style="float:right;">178</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/note-%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98/">[Note] 研究所上課筆記</a>
+                <span style="float:right;">52</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/">[IT Things] 1萬小時 - 後端工程師養成計劃</a>
+                <span style="float:right;">33</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E7%9E%8E%E8%AA%AA%E7%9E%8E%E8%AA%AA/">[IT Things] 瞎說瞎說</a>
+                <span style="float:right;">19</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/">[Language] 托福準備紀錄</a>
+                <span style="float:right;">18</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-german/">[Language] German</a>
+                <span style="float:right;">15</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E7%A2%A9%E8%AB%96%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/">[IT Things] 碩論程式開發紀錄</a>
+                <span style="float:right;">13</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93/">[Travel] 日本－北海道</a>
+                <span style="float:right;">13</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-japanese/">[Language] Japanese</a>
+                <span style="float:right;">12</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-english/">[Language] English</a>
+                <span style="float:right;">11</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E7%BE%8E%E5%9C%8Bjuniata/">[Travel] 美國－Juniata</a>
+                <span style="float:right;">11</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81/">[IT Things] 初次學習寫網頁</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B/">[IT Things] 關於部落格的那點事</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B/">[Travel] 日本－四國</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC/">[Travel] 日本－東京</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-russian/">[Language] Russian</a>
+                <span style="float:right;">7</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/%E6%8A%80%E5%B7%A7/">[Language] 學習資源/技巧</a>
+                <span style="float:right;">7</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                Uncategorized
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B/%E5%86%B0%E5%B3%B6/">[Travel] 北歐－英國/冰島</a>
+                <span style="float:right;">3</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-spanish/">[Language] Spanish</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E5%8F%B0%E7%81%A3/">[Travel] 台灣</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%BE%B3%E6%B4%B2/">[Travel] 澳洲</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+      <a href="https://minayu.site/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/minayu416" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//minayu0416.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+
+
+  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/MingJungYU" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:yuukoyu416@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2019
+        
+          @Mina&#39;s Life Travel
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://minayu.site/js/util.js"></script>
+      <script src="https://minayu.site/js/main.js"></script>
+      <script src="https://minayu.site/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
