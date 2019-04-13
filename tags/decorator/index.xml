@@ -13,10 +13,10 @@
     
     <item>
       <title>[後端小菜鳥] Python Decorator 實作學習</title>
-      <link>https://minayu.site/blog/it-things-learn-python-decorator/</link>
+      <link>https://minayu.site/blog/2019-03-13-it-things-learn-python-decorator/</link>
       <pubDate>Wed, 13 Mar 2019 18:41:28 +0800</pubDate>
       
-      <guid>https://minayu.site/blog/it-things-learn-python-decorator/</guid>
+      <guid>https://minayu.site/blog/2019-03-13-it-things-learn-python-decorator/</guid>
       <description>&lt;p&gt;在約莫一兩個月前，我被賦予一個任務是利用Python Decorator做重構&lt;/p&gt;
 
 &lt;p&gt;當時我還不知道使用Decorator來解決問題，可以砍掉專案一半的代碼&lt;/p&gt;

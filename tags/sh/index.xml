@@ -13,10 +13,10 @@
     
     <item>
       <title>[技術小筆記] sh/bash 檔 字串判斷回傳0/1</title>
-      <link>https://minayu.site/blog/tech-note-sh-str-len-if-else/</link>
+      <link>https://minayu.site/blog/2019-01-11-tech-note-sh-str-len-if-else/</link>
       <pubDate>Fri, 11 Jan 2019 08:56:12 +0000</pubDate>
       
-      <guid>https://minayu.site/blog/tech-note-sh-str-len-if-else/</guid>
+      <guid>https://minayu.site/blog/2019-01-11-tech-note-sh-str-len-if-else/</guid>
       <description>&lt;p&gt;這個case是寫一個.sh檔，跑了以後會去找test.txt檔案&lt;/p&gt;
 
 &lt;p&gt;在sh 指令中，跑完指令系統回傳0 代表成功, 回傳1代表失敗&lt;/p&gt;

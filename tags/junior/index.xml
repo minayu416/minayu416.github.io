@@ -13,10 +13,10 @@
     
     <item>
       <title>[後端小菜鳥]初階工程師魔鬼訓練(6) - 淺談單元測試UnitTest</title>
-      <link>https://minayu.site/blog/it-things-backend-unit-test/</link>
+      <link>https://minayu.site/blog/2019-03-05-back-end-newbie-the-devil-training-of-junior6-unittest/</link>
       <pubDate>Tue, 05 Mar 2019 17:17:08 +0800</pubDate>
       
-      <guid>https://minayu.site/blog/it-things-backend-unit-test/</guid>
+      <guid>https://minayu.site/blog/2019-03-05-back-end-newbie-the-devil-training-of-junior6-unittest/</guid>
       <description>&lt;p&gt;趁著跑單元測試的時間，來把我腦袋飛亂想撰寫此篇的內容寫出，實現作為後端小菜鳥的Q1 OKR&lt;/p&gt;
 
 &lt;p&gt;在前幾篇提及，從做為一個萌新點擊新的品質(quality)三部曲技能樹，除了重構外，第二個同時間學習的大重點為&lt;code&gt;單元測試 Unit Test&lt;/code&gt;&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>[我在新創科技業的日子] 迅速與品質</title>
-      <link>https://minayu.site/blog/it-things-quickly-and-quality/</link>
+      <link>https://minayu.site/blog/2019-02-23-it-thing-quickly-and-quality/</link>
       <pubDate>Sat, 23 Feb 2019 12:13:13 +0800</pubDate>
       
-      <guid>https://minayu.site/blog/it-things-quickly-and-quality/</guid>
+      <guid>https://minayu.site/blog/2019-02-23-it-thing-quickly-and-quality/</guid>
       <description>&lt;p&gt;趁跑單元測試的時間, 來發篇沈睡在草稿夾裡許久的文章&lt;/p&gt;
 
 &lt;p&gt;前陣子跟同事聊天，驚覺自己貌似是那個後端新手的幸運兒，因為誠懇的態度感動了前主管兼面試官，讓本菜鳥得以進入社會的殿堂發展自己的後端長才&lt;/p&gt;
