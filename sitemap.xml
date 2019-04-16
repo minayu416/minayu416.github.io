@@ -2282,14 +2282,14 @@
   </url>
   
   <url>
-    <loc>https://minayu.site/tags/me/</loc>
-    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
+    <loc>https://minayu.site/categories/me/</loc>
+    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://minayu.site/categories/me/</loc>
-    <lastmod>2018-11-16T02:50:33+00:00</lastmod>
+    <loc>https://minayu.site/tags/me/</loc>
+    <lastmod>2019-02-23T11:01:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2398,6 +2398,12 @@
   <url>
     <loc>https://minayu.site/categories/language-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</loc>
     <lastmod>2017-07-12T10:05:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/categories/me-%E5%91%BD%E7%90%86-%E5%8D%A0%E5%8D%9C/</loc>
+    <lastmod>2019-03-20T12:18:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
