@@ -1,0 +1,1708 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://minayu.site"
+        },
+        "articleSection" : "blog",
+        "name" : "[DEVELOP]PYTHON 桌機版開發之(4)",
+        "headline" : "[DEVELOP]PYTHON 桌機版開發之(4)",
+        "description" : "<blockquote>pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '120.96.183.71' (timed out)")</blockquote>
+
+<p>Error: 2003</p>
+
+<p>mysql</p>",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-04-07 05:02:39 &#43;0000 &#43;0000",
+        "dateModified" : "2018-04-07 05:02:39 &#43;0000 &#43;0000",
+        "url" : "https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/",
+        "wordCount" : "177",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>[DEVELOP]PYTHON 桌機版開發之(4)</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.53" />
+        
+
+
+  
+    
+    
+  
+
+  
+
+  <link rel="icon" href='https://minayu.site/img/favicon.jpg'>
+
+
+
+
+        
+            <meta name="author" content="minayu416">
+        
+        
+            
+                <meta name="description" content="自信､ 正面思考､ 獨立､ 勇敢､ 表達､ 挑戰">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[DEVELOP]PYTHON 桌機版開發之(4)"/>
+<meta name="twitter:description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
+
+Error: 2003
+
+mysql"/>
+<meta name="twitter:site" content="@MingJungYU"/>
+
+        <meta property="og:title" content="[DEVELOP]PYTHON 桌機版開發之(4)" />
+<meta property="og:description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
+
+Error: 2003
+
+mysql" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/" /><meta property="article:published_time" content="2018-04-07T05:02:39&#43;00:00"/>
+<meta property="article:modified_time" content="2018-04-07T05:02:39&#43;00:00"/>
+
+        <meta property="og:image" content="https://minayu.site/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="[DEVELOP]PYTHON 桌機版開發之(4)">
+<meta itemprop="description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
+
+Error: 2003
+
+mysql">
+
+
+<meta itemprop="datePublished" content="2018-04-07T05:02:39&#43;00:00" />
+<meta itemprop="dateModified" content="2018-04-07T05:02:39&#43;00:00" />
+<meta itemprop="wordCount" content="177">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://minayu.site/css/main.css">
+            <link rel="stylesheet" href="https://minayu.site/css/add-on.css">
+            <link rel="stylesheet" href="https://minayu.site/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://minayu.site/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://minayu.site/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/itemized/">
+                            <i class="fa fa-list">&nbsp;</i>Itemized
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://minayu.site/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://minayu.site">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://minayu.site">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://minayu.site/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/itemized/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Itemized
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://minayu.site/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/2018/11/2019-improvement/">2019年新年新希望</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-16'>
+                                    November 16, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/2018/11/2019-improvement/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2018/11//cropped-img_9342-1.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/2019/04/overcome-insecure-love/">如何克服愛情裡的不安全感</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-04-06'>
+                                    April 6, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/2019/04/2019-improvement-april-review/">2019年新年新希望 - 第一季 Review</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-04-04'>
+                                    April 4, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/2019/03/wow-i-get-airpods/">[Apple] Airpods 1 開箱/搭配 Android手機</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-03-29'>
+                                    March 29, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/2019/03/wow-i-get-airpods/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2019/03//selfiecity_20190329215625_save1033579026270333942.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://minayu.site/2019/03/stop-prepare-and-go/">[Me] 整頓自己，準備出發</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-03-27'>
+                                    March 27, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;text=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29&amp;via=MingJungYU" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;description=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by minayu416&amp;body=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/">[DEVELOP]PYTHON 桌機版開發之(4)</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-04-07'>
+            April 7, 2018</time>
+        <span class="author">minayu416</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;text=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29&amp;via=MingJungYU" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;title=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f&amp;description=%5bDEVELOP%5dPYTHON%20%e6%a1%8c%e6%a9%9f%e7%89%88%e9%96%8b%e7%99%bc%e4%b9%8b%284%29" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by minayu416&amp;body=https%3a%2f%2fminayu.site%2f2018%2f04%2fdeveloppython-%25E6%25A1%258C%25E6%25A9%259F%25E7%2589%2588%25E9%2596%258B%25E7%2599%25BC%25E4%25B9%258B4%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    <blockquote>pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '120.96.183.71' (timed out)")</blockquote>
+
+<p>Error: 2003</p>
+
+<p>mysql</p>
+
+<p><img src="https://minayu0416.files.wordpress.com/2018/04/screen-shot-2018-04-07-at-12-33-18-pm.png" alt="Screen Shot 2018-04-07 at 12.33.18 PM" /></p>
+
+<p>解決方法：</p>
+
+<p><a href="https://stackoverflow.com/questions/7927854/start-mysql-server-from-command-line-on-mac-os-lion">https://stackoverflow.com/questions/7927854/start-mysql-server-from-command-line-on-mac-os-lion</a></p>
+
+<p>有可能出的問題</p>
+
+<ol>
+<li><p>你在你的電腦裡裝好mysql但沒有開啟他(就是你裝了apache，也要下指令開啟啊！)</p></li>
+
+<li><p>對面ip/虛擬機的port3306沒開</p></li>
+</ol>
+
+<p>開Terminal下指令</p>
+
+<p>Simply:</p>
+
+<p><code>mysql.server start</code></p>
+
+<p><code>mysql.server stop</code></p>
+
+<p><code>mysql.server restart</code></p>
+
+<p><img src="https://minayu0416.files.wordpress.com/2018/04/screen-shot-2018-04-07-at-12-35-29-pm.png" alt="Screen Shot 2018-04-07 at 12.35.29 PM" /></p>
+
+<hr />
+
+<p>然後還是報同樣的錯</p>
+
+<p>這次決定ssh進我的ubuntu主機看看</p>
+
+<p>解決方法：</p>
+
+<p><a href="http://www.configserverfirewall.com/ubuntu-linux/enable-mysql-remote-access-ubuntu/">http://www.configserverfirewall.com/ubuntu-linux/enable-mysql-remote-access-ubuntu/</a></p>
+
+<p><a href="http://gaznjang.blogspot.tw/2010/08/mysqld-bind-address.html">http://gaznjang.blogspot.tw/2010/08/mysqld-bind-address.html</a></p>
+
+<p>不過當我改到</p>
+
+<blockquote>bind-address            = 127.0.0.1
+
+bind-address            = 0.0.0.0</blockquote>
+
+<p>就被擋下來了</p>
+
+<p>一方面是檔案Read-Only</p>
+
+<p>一方面則是我怕按下去整個伺服器會掛掉</p>
+
+<p>但我還是把我找到的解法po出來</p>
+
+<hr />
+
+<p>然後默默地密了學弟</p>
+
+<p>在默默地含淚打給指導老師</p>
+
+<p>我想兩週沒看到他了，是該跟他回報一下了</p>
+
+<p>所以等週一吧</p>
+
+<p>目前就先弄眼前大數據分析的分析表吧QQ</p>
+
+<hr />
+
+<p>107.04.13 更新</p>
+
+<p>就在和(ㄐㄧㄥ)政(ㄍㄨㄛˋ)府(ㄐㄧˇ)打(ㄊㄧㄢ)了(ㄎㄨㄤˊ)一(ㄐㄧㄚ)場(ㄅㄢ)戰(ㄓ )後(ㄏㄡˋ)</p>
+
+<p>我終於回來更新一下，我這篇的進度</p>
+
+<p>約莫三天前，週一的時候到了研究室詢問了一下學弟</p>
+
+<p>我將</p>
+
+<blockquote>bind-address            = 127.0.0.1
+
+bind-address            = 0.0.0.0</blockquote>
+
+<p>這樣改後</p>
+
+<p>就能夠在我的python Desktop 應用端編譯成功連上我的虛擬機器端</p>
+
+<p>所以必須告訴大家的是，即便你將你的虛擬機對外開放後，你發現無法連上資料庫</p>
+
+<p>其實就是因為phpmysql阻擋你登入</p>
+
+<p>有可能的原因是</p>
+
+<ol>
+<li><p>檢查你自己電腦的mysql裝好後有沒有下指令開啟(對！電腦就是這麼笨，裝好你還要下指令讓他開)</p></li>
+
+<li><p>檢查你的機器/雲端/虛擬機器之類的ip有沒有對外開放</p></li>
+
+<li><p>若你的機器/雲端/虛擬機器為Ubuntu，請到etc資料夾檢查mysql有無對外開放與mysql的權限問題</p></li>
+</ol>
+
+<hr />
+
+<p>經過這次我自己生病兩週加上和指導老師隔絕的情況下自己胡搞瞎搞，雖然扛著崩潰的精神壓力很痛苦外，我其實還學到不少東西</p>
+
+<p><del>原來唐老師説牡羊座今年想死卻是個轉機是真的</del></p>
+
+<p>但打死我都不想再經歷一次那種巨大的精神壓力</p>
+
+<p>而這邊列了一下自己沒有外力幫助完全靠自己理解的新東西</p>
+
+<ol>
+<li><p>Ubuntu的Etc用處</p></li>
+
+<li><p>Mac中，Homebrew/Python&amp;pip</p></li>
+
+<li><p>Mysql+phpmyadmin</p></li>
+
+<li><p>Python Desktop+tkinter 開發</p></li>
+</ol>
+
+<p>首先</p>
+
+<blockquote>Ubuntu的Etc用處</blockquote>
+
+<p>至從買了個Mac，自己進入到一個全新的系統Unix</p>
+
+<p>一般使用蘋果系統的人應該比較不曉得，就是時常享受著蘋果產品帶來的質感跟炫富</p>
+
+<p>但其實由於蘋果的系統為Unix系統，我個人覺得跟Ubuntu還蠻像的</p>
+
+<p>但可能也是因為蘋果產品市佔率比linux高一點，所以有些公司會針對ios跟macOS開發軟體</p>
+
+<p>也就是說Mac的系統以論上介於Window這樣人性化和linux這樣偏機器化的系統中間</p>
+
+<p>有點偏人性化但也偏機械化</p>
+
+<p>而自己本身是一個一半聽懂人話，一半又是理科腦想探討機器的人</p>
+
+<p>所以對linux有著極大的興趣</p>
+
+<p>以往都是學弟們將ubuntu架好在機器上</p>
+
+<p>我們將寫的網路扔到home裡面</p>
+
+<p>這次有幸，從home往前探勘，才發現許多系統的運作操作，還有很多軟體程式都裝在目錄home的前一層</p>
+
+<p>也才知道etc是做什麼用的</p>
+
+<blockquote>Mac中，Homebrew/Python&pip</blockquote>
+
+<p>為什麼會說ubuntu和unix很像</p>
+
+<p>其實就是大家打開終端機，將目錄從/使用者/那端往前切後會發現</p>
+
+<p>使用者端(應該就是Home)之前的目錄跟資料夾，macOS和Ubuntu都很像</p>
+
+<p>應該說所有的系統操作跟軟體程式都裝在這一層</p>
+
+<p><img src="https://minayu0416.files.wordpress.com/2018/04/screen-shot-2018-04-13-at-2-46-06-pm.png" alt="Screen Shot 2018-04-13 at 2.46.06 PM" /></p>
+
+<p>所以很多開發者的部落格跟資訊常常說將你的程式寫在根目錄</p>
+
+<p>根目錄應該就是Home裡</p>
+
+<p>因為home以外的其他資料夾比較偏向是系統層面的東西</p>
+
+<p>還有如果你是新手再起初開發一些程式時，會發現有些部落客或者課程不會讓你開發的程式資料夾建在Desktop</p>
+
+<p>但Windows用久了，什麼東西除了扔桌面跟Download很少扔在其他地方</p>
+
+<p>但在Mac，既然是寫程式，其實就是將資料夾建在桌面上一層的地區</p>
+
+<blockquote>/Users/此區/Desktop/</blockquote>
+
+<p>所以如果你想要把一些你曾經建了卻不知道建在哪的開發程式資料夾刪除</p>
+
+<p>從桌面移動上一層目錄，應該會找到(系統應該也會幫你裝在那)</p>
+
+<p>換句話說，在windows等於建在Ｃ曹的Prgramfiles &lt;&lt; 這個東西換成中文就是程式的檔案啦～</p>
+
+<hr />
+
+<p>提到Homebrew其實是那時候mysql跟python套件那邊卡住</p>
+
+<p>還有我卡python2.7跟python3.6的時候</p>
+
+<p>Homebrew是蘋果的套件管理工具</p>
+
+<p>以前我常常把他跟pip搞錯</p>
+
+<p>所以如果你裝了什麼程式或者裝什麼程式的套件會需要使用到Homebrew</p>
+
+<p>而因為這樣我去下了些指令找出之前用Homebrew亂裝了些什麼</p>
+
+<p>早期不懂，只會看人家文章學著下指令裝</p>
+
+<p>但可能那時候想把python3.6殺掉，全部只用2.7，才想說找出homebrew清掉之前亂裝的東西</p>
+
+<p>啊因為我從進研究所開始寫程式的時候接觸到的全都是Python居多</p>
+
+<p>所以我以為pip install = 全部終端機安裝的用法</p>
+
+<p>所以拿這個指令在ubuntu猛按就是一直報錯XDD</p>
+
+<p>我應該可以這樣理解啦</p>
+
+<p>Python跟pip是綁在一起</p>
+
+<p>Python Package Index，簡稱PyPI</p>
+
+<p>他是軟體包管理系統，而可以拿來用來安裝Python的套件</p>
+
+<p>而不是像我因為沒有接觸過其他語言，就一直pip pip pip xDDDD</p>
+
+<p>然後打的很開心，報錯還一直問為什麼沒辦法裝!!! XD</p>
+
+<hr />
+
+<blockquote>Mysql+phpmyadmin</blockquote>
+
+<p>這解釋起來比較困難，但是要裝phpmyadmin就需要裝mysql</p>
+
+<p>然後A端連過去B端</p>
+
+<p>B端要裝phpmysql</p>
+
+<p>A端要裝，mysql及能連線mysql的套件(一樣專完mysql才能裝)</p>
+
+<p>mysql裝完記得開起來才能裝</p>
+
+<p>mysql跟python跟其他軟體都會被統一裝在一個地方(我那時候有看到可是我忘了是在哪個目錄裡)</p>
+
+<blockquote>Python Desktop+tkinter 開發</blockquote>
+
+<p>最後撒花一下</p>
+
+<p>就是學到了以往exe這類型的桌機檔都怎麼開發</p>
+
+<p>其實不會很困難，我們都把它想得十分十分的困難</p>
+
+<p>tkinter適用python開發的一種介面套件</p>
+
+<p>而開發桌機程式，我自己智障作法就是像網頁一樣先寫好幾個介面，再去一個一個定義裡面的功能，算是比較笨的方法，但我還不知道比較偏機械端的桌機版要怎麼跟資料庫連結像寫網頁那樣XD</p>
+
+<hr />
+
+<p>最後說一下，成功將bind改後，下一個被擋的原因</p>
+
+<p>也是我放棄改用別的的原因</p>
+
+<p>被黨的原因是phpmyadmin的database拒絕我這個電腦ip的連線</p>
+
+<p>但因為我本來就是希望開發這個程式丟給不同電腦的人使用，在將他們的資訊收集起來回送雲端</p>
+
+<p>而為什麼會拒絕電腦ip的連線</p>
+
+<p>主要就是在phpmyadmin裡的權限使用者那邊，需要新增</p>
+
+<p>如果是只有你一個人要用，你就在權限使用者那新增你的電腦就好</p>
+
+<p>但是，我是因為我要不同電腦的人回送他的資料回來</p>
+
+<p>我總不可能手動新增每個人電腦的ip進來</p>
+
+<p>再來利用像學校那樣的鎖ip網段，這種的可以在phpmyadmin上辦到，解決權限問題</p>
+
+<p>因為鎖ip網段是為了安全</p>
+
+<p>鎖權限也是為了安全</p>
+
+<p>還有一種就是你開發註冊帳號跟密碼的系統，這樣就能達到&rdquo;使用者登入&rdquo;(權限開放給使用者)</p>
+
+<p>而我的用意是希望將資料庫開發給大家回傳資料，這樣做法顯然不能用</p>
+
+<p>Python3.6+Pymsql的方法直接這樣搞</p>
+
+<p>請示了一下指導老師，也是說不行</p>
+
+<p>但得到一個新的名稱就是REST API</p>
+
+<p>還有請示指導老師後，我的程式開發也改了需求跟換了方式</p>
+
+<p>不一定還會繼續開發我的python Desktop Application</p>
+
+<p>但是由於這次美麗的誤打誤撞，我就把他寫下來記錄起來</p>
+
+<p>若以上有錯誤，再麻煩指正</p>
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://minayu.site/categories/it-things-%E7%A2%A9%E8%AB%96%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84">[IT Things] 碩論程式開發紀錄</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "minayu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/"
+                class="button big previous">[DEVELOP]PYTHON 桌機版開發之(3)</a></li>
+    
+
+    
+        <li><a href="https://minayu.site/2018/04/%E9%82%A3%E4%BA%9B%E5%B9%AB%E5%8A%A9%E6%88%91%E5%80%91%E7%AA%81%E7%A0%B4%E6%A5%B5%E9%99%90%E7%9A%84%E5%A3%93%E5%8A%9B%E5%85%A7%E5%90%AB%E5%BE%AE%E7%B4%AB%E5%BE%AE/"
+                class="button big next">那些幫助我們突破極限的壓力(內含微紫微)</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://minayu.site/' class="logo"><img src="https://minayu.site/img/logo.jpg" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>@Mina&#39;s Life Travel</h2>
+        <p>自信､ 正面思考､ 獨立､ 勇敢､ 表達､ 挑戰 <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/minayu416" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//minayu0416.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+
+
+  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/MingJungYU" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:yuukoyu416@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/2018/11/2019-improvement/">2019年新年新希望</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-16'>
+                November 16, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/2018/11/2019-improvement/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2018/11//cropped-img_9342-1.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/2019/04/overcome-insecure-love/">如何克服愛情裡的不安全感</a>
+              </h3>
+              
+              <time class="published" datetime='2019-04-06'>
+                April 6, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/2019/04/2019-improvement-april-review/">2019年新年新希望 - 第一季 Review</a>
+              </h3>
+              
+              <time class="published" datetime='2019-04-04'>
+                April 4, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/2019/03/wow-i-get-airpods/">[Apple] Airpods 1 開箱/搭配 Android手機</a>
+              </h3>
+              
+              <time class="published" datetime='2019-03-29'>
+                March 29, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://minayu.site/2019/03/wow-i-get-airpods/" class="image featured">
+            <img src="https://minayu0416.files.wordpress.com/2019/03//selfiecity_20190329215625_save1033579026270333942.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://minayu.site/2019/03/stop-prepare-and-go/">[Me] 整頓自己，準備出發</a>
+              </h3>
+              
+              <time class="published" datetime='2019-03-27'>
+                March 27, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://minayu.site/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/me/">Me</a>
+                <span style="float:right;">163</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/note-%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98/">[Note] 研究所上課筆記</a>
+                <span style="float:right;">52</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/">[IT Things] 1萬小時 - 後端工程師養成計劃</a>
+                <span style="float:right;">33</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E7%9E%8E%E8%AA%AA%E7%9E%8E%E8%AA%AA/">[IT Things] 瞎說瞎說</a>
+                <span style="float:right;">19</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/">[Language] 托福準備紀錄</a>
+                <span style="float:right;">18</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-german/">[Language] German</a>
+                <span style="float:right;">15</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/me-%E5%91%BD%E7%90%86-%E5%8D%A0%E5%8D%9C/">[Me] 命理 - 占卜</a>
+                <span style="float:right;">15</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E7%A2%A9%E8%AB%96%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E7%B4%80%E9%8C%84/">[IT Things] 碩論程式開發紀錄</a>
+                <span style="float:right;">13</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93/">[Travel] 日本－北海道</a>
+                <span style="float:right;">13</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-japanese/">[Language] Japanese</a>
+                <span style="float:right;">12</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-english/">[Language] English</a>
+                <span style="float:right;">11</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E7%BE%8E%E5%9C%8Bjuniata/">[Travel] 美國－Juniata</a>
+                <span style="float:right;">11</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                Uncategorized
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81/">[IT Things] 初次學習寫網頁</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/it-things-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B/">[IT Things] 關於部落格的那點事</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B/">[Travel] 日本－四國</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC/">[Travel] 日本－東京</a>
+                <span style="float:right;">9</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-russian/">[Language] Russian</a>
+                <span style="float:right;">7</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90-%E6%8A%80%E5%B7%A7/">[Language] 學習資源 － 技巧</a>
+                <span style="float:right;">7</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B-%E5%86%B0%E5%B3%B6/">[Travel] 北歐－英國 － 冰島</a>
+                <span style="float:right;">3</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/language-spanish/">[Language] Spanish</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E5%8F%B0%E7%81%A3/">[Travel] 台灣</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://minayu.site/categories/travel-%E6%BE%B3%E6%B4%B2/">[Travel] 澳洲</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+      <a href="https://minayu.site/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/minayu416" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//minayu0416.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+
+
+  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/MingJungYU" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:yuukoyu416@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2019
+        
+          @Mina&#39;s Life Travel
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://minayu.site/js/util.js"></script>
+      <script src="https://minayu.site/js/main.js"></script>
+      <script src="https://minayu.site/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
