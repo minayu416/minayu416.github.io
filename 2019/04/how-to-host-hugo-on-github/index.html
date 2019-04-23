@@ -636,6 +636,8 @@ if (!doNotTrack) {
 
 <p>接著進入我們的主題吧</p>
 
+<hr>
+
 <h1 id="如何架設多個網站">如何架設多個網站？</h1>
 
 <p>根據 <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#types-of-github-pages">Host on Github</a> 的 Hugo 文件</p>
@@ -655,6 +657,8 @@ if (!doNotTrack) {
 <p>由於這個福音XD，我也就可以實現我之前夢寐以求想要架一個圖廊來放我拍的照片加上紀錄生活</p>
 
 <p>那由於我認為先前的<a href="https://minayu.site/2019/01/from-wordpress-to-hugo/">[BLOG] 從WORDPRESS 移動到 HUGO</a> ，沒有很清楚明白地說明怎麼架設在Github上，所以我也就在介紹一次</p>
+
+<hr>
 
 <h3 id="第一個方法-https-username-organization-github-io">第一個方法: https://<USERNAME|ORGANIZATION>.github.io/</h3>
 
@@ -693,15 +697,17 @@ if (!doNotTrack) {
 <p>先commit 剛剛產生的內容</p>
 
 <blockquote>
-<p>git add .
-git commit -m &ldquo;push public&rdquo;</p>
+<p>git add .</p>
+
+<p>git commit -m &ldquo;push public&rdquo;</p>
 </blockquote>
 
 <p>將產生的內容 remote 到剛剛產生的repositories</p>
 
 <blockquote>
-<p>git remote add origin <a href="https://github.com/">https://github.com/</a><USERNAME>/<USERNAME>.github.io.git
-git push -u origin master</p>
+<p>git remote add origin <a href="https://github.com/">https://github.com/</a><USERNAME>/<USERNAME>.github.io.git</p>
+
+<p>git push -u origin master</p>
 </blockquote>
 
 <p>那段remote 太長的話，你可以按照剛剛剛開的repositories 指令貼上執行</p>
@@ -713,6 +719,8 @@ git push -u origin master</p>
 <p>選擇 <code>master branch</code></p>
 
 <p>如果都執行沒問題的話，稍等會就能進 <code>https://&lt;USERNAME&gt;.github.io/</code> 看看你剛剛產生的檔案囉！</p>
+
+<hr>
 
 <h3 id="第二個方法-https-username-organization-github-io-project">第二個方法: https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/</h3>
 
@@ -761,16 +769,20 @@ git push -u origin master</p>
 <p>先commit 剛剛產生的內容</p>
 
 <blockquote>
-<p>git add .
-git commit -m &ldquo;push public&rdquo;</p>
+<p>git add .</p>
+
+<p>git commit -m &ldquo;push public&rdquo;</p>
 </blockquote>
 
 <p>將產生的內容 remote 到剛剛產生的repositories</p>
 
 <blockquote>
-<p>git remote add origin <a href="https://github.com/minayu416/demo.git">https://github.com/minayu416/demo.git</a>
-＊ 記得改成自己的</p>
+<p>git remote add origin <a href="https://github.com/minayu416/demo.git">https://github.com/minayu416/demo.git</a></p>
+</blockquote>
 
+<p>＊ 記得改成自己的</p>
+
+<blockquote>
 <p>git push -u origin master</p>
 </blockquote>
 
