@@ -618,11 +618,6 @@
   </url>
   
   <url>
-    <loc>https://minayu.site/2018/01/2018-2/</loc>
-    <lastmod>2018-01-01T15:36:58+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://minayu.site/2018/01/2018/</loc>
     <lastmod>2018-01-01T15:36:58+00:00</lastmod>
   </url>
@@ -678,7 +673,7 @@
   </url>
   
   <url>
-    <loc>https://minayu.site/2017/12/%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98-%E7%A9%BA%E5%AE%AE%E6%8E%A2%E8%A8%8E/</loc>
+    <loc>https://minayu.site/2017/12/zi-wei-explore-empty-palace/</loc>
     <lastmod>2017-12-09T10:41:59+00:00</lastmod>
   </url>
   
@@ -898,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://minayu.site/2017/09/%E7%90%86%E7%A7%91%E6%80%9D%E7%B6%AD-vs-%E6%96%87%E7%A7%91%E6%80%9D%E7%B6%AD-%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C/</loc>
+    <loc>https://minayu.site/2017/09/science-vs-liberal-arts-difference-of-thinking/</loc>
     <lastmod>2017-09-01T15:26:18+00:00</lastmod>
   </url>
   
@@ -2886,6 +2881,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/%E5%91%BD%E5%AE%AE%E7%A9%BA%E5%AE%AE/</loc>
+    <lastmod>2017-12-09T10:41:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6-unit-test/</loc>
     <lastmod>2019-03-05T17:17:08+08:00</lastmod>
     <priority>0</priority>
@@ -2906,6 +2907,12 @@
   <url>
     <loc>https://minayu.site/tags/%E5%A4%A7%E9%80%9A-odori-station/</loc>
     <lastmod>2019-02-10T00:20:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E5%A4%AB%E5%A6%BB%E5%AE%AE%E7%A9%BA%E5%AE%AE/</loc>
+    <lastmod>2017-12-09T10:41:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3084,6 +3091,12 @@
   </url>
   
   <url>
+    <loc>https://minayu.site/tags/%E7%A9%BA%E5%AE%AE/</loc>
+    <lastmod>2017-12-09T10:41:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://minayu.site/tags/%E7%AE%97%E5%91%BD/</loc>
     <lastmod>2019-03-20T12:18:13+08:00</lastmod>
     <priority>0</priority>
@@ -3098,6 +3111,12 @@
   <url>
     <loc>https://minayu.site/tags/%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8/</loc>
     <lastmod>2019-03-20T12:18:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/tags/%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8-zi-wei-dou-shu/</loc>
+    <lastmod>2017-12-09T10:41:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
