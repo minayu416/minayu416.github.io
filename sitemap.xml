@@ -1788,11 +1788,6 @@
   </url>
   
   <url>
-    <loc>https://minayu.site/2016/10/%E5%B0%88%E6%A5%AD%E8%8B%B1%E6%96%87-fifth/</loc>
-    <lastmod>2016-10-19T22:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://minayu.site/2016/09/%E5%B9%BD%E9%BB%98%E6%84%9B%E7%8E%A9%E8%B7%9F%E5%9A%B4%E8%82%85%E8%AA%8D%E7%9C%9F%E6%98%AF%E8%83%BD%E5%90%8C%E6%99%82%E5%AD%98%E5%9C%A8%E5%97%8E/</loc>
     <lastmod>2016-09-22T15:30:00+00:00</lastmod>
   </url>
@@ -2265,6 +2260,12 @@
   <url>
     <loc>https://minayu.site/categories/language-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</loc>
     <lastmod>2017-07-12T10:05:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://minayu.site/categories/me-%E9%AB%94%E9%A9%97-%E7%B6%93%E9%A9%97/</loc>
+    <lastmod>2017-09-12T06:30:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
