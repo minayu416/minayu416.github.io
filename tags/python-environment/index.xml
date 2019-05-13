@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python environment on @Mina&#39;s Life Travel</title>
+    <link>https://minayu.site/tags/python-environment/</link>
+    <description>Recent content in python environment on @Mina&#39;s Life Travel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 May 2019 11:01:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://minayu.site/tags/python-environment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何在Mac安裝Python環境，教你備妥開發Python的合格環境 | 新電腦重新安裝</title>
+      <link>https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/</link>
+      <pubDate>Mon, 13 May 2019 11:01:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/</guid>
+      <description>&lt;p&gt;原先安裝Python環境的教學寫在這篇 &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://minayu.site/2016/07/terminal-django-python-environment-open-project/&#34;&gt;終端機與DJANGO,PYTHON 安裝與打開一個PROJECT篇&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;但有鑒於自己已經慢慢熬過小菜鳥時期，加上過了好幾個月無論是環境或者我自己本身技術都有改變&lt;/p&gt;
+
+&lt;p&gt;我漸漸對舊的文章安裝方式有些改變&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

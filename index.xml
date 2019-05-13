@@ -6,10 +6,23 @@
     <description>Recent content on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 May 2019 23:41:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 11:01:20 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何在Mac安裝Python環境，教你備妥開發Python的合格環境 | 新電腦重新安裝</title>
+      <link>https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/</link>
+      <pubDate>Mon, 13 May 2019 11:01:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/</guid>
+      <description>&lt;p&gt;原先安裝Python環境的教學寫在這篇 &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://minayu.site/2016/07/terminal-django-python-environment-open-project/&#34;&gt;終端機與DJANGO,PYTHON 安裝與打開一個PROJECT篇&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;但有鑒於自己已經慢慢熬過小菜鳥時期，加上過了好幾個月無論是環境或者我自己本身技術都有改變&lt;/p&gt;
+
+&lt;p&gt;我漸漸對舊的文章安裝方式有些改變&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>AURA-SOMA靈性彩油101號天使瓶使用心得 | 一年後的我</title>
@@ -4898,10 +4911,10 @@ Do what you want, do what make you good.&lt;/blockquote&gt;</description>
     
     <item>
       <title>終端機與Django,python 安裝與打開一個project篇</title>
-      <link>https://minayu.site/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</link>
+      <link>https://minayu.site/2016/07/terminal-django-python-environment-open-project/</link>
       <pubDate>Mon, 25 Jul 2016 21:15:00 +0000</pubDate>
       
-      <guid>https://minayu.site/2016/07/%E7%B5%82%E7%AB%AF%E6%A9%9F%E8%88%87djangopython-%E5%AE%89%E8%A3%9D%E8%88%87%E6%89%93%E9%96%8B%E4%B8%80%E5%80%8Bproject%E7%AF%87/</guid>
+      <guid>https://minayu.site/2016/07/terminal-django-python-environment-open-project/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2018/10/27&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;點開這篇文，我也是會心一笑&lt;/p&gt;
