@@ -13,7 +13,13 @@
         "articleSection" : "blog",
         "name" : "終端機與Django,python 安裝與打開一個project篇",
         "headline" : "終端機與Django,python 安裝與打開一個project篇",
-        "description" : "<p><strong>2018/10/27</strong></p>
+        "description" : "<p><strong>2019/05/13</strong></p>
+
+<p>更新的安裝python環境方法有新文章可以做參考: <strong><em><a href="https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/">如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝</a></em></strong></p>
+
+<hr>
+
+<p><strong>2018/10/27</strong></p>
 
 <p>點開這篇文，我也是會心一笑</p>
 
@@ -30,7 +36,7 @@
         "datePublished": "2016-07-25 21:15:00 &#43;0000 &#43;0000",
         "dateModified" : "2016-07-25 21:15:00 &#43;0000 &#43;0000",
         "url" : "https://minayu.site/2016/07/terminal-django-python-environment-open-project/",
-        "wordCount" : "517",
+        "wordCount" : "515",
         "keywords" : [ "Blog" ]
     }
     </script>
@@ -69,7 +75,13 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="終端機與Django,python 安裝與打開一個project篇"/>
-<meta name="twitter:description" content="2018/10/27
+<meta name="twitter:description" content="2019/05/13
+
+更新的安裝python環境方法有新文章可以做參考: 如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝
+
+
+
+2018/10/27
 
 點開這篇文，我也是會心一笑
 
@@ -80,7 +92,13 @@
 
         <meta name="twitter:image" content="https://minayu.site/img/favicon.jpg">
         <meta property="og:title" content="終端機與Django,python 安裝與打開一個project篇" />
-<meta property="og:description" content="2018/10/27
+<meta property="og:description" content="2019/05/13
+
+更新的安裝python環境方法有新文章可以做參考: 如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝
+
+
+
+2018/10/27
 
 點開這篇文，我也是會心一笑
 
@@ -97,7 +115,13 @@
         <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="終端機與Django,python 安裝與打開一個project篇">
-<meta itemprop="description" content="2018/10/27
+<meta itemprop="description" content="2019/05/13
+
+更新的安裝python環境方法有新文章可以做參考: 如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝
+
+
+
+2018/10/27
 
 點開這篇文，我也是會心一笑
 
@@ -108,7 +132,7 @@
 
 <meta itemprop="datePublished" content="2016-07-25T21:15:00&#43;00:00" />
 <meta itemprop="dateModified" content="2016-07-25T21:15:00&#43;00:00" />
-<meta itemprop="wordCount" content="517">
+<meta itemprop="wordCount" content="515">
 
 
 
@@ -659,7 +683,13 @@ if (!doNotTrack) {
         
 
         <div id="content">
-          <p><strong>2018/10/27</strong></p>
+          <p><strong>2019/05/13</strong></p>
+
+<p>更新的安裝python環境方法有新文章可以做參考: <strong><em><a href="https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/">如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝</a></em></strong></p>
+
+<hr>
+
+<p><strong>2018/10/27</strong></p>
 
 <p>點開這篇文，我也是會心一笑</p>
 
@@ -679,8 +709,7 @@ if (!doNotTrack) {
 
 <p>先前寫的文章內容將保留在下面</p>
 
-<pre><code>&lt;strong&gt;使用工具: Mac, Python 3, Terminal&lt;/strong&gt;
-</code></pre>
+<p><code>使用工具: Mac, Python 3, Terminal</code></p>
 
 <p>從開發程式開始，我就堅持用mac，雖然在研究所時期被學弟跟指導老師唾棄嘲笑過，因為學校都用windows，導致我自己用mac水土不服，所有跟mac相關的系統問題都要自己研究</p>
 
@@ -748,7 +777,7 @@ if (!doNotTrack) {
 
 
 
-$ /usr/bin/ruby -e &quot;$(curl -fsSL &lt;a data-mce-href=&quot;https://raw.githubusercontent.com/Homebrew/install/master/install&quot; href=&quot;https://raw.githubusercontent.com/Homebrew/install/master/install&quot; rel=&quot;nofollow&quot;&gt;https://raw.githubusercontent.com/Homebrew/install/master/install&lt;/a&gt;)&quot;
+$ ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
 </code></pre>
 
 <p>確認您的Homebrew安裝好了</p>
@@ -766,22 +795,22 @@ Your system is ready to brew.
 
 <p>確認python 3 安裝好了</p>
 
-<pre><code>&lt;code&gt;$ python3 --version
-Python 3.7.0&lt;/code&gt;
+<pre><code>$ python3 --version
+Python 3.7.0
 </code></pre>
 
 <p>打python 3 就可以直接用python來編譯了</p>
 
-<pre><code>&lt;code&gt;$ python3
+<pre><code>$ python3
 ...
 ...
 Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&gt;&gt;&gt;&lt;/code&gt;
+&gt;&gt;&gt;
 </code></pre>
 
 <p>使用exit() 離開 python 3 環境</p>
 
-<pre><code>&gt;&gt;&gt;exit()
+<pre><code>exit()
 </code></pre>
 
 <hr />
@@ -794,9 +823,9 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 
 <p>使用python後，你將會有極大部分機率常常使用pip</p>
 
-<p>沒記錯的話應該只要這一行qq</p>
+<p>python本身環境沒有pip，除非有方法可以開虛擬環境(開了一個虛擬環境 pip會幫你安裝好!)</p>
 
-<pre><code>&lt;code class=&quot;  language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;$ sudo&lt;/span&gt; easy_install pip&lt;/code&gt;
+<pre><code>sudo easy_install pip
 </code></pre>
 
 <p>**** 不過好像建立一個虛擬環境，環境就會幫你把pip安裝好了，所以也不用擔心，要真的不行再回頭來安裝pip吧****</p>
