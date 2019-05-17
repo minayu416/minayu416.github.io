@@ -6,10 +6,30 @@
     <description>Recent content in [IT Things] 1萬小時 - 後端工程師養成計劃 on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 May 2019 11:01:20 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 17:52:12 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/categories/it-things-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[python] 如何用pandas 做等比例抽樣(sampling)？</title>
+      <link>https://minayu.site/2019/05/how-to-sampling-data-by-pandas/</link>
+      <pubDate>Fri, 17 May 2019 17:52:12 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/how-to-sampling-data-by-pandas/</guid>
+      <description>&lt;p&gt;這是先前開發產品時，想要將將近30000筆資料做等比例抽樣縮減成測試資料庫，起初使用了很笨的方法，就是打開sqlite並且一筆一筆刪除，直到抽出的資料被前被打槍後，便聽從前輩的建議寫程式做抽樣。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[QA] 初次學習自動測試 - Selenuim (Python &#43; Chrome)</title>
+      <link>https://minayu.site/2019/05/qa-test-first-time-to-learn-selenium/</link>
+      <pubDate>Thu, 16 May 2019 23:01:58 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/qa-test-first-time-to-learn-selenium/</guid>
+      <description>&lt;p&gt;從我的名片英文名字印錯，&lt;code&gt;Back-end&lt;/code&gt; -&amp;gt; &lt;code&gt;QA Engineer&lt;/code&gt;，我從產品開發的角色定位，原先是開發主要功能，一直到最近都是撰寫及維護核心程式的單元測試，然後公司主要的QA工程師離職後，我被賦予的新任務就是要接下QA的工作，測試產品。&lt;/p&gt;
+
+&lt;p&gt;直到最近，同事都會偷偷調侃我，名片印錯是在預言XD，以及本身是開發還兼做營運，所以是&lt;code&gt;DevOps&lt;/code&gt; (You are Developer but do operation, so DevOps!)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>如何在Mac安裝Python環境，教你備妥開發Python的合格環境 | 新電腦重新安裝</title>

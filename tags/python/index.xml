@@ -6,10 +6,19 @@
     <description>Recent content in python on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 16:55:34 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 17:52:12 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[python] 如何用pandas 做等比例抽樣(sampling)？</title>
+      <link>https://minayu.site/2019/05/how-to-sampling-data-by-pandas/</link>
+      <pubDate>Fri, 17 May 2019 17:52:12 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/how-to-sampling-data-by-pandas/</guid>
+      <description>&lt;p&gt;這是先前開發產品時，想要將將近30000筆資料做等比例抽樣縮減成測試資料庫，起初使用了很笨的方法，就是打開sqlite並且一筆一筆刪除，直到抽出的資料被前被打槍後，便聽從前輩的建議寫程式做抽樣。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Python] 動態生成單元測試/設置環境, 移除環境</title>
