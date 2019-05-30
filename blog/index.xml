@@ -6,10 +6,21 @@
     <description>Recent content in Blog on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 May 2019 17:52:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 16:12:17 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>20190530，對抗焦慮日記</title>
+      <link>https://minayu.site/2019/05/my-anxiety-diary-190530/</link>
+      <pubDate>Wed, 29 May 2019 16:12:17 +0800</pubDate>
+      
+      <guid>https://minayu.site/2019/05/my-anxiety-diary-190530/</guid>
+      <description>&lt;p&gt;有好一陣子我跌進了一個很深很深的坑洞，密不透風，我的思想就困在這個坑洞裡，怎麼轉都轉不出來。&lt;/p&gt;
+
+&lt;p&gt;外面的人看我很正常，但我卻一次又一次的因為這些情緒和思想帶給我的困擾而近乎抓狂，再加上延伸而來的生理疾病，又再一次的快將我擊倒。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[python] 如何用pandas 做等比例抽樣(sampling)？</title>
