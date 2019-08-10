@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>@Mina&#39;s Life Travel</title>
+    <title>Categories on @Mina&#39;s Life Travel</title>
     <link>https://minayu.site/categories/</link>
-    <description>Recent content on @Mina&#39;s Life Travel</description>
+    <description>Recent content in Categories on @Mina&#39;s Life Travel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -12,39 +12,57 @@
     
     
     <item>
-      <title>Fancy App 1</title>
-      <link>https://minayu.site/itemized/item1/</link>
+      <title></title>
+      <link>https://minayu.site/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://minayu.site/itemized/item1/</guid>
-      <description> App 1 </description>
+      <guid>https://minayu.site/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 2</title>
-      <link>https://minayu.site/itemized/item2/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Me</title>
+      <link>https://minayu.site/categories/me/</link>
+      <pubDate>Sat, 10 Aug 2019 22:50:40 +0800</pubDate>
       
-      <guid>https://minayu.site/itemized/item2/</guid>
-      <description> App 2 </description>
+      <guid>https://minayu.site/categories/me/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 3</title>
-      <link>https://minayu.site/itemized/item3/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>旅行日記 Travel</title>
+      <link>https://minayu.site/categories/%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel/</link>
+      <pubDate>Sun, 28 Apr 2019 10:55:30 +0800</pubDate>
       
-      <guid>https://minayu.site/itemized/item3/</guid>
-      <description> App 3 </description>
+      <guid>https://minayu.site/categories/%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Fancy App 4</title>
-      <link>https://minayu.site/itemized/item4/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>研究所上課筆記 Note</title>
+      <link>https://minayu.site/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note/</link>
+      <pubDate>Thu, 15 Jun 2017 13:58:27 +0000</pubDate>
       
-      <guid>https://minayu.site/itemized/item4/</guid>
-      <description> App 4 </description>
+      <guid>https://minayu.site/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>語言相關 LANGUAGE</title>
+      <link>https://minayu.site/categories/%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language/</link>
+      <pubDate>Thu, 04 Jul 2019 23:16:35 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>資訊那些事 IT Things</title>
+      <link>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</link>
+      <pubDate>Fri, 09 Aug 2019 15:36:40 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</guid>
+      <description></description>
     </item>
     
   </channel>
