@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[嬰兒學爬] 初次學習寫網頁 on 月水瓶 @Mina 的人生研究室</title>
+    <link>https://minayu.site/tags/%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81/</link>
+    <description>Recent content in [嬰兒學爬] 初次學習寫網頁 on 月水瓶 @Mina 的人生研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Aug 2017 05:13:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://minayu.site/tags/%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>學Coding筆記-Django/Python&#39;s CMS, Git, Editor</title>
+      <link>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</link>
+      <pubDate>Sat, 19 Aug 2017 05:13:18 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/08/%E5%AD%B8coding%E7%AD%86%E8%A8%98-djangopythons-cms-git-editor/</guid>
+      <description>&lt;p&gt;不～專業教學文&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Django/Python 不同apps 如何寫進url.py</title>
+      <link>https://minayu.site/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</link>
+      <pubDate>Thu, 17 Aug 2017 02:57:50 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/08/djangopython-%E4%B8%8D%E5%90%8Capps-%E5%A6%82%E4%BD%95%E5%AF%AB%E9%80%B2url-py/</guid>
+      <description>&lt;p&gt;主題蠻抽象的，不過正是剛剛在開發網頁時新學到的&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Django-新增頁面&#43;重run伺服器</title>
+      <link>https://minayu.site/2017/05/django-create-page-re-run-server/</link>
+      <pubDate>Mon, 01 May 2017 14:32:23 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/05/django-create-page-re-run-server/</guid>
+      <description>&lt;p&gt;我要先來記每個指令，不然太久我都會忘記QQ&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>待學清單</title>
+      <link>https://minayu.site/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</link>
+      <pubDate>Sun, 23 Apr 2017 02:52:47 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/04/%E5%BE%85%E5%AD%B8%E6%B8%85%E5%96%AE/</guid>
+      <description>&lt;p&gt;先筆記下來，之後有機會再回來看&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Something need to know for website designer</title>
+      <link>https://minayu.site/2017/04/something-need-to-know-for-website-designer/</link>
+      <pubDate>Thu, 13 Apr 2017 15:20:26 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/04/something-need-to-know-for-website-designer/</guid>
+      <description>&lt;p&gt;learning note&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Gce (google cloud platform): launched in the cloud (bitnami)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git.usc.edu.tw&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;learn &amp;ldquo;git&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;learn &amp;ldquo;github&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Content Management Systems(CMS)</title>
+      <link>https://minayu.site/2017/04/content-management-systemscms/</link>
+      <pubDate>Tue, 11 Apr 2017 11:44:14 +0000</pubDate>
+      
+      <guid>https://minayu.site/2017/04/content-management-systemscms/</guid>
+      <description>&lt;p&gt;自己說自己程式差，一定是你不會管理你的程式！&lt;/p&gt;
+
+&lt;p&gt;那什麼？&lt;/p&gt;
+
+&lt;p&gt;老實說我也不是很懂XD&lt;/p&gt;
+
+&lt;p&gt;不過應該就是這個吧！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>終端機與Django,python 安裝與打開一個project篇</title>
+      <link>https://minayu.site/2016/07/terminal-django-python-environment-open-project/</link>
+      <pubDate>Mon, 25 Jul 2016 21:15:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/2016/07/terminal-django-python-environment-open-project/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;2019/05/13&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;更新的安裝python環境方法有新文章可以做參考: &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/&#34;&gt;如何在MAC安裝PYTHON環境，教你備妥開發PYTHON的合格環境 | 新電腦重新安裝&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;2018/10/27&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;點開這篇文，我也是會心一笑&lt;/p&gt;
+
+&lt;p&gt;我不知道點進來看得朋友們是因為我的標題，還是我裡面的小故事&lt;/p&gt;
+
+&lt;p&gt;不過經過了好久，我重新來翻修我的文章&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Html,Css]那些我曾經不懂卻又卡很久的事</title>
+      <link>https://minayu.site/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</link>
+      <pubDate>Tue, 21 Jun 2016 17:31:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/2016/06/htmlcss%E9%82%A3%E4%BA%9B%E6%88%91%E6%9B%BE%E7%B6%93%E4%B8%8D%E6%87%82%E5%8D%BB%E5%8F%88%E5%8D%A1%E5%BE%88%E4%B9%85%E7%9A%84%E4%BA%8B/</guid>
+      <description>&lt;p&gt;由於我的程式除了c跟c++以外不是去上課學的，所以通常都是邊寫邊查怎麼寫。&lt;/p&gt;
+
+&lt;p&gt;常常碰壁然後突破碰壁然後突破，所以習慣性的把當初碰壁的資料給存起來。&lt;/p&gt;
+
+&lt;p&gt;「對於不同瀏覽器的處理方式」&lt;/p&gt;
+
+&lt;p&gt;舉例為背景尺寸&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[html,javascript]一個表單多個按鈕</title>
+      <link>https://minayu.site/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</link>
+      <pubDate>Tue, 21 Jun 2016 16:40:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/2016/06/htmljavascript%E4%B8%80%E5%80%8B%E8%A1%A8%E5%96%AE%E5%A4%9A%E5%80%8B%E6%8C%89%E9%88%95/</guid>
+      <description>&lt;p&gt;由於剛剛自己在找方法的時候，碰壁蠻久的，就是有關於一個表單多個按鈕的問題。&lt;/p&gt;
+
+&lt;p&gt;有鑒於昨天學弟跟我說，不會找不到方法，是你不會找方法，言下之意就是不會打key word。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
