@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[IT Things] 邁向DevOps之路 - 睡醒突然變QA on 月水瓶 @Mina 的人生研究室</title>
@@ -18,7 +18,6 @@
       
       <guid>https://minayu.site/2019/05/qa-test-first-time-to-learn-selenium/</guid>
       <description>&lt;p&gt;從我的名片英文名字印錯，&lt;code&gt;Back-end&lt;/code&gt; -&amp;gt; &lt;code&gt;QA Engineer&lt;/code&gt;，我從產品開發的角色定位，原先是開發主要功能，一直到最近都是撰寫及維護核心程式的單元測試，然後公司主要的QA工程師離職後，我被賦予的新任務就是要接下QA的工作，測試產品。&lt;/p&gt;
-
 &lt;p&gt;直到最近，同事都會偷偷調侃我，名片印錯是在預言XD，以及本身是開發還兼做營運，所以是&lt;code&gt;DevOps&lt;/code&gt; (You are Developer but do operation, so DevOps!)&lt;/p&gt;</description>
     </item>
     

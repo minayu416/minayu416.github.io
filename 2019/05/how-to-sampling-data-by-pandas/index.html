@@ -8,7 +8,7 @@
         "@type" : "BlogPosting",
         "mainEntityOfPage": {
              "@type": "WebPage",
-             "@id": "https://minayu.site"
+             "@id": "https:\/\/minayu.site"
         },
         "articleSection" : "blog",
         "name" : "[python] 如何用pandas 做等比例抽樣(sampling)？",
@@ -21,10 +21,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2019",
-        "datePublished": "2019-05-17 17:52:12 &#43;0800 CST",
-        "dateModified" : "2019-05-17 17:52:12 &#43;0800 CST",
-        "url" : "https://minayu.site/2019/05/how-to-sampling-data-by-pandas/",
-        "wordCount" : "473",
+        "datePublished": "2019-05-17 17:52:12 \x2b0800 CST",
+        "dateModified" : "2019-05-17 17:52:12 \x2b0800 CST",
+        "url" : "https:\/\/minayu.site\/2019\/05\/how-to-sampling-data-by-pandas\/",
+        "wordCount" : "440",
         "keywords" : [ "[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
     }
     </script>
@@ -36,7 +36,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.53" />
+        <meta name="generator" content="Hugo 0.60.1" />
         
 
 
@@ -66,26 +66,23 @@
         <meta property="og:title" content="[python] 如何用pandas 做等比例抽樣(sampling)？" />
 <meta property="og:description" content="當資料過於龐大想縮減或者想要抽樣取樣本時，要怎麼寫程式來在這些資料中抽樣呢？本篇文章附上程式碼教您如何用python的pandas來做等比例抽樣資料" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://minayu.site/2019/05/how-to-sampling-data-by-pandas/" /><meta property="article:published_time" content="2019-05-17T17:52:12&#43;08:00"/>
-<meta property="article:modified_time" content="2019-05-17T17:52:12&#43;08:00"/>
+<meta property="og:url" content="https://minayu.site/2019/05/how-to-sampling-data-by-pandas/" />
+<meta property="article:published_time" content="2019-05-17T17:52:12+08:00" />
+<meta property="article:modified_time" content="2019-05-17T17:52:12+08:00" />
 
         <meta property="og:image" content="https://minayu.site/img/favicon.jpg">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-        
-<meta itemprop="name" content="[python] 如何用pandas 做等比例抽樣(sampling)？">
+        <meta itemprop="name" content="[python] 如何用pandas 做等比例抽樣(sampling)？">
 <meta itemprop="description" content="當資料過於龐大想縮減或者想要抽樣取樣本時，要怎麼寫程式來在這些資料中抽樣呢？本篇文章附上程式碼教您如何用python的pandas來做等比例抽樣資料">
-
-
 <meta itemprop="datePublished" content="2019-05-17T17:52:12&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-17T17:52:12&#43;08:00" />
-<meta itemprop="wordCount" content="473">
+<meta itemprop="wordCount" content="440">
 
 
 
 <meta itemprop="keywords" content="[我要成為工程師] 1萬小時 - 後端工程師養成計劃," />
-
         
 
         
@@ -287,6 +284,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/newbie-to-learn-russian-language/">[俄文] 那個，所以我說俄文好學嗎？ 超新手體驗篇</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-11'>
+                                        December 11, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/polyglot-learning-my-experience/">[Polyglot] 成為多國語言學習者的心境路程 - 我與英文、日文、西文、俄文、德文的相遇</a></h3>
                                     
                                     <time class="published" datetime=
@@ -352,18 +361,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-11-06'>
                                         November 6, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/2020-improvement/">2020年新年新希望</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-04'>
-                                        November 4, 2019</time>
                                 </header>
                                 
 
@@ -601,122 +598,113 @@ if (!doNotTrack) {
 
         <div id="content">
           <p>這是先前開發產品時，想要將將近30000筆資料做等比例抽樣縮減成測試資料庫，起初使用了很笨的方法，就是打開sqlite並且一筆一筆刪除，直到抽出的資料被前被打槍後，便聽從前輩的建議寫程式做抽樣。</p>
-
 <p><code>啊？ 程式做得到抽樣嗎？真的有這個功能？</code>，完全沒有想到可以用程式來做抽樣，甚至抱著十分懷疑的心去質疑真的能用程式做到嗎？</p>
-
 <p>結果真被前輩找到，並加上本人的一些拼湊組成了自己想要的抽樣程式。</p>
-
-<p><strong><em><a href="https://www.itread01.com/content/1543176310.html">參考網站</a></em></strong></p>
-
+<p><em><strong><a href="https://www.itread01.com/content/1543176310.html">參考網站</a></strong></em></p>
 <p>我自己是將資料從 A資料庫(test.sqlite)讀取，抽樣後，儲存進B資料庫(sampling.sqlite)，若你有同樣的需求，可以參考我的程式，完整程式如下</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> sqlite3
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
 
-<pre><code class="language-py">import sqlite3
-import pandas as pd
+<span style="color:#75715e"># 轉換用程式碼，就不做成函式，直接攤平講解</span>
 
-# 轉換用程式碼，就不做成函式，直接攤平講解
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#39;</span>:
+    <span style="color:#75715e"># 欲讀取的資料庫</span>
+    cnx <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">test.sqlite</span><span style="color:#e6db74">&#39;</span>)
 
-if __name__ == '__main__':
-    # 欲讀取的資料庫
-    cnx = sqlite3.connect('test.sqlite')
+    <span style="color:#75715e"># 兩張table 的內部資料 dataframe</span>
+    customers <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql_query(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT * FROM customers</span><span style="color:#e6db74">&#34;</span>, cnx)
+    orders <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql_query(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT * FROM orders</span><span style="color:#e6db74">&#34;</span>, cnx)
 
-    # 兩張table 的內部資料 dataframe
-    customers = pd.read_sql_query(&quot;SELECT * FROM customers&quot;, cnx)
-    orders = pd.read_sql_query(&quot;SELECT * FROM orders&quot;, cnx)
+    <span style="color:#75715e"># 第一步驟: 決定先用group by 看一下 customer 客戶有幾筆資料!</span>
+    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    和網站中不同的是，我們希望能夠根據不同的客戶比例抽樣</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    因為不知道抽樣比例，所以要先計算幾種客戶及客戶數量</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+    df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql_query(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT * FROM orders</span><span style="color:#e6db74">&#34;</span>, cnx)
+    groupby <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>)<span style="color:#f92672">.</span>size()<span style="color:#f92672">.</span>reset_index(name<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">size</span><span style="color:#e6db74">&#39;</span>)
 
-    # 第一步驟: 決定先用group by 看一下 customer 客戶有幾筆資料!
-    &quot;&quot;&quot;
-    和網站中不同的是，我們希望能夠根據不同的客戶比例抽樣
-    因為不知道抽樣比例，所以要先計算幾種客戶及客戶數量
-    &quot;&quot;&quot;
-    df = pd.read_sql_query(&quot;SELECT * FROM orders&quot;, cnx)
-    groupby = df.groupby('customer_name').size().reset_index(name='size')
+    df <span style="color:#f92672">=</span> groupby<span style="color:#f92672">.</span>sort_values(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">size</span><span style="color:#e6db74">&#39;</span>, ascending<span style="color:#f92672">=</span>False)
+    df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>reset_index()
 
-    df = groupby.sort_values('size', ascending=False)
-    df = df.reset_index()
+    <span style="color:#75715e"># 第二步驟: 調整customer groupby 數量, 取得白名單，可隨心所欲調整, 目前為100</span>
+    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    樣本的比例若占太少，不予採用，這邊設10</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+    df <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">size</span><span style="color:#e6db74">&#39;</span>] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>]
 
-    # 第二步驟: 調整customer groupby 數量, 取得白名單，可隨心所欲調整, 目前為100
-    &quot;&quot;&quot;
-    樣本的比例若占太少，不予採用，這邊設10
-    &quot;&quot;&quot;
-    df = df[df['size'] &gt; 10]
+    white_list <span style="color:#f92672">=</span> df[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>]<span style="color:#f92672">.</span>tolist()
+    value_list <span style="color:#f92672">=</span> df[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">size</span><span style="color:#e6db74">&#39;</span>]<span style="color:#f92672">.</span>tolist()
 
-    white_list = df['customer_name'].tolist()
-    value_list = df['size'].tolist()
+    <span style="color:#75715e"># 第三步驟: 取出order 全部的資料並filter by 白名單 white list</span>
+    <span style="color:#75715e"># 主要是篩選掉剛剛比例較少的資料名單</span>
+    df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql_query(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT * FROM orders</span><span style="color:#e6db74">&#34;</span>, cnx)
+    df <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>]<span style="color:#f92672">.</span>isin(white_list)]
 
-    # 第三步驟: 取出order 全部的資料並filter by 白名單 white list
-    # 主要是篩選掉剛剛比例較少的資料名單
-    df = pd.read_sql_query(&quot;SELECT * FROM orders&quot;, cnx)
-    df = df[df['customer_name'].isin(white_list)]
+    <span style="color:#75715e"># 第四步驟: 隨機抽樣</span>
+    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    使用pandas</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    DataFrame.sample(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None)</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    n是要抽取的行數。（例如n=20000時，抽取其中的2W行）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    frac是抽取的比列。（有一些時候，我們並對具體抽取的行數不關係，我們想抽取其中的百分比，這個時候就可以選擇使用frac，例如frac=0.8，就是抽取其中80</span><span style="color:#e6db74">%</span><span style="color:#e6db74">）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    replace：是否為有放回抽樣，取replace=True時為有放回抽樣。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    weights這個是每個樣本的權重，具體可以看官方文件說明。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    random_state這個在之前的文章已經介紹過了。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    axis是選擇抽取資料的行還是列。axis=0的時是抽取行，axis=1時是抽取列（也就是說axis=1時，在列中隨機抽取n列，在axis=0時，在行中隨機抽取n行）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+    fracs <span style="color:#f92672">=</span> {}
+    df_len <span style="color:#f92672">=</span> len(df)
+    <span style="color:#75715e"># 依照剛剛篩選的客戶名單與各個客戶的訂單數量組成比例</span>
+    <span style="color:#66d9ef">for</span> c, v <span style="color:#f92672">in</span> zip(white_list, value_list):
+        fracs[c] <span style="color:#f92672">=</span> v<span style="color:#f92672">/</span>df_len
 
-    # 第四步驟: 隨機抽樣
-    &quot;&quot;&quot;
-    使用pandas
-    DataFrame.sample(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None)
-    n是要抽取的行數。（例如n=20000時，抽取其中的2W行）
-    frac是抽取的比列。（有一些時候，我們並對具體抽取的行數不關係，我們想抽取其中的百分比，這個時候就可以選擇使用frac，例如frac=0.8，就是抽取其中80%）
-    replace：是否為有放回抽樣，取replace=True時為有放回抽樣。
-    weights這個是每個樣本的權重，具體可以看官方文件說明。
-    random_state這個在之前的文章已經介紹過了。
-    axis是選擇抽取資料的行還是列。axis=0的時是抽取行，axis=1時是抽取列（也就是說axis=1時，在列中隨機抽取n列，在axis=0時，在行中隨機抽取n行）
-    &quot;&quot;&quot;
-    fracs = {}
-    df_len = len(df)
-    # 依照剛剛篩選的客戶名單與各個客戶的訂單數量組成比例
-    for c, v in zip(white_list, value_list):
-        fracs[c] = v/df_len
+    <span style="color:#75715e"># 定義想抽多少, N = 想抽樣出多少資料</span>
+    N <span style="color:#f92672">=</span> <span style="color:#ae81ff">5000</span>
+    df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>concat(dff<span style="color:#f92672">.</span>sample(n<span style="color:#f92672">=</span>int(fracs<span style="color:#f92672">.</span>get(i) <span style="color:#f92672">*</span> N)) <span style="color:#66d9ef">for</span> i, dff <span style="color:#f92672">in</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>))
 
-    # 定義想抽多少, N = 想抽樣出多少資料
-    N = 5000
-    df = pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df.groupby('customer_name'))
+    <span style="color:#75715e"># 可供檢查，利用group by 檢查數量</span>
+    <span style="color:#75715e"># df = df.groupby(&#39;customer_id&#39;).size().reset_index(name=&#39;size&#39;)</span>
+    <span style="color:#66d9ef">print</span>(df)
 
-    # 可供檢查，利用group by 檢查數量
-    # df = df.groupby('customer_id').size().reset_index(name='size')
-    print(df)
+    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    原本的範例程式碼！</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    # df1 = pd.DataFrame({</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">group_id</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">: [</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">, </span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">, </span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">C</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">] * 40,</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    #                     </span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">vals</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">: np.random.randn(120)})</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    # N = len(df1)</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    # fracs = {</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">: 1 / 20, </span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">: 1 / 30, </span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">C</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">: 1 / 60}</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    # print(pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df1.groupby(</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">group_id</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">)))</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
 
-    &quot;&quot;&quot;
-    原本的範例程式碼！
-    # df1 = pd.DataFrame({'group_id': ['A', 'B', 'C'] * 40,
-    #                     'vals': np.random.randn(120)})
-    # N = len(df1)
-    # fracs = {'A': 1 / 20, 'B': 1 / 30, 'C': 1 / 60}
-    # print(pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df1.groupby('group_id')))
-    &quot;&quot;&quot;
+    <span style="color:#75715e"># 第五步驟: 準備作業: 存新的sqlite</span>
+    <span style="color:#75715e"># 準備要存入的table資料</span>
+    orders <span style="color:#f92672">=</span> df
 
-    # 第五步驟: 準備作業: 存新的sqlite
-    # 準備要存入的table資料
-    orders = df
+    <span style="color:#75715e"># 我們同時也要利用白名單篩選customer 當作我們的第二個table</span>
+    df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_sql_query(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT * FROM customers</span><span style="color:#e6db74">&#34;</span>, cnx)
+    customers <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>]<span style="color:#f92672">.</span>isin(white_list)]
 
-    # 我們同時也要利用白名單篩選customer 當作我們的第二個table
-    df = pd.read_sql_query(&quot;SELECT * FROM customers&quot;, cnx)
-    customers = df[df['customer_name'].isin(white_list)]
+    <span style="color:#75715e"># 第六步驟: 存進資料庫: 新增資料庫</span>
 
-    # 第六步驟: 存進資料庫: 新增資料庫
+    conn <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">sampling.sqlite</span><span style="color:#e6db74">&#39;</span>)  <span style="color:#75715e"># You can create a new database by changing the name within the quotations</span>
+    c <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()  <span style="color:#75715e"># The database will be saved in the location where your &#39;py&#39; file is saved</span>
 
-    conn = sqlite3.connect('sampling.sqlite')  # You can create a new database by changing the name within the quotations
-    c = conn.cursor()  # The database will be saved in the location where your 'py' file is saved
+    <span style="color:#75715e"># Create table - customers</span>
+    c<span style="color:#f92672">.</span>execute(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;&#39;&#39;</span><span style="color:#e6db74">CREATE TABLE customers</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">                 ([id] integer, [customer_name] text, [region] text, [country] text)</span><span style="color:#e6db74">&#39;&#39;&#39;</span>)
 
-    # Create table - customers
-    c.execute('''CREATE TABLE customers
-                 ([id] integer, [customer_name] text, [region] text, [country] text)''')
+    <span style="color:#75715e"># Create table - orders</span>
+    c<span style="color:#f92672">.</span>execute(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;&#39;&#39;</span><span style="color:#e6db74">CREATE TABLE orders</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">                 ([id] INTEGER PRIMARY KEY, [order_id] text, [ship_date] date, [customer_name] text, [customer_name] text,</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">                 [department_id] text, [unit] real, [price] real, </span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">                 FOREIGN KEY(customer_id) REFERENCES customers(customer_name))</span><span style="color:#e6db74">&#39;&#39;&#39;</span>)
 
-    # Create table - orders
-    c.execute('''CREATE TABLE orders
-                 ([id] INTEGER PRIMARY KEY, [order_id] text, [ship_date] date, [customer_name] text, [customer_name] text,
-                 [department_id] text, [unit] real, [price] real, 
-                 FOREIGN KEY(customer_id) REFERENCES customers(customer_name))''')
+    conn<span style="color:#f92672">.</span>commit()
 
-    conn.commit()
+    <span style="color:#75715e"># 第七步驟: 存進資料庫: 塞資料</span>
+    customers<span style="color:#f92672">.</span>to_sql(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customers</span><span style="color:#e6db74">&#39;</span>, conn, if_exists<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">append</span><span style="color:#e6db74">&#39;</span>, index<span style="color:#f92672">=</span>False)
+    orders<span style="color:#f92672">.</span>to_sql(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">orders</span><span style="color:#e6db74">&#39;</span>, conn, if_exists<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">append</span><span style="color:#e6db74">&#39;</span>, index<span style="color:#f92672">=</span>False)
 
-    # 第七步驟: 存進資料庫: 塞資料
-    customers.to_sql('customers', conn, if_exists='append', index=False)
-    orders.to_sql('orders', conn, if_exists='append', index=False)
-
-</code></pre>
-
-<p>搞了蠻多的，來稍做解釋</p>
-
+</code></pre></div><p>搞了蠻多的，來稍做解釋</p>
 <p>程式步驟為:</p>
-
 <ul>
 <li>從 <code>test.sqlite</code> 取出資料</li>
 <li>計算依據的欄位，要組成<code>比例</code>(這邊是customer_name)</li>
@@ -726,50 +714,41 @@ if __name__ == '__main__':
 <li>抽樣 (定義 N =?)</li>
 <li>存回 <code>sampling.sqlite</code></li>
 </ul>
-
 <p>若只有抽樣需求，可以只看這段程式碼:</p>
-
 <p>在不知道比例的情況下，你可以這樣寫：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    使用pandas</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    DataFrame.sample(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None)</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    n是要抽取的行數。（例如n=20000時，抽取其中的2W行）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    frac是抽取的比列。（有一些時候，我們並對具體抽取的行數不關係，我們想抽取其中的百分比，這個時候就可以選擇使用frac，例如frac=0.8，就是抽取其中80</span><span style="color:#e6db74">%</span><span style="color:#e6db74">）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    replace：是否為有放回抽樣，取replace=True時為有放回抽樣。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    weights這個是每個樣本的權重，具體可以看官方文件說明。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    random_state這個在之前的文章已經介紹過了。</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    axis是選擇抽取資料的行還是列。axis=0的時是抽取行，axis=1時是抽取列（也就是說axis=1時，在列中隨機抽取n列，在axis=0時，在行中隨機抽取n行）</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+    fracs <span style="color:#f92672">=</span> {}
+    df_len <span style="color:#f92672">=</span> len(df)
+    <span style="color:#75715e"># 依照抽樣依據的欄位, 可能是項目名稱/id去組抽樣比例</span>
+    <span style="color:#75715e"># 在這段程式碼, white_list是客戶名稱, value_list 是客戶對應的資料筆數</span>
+    <span style="color:#75715e"># 這段程式碼主要是組成類似 {&#39;A&#39;: 1 / 20, &#39;B&#39;: 1 / 30, &#39;C&#39;: 1 / 60}, 這種比例</span>
+    <span style="color:#66d9ef">for</span> c, v <span style="color:#f92672">in</span> zip(white_list, value_list):
+        fracs[c] <span style="color:#f92672">=</span> v<span style="color:#f92672">/</span>df_len
 
-<pre><code class="language-py">    &quot;&quot;&quot;
-    使用pandas
-    DataFrame.sample(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None)
-    n是要抽取的行數。（例如n=20000時，抽取其中的2W行）
-    frac是抽取的比列。（有一些時候，我們並對具體抽取的行數不關係，我們想抽取其中的百分比，這個時候就可以選擇使用frac，例如frac=0.8，就是抽取其中80%）
-    replace：是否為有放回抽樣，取replace=True時為有放回抽樣。
-    weights這個是每個樣本的權重，具體可以看官方文件說明。
-    random_state這個在之前的文章已經介紹過了。
-    axis是選擇抽取資料的行還是列。axis=0的時是抽取行，axis=1時是抽取列（也就是說axis=1時，在列中隨機抽取n列，在axis=0時，在行中隨機抽取n行）
-    &quot;&quot;&quot;
-    fracs = {}
-    df_len = len(df)
-    # 依照抽樣依據的欄位, 可能是項目名稱/id去組抽樣比例
-    # 在這段程式碼, white_list是客戶名稱, value_list 是客戶對應的資料筆數
-    # 這段程式碼主要是組成類似 {'A': 1 / 20, 'B': 1 / 30, 'C': 1 / 60}, 這種比例
-    for c, v in zip(white_list, value_list):
-        fracs[c] = v/df_len
+    <span style="color:#75715e"># 定義想抽多少, N = 想抽樣出多少資料</span>
+    N <span style="color:#f92672">=</span> <span style="color:#ae81ff">5000</span>
+    <span style="color:#75715e"># 接著開始依據比例抽樣</span>
+    df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>concat(dff<span style="color:#f92672">.</span>sample(n<span style="color:#f92672">=</span>int(fracs<span style="color:#f92672">.</span>get(i) <span style="color:#f92672">*</span> N)) <span style="color:#66d9ef">for</span> i, dff <span style="color:#f92672">in</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">customer_name</span><span style="color:#e6db74">&#39;</span>))
+</code></pre></div><p>在已知比例的情況下，可以參考網站中的方法:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># random 製作出一個資料dataframe</span>
+df1 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame({<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">group_id</span><span style="color:#e6db74">&#39;</span>: [<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">C</span><span style="color:#e6db74">&#39;</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">40</span>,
+                    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">vals</span><span style="color:#e6db74">&#39;</span>: np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randn(<span style="color:#ae81ff">120</span>)})
 
-    # 定義想抽多少, N = 想抽樣出多少資料
-    N = 5000
-    # 接著開始依據比例抽樣
-    df = pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df.groupby('customer_name'))
-</code></pre>
-
-<p>在已知比例的情況下，可以參考網站中的方法:</p>
-
-<pre><code class="language-py"># random 製作出一個資料dataframe
-df1 = pd.DataFrame({'group_id': ['A', 'B', 'C'] * 40,
-                    'vals': np.random.randn(120)})
-
-N = len(df1)
-# 這邊是定義抽樣的類別跟比例
-fracs = {'A': 1 / 20, 'B': 1 / 30, 'C': 1 / 60}
-# 這邊是印出來，可以選擇用變數存
-print(pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df1.groupby('group_id')))
-</code></pre>
-
-<p>或者若有其他上面程式沒有講到的要求，可以參考看看我 <strong><em><a href="https://www.itread01.com/content/1543176310.html">參考的網站</a></em></strong></p>
-
+N <span style="color:#f92672">=</span> len(df1)
+<span style="color:#75715e"># 這邊是定義抽樣的類別跟比例</span>
+fracs <span style="color:#f92672">=</span> {<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">1</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">20</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">1</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">30</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">C</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">1</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">60</span>}
+<span style="color:#75715e"># 這邊是印出來，可以選擇用變數存</span>
+<span style="color:#66d9ef">print</span>(pd<span style="color:#f92672">.</span>concat(dff<span style="color:#f92672">.</span>sample(n<span style="color:#f92672">=</span>int(fracs<span style="color:#f92672">.</span>get(i) <span style="color:#f92672">*</span> N)) <span style="color:#66d9ef">for</span> i, dff <span style="color:#f92672">in</span> df1<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">group_id</span><span style="color:#e6db74">&#39;</span>)))
+</code></pre></div><p>或者若有其他上面程式沒有講到的要求，可以參考看看我 <em><strong><a href="https://www.itread01.com/content/1543176310.html">參考的網站</a></strong></em></p>
 <p>抽樣程式碼介紹到這，有問題再麻煩留言詢問唷！</p>
           <hr>
           <div>
@@ -1017,6 +996,20 @@ print(pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df1.groupby('g
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/newbie-to-learn-russian-language/">[俄文] 那個，所以我說俄文好學嗎？ 超新手體驗篇</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-11'>
+                      December 11, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/polyglot-learning-my-experience/">[Polyglot] 成為多國語言學習者的心境路程 - 我與英文、日文、西文、俄文、德文的相遇</a>
                     </h3>
                     
@@ -1088,20 +1081,6 @@ print(pd.concat(dff.sample(n=int(fracs.get(i) * N)) for i, dff in df1.groupby('g
                     
                     <time class="published" datetime='2019-11-06'>
                       November 6, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/2020-improvement/">2020年新年新希望</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-04'>
-                      November 4, 2019
                     </time>
                   </header>
                   

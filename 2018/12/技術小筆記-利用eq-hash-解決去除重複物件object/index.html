@@ -8,18 +8,12 @@
         "@type" : "BlogPosting",
         "mainEntityOfPage": {
              "@type": "WebPage",
-             "@id": "https://minayu.site"
+             "@id": "https:\/\/minayu.site"
         },
         "articleSection" : "blog",
         "name" : "[技術小筆記] 利用eq, hash 解決去除重複物件(object)",
         "headline" : "[技術小筆記] 利用eq, hash 解決去除重複物件(object)",
-        "description" : "<p>恩&hellip; 我重新改寫一下這篇</p>
-
-<p>因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟</p>
-
-<p>我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題</p>
-
-<p>今天介紹 <code>__eq__, __hash__</code>在Python 物件Object的做法</p>",
+        "description" : "\x3cp\x3e恩\x26hellip; 我重新改寫一下這篇\x3c\/p\x3e\n\x3cp\x3e因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟\x3c\/p\x3e\n\x3cp\x3e我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題\x3c\/p\x3e\n\x3cp\x3e今天介紹 \x3ccode\x3e__eq__, __hash__\x3c\/code\x3e在Python 物件Object的做法\x3c\/p\x3e",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -27,10 +21,10 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-10 07:49:32 &#43;0000 &#43;0000",
-        "dateModified" : "2018-12-10 07:49:32 &#43;0000 &#43;0000",
-        "url" : "https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/",
-        "wordCount" : "405",
+        "datePublished": "2018-12-10 07:49:32 \x2b0000 \x2b0000",
+        "dateModified" : "2018-12-10 07:49:32 \x2b0000 \x2b0000",
+        "url" : "https:\/\/minayu.site\/2018\/12\/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object\/",
+        "wordCount" : "383",
         "keywords" : [ "[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
     }
     </script>
@@ -42,7 +36,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.53" />
+        <meta name="generator" content="Hugo 0.60.1" />
         
 
 
@@ -70,50 +64,38 @@
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)"/>
 <meta name="twitter:description" content="恩&hellip; 我重新改寫一下這篇
-
 因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
-
 我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
-
 今天介紹 __eq__, __hash__在Python 物件Object的做法"/>
 <meta name="twitter:site" content="@MingJungYU"/>
 
         <meta name="twitter:image" content="https://minayu.site/img/favicon.jpg">
         <meta property="og:title" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)" />
 <meta property="og:description" content="恩&hellip; 我重新改寫一下這篇
-
 因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
-
 我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
-
 今天介紹 __eq__, __hash__在Python 物件Object的做法" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/" /><meta property="article:published_time" content="2018-12-10T07:49:32&#43;00:00"/>
-<meta property="article:modified_time" content="2018-12-10T07:49:32&#43;00:00"/>
+<meta property="og:url" content="https://minayu.site/2018/12/%E6%8A%80%E8%A1%93%E5%B0%8F%E7%AD%86%E8%A8%98-%E5%88%A9%E7%94%A8eq-hash-%E8%A7%A3%E6%B1%BA%E5%8E%BB%E9%99%A4%E9%87%8D%E8%A4%87%E7%89%A9%E4%BB%B6object/" />
+<meta property="article:published_time" content="2018-12-10T07:49:32+00:00" />
+<meta property="article:modified_time" content="2018-12-10T07:49:32+00:00" />
 
         <meta property="og:image" content="https://minayu.site/img/favicon.jpg">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-        
-<meta itemprop="name" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
+        <meta itemprop="name" content="[技術小筆記] 利用eq, hash 解決去除重複物件(object)">
 <meta itemprop="description" content="恩&hellip; 我重新改寫一下這篇
-
 因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟
-
 我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題
-
 今天介紹 __eq__, __hash__在Python 物件Object的做法">
-
-
 <meta itemprop="datePublished" content="2018-12-10T07:49:32&#43;00:00" />
 <meta itemprop="dateModified" content="2018-12-10T07:49:32&#43;00:00" />
-<meta itemprop="wordCount" content="405">
+<meta itemprop="wordCount" content="383">
 
 
 
 <meta itemprop="keywords" content="[我要成為工程師] 1萬小時 - 後端工程師養成計劃," />
-
         
 
         
@@ -315,6 +297,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/newbie-to-learn-russian-language/">[俄文] 那個，所以我說俄文好學嗎？ 超新手體驗篇</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-11'>
+                                        December 11, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/polyglot-learning-my-experience/">[Polyglot] 成為多國語言學習者的心境路程 - 我與英文、日文、西文、俄文、德文的相遇</a></h3>
                                     
                                     <time class="published" datetime=
@@ -380,18 +374,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-11-06'>
                                         November 6, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/2020-improvement/">2020年新年新希望</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-04'>
-                                        November 4, 2019</time>
                                 </header>
                                 
 
@@ -627,45 +609,28 @@ if (!doNotTrack) {
 
         <div id="content">
           <p>恩&hellip; 我重新改寫一下這篇</p>
-
 <p>因為在我發文的後幾天我解決了，且在前輩的幫助下我有了更新一層的領悟</p>
-
 <p>我有點不知道這篇的知識該擺在哪，小筆記當初規劃是開來存放每次解決的小問題</p>
-
 <p>今天介紹 <code>__eq__, __hash__</code>在Python 物件Object的做法</p>
-
-<hr />
-
+<hr>
 <p>起初是因為一連串重複的object list中取除獨特的物件list</p>
-
 <p>若set() 使用在數值上，是可以直接去除重複值的</p>
-
 <pre><code>&gt;&gt;&gt; list = [2,3,4,5,5,5,5,2,2,3,4,5]
 &gt;&gt;&gt; list
 [2, 3, 4, 5, 5, 5, 5, 2, 2, 3, 4, 5]
 &gt;&gt;&gt; set(list)
 {2, 3, 4, 5}
 </code></pre>
-
 <p>所以代表set利用在數字上是可以去除重複值</p>
-
 <p>假設我的物件List長這樣</p>
-
 <pre><code>o_list = [data, data, data, data, data, data]
 </code></pre>
-
 <p>其中只會有3個物件是獨立的，但利用set()去實作並沒有篩選出獨立的3個物件</p>
-
 <p>我先後參考這些文件撰寫出程式碼</p>
-
 <p><a href="https://stackoverflow.com/questions/3942303/how-does-a-python-set-check-if-two-objects-are-equal-what-methods-does-an-o">How does a Python set([]) check if two objects are equal? What methods does an object need to define to customise this?</a></p>
-
 <p><a href="https://stackoverflow.com/questions/15580490/how-to-remove-duplicates-in-set-for-objects">How to remove duplicates in set for objects?</a></p>
-
 <p>以及許多</p>
-
 <p>然後造樣寫了一個這個</p>
-
 <pre><code>class RemoveDuplicate(object):
 
     def __init__(self, data):
@@ -685,76 +650,47 @@ for data, book in library:
     for each_data in list(data):
         data_list.add(RemoveDuplicate(each_data))
 </code></pre>
-
 <p>最後比較折騰我的原因是因為我的程式實際上傳的data 資料是 Object 裡又包Object</p>
-
 <p>而且剛好內部的object 是<code>unhashable</code></p>
-
 <p>我的data簡單來說長這樣</p>
-
 <pre><code>data
     id = 1
     object(OrderedDict)
     column = &quot;...&quot;
     table = &quot;...&quot;
 </code></pre>
-
 <p>在我的data中有包了一個object 是 OrderedDict，他是不可被hash</p>
-
-<hr />
-
+<hr>
 <p>來介紹一下此篇 Object, Equal, Hash</p>
-
 <p>Equal 這個功能，前輩說在各大程式語言內都看得到，例如JAVA  <a href="https://openhome.cc/Gossip/JavaEssence/ObjectEquality.html">openhome.cc</a> ，<a href="http://www.codedata.com.tw/java/object-equality-1/">CodeData</a></p>
-
 <p>例如<a href="https://dotblogs.com.tw/onebin/2017/01/26/180419">C #</a></p>
-
 <p>前輩丟了這篇給我讓我捉模一下 <a href="https://hynek.me/articles/hashes-and-equality/">Python Hashes and Equality</a></p>
-
 <p>Equal 在這寫是檢查兩個物件有沒有相同</p>
-
 <p>而相同的依據就是 <code>__eq__</code> 去定義</p>
-
 <pre><code>def __eq__(self, other):
     return (self.id) == (other.id)
 </code></pre>
-
 <p>在我的程式碼內是使用data.id 若相同就是同個物件</p>
-
 <p>什麼Hash? <a href="https://zh.wikipedia.org/wiki/%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B8">雜湊函式</a></p>
-
 <p>講一個例子就是有一副樸克牌，Hash的元件為紅心，黑桃，方塊及梅花</p>
-
 <p>接下來塞52張不同花色的牌卡下去後，經過Hash，樸克牌會像牌七一樣，同樣花色的排一排，該是紅心的牌他就會排在紅心的List後</p>
-
 <pre><code>紅心, [紅心Q, 紅心3, 紅心1, ...]
 
 黑桃, [黑桃1, 黑桃K, 黑桃2,...]
 </code></pre>
-
 <p>Hash 算是將物件中的某幾個元件(自己定)建立為固定的指紋, 若資料符合一系列的指紋就會被識別出來</p>
-
 <p>而且可被Hash(Hashable)的元件要是不可變動(Immutable)，這樣才能拿來作eq比較</p>
-
 <pre><code># 我用id 當hash
 def __hash__(self):
     return hash(self.id)
 </code></pre>
-
-<p>所以<strong>eq</strong> + <strong>hash</strong> ，就是hash會篩選出不同的桶子，而eq則會去比對說不同桶子內若其中有什麼元件是相同的，就會判定兩個桶子(物件)是一樣的</p>
-
+<p>所以__eq__ + __hash__ ，就是hash會篩選出不同的桶子，而eq則會去比對說不同桶子內若其中有什麼元件是相同的，就會判定兩個桶子(物件)是一樣的</p>
 <p>根據Python2.7<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__">文章</a>中，</p>
-
 <p>要使用Set做eq比較，<strong>唯有被hash過的物件才會被放進eq比較</strong></p>
-
 <p>若Class Object沒有<a href="https://docs.python.org/2/reference/datamodel.html#object.__eq__"><code>__eq__()</code></a> 的話，那就不用<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
-
 <p>可是如果有使用<a href="https://docs.python.org/2/reference/datamodel.html#object.__eq__"><code>__eq__()</code></a> ，就一定要用<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
-
 <p>意思是寫了eq, 就要用hash，而set會自動呼叫<a href="https://docs.python.org/2/reference/datamodel.html#object.__hash__"><code>__hash__()</code></a></p>
-
 <p>來看一下Python 3與 2的文件 <a href="https://docs.python.org/3.6/library/stdtypes.html#set">set 3.6</a> 及 <a href="https://docs.python.org/2/library/sets.html">set 2.7</a></p>
-
 <pre><code>set 內的元件必須要可被Hash
 The elements of a set must be &lt;span class=&quot;xref std std-term&quot;&gt;hashable&lt;/span&gt;.
 
@@ -766,57 +702,34 @@ set不能包含可變動的元件，像是list或字典。
 As a result, &lt;strong&gt;sets cannot contain mutable elements&lt;/strong&gt; such as lists or dictionaries.
 However, they &lt;strong&gt;can contain immutable collections&lt;/strong&gt; such as tuples or instances of&lt;code class=&quot;xref py py-class docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ImmutableSet&lt;/span&gt;&lt;/code&gt;.
 </code></pre>
-
-<hr />
-
-<h3 id="甚麼是mutable-immutable">甚麼是Mutable/ Immutable?</h3>
-
+<hr>
+<h3 id="mutable-immutable">甚麼是Mutable/ Immutable?</h3>
 <p>我找了一篇文章</p>
-
-<p><img src="http://minayu0416.files.wordpress.com/2018/12/1_oErPCXv1PFcuuizXqGEEbw.png" alt="" /></p>
-
-<h1 id="http-minayu0416-files-wordpress-com-2018-12-2018-12-10-下午3-43-40-png"><img src="http://minayu0416.files.wordpress.com/2018/12/2018-12-10-下午3.43.40.png" alt="" /></h1>
-
-<h1 id="mutable-vs-immutable-objects-in-python-https-medium-com-meghamohan-mutable-and-immutable-side-of-python-c2145cf72747"><a href="https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747">Mutable vs Immutable Objects in Python</a></h1>
-
+<p><img src="http://minayu0416.files.wordpress.com/2018/12/1_oErPCXv1PFcuuizXqGEEbw.png" alt=""></p>
+<h1 id="httpminayu0416fileswordpresscom2018122018121034340png"><img src="http://minayu0416.files.wordpress.com/2018/12/2018-12-10-%E4%B8%8B%E5%8D%883.43.40.png" alt=""></h1>
+<h1 id="heading"></h1>
+<h1 id="mutable-vs-immutable-objects-inpythonhttpsmediumcommeghamohanmutableandimmutablesideofpythonc2145cf72747"><a href="https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747">Mutable vs Immutable Objects in Python</a></h1>
 <p>裡面提及</p>
-
-<blockquote>**Mutable objects(我就翻為可變動物件)**:</blockquote>
-
-<blockquote>list, dict, set, byte array</blockquote>
-
-<blockquote>**Immutable objects(不可變動):**</blockquote>
-
-<blockquote>int, float, complex, string, tuple, frozen set [note: immutable version of set], bytes</blockquote>
-
-<p>要使用Set 及 <strong>eq</strong>和 <strong>hash</strong></p>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>要使用Set 及 __eq__和 <strong>hash</strong></p>
 <p>首先確定eq的條件，接著</p>
-
 <p>只有被hash的元件才會拿來做比較</p>
-
 <p>set 會自動執行hash, 若沒有hash函式就不會進到eq</p>
-
 <p>只有可被hash(不可變動的元件Immutable)，才可做為eq 做比對</p>
-
 <p>至於如果遇到字典, 串列，或者像我的例子中OrderedDict&rsquo;，真的要對這些變動元件做hash怎麼辦呢?</p>
-
 <p>在我的data 物件中，包含了<strong>OrderedDict</strong>, 而<strong>OrderedDict</strong>,屬於Dictionary的一種</p>
-
 <p>Dictionary 是 <strong>Mutable objects</strong>, 不可被<strong>hash</strong></p>
-
 <p><a href="https://stackoverflow.com/questions/15880765/python-unhashable-type-ordereddict">Python unhashable type: &lsquo;OrderedDict&rsquo;</a></p>
-
 <p>In your case, <code>var1</code> contains some object that is not hashable (it does not implement <code>hash()</code>).
 This object is an <code>OrderedDict</code>, which is a <strong>mutable object</strong> and is <strong>not hashable</strong> by design.</p>
-
-<h3 id="對於unhashable的物件-你可使用">對於unhashable的物件，你可使用</h3>
-
+<h3 id="heading1"></h3>
+<h3 id="unhashable">對於unhashable的物件，你可使用</h3>
 <pre><code>frozenset() 回傳
 </code></pre>
-
 <p>以下是我的程式碼</p>
-
 <pre><code>class RemoveDuplicate(object):
     def __init__(self, data):
         &lt;strong&gt;self.data = data.data&lt;/strong&gt;
@@ -835,9 +748,7 @@ for data, book in library:
     for each_data in list(data):
         data_list.add(RemoveDuplicate(each_data))
 </code></pre>
-
 <p>粗字是OrderedDict 物件，可以使用這樣的方法來Hash</p>
-
 <p>參考文章, <a href="https://stackoverflow.com/questions/1151658/python-hashable-dicts/6014481">此篇</a>可以解決dict unhashable</p>
           <hr>
           <div>
@@ -1085,6 +996,20 @@ for data, book in library:
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/newbie-to-learn-russian-language/">[俄文] 那個，所以我說俄文好學嗎？ 超新手體驗篇</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-11'>
+                      December 11, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/polyglot-learning-my-experience/">[Polyglot] 成為多國語言學習者的心境路程 - 我與英文、日文、西文、俄文、德文的相遇</a>
                     </h3>
                     
@@ -1156,20 +1081,6 @@ for data, book in library:
                     
                     <time class="published" datetime='2019-11-06'>
                       November 6, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/2020-improvement/">2020年新年新希望</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-04'>
-                      November 4, 2019
                     </time>
                   </header>
                   

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[碩論也瘋狂] 加分系統開發全記錄 (python) on 月水瓶 @Mina 的人生研究室</title>
@@ -18,11 +18,8 @@
       
       <guid>https://minayu.site/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
       <description>&lt;p&gt;好啦~&lt;/p&gt;
-
 &lt;p&gt;經過一番寒徹骨&lt;/p&gt;
-
 &lt;p&gt;焉得咳咳&lt;/p&gt;
-
 &lt;p&gt;經過了不知許久上一篇文章&lt;/p&gt;</description>
     </item>
     
@@ -33,7 +30,6 @@
       
       <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;p&gt;這次，我就不說自己完成幾%了&lt;/p&gt;
-
 &lt;p&gt;免得雷到自己XD&lt;/p&gt;</description>
     </item>
     
@@ -44,7 +40,6 @@
       
       <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
       <description>&lt;p&gt;程式，終於完成80%，進入最終測試階段了&lt;/p&gt;
-
 &lt;p&gt;還來不及update，日子就一天一天的過&lt;/p&gt;</description>
     </item>
     
@@ -55,9 +50,7 @@
       
       <guid>https://minayu.site/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
       <description>&lt;p&gt;打開KKBOX，放一首偏抒發的慢歌來配著打文章&lt;/p&gt;
-
 &lt;p&gt;上一篇忘記什麼時候發了&lt;/p&gt;
-
 &lt;p&gt;但我的google分頁仍有幾篇等著我哪天有feel的時候來寫一寫文章發一發&lt;/p&gt;</description>
     </item>
     
@@ -77,7 +70,6 @@
       
       <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
       <description>&lt;p&gt;我希望今天能夠把server端寫好&lt;/p&gt;
-
 &lt;p&gt;明天就能開始規劃我的client端怎麼寫&lt;/p&gt;</description>
     </item>
     
@@ -88,20 +80,14 @@
       
       <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
       <description>&lt;p&gt;寫程式，有一個很重要的觀念&lt;/p&gt;
-
 &lt;p&gt;就是&lt;/p&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;blockquote&gt;
-
-&gt; 
-&gt; Do by learn
-&gt; 
-&gt; 
+&lt;p&gt;Do by learn&lt;/p&gt;
 &lt;/blockquote&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;千萬不要去買什麼書回來看，直接就上機然後自己規劃，不會就找網路跟問人!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://minayu0416.files.wordpress.com/2018/04/img_1945.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://minayu0416.files.wordpress.com/2018/04/img_1945.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -111,7 +97,6 @@
       
       <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
       <description>&lt;p&gt;老話一句&lt;/p&gt;
-
 &lt;p&gt;卡了多少天，就是隔多少天才發文章&lt;/p&gt;</description>
     </item>
     
@@ -122,10 +107,8 @@
       
       <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
       <description>&lt;p&gt;網址附贈：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&#34;&gt;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&#34;&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&#34;&gt;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,10 +117,8 @@
       <pubDate>Sat, 07 Apr 2018 05:02:39 +0000</pubDate>
       
       <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
-      <description>&lt;blockquote&gt;pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)&lt;/blockquote&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Error: 2003&lt;/p&gt;
-
 &lt;p&gt;mysql&lt;/p&gt;</description>
     </item>
     
@@ -148,7 +129,6 @@
       
       <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
       <description>&lt;p&gt;Could not find a version that satisfies the requirement MySQL-python==1.2.4 (from versions: )&lt;/p&gt;
-
 &lt;p&gt;No matching distribution found for MySQL-python==1.2.4&lt;/p&gt;</description>
     </item>
     
@@ -159,9 +139,7 @@
       
       <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
       <description>&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
-
-&lt;p&gt;&lt;del&gt;我已經放棄裝PyQt4了&lt;/del&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;我已經放棄裝PyQt4了&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(:3 」∠)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
@@ -172,11 +150,8 @@
       
       <guid>https://minayu.site/2018/04/problem-faced-develop-python-desktop-1/</guid>
       <description>&lt;p&gt;有鑒於自己最近剛接手一個做到一半的桌機開發程式&lt;/p&gt;
-
 &lt;p&gt;由於自己只用過Django and Python 寫過網頁&lt;/p&gt;
-
 &lt;p&gt;而對於桌機版的Python&lt;/p&gt;
-
 &lt;p&gt;根本一竅不通&lt;/p&gt;</description>
     </item>
     
