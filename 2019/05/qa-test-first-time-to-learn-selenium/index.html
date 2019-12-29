@@ -24,7 +24,7 @@
         "datePublished": "2019-05-16 23:01:58 \x2b0800 CST",
         "dateModified" : "2019-05-16 23:01:58 \x2b0800 CST",
         "url" : "https:\/\/minayu.site\/2019\/05\/qa-test-first-time-to-learn-selenium\/",
-        "wordCount" : "205",
+        "wordCount" : "206",
         "keywords" : [ "[IT Things] 邁向DevOps之路 - 睡醒突然變QA","Blog" ]
     }
     </script>
@@ -80,7 +80,7 @@
 <meta itemprop="description" content="由於公司唯一的QA離職了，先前我名片的英文從Backend印錯成QA的預言成真，從後端小菜鳥半轉職為QA，到底QA都在做什麼事情呢？請和我這個QA小菜鳥一同探索自動化測試Selenuim">
 <meta itemprop="datePublished" content="2019-05-16T23:01:58&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-16T23:01:58&#43;08:00" />
-<meta itemprop="wordCount" content="205">
+<meta itemprop="wordCount" content="206">
 
 
 
@@ -298,6 +298,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -351,18 +363,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -603,10 +603,10 @@ if (!doNotTrack) {
 <p>直到最近，同事都會偷偷調侃我，名片印錯是在預言XD，以及本身是開發還兼做營運，所以是<code>DevOps</code> (You are Developer but do operation, so DevOps!)</p>
 <p>這個分類還要叫 <code>後端工程師</code> 嗎？ 我都快變QA 惹XD，從求學到現在，我從前端起家，不小心出社會變成後端，結果又要不小心變QA測試工程師了嗎XD</p>
 <p>我覺得挺有趣的，說不定下份工作會是 <code>DevOps工程師</code>，哈哈！但無論如何，我覺得多學習都是好事情，有得學就很開心！</p>
-<!-- raw HTML omitted -->
+<hr>
 <p>在不久的未來，我即將要使用Selenium撰寫產品的測試，身為一個後端的Junior 出社會不到一年，由於產品的核心演算法無法參與開發，加上團隊們要很趕的急速開發。作為一個小後端Junior，最好的角色就是跟在大家的屁股後面，撿各位資深前輩的丟下的臭蟲(Bugs)。</p>
 <p>也就是看懂前輩們的程式碼，並製作成單元測試(測試後端)，以及學使用Selenium 自動化測試前端！幫他們抓出臭蟲(有的時候會幫忙修臭蟲) (錯，是Always&hellip;)</p>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="qa--selenium">學習QA測試 - Selenium</h1>
 <p><code>工作設備: MacBook Pro</code></p>
 <p>一開始以為Selenium 是一個額外的軟體，他需要載一包執行檔像是 Chrome 那種應用程式來做執行。</p>
@@ -618,7 +618,7 @@ if (!doNotTrack) {
 <li>可以用很多程式語言撰寫自動化程式碼</li>
 <li>可以運用在不同的環境測試(各種瀏覽器, 手機, &hellip;)</li>
 </ul>
-<p><!-- raw HTML omitted -->這麼好用的東西居然不是應用程式，我也覺得很驚訝的<!-- raw HTML omitted --></p>
+<p><del>這麼好用的東西居然不是應用程式，我也覺得很驚訝的</del></p>
 <p>首先先來安裝 <code>selenium</code>，打開Terminal，輸入下列指令</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># 安裝python，當然是用pip install啦，下指令後就可以去泡杯咖啡了</span>
 pip install selenium
@@ -667,7 +667,7 @@ brew cask install chromedriver
 
 </code></pre></div><p>執行完後，能看到 <code>Selenium</code> 自己打開Chrome 並自動到指定網站 <code>https://www.saucelabs.com</code>，自動點擊 網站內的 <code>Platforms</code> 和 <code>Pricing</code> 並驗證(assertTrue)畫面有無正確。</p>
 <p>我先前寫的單元測試都是用 <code>unittest</code> 去寫測試後端核心程式，而現在可以加上<code>Selenium</code> 來自動化測試前端，這讓我的測試功能更進一步，使產品程式碼更完善，讓我有一種技能樹又多點一分的感覺XDD，真的有一種從後端學習測試並有可能會晉升為 <code>DevOps</code> 的感覺xD</p>
-<!-- raw HTML omitted -->
+<hr>
 <p>簡單講解幾段Code</p>
 <p>和單元測試的 <code>假設</code> &raquo; <code>驗證</code>，相似，用 Selenium 做自動化測試時，也許要 <code>assert</code> 各種條件來驗證功能是否有達到標準。</p>
 <p><code>去到指定網址</code></p>
@@ -794,7 +794,7 @@ self<span style="color:#f92672">.</span>browser<span style="color:#f92672">.</sp
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/05/qa-test-first-time-to-learn-selenium/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -948,6 +948,20 @@ self<span style="color:#f92672">.</span>browser<span style="color:#f92672">.</sp
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1011,20 +1025,6 @@ self<span style="color:#f92672">.</span>browser<span style="color:#f92672">.</sp
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1043,7 +1043,7 @@ self<span style="color:#f92672">.</span>browser<span style="color:#f92672">.</sp
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/05/qa-test-first-time-to-learn-selenium/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

@@ -24,7 +24,7 @@
         "datePublished": "2019-01-19 23:46:50 \x2b0800 CST",
         "dateModified" : "2019-01-19 23:46:50 \x2b0800 CST",
         "url" : "https:\/\/minayu.site\/2019\/01\/bind-domain-ssl-with-hugo-github\/",
-        "wordCount" : "230",
+        "wordCount" : "255",
         "keywords" : [ "[建築我的家] 關於部落格的那點事","Blog" ]
     }
     </script>
@@ -94,7 +94,7 @@
 於是我把想法移駕到了hugo &#43; github">
 <meta itemprop="datePublished" content="2019-01-19T23:46:50&#43;08:00" />
 <meta itemprop="dateModified" content="2019-01-19T23:46:50&#43;08:00" />
-<meta itemprop="wordCount" content="230">
+<meta itemprop="wordCount" content="255">
 
 
 
@@ -312,6 +312,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -365,18 +377,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -626,14 +626,18 @@ if (!doNotTrack) {
 </code></pre><p> </p>
 <p>接下來應該會邊陸續添增一些新的功能，寫文章, 慢慢提升SEO</p>
 <p>本文章教學：</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<ul>
+	<li>如何把購買的SSL 與 domain 結合</li>
+	<li>如何把新買的domain指向Github</li>
+	<li>一些注意事項</li>
+</ul>
+<hr>
 <h2 id="godaddy-domain">於Godaddy 購買domain</h2>
-<p><!-- raw HTML omitted -->Godaddy 網站<!-- raw HTML omitted --> 有許多domain, 你可以直接去查看想要的domain，順便看看這些domain的延伸含義</p>
+<p><a href="https://tw.godaddy.com/?sp_hp=B">Godaddy 網站</a> 有許多domain, 你可以直接去查看想要的domain，順便看看這些domain的延伸含義</p>
 <p>這個部分其實蠻簡單的</p>
 <pre><code>將想要的domain查詢後 &gt;&gt; 加入購物車 &gt;&gt; 點取右上方購物車圖示 &gt;&gt;
 填繳費表單 &gt;&gt; 勾選要不要額外的服務 &gt;&gt; 優惠碼 &gt;&gt; 結帳
-</code></pre><p>特別提一下在購物車時，有個<code>網域隱私保護</code>, 其實只是讓你的domain 能不能在 <!-- raw HTML omitted -->Whois365<!-- raw HTML omitted --> 中被查找，沒有網站說的什麼資訊看光光這麼可怕</p>
+</code></pre><p>特別提一下在購物車時，有個<code>網域隱私保護</code>, 其實只是讓你的domain 能不能在 <a href="https://www.whois365.com/en/">Whois365</a> 中被查找，沒有網站說的什麼資訊看光光這麼可怕</p>
 <p>但我還是被嚇唬到，然後購買了，好冤XD</p>
 <p> </p>
 <p>查看了一下SSL好像是額外買的，沒在這可以選</p>
@@ -642,12 +646,12 @@ if (!doNotTrack) {
 <p> </p>
 <p> </p>
 <h1 id="ssl-certification">買SSL Certification</h1>
-<p>我也是在<!-- raw HTML omitted -->Godaddy SSL<!-- raw HTML omitted --> 購買SSL</p>
+<p>我也是在<a href="https://tw.godaddy.com/web-security/ssl-certificate">Godaddy SSL</a> 購買SSL</p>
 <p>SSL 就是把你的網站從Http 變為Https</p>
 <p>可惡的是購買SSL 比購買網域貴好多!!</p>
 <p> </p>
 <p>把工具買好惹，就來裝吧</p>
-<!-- raw HTML omitted -->
+<hr />
 <h2 id="ssl-certification--domain">裝SSL Certification 於 你的domain</h2>
 <p>Godaddy的台灣版後台，我當初也是摸的翻白眼，不太好用，索性&hellip;&hellip; 用好了qq</p>
 <p> </p>
@@ -655,7 +659,7 @@ if (!doNotTrack) {
 <p>在Godaddy 登入你的帳號</p>
 <p> </p>
 <p>前往後台左上方的SSL 憑證</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-19797" src="https://minayu0416.files.wordpress.com/2019/01/螢幕快照-2019-01-19-下午6.34.32.png" alt="螢幕快照 2019-01-19 下午6.34.32" width="2680" height="502" /></p>
 <p>你會看到一條剛購買熱騰騰的SSL 憑證，尚未設定</p>
 <p> </p>
 <p>進入設定，會需要你輸入欲綁入的網址</p>
@@ -676,15 +680,15 @@ generated-private-key
 <p> </p>
 <p>以下兩個比較複雜，促使我發出這篇文章XD</p>
 <p>把SSL+ Domain都搞定後，就來做連結了</p>
-<!-- raw HTML omitted -->
+<hr />
 <h2 id="domaingithub">將Domain設定指向Github</h2>
 <p>打開Goddady的後台後，前往網域，打開三個點 ··· 進入DNS管理</p>
 <p>接下來你會需要新增 在 <code>紀錄</code>裡</p>
 <p>分別是 A 紀錄, CNAME</p>
 <p> 
-新增A<!-- raw HTML omitted -->
+新增A</h4>
 首先你要找到你的Github 的A</p>
-<p>參考<!-- raw HTML omitted -->Github的網站<!-- raw HTML omitted --> , 可以取得兩個指令來找到Github的A</p>
+<p>參考<a href="https://help.github.com/articles/setting-up-an-apex-domain/">Github的網站</a> , 可以取得兩個指令來找到Github的A</p>
 <pre><code> $ dig [YOUR-USERNAME].github.io +noall +answer
 </code></pre><p>將這段指令貼上你的Terminal來查找你github網站的A</p>
 <pre><code>[YOUR-USERNAME].github.io &lt; 改為[你的github帳號].github.io
@@ -698,7 +702,7 @@ generated-private-key
 <p> </p>
 <p>接著回到Godaddy的管裡DNS後台，「紀錄」右下方「加入」</p>
 <p>新增這四筆</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-19798" src="https://minayu0416.files.wordpress.com/2019/01/螢幕快照-2019-01-19-下午6.59.57.png" alt="螢幕快照 2019-01-19 下午6.59.57" width="1790" height="564" /></p>
 <pre><code>類型 : A
 
 主機: @
@@ -707,11 +711,17 @@ generated-private-key
 
 TTL 得符合上面的3600，也就是一小時 (看你Dig多少就填多少~)
 </code></pre><p> </p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --></p>
+<h4>新增CNAME</h4>
+一樣管理DNS，```紀錄```右下方```加入```
+<p><img class="alignnone size-full wp-image-19799" src="https://minayu0416.files.wordpress.com/2019/01/螢幕快照-2019-01-19-下午7.03.01.png" alt="螢幕快照 2019-01-19 下午7.03.01" width="1796" height="566" /></p>
 <p> </p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<h4>驗證</h4>
+稍等些許時間後，用<a href="https://help.github.com/articles/setting-up-an-apex-domain/">Github提供</a>的另外一個指令做檢查
+```
+$ dig [your-domain] +noall +answer
+```
+貼上Terminal後，得和剛剛的指令 結果是一樣的 (記得是填你買的domain)
+<hr />
 <h2 id="githubdomain">將Github設定指向Domain</h2>
 <p>在你的Github 前往 你放網站的repository</p>
 <pre><code>[YOUR-USERNAME].github.io
@@ -852,7 +862,7 @@ your-domain
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/01/bind-domain-ssl-with-hugo-github/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1006,6 +1016,20 @@ your-domain
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1069,20 +1093,6 @@ your-domain
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1101,7 +1111,7 @@ your-domain
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/01/bind-domain-ssl-with-hugo-github/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

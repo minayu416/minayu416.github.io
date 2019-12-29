@@ -24,7 +24,7 @@
         "datePublished": "2018-05-09 08:40:52 \x2b0000 \x2b0000",
         "dateModified" : "2018-05-09 08:40:52 \x2b0000 \x2b0000",
         "url" : "https:\/\/minayu.site\/2018\/05\/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5\/",
-        "wordCount" : "211",
+        "wordCount" : "244",
         "keywords" : [ "[碩論也瘋狂] 加分系統開發全記錄 (python)","Blog" ]
     }
     </script>
@@ -85,7 +85,7 @@
 還來不及update，日子就一天一天的過">
 <meta itemprop="datePublished" content="2018-05-09T08:40:52&#43;00:00" />
 <meta itemprop="dateModified" content="2018-05-09T08:40:52&#43;00:00" />
-<meta itemprop="wordCount" content="211">
+<meta itemprop="wordCount" content="244">
 
 
 
@@ -303,6 +303,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -356,18 +368,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -502,7 +502,7 @@ if (!doNotTrack) {
             May 9, 2018</time>
         <span class="author">minayu416</span>
         
-            <p>1 minute read</p>
+            <p>2 minute read</p>
         
         
     </div>
@@ -641,12 +641,12 @@ if (!doNotTrack) {
 <p>還有一些學習到新的程式寫法</p>
 <p>來分享一下</p>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>終止python程式語法</blockquote>
 <pre><code>import os
 os._exit(0)
 </code></pre>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>一個字一個字打印</blockquote>
 <pre><code>def slowprint(s):
     for c in s + '\n':
         sys.stdout.write(c)
@@ -658,14 +658,14 @@ os._exit(0)
 </code></pre>
 <p>這個是看要在哪下指令</p>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>呼叫外部程式</blockquote>
 <pre><code>import os
 os.system(&quot;路徑/程式&quot;)
 </code></pre>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>Python 3 為預設utf-8可以直接打印繁體字</blockquote>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>Python 2 跟 Python 3 輸入 Input 使用的不同</blockquote>
 <p><a href="https://blog.csdn.net/suibianshen2012/article/details/51378948"><a href="https://blog.csdn.net/suibianshen2012/article/details/51378948">https://blog.csdn.net/suibianshen2012/article/details/51378948</a></a></p>
 <hr>
 <p>No mudule name requests and Requirement already satisfied 解法</p>
@@ -675,7 +675,7 @@ os.system(&quot;路徑/程式&quot;)
 <p>httplib來處理我上傳post/get</p>
 <p>但後來我發現，用簡單的方法就可以做到我用Post, get回傳到我的server端</p>
 <p>Server端是用Django的View來接受做處理，然後再回傳到我的後台跟Vm</p>
-<!-- raw HTML omitted -->
+<blockquote>如何在client端發送get/post到Server接收</blockquote>
 <p>用python的requests做發送</p>
 <p>Server端則是用Django的View做處理</p>
 <p>這邊是Client端簡單的寫法</p>
@@ -698,11 +698,11 @@ r = requests.post('http://ooo.ooo.ooo.ooo/upload/',data=my_data)
 <p>然後後面rb 有代表的字</p>
 <p><a href="http://bigpxuan.blogspot.tw/2016/07/python-open.html"><a href="http://bigpxuan.blogspot.tw/2016/07/python-open.html">http://bigpxuan.blogspot.tw/2016/07/python-open.html</a></a></p>
 <p>這個大大的文章中有解釋</p>
-<!-- raw HTML omitted -->
+<blockquote>client 端 binary讀 >> 壓字串 >> POST 到 指定的網段(Server端) >> Server端接收 >>做處理 >>回傳到Server端裡的資料夾</blockquote>
 <p>大概是這樣</p>
 <p>所以我桌機的程式就是之後壓成exe扔到windows 做客戶端</p>
 <p>不過卡了一個大問題就是我發現我做的程式會被掃毒擋</p>
-<!-- raw HTML omitted -->
+<blockquote>先讓學生輸入學號 >> 讓他們讀注意事項 >> 開始 >> Call 一個程式  >> 結束 >> Call另外一個程式 >>將兩個程式回傳Server</blockquote>
 <p>大概長這樣</p>
 <p>程式碼的話，大致上架構是</p>
 <pre><code># -*- coding: utf-8 -*-
@@ -888,7 +888,7 @@ else:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1042,6 +1042,20 @@ else:
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1105,20 +1119,6 @@ else:
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1137,7 +1137,7 @@ else:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

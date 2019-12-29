@@ -24,7 +24,7 @@
         "datePublished": "2018-10-05 16:12:55 \x2b0000 \x2b0000",
         "dateModified" : "2018-10-05 16:12:55 \x2b0000 \x2b0000",
         "url" : "https:\/\/minayu.site\/2018\/10\/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6\/",
-        "wordCount" : "328",
+        "wordCount" : "362",
         "keywords" : [ "[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
     }
     </script>
@@ -88,7 +88,7 @@ https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
 https://medium.com/python-pandemonium/build-simple-restful-api-with-python-and-flask-part-1-fae9ff66a706">
 <meta itemprop="datePublished" content="2018-10-05T16:12:55&#43;00:00" />
 <meta itemprop="dateModified" content="2018-10-05T16:12:55&#43;00:00" />
-<meta itemprop="wordCount" content="328">
+<meta itemprop="wordCount" content="362">
 
 
 
@@ -306,6 +306,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -359,18 +371,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -615,7 +615,7 @@ if (!doNotTrack) {
 <p><a href="https://flask-restful.readthedocs.io/en/latest/quickstart.html">https://flask-restful.readthedocs.io/en/latest/quickstart.html</a></p>
 <p>將Restful+CRUD文件做法看一看(1.5hr)</p>
 <p>動手將之前寫的api改成Restful+CRUD(11:30-12:30, 14:33-16:16, 4hours)</p>
-<p><!-- raw HTML omitted -->將Request.py改成丟Random資料<!-- raw HTML omitted --></p>
+<p><del>將Request.py改成丟Random資料</del></p>
 <p>pandas/ 開始參與專案的小部分工作(5:00-</p>
 <hr>
 <pre><code>10/2
@@ -745,26 +745,66 @@ pandas.core.series.Series
 <p>13:30-16:20(3hours)</p>
 <p>吃飽回來後解大程式</p>
 <p><a href="https://pandas.pydata.org/pandas-docs/stable/indexing.html">https://pandas.pydata.org/pandas-docs/stable/indexing.html</a></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<table border="1" class="colwidths-given docutils" >
+<tr class="row-odd" >
+Object Type
+Indexers
+</tr>
+<tbody valign="top" >
+<tr class="row-even" >
+<td >Series
+</td>
+<td >`s.loc[indexer]`
+</td>
+</tr>
+<tr class="row-odd" >
+<td >DataFrame
+</td>
+<td >`df.loc[row_indexer,column_indexer]`
+</td>
+</tr>
+<tr class="row-even" >
+<td >Panel
+</td>
+<td >`p.loc[item_indexer,major_indexer,minor_indexer]`
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-given docutils" >
+<tr class="row-odd" >
+Object Type
+Selection
+Return Value Type
+</tr>
+<tbody valign="top" >
+<tr class="row-even" >
+<td >Series
+</td>
+<td >`series[label]`
+</td>
+<td >scalar value
+</td>
+</tr>
+<tr class="row-odd" >
+<td >DataFrame
+</td>
+<td >`frame[colname]`
+</td>
+<td >`Series` corresponding to colname
+</td>
+</tr>
+<tr class="row-even" >
+<td >Panel
+</td>
+<td >`panel[itemname]`
+</td>
+<td >`DataFrame` corresponding to the itemname
+</td>
+</tr>
+</tbody>
+</table>
+＊＊＊今日學習的DataFrame函式～～＊＊＊
 <pre><code>def f_read(table, limit):
     df = pd.read_sql(&quot;select * from {} limit {}&quot;.format(table, limit), db.engine)
     return df
@@ -979,7 +1019,7 @@ Else:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1133,6 +1173,20 @@ Else:
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1196,20 +1250,6 @@ Else:
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1228,7 +1268,7 @@ Else:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/10/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%847-%E9%80%B2%E5%85%A5pandas%E5%95%A6/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

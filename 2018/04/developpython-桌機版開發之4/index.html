@@ -13,7 +13,7 @@
         "articleSection" : "blog",
         "name" : "[DEVELOP]PYTHON 桌機版開發之(4)",
         "headline" : "[DEVELOP]PYTHON 桌機版開發之(4)",
-        "description" : "\x3c!-- raw HTML omitted --\x3e\n\x3cp\x3eError: 2003\x3c\/p\x3e\n\x3cp\x3emysql\x3c\/p\x3e",
+        "description" : "\x3cblockquote\x3epymysql.err.OperationalError: (2003, \x22Can\x27t connect to MySQL server on \x27120.96.183.71\x27 (timed out)\x22)\x3c\/blockquote\x3e\n\x3cp\x3eError: 2003\x3c\/p\x3e\n\x3cp\x3emysql\x3c\/p\x3e",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -24,7 +24,7 @@
         "datePublished": "2018-04-07 05:02:39 \x2b0000 \x2b0000",
         "dateModified" : "2018-04-07 05:02:39 \x2b0000 \x2b0000",
         "url" : "https:\/\/minayu.site\/2018\/04\/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4\/",
-        "wordCount" : "150",
+        "wordCount" : "177",
         "keywords" : [ "[碩論也瘋狂] 加分系統開發全記錄 (python)","Blog" ]
     }
     </script>
@@ -63,14 +63,14 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[DEVELOP]PYTHON 桌機版開發之(4)"/>
-<meta name="twitter:description" content="
+<meta name="twitter:description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
 Error: 2003
 mysql"/>
 <meta name="twitter:site" content="@MingJungYU"/>
 
         <meta name="twitter:image" content="https://minayu.site/img/favicon.jpg">
         <meta property="og:title" content="[DEVELOP]PYTHON 桌機版開發之(4)" />
-<meta property="og:description" content="
+<meta property="og:description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
 Error: 2003
 mysql" />
 <meta property="og:type" content="article" />
@@ -83,12 +83,12 @@ mysql" />
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta itemprop="name" content="[DEVELOP]PYTHON 桌機版開發之(4)">
-<meta itemprop="description" content="
+<meta itemprop="description" content="pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)
 Error: 2003
 mysql">
 <meta itemprop="datePublished" content="2018-04-07T05:02:39&#43;00:00" />
 <meta itemprop="dateModified" content="2018-04-07T05:02:39&#43;00:00" />
-<meta itemprop="wordCount" content="150">
+<meta itemprop="wordCount" content="177">
 
 
 
@@ -306,6 +306,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -359,18 +371,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -605,7 +605,7 @@ if (!doNotTrack) {
         
 
         <div id="content">
-          <!-- raw HTML omitted -->
+          <blockquote>pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '120.96.183.71' (timed out)")</blockquote>
 <p>Error: 2003</p>
 <p>mysql</p>
 <p><img src="https://minayu0416.files.wordpress.com/2018/04/screen-shot-2018-04-07-at-12-33-18-pm.png" alt="Screen Shot 2018-04-07 at 12.33.18 PM"></p>
@@ -633,8 +633,8 @@ if (!doNotTrack) {
 <p><a href="http://www.configserverfirewall.com/ubuntu-linux/enable-mysql-remote-access-ubuntu/">http://www.configserverfirewall.com/ubuntu-linux/enable-mysql-remote-access-ubuntu/</a></p>
 <p><a href="http://gaznjang.blogspot.tw/2010/08/mysqld-bind-address.html">http://gaznjang.blogspot.tw/2010/08/mysqld-bind-address.html</a></p>
 <p>不過當我改到</p>
-<!-- raw HTML omitted -->
-<p>bind-address            = 0.0.0.0<!-- raw HTML omitted --></p>
+<blockquote>bind-address            = 127.0.0.1
+<p>bind-address            = 0.0.0.0</blockquote></p>
 <p>就被擋下來了</p>
 <p>一方面是檔案Read-Only</p>
 <p>一方面則是我怕按下去整個伺服器會掛掉</p>
@@ -651,8 +651,8 @@ if (!doNotTrack) {
 <p>我終於回來更新一下，我這篇的進度</p>
 <p>約莫三天前，週一的時候到了研究室詢問了一下學弟</p>
 <p>我將</p>
-<!-- raw HTML omitted -->
-<p>bind-address            = 0.0.0.0<!-- raw HTML omitted --></p>
+<blockquote>bind-address            = 127.0.0.1
+<p>bind-address            = 0.0.0.0</blockquote></p>
 <p>這樣改後</p>
 <p>就能夠在我的python Desktop 應用端編譯成功連上我的虛擬機器端</p>
 <p>所以必須告訴大家的是，即便你將你的虛擬機對外開放後，你發現無法連上資料庫</p>
@@ -671,7 +671,7 @@ if (!doNotTrack) {
 </ol>
 <hr>
 <p>經過這次我自己生病兩週加上和指導老師隔絕的情況下自己胡搞瞎搞，雖然扛著崩潰的精神壓力很痛苦外，我其實還學到不少東西</p>
-<p><!-- raw HTML omitted -->原來唐老師説牡羊座今年想死卻是個轉機是真的<!-- raw HTML omitted --></p>
+<p><del>原來唐老師説牡羊座今年想死卻是個轉機是真的</del></p>
 <p>但打死我都不想再經歷一次那種巨大的精神壓力</p>
 <p>而這邊列了一下自己沒有外力幫助完全靠自己理解的新東西</p>
 <ol>
@@ -689,7 +689,7 @@ if (!doNotTrack) {
 </li>
 </ol>
 <p>首先</p>
-<!-- raw HTML omitted -->
+<blockquote>Ubuntu的Etc用處</blockquote>
 <p>至從買了個Mac，自己進入到一個全新的系統Unix</p>
 <p>一般使用蘋果系統的人應該比較不曉得，就是時常享受著蘋果產品帶來的質感跟炫富</p>
 <p>但其實由於蘋果的系統為Unix系統，我個人覺得跟Ubuntu還蠻像的</p>
@@ -702,7 +702,7 @@ if (!doNotTrack) {
 <p>我們將寫的網路扔到home裡面</p>
 <p>這次有幸，從home往前探勘，才發現許多系統的運作操作，還有很多軟體程式都裝在目錄home的前一層</p>
 <p>也才知道etc是做什麼用的</p>
-<!-- raw HTML omitted -->
+<blockquote>Mac中，Homebrew/Python&pip</blockquote>
 <p>為什麼會說ubuntu和unix很像</p>
 <p>其實就是大家打開終端機，將目錄從/使用者/那端往前切後會發現</p>
 <p>使用者端(應該就是Home)之前的目錄跟資料夾，macOS和Ubuntu都很像</p>
@@ -714,7 +714,7 @@ if (!doNotTrack) {
 <p>還有如果你是新手再起初開發一些程式時，會發現有些部落客或者課程不會讓你開發的程式資料夾建在Desktop</p>
 <p>但Windows用久了，什麼東西除了扔桌面跟Download很少扔在其他地方</p>
 <p>但在Mac，既然是寫程式，其實就是將資料夾建在桌面上一層的地區</p>
-<!-- raw HTML omitted -->
+<blockquote>/Users/此區/Desktop/</blockquote>
 <p>所以如果你想要把一些你曾經建了卻不知道建在哪的開發程式資料夾刪除</p>
 <p>從桌面移動上一層目錄，應該會找到(系統應該也會幫你裝在那)</p>
 <p>換句話說，在windows等於建在Ｃ曹的Prgramfiles &laquo; 這個東西換成中文就是程式的檔案啦～</p>
@@ -737,14 +737,14 @@ if (!doNotTrack) {
 <p>而不是像我因為沒有接觸過其他語言，就一直pip pip pip xDDDD</p>
 <p>然後打的很開心，報錯還一直問為什麼沒辦法裝!!! XD</p>
 <hr>
-<!-- raw HTML omitted -->
+<blockquote>Mysql+phpmyadmin</blockquote>
 <p>這解釋起來比較困難，但是要裝phpmyadmin就需要裝mysql</p>
 <p>然後A端連過去B端</p>
 <p>B端要裝phpmysql</p>
 <p>A端要裝，mysql及能連線mysql的套件(一樣專完mysql才能裝)</p>
 <p>mysql裝完記得開起來才能裝</p>
 <p>mysql跟python跟其他軟體都會被統一裝在一個地方(我那時候有看到可是我忘了是在哪個目錄裡)</p>
-<!-- raw HTML omitted -->
+<blockquote>Python Desktop+tkinter 開發</blockquote>
 <p>最後撒花一下</p>
 <p>就是學到了以往exe這類型的桌機檔都怎麼開發</p>
 <p>其實不會很困難，我們都把它想得十分十分的困難</p>
@@ -878,7 +878,7 @@ if (!doNotTrack) {
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1032,6 +1032,20 @@ if (!doNotTrack) {
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1095,20 +1109,6 @@ if (!doNotTrack) {
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1127,7 +1127,7 @@ if (!doNotTrack) {
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

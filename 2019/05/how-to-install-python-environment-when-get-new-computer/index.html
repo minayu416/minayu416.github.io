@@ -298,6 +298,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -351,18 +363,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -604,7 +604,7 @@ if (!doNotTrack) {
 <p>我漸漸對舊的文章安裝方式有些改變</p>
 <p>有幸公司幫工程師買了新電腦，我有機會再重新安裝一次Python環境在新電腦上。</p>
 <p>這次終於可以在全新的電腦上，重新安裝一次環境，並紀錄在文章內，現在就來跟我一起安裝Python環境吧！</p>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="heading">新電腦健檢</h1>
 <p><code>使用電腦: Macbook Pro</code></p>
 <p>新電腦除了剛開始一無所有時，動手前最好查看一下電腦整體的狀況，了解後再開始安裝環境，不然若真的有問題，跑完安裝後才發現也就浪費一堆時間啦qq</p>
@@ -623,7 +623,7 @@ if (!doNotTrack) {
 <h3 id="-terminal">使用原生終端機 Terminal</h3>
 <p>打開 <code>啟動台(Launchpad)</code> &raquo; 其他 &raquo; 找到 終端機 Terminal</p>
 <p><img src="https://minayu0416.files.wordpress.com/2016/07/terminal.png" alt=""></p>
-<!-- raw HTML omitted -->
+<hr>
 <p>無論用哪種方法，搞定後，就打開你的黑螢幕，像個駭客般的操著黑視窗裝置環境吧！ XD</p>
 <p>先來檢查一下新電腦的環境~</p>
 <blockquote>
@@ -635,7 +635,7 @@ if (!doNotTrack) {
 <p>cd ~</p>
 </blockquote>
 <p>會直接跑到這個地方!</p>
-<!-- raw HTML omitted -->
+<hr>
 <p>接著我們來檢查一下電腦有沒有裝Python</p>
 <blockquote>
 <p>python -V</p>
@@ -644,7 +644,7 @@ if (!doNotTrack) {
 <pre><code>Python 2.7.10
 </code></pre><p>跳出這個就代表是有裝，可是目前大部分都使用Python 3版以上了，所以我們需要安裝3以上的環境。</p>
 <p>健檢好電腦後，就來裝環境吧！</p>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="homebrew">安裝homebrew</h1>
 <p>先來安裝 Homebrew ，他是mac中重要的套件管理程式。</p>
 <blockquote>
@@ -655,9 +655,9 @@ if (!doNotTrack) {
 <p>$ ruby -e &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)&rdquo;</p>
 </blockquote>
 <p>按 <code>Return</code> (Enter) 來執行安裝</p>
-<!-- raw HTML omitted -->
+<hr>
 <p><em><strong>稍待片刻喝咖啡</strong></em></p>
-<!-- raw HTML omitted -->
+<hr>
 <p>確認您的Homebrew安裝好了</p>
 <blockquote>
 <p>$ brew doctor</p>
@@ -675,7 +675,7 @@ if (!doNotTrack) {
 <p><strong>2. Anaconda</strong></p>
 <p>是一個Python的套件管理系統，他已經是把所有基本會用到的Python 套件都安裝好了(所以anaconda的檔案才會很大，因為幾乎具備很多套件)，只要下 <code>conda</code> 相關指令，他就會開一個已具備很多套件的Python虛擬環境，你不用再用pip一個一個裝，不過如果有原先anaconda內沒有的套件，就可能還是需要開anaconda起來安裝！</p>
 <p><strong>(本文章不教如何安裝anaconda)</strong></p>
-<!-- raw HTML omitted -->
+<hr>
 <p>既然我都已經意識到我裝了anaconda 但沒使用的話 XD，這篇還是主要教用原生環境來做開發</p>
 <h3 id="python-3-"><strong>安裝Python 3</strong> (選項一)</h3>
 <blockquote>
@@ -699,10 +699,10 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 <p>exit()</p>
 </blockquote>
 <p>這樣就代表 Python 3 已經安裝好了！</p>
-<!-- raw HTML omitted -->
+<hr>
 <p>Python2/ Python3 都有了，那接下來就來試著開虛擬環境。</p>
 <p>要學著習慣每次開發一個新的專案都開一個新的虛擬環境喔！這樣就等於是在醫院的手術房裡做手術，不管怎麼搞亂都是手術房內的事，不開虛擬環境就像在醫院任何地方做手術，任何原因或者若有其他病人也在同地方做手術都會互相干擾唷！</p>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="heading1">開虛擬環境</h1>
 <h3 id="heading2">已存在的專案</h3>
 <p>若是在git的repository，就git clone 專案後</p>
@@ -727,7 +727,7 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 <p>就會看到專端機terminal 前面會加上 <code>(.venv)</code> 代表啟動環境成功囉！</p>
 <p>命名為 .venv 用意是把虛擬環境隱藏在專案資料夾內，至少不會打開專案直接發現XD</p>
 <p>＊記得要在 .gitignore 內寫上 你的虛擬環境名稱，這邊是 <code>.venv</code> 不然他會把你的虛擬環境推上別人的git repository 專案資料夾唷 XD</p>
-<!-- raw HTML omitted -->
+<hr>
 <h3 id="heading3">開一個全新的專案</h3>
 <p>若是全新的專案的話，一樣開一個資料夾假設我的新專案叫做 <code>myproject</code></p>
 <blockquote>
@@ -738,7 +738,7 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 <p>python3 -m venv .venv</p>
 </blockquote>
 <p>就會看到專端機terminal 前面會加上 <code>(.venv)</code> 代表啟動環境成功囉！</p>
-<!-- raw HTML omitted -->
+<hr>
 <h3 id="heading4">相關指令</h3>
 <p><code>用pip安裝套件</code></p>
 <blockquote>
@@ -753,7 +753,7 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 <blockquote>
 <p>deactivate</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="-python-2-">如何安裝 python 2 虛擬環境</h1>
 <p>若不是使用python3 開環境, pip 是不會安裝到的，所以要先安裝pip</p>
 <h3 id="-pip">安裝 pip</h3>
@@ -792,7 +792,7 @@ Options:
 </blockquote>
 <pre><code>Python 2.7.10
 </code></pre><p>就開好 python 2 環境囉～～</p>
-<!-- raw HTML omitted -->
+<hr>
 <h1 id="heading5">注意事項</h1>
 <ul>
 <li>
@@ -922,7 +922,7 @@ Options:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1076,6 +1076,20 @@ Options:
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1139,20 +1153,6 @@ Options:
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1171,7 +1171,7 @@ Options:
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2019/05/how-to-install-python-environment-when-get-new-computer/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

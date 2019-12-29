@@ -24,7 +24,7 @@
         "datePublished": "2018-04-27 10:21:40 \x2b0000 \x2b0000",
         "dateModified" : "2018-04-27 10:21:40 \x2b0000 \x2b0000",
         "url" : "https:\/\/minayu.site\/2018\/04\/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model\/",
-        "wordCount" : "407",
+        "wordCount" : "413",
         "keywords" : [ "[碩論也瘋狂] 加分系統開發全記錄 (python)","Blog" ]
     }
     </script>
@@ -85,7 +85,7 @@
 明天就能開始規劃我的client端怎麼寫">
 <meta itemprop="datePublished" content="2018-04-27T10:21:40&#43;00:00" />
 <meta itemprop="dateModified" content="2018-04-27T10:21:40&#43;00:00" />
-<meta itemprop="wordCount" content="407">
+<meta itemprop="wordCount" content="413">
 
 
 
@@ -303,6 +303,18 @@ if (!doNotTrack) {
                     
                             <article class="mini-post">
                                 <header>
+                                    <h3><a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a></h3>
+                                    
+                                    <time class="published" datetime=
+                                        '2019-12-29'>
+                                        December 29, 2019</time>
+                                </header>
+                                
+
+                            </article>
+                    
+                            <article class="mini-post">
+                                <header>
                                     <h3><a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a></h3>
                                     
                                     <time class="published" datetime=
@@ -356,18 +368,6 @@ if (!doNotTrack) {
                                     <time class="published" datetime=
                                         '2019-12-07'>
                                         December 7, 2019</time>
-                                </header>
-                                
-
-                            </article>
-                    
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a></h3>
-                                    
-                                    <time class="published" datetime=
-                                        '2019-11-14'>
-                                        November 14, 2019</time>
                                 </header>
                                 
 
@@ -672,14 +672,14 @@ if (!doNotTrack) {
 <p>因為一次把功能全部做完，萬一被客戶打槍又要全部重做</p>
 <p>就像每次問指導老師，他都很愛每週變一個新梗XD，以前被操的時候，都被他給操翻了XD</p>
 <hr>
-<p><!-- raw HTML omitted -->上面題外話了，所以我打算做兩頁html作為client端測試<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->先寫好server端的傳送<!-- raw HTML omitted --></p>
+<p><del>上面題外話了，所以我打算做兩頁html作為client端測試</del></p>
+<p><del>先寫好server端的傳送</del></p>
 <hr>
 <p>17:50</p>
 <p>我做了三頁，然後卡了蠻多問題，因此做一個紀錄</p>
 <p>很明顯進度有點拖到了，但我還新增跟學到很多東西XD</p>
 <p>我添增了幾個功能</p>
-<!-- raw HTML omitted -->
+<blockquote>我改成做三頁html來測(因為我本來就想在桌機版寫三個步驟)</blockquote>
 <p>所以3個html會對應到views裡的 3個def(處理動作)</p>
 <p>第一頁一樣是表單請學生填學號</p>
 <p>然後我使用了這樣的方法</p>
@@ -737,7 +737,7 @@ def pramod(request):
 <p>因為我不知道怎麼把第一頁Get的值留到第三頁</p>
 <p>所以搞笑的自己加了一堆功能</p>
 <p>和學弟討論後，我決定把之後會回傳的兩個檔案改成用Boolean紀錄</p>
-<!-- raw HTML omitted -->
+<blockquote>新增紀錄檔案Boolean欄位</blockquote>
 <p>只要學生有回傳檔案，我就將資料欄位改成True</p>
 <p>所以我在Model新增了</p>
 <pre><code>file1_check = models.BooleanField(default=False)
@@ -745,7 +745,7 @@ file2_check = models.BooleanField(default=False)
 </code></pre>
 <p>這兩個主要是到後面學生有上傳哪個檔案，就將哪個檔案的註記改成True</p>
 <p>方便我之後看資料庫可以直接看</p>
-<!-- raw HTML omitted -->
+<blockquote>資料庫新增時間欄位</blockquote>
 <p>順手在我的Model新增了時間</p>
 <pre><code>import datetime
 from django.utils.timezone import now
@@ -758,7 +758,7 @@ date_time = models.DateTimeField(default=datetime.datetime.now)
 <p>這邊我就設定為學生輸入學號的同時新增他的時間戳記</p>
 <p><a href="https://stackoverflow.com/questions/5945525/django-datetimefield-has-no-default-value-error"><a href="https://stackoverflow.com/questions/5945525/django-datetimefield-has-no-default-value-error">https://stackoverflow.com/questions/5945525/django-datetimefield-has-no-default-value-error</a></a></p>
 <p>這是如何設定default才不會在migrations的時候報錯</p>
-<!-- raw HTML omitted -->
+<blockquote>抓取Client IP(尚未新增)</blockquote>
 <p><a href="https://stackoverflow.com/questions/4581789/how-do-i-get-user-ip-address-in-django/16203978#16203978"><a href="https://stackoverflow.com/questions/4581789/how-do-i-get-user-ip-address-in-django/16203978#16203978">https://stackoverflow.com/questions/4581789/how-do-i-get-user-ip-address-in-django/16203978#16203978</a></a></p>
 <p>老師本來要我抓ip當第二個戳記，但我還沒做！</p>
 <hr>
@@ -901,7 +901,7 @@ r2 = Record.objects.get(pname=request.GET['pname'])
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               
@@ -1055,6 +1055,20 @@ r2 = Record.objects.get(pname=request.GET['pname'])
                 <article class="mini-post">
                   <header>
                     <h3>
+                      <a href="https://minayu.site/2019/12/spanish-latino-culture-is-very-romantic/">[西語學習日記] 講西班牙文都要浪漫一下？是否過度浪漫了呢？</a>
+                    </h3>
+                    
+                    <time class="published" datetime='2019-12-29'>
+                      December 29, 2019
+                    </time>
+                  </header>
+                  
+
+                </article>
+              
+                <article class="mini-post">
+                  <header>
+                    <h3>
                       <a href="https://minayu.site/2019/12/learn-language-by-play-game/">[Polyglot] 玩遊戲學外語 - 除了社交軟體外你還能怎麼學外語呢？英文、日文、西文、俄文另類學習方式！</a>
                     </h3>
                     
@@ -1118,20 +1132,6 @@ r2 = Record.objects.get(pname=request.GET['pname'])
 
                 </article>
               
-                <article class="mini-post">
-                  <header>
-                    <h3>
-                      <a href="https://minayu.site/2019/11/zi-wei-explore-empty-palace-2/">[紫微日記] 空宮探討(2) | 命宮 夫妻宮空宮 詳細探討</a>
-                    </h3>
-                    
-                    <time class="published" datetime='2019-11-14'>
-                      November 14, 2019
-                    </time>
-                  </header>
-                  
-
-                </article>
-              
             </div>
       
             
@@ -1150,7 +1150,7 @@ r2 = Record.objects.get(pname=request.GET['pname'])
             <ul class="icons">
               
                 
-    <li><a href="https://minayu.site/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
               

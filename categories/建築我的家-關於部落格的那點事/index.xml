@@ -22,13 +22,13 @@
 之前我一直以為Github只能架一個網站，直到我同事跟我談話中提點，我才知道原來可以架很多個網站。
 但這樣講其實也不太正確啦 ~
 接著進入我們的主題吧
-如何架設多個網站？ 根據 Host on Github 的 Hugo 文件
+ 如何架設多個網站？ 根據 Host on Github 的 Hugo 文件
 提供了兩個做法:
 1. User/Organization Pages (https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/) 2. Project Pages (https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/&amp;lt;PROJECT&amp;gt;/) 你現在看到我這個網站原先是 https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/ 這個方法，只是我有買網域。
 但先前因為上述提及我的功力太弱，所以看不懂也沒有使用過第二個方案，也就完完全全的以為Github只能架一個網站
 由於這個福音XD，我也就可以實現我之前夢寐以求想要架一個圖廊來放我拍的照片加上紀錄生活
 那由於我認為先前的[BLOG] 從WORDPRESS 移動到 HUGO ，沒有很清楚明白地說明怎麼架設在Github上，所以我也就在介紹一次
-第一個方法: https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/ 備妥好你做的hugo網站後
+ 第一個方法: https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/ 備妥好你做的hugo網站後
 我們先產生出最後要部署到Github上的資源
 ＊請注意 config 的baseurl為 https://&amp;lt;USERNAME&amp;gt;.github.io/ username 是你在github的username
 請打開Terminal 並在你的hugo網站資料夾跟目錄run
@@ -38,8 +38,7 @@
 就是 https://&amp;lt;USERNAME&amp;gt;.github.io/ 代表的會是你的網站主網址 (也只有這個是主要網址，其他的就要加/repositories name)
 在你的Github上開一個新的Repositiries，取名 &amp;lt;USERNAME&amp;gt;.github.io, &amp;lt;USERNAME&amp;gt; 是你在Github網址上出現的username
 假設我的是 https://github.com/minayu416, 那我就要開 minayu416.github.io
-接著回來Terminal, 切進剛剛產生的 public 資料夾
- cd public</description>
+接著回來Terminal, 切進剛剛產生的 public 資料夾</description>
     </item>
     
     <item>
@@ -74,7 +73,7 @@
       <pubDate>Mon, 07 Jan 2019 21:42:45 +0000</pubDate>
       
       <guid>https://minayu.site/2019/01/next-step-the-seo/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;我從沒想過，我會經營我的部落格，經營到開始研究SEO的優化&lt;/blockquote&gt;
 &lt;p&gt;這對我來說是遙不可及的夢想&lt;/p&gt;
 &lt;p&gt;從剛開始，我僅僅只是秉持著&lt;code&gt;紀錄每一天，記錄我所學&lt;/code&gt;，來發表文章&lt;/p&gt;
 &lt;p&gt;原始於由於研究所過得太忙碌，一天一天時間迅速飛去，不希望這樣日子一過，在未來回想時卻忘卻過去的每一刻，於是將生活與所學的知識記錄下來&lt;/p&gt;</description>

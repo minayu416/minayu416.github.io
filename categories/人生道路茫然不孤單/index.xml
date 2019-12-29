@@ -62,9 +62,9 @@
       <pubDate>Thu, 04 Apr 2019 22:32:09 +0800</pubDate>
       
       <guid>https://minayu.site/2019/04/2019-improvement-april-review/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;
 &lt;p&gt;真正要學會一樣東西，就是去教授它&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;/blockquote&gt;
 &lt;p&gt; －－同事之說&lt;/p&gt;
 &lt;p&gt;人生真的是活到老學到老&lt;/p&gt;</description>
     </item>
@@ -109,9 +109,9 @@
       <pubDate>Sat, 08 Sep 2018 08:52:03 +0000</pubDate>
       
       <guid>https://minayu.site/2018/09/%E7%B5%A6%E6%9C%AA%E4%BE%86%E7%9A%84%E8%87%AA%E5%B7%B12/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;這樣的標題，我這一生大概會一直使用
 &lt;p&gt;因為未來的自己會變化，也會因為周圍跟外圍的資訊讓自己茫然&lt;/p&gt;
-&lt;p&gt;卻忘記了其實過去的自己早已鞏固了這一生的使命&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;卻忘記了其實過去的自己早已鞏固了這一生的使命&lt;/blockquote&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -132,9 +132,9 @@
       <guid>https://minayu.site/2018/07/for-me-in-future/</guid>
       <description>&lt;p&gt;What is life?&lt;/p&gt;
 &lt;p&gt;I spend 25years to fine this answer.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;It&#39;s being UNIQUE, being Yourself.
 &lt;p&gt;Being Independence.&lt;/p&gt;
-&lt;p&gt;Do what you want, do what make you good.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;Do what you want, do what make you good.&lt;/blockquote&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -351,7 +351,7 @@
       
       <guid>https://minayu.site/2017/04/%E5%88%86%E6%95%A3%E5%BC%8F%E5%AD%B8%E7%BF%92/</guid>
       <description>&lt;p&gt;首先下這個標題，我就覺得根本不知道要放在哪個分類&lt;/p&gt;
-&lt;p&gt;來趁因為生日&lt;!-- raw HTML omitted --&gt;多聚會多派對&lt;!-- raw HTML omitted --&gt;的情況下無法好好有時間唸書或者學習來生個文章XD&lt;/p&gt;
+&lt;p&gt;來趁因為生日&lt;del&gt;多聚會多派對&lt;/del&gt;的情況下無法好好有時間唸書或者學習來生個文章XD&lt;/p&gt;
 &lt;p&gt;我想來分享我最近覺得很有效的學習方法&lt;/p&gt;
 &lt;p&gt;對我很有效XD&lt;/p&gt;</description>
     </item>
