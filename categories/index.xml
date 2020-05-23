@@ -6,10 +6,28 @@
     <description>Recent content in Categories on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2020 12:47:52 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 16:12:35 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Me</title>
+      <link>https://minayu.site/categories/me/</link>
+      <pubDate>Sat, 23 May 2020 16:12:35 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>心理路程進化論</title>
+      <link>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</link>
+      <pubDate>Sat, 23 May 2020 16:12:35 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[Historia] Somos familia</title>
@@ -44,15 +62,6 @@
       <pubDate>Wed, 11 Dec 2019 20:54:28 +0800</pubDate>
       
       <guid>https://minayu.site/categories/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Me</title>
-      <link>https://minayu.site/categories/me/</link>
-      <pubDate>Sat, 07 Dec 2019 00:22:48 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/me/</guid>
       <description></description>
     </item>
     
@@ -233,15 +242,6 @@
       <pubDate>Tue, 23 Apr 2019 18:06:26 +0800</pubDate>
       
       <guid>https://minayu.site/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>心理路程進化論</title>
-      <link>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</link>
-      <pubDate>Sat, 06 Apr 2019 05:43:19 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</guid>
       <description></description>
     </item>
     
