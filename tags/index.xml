@@ -6,10 +6,46 @@
     <description>Recent content in Tags on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 22:43:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 22:51:37 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back-end</title>
+      <link>https://minayu.site/tags/back-end/</link>
+      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/back-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://minayu.site/tags/python/</link>
+      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>函式</title>
+      <link>https://minayu.site/tags/%E5%87%BD%E5%BC%8F/</link>
+      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E5%87%BD%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>物件導向</title>
+      <link>https://minayu.site/tags/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91/</link>
+      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT</title>
@@ -17,15 +53,6 @@
       <pubDate>Fri, 30 Oct 2020 22:43:07 +0800</pubDate>
       
       <guid>https://minayu.site/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://minayu.site/tags/python/</link>
-      <pubDate>Fri, 30 Oct 2020 22:43:07 +0800</pubDate>
-      
-      <guid>https://minayu.site/tags/python/</guid>
       <description></description>
     </item>
     

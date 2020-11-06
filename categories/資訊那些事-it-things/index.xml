@@ -6,10 +6,20 @@
     <description>Recent content in 資訊那些事 IT Things on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 22:43:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 22:51:37 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[後端 Junior] Python 之你的函式邏輯如何轉變為物件導向思維?</title>
+      <link>https://minayu.site/2020/11/it-things-function-to-object-oriented/</link>
+      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
+      
+      <guid>https://minayu.site/2020/11/it-things-function-to-object-oriented/</guid>
+      <description>&lt;p&gt;就在我今天下午趁著公司沒網路，想說來畫一下程式邏輯或商業邏輯的架構圖，準備再來發文章。&lt;/p&gt;
+&lt;p&gt;但是，我們組的前端大大突然就來詢問我有關物件導向的事情，以及詢問我從函式的思維轉變為物件導向的思維是不是會痛苦一段時間？&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[工作旅行記] 我的第二份工作 - IoT 大冒險</title>
