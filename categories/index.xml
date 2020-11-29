@@ -6,7 +6,7 @@
     <description>Recent content in Categories on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 23:57:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 13:38:35 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Me</title>
       <link>https://minayu.site/categories/me/</link>
-      <pubDate>Fri, 13 Nov 2020 23:57:20 +0800</pubDate>
+      <pubDate>Sun, 29 Nov 2020 13:38:35 +0800</pubDate>
       
       <guid>https://minayu.site/categories/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>人生道路茫然不孤單</title>
+      <link>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</link>
+      <pubDate>Sun, 29 Nov 2020 13:38:35 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</guid>
       <description></description>
     </item>
     
@@ -107,15 +116,6 @@
       <pubDate>Wed, 11 Dec 2019 20:54:28 +0800</pubDate>
       
       <guid>https://minayu.site/categories/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>人生道路茫然不孤單</title>
-      <link>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</link>
-      <pubDate>Sat, 07 Dec 2019 00:22:48 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</guid>
       <description></description>
     </item>
     
