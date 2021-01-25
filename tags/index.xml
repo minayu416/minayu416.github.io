@@ -6,10 +6,46 @@
     <description>Recent content in Tags on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Jan 2021 20:19:21 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 10:55:25 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>https://minayu.site/tags/python/</link>
+      <pubDate>Tue, 19 Jan 2021 10:55:25 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大公司</title>
+      <link>https://minayu.site/tags/%E5%A4%A7%E5%85%AC%E5%8F%B8/</link>
+      <pubDate>Tue, 19 Jan 2021 10:55:25 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E5%A4%A7%E5%85%AC%E5%8F%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工作經驗</title>
+      <link>https://minayu.site/tags/%E5%B7%A5%E4%BD%9C%E7%B6%93%E9%A9%97/</link>
+      <pubDate>Tue, 19 Jan 2021 10:55:25 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E5%B7%A5%E4%BD%9C%E7%B6%93%E9%A9%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>面試</title>
+      <link>https://minayu.site/tags/%E9%9D%A2%E8%A9%A6/</link>
+      <pubDate>Tue, 19 Jan 2021 10:55:25 +0800</pubDate>
+      
+      <guid>https://minayu.site/tags/%E9%9D%A2%E8%A9%A6/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>G中心</title>
@@ -206,15 +242,6 @@
       <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
       
       <guid>https://minayu.site/tags/back-end/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://minayu.site/tags/python/</link>
-      <pubDate>Fri, 06 Nov 2020 22:51:37 +0800</pubDate>
-      
-      <guid>https://minayu.site/tags/python/</guid>
       <description></description>
     </item>
     
