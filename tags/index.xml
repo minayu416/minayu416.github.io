@@ -5,7 +5,7 @@
     <link>https://minayu.site/tags/</link>
     <description>Recent content in Tags on 月水瓶 @Mina 的人生研究室</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-TW</language>
     <lastBuildDate>Fri, 30 Jul 2021 00:14:56 +0800</lastBuildDate>
     
 	<atom:link href="https://minayu.site/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -381,15 +381,6 @@
     </item>
     
     <item>
-      <title>[Historia] Somos familia</title>
-      <link>https://minayu.site/tags/historia-somos-familia/</link>
-      <pubDate>Sun, 24 May 2020 11:40:45 +0800</pubDate>
-      
-      <guid>https://minayu.site/tags/historia-somos-familia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>[越來越喜歡你] 與西文的相遇</title>
       <link>https://minayu.site/tags/%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87/</link>
       <pubDate>Sun, 29 Dec 2019 15:12:34 +0800</pubDate>
@@ -584,24 +575,6 @@
       <pubDate>Fri, 25 Jan 2019 11:01:40 +0800</pubDate>
       
       <guid>https://minayu.site/tags/2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Back-end Developer</title>
-      <link>https://minayu.site/tags/back-end-developer/</link>
-      <pubDate>Thu, 03 Jan 2019 11:42:45 +0000</pubDate>
-      
-      <guid>https://minayu.site/tags/back-end-developer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Refactor</title>
-      <link>https://minayu.site/tags/refactor/</link>
-      <pubDate>Thu, 03 Jan 2019 11:42:45 +0000</pubDate>
-      
-      <guid>https://minayu.site/tags/refactor/</guid>
       <description></description>
     </item>
     

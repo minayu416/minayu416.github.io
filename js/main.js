@@ -142,3 +142,52 @@
 	});
 
 })(jQuery);
+
+	// Language (header).
+
+	var language = document.getElementById("lang-menu");
+	var $body = $('body')
+
+		$body.on('click', '[href="#lang-menu"]', function(event) {
+
+			event.preventDefault();
+
+				// Not visible?
+				if (!language.classList.contains("active")) {
+
+					// Show.
+					language.classList.add("active");
+
+				} else {
+					language.classList.remove("active");
+			}});
+  
+  // Click anywhere outside a flyout to close
+  $(document).on("click", function(e) {
+	  // use fa-globe to be the translate option class
+	  // because if use nave lang-toggle, icon will disappear
+	if ($(e.target).is(".fa-globe, .lang-toggle, .lang-toggle span, #lang-menu") === false) {
+		language.classList.remove("active");
+	  // $("#wrapper").removeClass('overlay');
+	}
+  });
+
+	// function languageMenu(){
+	// 	var language = document.getElementById("lang-menu");
+	// 	if(!language.classList.contains("active")){
+	// 		language.classList.add("active");
+	// 		hide = false;
+	// 	} else {
+	// 	}
+	// }
+
+	// $('body').on("click", function () {
+	// 	if (hide) $('#lang-menu').removeClass('active');
+	// });
+
+	//   $(document).on("click", function(e) {
+	// 	if ($(e.target).is(".lang-toggle, .lang-toggle span, #lang-menu, .share-toggle, .share-toggle i, #share-menu, .search-toggle, .search-toggle i, #search-input, #search-results .mini-post, .nav-toggle, .nav-toggle i, #site-nav") === false) {
+	// 		language.classList.remove("active");
+	// 	  // $("#wrapper").removeClass('overlay');
+	// 	}
+	//   });
