@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Sacramento&family=The+Nautigal&family=Vollkorn&family=Yellowtail&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-indicators [data-bs-target]{
+	background-color: black;
+}
+
+
+.header-image-size{
+	height: 24rem;
+}
+
+.header-navbar-menu{
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Fondamento';
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    /* position: relative; */
+}
+
+.header-navbar-menu a {
+	color: #fff;
+    text-decoration: none;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s
+}
+
+.header-navbar-menu a:hover, .header-navbar-menu a:focus {
+	opacity: .7
+}
+
+.motto-block {
+	/* "メイリオ" */
+	font-family: "HanziPen SC";
+	color: #666666;
+  }
+  
+.site-branding-intro {
+	padding: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center
+  }
+
+.blog-branding-intro {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+
+.header-mobile-menu {
+	/* Navebar Menu Absolute */
+	top: 4rem; 
+	left: 1rem;
+    background-color: #fff;
+    color: #29292a;
+    border-color: rgba(0,0,0,.1);
+    font-family: 'Fondamento';
+    font-size: 13px;
+    letter-spacing: .13em;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+.header-mobile-menu a {
+	color: black;
+    text-decoration: none;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s
+}
+
+.header-mobile-menu a:hover, .header-mobile-menu a:focus {
+	opacity: .7
+}
+
+.site-branding {
+	color: #fff;
+	top: 7rem;
+	left: 2rem;
+}
+.site-branding a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s
+}
+
+.site-branding a:hover, .site-branding a:focus {
+	opacity: .7
+}
+
+.site-blog-branding {
+	position: relative;
+	color: #fff;
+}
+.site-blog-branding a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s
+}
+
+.site-blog-branding a:hover, .site-blog-branding a:focus {
+	opacity: .7
+}
+
+
+.site-title {
+    font-family: 'Fondamento';
+    font-size: 35px;
+	font-size: 2.375rem;
+	font-weight: 100;
+    letter-spacing: .08em;
+	margin-bottom: 20px;
+	padding: 0;
+	text-transform: uppercase
+}
+.site-description {
+	color: #fff;
+    font-family: 'Fondamento';
+	font-size: 17px;
+	font-weight: 100;
+	letter-spacing: .05em;
+	margin-bottom: 0
+}
+/* .site-description, .site-description a {
+	color: #ccc
+} */
+
+.grid-title {
+    font-family: 'Fondamento';
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 200;
+    }
+.grid-subtitle {
+	font-family: 'Fondamento';
+		/* font-size: 24px; */
+		text-transform: uppercase;
+		letter-spacing: .08em;
+		font-weight: 200;
+	}
+
+.article-title {
+	font-family: 'Fondamento';
+		text-transform: uppercase;
+		letter-spacing: .08em;
+		font-weight: 200;
+	}
+
+.footer-style {
+    font-family: HoneyMead BB;
+}
+
+.font-mario {
+	font-family: "メイリオ";
+}
+
+.font-fondamento {
+	font-family: 'Fondamento';
+}
+
+.font-honeybb {
+	font-family: HoneyMead BB;
+}
+
+.font-hanzi {
+	font-family: "HanziPen SC";
+}
+
+.font-voll {
+	font-family: 'Vollkorn', serif;
+}
+
+.font-roboto {
+	font-family: 'Roboto Slab',serif;
+}
+
+/* For footer hand-writing */
+.font-hand-writing {
+	/* font-family: 'Yellowtail', cursive; */
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'The Nautigal', cursive;
+   }
+
+/* About & Brand */
+
+.about-content {
+    font-family: "メイリオ";
+    color: #666666;
+  }
+
+.motto-block-about {
+  padding: 5%;
+  letter-spacing: .12em;
+  font-family: 'Montserrat', sans-serif;
+  color: #666666;
+}
+
+.pin-grid{
+  width: 277px;
+  height: 277px;
+}
+
+.portfolio-timeline {
+	padding: 0 0 0 0;
+}
+
+/* Blog Css */
+
+  .bg-block{
+	background-color: #f1f0e5;
+	/* #faf7f1 */
+  }
+ 
+  .post-category {
+	 font-weight: 400;
+	 color: #d0b48b;
+	 letter-spacing: .1em;
+	 text-transform: uppercase;
+  }
+ 
+  .font-color-gold-1{
+   color: #d0b48b;
+  }
+ 
+  .font-color-black-1{
+   color: rgb(75 85 99 / var(--tw-text-opacity));
+  }
+ 
+  .date-day-font-size {
+	 font-size: 4rem;
+	 line-height: 1;
+  }
+ 
+  .blog-link-style {
+   text-decoration: none;
+	 -webkit-transition: opacity .2s;
+	 transition: opacity .2s
+ }
+ 
+  .blog-link-style:hover, .blog-link-style:focus {
+	 opacity: .7
+ }
+
+ .blog-carousel-img {
+	height: 35rem;
+}
+
+/* Tablet Landscape
+   ======================================================*/
+
+/* TODO Verify this is useful */
+@media only screen and (max-width: 1024px) {
+	
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		top: 7rem;
+		left: 2rem;
+	}
+
+	.motto-block p{
+		font-size: 1.5rem;
+	}
+
+	.about-content {
+		padding: 0 15% 0 15% 
+	}
+	.index-block-box{
+		padding: 2% 10% 5% 10%;
+	}
+	.portfolio-timeline {
+		padding: 0 15% 0 15%;
+	}
+
+	.blog-carousel-img {
+		height: 35rem;
+	}
+
+	.blog-carousel-height{
+		height: 45rem;
+	}
+
+}
+
+/* TODO Verify this is useful */
+@media only screen and (max-width: 991px) {
+
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		top: 7rem;
+		left: 2rem;
+	}
+
+	.motto-block p{
+		font-size: 1.5rem;
+	  }
+
+	.about-content {
+		padding: 0 15% 0 15% 
+	}
+	.index-block-box{
+		padding: 2% 10% 5% 10%;
+	}
+	.portfolio-timeline {
+		padding: 0 15% 0 15%;
+	}
+
+	.header-image-size{
+		height: 40rem;
+	}
+
+	.blog-carousel-img {
+		height: 35rem;
+	}
+
+	.blog-carousel-height{
+		height: 45rem;
+	}
+
+}
+
+/* Computer Website */
+@media only screen and (min-width: 992px) {
+
+	.site-branding{
+		padding-top: 2.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		top: 7rem;
+		left: 2rem;
+	}
+
+	.motto-block p{
+		font-size: 1.5rem;
+	  }
+
+	.about-content {
+		padding: 0 15% 0 15% 
+	}
+	.index-block-box{
+		padding: 2% 10% 5% 10%;
+	}
+
+	.portfolio-timeline {
+		padding: 0 15% 0 15%;
+	}
+
+	.header-image-size{
+		height: 40rem;
+	}
+
+	.blog-carousel-img {
+		height: 30rem;
+	}
+
+	.blog-carousel-height{
+		height: 40rem;
+	}
+  
+
+}
+
+/* Tablet Portrait
+   ======================================================*/
+
+@media only screen and (max-width: 768px) {
+
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		top: 4rem;
+		left: 0;
+	}
+
+	.site-branding {
+		color: #fff;
+		text-align: center
+	}
+
+	.blog-branding-intro {
+		padding: 5%;
+	}
+
+	.motto-block p{
+		font-size: 1.25rem;
+	}
+
+	.about-content {
+		padding: 0 0 0 0 
+	}
+	.index-block-box{
+		padding: 7% 10% 5% 10%;
+	}
+
+	.header-navbar{
+		width: 90%;
+		align-items: center;
+	}
+	.portfolio-timeline {
+		padding: 0 0 0 0;
+	}
+
+	.header-image-size{
+		height: 24rem;
+	}
+	
+	.blog-carousel-img {
+		height: 26rem;
+	}
+
+	.blog-carousel-height{
+		height: 36rem;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		top: 4rem;
+		left: 0;
+	}
+
+	.site-branding {
+		color: #fff;
+		text-align: center
+	}
+
+	.blog-branding-intro {
+		padding: 5%;
+	  }
+
+	.motto-block p{
+		font-size: 1.25rem;
+	  }
+  
+	.about-content {
+		padding: 0 0 0 0 
+	}
+	.index-block-box{
+		padding: 7% 10% 5% 10%;
+	  }
+
+	.header-navbar{
+		width: 90%;
+		align-items: center;
+	}
+	.portfolio-timeline {
+		padding: 0 0 0 0;
+	}
+
+	.header-image-size{
+		height: 24rem;
+	}
+	.blog-carousel-img {
+		height: 26rem;
+	}
+
+	.blog-carousel-height{
+		height: 36rem;
+	}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 991px){
+
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		top: 4rem;
+		left: 0;
+	}
+
+	.site-branding {
+		color: #fff;
+		text-align: center
+	}
+
+	.blog-branding-intro {
+		padding: 5%;
+	  }
+
+	.motto-block p{
+		font-size: 1.25rem;
+	  }
+	
+	.about-content {
+		padding: 0 0 0 0 
+	}
+	.index-block-box{
+		padding: 7% 10% 5% 10%;
+	  }
+
+	  .header-navbar{
+		width: 90%;
+		align-items: center;
+	}
+	.portfolio-timeline {
+		padding: 0 0 0 0;
+	}
+
+	.header-image-size{
+		height: 24rem;
+	}
+	.blog-carousel-img {
+		height: 26rem;
+	}
+
+	.blog-carousel-height{
+		height: 37rem;
+	}
+
+}
+
+/* Phone
+   ======================================================*/
+
+@media only screen and (max-width: 480px) {
+	
+	.site-branding{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		height: auto;
+		margin-top: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.site-branding {
+		color: #fff;
+		text-align: center
+	}
+
+	.blog-branding-intro {
+		padding: 5%;
+	  }
+
+	.motto-block p{
+	  font-size: 1.25rem;
+	}
+
+	.about-content {
+		padding: 0 0 0 0 
+	}
+	.index-block-box{
+		padding: 7% 10% 5% 10%;
+	  }
+	.header-navbar{
+		width: 90%;
+		align-items: center;
+	}
+	.portfolio-timeline {
+		padding: 0 0 0 0;
+	}
+
+	.header-image-size{
+		height: 24rem;
+	}
+
+	.blog-carousel-img {
+		height: 12.25rem;
+	}
+
+	.blog-carousel-height{
+		height: 23.5rem;
+	}
+
+}

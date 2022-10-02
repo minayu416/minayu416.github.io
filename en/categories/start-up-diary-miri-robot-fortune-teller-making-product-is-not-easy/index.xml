@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy! on @Mina Influence</title>
+    <link>https://minayu.site/staging/en/categories/start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy/</link>
+    <description>Recent content in [Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy! on @Mina Influence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Oct 2021 15:25:40 +0800</lastBuildDate><atom:link href="https://minayu.site/staging/en/categories/start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Product Development Diary] The future plan of Miri | Series(3) | Story</title>
+      <link>https://minayu.site/staging/en/2021/10/miri-development-series-3-the-future-plan-en/</link>
+      <pubDate>Mon, 11 Oct 2021 15:25:40 +0800</pubDate>
+      
+      <guid>https://minayu.site/staging/en/2021/10/miri-development-series-3-the-future-plan-en/</guid>
+      <description>&lt;p&gt;I always think, as a software engineer, what&amp;rsquo;s my dream? What&amp;rsquo;s my next target and task?&lt;/p&gt;
+&lt;p&gt;For me, dream and objectives are the important power for keeping motivation and enthusiasm, if the dream is hard to achieve, and it will be the best point to keep learning and doing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Product Development Diary] The third version of Miri | The development life in this half year | Series(2) | Story</title>
+      <link>https://minayu.site/staging/en/2021/10/miri-development-series-2-the-third-version-en/</link>
+      <pubDate>Thu, 07 Oct 2021 16:45:33 +0800</pubDate>
+      
+      <guid>https://minayu.site/staging/en/2021/10/miri-development-series-2-the-third-version-en/</guid>
+      <description>&lt;p&gt;Recalling this life period, it seems all things are just happened yesterday, time passed quickly.&lt;/p&gt;
+&lt;p&gt;The experience of this period gave me big harvest, although I used to doubt my decision, but I insisted to keep it until finish.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Product Development Diary] The motivation and origin of Miri | Series(1) | Story</title>
+      <link>https://minayu.site/staging/en/2021/08/miri-development-series-2-begin-en/</link>
+      <pubDate>Tue, 24 Aug 2021 16:52:06 +0800</pubDate>
+      
+      <guid>https://minayu.site/staging/en/2021/08/miri-development-series-2-begin-en/</guid>
+      <description>&lt;p&gt;I wrote the story of how Miri was conceived in the Github README originally.&lt;/p&gt;
+&lt;p&gt;But when I recently completed the development of the third version and was about to rewrite the README, I found that I should move the description here, plus I want to record my motivation and story of making Miri.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
