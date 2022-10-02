@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on @Mina Influence</title>
-    <link>https://minayu.site/staging/en/portfolio/</link>
+    <link>https://minayu.site/en/portfolio/</link>
     <description>Recent content in Portfolio on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/staging/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

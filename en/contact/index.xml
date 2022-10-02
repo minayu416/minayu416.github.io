@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on @Mina Influence</title>
-    <link>https://minayu.site/staging/en/contact/</link>
+    <link>https://minayu.site/en/contact/</link>
     <description>Recent content in Contact on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://minayu.site/staging/en/contact/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://minayu.site/en/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
