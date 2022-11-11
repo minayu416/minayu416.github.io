@@ -34,7 +34,7 @@
         "dateModified" : "2021-09-08 14:23:31 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2021\/09\/miri-develop-concept-2-ui-user-flow-guide\/",
         "wordCount" : "144",
-        "keywords" : [ "資訊那些事 IT Things","[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!","Blog" ]
+        "keywords" : [ "[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!","Blog" ]
     }
     </script>
         
@@ -88,7 +88,7 @@
 <meta itemprop="description" content="在2021年2月離職後，我用了半年的時間用Python開發自己的占卜機器人作品，在這版本的開發有很大幅度的變動，我學著跳脫以往使用後端工程師角度思考，轉換為使用者與UI設計師的角度思考，使作品的使用者體驗跟流程順暢度大大提升，在第三版本的作品，新增了使用者引導訊息、改善占卜流程以及新增選單功能。這段日子帶給我很多心靈上跟實力上的進步，現在我就來分享這半年對於使用者流程與介面設計的概念。"><meta itemprop="datePublished" content="2021-09-08T14:23:31+08:00" />
 <meta itemprop="dateModified" content="2021-09-08T14:23:31+08:00" />
 <meta itemprop="wordCount" content="144">
-<meta itemprop="keywords" content="資訊那些事 IT Things,[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!," />
+<meta itemprop="keywords" content="[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!," />
 
         
             
@@ -298,15 +298,19 @@ if (!doNotTrack) {
                 
                 
                 
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">資訊那些事 IT Things</p>
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!</p>
-                    
+                
+                    <p class="text-center tracking-widest text-md font-medium post-category font-fondamento">資訊那些事 IT Things</p>
+                
+                
+                
+                
+                
+                    <h3 class="text-center tracking-widest text-md font-medium post-category font-fondamento">[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!</h3>
+                
+                
                 
               
+
                 <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2">[產品概念介紹] Miri的使用者流程、占卜流程、使用者引導介紹 | 開發概念系列(2)</p>
                 
                 
@@ -348,7 +352,7 @@ if (!doNotTrack) {
                 <p>開發Miri的技術與概念第二篇，來分享一些與第一篇較不同面向的開發概念。</p>
 <p>對比於Miri的第二版本，除了Line Bot的技術有改善之外，還新增的Telegram Bot的平台供給使用。</p>
 <p>這部分在上篇文章以超級長文的形式分享了，接下來分享一些比較偏向使用者面向及UI面向的概念規劃。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="使用者流程發想起源">使用者流程發想起源</h1>
 <p>在第二版本的Miri，並沒有任何的<code>使用者流程</code>規劃，在短短一個月的開發期，我將後端盧恩符文的功能做出來後，也沒有考慮到任何流程順暢度，就直接上伺服器運行，然後找工作去了。</p>
 <p>在之前的開發感想我曾說過，一直以來我作為後端工程師，角度只會著重於後端的開發，頂多在和前端合作時，會多在前端的角度琢磨思考，然後多溝通完成前後端功能連接。</p>
@@ -362,7 +366,7 @@ if (!doNotTrack) {
 <li>新增<code>選單 Menu</code>，提供選單類選項，提供使用者可選擇動作，而非茫然不知所措</li>
 </ul>
 <p>就這樣，第三版Miri的使用者流程就按照這三個部分去做展開開發。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="使用者前導指引-user-pre-guide">使用者前導指引 User Pre-Guide</h1>
 <p>一得知我需要作為使用者去發想，第一個想到的就是第二版的缺點。在第二版本中，當使用者加入Miri後，會突然不知所措，傳了隨便一句話後，則是跳出來:</p>
 <pre tabindex="0"><code>哈囉！
@@ -370,43 +374,43 @@ if (!doNotTrack) {
 </code></pre><p>還需要使用者手動打字<code>盧恩符文</code>或<code>盧恩</code>才能夠觸發占卜功能，整理的使用者體驗會顯得有點莫名其妙。但當初會是這樣的設計，其實是因為當時的Miri本來就是想做成聊天機器人，<code>占卜</code>只是其中一個功能，<code>聊天</code>只是才是主要功能。</p>
 <p>但這個版本確定將Miri定位為<code>占卜與命理</code>機器人，那麼就有必要好好的規劃使用者流程了！</p>
 <p>所以在這次開發中，我優化了<code>使用者初次使用的流程</code>跟新增了<code>使用者前導指引</code>，我們來看看是怎麼一回事。</p>
-<!-- raw HTML omitted -->
+<br>
 <ul>
 <li>語言設定</li>
 </ul>
 <p>首先因為第三版本的Miri新增了<code>英文</code>作為第二個可選擇的訊息選項，所以在每個使用者一開始使用Miri時，若偵測為<code>新用戶</code>，則會需要設定預設的訊息語言。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/08/img_7808.jpg" width="250"/>
+<br>
 <ul>
 <li>設定語言後，設計了一個手冊來引導使用者</li>
 </ul>
 <p>由於會需要設定語言的使用者代表是初次登入，一定不知道如何使用Miri，所以當語言設定完畢後，會一併跳出<code>使用者引導手冊</code>訊息來引導使用者了解功能。</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/08/img_7809.jpg" width="250"/>
 <p>提供兩個選項，如果選擇<code>引導手冊</code>，則會提供四頁的描述內容，而如果選擇<code>進入選單</code>，則直接進入下一步訊息。</p>
 <ul>
 <li>點選 <code>引導手冊</code></li>
 </ul>
 <p>此時會向使用者發出四頁的手冊內容，這個部分其實有點設計不良或者有爭議的是，使用者一般使用手機螢幕，發送圖檔且是圖文並茂手冊，還需要使用者專注閱讀，其實挺強人所難，這也是其中一個暗示Miri的功能可能已經豐富到用聊天機器人是無法負荷，需要<code>網頁</code>或<code>App</code>才能呈現好的情況。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/07/screen-shot-2021-07-30-at-5.05.27-pm.png" width="300"/>
+<img src="https://minayu0416.files.wordpress.com/2021/07/screen-shot-2021-07-30-at-5.06.32-pm.png" width="300"/>
 <p>第一頁及第二頁主要描述Miri的操作功能，包含選單內容，每個選項的功能描述</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<br>
+<img src="https://minayu0416.files.wordpress.com/2021/07/screen-shot-2021-07-30-at-5.07.17-pm.png" width="300"/>
+<img src="https://minayu0416.files.wordpress.com/2021/07/screen-shot-2021-07-30-at-5.07.43-pm.png" width="300"/>
 <p>第三頁跟第四頁則是介紹<code>占卜</code>功能，每個占卜的介紹跟適合的對象及問題。</p>
 <p>其實比較詳細的介紹會埋在每個占卜方法的訊息中，但我想多數人也許不會注意，很快地就跳到開始占卜的部分。為了防止使用者對於<code>選擇占卜方法</code>會是一頭霧水，所以在手冊裡也同時附上每個占卜方法的內容描述。</p>
-<!-- raw HTML omitted -->
+<br>
 <ul>
 <li>功能選項</li>
 </ul>
 <p>當進到<code>選單</code>後，其實就是Miri的各個功能選項，包括<code>占卜功能</code>的入口，也考量到大部分的人可能會比較常用<code>筊杯</code>，所以特地設立了捷徑。</p>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/08/screen-shot-2021-08-14-at-8.56.55-pm.png" alt=""></p>
 <p>還有就是語言如果一開始按錯，可以再次更換(但我的設計師朋友說，其實這個功能很少用到不太需要擺在這)，接著是<code>關於我</code> 介紹Miri資訊跟開發者資訊。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>以上就是第三版本針對使用者前導手冊跟功能與流程上的優化跟新增部分，比起第二版本來說，此次更動幅度非常大，同時也了解到獨立開發產品時，需要從原本只由後端角度思考，適時的改成從不同角度切入。</p>
 <p>由於將前端掛在聊天機器人上，沒有辦法讓使用者引導功能呈現像網站或App那樣自由設計的效果，所以解決方法是製作了四頁的<code>使用者手冊</code>，讓使用者可以先透過手冊認識Miri的功能。</p>
 <p>這其實也是一個需要在下個版本在優化的地方，畢竟要使用者在使用前看完手冊，再加上大量的功能需要一時融入腦袋，蠻強人所難。Miri的功能跟內容似乎相較以前成長很多，用社群軟體的聊天機器人已經無法負荷他豐富的功能，這將會是未來需要考量跟規劃的重要部分。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="占卜流程">占卜流程</h1>
 <p>新增的使用者前導覽功能及新增的功能選單已經介紹完畢，接下來就進入到占卜功能的主體。由於對比先前只有盧恩符文一個占卜方法，第三版本將新增至六種占卜方法，每個占卜方法的流程都會有不同，所以當時設計占卜流程時，也花了一點時間在釐清脈絡。</p>
 <p>傳統的占卜流程比較像是：</p>
@@ -427,45 +431,45 @@ if (!doNotTrack) {
 <li>獲得解釋: 請根據自身情況及問題的狀況搭配牌卡附的解釋做解讀</li>
 </ul>
 <p>這著這樣的流程下去設計整個占卜的流程。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>所以對比第二版本，有幾個部分做比較大的改善</p>
 <ol>
 <li>新增冥想的流程</li>
 </ol>
 <p>在第二版本的盧恩符文占卜中，當使用者按下<code>盧恩占卜</code>，再次按下<code>占卜</code>後立刻就會取得答案，讓使用者還沒將問題詢問或者冥想於腦內，就立刻取得答案，令人十分的錯愕。</p>
 <p>所以新增一個流程為<code>冥想</code>功能，如圖</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/img_8043.jpg" width="400"/>
 <p>可以讓使用者在選擇占卜方法以及確認牌陣後，清楚得知下一個步驟是冥想問題，接著點選<code>進入冥想</code>後，會根據不同的占卜方法給出不同的冥想訊息，引導使用者冥想！</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/img_8044.jpg" width="400"/>
 <p>這麼一來就能解決之前直接給出答案，並無緩衝的問題，還能讓占卜流程更完整。</p>
-<!-- raw HTML omitted -->
+<br>
 <ol start="2">
 <li>針對不同牌卡有無牌陣做調整</li>
 </ol>
 <p>由於第三版的Miri，新增至六種占卜方法，但是每個占卜方法的性質不同，不一定會有選擇牌陣的選項，在這部分也會做調整。</p>
 <p>例如偉特塔羅有牌陣的設定，所以選擇偉特塔羅後，下一步就會是選擇牌陣</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-7.51.37-pm.png" width="400"/>
 <p>我們選擇了<code>偉特塔羅占卜</code>，接下來點選<code>開始占卜</code>就會進到<code>選擇牌陣</code>。</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-7.41.34-pm.png" width="400"/>
 <p>每個牌陣都會有專屬於他的解釋：</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-7.41.48-pm.png" width="400"/>
+<br>
 <p>另外一個例子，是屬於沒有牌陣的<code>筊杯</code>，在選擇占卜方法後，就會是<code>進入冥想</code>的按鈕。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-7.43.04-pm.png" width="400"/>
+<br>
 <ol start="3">
 <li>牌卡解釋</li>
 </ol>
 <p>牌卡解釋與第二版本相比之下也改善很多，以往是取得結果後，丟出來的解釋非常長且凌亂，而現在針對不同的占卜方法有不同的解釋，而且將長條解釋做分段。</p>
 <p>拿<code>盧恩符文</code>做例子，抽到牌卡後，就會分選項，原先是設計成3-4個選項，分別代表著工作與愛情或其他分類解釋。但由於目前在<code>解釋</code>這方面還沒有這麼多時間跟經驗安排時間下去編寫，所以目前就僅僅將解釋做簡單的分類，還是至少與先前版本相比，大大優化許多。</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-8.05.20-pm.png" width="400"/>
 <p>這是抽出的其中一個盧恩符文結果，按下<code>深度解釋</code>則會得到下方整齊排列的解釋。</p>
 <p>而另外一個例子是<code>自然絮語占卜卡</code>，自然絮語的解釋會稍微短一點，因此點擊牌卡後會直接出現牌卡圖案以及解釋。</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-8.04.43-pm.png" width="400"/>
 <p><strong>得到兩個結果</strong></p>
 <p>點下其中一張牌卡後，直接展開解釋</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-8.04.20-pm.png" width="400"/>
+<br>
 <h1 id="選單-menu">選單 Menu</h1>
 <p>最後一部分是第三版本設計了選單的製作，在以往第二版本的Miri，使用者只能通過輸入<code>盧恩符文</code>來觸發占卜功能，以及幾項缺點像是</p>
 <ol>
@@ -476,7 +480,7 @@ if (!doNotTrack) {
 <p>所以在大部分的功能都開發完畢後，在最後一個開發任務，我決定幫Miri做一個選單 Menu功能，這麼一來當使用者困惑不知道如何使用時，打開選單可以引導使用者點選功能。</p>
 <p>接下來就是兩個平台的選單呈現介紹：</p>
 <p>Line Bot的部分，使用官方帳號具有的功能<code>圖文選單 Rich Menu</code>來製作Miri的選單</p>
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/07/screen-shot-2021-07-31-at-12.56.49-am.png" width="400"/>
 <p>選項有</p>
 <ul>
 <li><code>使用者手冊</code>: 會再次發送四頁使用者手冊圖文描述</li>
@@ -488,8 +492,8 @@ if (!doNotTrack) {
 </ul>
 <p>之所以做成中文及英文選項，主要是因為Rich Menu目前不能隨著使用者選擇的語系做更換，至少透過官方帳號網站設定的選單沒有這個功能，以往對於使用者語系選擇，大部分會是透過前端網頁做紀錄(或者根據使用者的電腦、瀏覽器、手機端語系)來判斷使用語系，在傳遞給後端去抓出同語系的訊息。</p>
 <p>但是Line目前作為Miri的前端部分，是沒有紀錄語系的功能，所以目前紀錄使用者的語言是由後端處理，在選單方面就沒有辦法根據使用者選擇的語系去做變更，這其實也是一個問題，會需要做修正。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<br>
+<img src="https://minayu0416.files.wordpress.com/2021/09/img_8045.jpg" width="400"/>
 <p>至於Telegram Bot的部分，則是主要使用 <code>/command</code>動作指令作為選單的功能</p>
 <ul>
 <li><code>/user_guide</code>: 會再次發送四頁使用者手冊圖文描述</li>
@@ -501,8 +505,8 @@ if (!doNotTrack) {
 </ul>
 <p>在Telegram的情況又更不樂觀了，Telegram的選單採全文字及 <code>/command</code>功能來製作選單，所以沒有圖片可以作客製化雙語圖案，因此 Telegram的使用者面對的選單語言會是全英文，因為Telegram的選單也是透過官方bot去設定，而非自己自訂，所以一樣無法根據使用者紀錄的語系去變更選單語言。</p>
 <p>不過，訊息內容可以是中文，所以如果Telegram使用者看英文很吃力的話，點選 <code>/menu</code>，若設定語系是中文，則會出現中文的選單選項可以使用。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-08-at-8.43.47-pm.png" width="400"/>
+<br>
 <p>不過本來Telegram Bot所面向的客群就是外國人，所以預定立場使用Telegram的使用者應該主要設定的語系不會是中文，而是觀看英文居多。</p>
 <p>以上就是這次針對Miri第三版本關於使用者流程的優化與改善，雖然還有許多流程上以及使用者的不便，但相較於第二版本已經進步很多，加上又必須會被兩個社群軟體Bot的功能侷限，能做到這個程度我已經很開心了。</p>
 <p>接下來的優化跟改善就交給之後未來的規劃，看要怎麼設計或者突破侷限。</p>
@@ -677,6 +681,36 @@ if (!doNotTrack) {
         
           
           
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
             
             
             
@@ -1573,6 +1607,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -1864,6 +1901,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -1894,6 +1934,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2054,6 +2097,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2180,6 +2226,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2210,6 +2259,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2240,6 +2292,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2690,6 +2745,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2720,6 +2778,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -3311,6 +3372,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -4873,7 +4937,22 @@ if (!doNotTrack) {
         
         
         
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
           
+            
+            
+            
           
         
         
@@ -7898,6 +7977,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -8456,6 +8538,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -8684,6 +8769,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -9536,6 +9624,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -11048,6 +11139,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -12497,6 +12591,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -14408,6 +14505,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -15683,174 +15783,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98" data-category="台灣 - 阿里山與鄒族部落們的奇遇記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 - 阿里山與鄒族部落們的奇遇記 
-      <span class="font-color-gold-1">(4)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2012] 澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2012] 澳洲跟團行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2016] 日本－北海道自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2016] 日本－北海道自由行 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－四國自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－四國自由行 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C" data-category="[2017] 日本－東京出差行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京出差行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－東京自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京自由行 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="[2017] 美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 美國－賓州Juniata姐妹校與企業參訪 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2018] 北歐－英國與冰島跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2018] 北歐－英國與冰島跟團行 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD" data-category="[2019] 台灣－橫渡日月潭" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 台灣－橫渡日月潭 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2019] 日本－北海道冬季自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－北海道冬季自由行 
-      <span class="font-color-gold-1">(6)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1" data-category="[2019] 日本－夏季北海道九日行-道北與道東" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－夏季北海道九日行-道北與道東 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C" data-category="[2019] 日本－東京與輕井澤同事一起行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－東京與輕井澤同事一起行 
+  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3" data-category="台灣 － 蕃薯故鄉走跳" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 － 蕃薯故鄉走跳 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -15863,37 +15798,61 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
+  <div id="posts-list-%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98" data-category="日本－自由行旅記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">日本－自由行旅記 
+      <span class="font-color-gold-1">(37)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
                         
 
+  <div id="posts-list-%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89" data-category="歐洲－英國與冰島追逐幸福極光" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">歐洲－英國與冰島追逐幸福極光 
+      <span class="font-color-gold-1">(3)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
+  <div id="posts-list-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">澳洲跟團行 
+      <span class="font-color-gold-1">(1)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
-
-                      
-                        
+  <div id="posts-list-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">美國－賓州Juniata姐妹校與企業參訪 
+      <span class="font-color-gold-1">(11)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
@@ -15997,7 +15956,7 @@ if (!doNotTrack) {
                 <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" data-category="神秘學與命理研究談" data-parent-categories="">
                   <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">神秘學與命理研究談
-                    <span class="font-color-gold-1">(24)</span>
+                    <span class="font-color-gold-1">(25)</span>
                     </div>
                   </a>
 
@@ -16027,53 +15986,10 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E" data-category="人類圖探討" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人類圖探討 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
   <div id="posts-list-%E5%8D%A0%E5%8D%9C" data-category="占卜" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
   <a href="/categories/%E5%8D%A0%E5%8D%9C">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">占卜 
-      <span class="font-color-gold-1">(4)</span>
+      <span class="font-color-gold-1">(6)</span>
     </div>
   </a>
   
@@ -16085,10 +16001,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E6%98%9F%E5%BA%A7%E5%AD%B8" data-category="星座學" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E6%98%9F%E5%BA%A7%E5%AD%B8">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">星座學 
-      <span class="font-color-gold-1">(1)</span>
+  <div id="posts-list-%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4" data-category="命理學與命盤" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">命理學與命盤 
+      <span class="font-color-gold-1">(12)</span>
     </div>
   </a>
   
@@ -16100,9 +16016,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87" data-category="盧恩符文" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">盧恩符文 
+  <div id="posts-list-%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92" data-category="心理學與心靈療癒" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">心理學與心靈療癒 
       <span class="font-color-gold-1">(2)</span>
     </div>
   </a>
@@ -16115,24 +16031,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98" data-category="紫微日記" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">紫微日記 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9" data-category="AURA-SOMA靈性彩油" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">AURA-SOMA靈性彩油 
+  <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C" data-category="神秘學相關" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">神秘學相關 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -16140,45 +16041,6 @@ if (!doNotTrack) {
   
   
   </div>
-
-
-                      
-                        
-
-  <div id="posts-list-mbti" data-category="MBTI" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/mbti">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">MBTI 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -16312,49 +16174,9 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90" data-category="[一眼就煞到你] 與日文的淵源" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的淵源 
+  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B" data-category="[一眼就煞到你] 與日文的初戀故事" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的初戀故事 
       <span class="font-color-gold-1">(13)</span>
     </div>
   </a>
@@ -16367,40 +16189,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC" data-category="[你好重要] 與英文的尊敬" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[你好重要] 與英文的尊敬 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87" data-category="[俄羅斯輪盤] 與俄文的豔遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[俄羅斯輪盤] 與俄文的豔遇 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot" data-category="[多語學習] 我要成為Polyglot" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多語學習] 我要成為Polyglot 
-      <span class="font-color-gold-1">(2)</span>
+  <div id="posts-list-%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98" data-category="[多元文化] 歐洲語言的奇幻旅記" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多元文化] 歐洲語言的奇幻旅記 
+      <span class="font-color-gold-1">(27)</span>
     </div>
   </a>
   
@@ -16415,22 +16207,7 @@ if (!doNotTrack) {
   <div id="posts-list-%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7" data-category="[工欲善其事，必先利其器] 語言學習資源與技巧" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
   <a href="/categories/%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[工欲善其事，必先利其器] 語言學習資源與技巧 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB" data-category="[曾經的留學夢] 與德文的過去" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[曾經的留學夢] 與德文的過去 
-      <span class="font-color-gold-1">(15)</span>
+      <span class="font-color-gold-1">(10)</span>
     </div>
   </a>
   
@@ -16457,28 +16234,16 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87" data-category="[越來越喜歡你] 與西文的相遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[越來越喜歡你] 與西文的相遇 
-      <span class="font-color-gold-1">(4)</span>
+  <div id="posts-list-%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91" data-category="[重要又萬用] 英文與他的不同口音們" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[重要又萬用] 英文與他的不同口音們 
+      <span class="font-color-gold-1">(11)</span>
     </div>
   </a>
   
   
   
   </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -16612,58 +16377,6 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93" data-category="[八卦雜談] 胡說八道" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
   <a href="/categories/%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[八卦雜談] 胡說八道 
@@ -16679,25 +16392,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81" data-category="[嬰兒學爬] 初次學習寫網頁" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[嬰兒學爬] 初次學習寫網頁 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B" data-category="[建築我的家] 關於部落格的那點事" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 關於部落格的那點事 
-      <span class="font-color-gold-1">(12)</span>
+  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98" data-category="[建築我的家] 網頁與部落格的建築日記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 網頁與部落格的建築日記 
+      <span class="font-color-gold-1">(21)</span>
     </div>
   </a>
   
@@ -16754,25 +16452,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0" data-category="[職場社會] 大公司與IoT的挑戰" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 大公司與IoT的挑戰 
-      <span class="font-color-gold-1">(2)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C" data-category="[職場社會] 新創與人工智慧的旅行" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 新創與人工智慧的旅行 
-      <span class="font-color-gold-1">(5)</span>
+  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98" data-category="[職場社會] 工作旅行記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 工作旅行記 
+      <span class="font-color-gold-1">(7)</span>
     </div>
   </a>
   
@@ -16794,10 +16477,6 @@ if (!doNotTrack) {
   
   
   </div>
-
-
-                      
-                        
 
 
                       
@@ -16931,66 +16610,6 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE" data-category="人生道路茫然不孤單" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生道路茫然不孤單 
@@ -17009,7 +16628,7 @@ if (!doNotTrack) {
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97" data-category="人生體驗與經驗" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生體驗與經驗 
-      <span class="font-color-gold-1">(5)</span>
+      <span class="font-color-gold-1">(9)</span>
     </div>
   </a>
   
@@ -17085,21 +16704,6 @@ if (!doNotTrack) {
   <a href="/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">研究所上課筆記 Note 
       <span class="font-color-gold-1">(14)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97" data-category="養殖體驗" data-parent-categories="me">
-  <a href="/categories/%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">養殖體驗 
-      <span class="font-color-gold-1">(4)</span>
     </div>
   </a>
   

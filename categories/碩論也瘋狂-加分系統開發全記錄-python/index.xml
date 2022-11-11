@@ -77,11 +77,11 @@
       <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
       <description>&lt;p&gt;寫程式，有一個很重要的觀念&lt;/p&gt;
 &lt;p&gt;就是&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Do by learn&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;千萬不要去買什麼書回來看，直接就上機然後自己規劃，不會就找網路跟問人!!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://minayu0416.files.wordpress.com/2018/04/img_1945.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
@@ -113,7 +113,7 @@
       <pubDate>Sat, 07 Apr 2018 05:02:39 +0000</pubDate>
       
       <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)&lt;/blockquote&gt;
 &lt;p&gt;Error: 2003&lt;/p&gt;
 &lt;p&gt;mysql&lt;/p&gt;</description>
     </item>
@@ -135,7 +135,7 @@
       
       <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
       <description>&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;我已經放棄裝PyQt4了&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;我已經放棄裝PyQt4了&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(:3 」∠)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     

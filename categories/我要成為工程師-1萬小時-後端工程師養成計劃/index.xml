@@ -138,10 +138,10 @@
       <pubDate>Wed, 26 Dec 2018 15:33:33 +0000</pubDate>
       
       <guid>https://minayu.site/2018/12/introducing-refactoring-chinese/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;你還在撰寫出醜醜的程式碼嗎？
 &lt;p&gt;你還埋沒在那不知如何解決的三層for迴圈嗎？&lt;/p&gt;
 &lt;p&gt;還在被前輩唸嗎？&lt;/p&gt;
-&lt;p&gt;如何擺脫菜鳥的名號？&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;如何擺脫菜鳥的名號？&lt;/blockquote&gt;&lt;/p&gt;
 &lt;h3 id=&#34;這些都可以被解決&#34;&gt;這些都可以被解決！&lt;/h3&gt;</description>
     </item>
     
@@ -151,8 +151,8 @@
       <pubDate>Wed, 26 Dec 2018 13:28:38 +0000</pubDate>
       
       <guid>https://minayu.site/2018/12/%E5%BE%8C%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5-%E6%96%B0%E9%AE%AE%E4%BA%BA%E5%A6%82%E4%BD%95%E5%AD%B8%E6%BA%9D%E9%80%9A%E8%88%87%E6%83%85%E7%B7%92%E6%8E%A7%E7%AE%A1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;我就發現，這一切都怪怪的，就是哪邊怪怪的，但又說不出個所以&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+      <description>&lt;blockquote&gt;我就是覺得很生氣，很不爽，但我真的無法指出哪點不爽，無法說明重點是甚麼
+&lt;p&gt;我就發現，這一切都怪怪的，就是哪邊怪怪的，但又說不出個所以&lt;/blockquote&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;屁呢，那個人一定是看我不爽
 
 最好啦，他一定是看我菜鳥故意噹我
@@ -172,7 +172,7 @@ e04, 不要做了，走人！
 &lt;p&gt;然後暫時還想不出更好的寫作方法時，只好利用日記記錄去記錄每一天&lt;/p&gt;
 &lt;p&gt;造成每天都很長，且夾雜一堆不同的資訊的文章出現&lt;/p&gt;
 &lt;p&gt;雖然當初確實是想要紀錄每天每天的練習，可是現在往回看會發現&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;blockquote&gt;恩，好長好混亂還是把它分散好了&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -255,7 +255,7 @@ e04, 不要做了，走人！
       <pubDate>Thu, 15 Nov 2018 11:13:58 +0000</pubDate>
       
       <guid>https://minayu.site/2018/11/%E7%A8%8B%E5%BC%8F%E6%B2%92%E6%9C%89%E9%80%99%E9%BA%BC%E9%9B%A3-%E5%AD%B8%E6%9C%83%E6%8B%86%E8%A7%A3%E5%95%8F%E9%A1%8C/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;blockquote&gt;程式語言就只是工具&lt;/blockquote&gt;
 &lt;p&gt;初學程式的新人們，不太能理解這段話，無法想像那些將程式語言學到精通的前輩們，卻告訴我們程式語言僅僅只是個工具。&lt;/p&gt;
 &lt;p&gt;其實寫程式是為了解決問題，將問題做拆解，並寫程式讓電腦分步驟自動執行，才是我們為何要學習程式語言的理由。&lt;/p&gt;</description>
     </item>
@@ -283,7 +283,7 @@ e04, 不要做了，走人！
 &lt;p&gt;企圖讓我從不折不扣的碼農，向上點工程師的技能樹&lt;/p&gt;
 &lt;p&gt;好讓我在每天都可以有一點小成果&lt;/p&gt;
 &lt;p&gt;約莫三週後，就可以有大幅的成長&lt;/p&gt;
-&lt;p&gt;畢竟被同事譽為&lt;!-- raw HTML omitted --&gt;被放牛吃草快兩個月&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;畢竟被同事譽為&lt;del&gt;被放牛吃草快兩個月&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -311,7 +311,7 @@ e04, 不要做了，走人！
       <description>&lt;p&gt;11/8&lt;/p&gt;
 &lt;p&gt;昨日，8年級溫室小花朵的自己，終於在辦公室會議裡，見識到我在研究所課程[敏捷開發與管理]的Paper中看到的名詞: &lt;strong&gt;Scrum, Sprint&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;雖然是在一個令人昏厥的時刻出現，但至少是我在研究所夢寐以求的夢想之一&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;參與軟體開發, 體驗敏捷開發&lt;/blockquote&gt;
 &lt;p&gt;雖然這個夢想早就在進入這個社會後就被我拋到九霄雲外了，但上天還是讓我歷經這一切的經驗。&lt;/p&gt;</description>
     </item>
     

@@ -34,7 +34,7 @@
         "dateModified" : "2021-09-17 22:10:48 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2021\/09\/it-things-iot-energy-management-streetlights\/",
         "wordCount" : "327",
-        "keywords" : [ "資訊那些事 IT Things","[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
+        "keywords" : [ "[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
     }
     </script>
         
@@ -88,7 +88,7 @@
 <meta itemprop="description" content="於上一家公司是我第一次參與IoT物聯網應用相關的軟體專案，而第一個接觸到的IoT專案就是路燈，平時走過馬路，並不會對路邊的路燈看幾眼，沒想到這次卻成為了我軟體開發的主角，來實際參與看看IoT的程式實作，還有揭開路燈的神秘面紗！"><meta itemprop="datePublished" content="2021-09-17T22:10:48+08:00" />
 <meta itemprop="dateModified" content="2021-09-17T22:10:48+08:00" />
 <meta itemprop="wordCount" content="327">
-<meta itemprop="keywords" content="資訊那些事 IT Things,[我要成為工程師] 1萬小時 - 後端工程師養成計劃," />
+<meta itemprop="keywords" content="[我要成為工程師] 1萬小時 - 後端工程師養成計劃," />
 
         
             
@@ -298,15 +298,19 @@ if (!doNotTrack) {
                 
                 
                 
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">資訊那些事 IT Things</p>
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">[我要成為工程師] 1萬小時 - 後端工程師養成計劃</p>
-                    
+                
+                    <p class="text-center tracking-widest text-md font-medium post-category font-fondamento">資訊那些事 IT Things</p>
+                
+                
+                
+                
+                
+                    <h3 class="text-center tracking-widest text-md font-medium post-category font-fondamento">[我要成為工程師] 1萬小時 - 後端工程師養成計劃</h3>
+                
+                
                 
               
+
                 <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2">[IoT物聯網應用] 智慧路燈管理系統架構與裝置介紹 | 帶您一窺IoT應用結合路燈應用的神秘面貌 | 差點就可一手控制全台26萬盞路燈！</p>
                 
                 
@@ -348,22 +352,22 @@ if (!doNotTrack) {
                 <p>感覺一年前就想撰寫這篇文章，當時人還在上一家公司工作。</p>
 <p>老實說我蠻喜歡上家公司的工作內容，我真的是蠻希望如果有機會可以繼續做IoT相關的軟體開發，感覺偏向軟硬體結合更有成就感，看著硬體端傳來的機械碼，經過程式加解密後，軟體也能成為人與硬體溝通的橋樑，透過軟體操控硬體設備。</p>
 <p>我想應該很少關於<code>路燈</code>或<code>太陽能</code>相關的IoT應用文章，畢竟其實要搞硬體本身就不是件簡單的事情，而硬體的對象還是十分工業化，規模相當大的硬體設備，動則一塊太陽能板就要幾萬，一盞路燈也要幾萬，在這之中的各種因素又更錯綜複雜，我很慶幸能夠在這樣的機會下工作，雖然之後部門轉型了，沒有在做與IoT相關的軟體開發了，而我也離開公司了，但這個難忘的經驗讓我覺得我很喜歡軟硬體結合的知識。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>試問，每天走在路上，每天騎車開車經過，有多少人會停下來看路旁的<code>路燈</code>？如果不是專門施工路燈的技術工程師，也許很少會有人去仔細研究路燈，而在這個部門工作，軟硬體技術也超乎了我原本設想科技也許沒這麼進步的思維，那麼就讓我們來一虧究竟吧！</p>
 <p>我在能源管理與系統整合部門工作約一年，接觸到的專案(產品)第一個是<code>智慧路燈管理系統</code>，第二個是<code>太陽能源管理系統</code>，這兩個部分的軟體開發期間，讓我一直不斷地學習、挑戰與突破我的個人能力，從軟體開發能力、程式架構規劃能力、會議主持能力、溝通能力一直到硬體機械知識及太陽能領域知識，充分地在這一年的工作期間好好學習。真的是十分想念那樣天天高壓、急迫、忙碌與源源不絕的deadline與進度的日子。</p>
 <p>這篇會先撰寫關於<code>路燈</code>的IoT應用故事。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="智慧路燈管理系統">智慧路燈管理系統</h1>
 <p>這個專案是我進公司第一個參與的專案，當時才正開始起步，我當時的感覺是，當時的團隊缺一個有經驗且主導性高的後端工程師，而我就是那個人，比起我的同事入職面試，我很扎實的過了五關，個人作品、履歷一定具備，再來就是英文考試、後端工程師考試、邏輯測驗、人資跟主管交互面試，直到入職半年後偶然和同事們吃飯聊到，才發現原來自己是那個唯一接受很多考試跟面試的人。</p>
 <p>即便我當時只是一個一年工作經驗的後端工程師，但我還是能感覺我被賦予厚望。</p>
 <p><em><strong>我以為我才一年的工作經驗，下份工作還可以再找著Senior帶我，結果我進公司直接被迫成長為Senior帶人，還要主導會議。</strong></em></p>
 <p><em><strong>但我喜歡挑戰，帶著充滿沒自信的不安感，膽戰心驚的挑戰每一個難關。</strong></em></p>
-<!-- raw HTML omitted -->
+<br>
 <p><code>智慧路燈管理系統</code>，就是可以透過網頁查看全部路燈的即時資料，並可以透過網頁遠端控制路燈的明亮度。網頁的首頁是Google Map地圖，利用點狀標示出路燈位置，綠點代表路燈正常運作，紅點代表故障，灰點代表不明，可以拉近去點擊觀看路燈即時資料，當點擊時出現該路燈的所在位置、運作狀態、明亮度、溫度與溼度等數值。網頁有帳戶系統提供廠商或使用者登入查看屬自己管轄範圍的路燈，也可以定時間或直接操控路燈的亮度，當時有規劃到實作報修功能，即直接透過網頁選擇故障路燈點選報修，而報修機制會直接通知廠商去做修理、驗收跟修復。</p>
 <p>而後端的部分，分為<code>網頁系統後端程式(App/System)</code> 跟 <code>收發資料的閘門程式(Gateway)</code>，前者就是網頁的後端系統，在伺服器撐起整個網站，負責處理使用者在前端頁面操作的每個動作。而後者則是負責接收、解密來自路燈的即時資料，將使用者於前端網頁執行的控燈命令，進行加密、發送給路燈IC卡以達到控制路燈明亮度的功能。</p>
 <p>我在剛開始有參與<code>網頁後端</code>的開發，之後就向主管要求挑戰<code>閘門(Gateway)</code>的開發，<code>Gateway</code> 是我第一次挑戰開發的部分，對當時的我來說是完全全新且極富挑戰性的程式部分，説<code>Gateway</code>的範疇等同於開發<code>網頁後端</code>也不為過，也就是說我從原本第一份工作只參與開發<code>網頁後端</code>的一部分到第二份工作直接挑戰整個<code>Gateway</code>的開發，有很大幅度的進步，是頂著高壓的情況下執行，Gateway一開發到一個部分後，我就直接爆發賀爾蒙失調了XD</p>
 <p><code>Gateway</code>的要求是要讓程式從來不間斷的透過<code>MQTT</code>接收每一筆訊息，每分鐘會有來自全台26萬盞路燈傳來的即時訊息，頗具挑戰，跟<code>每秒一萬人次</code>的網站有著相同或更多等級的難度。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="iot裝置-路燈">IoT裝置: 路燈</h1>
 <p>路燈，就是我們本次的主角，聳立在路上兩旁的路燈，座落於全台每一個地方每一個角落，路燈內有<a href="https://zh.wikipedia.org/wiki/%E5%8D%95%E6%9D%BF%E6%9C%BA">微型電腦</a>，像是Arduino或樹莓派的微型電腦，他會感測裝在路燈上的其他裝置，像是溫度計，LED燈還有其他，然後回傳至MQTT，接著軟體的部分，再透過訂閱MQTT取得路燈傳來的資訊。</p>
 <p>不過主管有跟我們說，路燈使用的微型電腦是工業用的，不是像樹莓派那種玩具一樣(wow~~)，畢竟是要連續用好幾年加上必須得承受長年日曬風吹雨打。</p>
@@ -371,7 +375,7 @@ if (!doNotTrack) {
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/photo_2021-09-16-22.29.00.jpeg" alt=""></p>
 <p><strong>這個就是路燈的控制器跟LED燈，找相簿找很久，我把敏感資訊都馬賽克了，如果還是不能放再跟我說吧!</strong></p>
 <p>照片中的就是提供測試開發的路燈模擬，這是真的路燈只是被拆解了。黑色的就是<code>控制器</code>，微型電腦所在的地方，而LED再靠右後方的地方。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="軟體系統架構">軟體系統架構</h1>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-17-at-4.48.31-pm.png" alt=""></p>
 <p>接著來介紹整個智慧路燈系統的架構圖，如圖。</p>
@@ -388,16 +392,16 @@ if (!doNotTrack) {
 <li>報修系統</li>
 <li>帳號管理</li>
 </ul>
-<!-- raw HTML omitted -->
+<br>
 <p>網站的前端透過api方式取得資訊，每10分鐘會從資料庫取得路燈最新的資訊，而後端會從資料庫中取得資訊。閘門(Gateway)會隨時都監聽(listen)接收來自路燈的資料，並經過<code>解密</code>，<code>轉換</code>，<code>處理</code>及<code>計算</code>，最後存進資料庫中。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="系統架構-網頁">系統架構: 網頁</h2>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-17-at-4.48.48-pm.png" alt=""></p>
 <p>網頁的首頁就是一張世界地圖，原本規劃如果發展得好就可以往世界各國邁進，從一開始規劃就需要先將往後可能發展的因素都考慮一併規劃(即便並沒有要開發到那種程度XD)。利用Google Map地圖，然後將全部的路燈位置標在正確的位置上，並且用綠點，紅點，灰點之類的的顏色代表路燈的營運狀態。</p>
 <p>點選其中一個路燈，左方會跳出該路燈的基本資訊，像是<code>位置(x,y軸)</code>，<code>名稱</code>，<code>所在地區</code>，<code>廠商</code>，還有即時資訊，比方說<code>溫度</code>，<code>亮度</code>，<code>流明值</code>。上方的選單Navbar可以進入其他功能，像是用列表方式查看某地區的路燈，設定對路燈調光的排程，以及觀看民眾回報的路燈維修議題。</p>
 <p>對了你可能會想問，怎麼知道每個路燈的確切位置並顯示在網頁上?</p>
 <p>其實就是每個路燈資訊都會附上該路燈的<code>x, y軸</code>以標示他的位置，然後再由前端去整合在google map上。</p>
-<!-- raw HTML omitted -->
+<br>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-17-at-4.49.08-pm.png" alt=""></p>
 <p>由於本人是實作後端的部分，所以只介紹後端網站的實作，接下來介紹後端如何設計。</p>
 <p>語言採用Python實作整個後端部分，考量到後端工程師有剛出社會的新鮮人加上自身經驗也沒有很足夠，所以第一個專案就先採用標準格式 <code>MVC</code>架構來實作後端程式的開發。但是這個<code>MVC</code>
@@ -421,14 +425,14 @@ if (!doNotTrack) {
 <pre tabindex="0"><code>Controller(api)                 | View |                      Model 
 接收前端的Request，要求路燈的資料 -&gt;  去到即時資訊的部分取到路燈資料 -&gt; 從資料庫取得資料並回傳給View
 壓成json，回傳給前端            &lt;- 處理取得的資料，使其成為前端方便讀取的格式  &lt;-
-</code></pre><!-- raw HTML omitted -->
+</code></pre><br>
 <h2 id="系統架構-閘門-gateway">系統架構: 閘門 Gateway</h2>
 <p>再來介紹Gateway部分，Gateway的部分算是我後端生涯中第一次嘗試非網站服務相關的後端程式，由於新奇加上挑戰難度高，於是主動向主管要求想要勇敢挑戰與嘗試。</p>
 <p>Gateway的開發難度可能比後端網站還高一點，所以獨立出來不和<code>web service</code>擺在一起，他是獨立的一包程式。</p>
 <p>由<code>啟動MQTT</code>並訂閱頻道最為主程式的功能，一切的功能的驅動都由MQTT接收資料，或者由網頁端下命令控制路燈為主。</p>
 <p>(由於當時還沒規劃客戶端如何控制路燈這部分，專案就先被結(ㄧㄠ)束(ㄓㄢˇ)了，所以我沒辦法實際描述控燈是怎麼做到的)</p>
 <p>先看收集資料的部分</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="gateway-接收資料">Gateway 接收資料</h2>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-17-at-4.49.32-pm.png" alt=""></p>
 <p>如圖，主程式執行後，就訂閱路燈傳遞訊息的頻道topic(/com/device/msg/*)，接著就是只要接收到任何路燈的訊息，就對訊息做</p>
@@ -438,7 +442,7 @@ if (!doNotTrack) {
 <li>Process: 就是處理轉換過的數值，可能是先存入資料庫保存原始的<code>raw data</code>，或是做像是告警方面的功能</li>
 <li>Calculate: 針對接收到的路燈訊息做計算，在存回資料庫</li>
 </ul>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="什麼是mqtt">什麼是MQTT?</h2>
 <p>這邊介紹一下MQTT</p>
 <p>全名: Message Queuing Telemetry Transport (MQTT)，是一種通訊協定，很像是HTTP，但專門為硬體效能低下的遠端裝置以及網路狀況糟糕的情況下而設計的發布/訂閱型訊息協定。</p>
@@ -448,7 +452,7 @@ if (!doNotTrack) {
 <li>訂閱 (Subsribe)</li>
 </ul>
 <p>圖解，一樣可參考Gateway的部分，通常會有一個儲存訊息的MQTT Broker (在途中咖啡色三角錐的部分)。路燈的微型電腦會將感應器接收到的資訊組成訊息，然後透過網路發布至特定的 <strong>頻道</strong> (<code>/topic/*</code>)，接著接收訊息的軟體/程式訂閱該頻道(<code>/topic/*</code>)就能夠接收來自該頻道的訊息。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="頻道的概念">頻道的概念?</h2>
 <p>假設我今天有三種感測器: 路燈，太陽能板跟冷氣機，那我分別將這三個機械要傳的資料都傳到特定的頻道:</p>
 <ul>
@@ -470,13 +474,13 @@ if (!doNotTrack) {
 <li>路燈 ST0003: <code>/light/command/st0003/*</code></li>
 </ul>
 <p>以上的頻道名稱都是虛構的。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>訊息能夠決定要儲存在Broker還是不存，遺失就遺失了。</p>
 <p>訂閱就像是訂閱youtube頻道一樣，今天訂閱了CNN News，那只要有更新就會向我推播CNN News的新內容。</p>
 <p>也就是說假設今天有十個電腦都訂閱了路燈的頻道 <code>/light/msg/*</code>，那這十部電腦都能接收到來自<code>/light/msg/*</code>的新訊息。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>所以這種通訊模式很適合與IoT設備通訊，他就像傳簡訊一樣一來一往，等客戶端或伺服器端有接收到相關訊息才會做出反應，而不是像HTTP一樣是立刻要回覆訊息。而其中要點就是可能會有遺失訊息的問題。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="解密-iot-傳來的訊息">解密: IoT 傳來的訊息?</h2>
 <p>有幾種，看當初寫進微型電腦的程式如何，有些比較先進，那可能就是將機械碼寫的讓人看得懂，例如:</p>
 <p><code>Json格式</code></p>
@@ -500,7 +504,7 @@ if (!doNotTrack) {
 <pre tabindex="0"><code>0010101101010101 || --- 01001
 </code></pre><p>好啦，我不會寫XD，反正就是你要根據機械的規格書上去判斷前四碼代表什麼，中間六碼代表什麼，然後去解析。</p>
 <p>如何撰寫IoT裝置訊息處理的工作不在於我們身上，所以通常這個部分是由硬體工程師去做撰寫，然後我們要和廠商或工程師取得規格書或者確認裝置會用什麼格式傳至MQTT。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="解決的問題">解決的問題</h2>
 <p>接收資料的閘門，感覺起來似乎沒有想像中困難，其實當初困難的點主要是:</p>
 <ul>
@@ -517,7 +521,7 @@ if (!doNotTrack) {
 </ul>
 <p>以此類推，然後再後端程式接收的部分，依據頻道名稱派給不同的處理器。</p>
 <p>最後就是效能問題，當初的後端底子比較弱，所以都還是用一個Thread去撰寫程式，也就是說只要其中一步卡住了，後面的訊息就會卡住，消化不完。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="gateway-發送命令">Gateway 發送命令</h2>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-17-at-4.49.52-pm.png" alt=""></p>
 <p>接著要來看看如何控燈，起初規劃時，只能夠控制路燈的亮度(但好像也沒有其他部分可以控制了)。猶如上部分所述，由於還沒規劃從什麼地方下命令控燈，專案就被消失了，所以並沒辦法確切描述控燈的來源。</p>
@@ -560,7 +564,7 @@ if (!doNotTrack) {
 元素        數值
 </code></pre><p>分段是by字數，一段一段去切然後轉換意思，所以如果這時候多空一個格，可能就造成數值抓不到，而報錯。</p>
 <p>那你規格書幹嘛分行的這麼美！！</p>
-<!-- raw HTML omitted -->
+<br>
 <p>再來就是MQTT訊息長短的問題，畢竟我們怎麼可能一次只調一盞燈，當然是一塊地區的路燈一起條燈光。那當初在設計調光的時候，是期望透過MQTT接收來自後端的調光指令，如果一次條一萬盞燈，那MQTT的Payload就會是一萬盞燈的訊息長度，傳給閘門Gateway，Gateway再把它切成一萬個訊息分別派送。</p>
 <p>而當初就是發內含一萬盞路燈的</p>
 <ul>
@@ -581,32 +585,32 @@ if (!doNotTrack) {
 </span></span></code></pre></div><p>做了一個程式，是接收到路燈資訊後，對訊息加密成要寄出去的payload json格式，然後會將每次調光的命令資訊存進資料庫(save)，接著最後就將一萬盞燈透過MQTT publish出去。</p>
 <p>乍看之下沒什麼問題，問題就在於，由於這個程式一publish訊息完就直接結束，會讓一萬盞燈的巨大payload來不及全寄出去，程式就ending了，所以訊息才會出現一半之說。</p>
 <p>後來將save和publish兩個動作互換，先確保<code>命令</code>有確實透過MQTT publish出去後，執行下一個存入資料庫的動作，這麼一來訊息就能完整送出。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>這個問題好像是卡了兩週吧XD</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="使用到的技術">使用到的技術?</h2>
 <p>路燈專案比較像是中規中矩讓初階者可以好好熟悉基本的程式概念，所以用到的技術大部分都是Python一些必備的套件跟規劃模式，然後學著規劃程式架構跟資料庫設計。</p>
 <p>在製作後端網站的部分，有幾個除了規劃MVC網站架構之外，像是第一次自己設計資料庫，還有練習怎麼讓後端跟前端牽動起來等基礎但重要的技術。</p>
 <p>在規劃帳號管理的功能中，初次學習到了<a href="https://en.wikipedia.org/wiki/AAA_(computer_security)">AAA協議</a>來規劃實作帳號功能。</p>
 <p>然後我自己嘗試用Decorator的概念做了一個 Error Handle 例外處理的函式，可以在每個函式上使用裝飾器，統一管理當例外出現時可以怎麼處理，大大精簡了程式碼的品質。</p>
 <p>再來是多練習SQLAlchemy資料庫管理套件。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>在製作Gateway時的技術能力用往上升了好幾倍，除了接觸到MQTT這種新的傳輸協議之外，我首次嘗試從函式轉為物件導向且套用設計模式的概念來撰寫程式。這是我過去第一年完全無法理解也做不到的事情。</p>
 <p>我想學會物件導向，就是我在這個專案最大的成長。</p>
-<!-- raw HTML omitted -->
+<br>
 <h1 id="為什麼專案沒做成">為什麼專案沒做成?</h1>
 <p>總之初次接觸IoT的專案就很有趣，有趣的在於IoT的設備都掌握於手，還有一堆其他奇奇怪怪的問題跟來自機械端很未知的知識等待我們的挖掘。</p>
 <p>但至於為什麼最後沒做成，這就是很可惜的事情了，沒做成的原因不是由於技術克服不了而是最複雜的<code>人</code>的問題。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="既然是專案產品就必須有買貨人">既然是專案/產品，就必須有買貨人</h2>
 <p>為什麼這麼說呢？</p>
 <p>因為其實不同地區的路燈維修或管理早就會有很多來自地方的建設公司或施工公司去提前得標，其幕後的內幕很多。所以面對公開招募標案的流程或活動，我們早就比地方的公司來晚個幾步，再加上對於品質的要求，硬體設備跟軟體設備需要更優良的規格去製作，但是哪個買貨人會希望用大量的資金去買呢？大部分都希望能用最低成本及還過得去的品質去做這件事舊好。</p>
 <p>因此到後來業務沒有標到案子，這個專案／產品也就暫時完結了。</p>
-<!-- raw HTML omitted -->
+<br>
 <h2 id="公司政策">公司政策</h2>
 <p>在我工作的那一年，可能由於新冠肺炎的流行，加上公司內部鬥爭跟轉型，從集團的別的部分調來很多主管空降，整個公司的政策都轉個180度，原先可能偏向是要實作軟硬體結合以達到方便管理，但為了疫情重大虧損，需要賺錢，所以將路燈的營運部門直接砍掉，IoT設備部門也解散被移轉的七零八落。</p>
 <p>而這部分的決策轉彎跟公司部門架構的拆解，也造成我後來就離開公司的主要原因，因為畢竟軟體部門被轉為數據維運部門，再也沒有軟體開發的需求，就沒有軟體工程師的存在了，是吧？</p>
-<!-- raw HTML omitted -->
+<br>
 <p>我還是很慶幸自己能夠參與IoT物聯網運用相關的專案跟產品開發，而對我來說這一年多的工作經驗也是很寶貴的回憶。</p>
 <p>那麼下一篇就來撰寫第二專案／產品: 太陽能案場監控平台，來說說關於太陽能場神秘的一幕吧！</p>
               </article>
@@ -779,6 +783,36 @@ if (!doNotTrack) {
         
           
           
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
             
             
             
@@ -1675,6 +1709,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -1966,6 +2003,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -1996,6 +2036,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2156,6 +2199,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2282,6 +2328,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2312,6 +2361,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2342,6 +2394,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2792,6 +2847,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -2822,6 +2880,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -3413,6 +3474,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -4975,7 +5039,22 @@ if (!doNotTrack) {
         
         
         
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
           
+            
+            
+            
           
         
         
@@ -8000,6 +8079,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -8558,6 +8640,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -8786,6 +8871,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -9638,6 +9726,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -11150,6 +11241,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -12599,6 +12693,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -14510,6 +14607,9 @@ if (!doNotTrack) {
         
           
           
+            
+            
+            
           
         
         
@@ -15785,174 +15885,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98" data-category="台灣 - 阿里山與鄒族部落們的奇遇記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 - 阿里山與鄒族部落們的奇遇記 
-      <span class="font-color-gold-1">(4)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2012] 澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2012] 澳洲跟團行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2016] 日本－北海道自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2016] 日本－北海道自由行 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－四國自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－四國自由行 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C" data-category="[2017] 日本－東京出差行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京出差行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－東京自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京自由行 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="[2017] 美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 美國－賓州Juniata姐妹校與企業參訪 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2018] 北歐－英國與冰島跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2018] 北歐－英國與冰島跟團行 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD" data-category="[2019] 台灣－橫渡日月潭" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 台灣－橫渡日月潭 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2019] 日本－北海道冬季自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－北海道冬季自由行 
-      <span class="font-color-gold-1">(6)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1" data-category="[2019] 日本－夏季北海道九日行-道北與道東" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－夏季北海道九日行-道北與道東 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C" data-category="[2019] 日本－東京與輕井澤同事一起行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－東京與輕井澤同事一起行 
+  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3" data-category="台灣 － 蕃薯故鄉走跳" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 － 蕃薯故鄉走跳 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -15965,37 +15900,61 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
+  <div id="posts-list-%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98" data-category="日本－自由行旅記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">日本－自由行旅記 
+      <span class="font-color-gold-1">(37)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
                         
 
+  <div id="posts-list-%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89" data-category="歐洲－英國與冰島追逐幸福極光" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">歐洲－英國與冰島追逐幸福極光 
+      <span class="font-color-gold-1">(3)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
+  <div id="posts-list-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">澳洲跟團行 
+      <span class="font-color-gold-1">(1)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
-
-                      
-                        
+  <div id="posts-list-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">美國－賓州Juniata姐妹校與企業參訪 
+      <span class="font-color-gold-1">(11)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
@@ -16099,7 +16058,7 @@ if (!doNotTrack) {
                 <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" data-category="神秘學與命理研究談" data-parent-categories="">
                   <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">神秘學與命理研究談
-                    <span class="font-color-gold-1">(24)</span>
+                    <span class="font-color-gold-1">(25)</span>
                     </div>
                   </a>
 
@@ -16129,53 +16088,10 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E" data-category="人類圖探討" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人類圖探討 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
   <div id="posts-list-%E5%8D%A0%E5%8D%9C" data-category="占卜" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
   <a href="/categories/%E5%8D%A0%E5%8D%9C">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">占卜 
-      <span class="font-color-gold-1">(4)</span>
+      <span class="font-color-gold-1">(6)</span>
     </div>
   </a>
   
@@ -16187,10 +16103,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E6%98%9F%E5%BA%A7%E5%AD%B8" data-category="星座學" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E6%98%9F%E5%BA%A7%E5%AD%B8">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">星座學 
-      <span class="font-color-gold-1">(1)</span>
+  <div id="posts-list-%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4" data-category="命理學與命盤" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">命理學與命盤 
+      <span class="font-color-gold-1">(12)</span>
     </div>
   </a>
   
@@ -16202,9 +16118,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87" data-category="盧恩符文" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">盧恩符文 
+  <div id="posts-list-%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92" data-category="心理學與心靈療癒" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">心理學與心靈療癒 
       <span class="font-color-gold-1">(2)</span>
     </div>
   </a>
@@ -16217,24 +16133,9 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98" data-category="紫微日記" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">紫微日記 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9" data-category="AURA-SOMA靈性彩油" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">AURA-SOMA靈性彩油 
+  <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C" data-category="神秘學相關" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">神秘學相關 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -16242,45 +16143,6 @@ if (!doNotTrack) {
   
   
   </div>
-
-
-                      
-                        
-
-  <div id="posts-list-mbti" data-category="MBTI" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/mbti">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">MBTI 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -16414,49 +16276,9 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90" data-category="[一眼就煞到你] 與日文的淵源" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的淵源 
+  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B" data-category="[一眼就煞到你] 與日文的初戀故事" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的初戀故事 
       <span class="font-color-gold-1">(13)</span>
     </div>
   </a>
@@ -16469,40 +16291,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC" data-category="[你好重要] 與英文的尊敬" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[你好重要] 與英文的尊敬 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87" data-category="[俄羅斯輪盤] 與俄文的豔遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[俄羅斯輪盤] 與俄文的豔遇 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot" data-category="[多語學習] 我要成為Polyglot" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多語學習] 我要成為Polyglot 
-      <span class="font-color-gold-1">(2)</span>
+  <div id="posts-list-%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98" data-category="[多元文化] 歐洲語言的奇幻旅記" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多元文化] 歐洲語言的奇幻旅記 
+      <span class="font-color-gold-1">(27)</span>
     </div>
   </a>
   
@@ -16517,22 +16309,7 @@ if (!doNotTrack) {
   <div id="posts-list-%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7" data-category="[工欲善其事，必先利其器] 語言學習資源與技巧" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
   <a href="/categories/%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[工欲善其事，必先利其器] 語言學習資源與技巧 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB" data-category="[曾經的留學夢] 與德文的過去" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[曾經的留學夢] 與德文的過去 
-      <span class="font-color-gold-1">(15)</span>
+      <span class="font-color-gold-1">(10)</span>
     </div>
   </a>
   
@@ -16559,28 +16336,16 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87" data-category="[越來越喜歡你] 與西文的相遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[越來越喜歡你] 與西文的相遇 
-      <span class="font-color-gold-1">(4)</span>
+  <div id="posts-list-%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91" data-category="[重要又萬用] 英文與他的不同口音們" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[重要又萬用] 英文與他的不同口音們 
+      <span class="font-color-gold-1">(11)</span>
     </div>
   </a>
   
   
   
   </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -16714,58 +16479,6 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93" data-category="[八卦雜談] 胡說八道" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
   <a href="/categories/%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[八卦雜談] 胡說八道 
@@ -16781,25 +16494,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81" data-category="[嬰兒學爬] 初次學習寫網頁" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[嬰兒學爬] 初次學習寫網頁 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B" data-category="[建築我的家] 關於部落格的那點事" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 關於部落格的那點事 
-      <span class="font-color-gold-1">(12)</span>
+  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98" data-category="[建築我的家] 網頁與部落格的建築日記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 網頁與部落格的建築日記 
+      <span class="font-color-gold-1">(21)</span>
     </div>
   </a>
   
@@ -16856,25 +16554,10 @@ if (!doNotTrack) {
                       
                         
 
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0" data-category="[職場社會] 大公司與IoT的挑戰" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 大公司與IoT的挑戰 
-      <span class="font-color-gold-1">(2)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C" data-category="[職場社會] 新創與人工智慧的旅行" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 新創與人工智慧的旅行 
-      <span class="font-color-gold-1">(5)</span>
+  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98" data-category="[職場社會] 工作旅行記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 工作旅行記 
+      <span class="font-color-gold-1">(7)</span>
     </div>
   </a>
   
@@ -16896,10 +16579,6 @@ if (!doNotTrack) {
   
   
   </div>
-
-
-                      
-                        
 
 
                       
@@ -17033,66 +16712,6 @@ if (!doNotTrack) {
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE" data-category="人生道路茫然不孤單" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生道路茫然不孤單 
@@ -17111,7 +16730,7 @@ if (!doNotTrack) {
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97" data-category="人生體驗與經驗" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生體驗與經驗 
-      <span class="font-color-gold-1">(5)</span>
+      <span class="font-color-gold-1">(9)</span>
     </div>
   </a>
   
@@ -17187,21 +16806,6 @@ if (!doNotTrack) {
   <a href="/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">研究所上課筆記 Note 
       <span class="font-color-gold-1">(14)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97" data-category="養殖體驗" data-parent-categories="me">
-  <a href="/categories/%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">養殖體驗 
-      <span class="font-color-gold-1">(4)</span>
     </div>
   </a>
   

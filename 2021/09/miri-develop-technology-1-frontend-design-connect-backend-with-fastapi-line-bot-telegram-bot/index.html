@@ -34,7 +34,7 @@
         "dateModified" : "2021-09-06 19:32:09 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2021\/09\/miri-develop-technology-1-frontend-design-connect-backend-with-fastapi-line-bot-telegram-bot\/",
         "wordCount" : "1426",
-        "keywords" : [ "資訊那些事 IT Things","[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!","Blog" ]
+        "keywords" : [ "[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!","Blog" ]
     }
     </script>
         
@@ -88,7 +88,7 @@
 <meta itemprop="description" content="在2021年2月離職後，我用了半年的時間用Python開發自己的占卜機器人作品，在這版本的開發有很大幅度的變動，我將原本的Flask框架改為FastApi，由原本只有Line Bot平台，新增Telegram的平台，無論是程式開發還是這篇文章都是自己綜合實力、努力、堅強跟嘗試的心血，它帶給我很多心靈上跟實力上的進步，現在我就來分享這半年實作技術方面的點點滴滴。"><meta itemprop="datePublished" content="2021-09-06T19:32:09+08:00" />
 <meta itemprop="dateModified" content="2021-09-06T19:32:09+08:00" />
 <meta itemprop="wordCount" content="1426">
-<meta itemprop="keywords" content="資訊那些事 IT Things,[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!," />
+<meta itemprop="keywords" content="[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!," />
 
         
             
@@ -298,15 +298,19 @@ if (!doNotTrack) {
                 
                 
                 
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">資訊那些事 IT Things</p>
-                    
-                    
-                    <p class="text-center tracking-widest text-md font-medium post-category">[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!</p>
-                    
+                
+                    <p class="text-center tracking-widest text-md font-medium post-category font-fondamento">資訊那些事 IT Things</p>
+                
+                
+                
+                
+                
+                    <h3 class="text-center tracking-widest text-md font-medium post-category font-fondamento">[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!</h3>
+                
+                
                 
               
+
                 <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2">[產品使用技術][Python] Miri的前端與後端接口、整體程式架構介紹 | FastApi x Line Bot x Telegram Bot | 開發概念系列(1)</p>
                 
                 
@@ -377,21 +381,22 @@ if (!doNotTrack) {
 <li>困難克服: 訊息於不同平台的呈現方式</li>
 </ul>
 <p>那麼就開始吧！</p>
-<!-- raw HTML omitted -->
-<h1 id="span-idconcept-frontend概念-前端設計span"><!-- raw HTML omitted -->概念: 前端設計<!-- raw HTML omitted --></h1>
+<br>
+<br>
+<h1 id="span-idconcept-frontend概念-前端設計span"><span id="concept-frontend">概念: 前端設計</span></h1>
 <p>Miri 在之前跟第三版本的規劃中，是沒有要將前端獨立出來開發的計畫，因為本人當初還只是很菜鳥的後端工程師，連後端開發都吃力了，要怎麼去學習前端。所以從Miri剛開始出生時，我就是先是打算利用<code>Line Bot Api</code>的功能，讓Line代替前端的功能，使我能夠更專注的在開發後端，將Miri做成一個Line的聊天機器人。</p>
 <p>但是，在規劃第三版本時，我希望能夠朝向更國際化的市場前進，說白了一點就是希望能找國外的工作，讓外國的面試官看到這個作品，所以想要新增其他新的Bot平台，畢竟Line目前還是在東亞洲地區比較興盛，除此之外的地區都不是Line的主要地盤，所以若是要開發一個面向英文使用者的平台，就要另外找其他通訊軟體的Bot功能。</p>
 <p>最一開始我有想過<code>What's App</code> 跟 <code>Facebook 的 Messenger</code>，但經過研究跟實際實作時，我發現要開發起來十分困難，會有些障礙，而且比較難克服。在一個外國朋友的推薦下，後來選擇了<code>Telegram</code>當作第二個可以連接到Miri的平台。</p>
 <p>仔細看了 <code>Telegram Bot Api</code>後，發現他有和<code>Line Bot Api</code>相似的功能，也許在圖像化或者前端畫面豐富性沒有像Line那樣的齊全，但作為Miri另外一個連接的Bot平台，功能也夠了。</p>
 <p>(才怪，我當初可是擔心死了，害怕在Line上能呈現的效果，在Telegram上到底要怎麼呈現qq)</p>
-<!-- raw HTML omitted -->
-<h1 id="span-idrefactor-backend重構-後端及api架構設計span"><!-- raw HTML omitted -->重構: 後端及API架構設計<!-- raw HTML omitted --></h1>
+<br>
+<h1 id="span-idrefactor-backend重構-後端及api架構設計span"><span id="refactor-backend">重構: 後端及API架構設計</span></h1>
 <p>有了要接兩個不同前端的平台的邏輯後，後端的程式架構就必須得做一些改變，我們先來看看第二版以前的Miri程式架構。</p>
 <p><img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-06-at-4.42.38-pm.png" alt=""></p>
 <p>在第二版以及之前的架構中，由於本身還只是年幼的後端工程師，再加上所經歷的專案跟產品經驗不多，也沒有單獨設計程式架構的經驗，所以在當時連Api是什麼都很吃力理解的狀態下，硬是兜了簡單的架構。(就是隨便做)</p>
 <p>從圖中可以看到的是第二版是使用<code>Flask</code>的框架來實作，而由於當初的前端平台只有Line，所以就把 <code>Flask</code> 跟 <code>Line</code> 的程式碼混在一起。</p>
 <p>後端功能上非常簡單，當初並沒有需要紀錄帳號的功能，也沒有像現在這樣需要不同平台，所以基本上Line接收進來的訊息，直接丟進<code>NLTK</code>或<code>Jieba</code>切詞後，去功能面簡單撈一下回答就把回覆送回給客戶端。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>那麼看一下第三版的程式架構圖</p>
 <p><img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-06-at-4.55.08-pm.png" alt=""></p>
 <p>比起上一個版本，由於要串接兩個不同的平台，所以在後端API中勢必得將不同平台的API入口分割開來，如圖中的架構，當然也因為為了相容兩種不同平台而做出的重構，在未來若有規劃想要開發出獨立的前端像是<code>前端網頁</code>或者<code>app mobile行動端</code>都可以相容，而不用再做出這麼大幅度的更動。</p>
@@ -400,14 +405,14 @@ if (!doNotTrack) {
 <li>將收到訊息統一處理為另外一種訊息物件可以不分平台差異傳送到後面的<code>功能層面</code> 取得回覆</li>
 <li>將從<code>功能層面</code>取到的回覆傳回指定平台的<code>process</code>處理成可以傳回客戶端的訊息模板/型態</li>
 </ul>
-<!-- raw HTML omitted -->
+<br>
 <p>這是後端其中一個比較大幅度需要更改的重構部分。</p>
 <p>而另外一個部分則是<code>功能層面</code>，因為Miri在第三版本確定會往<code>命理跟占卜</code>方向前進，所以比較大的主題功能會落於<code>命理及占卜</code>，把這個部分作為主要功能，而另外一個<code>溝通功能</code>則是保留若未來需要類似<code>聊天/溝通</code>的功能，還可以在這塊規劃的地區做開發。</p>
 <p>主要主題是<code>命理跟占卜</code>，所以基本上功能面就是依照這個主題去展開程式架構，然後由每個功能去單獨和資料庫互動取出需要的資訊，詳細情形就不多說。</p>
 <p>還有一個功能在圖中沒有呈現，就是關於<code>系統層面</code>的功能，像是<code>帳號管理</code>、<code>使用者引導</code>跟<code>切換語言</code>等其他功能，也會一併規劃在<code>功能層面</code>。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h1 id="span-idimplement實作-期望與模擬的後端api層架構實作span"><!-- raw HTML omitted -->實作: 期望與模擬的後端API層架構實作<!-- raw HTML omitted --></h1>
+<br>
+<br>
+<h1 id="span-idimplement實作-期望與模擬的後端api層架構實作span"><span id="implement">實作: 期望與模擬的後端API層架構實作</span></h1>
 <p>我的程式碼沒有公開，也不會在部落格撰寫具體是怎麼實作，所以我設計了一個貼近真實實作的程式碼架構模擬，Miri內部大致上也是照著這樣去實作的。</p>
 <p>接下來的部分就是實作後端API層架構層，那麼期望的實作架構與程式碼如下：</p>
 <pre tabindex="0"><code>Miri
@@ -430,8 +435,8 @@ if (!doNotTrack) {
 └── Procfile
 └── main.py
 </code></pre><p>規劃上會將<code>FastApi</code>的程式碼實作在 <code>main.py</code> 作為Api接口的大門，然後line跟telegram會分開放在<code>api</code>資料夾中，分別將Api程式碼寫在各自資料夾的<code>__init__.py</code>中，在用<code>FastApi</code>的<code>rounter</code>功能將分開在不同檔案的Api路徑註冊進api的名單中，這樣即便api路徑在不同檔案，也能一併成為接口，接收request啦！</p>
-<!-- raw HTML omitted -->
-<h1 id="span-idfastapi實作-fastapispan"><!-- raw HTML omitted -->實作: FastApi<!-- raw HTML omitted --></h1>
+<br>
+<h1 id="span-idfastapi實作-fastapispan"><span id="fastapi">實作: FastApi</span></h1>
 <p>這個部分要換成<code>Flask</code>還是<code>Django</code>或者其他的WebApi套件都可以，基本上會使用FastApi主要只是因為要離職時同事跟我說過這是目前最快的Api套件，基於好奇，就直接拿來使用在Miri身上，但我目前在Miri身上使用到FastApi功能沒有很多，所以就算之後要替換成其他WebApi套件，也很簡單。</p>
 <p>在專案的根部底層創立<code>main.py</code>成為整個程式驅動的主程式，也就是說當架設於伺服器上時，只要跑<code>main.py</code>就能將整個程式跑起來，將api架起來，前端就能使用了</p>
 <p><strong>main.py</strong></p>
@@ -476,7 +481,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Development Setting</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
 </span></span><span style="display:flex;"><span>    uvicorn<span style="color:#f92672">.</span>run(app, host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;127.0.0.1&#34;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">8000</span>)
-</span></span></code></pre></div><!-- raw HTML omitted -->
+</span></span></code></pre></div><br>
 <p>最後要提及一下，之後怎麼部署於 <code>Heroku</code> 伺服器上，當所有程式都完成了，要部署於Heroku上時，需要把用於開發真錯的程式暫時註解掉。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#75715e"># Development Setting</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># if __name__ == &#34;__main__&#34;:</span>
@@ -488,14 +493,14 @@ if (!doNotTrack) {
 </code></pre><p>在Heroku中，是將程式執行於 <code>0.0.0.0</code> 並非 <code>127.0.0.1</code>。</p>
 <p>之後使用Github連接自動部署就能自動將FastApi執行起來。</p>
 <p>FastApi的部分就到這為止，我並沒有使用太多功能，只是拿來當 web api的大門接口而已</p>
-<!-- raw HTML omitted -->
-<h1 id="span-idlinebot實作-line-botspan"><!-- raw HTML omitted -->實作: Line Bot<!-- raw HTML omitted --></h1>
+<br>
+<h1 id="span-idlinebot實作-line-botspan"><span id="linebot">實作: Line Bot</span></h1>
 <p>再來進到 Line Bot Api 中，我一直在想要怎麼撰寫Line跟Telegram的教學會比較好，因為其實網路上已經蠻多人撰寫這方面的文章。</p>
 <p>但我還是根據自己使用到的功能，加上一些開發需要注意的地方來撰寫此篇幅。</p>
 <p><img src="https://minayu0416.files.wordpress.com/2021/09/screen-shot-2021-09-06-at-7.23.10-pm.png" alt=""></p>
 <p>這個是我自己畫的架構圖，基本上最左邊是FastApi的api大門，而line的api只有一個，就自訂吧，我這邊是定為<code>/api/line/callback</code>。可能會想問，如果Line的<code>api</code>只有一個，那要怎麼分辨不同的訊息？這個時候<code>事件Event</code>跟<code>訊息型別MessageType</code>就很重要了。在Line中即便api rounte路徑只有一個，但主要是依靠訊息的<code>事件Event</code>跟<code>訊息型別MessageType</code>來接收跟回覆不同的訊息。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idline-event事件eventspan"><!-- raw HTML omitted -->事件Event<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idline-event事件eventspan"><span id="line-event">事件Event</span></h2>
 <p>Event是比訊息還上一層的概念，我們來看看Line中有哪些事件：</p>
 <ul>
 <li>MessageEvent</li>
@@ -512,8 +517,8 @@ if (!doNotTrack) {
 <li>PostbackEvent</li>
 </ul>
 <p>剛剛有提到一個Event需要<code>一個或多個</code>handler，主要就是在於<code>MessageEvent</code>能有不同的<code>訊息型別Message Type</code>，而每個訊息模式也都需要有一個handler來處理。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idline-message訊息型別-message-typespan"><!-- raw HTML omitted -->訊息型別 Message Type<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idline-message訊息型別-message-typespan"><span id="line-message">訊息型別 Message Type</span></h2>
 <p>Line的訊息型別蠻多種的，詳細的型別給大家列在下方</p>
 <p><strong><a href="https://developers.line.biz/en/docs/messaging-api/message-types/">Message types</a></strong></p>
 <p>基本上，從Api最開始收到的會是一種Line的訊息型別(Message Type)，<strong>而當程式要回傳給Line客戶端時，也必須要將訊息包裝成Line的Message Type，才能回傳給客戶端。</strong> 所以就是一律用Line的Message物件去做溝通傳遞，也請放心即便傳來的是<code>Message物件</code>，裡面也一定夾帶一堆參數，可以讀取其中的訊息或檔案。</p>
@@ -525,10 +530,10 @@ if (!doNotTrack) {
 <li><a href="https://developers.line.biz/en/docs/messaging-api/message-types/#carousel-template">Carousel template</a></li>
 </ul>
 <p>這兩個訊息點擊按鈕後觸發的事件叫做<code>PostbackEvent</code>，所以如果有需要用到<code>Template message</code>來回覆訊息的話，記得加上<code>PostbackEvent</code>的handler來處理使用者按下按鈕之後的操作。</p>
-<!-- raw HTML omitted -->
+<br>
 <p>總之Line Bot也是一門有趣的學問，我可能只用到了20-30%Line Bot的功能來實作Miri的前端，有興趣的人可以多加鑽研，而我的文章也沒有說撰寫的很詳細，因為主要是紀錄Miri使用了哪些功能，不過只要有架構圖跟api的實作做完後，基本上後續的施工就依照每個人需求不同的功能各自去研究。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idline-implement實作-api--handlerspan"><!-- raw HTML omitted -->實作: Api &amp; handler<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idline-implement實作-api--handlerspan"><span id="line-implement">實作: Api &amp; handler</span></h2>
 <p>以上講了很多，接下來就實作api的部分，來看一下上面的架構圖</p>
 <pre tabindex="0"><code>Miri
 ├── api
@@ -748,8 +753,8 @@ if (!doNotTrack) {
 <li>訊息本身</li>
 </ul>
 <p>這邊要特別說一件事是Line的時間，我研究很久，因為他既很像timestamp，但是轉換過來的時間又不正確，Line的文件是寫 <code>Unix Time</code>，我最後是將讀到的時間除以1000再將其從timestamp轉為datetime才取到正常時間，不過是UTC時間，所以台灣時間是<code>+8小時</code>，記得要+上8小時再使用它。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idline-menu選單-menuspan"><!-- raw HTML omitted -->選單 Menu<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idline-menu選單-menuspan"><span id="line-menu">選單 Menu</span></h2>
 <p>Line 的選單有兩種方式可以做成</p>
 <ul>
 <li>Line 官方帳號管理網頁設定</li>
@@ -759,29 +764,29 @@ if (!doNotTrack) {
 <p>我沒有使用 Line Bot Api做成選單XD，因為當時我給自己實作Miri的時間已經超過了，再加上我覺得看起來選單這個功能如果用Line Bot Api做，不熟，看不懂，感覺很難XD，在Deadline大敵將至，我還是決定用第一個方式做哈哈！</p>
 <p>這是我做的選單，也是現在Miri在用的，也有被我朋友砲轟說是要做多簡單，乾脆他幫我畫！</p>
 <p>畫畫不是我的強項！！！我用Mac的KeyNote拉出了我覺得可以接受的選單頁面就好，總之功能先到位比較重要！</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_7816.jpg" width="400"/>
 <p>如果是用<code>Line 官方帳號管理網頁設定</code>來做選單就會比較簡單，請到 <strong><a href="https://manager.line.biz/">Line 官方帳號管理網頁</a></strong>，登入後，選擇你之前創建的Bot帳號。</p>
 <p><code>主頁</code> &gt; <code>聊天室相關</code> &gt; <code>圖文選單</code>，接著就能找到創建圖文選單的地方。</p>
 <p>點選<code>建立</code>，建立新的選單，比較重要的就是版型，目前官方提供像是圖中這麼多種版型，就依照個人需求選擇</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-07-at-5.17.43-pm.png" width="400"/>
 <p>我先隨便選了一個版型，接著右邊就有對應版型的動作類型可以選擇，然後左邊的設定也能夠上傳照片</p>
 <p><img src="https://mingjungyu.files.wordpress.com/2021/09/screen-shot-2021-09-07-at-5.18.59-pm.png" alt=""></p>
 <p><code>按鈕動作</code>提供了6~7種，但對我幫助比較大的只有文字，我還在妄想有沒有可能可以設定CallBack按鈕qq，所以最後我做的選單只有按下去發送文字，然後Miri再根據文字去判斷要回送什麼訊息。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idline-detailline-bot的一些注意細節span"><!-- raw HTML omitted -->Line Bot的一些注意細節<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idline-detailline-bot的一些注意細節span"><span id="line-detail">Line Bot的一些注意細節</span></h2>
 <ol>
 <li>如果程式處理時間太久，會被Line判定超過時效，不會回覆使用者訊息</li>
 </ol>
 <p>我常常會用debug模式去追我程式到底哪邊寫錯，有時候甚至會直接在錯誤的地方一步一步看傳遞的參數，結果就發現如果訊息太久沒有回給客戶端，Line就會有時間到期的問題，而直接跳錯，不會回覆。</p>
 <p>感覺這算Line比較嚴謹的地方，所以估計Line Bot後面的程式也不太適合拿來做大量的運算或者複雜的功能，目前沒測過最久能接受多久，但如果在Debug模式或者程式跑太久後報錯，可能就是反應時間超過Line定的時效囉！</p>
-<!-- raw HTML omitted -->
+<br>
 <ol start="2">
 <li>可以一次回上限五個訊息</li>
 </ol>
 <p>不管是Line還是Telegram，回覆是使用list中可包含許多Message物件，所以代表可以回覆多個訊息，比方說小明對Bot丟了一個 <code>Hello</code>，則機器人可以回說: <code>Hello 您好！</code>, <code>請問要選擇哪個食物？</code>, <code>食物的Carousel template message</code>。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>response <span style="color:#f92672">=</span> [msg, msg, msg]
 </span></span></code></pre></div><p>上限是五個訊息，超過就會報錯！</p>
-<!-- raw HTML omitted -->
+<br>
 <ol start="3">
 <li>Template Message的字數問題</li>
 </ol>
@@ -795,21 +800,21 @@ if (!doNotTrack) {
 </ul>
 <p>總之就是開發時或者規劃時多看一下api文件就是！</p>
 <p>但最令人羨慕的是 Button 的 Postback action 竟然可以多達300個字！！等於在action中塞一個很長一串的dictionary 或者json都沒事，這個部分在Telegram非常麻煩，因為Telegram的postback有限字數XDD</p>
-<!-- raw HTML omitted -->
+<br>
 <ol start="4">
 <li>訊息處理失敗了就重新從前端/Line訊息平台重新發一次Request</li>
 </ol>
 <p>這個部分基本上沒什麼問題，就是如果在開發時反覆測試，每次都從Line聊天室發訊息來後端測試功能，如果失敗了就是request直接失效，那就再從Line聊天室再發一次訊息。</p>
 <p>為什麼提到這點，主要是因為 &hellip;</p>
 <p><em><strong>Telegram 就算程式處理失敗了，發過的Request若沒有處理或回覆的話，短時間內將會一直流浪在網路上，直到你的程式寫好/修好之前，他都會不斷的是同一個request往程式的api發，不斷的發。</strong></em></p>
-<!-- raw HTML omitted -->
-<h1 id="span-idtelegram實作-telegram-botspan"><!-- raw HTML omitted -->實作: Telegram Bot<!-- raw HTML omitted --></h1>
+<br>
+<h1 id="span-idtelegram實作-telegram-botspan"><span id="telegram">實作: Telegram Bot</span></h1>
 <p>接下來就來寫 Telegram Bot的部分啦！</p>
 <p>Telegram bot 是此次的新功能之一，我覺得它的bot機制和Line其實蠻相似的，所以實作邏輯不會有太大的問題，但訊息型別的精緻度會稍微比Line差一點點，還有一個特點是<code>PostBack</code>的<code>callback_data</code>參數字數不能超過64個字，所以幾乎隨便塞一個dictionary進<code>callback_data</code>，很快就爆了，方法我待會會在下面說。</p>
 <p>Telegram Bot 說是和 Line Bot 相似也能說不太相似，總之邏輯都是Bot，所以Api接口的寫法都蠻像的，但是深入核心的部分就會發現這兩種Bot會是呈現兩種完全不同的功能，倒也不是說不能整合，只是需要做一點轉換。</p>
 <p>還有就是我發現我看不太懂Telegram的文件XD</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-handler訊息處理者-handlerspan"><!-- raw HTML omitted -->訊息處理者 Handler<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-handler訊息處理者-handlerspan"><span id="telegram-handler">訊息處理者 Handler</span></h2>
 <p>和Line一樣，Telegram也會有訊息Handler，如果沒有撰寫函式處理相對應的動作或事件，Bot也是一樣不會有反應。</p>
 <p>這邊舉例兩個我用的Handler:</p>
 <ul>
@@ -835,18 +840,18 @@ if (!doNotTrack) {
 <li>MessageHandler(filter.audio, handle_message)</li>
 </ul>
 <p>詳細程式碼下面會寫</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-messagemessage-type-訊息型別span"><!-- raw HTML omitted -->Message Type 訊息型別<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-messagemessage-type-訊息型別span"><span id="telegram-message">Message Type 訊息型別</span></h2>
 <p>一些基本的訊息型別會有，包含<code>文字</code>，<code>圖像</code>，<code>影片</code>，還有一些其他的訊息型別</p>
 <p>有興趣再麻煩參照 <strong><a href="https://core.telegram.org/bots/api#available-types">Telegram Bot Api 文件</a></strong> 啦！</p>
 <p>比較讓我燒腦的是Telegram Bot沒有像Line的 <code>Carousel Template</code>的訊息，有提供的是<code>InlineKeyboardMarkup</code>跟<code>InlineKeyboardButton</code>型別，來看一下他的效果為何？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<br>
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8021.jpg" width="400"/>
 <p><em><strong>想不想來占卜一下？ 哈哈</strong></em></p>
 <p>總之<code>InlineKeyboardMarkup</code>跟<code>InlineKeyboardButton</code> 是擁有按鈕的訊息，上面那個照片中其實是兩個訊息: <code>Photo</code> + (<code>InlineKeyboardMarkup</code> + <code>InlineKeyboardButton</code>)，所以真實的效果是沒有照片的，而圖片中的整組訊息就是我想出來可以代替 Line 的 Button Template 訊息呈現於 Telegram的替代方案，這個部分下方會說明。</p>
 <p>總之，也許有其他訊息型別更適合，但就待各位去官方文件挖寶了。</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-bot創建一個telegram-botspan"><!-- raw HTML omitted -->創建一個Telegram Bot<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-bot創建一個telegram-botspan"><span id="telegram-bot">創建一個Telegram Bot</span></h2>
 <p>Telegram Bot 的創建和Line有一點點不一樣，Telegram沒有像Line一樣完整的官方帳號管理頁面，也許本來這兩個機器人面對的客群就不同，要創建Telegram Bot你需要先找到他爸爸！</p>
 <p><strong><a href="https://t.me/BotFather">BotFather</a></strong></p>
 <p>不是跟你開玩笑吧XD</p>
@@ -860,8 +865,8 @@ if (!doNotTrack) {
 <p>比較需要注意的是bot 的 username，就是類似Bot的Id，用<code>@</code>包裝的Id，這個名字一定要含<code>bot</code>，所以你可以取 <code>TetrisBot</code> 或 <code>tetris_bot</code> 就看個人發揮，就是要有bot字在裡面。</p>
 <p>然後那串token很重要，是未來需要連接Bot到後端程式所需要的Token，丟了也可以透過BotFather再創建，不用擔心！</p>
 <p>接下來就進入到實作APi的部分！</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-implement實作-api--handlerspan"><!-- raw HTML omitted -->實作 Api &amp; Handler<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-implement實作-api--handlerspan"><span id="telegram-implement">實作 Api &amp; Handler</span></h2>
 <p>接下來一樣進到實作的部分，來看一下上面的架構圖</p>
 <pre tabindex="0"><code>Miri
 ├── api
@@ -959,7 +964,7 @@ if (!doNotTrack) {
 <p>記得利用token初始化一個telegram的bot，會需要使用bot做回覆訊息的功能</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#75715e"># 還記得上面說的Token嗎？要寫在這邊，初始化你的Telegram Bot</span>
 </span></span><span style="display:flex;"><span>bot <span style="color:#f92672">=</span> telegram<span style="color:#f92672">.</span>Bot(token<span style="color:#f92672">=</span>(config[<span style="color:#e6db74">&#39;TELEGRAM&#39;</span>][<span style="color:#e6db74">&#39;ACCESS_TOKEN&#39;</span>]))
-</span></span></code></pre></div><!-- raw HTML omitted -->
+</span></span></code></pre></div><br>
 <ol start="2">
 <li>記得要新增你想處理的訊息/動作的Handler</li>
 </ol>
@@ -976,7 +981,7 @@ if (!doNotTrack) {
 <li>MessageHandler(Filters.audio, handle_message)</li>
 </ul>
 <p>詳細情況再麻煩爬文Python的 <strong><a href="https://github.com/python-telegram-bot/python-telegram-bot">Telegram套件</a></strong></p>
-<!-- raw HTML omitted -->
+<br>
 <ol start="3">
 <li>記得要將Telegram的api route透過 FastApi APIRouter 加入路徑</li>
 </ol>
@@ -1014,8 +1019,8 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>bot<span style="color:#f92672">.</span>send_message(chat_id, text, reply_markup<span style="color:#f92672">=</span>markup)
 </span></span></code></pre></div><p>換你實作啦！</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-detailtelegram-bot的一些注意細節span"><!-- raw HTML omitted -->Telegram Bot的一些注意細節<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-detailtelegram-bot的一些注意細節span"><span id="telegram-detail">Telegram Bot的一些注意細節</span></h2>
 <ul>
 <li>Request若沒得到回應，會一直重複對api發送</li>
 </ul>
@@ -1033,7 +1038,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>InlineKeyboardButton(callback_data<span style="color:#f92672">=</span>str(<span style="color:#e6db74">&#34;會話，調情&#34;</span>))
 </span></span></code></pre></div><p>看個人發揮，我個人是塞字典，比較好我後端程式後續的程式操作，但又很容易爆字！</p>
 <p>所以我的一個作法是，我在CallBack訊息傳出去跟傳回來時做了一個<code>壓縮器/加密器</code>，將超過長度的 <code>callback_data</code>透過演算法或加密法壓縮成64個字內，回來時再用一樣的方式解密，這樣就能夠解決64個字限制的問題！</p>
-<!-- raw HTML omitted -->
+<br>
 <ul>
 <li>InlineKeyboardButton 按鈕寬度跟排列</li>
 </ul>
@@ -1055,8 +1060,8 @@ InlineKeyboardMarkup([
 Markup(
     [Button(), Button()]
 )
-</code></pre><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</code></pre><img src="https://mingjungyu.files.wordpress.com/2021/09/img_8023.jpg" width="400"/>
+<br>
 <pre tabindex="0"><code>
 # 我們將一些字簡略，比較好展示
 
@@ -1070,8 +1075,8 @@ Markup(
         [Button()]
         ]
 )
-</code></pre><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</code></pre><img src="https://mingjungyu.files.wordpress.com/2021/09/img_8024.jpg" width="400"/>
+<br>
 <pre tabindex="0"><code>
 # 我們將一些字簡略，比較好展示
 
@@ -1082,12 +1087,12 @@ Markup(
         [Button(), Button()],
         ]
 )
-</code></pre><!-- raw HTML omitted -->
+</code></pre><img src="https://mingjungyu.files.wordpress.com/2021/09/img_8022.jpg" width="400"/>
 <p><strong>簡單來說就是用list來去分割按鈕</strong></p>
-<!-- raw HTML omitted -->
-<h2 id="span-idtelegram-menu選單-menuspan"><!-- raw HTML omitted -->選單 Menu<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idtelegram-menu選單-menuspan"><span id="telegram-menu">選單 Menu</span></h2>
 <p>再來也是Telegram的選單，Telegram的選單基本上沒有像Line那樣的華麗，如圖，這是Miri的選單</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_7852.jpg" width="400"/>
 <p>蠻乾淨簡單的，是用 <code>/command</code>的動作作為選單按鈕，然後最一開始 Menu會向上方圖一樣，在文字輸入匡左方會多一個Menu，然後可以縮放跟展開。</p>
 <p>Menu的設定也是呼叫 機器人的爸爸XD，<strong><a href="https://t.me/BotFather">BotFather</a></strong>，來設定選單</p>
 <p>在Telegram中不是Set Menu，而是<code>setcommands</code>。</p>
@@ -1096,27 +1101,27 @@ Markup(
 command2 - Another description
 </code></pre><p>你可以一次把要設定的command打齊一次送出去！</p>
 <p>就有美美簡約的選單囉！</p>
-<!-- raw HTML omitted -->
-<h2 id="span-idovercome困難克服-訊息於不同平台的呈現方式span"><!-- raw HTML omitted -->困難克服: 訊息於不同平台的呈現方式<!-- raw HTML omitted --></h2>
+<br>
+<h2 id="span-idovercome困難克服-訊息於不同平台的呈現方式span"><span id="overcome">困難克服: 訊息於不同平台的呈現方式</span></h2>
 <p>在實作於Line Bot跟Telegram Bot遇到的一個困難是，由於這兩個後端是共用程式，所以期望上希望兩者呈現的功能要一致，簡單來說就是當點下<code>占卜</code>按鈕時，要跳出六個<code>占卜方法</code>，我希望是圖文並茂，這在Line Bot上，用<code>Carousel message</code>可以完美辦到:</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8025.jpg" width="400"/>
 <p>但是在 Telegram就不是這麼一回事了，因為Telegram沒有 <code>Carousel message</code>，所以在這個單元想來介紹一下，我是怎麼改動流程盡量讓兩邊平台訊息一致的。</p>
 <p>首先是選單目錄，在Line使用<code>Carousel message</code>，在Telegram用<code>InlineKeyboardMarkup</code></p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8026.jpg" width="400"/>
 <p><em><strong>可以往右滑</strong></em></p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8022.jpg" width="400"/>
 <p><em><strong>在Telegram的呈現上會稍微遜色，畢竟沒有圖片輔佐</strong></em></p>
 <p>所以在規劃使用者流程時，我會特地讓Line <code>Carousel message</code>變成像是<code>列表</code>的邏輯，當點進去單個項目，才是進到那個項目的動作，來展現一下</p>
 <p>點選<code>Click</code>後，兩邊訊息會一致</p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8028.jpg" width="300"/>
 <p><em><strong>Line點選後會進到Button Message，用一個感覺多此一舉的步驟來緩和Telegram沒有辦法圖文兼具的窘境。</strong></em></p>
-<!-- raw HTML omitted -->
+<img src="https://mingjungyu.files.wordpress.com/2021/09/img_8027.jpg" width="300"/>
 <p><em><strong>接著我們來看一下Telegram方，使用了Photo + InlineKeyboardMarkup 兩個訊息的Combo連發達成像Line的效果，緩和解決了沒有圖片的問題。</strong></em></p>
-<!-- raw HTML omitted -->
+<br>
 <p>由於本人算是第一次做這種前端有兩個以上的平台，先前都是後端對到前端，我相信很多厲害的app或網站，兩者兼具的軟體都需要具備這種面對兩種平台以上的後端程式設計，而這是我第一次面對，所以難免在處理上會比較尷尬一點。</p>
 <p>也許這也就能夠理解為什麼有些軟體有些功能在網頁上是沒有的，但是在app上有，也許就是因為沒辦法做到兩邊展現同樣的效果跟體驗，所以必須有一方是犧牲的。</p>
 <p>這是我目前短暫想出的方式，也許會讓Line使用者在使用上有點多此一舉跟卡卡的感覺。期望未來如果我實作前端網頁跟mobile版本後，就不需要糾結於這個問題，但也有可能未來即便出了網頁跟手機端，還是會保留機器人版本(說不定喔！)</p>
-<!-- raw HTML omitted -->
+<br>
 <p>好啦，這篇應該是產品技術文章中最長的文章，能看到這邊的人也蠻厲害的了(還是只會有我看得到XD)</p>
 <p>多謝支持啦！</p>
               </article>
@@ -1289,6 +1294,36 @@ command2 - Another description
         
           
           
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
             
             
             
@@ -2185,6 +2220,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2476,6 +2514,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2506,6 +2547,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2666,6 +2710,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2792,6 +2839,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2822,6 +2872,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -2852,6 +2905,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -3302,6 +3358,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -3332,6 +3391,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -3923,6 +3985,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -5485,7 +5550,22 @@ command2 - Another description
         
         
         
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
           
+            
+            
+            
           
         
         
@@ -8510,6 +8590,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -9068,6 +9151,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -9296,6 +9382,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -10148,6 +10237,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -11660,6 +11752,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -13109,6 +13204,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -15020,6 +15118,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -16295,174 +16396,9 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98" data-category="台灣 - 阿里山與鄒族部落們的奇遇記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/%E5%8F%B0%E7%81%A3-%E9%98%BF%E9%87%8C%E5%B1%B1%E8%88%87%E9%84%92%E6%97%8F%E9%83%A8%E8%90%BD%E5%80%91%E7%9A%84%E5%A5%87%E9%81%87%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 - 阿里山與鄒族部落們的奇遇記 
-      <span class="font-color-gold-1">(4)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2012] 澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2012-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2012] 澳洲跟團行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2016] 日本－北海道自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2016-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2016] 日本－北海道自由行 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－四國自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E5%9B%9B%E5%9C%8B%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－四國自由行 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C" data-category="[2017] 日本－東京出差行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E5%87%BA%E5%B7%AE%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京出差行 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2017] 日本－東京自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 日本－東京自由行 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="[2017] 美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2017-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2017] 美國－賓州Juniata姐妹校與企業參訪 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="[2018] 北歐－英國與冰島跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2018-%E5%8C%97%E6%AD%90%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%B7%9F%E5%9C%98%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2018] 北歐－英國與冰島跟團行 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD" data-category="[2019] 台灣－橫渡日月潭" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E5%8F%B0%E7%81%A3%E6%A9%AB%E6%B8%A1%E6%97%A5%E6%9C%88%E6%BD%AD">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 台灣－橫渡日月潭 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C" data-category="[2019] 日本－北海道冬季自由行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%8C%97%E6%B5%B7%E9%81%93%E5%86%AC%E5%AD%A3%E8%87%AA%E7%94%B1%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－北海道冬季自由行 
-      <span class="font-color-gold-1">(6)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1" data-category="[2019] 日本－夏季北海道九日行-道北與道東" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E5%A4%8F%E5%AD%A3%E5%8C%97%E6%B5%B7%E9%81%93%E4%B9%9D%E6%97%A5%E8%A1%8C-%E9%81%93%E5%8C%97%E8%88%87%E9%81%93%E6%9D%B1">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－夏季北海道九日行-道北與道東 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C" data-category="[2019] 日本－東京與輕井澤同事一起行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
-  <a href="/categories/2019-%E6%97%A5%E6%9C%AC%E6%9D%B1%E4%BA%AC%E8%88%87%E8%BC%95%E4%BA%95%E6%BE%A4%E5%90%8C%E4%BA%8B%E4%B8%80%E8%B5%B7%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[2019] 日本－東京與輕井澤同事一起行 
+  <div id="posts-list-%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3" data-category="台灣 － 蕃薯故鄉走跳" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E5%8F%B0%E7%81%A3-%E8%95%83%E8%96%AF%E6%95%85%E9%84%89%E8%B5%B0%E8%B7%B3">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">台灣 － 蕃薯故鄉走跳 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -16475,37 +16411,61 @@ command2 - Another description
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
+  <div id="posts-list-%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98" data-category="日本－自由行旅記" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%97%A5%E6%9C%AC%E8%87%AA%E7%94%B1%E8%A1%8C%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">日本－自由行旅記 
+      <span class="font-color-gold-1">(37)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
                         
 
+  <div id="posts-list-%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89" data-category="歐洲－英國與冰島追逐幸福極光" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">歐洲－英國與冰島追逐幸福極光 
+      <span class="font-color-gold-1">(3)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
+  <div id="posts-list-%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C" data-category="澳洲跟團行" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">澳洲跟團行 
+      <span class="font-color-gold-1">(1)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
 
                       
                         
 
-
-                      
-                        
+  <div id="posts-list-%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA" data-category="美國－賓州Juniata姐妹校與企業參訪" data-parent-categories="%E6%97%85%E8%A1%8C%E6%97%A5%E8%A8%98-travel">
+  <a href="/categories/%E7%BE%8E%E5%9C%8B%E8%B3%93%E5%B7%9Ejuniata%E5%A7%90%E5%A6%B9%E6%A0%A1%E8%88%87%E4%BC%81%E6%A5%AD%E5%8F%83%E8%A8%AA">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">美國－賓州Juniata姐妹校與企業參訪 
+      <span class="font-color-gold-1">(11)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
 
 
                       
@@ -16609,7 +16569,7 @@ command2 - Another description
                 <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" data-category="神秘學與命理研究談" data-parent-categories="">
                   <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">神秘學與命理研究談
-                    <span class="font-color-gold-1">(24)</span>
+                    <span class="font-color-gold-1">(25)</span>
                     </div>
                   </a>
 
@@ -16639,53 +16599,10 @@ command2 - Another description
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E" data-category="人類圖探討" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E4%BA%BA%E9%A1%9E%E5%9C%96%E6%8E%A2%E8%A8%8E">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人類圖探討 
-      <span class="font-color-gold-1">(3)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
   <div id="posts-list-%E5%8D%A0%E5%8D%9C" data-category="占卜" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
   <a href="/categories/%E5%8D%A0%E5%8D%9C">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">占卜 
-      <span class="font-color-gold-1">(4)</span>
+      <span class="font-color-gold-1">(6)</span>
     </div>
   </a>
   
@@ -16697,10 +16614,10 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E6%98%9F%E5%BA%A7%E5%AD%B8" data-category="星座學" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E6%98%9F%E5%BA%A7%E5%AD%B8">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">星座學 
-      <span class="font-color-gold-1">(1)</span>
+  <div id="posts-list-%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4" data-category="命理學與命盤" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%91%BD%E7%90%86%E5%AD%B8%E8%88%87%E5%91%BD%E7%9B%A4">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">命理學與命盤 
+      <span class="font-color-gold-1">(12)</span>
     </div>
   </a>
   
@@ -16712,9 +16629,9 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87" data-category="盧恩符文" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%9B%A7%E6%81%A9%E7%AC%A6%E6%96%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">盧恩符文 
+  <div id="posts-list-%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92" data-category="心理學與心靈療癒" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">心理學與心靈療癒 
       <span class="font-color-gold-1">(2)</span>
     </div>
   </a>
@@ -16727,24 +16644,9 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98" data-category="紫微日記" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/%E7%B4%AB%E5%BE%AE%E6%97%A5%E8%A8%98">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">紫微日記 
-      <span class="font-color-gold-1">(7)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9" data-category="AURA-SOMA靈性彩油" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/aura-soma%E9%9D%88%E6%80%A7%E5%BD%A9%E6%B2%B9">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">AURA-SOMA靈性彩油 
+  <div id="posts-list-%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C" data-category="神秘學相關" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
+  <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">神秘學相關 
       <span class="font-color-gold-1">(5)</span>
     </div>
   </a>
@@ -16752,45 +16654,6 @@ command2 - Another description
   
   
   </div>
-
-
-                      
-                        
-
-  <div id="posts-list-mbti" data-category="MBTI" data-parent-categories="%E7%A5%9E%E7%A7%98%E5%AD%B8%E8%88%87%E5%91%BD%E7%90%86%E7%A0%94%E7%A9%B6%E8%AB%87">
-  <a href="/categories/mbti">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">MBTI 
-      <span class="font-color-gold-1">(1)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -16924,49 +16787,9 @@ command2 - Another description
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90" data-category="[一眼就煞到你] 與日文的淵源" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E6%B7%B5%E6%BA%90">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的淵源 
+  <div id="posts-list-%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B" data-category="[一眼就煞到你] 與日文的初戀故事" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[一眼就煞到你] 與日文的初戀故事 
       <span class="font-color-gold-1">(13)</span>
     </div>
   </a>
@@ -16979,40 +16802,10 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC" data-category="[你好重要] 與英文的尊敬" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BD%A0%E5%A5%BD%E9%87%8D%E8%A6%81-%E8%88%87%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%8A%E6%95%AC">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[你好重要] 與英文的尊敬 
-      <span class="font-color-gold-1">(11)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87" data-category="[俄羅斯輪盤] 與俄文的豔遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4-%E8%88%87%E4%BF%84%E6%96%87%E7%9A%84%E8%B1%94%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[俄羅斯輪盤] 與俄文的豔遇 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot" data-category="[多語學習] 我要成為Polyglot" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E5%A4%9A%E8%AA%9E%E5%AD%B8%E7%BF%92-%E6%88%91%E8%A6%81%E6%88%90%E7%82%BApolyglot">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多語學習] 我要成為Polyglot 
-      <span class="font-color-gold-1">(2)</span>
+  <div id="posts-list-%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98" data-category="[多元文化] 歐洲語言的奇幻旅記" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[多元文化] 歐洲語言的奇幻旅記 
+      <span class="font-color-gold-1">(27)</span>
     </div>
   </a>
   
@@ -17027,22 +16820,7 @@ command2 - Another description
   <div id="posts-list-%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7" data-category="[工欲善其事，必先利其器] 語言學習資源與技巧" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
   <a href="/categories/%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[工欲善其事，必先利其器] 語言學習資源與技巧 
-      <span class="font-color-gold-1">(8)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB" data-category="[曾經的留學夢] 與德文的過去" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E6%9B%BE%E7%B6%93%E7%9A%84%E7%95%99%E5%AD%B8%E5%A4%A2-%E8%88%87%E5%BE%B7%E6%96%87%E7%9A%84%E9%81%8E%E5%8E%BB">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[曾經的留學夢] 與德文的過去 
-      <span class="font-color-gold-1">(15)</span>
+      <span class="font-color-gold-1">(10)</span>
     </div>
   </a>
   
@@ -17069,28 +16847,16 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87" data-category="[越來越喜歡你] 與西文的相遇" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
-  <a href="/categories/%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%96%9C%E6%AD%A1%E4%BD%A0-%E8%88%87%E8%A5%BF%E6%96%87%E7%9A%84%E7%9B%B8%E9%81%87">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[越來越喜歡你] 與西文的相遇 
-      <span class="font-color-gold-1">(4)</span>
+  <div id="posts-list-%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91" data-category="[重要又萬用] 英文與他的不同口音們" data-parent-categories="%E8%AA%9E%E8%A8%80%E7%9B%B8%E9%97%9C-language">
+  <a href="/categories/%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[重要又萬用] 英文與他的不同口音們 
+      <span class="font-color-gold-1">(11)</span>
     </div>
   </a>
   
   
   
   </div>
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
 
 
                       
@@ -17224,58 +16990,6 @@ command2 - Another description
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93" data-category="[八卦雜談] 胡說八道" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
   <a href="/categories/%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[八卦雜談] 胡說八道 
@@ -17291,25 +17005,10 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81" data-category="[嬰兒學爬] 初次學習寫網頁" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%AC%B0%E5%85%92%E5%AD%B8%E7%88%AC-%E5%88%9D%E6%AC%A1%E5%AD%B8%E7%BF%92%E5%AF%AB%E7%B6%B2%E9%A0%81">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[嬰兒學爬] 初次學習寫網頁 
-      <span class="font-color-gold-1">(9)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B" data-category="[建築我的家] 關於部落格的那點事" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E9%97%9C%E6%96%BC%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E9%82%A3%E9%BB%9E%E4%BA%8B">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 關於部落格的那點事 
-      <span class="font-color-gold-1">(12)</span>
+  <div id="posts-list-%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98" data-category="[建築我的家] 網頁與部落格的建築日記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[建築我的家] 網頁與部落格的建築日記 
+      <span class="font-color-gold-1">(21)</span>
     </div>
   </a>
   
@@ -17366,25 +17065,10 @@ command2 - Another description
                       
                         
 
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0" data-category="[職場社會] 大公司與IoT的挑戰" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%88%87iot%E7%9A%84%E6%8C%91%E6%88%B0">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 大公司與IoT的挑戰 
-      <span class="font-color-gold-1">(2)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C" data-category="[職場社會] 新創與人工智慧的旅行" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
-  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E6%96%B0%E5%89%B5%E8%88%87%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%9A%84%E6%97%85%E8%A1%8C">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 新創與人工智慧的旅行 
-      <span class="font-color-gold-1">(5)</span>
+  <div id="posts-list-%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98" data-category="[職場社會] 工作旅行記" data-parent-categories="%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things">
+  <a href="/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[職場社會] 工作旅行記 
+      <span class="font-color-gold-1">(7)</span>
     </div>
   </a>
   
@@ -17406,10 +17090,6 @@ command2 - Another description
   
   
   </div>
-
-
-                      
-                        
 
 
                       
@@ -17543,66 +17223,6 @@ command2 - Another description
                       
                         
 
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
-
-                      
-                        
-
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE" data-category="人生道路茫然不孤單" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生道路茫然不孤單 
@@ -17621,7 +17241,7 @@ command2 - Another description
   <div id="posts-list-%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97" data-category="人生體驗與經驗" data-parent-categories="me">
   <a href="/categories/%E4%BA%BA%E7%94%9F%E9%AB%94%E9%A9%97%E8%88%87%E7%B6%93%E9%A9%97">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">人生體驗與經驗 
-      <span class="font-color-gold-1">(5)</span>
+      <span class="font-color-gold-1">(9)</span>
     </div>
   </a>
   
@@ -17697,21 +17317,6 @@ command2 - Another description
   <a href="/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">研究所上課筆記 Note 
       <span class="font-color-gold-1">(14)</span>
-    </div>
-  </a>
-  
-  
-  
-  </div>
-
-
-                      
-                        
-
-  <div id="posts-list-%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97" data-category="養殖體驗" data-parent-categories="me">
-  <a href="/categories/%E9%A4%8A%E6%AE%96%E9%AB%94%E9%A9%97">
-    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">養殖體驗 
-      <span class="font-color-gold-1">(4)</span>
     </div>
   </a>
   
