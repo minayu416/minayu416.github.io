@@ -213,6 +213,11 @@
 	padding: 0 0 0 0;
 }
 
+.portfolio-px {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 /* Blog Css */
 
   .bg-block{
@@ -293,10 +298,15 @@
 		height: 45rem;
 	}
 
+	.portfolio-px {
+		padding-left: 12rem;
+		padding-right: 12rem;
+	}
+
 }
 
 /* TODO Verify this is useful */
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 1024px) {
 
 	.site-branding{
 		padding-top: 1.5rem;
@@ -333,6 +343,11 @@
 
 	.blog-carousel-height{
 		height: 45rem;
+	}
+
+	.portfolio-px {
+		padding-left: 12rem;
+		padding-right: 12rem;
 	}
 
 }
@@ -376,6 +391,11 @@
 
 	.blog-carousel-height{
 		height: 40rem;
+	}
+
+	.portfolio-px {
+		padding-left: 6rem;
+		padding-right: 6em;
 	}
   
 
@@ -437,6 +457,11 @@
 		height: 36rem;
 	}
 
+	.portfolio-px {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -489,6 +514,11 @@
 
 	.blog-carousel-height{
 		height: 36rem;
+	}
+
+	.portfolio-px {
+		padding-left: 6rem;
+		padding-right: 6rem;
 	}
 
 }
@@ -545,6 +575,11 @@
 		height: 37rem;
 	}
 
+	.portfolio-px {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
 
 /* Phone
@@ -598,6 +633,11 @@
 
 	.blog-carousel-height{
 		height: 23.5rem;
+	}
+
+	.portfolio-px {
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 }
