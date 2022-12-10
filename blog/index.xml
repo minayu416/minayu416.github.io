@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 11 Nov 2022 15:24:56 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 20:06:20 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從Heroku到Vercel | 將我的Python Web server 改成 Serverless Function (含其它Host選項)</title>
+      <link>https://minayu.site/2022/12/from-heroku-to-vercel/</link>
+      <pubDate>Sat, 10 Dec 2022 20:06:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2022/12/from-heroku-to-vercel/</guid>
+      <description>&lt;p&gt;我說，軟體開發這門領域的技術真的發展得十分迅速，還記得讀碩士時，前端的三大框架才剛出現。接著在第一家公司好不容易了Flask怎麼使用，如何建立一個App, 架起Web Server 跟寫API，沒想到在面試第二家公司時，Micro Service正夯，又是新的軟體架構設計模式。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[占卜] 米卦初體驗</title>
       <link>https://minayu.site/2022/11/first-time-rice-divination/</link>
