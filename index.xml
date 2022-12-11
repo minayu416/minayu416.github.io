@@ -6,7 +6,16 @@
     <description>Recent content on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 10 Dec 2022 20:06:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 17:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[前端又變成小菜鳥] 前端框架的奇幻旅程 | SEO 那回事 | 從 Nuxt.js, Gridsome, Vue 一直到之後想學React.js 跟 Next.js</title>
+      <link>https://minayu.site/2022/12/the-travel-of-front-end-framework/</link>
+      <pubDate>Sun, 11 Dec 2022 17:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2022/12/the-travel-of-front-end-framework/</guid>
+      <description>&lt;p&gt;還記得1個多月前(10/10)我剛結束長達6個月運用休閒時間開發自己的個人網站，想起那個時候最尾兩三週真的是心情歷經三溫暖。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>從Heroku到Vercel | 將我的Python Web server 改成 Serverless Function (含其它Host選項)</title>
       <link>https://minayu.site/2022/12/from-heroku-to-vercel/</link>
