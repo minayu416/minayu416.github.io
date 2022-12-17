@@ -33,7 +33,7 @@
         "datePublished": "2022-12-16 22:37:20 \u002b0800 CST",
         "dateModified" : "2022-12-16 22:37:20 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2022\/12\/research-on-graph-database-and-its-visualization-with-neptune\/",
-        "wordCount" : "549",
+        "wordCount" : "540",
         "keywords" : [ "[我要成為工程師] 1萬小時 - 後端工程師養成計劃","Blog" ]
     }
     </script>
@@ -87,7 +87,7 @@
         <meta itemprop="name" content="[後端技術研究] Amazon Neptune 圖資料庫 (Graph Database)學習和資料視覺化(Data Visualization)">
 <meta itemprop="description" content="趁著公司這次的創新研究計畫，可以跨團隊合作，我對隔壁團隊提出的圖資料庫(Graph Database)的新技術感到非常的有興趣。於是主動詢問可否合作一起研究，加上也和同團隊的組員第一次合作，一起合作研究新技術，創造有趣且嶄新的體驗。"><meta itemprop="datePublished" content="2022-12-16T22:37:20+08:00" />
 <meta itemprop="dateModified" content="2022-12-16T22:37:20+08:00" />
-<meta itemprop="wordCount" content="549">
+<meta itemprop="wordCount" content="540">
 <meta itemprop="keywords" content="[我要成為工程師] 1萬小時 - 後端工程師養成計劃," />
 
         
@@ -196,12 +196,7 @@ if (!doNotTrack) {
                 <a href="#" lang="zh-tw" class="py-4 px-2">中文</a>
                 /
                 
-                  
-                    
-                  
-                    
-                      <a href="/en" lang="en" class="py-4 px-2">EN (en)</a>
-                    
+                    <a href="https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/" lang="en" class="py-4 px-2">EN</a>
                   
                 
             </div>
@@ -216,12 +211,7 @@ if (!doNotTrack) {
                 <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
                     <a href="#" lang="zh-tw" class="py-4 px-2">中文</a>
                     
-                      
-                        
-                      
-                        
-                          <a href="/en" lang="en" class="py-4 px-2">EN</a>
-                        
+                        <a href="https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/" lang="en" class="py-4 px-2">EN</a>
                       
                     
                 </div>
@@ -570,8 +560,8 @@ g.E(&#34;&lt;id&gt;&#34;)
 </tr>
 <tr>
 <td>使用案例</td>
-<td>1. 當需要一堆關聯跟關係時，像是社群網站或搜尋引擎。2. 高連接度的場合，比方說家庭樹/族譜(族譜用在這應該很輕鬆) 3. 資料的Schema/欄位需求需要一直變動(畢竟不用先定義欄位名稱)</td>
-<td>存取很多或很複雜的資料, 比方說Json，如果需要做複雜的運算，或者像IoT那樣大量的資料(應該是吧xd?)</td>
+<td><ul><li>當需要一堆關聯跟關係時，像是社群網站或搜尋引擎。</li><li>高連接度的場合，比方說家庭樹/族譜(族譜用在這應該很輕鬆) </li><li>資料的Schema/欄位需求需要一直變動(畢竟不用先定義欄位名稱)</li> </ul></td>
+<td><ul><li>存取很多或很複雜的資料, 比方說Json，如果需要做複雜的運算，或者像IoT那樣大量的資料(應該是吧xd?) </li></ul></td>
 </tr>
 <tr>
 <td>長相</td>
@@ -580,13 +570,13 @@ g.E(&#34;&lt;id&gt;&#34;)
 </tr>
 <tr>
 <td>優點</td>
-<td>1. 如果有額外的屬性可以直接加，不用多新增一個欄位跟定義. 2. 並非所有的資料都有相同的屬性，可以依據不同的資料加不同的屬性 (在關聯式資料庫，就算某筆資料沒有該屬性，但存在同個Table，那筆資料就是要填空). 3. 屬性沒有規定格式，想存數字就數字，想存文字就文字。</td>
-<td>1. 比較適合處理大量的資料，比起GraphDB需要用走訪(Tree資料結構)一直去查找下一個節點，關聯式資料庫已經知道所有有多少筆資料了。</td>
+<td><ul><li>如果有額外的屬性可以直接加，不用多新增一個欄位跟定義. </li><li>並非所有的資料都有相同的屬性，可以依據不同的資料加不同的屬性 (在關聯式資料庫，就算某筆資料沒有該屬性，但存在同個Table，那筆資料就是要填空). </li><li>屬性沒有規定格式，想存數字就數字，想存文字就文字。 </li></ul></td>
+<td><ul><li>比較適合處理大量的資料，比起GraphDB需要用走訪(Tree資料結構)一直去查找下一個節點，關聯式資料庫已經知道所有有多少筆資料了。</li> </ul></td>
 </tr>
 <tr>
 <td>缺點</td>
-<td>1. 需要特定的Label去撈同個類別的資料(Nodes). 2. 對於你有特定的id想撈一筆資料，其實沒什麼意義。如果你需要在同一個屬性存取很長很複雜的內容，也許不太適合。</td>
-<td>看起來是說關聯式資料庫對於深度分析，擁有的效能比較差(這邊大家有空再去查查缺點)</td>
+<td><ul><li>需要特定的Label去撈同個類別的資料(Nodes). </li><li>對於你有特定的id想撈一筆資料，其實沒什麼意義。如果你需要在同一個屬性存取很長很複雜的內容，也許不太適合。 </li></ul></td>
+<td><ul><li>看起來是說關聯式資料庫對於深度分析，擁有的效能比較差(這邊大家有空再去查查缺點) </li></ul></td>
 </tr>
 </tbody>
 </table>

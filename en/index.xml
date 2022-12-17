@@ -6,7 +6,16 @@
     <description>Recent content on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Dec 2022 22:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Back-end Tech] Research on Amazon Neptune Database and Data Visualization</title>
+      <link>https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</link>
+      <pubDate>Fri, 16 Dec 2022 22:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</guid>
+      <description>&lt;p&gt;Amazon Neptune Graph Database and Data Visualization is the topic we want to research in this cross-ream collaboration in our company.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[Product Development Diary] The future plan of Miri | Series(3) | Story</title>
       <link>https://minayu.site/en/2021/10/miri-development-series-3-the-future-plan-en/</link>
