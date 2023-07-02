@@ -6,7 +6,16 @@
     <description>Recent content on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 25 Jun 2023 10:30:41 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 10:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[後端] 如何使用Python Requests通過Jira APIs 達成基本的自動化功能 (創建Ticket、留Comment及上傳Attachment)</title>
+      <link>https://minayu.site/2023/07/jira-api-research/</link>
+      <pubDate>Sun, 02 Jul 2023 10:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/07/jira-api-research/</guid>
+      <description>&lt;p&gt;Jira 應該是許多軟體開發團隊會使用的一個專案管理進度控管工具。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>論點探討: 人的意識？死後的世界？生命的本質？人的使命？世俗規則與活出自我</title>
       <link>https://minayu.site/2023/06/the-consciousness-soul-the-essence-of-life/</link>

@@ -2,8 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://minayu.site/categories/%E6%88%91%E8%A6%81%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
+  </url><url>
+    <loc>https://minayu.site/2023/07/jira-api-research/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://minayu.site/en/2023/07/jira-api-research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://minayu.site/2023/07/jira-api-research/"
+                />
+  </url><url>
     <loc>https://minayu.site/blog/</loc>
-    <lastmod>2023-06-25T10:30:41+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +32,7 @@
                 />
   </url><url>
     <loc>https://minayu.site/categories/</loc>
-    <lastmod>2023-06-25T10:30:41+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +45,7 @@
                 />
   </url><url>
     <loc>https://minayu.site/</loc>
-    <lastmod>2023-06-25T10:30:41+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +56,9 @@
                 hreflang="zh-tw"
                 href="https://minayu.site/"
                 />
+  </url><url>
+    <loc>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
   </url><url>
     <loc>https://minayu.site/categories/%E7%A5%9E%E7%A7%98%E5%AD%B8%E7%9B%B8%E9%97%9C/</loc>
     <lastmod>2023-06-25T10:30:41+08:00</lastmod>
@@ -83,9 +102,6 @@
     <loc>https://minayu.site/2023/02/covid-19-%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%96%B0%E5%86%A0%E7%A2%BA%E8%A8%BA%E6%97%A5%E8%A8%98/</loc>
     <lastmod>2023-02-11T20:48:13+08:00</lastmod>
   </url><url>
-    <loc>https://minayu.site/categories/%E6%88%91%E8%A6%81%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
-  </url><url>
     <loc>https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</loc>
     <lastmod>2022-12-16T22:37:20+08:00</lastmod>
     <xhtml:link
@@ -98,9 +114,6 @@
                 hreflang="zh-tw"
                 href="https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/"
                 />
-  </url><url>
-    <loc>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
   </url><url>
     <loc>https://minayu.site/2022/12/build-my-website-design-concept-and-explain-design/</loc>
     <lastmod>2022-12-14T20:19:20+08:00</lastmod>

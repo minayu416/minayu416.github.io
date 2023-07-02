@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
+    <loc>https://minayu.site/en/categories/back-end-10000-hours-plan-of-being-back-end-developer/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
+  </url><url>
+    <loc>https://minayu.site/en/2023/07/jira-api-research/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/"
+                href="https://minayu.site/2023/07/jira-api-research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/"
+                href="https://minayu.site/en/2023/07/jira-api-research/"
                 />
   </url><url>
-    <loc>https://minayu.site/en/categories/back-end-10000-hours-plan-of-being-back-end-developer/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
-  </url><url>
     <loc>https://minayu.site/en/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -32,7 +32,7 @@
                 />
   </url><url>
     <loc>https://minayu.site/en/blog/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -45,7 +45,7 @@
                 />
   </url><url>
     <loc>https://minayu.site/en/categories/</loc>
-    <lastmod>2022-12-16T22:37:20+08:00</lastmod>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -58,7 +58,20 @@
                 />
   </url><url>
     <loc>https://minayu.site/en/categories/it-things-and-development/</loc>
+    <lastmod>2023-07-02T10:37:20+08:00</lastmod>
+  </url><url>
+    <loc>https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</loc>
     <lastmod>2022-12-16T22:37:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://minayu.site/en/2022/12/research-on-graph-database-and-its-visualization-with-neptune/"
+                />
   </url><url>
     <loc>https://minayu.site/en/about/</loc>
     <lastmod>2022-09-28T00:00:00+00:00</lastmod>
