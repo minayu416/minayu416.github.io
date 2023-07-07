@@ -1,0 +1,890 @@
+
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/minayu.site"
+        },
+        "articleSection" : "blog",
+        "name" : "[Back-end] Resolve CORS issue research note (Python FastAPI \u002b Firebase\/Firestore)",
+        "headline" : "[Back-end] Resolve CORS issue research note (Python FastAPI \u002b Firebase\/Firestore)",
+        "description" : "This post note how I resolve CORS issue in back-end side with the cases FastAPI and Firebase. ",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2023",
+        "datePublished": "2023-07-07 13:37:20 \u002b0800 CST",
+        "dateModified" : "2023-07-07 13:37:20 \u002b0800 CST",
+        "url" : "https:\/\/minayu.site\/en\/2023\/07\/cors-resolution-note\/",
+        "wordCount" : "519",
+        "keywords" : [ "[Back-end] 10000 hours - Plan of being Back-end Developer","Blog" ]
+    }
+    </script>
+        
+            <title>[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore) - @Mina Influence</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.104.0" />
+        
+
+
+  
+    
+    
+  
+
+  
+
+  <link rel="icon" href='/img/favicon.jpg'>
+
+
+
+
+        
+            <meta name="author" content="minayu416">
+        
+        
+            <meta name="description" content="This post note how I resolve CORS issue in back-end side with the cases FastAPI and Firebase. ">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore)"/>
+<meta name="twitter:description" content="This post note how I resolve CORS issue in back-end side with the cases FastAPI and Firebase. "/>
+
+        
+        <meta name="twitter:image" content="https://minayu.site/img/cover-image.jpeg">
+        <meta property="og:title" content="[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore)" />
+<meta property="og:description" content="This post note how I resolve CORS issue in back-end side with the cases FastAPI and Firebase. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://minayu.site/en/2023/07/cors-resolution-note/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-07-07T13:37:20+08:00" />
+<meta property="article:modified_time" content="2023-07-07T13:37:20+08:00" /><meta property="og:site_name" content="@Mina Influence" />
+
+
+        <meta property="og:image" content="https://minayu.site/img/cover-image.jpeg">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta itemprop="name" content="[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore)">
+<meta itemprop="description" content="This post note how I resolve CORS issue in back-end side with the cases FastAPI and Firebase. "><meta itemprop="datePublished" content="2023-07-07T13:37:20+08:00" />
+<meta itemprop="dateModified" content="2023-07-07T13:37:20+08:00" />
+<meta itemprop="wordCount" content="519">
+<meta itemprop="keywords" content="[Back-end] 10000 hours - Plan of being Back-end Developer," />
+
+        
+            
+        
+
+        <link rel="stylesheet" href="/js/main.js">
+        
+        <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="/js/carousel.js"></script>
+        <link rel="stylesheet" href="/css/carousel.css">
+
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+        
+        
+
+        
+
+      
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+      
+      
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EETGWC7GNV');
+</script>
+      
+    </head>
+    <body>
+
+
+  <div>
+    <header>
+    <div class="max-auto">
+  <div class="mx-auto flex flex-wrap border-b border-solid">
+    <div class="lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover">
+      <div class="w-full h-full">
+      <div class="relative overflow-hidden">
+          <img class="object-cover w-full header-image-size" src="/img/blog-cover-image.jpg" alt="Blog Cover Image"/>
+        <div>
+            <nav>
+    <div class="absolute top-0 left-0 px-2 py-2 z-10 header-navbar">
+        
+        <div class="px-6">
+        <div class="mx-auto">
+            <div class="flex">
+            <div class="flex space-x-4">
+                <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
+                
+                    <a href="/en/about/" class="py-4 px-3">About</a>
+                
+                    <a href="/en/" class="py-4 px-3">Home</a>
+                
+                    <a href="/en/blog/" class="py-4 px-3">Blog</a>
+                
+                    <a href="/en/portfolio/" class="py-4 px-3">Portfolio</a>
+                
+                    <a href="/en/contact/" class="py-4 px-3">Contact</a>
+                
+                </div>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button onclick="menuToggle();" class="pt-4 px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                </button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        
+        <div id="mobile-menu" class="md:hidden absolute w-full rounded header-mobile-menu hidden">
+            
+            <a href="/en/about/" class="block py-3 px-4">About</a>
+            
+            <a href="/en/" class="block py-3 px-4">Home</a>
+            
+            <a href="/en/blog/" class="block py-3 px-4">Blog</a>
+            
+            <a href="/en/portfolio/" class="block py-3 px-4">Portfolio</a>
+            
+            <a href="/en/contact/" class="block py-3 px-4">Contact</a>
+            
+
+            <div class="block py-3 px-4">
+                <a href="#" lang="en" class="py-4 px-2">EN</a>
+                /
+                
+                    <a href="https://minayu.site/2023/07/cors-resolution-note/" lang="zh-tw" class="py-4 px-2">中文</a>
+                  
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute top-0 right-0 px-2 py-2 z-10">
+        <div class="px-6">
+        <div class="mx-auto">
+            <div class="flex">
+            <div class="flex space-x-4">
+                <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
+                    <a href="#" lang="en" class="py-4 px-2">EN</a>
+                    
+                        <a href="https://minayu.site/2023/07/cors-resolution-note/" lang="zh-tw" class="py-4 px-2">中文</a>
+                      
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+    <script>
+      var x = document.getElementById("mobile-menu");
+      function menuToggle(){
+        if (x.classList.item(x.classList.length - 1) != "hidden"){
+          x.classList.add("hidden");
+        } else {
+          x.classList.remove("hidden");
+        }
+
+      }
+
+    </script>
+          <div class="absolute px-2 py-2 site-branding">
+            <div class="site-title">
+              <p><a href="https://minayu.site/en">@Mina Influence</a></p>
+            </div>
+              <div class="site-description">
+              <p>Inspire you to have New thinking, Walk out your unique Road.</p>
+            </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0">
+      <div class="blog-branding-intro motto-block">
+        
+        <section class="text-gray-500 body-font">
+          <div class="container px-6 mx-auto">
+            <div class="w-full mx-auto text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-6 h-6 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+              </svg>
+              <p class="leading-relaxed">
+                Sometimes, you just meet some stories and invoked your inspiration, then later you use a totally different way, different concept to have a different life in the future.
+                </p>
+              <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-lg">Sign @MinaYu.</h2>
+            </div>
+          </div>
+        </section>
+      </div> 
+    </div>
+  </div>
+</div>
+</header>
+   
+    <section class="text-gray-600 body-font">
+    <div class="container py-12 mx-auto">
+        
+        
+        <div class="flex-wrap">
+        <div class="p-2">
+          <div class="mx-auto flex flex-wrap bg-white">
+            <div class="lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover">
+              <div class="px-4">
+  
+              <div class="mb-10 border border-solid py-4">
+                
+                
+                
+                
+                    <p class="text-center tracking-widest text-md font-medium post-category font-fondamento">IT Things and Development</p>
+                
+                
+                
+                
+                
+                    <h3 class="text-center tracking-widest text-md font-medium post-category font-fondamento">[Back-end] 10000 hours - Plan of being Back-end Developer</h3>
+                
+                
+                
+              
+
+                <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2">[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore)</p>
+                
+                
+                <p class="text-center test-gray italic tracking-wider font-mario">Posted on 
+                  <time class="published" datetime='2023-07-07'>
+                    Jul 07, 2023</time>
+                </p>
+              </div>
+  
+              
+              
+              <div class="flex-wrap">
+                
+
+                <article class="prose prose-slate">
+                <p>Recent, I&rsquo;m developing my tarot app and it needs to send HTTP requests to back-end API. I face CORS issue several times, but I forgot how to resolve each time, so in this post, I will record the resolution.</p>
+<h2 id="why--what-is-cors-cross-origin-resource-sharing">Why &amp; What is CORS (Cross-origin resource sharing)</h2>
+<p>I will only have some shorten introduction of CORS here.</p>
+<p>Before CORS, we refer the Same-origin policy first, due to the Information Security, to avoid requests from another domain outside the original domain, because some hackers or third-party software will mock the fake domain and attack your services, so any requests (for example, calling API or any CSS and Images resources need in same domain).</p>
+<p>However, in recent technological trend, it&rsquo;s normal that services request outside API and resources, so there is CORS requests happened.</p>
+<ol>
+<li>My case is Jamstack, my front-end hosted on Github, and my Back-end API hosted on Vercel, when front-end send the request and showed <code>Access to Reqeust, ... has been blocked by CORS policy</code>.</li>
+</ol>
+<p>I think many developers have faced this CORS issue many times.</p>
+<ol start="2">
+<li>Second case is I developed a website and it has operation with Google Firestore &amp; Firebase, also faced the CORS.</li>
+</ol>
+<p>I tried many resolution fix in front-end, but it doesn&rsquo;t work, the rresolution in my these 2 cases, is to add white list to allow domain sending request, so in this post, I will show the implementation code.</p>
+<h2 id="case-1-front-end-reactjs-with-back-end-python-fask-api">Case 1: Front-end React.js with Back-end Python Fask API</h2>
+<p>When React.js use fetch method for sending HTTPS Request and Back-end API blocked the request because the CORS.</p>
+<p>The resolution is we implemented the CORS in API layer and add the front-end domain into white list, here is the code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Import fastapi package</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> fastapi <span style="color:#f92672">import</span> FastAPI
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Import fastapi cors feature</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> fastapi.middleware.cors <span style="color:#f92672">import</span> CORSMiddleware
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (1) Init an app</span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> FastAPI()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (2) put allow domains in white list</span>
+</span></span><span style="display:flex;"><span>origins <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;http://localhost&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;https://example.com&#34;</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (3) Init CORS object and put the white list with it</span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>add_middleware(
+</span></span><span style="display:flex;"><span>    CORSMiddleware,
+</span></span><span style="display:flex;"><span>    allow_origins<span style="color:#f92672">=</span>origins,
+</span></span><span style="display:flex;"><span>    allow_credentials<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>,
+</span></span><span style="display:flex;"><span>    allow_methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;*&#34;</span>],
+</span></span><span style="display:flex;"><span>    allow_headers<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;*&#34;</span>],
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (4) Write api route</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello_word</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;Hello&#34;</span>: <span style="color:#e6db74">&#34;World&#34;</span>}
+</span></span></code></pre></div><h2 id="case-2-reactjs-operate-data-with-google-firestore-or-firebase">Case 2: React.js operate data with Google Firestore or Firebase</h2>
+<p>This case is when I use React.js and store/get data with Firebase (Firestore/Realtime DB), the domain blocked by Firebase.</p>
+<p>So what we need to do is going to Firebase Console and set the allow domains in white list.</p>
+<p>First, we go Google Firebase Console and choose your project.</p>
+<p><img src="https://minayu0416.files.wordpress.com/2023/07/screenshot-2023-07-07-at-2.55.25-pm.png" alt=""></p>
+<p>Then we need to create Authentication for this project (If you have Authentication, you can skip this)</p>
+<p>Click All projects -&gt; Select Authentication -&gt; Get started</p>
+<p><img src="https://minayu0416.files.wordpress.com/2023/07/screenshot-2023-07-07-at-2.57.39-pm-1.png" alt=""></p>
+<p>After you created Authentication, you can configure allow enter users or Sign-in method in the Users and Sign-in method tabs, but now we go to the Settings tab.</p>
+<p>Go to Authentication -&gt; Settings -&gt; Authorized domains -&gt; Add domain, and then add the domains you want to let it allowed without <code>http://</code> or <code>https://</code>.</p>
+<p>After added, the services can operate with the Firebase without CORS errors.</p>
+<p>That&rsquo;s all for my resolution, if you have quesions, please leave in below Comment section, thank you!</p>
+              </article>
+              </div>
+  
+              
+              <div class="mt-20 mb-10 border border-solid py-4">
+                <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4">Comment Board</p>
+              </div>
+  
+              <div class="mb-10 border border-solid p-4">
+                <details> 
+                
+                <summary class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pb-2 cursor-pointer blog-link-style">Click to expand comment board!</summary>
+                
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "minayu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+                </details>
+              </div>
+  
+  
+            </div>
+            </div>
+              
+            <div class="lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0">
+          <div class="px-4">
+          
+          <div>
+    <div class="mb-10 border border-solid py-4">
+                    <p class="font-bold text-center text-gray grid-subtitle text-md">ABOUT ME</p>
+                </div>
+                <div class="flex items-center justify-center">
+                <img class="object-cover rounded-full" width="175" height="175" src="/img/logo.jpg" alt="Author Profile"/>
+                </div>
+                <p class="leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block">
+                    Hi, this is Mina, an ENTP type person always with innovative ideas. Cheerful, lively, also romantic. A software engineer, blogger, love to explore different cultures and build entrepreneurship. 
+                    </p>
+                    <p class="leading-relaxed text-2xl text-center pt-1 pb-4 motto-block">
+                    @MinaYu Signed
+                    </p>
+
+            
+
+            <div class="border border-solid py-4">
+                <p class="font-bold text-center text-gray grid-subtitle text-md">BLOG STATS</p>
+            </div>
+            
+                <div class="my-5 pl-5 font-bold font-voll">
+                    <span id="busuanzi_container_site_pv">
+                        <p class="pb-2">Visits: <span id="busuanzi_value_site_pv"></span></p>
+                    </span>
+                    <span id="busuanzi_container_site_uv">
+                        <p>Visitors: <span id="busuanzi_value_site_uv"></span></p>
+                    </span>
+                </div>
+            </div>
+
+  
+          <div class="mb-5 border border-solid py-4">
+              <p class="font-bold text-center text-gray grid-subtitle text-md">CATEGORY</p>
+          </div>
+
+          
+  
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+        
+          
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+
+
+          <div>
+            
+              
+                
+                <div id="posts-list-espa%C3%B1ol-posts" data-category="Español Posts" data-parent-categories="">
+                  <a href="https://minayu.site/en/categories/espa%C3%B1ol-posts" class="blog-link-style">
+                    <div class = "py-3 text-sm border-b border-solid font-fondamento">Español Posts
+                    <span class="font-color-gold-1">(2)</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    
+                      
+                      
+                        
+
+  <div id="posts-list-novel-historia-somos-familia" data-category="[Novel] [Historia] Somos familia" data-parent-categories="espa%C3%B1ol-posts">
+  <a href="https://minayu.site/en/categories/novel-historia-somos-familia">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[Novel] [Historia] Somos familia 
+      <span class="font-color-gold-1">(2)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+
+                      
+                        
+
+
+                      
+                    
+                  </div>
+                </div>
+              
+                
+                <div id="posts-list-it-things-and-development" data-category="IT Things and Development" data-parent-categories="">
+                  <a href="https://minayu.site/en/categories/it-things-and-development" class="blog-link-style">
+                    <div class = "py-3 text-sm border-b border-solid font-fondamento">IT Things and Development
+                    <span class="font-color-gold-1">(7)</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    
+                      
+                      
+                        
+
+
+                      
+                        
+
+  <div id="posts-list-back-end-10000-hours-plan-of-being-back-end-developer" data-category="[Back-end] 10000 hours - Plan of being Back-end Developer" data-parent-categories="it-things-and-development">
+  <a href="https://minayu.site/en/categories/back-end-10000-hours-plan-of-being-back-end-developer">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[Back-end] 10000 hours - Plan of being Back-end Developer 
+      <span class="font-color-gold-1">(4)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+  <div id="posts-list-start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy" data-category="[Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy!" data-parent-categories="it-things-and-development">
+  <a href="https://minayu.site/en/categories/start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy! 
+      <span class="font-color-gold-1">(3)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                    
+                  </div>
+                </div>
+              
+            
+            </div>
+
+  
+          <div class="mb-10 border border-solid py-4 mt-10">
+              <p class="font-bold text-center text-gray grid-subtitle text-md">GALLERY</p>
+          </div>
+  
+          </div>
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+  
+  
+    
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div class="bg-white border-t border-solid">
+      <div class="container px-5 mx-auto">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <div class="text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2">
+        Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, 
+        my dream is designing my own personal website and now I did it, 
+        I changed the website name to @Mina Influence, want to encourage people by my influence.
+        I will continue to achieve more my dream in the future.
+        I just want to tell you, no matter your plan looks how hard and how unachievable, 
+        Once you begin to do it, everything will be changed.
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="bg-cyan-50 border-t border-solid">
+      <div class="text-gray-300 text-center text-md motto-block py-8 px-4">
+        Copy Right © 2022 @Mina Influence. Designed by MINA YU. Sign @MinaYu.
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+  </div>

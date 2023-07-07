@@ -6,7 +6,16 @@
     <description>Recent content in [Back-end] 10000 hours - Plan of being Back-end Developer on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jul 2023 10:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/categories/back-end-10000-hours-plan-of-being-back-end-developer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jul 2023 13:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/categories/back-end-10000-hours-plan-of-being-back-end-developer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Back-end] Resolve CORS issue research note (Python FastAPI &#43; Firebase/Firestore)</title>
+      <link>https://minayu.site/en/2023/07/cors-resolution-note/</link>
+      <pubDate>Fri, 07 Jul 2023 13:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/en/2023/07/cors-resolution-note/</guid>
+      <description>&lt;p&gt;Recent, I&amp;rsquo;m developing my tarot app and it needs to send HTTP requests to back-end API. I face CORS issue several times, but I forgot how to resolve each time, so in this post, I will record the resolution.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[Back-end] How to use Python send requests to Jira APIs (Create and Get Ticket, Leave Comment and Upload Attachments)</title>
       <link>https://minayu.site/en/2023/07/jira-api-research/</link>
