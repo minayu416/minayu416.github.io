@@ -34,7 +34,7 @@
         "dateModified" : "2021-09-06 19:32:09 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2021\/09\/miri-develop-technology-1-frontend-design-connect-backend-with-fastapi-line-bot-telegram-bot\/",
         "wordCount" : "1426",
-        "keywords" : [ "[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!","Blog" ]
+        "keywords" : [ "python","fastapi","line bot","telegram bot","heroku","Personal Website", "個人網站"]
     }
     </script>
         
@@ -66,6 +66,8 @@
             <meta name="description" content="在2021年2月離職後，我用了半年的時間用Python開發自己的占卜機器人作品，在這版本的開發有很大幅度的變動，我將原本的Flask框架改為FastApi，由原本只有Line Bot平台，新增Telegram的平台，無論是程式開發還是這篇文章都是自己綜合實力、努力、堅強跟嘗試的心血，它帶給我很多心靈上跟實力上的進步，現在我就來分享這半年實作技術方面的點點滴滴。">
         
 
+        <meta name="robots" content="index,follow">
+
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[產品使用技術][Python] Miri的前端與後端接口、整體程式架構介紹 | FastApi x Line Bot x Telegram Bot | 開發概念系列(1)"/>
 <meta name="twitter:description" content="在2021年2月離職後，我用了半年的時間用Python開發自己的占卜機器人作品，在這版本的開發有很大幅度的變動，我將原本的Flask框架改為FastApi，由原本只有Line Bot平台，新增Telegram的平台，無論是程式開發還是這篇文章都是自己綜合實力、努力、堅強跟嘗試的心血，它帶給我很多心靈上跟實力上的進步，現在我就來分享這半年實作技術方面的點點滴滴。"/>
@@ -84,11 +86,13 @@
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
+        
+        
         <meta itemprop="name" content="[產品使用技術][Python] Miri的前端與後端接口、整體程式架構介紹 | FastApi x Line Bot x Telegram Bot | 開發概念系列(1)">
 <meta itemprop="description" content="在2021年2月離職後，我用了半年的時間用Python開發自己的占卜機器人作品，在這版本的開發有很大幅度的變動，我將原本的Flask框架改為FastApi，由原本只有Line Bot平台，新增Telegram的平台，無論是程式開發還是這篇文章都是自己綜合實力、努力、堅強跟嘗試的心血，它帶給我很多心靈上跟實力上的進步，現在我就來分享這半年實作技術方面的點點滴滴。"><meta itemprop="datePublished" content="2021-09-06T19:32:09+08:00" />
 <meta itemprop="dateModified" content="2021-09-06T19:32:09+08:00" />
 <meta itemprop="wordCount" content="1426">
-<meta itemprop="keywords" content="[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!," />
+<meta itemprop="keywords" content="python,fastapi,line bot,telegram bot,heroku," />
 
         
             
@@ -1249,100 +1253,6 @@ command2 - Another description
         
           
           
-        
-        
-        
-      
-        
-        
-        
-        
-        
-          
-          
-            
-            
-            
-          
-        
-        
-        
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-        
-        
-          
-          
-          
-        
-        
-        
-      
-        
-        
-        
-        
-        
-          
-          
-          
-        
-        
-        
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-        
-        
-          
-          
-          
-        
-        
-        
-      
-        
-        
-        
-        
-        
-          
-          
-          
-        
-        
-        
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-        
-        
-          
           
         
         
@@ -1407,6 +1317,37 @@ command2 - Another description
         
           
           
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
         
         
         
@@ -1448,75 +1389,6 @@ command2 - Another description
         
           
           
-            
-            
-            
-          
-        
-        
-        
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-        
-        
-          
-          
-        
-        
-        
-      
-        
-        
-        
-        
-        
-          
-          
-            
-            
-            
-          
-        
-        
-        
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-        
-        
-          
-          
-        
-        
-        
-      
-        
-        
-        
-        
-        
-          
-          
-            
-            
-            
           
         
         
@@ -1676,6 +1548,9 @@ command2 - Another description
         
           
           
+            
+            
+            
           
         
         
@@ -1706,6 +1581,168 @@ command2 - Another description
         
           
           
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
           
         
         
@@ -17588,7 +17625,7 @@ command2 - Another description
                 <div id="posts-list-me" data-category="Me" data-parent-categories="">
                   <a href="https://minayu.site/categories/me" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">Me
-                    <span class="font-color-gold-1">(200)</span>
+                    <span class="font-color-gold-1">(201)</span>
                     </div>
                   </a>
 
@@ -17730,7 +17767,7 @@ command2 - Another description
   <div id="posts-list-%E6%83%B3%E6%9D%B1%E6%83%B3%E8%A5%BF%E6%97%A5%E5%B8%B8%E6%95%85%E4%BA%8B" data-category="想東想西日常故事" data-parent-categories="me">
   <a href="https://minayu.site/categories/%E6%83%B3%E6%9D%B1%E6%83%B3%E8%A5%BF%E6%97%A5%E5%B8%B8%E6%95%85%E4%BA%8B">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">想東想西日常故事 
-      <span class="font-color-gold-1">(3)</span>
+      <span class="font-color-gold-1">(4)</span>
     </div>
   </a>
   
