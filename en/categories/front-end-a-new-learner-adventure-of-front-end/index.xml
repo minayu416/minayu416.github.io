@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Front-end] A new learner - Adventure of Front-end on @Mina Influence</title>
+    <link>https://minayu.site/en/categories/front-end-a-new-learner-adventure-of-front-end/</link>
+    <description>Recent content in [Front-end] A new learner - Adventure of Front-end on @Mina Influence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Aug 2023 20:56:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/categories/front-end-a-new-learner-adventure-of-front-end/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Front-end] How to change CSS background color if use linear-gradient effect?</title>
+      <link>https://minayu.site/en/2023/08/frontend-linear-gradient-change-background/</link>
+      <pubDate>Sat, 12 Aug 2023 20:56:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/en/2023/08/frontend-linear-gradient-change-background/</guid>
+      <description>&lt;p&gt;Since I&amp;rsquo;m developing my own product and using a lot of gradient color as background color, as a new Front-end learner, this issue stuck me a while, so I would like to share the solution I found.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

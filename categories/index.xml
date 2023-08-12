@@ -6,13 +6,22 @@
     <description>Recent content in Categories on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 01 Aug 2023 20:52:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 20:56:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Me</title>
-      <link>https://minayu.site/categories/me/</link>
-      <pubDate>Tue, 01 Aug 2023 20:52:20 +0800</pubDate>
+      <title>自學前端的冒險計畫</title>
+      <link>https://minayu.site/categories/%E8%87%AA%E5%AD%B8%E5%89%8D%E7%AB%AF%E7%9A%84%E5%86%92%E9%9A%AA%E8%A8%88%E7%95%AB/</link>
+      <pubDate>Sat, 12 Aug 2023 20:56:20 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/me/</guid>
+      <guid>https://minayu.site/categories/%E8%87%AA%E5%AD%B8%E5%89%8D%E7%AB%AF%E7%9A%84%E5%86%92%E9%9A%AA%E8%A8%88%E7%95%AB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>軟體開發 SWD</title>
+      <link>https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/</link>
+      <pubDate>Sat, 12 Aug 2023 20:56:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/</guid>
       <description></description>
     </item>
     
@@ -26,6 +35,15 @@
     </item>
     
     <item>
+      <title>日常生活</title>
+      <link>https://minayu.site/categories/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Tue, 01 Aug 2023 20:52:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/categories/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>想東想西日常故事</title>
       <link>https://minayu.site/categories/%E6%83%B3%E6%9D%B1%E6%83%B3%E8%A5%BF%E6%97%A5%E5%B8%B8%E6%95%85%E4%BA%8B/</link>
       <pubDate>Fri, 21 Jul 2023 01:10:20 +0800</pubDate>
@@ -35,20 +53,11 @@
     </item>
     
     <item>
-      <title>[我要成為工程師] 1萬小時 - 後端工程師養成計劃</title>
-      <link>https://minayu.site/categories/%E6%88%91%E8%A6%81%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</link>
+      <title>1萬小時 - 後端工程師養成計劃</title>
+      <link>https://minayu.site/categories/1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</link>
       <pubDate>Fri, 07 Jul 2023 13:37:20 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/%E6%88%91%E8%A6%81%E6%88%90%E7%82%BA%E5%B7%A5%E7%A8%8B%E5%B8%AB-1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>資訊那些事 IT Things</title>
-      <link>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</link>
-      <pubDate>Fri, 07 Jul 2023 13:37:20 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E8%B3%87%E8%A8%8A%E9%82%A3%E4%BA%9B%E4%BA%8B-it-things/</guid>
+      <guid>https://minayu.site/categories/1%E8%90%AC%E5%B0%8F%E6%99%82-%E5%BE%8C%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%A4%8A%E6%88%90%E8%A8%88%E5%8A%83/</guid>
       <description></description>
     </item>
     
@@ -80,20 +89,11 @@
     </item>
     
     <item>
-      <title>人生道路茫然不孤單</title>
-      <link>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</link>
-      <pubDate>Fri, 10 Mar 2023 22:38:35 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E4%BA%BA%E7%94%9F%E9%81%93%E8%B7%AF%E8%8C%AB%E7%84%B6%E4%B8%8D%E5%AD%A4%E5%96%AE/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[建築我的家] 網頁與部落格的建築日記</title>
-      <link>https://minayu.site/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98/</link>
+      <title>網頁與部落格的建築日記</title>
+      <link>https://minayu.site/categories/%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98/</link>
       <pubDate>Wed, 14 Dec 2022 20:19:20 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/%E5%BB%BA%E7%AF%89%E6%88%91%E7%9A%84%E5%AE%B6-%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98/</guid>
+      <guid>https://minayu.site/categories/%E7%B6%B2%E9%A0%81%E8%88%87%E9%83%A8%E8%90%BD%E6%A0%BC%E7%9A%84%E5%BB%BA%E7%AF%89%E6%97%A5%E8%A8%98/</guid>
       <description></description>
     </item>
     
@@ -107,29 +107,11 @@
     </item>
     
     <item>
-      <title>心理學與心靈療癒</title>
-      <link>https://minayu.site/categories/%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92/</link>
-      <pubDate>Mon, 31 Oct 2022 21:03:56 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E5%BF%83%E7%90%86%E5%AD%B8%E8%88%87%E5%BF%83%E9%9D%88%E7%99%82%E7%99%92/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[新創日記] Miri 機器人算命師 - 做產品哪有這麼簡單!</title>
-      <link>https://minayu.site/categories/%E6%96%B0%E5%89%B5%E6%97%A5%E8%A8%98-miri-%E6%A9%9F%E5%99%A8%E4%BA%BA%E7%AE%97%E5%91%BD%E5%B8%AB-%E5%81%9A%E7%94%A2%E5%93%81%E5%93%AA%E6%9C%89%E9%80%99%E9%BA%BC%E7%B0%A1%E5%96%AE/</link>
+      <title>產品與專案</title>
+      <link>https://minayu.site/categories/%E7%94%A2%E5%93%81%E8%88%87%E5%B0%88%E6%A1%88/</link>
       <pubDate>Tue, 14 Sep 2021 17:12:02 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/%E6%96%B0%E5%89%B5%E6%97%A5%E8%A8%98-miri-%E6%A9%9F%E5%99%A8%E4%BA%BA%E7%AE%97%E5%91%BD%E5%B8%AB-%E5%81%9A%E7%94%A2%E5%93%81%E5%93%AA%E6%9C%89%E9%80%99%E9%BA%BC%E7%B0%A1%E5%96%AE/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[多元文化] 歐洲語言的奇幻旅記</title>
-      <link>https://minayu.site/categories/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98/</link>
-      <pubDate>Mon, 05 Jul 2021 15:11:41 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96-%E6%AD%90%E6%B4%B2%E8%AA%9E%E8%A8%80%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E8%A8%98/</guid>
+      <guid>https://minayu.site/categories/%E7%94%A2%E5%93%81%E8%88%87%E5%B0%88%E6%A1%88/</guid>
       <description></description>
     </item>
     
@@ -143,20 +125,20 @@
     </item>
     
     <item>
-      <title>心理路程進化論</title>
-      <link>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</link>
-      <pubDate>Sun, 06 Jun 2021 23:45:43 +0800</pubDate>
+      <title>學習經驗與考試相關</title>
+      <link>https://minayu.site/categories/%E5%AD%B8%E7%BF%92%E7%B6%93%E9%A9%97%E8%88%87%E8%80%83%E8%A9%A6%E7%9B%B8%E9%97%9C/</link>
+      <pubDate>Mon, 05 Jul 2021 15:11:41 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/%E5%BF%83%E7%90%86%E8%B7%AF%E7%A8%8B%E9%80%B2%E5%8C%96%E8%AB%96/</guid>
+      <guid>https://minayu.site/categories/%E5%AD%B8%E7%BF%92%E7%B6%93%E9%A9%97%E8%88%87%E8%80%83%E8%A9%A6%E7%9B%B8%E9%97%9C/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[職場社會] 工作旅行記</title>
-      <link>https://minayu.site/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98/</link>
+      <title>工作旅行記</title>
+      <link>https://minayu.site/categories/%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98/</link>
       <pubDate>Tue, 19 Jan 2021 10:55:25 +0800</pubDate>
       
-      <guid>https://minayu.site/categories/%E8%81%B7%E5%A0%B4%E7%A4%BE%E6%9C%83-%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98/</guid>
+      <guid>https://minayu.site/categories/%E5%B7%A5%E4%BD%9C%E6%97%85%E8%A1%8C%E8%A8%98/</guid>
       <description></description>
     </item>
     
@@ -166,15 +148,6 @@
       <pubDate>Sat, 12 Dec 2020 00:17:31 +0800</pubDate>
       
       <guid>https://minayu.site/categories/%E6%88%91%E7%9A%84%E7%84%A6%E6%85%AE%E5%B0%8D%E6%8A%97%E6%97%A5%E8%A8%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[工欲善其事，必先利其器] 語言學習資源與技巧</title>
-      <link>https://minayu.site/categories/%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7/</link>
-      <pubDate>Thu, 26 Dec 2019 20:52:29 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E5%B7%A5%E6%AC%B2%E5%96%84%E5%85%B6%E4%BA%8B%E5%BF%85%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8-%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E8%88%87%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
     </item>
     
@@ -206,47 +179,11 @@
     </item>
     
     <item>
-      <title>[一眼就煞到你] 與日文的初戀故事</title>
-      <link>https://minayu.site/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B/</link>
-      <pubDate>Thu, 04 Jul 2019 23:16:35 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/%E4%B8%80%E7%9C%BC%E5%B0%B1%E7%85%9E%E5%88%B0%E4%BD%A0-%E8%88%87%E6%97%A5%E6%96%87%E7%9A%84%E5%88%9D%E6%88%80%E6%95%85%E4%BA%8B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[IT Things] 邁向DevOps之路 - 睡醒突然變QA</title>
-      <link>https://minayu.site/categories/it-things-%E9%82%81%E5%90%91devops%E4%B9%8B%E8%B7%AF-%E7%9D%A1%E9%86%92%E7%AA%81%E7%84%B6%E8%AE%8Aqa/</link>
-      <pubDate>Thu, 16 May 2019 23:01:58 +0800</pubDate>
-      
-      <guid>https://minayu.site/categories/it-things-%E9%82%81%E5%90%91devops%E4%B9%8B%E8%B7%AF-%E7%9D%A1%E9%86%92%E7%AA%81%E7%84%B6%E8%AE%8Aqa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>歐洲－英國與冰島追逐幸福極光</title>
       <link>https://minayu.site/categories/%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89/</link>
       <pubDate>Fri, 25 Jan 2019 11:01:40 +0800</pubDate>
       
       <guid>https://minayu.site/categories/%E6%AD%90%E6%B4%B2%E8%8B%B1%E5%9C%8B%E8%88%87%E5%86%B0%E5%B3%B6%E8%BF%BD%E9%80%90%E5%B9%B8%E7%A6%8F%E6%A5%B5%E5%85%89/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[八卦雜談] 胡說八道</title>
-      <link>https://minayu.site/categories/%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93/</link>
-      <pubDate>Sat, 27 Oct 2018 08:03:33 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E5%85%AB%E5%8D%A6%E9%9B%9C%E8%AB%87-%E8%83%A1%E8%AA%AA%E5%85%AB%E9%81%93/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[碩論也瘋狂] 加分系統開發全記錄 (python)</title>
-      <link>https://minayu.site/categories/%E7%A2%A9%E8%AB%96%E4%B9%9F%E7%98%8B%E7%8B%82-%E5%8A%A0%E5%88%86%E7%B3%BB%E7%B5%B1%E9%96%8B%E7%99%BC%E5%85%A8%E8%A8%98%E9%8C%84-python/</link>
-      <pubDate>Sat, 25 Aug 2018 10:13:58 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E7%A2%A9%E8%AB%96%E4%B9%9F%E7%98%8B%E7%8B%82-%E5%8A%A0%E5%88%86%E7%B3%BB%E7%B5%B1%E9%96%8B%E7%99%BC%E5%85%A8%E8%A8%98%E9%8C%84-python/</guid>
       <description></description>
     </item>
     
@@ -260,47 +197,11 @@
     </item>
     
     <item>
-      <title>[重要又萬用] 英文與他的不同口音們</title>
-      <link>https://minayu.site/categories/%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91/</link>
-      <pubDate>Mon, 25 Sep 2017 08:53:08 +0000</pubDate>
+      <title>托福準備紀錄</title>
+      <link>https://minayu.site/categories/%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</link>
+      <pubDate>Sun, 02 Jul 2017 15:06:33 +0000</pubDate>
       
-      <guid>https://minayu.site/categories/%E9%87%8D%E8%A6%81%E5%8F%88%E8%90%AC%E7%94%A8-%E8%8B%B1%E6%96%87%E8%88%87%E4%BB%96%E7%9A%84%E4%B8%8D%E5%90%8C%E5%8F%A3%E9%9F%B3%E5%80%91/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[正面面對英文] 托福準備紀錄</title>
-      <link>https://minayu.site/categories/%E6%AD%A3%E9%9D%A2%E9%9D%A2%E5%B0%8D%E8%8B%B1%E6%96%87-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</link>
-      <pubDate>Wed, 12 Jul 2017 10:05:37 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E6%AD%A3%E9%9D%A2%E9%9D%A2%E5%B0%8D%E8%8B%B1%E6%96%87-%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>研究所上課筆記 Note</title>
-      <link>https://minayu.site/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note/</link>
-      <pubDate>Thu, 15 Jun 2017 13:58:27 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E7%A0%94%E7%A9%B6%E6%89%80%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98-note/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>沈迷遊戲清醒大作戰</title>
-      <link>https://minayu.site/categories/%E6%B2%88%E8%BF%B7%E9%81%8A%E6%88%B2%E6%B8%85%E9%86%92%E5%A4%A7%E4%BD%9C%E6%88%B0/</link>
-      <pubDate>Wed, 29 Jun 2016 15:55:00 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E6%B2%88%E8%BF%B7%E9%81%8A%E6%88%B2%E6%B8%85%E9%86%92%E5%A4%A7%E4%BD%9C%E6%88%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>澳洲跟團行</title>
-      <link>https://minayu.site/categories/%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C/</link>
-      <pubDate>Fri, 13 Jul 2012 21:02:00 +0000</pubDate>
-      
-      <guid>https://minayu.site/categories/%E6%BE%B3%E6%B4%B2%E8%B7%9F%E5%9C%98%E8%A1%8C/</guid>
+      <guid>https://minayu.site/categories/%E6%89%98%E7%A6%8F%E6%BA%96%E5%82%99%E7%B4%80%E9%8C%84/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>產品與專案 on 月水瓶 @Mina 的人生實驗室</title>
+    <link>https://minayu.site/categories/%E7%94%A2%E5%93%81%E8%88%87%E5%B0%88%E6%A1%88/</link>
+    <description>Recent content in 產品與專案 on 月水瓶 @Mina 的人生實驗室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 14 Sep 2021 17:12:02 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E7%94%A2%E5%93%81%E8%88%87%E5%B0%88%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[產品概念介紹] Miri的第三版新功能: 帳號管理、語言紀錄與切換介紹 | 開發概念系列(3)</title>
+      <link>https://minayu.site/2021/09/miri-develop-concept-3-new-feature-account-language/</link>
+      <pubDate>Tue, 14 Sep 2021 17:12:02 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/09/miri-develop-concept-3-new-feature-account-language/</guid>
+      <description>&lt;p&gt;這篇開發概念應該會是這陣子的最後一篇，第三版本的新功能與概念設計就到這篇為止，給自己半年的時間把Miri將原本只是個小玩具專案的規模，建築為具有發展性的產品，接著開發的工作會暫時打住，並開始規劃未來的實作方向。&lt;/p&gt;
+&lt;p&gt;至於為什麼和上一篇撰寫日期差了有一週，因為本人在這週施打了新冠肺炎AZ疫苗，受到疫苗年輕人之認證，躺著高燒兩天外加幾天全身肌肉與神經痠痛，還有誤吃含有咖啡因的退燒藥兩天通宵沒睡，所以將近一週的時間完全沒辦法在電腦前撰寫文章。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品概念介紹] Miri的使用者流程、占卜流程、使用者引導介紹 | 開發概念系列(2)</title>
+      <link>https://minayu.site/2021/09/miri-develop-concept-2-ui-user-flow-guide/</link>
+      <pubDate>Wed, 08 Sep 2021 14:23:31 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/09/miri-develop-concept-2-ui-user-flow-guide/</guid>
+      <description>&lt;p&gt;開發Miri的技術與概念第二篇，來分享一些與第一篇較不同面向的開發概念。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品使用技術][Python] Miri的前端與後端接口、整體程式架構介紹 | FastApi x Line Bot x Telegram Bot | 開發概念系列(1)</title>
+      <link>https://minayu.site/2021/09/miri-develop-technology-1-frontend-design-connect-backend-with-fastapi-line-bot-telegram-bot/</link>
+      <pubDate>Mon, 06 Sep 2021 19:32:09 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/09/miri-develop-technology-1-frontend-design-connect-backend-with-fastapi-line-bot-telegram-bot/</guid>
+      <description>&lt;p&gt;由於本人健康問題，再加上這幾天有其他事情比較重要，還有就是一下把開發感想寫完，寫文章的靈感突然全無，所以跟技巧還有概念設計相關的文章就拖到了現在才有靈感撰寫。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品開發日記] Miri的未來規劃 | 開發日記系列(4) | 開發感想</title>
+      <link>https://minayu.site/2021/08/miri-development-series-4-the-future-plan/</link>
+      <pubDate>Mon, 30 Aug 2021 13:10:07 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/08/miri-development-series-4-the-future-plan/</guid>
+      <description>&lt;p&gt;在過去毫無意識的狀態下，我一直在思考，作為一個軟體產業的工程師，我的追逐目標跟夢想是什麼？&lt;/p&gt;
+&lt;p&gt;對我來說目標跟夢想是啟動跟維持熱忱最好的驅動力，即便這個夢想也許是很遙遠的，但也因為夠困難夠遙遠，才能讓我維持毅力持續努力。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品開發日記] 這半年的時間開發Miri第三版本的感想與進步 | 開發日記系列(3) | 開發感想</title>
+      <link>https://minayu.site/2021/08/miri-development-series-3-the-third-version/</link>
+      <pubDate>Thu, 26 Aug 2021 16:00:58 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/08/miri-development-series-3-the-third-version/</guid>
+      <description>&lt;p&gt;回想這段日子，彷彿好像事情昨天才發生，時間很快就過去了&lt;/p&gt;
+&lt;p&gt;這段日子帶給我很多收穫，雖然在期間我曾經懷疑陷入茫然不安的情緒中，但是堅定的直覺力，讓我即便承受著極度茫然與悲傷的情緒中，還是努力繼續做直到完成。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品開發日記] Miri的開發動機、起源與構想紀錄 | 開發日記系列(2) | 開發感想</title>
+      <link>https://minayu.site/2021/08/miri-development-series-2-begin/</link>
+      <pubDate>Mon, 23 Aug 2021 14:52:06 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/08/miri-development-series-2-begin/</guid>
+      <description>&lt;p&gt;原本我將當初是怎麼構想Miri的故事寫在Github README 裡。&lt;/p&gt;
+&lt;p&gt;但最近完成第三版的開發，並且要重新撰寫README的時候，我發現我應該把這類型的描述移動到部落格文章內，再加上想紀錄自己做Miri的動機跟故事。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[產品開發日記] 最後一哩路！筋疲力竭的抒發心得 | 開發日記系列(1) | 輕短文 | 開發感想</title>
+      <link>https://minayu.site/2021/07/miri-development-series-1-final/</link>
+      <pubDate>Fri, 30 Jul 2021 00:14:56 +0800</pubDate>
+      
+      <guid>https://minayu.site/2021/07/miri-development-series-1-final/</guid>
+      <description>&lt;p&gt;不知道是不是月經快來了&lt;/p&gt;
+&lt;p&gt;每次月經來的那陣子，我的感性神經都能壓過理性神經，是說！！&lt;/p&gt;
+&lt;p&gt;我上一篇文章也是月經期間發的哈哈，因為感性時刻才會比較好寫文章，如果一直都保持比較理性的一面，那大部分的時間就會是去寫程式或學習語言。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON 桌機版開發之(7)圓滿結束</title>
+      <link>https://minayu.site/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</link>
+      <pubDate>Sat, 25 Aug 2018 10:13:58 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/08/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B7%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F/</guid>
+      <description>&lt;p&gt;好啦~&lt;/p&gt;
+&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
+&lt;p&gt;焉得咳咳&lt;/p&gt;
+&lt;p&gt;經過了不知許久上一篇文章&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON 桌機版開發之(6)(內含開發心得)</title>
+      <link>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Thu, 24 May 2018 10:02:34 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B6%E5%85%A7%E5%90%AB%E9%96%8B%E7%99%BC%E5%BF%83%E5%BE%97/</guid>
+      <description>&lt;p&gt;這次，我就不說自己完成幾%了&lt;/p&gt;
+&lt;p&gt;免得雷到自己XD&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON 桌機版開發之(5)</title>
+      <link>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</link>
+      <pubDate>Wed, 09 May 2018 08:40:52 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/05/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B5/</guid>
+      <description>&lt;p&gt;程式，終於完成80%，進入最終測試階段了&lt;/p&gt;
+&lt;p&gt;還來不及update，日子就一天一天的過&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(5)-SERVER端/open, save file to vm/cloud/</title>
+      <link>https://minayu.site/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</link>
+      <pubDate>Thu, 03 May 2018 07:21:59 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/05/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC5-server%E7%AB%AF-open-save-file-to-vm-cloud/</guid>
+      <description>&lt;p&gt;打開KKBOX，放一首偏抒發的慢歌來配著打文章&lt;/p&gt;
+&lt;p&gt;上一篇忘記什麼時候發了&lt;/p&gt;
+&lt;p&gt;但我的google分頁仍有幾篇等著我哪天有feel的時候來寫一寫文章發一發&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發-備份</title>
+      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</link>
+      <pubDate>Mon, 30 Apr 2018 13:48:47 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC-%E5%82%99%E4%BB%BD/</guid>
+      <description>&lt;p&gt;url.py&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(4)-Server端/Insert database / view/model</title>
+      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</link>
+      <pubDate>Fri, 27 Apr 2018 10:21:40 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC4-server%E7%AB%AF-insert-database-view-model/</guid>
+      <description>&lt;p&gt;我希望今天能夠把server端寫好&lt;/p&gt;
+&lt;p&gt;明天就能開始規劃我的client端怎麼寫&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(3)</title>
+      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</link>
+      <pubDate>Thu, 26 Apr 2018 09:32:22 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC3/</guid>
+      <description>&lt;p&gt;寫程式，有一個很重要的觀念&lt;/p&gt;
+&lt;p&gt;就是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do by learn&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;千萬不要去買什麼書回來看，直接就上機然後自己規劃，不會就找網路跟問人!!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://minayu0416.files.wordpress.com/2018/04/img_1945.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(2)</title>
+      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</link>
+      <pubDate>Tue, 24 Apr 2018 06:09:07 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC2/</guid>
+      <description>&lt;p&gt;老話一句&lt;/p&gt;
+&lt;p&gt;卡了多少天，就是隔多少天才發文章&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON/DJANGO 之REST API開發(1)</title>
+      <link>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</link>
+      <pubDate>Tue, 17 Apr 2018 06:58:09 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-django-%E4%B9%8Brest-api%E9%96%8B%E7%99%BC1/</guid>
+      <description>&lt;p&gt;網址附贈：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&#34;&gt;https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&#34;&gt;https://stackoverflow.com/questions/40586744/django-rest-authentication-from-desktop-app&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON 桌機版開發之(4)</title>
+      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</link>
+      <pubDate>Sat, 07 Apr 2018 05:02:39 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B4/</guid>
+      <description>&lt;blockquote&gt;pymysql.err.OperationalError: (2003, &#34;Can&#39;t connect to MySQL server on &#39;120.96.183.71&#39; (timed out)&#34;)&lt;/blockquote&gt;
+&lt;p&gt;Error: 2003&lt;/p&gt;
+&lt;p&gt;mysql&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[DEVELOP]PYTHON 桌機版開發之(3)</title>
+      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</link>
+      <pubDate>Fri, 06 Apr 2018 10:18:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B3/</guid>
+      <description>&lt;p&gt;Could not find a version that satisfies the requirement MySQL-python==1.2.4 (from versions: )&lt;/p&gt;
+&lt;p&gt;No matching distribution found for MySQL-python==1.2.4&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Develop]Python 桌機版開發之(2)</title>
+      <link>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</link>
+      <pubDate>Mon, 02 Apr 2018 09:55:42 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/developpython-%E6%A1%8C%E6%A9%9F%E7%89%88%E9%96%8B%E7%99%BC%E4%B9%8B2/</guid>
+      <description>&lt;p&gt;經過一番寒徹骨&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;我已經放棄裝PyQt4了&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(:3 」∠)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Develop]Python 桌機版開發遇到之問題(1)</title>
+      <link>https://minayu.site/2018/04/problem-faced-develop-python-desktop-1/</link>
+      <pubDate>Mon, 02 Apr 2018 08:39:25 +0000</pubDate>
+      
+      <guid>https://minayu.site/2018/04/problem-faced-develop-python-desktop-1/</guid>
+      <description>&lt;p&gt;有鑒於自己最近剛接手一個做到一半的桌機開發程式&lt;/p&gt;
+&lt;p&gt;由於自己只用過Django and Python 寫過網頁&lt;/p&gt;
+&lt;p&gt;而對於桌機版的Python&lt;/p&gt;
+&lt;p&gt;根本一竅不通&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
