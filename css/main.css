@@ -52,6 +52,10 @@
 	justify-content: center
 }
 
+.blog-post-photo {
+	height: 12rem; /* 192px */
+}
+
 
 .header-mobile-menu {
 	/* Navebar Menu Absolute */
@@ -259,6 +263,7 @@
 	height: 35rem;
 }
 
+
 /* Tablet Landscape
    ======================================================*/
 
@@ -296,6 +301,10 @@
 
 	.blog-carousel-height{
 		height: 45rem;
+	}
+
+	.blog-post-photo {
+		height: 18rem; 
 	}
 
 	.portfolio-px {
@@ -345,6 +354,10 @@
 		height: 45rem;
 	}
 
+	.blog-post-photo {
+		height: 18rem; 
+	}
+
 	.portfolio-px {
 		padding-left: 12rem;
 		padding-right: 12rem;
@@ -391,6 +404,10 @@
 
 	.blog-carousel-height{
 		height: 40rem;
+	}
+
+	.blog-post-photo {
+		height: 16rem; 
 	}
 
 	.portfolio-px {
@@ -447,6 +464,10 @@
 
 	.header-image-size{
 		height: 24rem;
+	}
+
+	.blog-post-photo {
+		height: 15rem; 
 	}
 	
 	.blog-carousel-img {
@@ -516,6 +537,10 @@
 		height: 36rem;
 	}
 
+	.blog-post-photo {
+		height: 15rem; /* 192px */
+	}
+
 	.portfolio-px {
 		padding-left: 6rem;
 		padding-right: 6rem;
@@ -575,6 +600,10 @@
 		height: 37rem;
 	}
 
+	.blog-post-photo {
+		height: 15rem; 
+	}
+
 	.portfolio-px {
 		padding-left: 0;
 		padding-right: 0;
@@ -604,6 +633,10 @@
 	.blog-branding-intro {
 		padding: 5%;
 	  }
+
+	  .blog-post-photo {
+		height: 12rem; 
+	}
 
 	.motto-block p{
 	  font-size: 1.25rem;

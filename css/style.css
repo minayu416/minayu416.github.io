@@ -1595,6 +1595,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-cyan-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 254 255 / var(--tw-bg-opacity));
+}
+
 .bg-gray-700{
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -1633,20 +1638,6 @@ video {
 .bg-fuchsia-200{
   --tw-bg-opacity: 1;
   background-color: rgb(245 208 254 / var(--tw-bg-opacity));
-}
-
-.bg-gradient-to-b{
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.from-white{
-  --tw-gradient-from: #fff;
-  --tw-gradient-to: rgb(255 255 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-cyan-50{
-  --tw-gradient-to: #ecfeff;
 }
 
 .bg-cover{
@@ -2026,6 +2017,11 @@ video {
   justify-content: center
 }
 
+.blog-post-photo {
+  height: 12rem;
+  /* 192px */
+}
+
 .header-mobile-menu {
   /* Navebar Menu Absolute */
   top: 4rem;
@@ -2274,6 +2270,10 @@ video {
     height: 45rem;
   }
 
+  .blog-post-photo {
+    height: 18rem;
+  }
+
   .portfolio-px {
     padding-left: 12rem;
     padding-right: 12rem;
@@ -2322,6 +2322,10 @@ video {
     height: 45rem;
   }
 
+  .blog-post-photo {
+    height: 18rem;
+  }
+
   .portfolio-px {
     padding-left: 12rem;
     padding-right: 12rem;
@@ -2368,6 +2372,10 @@ video {
 
   .blog-carousel-height{
     height: 40rem;
+  }
+
+  .blog-post-photo {
+    height: 16rem;
   }
 
   .portfolio-px {
@@ -2420,6 +2428,10 @@ video {
 
   .header-image-size{
     height: 24rem;
+  }
+
+  .blog-post-photo {
+    height: 15rem;
   }
 
   .blog-carousel-img {
@@ -2487,6 +2499,11 @@ video {
     height: 36rem;
   }
 
+  .blog-post-photo {
+    height: 15rem;
+    /* 192px */
+  }
+
   .portfolio-px {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -2544,6 +2561,10 @@ video {
     height: 37rem;
   }
 
+  .blog-post-photo {
+    height: 15rem;
+  }
+
   .portfolio-px {
     padding-left: 0;
     padding-right: 0;
@@ -2567,6 +2588,10 @@ video {
 
   .blog-branding-intro {
     padding: 5%;
+  }
+
+  .blog-post-photo {
+    height: 12rem;
   }
 
   .motto-block p{
@@ -2656,6 +2681,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:w-full{
+    width: 100%;
+  }
+
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
