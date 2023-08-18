@@ -6,7 +6,16 @@
     <description>Recent content on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 12 Aug 2023 20:56:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 20:26:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[前端] 使用CSS linear-gradient與Figma轉化SVG達成簡單的漸層星空特效。</title>
+      <link>https://minayu.site/2023/08/frontend-how-to-do-simple-starry-sky-effect/</link>
+      <pubDate>Fri, 18 Aug 2023 20:26:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/08/frontend-how-to-do-simple-starry-sky-effect/</guid>
+      <description>&lt;p&gt;在開發自己設計的命理軟體，終於逐漸地進入到開發一些當初我覺得比較困難的效果設計。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[前端] CSS背景若使用漸層效果(linear-gradient)，又需要有改變背景顏色的需求，該如何做？</title>
       <link>https://minayu.site/2023/08/frontend-linear-gradient-change-background/</link>
