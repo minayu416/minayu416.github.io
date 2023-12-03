@@ -6,7 +6,16 @@
     <description>Recent content in 軟體開發 SWD on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 18 Aug 2023 20:26:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 23:12:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[研發解決方法] 研究公司的產品功能發布流程、設計並提出自動化解決方案(Fortify on Demand 和 Black Duck 掃描服務)</title>
+      <link>https://minayu.site/2023/12/design-innovative-solutions-on-automating-product-release-flow/</link>
+      <pubDate>Sun, 03 Dec 2023 23:12:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/12/design-innovative-solutions-on-automating-product-release-flow/</guid>
+      <description>&lt;p&gt;這一個自動化解決方案是我在這個團隊，最後半年的研究。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[前端] 使用CSS linear-gradient與Figma轉化SVG達成簡單的漸層星空特效。</title>
       <link>https://minayu.site/2023/08/frontend-how-to-do-simple-starry-sky-effect/</link>
