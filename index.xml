@@ -6,7 +6,16 @@
     <description>Recent content on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 03 Dec 2023 23:12:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 21:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[後端技術研究] Black Duck APIs 和 Fortify On Demand APIs 怎麼使用？ (透過Python Requests或Postman)</title>
+      <link>https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/</link>
+      <pubDate>Mon, 04 Dec 2023 21:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/</guid>
+      <description>&lt;p&gt;公司有一項冗長繁瑣的程式資安審核流程使用Black Duck和Fortify On Demand Scans，為了能達成自動化兩個掃描功能，我們研究了這兩項掃描服務的APIs，並在此文章紀錄我們的研究成果。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[研發解決方法] 研究公司的產品功能發布流程、設計並提出自動化解決方案(Fortify on Demand 和 Black Duck 掃描服務)</title>
       <link>https://minayu.site/2023/12/design-innovative-solutions-on-automating-product-release-flow/</link>
