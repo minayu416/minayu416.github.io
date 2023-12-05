@@ -33,7 +33,7 @@
         "datePublished": "2023-12-04 21:37:20 \u002b0800 CST",
         "dateModified" : "2023-12-04 21:37:20 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2023\/12\/blackduck-fortify-on-demand-api-research\/",
-        "wordCount" : "591",
+        "wordCount" : "656",
         "keywords" : [ "Black Duck Scan APIs","Fortify On Demand Scan APIs","Python","Postman","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[後端技術研究] Black Duck APIs 和 Fortify On Demand APIs 怎麼使用？ (透過Python Requests或Postman)">
 <meta itemprop="description" content="公司有一項冗長繁瑣的程式資安審核流程使用Black Duck和Fortify On Demand Scans，為了能達成自動化兩個掃描功能，我們研究了這兩項掃描服務的APIs，並在此文章紀錄我們的研究成果。"><meta itemprop="datePublished" content="2023-12-04T21:37:20+08:00" />
 <meta itemprop="dateModified" content="2023-12-04T21:37:20+08:00" />
-<meta itemprop="wordCount" content="591">
+<meta itemprop="wordCount" content="656">
 <meta itemprop="keywords" content="Black Duck Scan APIs,Fortify On Demand Scan APIs,Python,Postman," />
 
         
@@ -332,6 +332,74 @@ if (!doNotTrack) {
 <p><em><strong>請注意，此篇紀錄的API endpoints僅有達成我們功能所需的APIs，並非所有。</strong></em></p>
 <p>因為我當初在研究時，發現網路上幾乎沒有其他人分享怎麼使用這兩個掃描服務的APIs，所以如果你幸運需要研究如何自動化或者如何使用APIs，希望這篇文章能幫助到你。</p>
 <p>原則上，兩項掃描服務的APIs 文件都寫得還算詳細，但還是會遇到一些小問題，所以我會把那些遇到的坑寫出來。</p>
+<p>以下是本篇文章介紹的APIs大綱</p>
+<table>
+<thead>
+<tr>
+<th>掃描服務</th>
+<th>功能</th>
+<th>描述</th>
+<th>API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fortify On Demand</td>
+<td>Oauth Authentication</td>
+<td>取得授權的Oauth token，才能使用這個token call 其他 APIs</td>
+<td><a href="https://api.ams.fortify.com/oauth/token">https://api.ams.fortify.com/oauth/token</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Application</td>
+<td>取得所有的applications</td>
+<td><a href="https://api.ams.fortify.com/api/v3/application">https://api.ams.fortify.com/api/v3/application</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Release (with filter)</td>
+<td>取得 release或隸屬於指定的application下的release，包含講解filter查找功能</td>
+<td><a href="https://api.ams.fortify.com/api/v3/release">https://api.ams.fortify.com/api/v3/release</a> 或 <a href="https://api.ams.fortify.com/api/v3/application/">https://api.ams.fortify.com/api/v3/application/</a>&lt;application_id&gt;/release</td>
+</tr>
+<tr>
+<td>Black Duck</td>
+<td>Authentication</td>
+<td>取得用來call其他API的bearer token</td>
+<td>https://&lt;host_name&gt;/api/tokens/authenticate</td>
+</tr>
+<tr>
+<td></td>
+<td>Query project</td>
+<td>找到指定的projct (含filter過濾)</td>
+<td>https://&lt;host_name&gt;/api/projects</td>
+</tr>
+<tr>
+<td></td>
+<td>Get version</td>
+<td>取得指定的project下所有的版本資訊</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions</td>
+</tr>
+<tr>
+<td></td>
+<td>Generate Version Details Report</td>
+<td>對於指定的project及版本產出Version Details報告</td>
+<td>https://&lt;host_name&gt;/api/versions/&lt;version_id&gt;/reports</td>
+</tr>
+<tr>
+<td></td>
+<td>Download Version Details Report</td>
+<td>下載報告</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/reports/&lt;report_id&gt;/download</td>
+</tr>
+<tr>
+<td></td>
+<td>Visit components with filter</td>
+<td>針對指定的project 的components 加上條件式篩選</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/components</td>
+</tr>
+</tbody>
+</table>
+<br>
 <h2 id="fortify-on-demandfod">Fortify On Demand(FoD)</h2>
 <p>Fortify On Demand(以下簡稱FoD)，擁有公開的<a href="https://api.ams.fortify.com/swagger/ui/index">官方Swagger文件</a>，提供你各式各樣的APIs使用，他還有一個很便利的功能就是可以直接用此Swagger文件模擬並發送請求至APIs，所以當Call各種APIs都回傳Error時，可以考慮直接用這個模擬器先試試看。</p>
 <p>今天介紹以下API Endpoints:</p>
