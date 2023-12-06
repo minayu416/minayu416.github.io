@@ -33,7 +33,7 @@
         "datePublished": "2023-12-04 21:37:20 \u002b0800 CST",
         "dateModified" : "2023-12-04 21:37:20 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2023\/12\/blackduck-fortify-on-demand-api-research\/",
-        "wordCount" : "656",
+        "wordCount" : "657",
         "keywords" : [ "Black Duck Scan APIs","Fortify On Demand Scan APIs","Python","Postman","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[後端技術研究] Black Duck APIs 和 Fortify On Demand APIs 怎麼使用？ (透過Python Requests或Postman)">
 <meta itemprop="description" content="公司有一項冗長繁瑣的程式資安審核流程使用Black Duck和Fortify On Demand Scans，為了能達成自動化兩個掃描功能，我們研究了這兩項掃描服務的APIs，並在此文章紀錄我們的研究成果。"><meta itemprop="datePublished" content="2023-12-04T21:37:20+08:00" />
 <meta itemprop="dateModified" content="2023-12-04T21:37:20+08:00" />
-<meta itemprop="wordCount" content="656">
+<meta itemprop="wordCount" content="657">
 <meta itemprop="keywords" content="Black Duck Scan APIs,Fortify On Demand Scan APIs,Python,Postman," />
 
         
@@ -200,7 +200,12 @@ if (!doNotTrack) {
                 <a href="#" lang="zh-tw" class="py-4 px-2">中文</a>
                 /
                 
-                    <a href="https://minayu.site/en/2023/12/blackduck-fortify-on-demand-api-research/" lang="en" class="py-4 px-2">EN</a>
+                  
+                    
+                  
+                    
+                      <a href="/en" lang="en" class="py-4 px-2">EN (en)</a>
+                    
                   
                 
             </div>
@@ -215,7 +220,12 @@ if (!doNotTrack) {
                 <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
                     <a href="#" lang="zh-tw" class="py-4 px-2">中文</a>
                     
-                        <a href="https://minayu.site/en/2023/12/blackduck-fortify-on-demand-api-research/" lang="en" class="py-4 px-2">EN</a>
+                      
+                        
+                      
+                        
+                          <a href="/en" lang="en" class="py-4 px-2">EN</a>
+                        
                       
                     
                 </div>
@@ -322,6 +332,7 @@ if (!doNotTrack) {
 <p><em><strong>請注意，此篇紀錄的API endpoints僅有達成我們功能所需的APIs，並非所有。</strong></em></p>
 <p>因為我當初在研究時，發現網路上幾乎沒有其他人分享怎麼使用這兩個掃描服務的APIs，所以如果你幸運需要研究如何自動化或者如何使用APIs，希望這篇文章能幫助到你。</p>
 <p>原則上，兩項掃描服務的APIs 文件都寫得還算詳細，但還是會遇到一些小問題，所以我會把那些遇到的坑寫出來。</p>
+<h2 id="大綱">大綱</h2>
 <p>以下是本篇文章介紹的APIs大綱</p>
 <table>
 <thead>

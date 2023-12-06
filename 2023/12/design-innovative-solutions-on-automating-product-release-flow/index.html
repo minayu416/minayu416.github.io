@@ -33,7 +33,7 @@
         "datePublished": "2023-12-03 23:12:20 \u002b0800 CST",
         "dateModified" : "2023-12-03 23:12:20 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2023\/12\/design-innovative-solutions-on-automating-product-release-flow\/",
-        "wordCount" : "355",
+        "wordCount" : "379",
         "keywords" : [ "Amazon (AWS)","Fortify on Demand","Black Duck","架構設計","創新解決方案","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[研發解決方法] 研究公司的產品功能發布流程、設計並提出自動化解決方案(Fortify on Demand 和 Black Duck 掃描服務)">
 <meta itemprop="description" content="公司在新功能釋出前必須通過一連串冗長繁瑣的程式資安審核流程，為了縮短流程時間以及降低人工錯誤，管理經理提出了看似不切實際的需求，卻讓我們成功研發出自動化的解決方案，並成功開發出程式幫助工程師自動化程式掃描的過程。"><meta itemprop="datePublished" content="2023-12-03T23:12:20+08:00" />
 <meta itemprop="dateModified" content="2023-12-03T23:12:20+08:00" />
-<meta itemprop="wordCount" content="355">
+<meta itemprop="wordCount" content="379">
 <meta itemprop="keywords" content="Amazon (AWS),Fortify on Demand,Black Duck,架構設計,創新解決方案," />
 
         
@@ -355,6 +355,21 @@ if (!doNotTrack) {
 <p>在它與研發它的過程中，我找到了自己過去尋找很久的自我優勢，見證了我的成長與見證了肯定自我的過程。特別感謝我的團隊隊員們、感謝主管與產品經理的協助與感謝那個常常提出一堆想法卻一一被我打槍，常常被我壓著做事的社會新鮮人合作同事。</p>
 <p>感謝公司與團隊的支持，讓我能在我們團隊工作的時光中，讓我能夠發揮很多創新的思想與嘗試、挑戰、研發此項需求的解決方法。</p>
 <br>
+<h2 id="本文大綱">本文大綱</h2>
+<ul>
+<li>需求介紹與研究流程</li>
+<li>找出可自動化的部分及對應的技術解決</li>
+<li>初版local版本架構設計</li>
+<li>黑客松: 延伸版本 - 雲端版本與優化local版本
+<ul>
+<li>雲端版本 - FoD 和 BD APIs 程式架構</li>
+<li>Local版本 - 新增 UI 介面連接初版Python Script 解釋</li>
+</ul>
+</li>
+<li>功能優化</li>
+<li>最後</li>
+</ul>
+<br>
 <h2 id="介紹">介紹</h2>
 <p>在我們完成一次無論是新功能的開發，還是現有功能的優化，當QA工程師測試完後，我們將要把新的或優化後的功能發布至Production之前，需要通過一連串很冗長複雜的程式資安審核流程。</p>
 <p>通過一次此流程平均時間為一個月左右，最快是2週，最慢可能一個多月。試想某次我們同時完成了五個新舊功能的開發與優化，所有的釋出(Release)與發布都卡在審核流程。等到所有功能的審核流程通過，大概也就2-3個月過去了，才把前幾個月開發的功能順利部署上Production給使用者使用。</p>
@@ -470,7 +485,7 @@ if (!doNotTrack) {
 <p>最後黑客松的結果，我個人希望是可以展示第二個跟第三個方案。</p>
 <p>第一個方案研究是由另一個合作同事研究，所以就不放上來了。</p>
 <br>
-<p><strong>雲端版本 - FoD 和 BD APIs 程式架構</strong></p>
+<h3 id="雲端版本---fod-和-bd-apis-程式架構"><strong>雲端版本 - FoD 和 BD APIs 程式架構</strong></h3>
 <p><img src="https://minayu0416.files.wordpress.com/2023/12/screenshot-2023-12-03-at-9.44.20e280afpm.png" alt=""></p>
 <p>所以針對兩個掃描服務的APIs，在歷經2-3週研究APIs後，已經確認可以使用哪些APIs達成我們要的目標。</p>
 <p>並且規劃雲端版本的程式架構如圖。設計一個API Endpoint允許使用者透過RESTful API的POST請求驅動自動化掃描，驅動兩個 AWS Lambda 分別進行兩個掃描服務，並將產出的報告、連結存到S3 Bucket中。</p>
@@ -499,7 +514,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>關於Fortify On Demand 和 Black Duck 的 APIs 研究與使用方式，你可以參考<a href="/2023/12/blackduck-fortify-on-demand-api-research/">這篇文章</a></p>
 <br>
-<p><strong>Local版本 - 新增 UI 介面連接初版Python Script 解釋</strong></p>
+<h3 id="local版本---新增-ui-介面連接初版python-script-解釋"><strong>Local版本 - 新增 UI 介面連接初版Python Script 解釋</strong></h3>
 <p>這個版本，我們決定新增一個UI介面改善使用者不必再需要使用IDE開啟程式，輸入需掃描服務。</p>
 <p>由於原先的自動化程式是用Python撰寫，所以考量到和UI對接，我們使用 Python 的 GUI 套件 <code>Tkinder</code>來以最快速度完成開發，且相對容易和後端的自動化邏輯對接。</p>
 <p>介面我簡單用Figma畫過。</p>
