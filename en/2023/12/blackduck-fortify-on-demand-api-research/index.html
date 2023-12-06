@@ -1,0 +1,1290 @@
+
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/minayu.site"
+        },
+        "articleSection" : "blog",
+        "name" : "[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman",
+        "headline" : "[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman",
+        "description" : "We have a lengthy security detection release flow and using Black Duck and Fortify On Demand to do scans for features. We want to research APIs of both scans and achieve automation.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2023",
+        "datePublished": "2023-12-06 17:01:20 \u002b0800 CST",
+        "dateModified" : "2023-12-06 17:01:20 \u002b0800 CST",
+        "url" : "https:\/\/minayu.site\/en\/2023\/12\/blackduck-fortify-on-demand-api-research\/",
+        "wordCount" : "1748",
+        "keywords" : [ "Black Duck Scan APIs","Fortify On Demand Scan APIs","Python","Postman","Personal Website", "個人網站"]
+    }
+    </script>
+        
+            <title>[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman - @Mina Influence</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.104.0" />
+        
+
+
+  
+    
+    
+  
+
+  
+
+  <link rel="icon" href='/img/favicon.jpg'>
+
+
+
+
+        
+            <meta name="author" content="minayu416">
+        
+        
+            <meta name="description" content="We have a lengthy security detection release flow and using Black Duck and Fortify On Demand to do scans for features. We want to research APIs of both scans and achieve automation.">
+        
+
+        <meta name="robots" content="index,follow">
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman"/>
+<meta name="twitter:description" content="We have a lengthy security detection release flow and using Black Duck and Fortify On Demand to do scans for features. We want to research APIs of both scans and achieve automation."/>
+
+        
+        <meta name="twitter:image" content="https://minayu.site/img/cover-image.jpeg">
+        <meta property="og:title" content="[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman" />
+<meta property="og:description" content="We have a lengthy security detection release flow and using Black Duck and Fortify On Demand to do scans for features. We want to research APIs of both scans and achieve automation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://minayu.site/en/2023/12/blackduck-fortify-on-demand-api-research/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-12-06T17:01:20+08:00" />
+<meta property="article:modified_time" content="2023-12-06T17:01:20+08:00" /><meta property="og:site_name" content="@Mina Influence" />
+
+
+        <meta property="og:image" content="https://minayu.site/img/cover-image.jpeg">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        
+        
+        <meta itemprop="name" content="[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman">
+<meta itemprop="description" content="We have a lengthy security detection release flow and using Black Duck and Fortify On Demand to do scans for features. We want to research APIs of both scans and achieve automation."><meta itemprop="datePublished" content="2023-12-06T17:01:20+08:00" />
+<meta itemprop="dateModified" content="2023-12-06T17:01:20+08:00" />
+<meta itemprop="wordCount" content="1748">
+<meta itemprop="keywords" content="Black Duck Scan APIs,Fortify On Demand Scan APIs,Python,Postman," />
+
+        
+            
+        
+
+        <link rel="stylesheet" href="/js/main.js">
+        
+        <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="/js/carousel.js"></script>
+        <link rel="stylesheet" href="/css/carousel.css">
+
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+        
+        
+
+        
+
+      
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129499146-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+      
+      
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EETGWC7GNV');
+</script>
+      
+    </head>
+    <body>
+
+
+  <div>
+    <header>
+    <div class="max-auto">
+  <div class="mx-auto flex flex-wrap border-b border-solid">
+    <div class="lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover">
+      <div class="w-full h-full">
+      <div class="relative overflow-hidden">
+          <img class="object-cover w-full header-image-size" src="/img/blog-cover-image.jpg" alt="Blog Cover Image"/>
+        <div>
+            <nav>
+    <div class="absolute top-0 left-0 px-2 py-2 z-10 header-navbar">
+        
+        <div class="px-6">
+        <div class="mx-auto">
+            <div class="flex">
+            <div class="flex space-x-4">
+                <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
+                
+                    <a href="/en/about/" class="py-4 px-3">About</a>
+                
+                    <a href="/en/" class="py-4 px-3">Home</a>
+                
+                    <a href="/en/blog/" class="py-4 px-3">Blog</a>
+                
+                    <a href="/en/portfolio/" class="py-4 px-3">Portfolio</a>
+                
+                    <a href="/en/contact/" class="py-4 px-3">Contact</a>
+                
+                </div>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button onclick="menuToggle();" class="pt-4 px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                </button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        
+        <div id="mobile-menu" class="md:hidden absolute w-full rounded header-mobile-menu hidden">
+            
+            <a href="/en/about/" class="block py-3 px-4">About</a>
+            
+            <a href="/en/" class="block py-3 px-4">Home</a>
+            
+            <a href="/en/blog/" class="block py-3 px-4">Blog</a>
+            
+            <a href="/en/portfolio/" class="block py-3 px-4">Portfolio</a>
+            
+            <a href="/en/contact/" class="block py-3 px-4">Contact</a>
+            
+
+            <div class="block py-3 px-4">
+                <a href="#" lang="en" class="py-4 px-2">EN</a>
+                /
+                
+                    <a href="https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/" lang="zh-tw" class="py-4 px-2">中文</a>
+                  
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute top-0 right-0 px-2 py-2 z-10">
+        <div class="px-6">
+        <div class="mx-auto">
+            <div class="flex">
+            <div class="flex space-x-4">
+                <div class="hidden md:flex items-center space-x-1 header-navbar-menu">
+                    <a href="#" lang="en" class="py-4 px-2">EN</a>
+                    
+                        <a href="https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/" lang="zh-tw" class="py-4 px-2">中文</a>
+                      
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+    <script>
+      var x = document.getElementById("mobile-menu");
+      function menuToggle(){
+        if (x.classList.item(x.classList.length - 1) != "hidden"){
+          x.classList.add("hidden");
+        } else {
+          x.classList.remove("hidden");
+        }
+
+      }
+
+    </script>
+          <div class="absolute px-2 py-2 site-branding">
+            <div class="site-title">
+              <p><a href="https://minayu.site/en">@Mina Influence</a></p>
+            </div>
+              <div class="site-description">
+              <p>Inspire you to have New thinking, Walk out your unique Road.</p>
+            </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0">
+      <div class="blog-branding-intro motto-block">
+        
+        <section class="text-gray-500 body-font">
+          <div class="container px-6 mx-auto">
+            <div class="w-full mx-auto text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-6 h-6 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+              </svg>
+              <p class="leading-relaxed">
+                Sometimes, you just meet some stories and invoked your inspiration, then later you use a totally different way, different concept to have a different life in the future.
+                </p>
+              <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-lg">Sign @MinaYu.</h2>
+            </div>
+          </div>
+        </section>
+      </div> 
+    </div>
+  </div>
+</div>
+</header>
+   
+    <section class="text-gray-600 body-font">
+    <div class="container py-12 mx-auto">
+        
+        
+        <div class="flex-wrap">
+        <div class="p-2">
+          <div class="mx-auto flex flex-wrap bg-white">
+            <div class="lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover">
+              <div class="px-4">
+  
+              <div class="mb-10 border border-solid py-4">
+                
+                
+                
+                
+                    <p class="text-center tracking-widest text-md font-medium post-category font-fondamento">IT Things and Development</p>
+                
+                
+                
+                
+                
+                    <h3 class="text-center tracking-widest text-md font-medium post-category font-fondamento">[Back-end] 10000 hours - Road of being Back-end Developer</h3>
+                
+                
+                
+              
+
+                <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2">[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman</p>
+                
+                
+                <p class="text-center test-gray italic tracking-wider font-mario">Posted on 
+                  <time class="published" datetime='2023-12-06'>
+                    Dec 06, 2023</time>
+                </p>
+              </div>
+  
+              
+              
+              <div class="flex-wrap">
+                
+
+                <article class="prose prose-slate">
+                <p>We have a lengthy security detection flow need to pass before each time we have new release to production, in the part of this flow, there are Black Duck and Fortify On Demand scans.</p>
+<p>In this article, I would like to record the research of how to use the APIs of both scans to achieve our automation solution.</p>
+<p>This research was conducted for <a href="/en/2023/12/design-innovative-solutions-on-automating-product-release-flow/">this automation solution</a>, if you have interest you can visit it, these 2 articles don&rsquo;t have dependency, so you can only read this article.</p>
+<p><em><strong>Notice, we don&rsquo;t record all API endpoints here, only write the APIs which achieved our solutions, if you want to research more, please go to official Black Duck and Fortify On Demand document.</strong></em></p>
+<p>When I was researching how to use both scans APIs, I found there were less reference and articles, so I hope this article can help you.</p>
+<h2 id="table-of-content">Table of Content</h2>
+<p>Here is like the table of content.</p>
+<table>
+<thead>
+<tr>
+<th>Scan</th>
+<th>Feature</th>
+<th>Description</th>
+<th>API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fortify On Demand</strong></td>
+<td>Oauth Authentication</td>
+<td>Get authorized Oauth token for requesting other APIs</td>
+<td><a href="https://api.ams.fortify.com/oauth/token">https://api.ams.fortify.com/oauth/token</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Application</td>
+<td>Get all applications</td>
+<td><a href="https://api.ams.fortify.com/api/v3/application">https://api.ams.fortify.com/api/v3/application</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Release (with filter)</td>
+<td>Get all release or belongs to specific application with filter</td>
+<td><a href="https://api.ams.fortify.com/api/v3/release">https://api.ams.fortify.com/api/v3/release</a> 或 <a href="https://api.ams.fortify.com/api/v3/application/">https://api.ams.fortify.com/api/v3/application/</a>&lt;application_id&gt;/release</td>
+</tr>
+<tr>
+<td><strong>Black Duck</strong></td>
+<td>Authentication</td>
+<td>Get authorized Bearer token for requesting other APIs</td>
+<td>https://&lt;host_name&gt;/api/tokens/authenticate</td>
+</tr>
+<tr>
+<td></td>
+<td>Query project</td>
+<td>Find specific projct (with filter)</td>
+<td>https://&lt;host_name&gt;/api/projects</td>
+</tr>
+<tr>
+<td></td>
+<td>Get version</td>
+<td>Get all version under specific project</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions</td>
+</tr>
+<tr>
+<td></td>
+<td>Generate Version Details Report</td>
+<td>Generate Version Details Report with specific project and version</td>
+<td>https://&lt;host_name&gt;/api/versions/&lt;version_id&gt;/reports</td>
+</tr>
+<tr>
+<td></td>
+<td>Download Version Details Report</td>
+<td>Download report</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/reports/&lt;report_id&gt;/download</td>
+</tr>
+<tr>
+<td></td>
+<td>Visit components with filter</td>
+<td>Filter specific condition with project components</td>
+<td>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/components</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="fortify-on-demand-fod">Fortify On Demand (FoD)</h2>
+<p>Fortify On Demand (FoD), it has the public <a href="https://api.ams.fortify.com/swagger/ui/index">official Swagger document</a>, offers many APIs and the convenient feature is using swagger to test the API endpoint, so if you get many Errors from response, you can try swagger UI first.</p>
+<p>Here is the API Endpoints I want to introduce:</p>
+<ul>
+<li>Oauth Authentication: <code>https://api.ams.fortify.com/oauth/token</code></li>
+<li>Get Application: <code>https://api.ams.fortify.com/api/v3/application</code></li>
+<li>Get Release (with filter): <code>https://api.ams.fortify.com/api/v3/release</code> or <code>https://api.ams.fortify.com/api/v3/application/&lt;application_id&gt;/release</code></li>
+</ul>
+<br>
+<h3 id="oauth-authentication"><strong>Oauth Authentication</strong></h3>
+<p>Before request other FoD APIs, you need to request this Oauth API for getting authorized token, then request other API with this returned token.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// POST https://api.ams.fortify.com/oauth/token
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;scope&#34;</span>: <span style="color:#e6db74">&#34;api-tenant&#34;</span>, <span style="color:#75715e">// visit setting to check scope
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;grant_type&#34;</span>: <span style="color:#e6db74">&#34;password&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;username&#34;</span>: <span style="color:#e6db74">&#34;&lt;tenant&gt;\\&lt;user_name&gt;&#34;</span>, <span style="color:#75715e">// check tenant and user name in settings and make sure \ and \\. 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// Correct: &lt;tenant&gt;\&lt;user_name&gt;.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;password&#34;</span>: <span style="color:#e6db74">&#34;&lt;personal_token&gt;&#34;</span> <span style="color:#75715e">// This is not fill your password, this fill the token you generate in FoD settings.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;access_token&#34;</span>: <span style="color:#e6db74">&#34;ZGHJ3274JDK&#34;</span> <span style="color:#75715e">// You will get authorized token, this is only example.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><br>
+<h3 id="get-application"><strong>Get Application</strong></h3>
+<p>After you got authorized token, we can request other APIs with this token. First, get all application.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://api.ams.fortify.com/api/v3/application
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Content-Type&#34;</span>: <span style="color:#e6db74">&#34;application/json&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Accept&#34;</span>: <span style="color:#e6db74">&#34;application/json&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;token&gt;&#34;</span>, <span style="color:#75715e">// With header, attach the token you got from Oauth response.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;items&#34;</span>: [{
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;applicationName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;applicationId&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>    }, {
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Through this API, you will get many Application, you can know the applicationName, applicationId and related information.</p>
+<p>This API support filter, you can find the application you want, I will introduce it in next API, the usage of filter is similiar cross APIs.</p>
+<br>
+<h3 id="get-release-with-filter"><strong>Get Release (with filter)</strong></h3>
+<p>You can pick to get release or release belongs with specific application, the second API, you need to bring applicationId.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://api.ams.fortify.com/api/v3/release or https://api.ams.fortify.com/api/v3/application/&lt;application_id&gt;/release
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Content-Type&#34;</span>: <span style="color:#e6db74">&#34;application/json&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Accept&#34;</span>: <span style="color:#e6db74">&#34;application/json&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;token&gt;&#34;</span>, <span style="color:#75715e">// With header, attach the token you got from Oauth response.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Params -&gt; Notice: this is Parameters, not Body, here is GET method, you need to put it in parameters. In Python, please put requests.get(params=&lt;params&gt;). In postman, please put Params.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;filter&#34;</span>: <span style="color:#e6db74">&#34;ReleaseName:&lt;service_name&gt;&#34;</span> <span style="color:#75715e">// Here is single filter example, if you have multiple condition, please use + connect with them. &lt;condition1&gt;:&lt;value1&gt;+&lt;condition2&gt;:&lt;value2&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>The format of filter is <code>&lt;filter field1&gt;:&lt;filter value1&gt;+&lt;filter field2&gt;:&lt;filter value2&gt;</code>, so if I want to filter <code>ReleaseName</code> is <code>ppt-scanner</code> then I put</p>
+<blockquote>
+<p>&ldquo;filter&rdquo;: &ldquo;ReleaseName:ppt-scanner&rdquo;</p>
+</blockquote>
+<p>The official document doesn&rsquo;t record detailed possible filter fields, you can observe the properties in API response and try filter with properties.</p>
+<br>
+<h2 id="black-duck-bd">Black Duck (BD)</h2>
+<p>Black Duck scan (BD), the official document is private, you can go the the <code>?</code> -&gt; <code>REST API Developer Guide</code> in the Black Duck service right top side panel, the document is very clear.</p>
+<p>In this article, I will introduce the following API endpoint, please instead <code>host_name</code> to your server host name.</p>
+<ul>
+<li>Authentication: <code>https://&lt;host_name&gt;/api/tokens/authenticate</code></li>
+<li>Query project: <code>https://&lt;host_name&gt;/api/projects</code></li>
+<li>Get version: <code>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions</code></li>
+<li>Generate Version Details Report: <code>https://&lt;host_name&gt;/api/versions/&lt;version_id&gt;/reports</code></li>
+<li>Download Version Details Report: <code>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/reports/&lt;report_id&gt;/download</code></li>
+<li>Visit components with filter: <code>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/components</code></li>
+</ul>
+<br>
+<h3 id="authentication"><strong>Authentication</strong></h3>
+<p>Similiar with above FoD scan, you need to request Authentication endpoint to get authorized Bearer token and use it for requesting other APIs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// POST https://&lt;host_name&gt;/api/tokens/authenticate
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Accept&#34;</span>: <span style="color:#e6db74">&#34;application/vnd.blackducksoftware.user-4+json&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;token &lt;personal_token&gt;&#34;</span>, <span style="color:#75715e">// You can get the personal_token in Black Duck website -&gt; the setting -&gt; Access token -&gt; generate personal token, if you need to generate report, you need to open the write permission.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// Authorization value, please put &#34;token&#34; before your personal token, I stuck here much time. example: &#34;Authorization&#34;: &#34;token GH2395JKls==&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;bearerToken&#34;</span>: <span style="color:#e6db74">&#34;ZGHJ3274JDK&#34;</span> <span style="color:#75715e">// After requested, you get find the returned bearerToken if status 200.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><br>
+<h3 id="query-project"><strong>Query project</strong></h3>
+<p>After we got the bearerToken, we can request other APIs. first. we want to get projects with filter (or just get all projects)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://&lt;host_name&gt;/api/projects
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;bearerToken&gt;&#34;</span>, <span style="color:#75715e">// Put the authorized bearerToken here.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Params -&gt; Yeah, its Parameters, this is GET method, so don;t put in body, doesn&#39;t work.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// If you need limit or filter with project, then you need this parameters.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;limit&#34;</span>: <span style="color:#ae81ff">5</span>, <span style="color:#75715e">// Only get 5 records
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;q&#34;</span>: <span style="color:#e6db74">&#34;name:&lt;filter_name&gt;&#34;</span> <span style="color:#75715e">// Yeah, filter key just a q, and put &lt;filter field&gt;:&lt;filter value&gt;, not sure filter with other properties, you can check properties in response.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;items&#34;</span>: [{
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;_meta&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;href&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>    }, {
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>And I found, the project information in response doesn&rsquo;t include <code>project_id</code>, so I found <code>project_id</code> by split the url in <code>item[_meta][href]</code>, then <code>split(&quot;/&quot;)[-1]</code> split the href to get the last segment, it is <code>project_id</code>.</p>
+<br>
+<h3 id="get-version"><strong>Get version</strong></h3>
+<p>After you got the project_id, now we would like to get all versions under this project.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;bearerToken&gt;&#34;</span>, <span style="color:#75715e">// Put authorized BearerToken
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>Remember to put the project_id in request url.</p>
+<p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;items&#34;</span>: [{
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;versionName&#34;</span>: <span style="color:#e6db74">&#34;master&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;_meta&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;href&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;versionName&#34;</span>: <span style="color:#e6db74">&#34;version_1&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#960050;background-color:#1e0010">...,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;_meta&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;href&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Yeah, it doesn&rsquo;t return <code>version_id</code>, so we need to split by <code>item[_meta][href]</code> with <code>split(&quot;/&quot;)[-1]</code> to get <code>version_id</code></p>
+<p>The _meta.href will like <code>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;</code>, so split by &ldquo;/&rdquo; then get the last segment then you will get version_id.</p>
+<br>
+<h3 id="generate-version-details-report"><strong>Generate Version Details Report</strong></h3>
+<p>So now we have <code>project_id</code> and <code>version_id</code>, we can generate Version Detail report based on it.</p>
+<p>If you want to generate other type reports, please refer the official website.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// POST https://&lt;host_name&gt;/api/versions/&lt;version_id&gt;/reports
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Yes, we don&#39;t need to put project_id, its little weird.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Content-Type&#34;</span>: <span style="color:#e6db74">&#34;application/json&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;bearerToken&gt;&#34;</span>, <span style="color:#75715e">// Put the authorized bearerToken
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Body -&gt; this is Body, because of the POST method.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;reportFormat&#34;</span>: <span style="color:#e6db74">&#34;CSV&#34;</span>, <span style="color:#75715e">// here we put CSV, but there is JSON format can choose.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;reportType&#34;</span>: <span style="color:#e6db74">&#34;VERSION&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;caregories&#34;</span>: [<span style="color:#e6db74">&#34;VERSION&#34;</span>, <span style="color:#e6db74">&#34;COMPONENTS&#34;</span>, <span style="color:#e6db74">&#34;SECURITY&#34;</span>, <span style="color:#e6db74">&#34;PROJECT_VERSION_CUSTOM_FIELDS&#34;</span>] <span style="color:#75715e">// You can check what categories you need when you generate reports in website then fill in here.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>If you are not sure the part of categories, you can generate a report in website and open the <code>Developer Tool -&gt; Network</code> then click generate, the developer tool will show the request and response, you can check the value of Header and Body in it.</p>
+<p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;links&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;download&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;url&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can through <code>links</code> -&gt; <code>download</code> -&gt; <code>url</code> to get <code>report_id</code>.</p>
+<p>And again, using split to get the last segment of url (<code>split(&quot;/&quot;)[-1]</code>), that is the <code>report_id</code></p>
+<p>Maybe there are other ways to get <code>project_id, version_id and report_id</code>, but I didn&rsquo;t get it.</p>
+<br>
+<h3 id="download-version-details-report"><strong>Download Version Details Report</strong></h3>
+<p>After generated report, it doesn&rsquo;t finish immediately, so if you write program to do automation, you can write while loop and pending 7-10 seconds. (It will finish at 30 seconds)</p>
+<p>If the report haven&rsquo;t done, it will return HTTP status 412, but if raise other errors, it will also return 412, so need to check message in response.</p>
+<p>Here is the request for downloading the report.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/reports/&lt;report_id&gt;/download
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Weird again, we don&#39;t need project_id to generate report, but need it when download report.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;bearerToken&gt;&#34;</span>, <span style="color:#75715e">// Put authorized bearerToken.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>The response content is bytes, here is the python code to download it, in python 3.9.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#75715e"># If download at local computer</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> io
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> zipfile
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, headers<span style="color:#f92672">=</span>headers)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> response<span style="color:#f92672">.</span>status_code <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> zipfile<span style="color:#f92672">.</span>ZipFile(io<span style="color:#f92672">.</span>BytesIO(response<span style="color:#f92672">.</span>content))
+</span></span><span style="display:flex;"><span>    z<span style="color:#f92672">.</span>extractall(<span style="color:#e6db74">&#34;./&#34;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#75715e"># If you want to save into AWS S3 bucket. </span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> io
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> boto3
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> zipfile
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s3_client <span style="color:#f92672">=</span> boto3<span style="color:#f92672">.</span>client(<span style="color:#e6db74">&#34;s3&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s3_bucket <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;bucket_name&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, headers<span style="color:#f92672">=</span>headers)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> response<span style="color:#f92672">.</span>status_code <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> zipfile<span style="color:#f92672">.</span>ZipFile(io<span style="color:#f92672">.</span>BytesIO(response<span style="color:#f92672">.</span>content))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> file_info <span style="color:#f92672">in</span> z<span style="color:#f92672">.</span>infolist():
+</span></span><span style="display:flex;"><span>        file_name <span style="color:#f92672">=</span> file_info<span style="color:#f92672">.</span>filename
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Read file content</span>
+</span></span><span style="display:flex;"><span>        file_content <span style="color:#f92672">=</span> z<span style="color:#f92672">.</span>read(file_name)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        save_key <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;&lt;prefix&gt;/</span><span style="color:#e6db74">{</span>file_name<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Upload content to S3</span>
+</span></span><span style="display:flex;"><span>        s3_client<span style="color:#f92672">.</span>upload_fileobj(io<span style="color:#f92672">.</span>BytesIO(file_content), s3_bucket, save_key)
+</span></span></code></pre></div><br>
+<h3 id="visit-components-with-filter"><strong>Visit components with filter</strong></h3>
+<p>The last one, I want to introduce visit components with specific <code>project_id</code> and <code>version_id</code>.</p>
+<p>In this API, we can add many filters, but I only add one.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// GET https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/components
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Fill the project_id and version_id
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Header
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Authorization&#34;</span>: <span style="color:#e6db74">&#34;Bearer &lt;bearerToken&gt;&#34;</span>, <span style="color:#75715e">// Put bearerToken
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Params -&gt; Parameters, because GET method, not Body.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;limit&#34;</span>: <span style="color:#ae81ff">10</span>, <span style="color:#75715e">// limit 10 or the number you can set.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;filter&#34;</span>: <span style="color:#e6db74">&#34;bomPolicy:in_violation&#34;</span> <span style="color:#75715e">// filter -&gt; field_key: field_option
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>Here, I tried to get any In violation components.</p>
+<p>response</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#75715e">// If there is not match in filter, it will return [] in items.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;items&#34;</span>: [{
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;componentName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;componentVersionName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;componentName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;componentVersionName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>So, you can put filters in <code>Params</code> to filter components.</p>
+<p>If you are not sure how to write filter content, you can visit the Black Duck website, enter the components page -&gt; open Develoepr Tool -&gt; Network, then you add any filter, you can see the Network catch the request and response, you can read the Parameters in Network.</p>
+<p>Or get infromation in the url <code>https://&lt;host_name&gt;/api/projects/&lt;project_id&gt;/versions/&lt;version_id&gt;/components?filter=bomPolicy:in_violation</code>, the filters information is after <code>?filter=</code> words and you can try in Params with Python or Postman.</p>
+<br>
+<p>Alright, these are the research and introduction of Fortify On Demand and Black Duck APIs.</p>
+<p>Hope this help you and thanks for reading.</p>
+              </article>
+              </div>
+  
+              
+              <div class="mt-20 mb-10 border border-solid py-4">
+                <p class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4">Comment Board</p>
+              </div>
+  
+              <div class="mb-10 border border-solid p-4">
+                <details> 
+                
+                <summary class="font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pb-2 cursor-pointer blog-link-style">Click to expand comment board!</summary>
+                
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "minayu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+                </details>
+              </div>
+  
+  
+            </div>
+            </div>
+              
+            <div class="lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0">
+          <div class="px-4">
+          
+          <div>
+    <div class="mb-10 border border-solid py-4">
+                    <p class="font-bold text-center text-gray grid-subtitle text-md">ABOUT ME</p>
+                </div>
+                <div class="flex items-center justify-center">
+                <img class="object-cover rounded-full" width="175" height="175" src="/img/logo.jpg" alt="Author Profile"/>
+                </div>
+                <p class="leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block">
+                    Hi, this is Mina, an ENTP type person always with innovative ideas. Cheerful, lively, also romantic. A software engineer, blogger, love to explore different cultures and build entrepreneurship. 
+                    </p>
+                    <p class="leading-relaxed text-2xl text-center pt-1 pb-4 motto-block">
+                    @MinaYu Signed
+                    </p>
+
+            
+            
+                
+            
+
+            <div class="border border-solid py-4">
+                <p class="font-bold text-center text-gray grid-subtitle text-md">BLOG STATS</p>
+            </div>
+            
+                <div class="my-5 pl-5 font-bold font-voll">
+                    <span id="busuanzi_container_site_pv">
+                        <p class="pb-2">Visits: <span id="busuanzi_value_site_pv"></span></p>
+                    </span>
+                    <span id="busuanzi_container_site_uv">
+                        <p>Visitors: <span id="busuanzi_value_site_uv"></span></p>
+                    </span>
+                </div>
+            </div>
+
+  
+          <div class="mb-5 border border-solid py-4">
+              <p class="font-bold text-center text-gray grid-subtitle text-md">CATEGORY</p>
+          </div>
+
+          
+  
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+        
+          
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
+          
+        
+        
+        
+      
+      
+    
+  
+
+
+          <div>
+            
+              
+                
+                <div id="posts-list-espa%C3%B1ol-posts" data-category="Español Posts" data-parent-categories="">
+                  <a href="https://minayu.site/en/categories/espa%C3%B1ol-posts" class="blog-link-style">
+                    <div class = "py-3 text-sm border-b border-solid font-fondamento">Español Posts
+                    <span class="font-color-gold-1">(2)</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    
+                      
+                      
+                        
+
+  <div id="posts-list-novel-historia-somos-familia" data-category="[Novel] [Historia] Somos familia" data-parent-categories="espa%C3%B1ol-posts">
+  <a href="https://minayu.site/en/categories/novel-historia-somos-familia">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[Novel] [Historia] Somos familia 
+      <span class="font-color-gold-1">(2)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+
+                      
+                        
+
+
+                      
+                        
+
+
+                      
+                    
+                  </div>
+                </div>
+              
+                
+                <div id="posts-list-it-things-and-development" data-category="IT Things and Development" data-parent-categories="">
+                  <a href="https://minayu.site/en/categories/it-things-and-development" class="blog-link-style">
+                    <div class = "py-3 text-sm border-b border-solid font-fondamento">IT Things and Development
+                    <span class="font-color-gold-1">(10)</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    
+                      
+                      
+                        
+
+
+                      
+                        
+
+  <div id="posts-list-architectural-design-and-innovative-solutions" data-category="Architectural Design and Innovative Solutions" data-parent-categories="it-things-and-development">
+  <a href="https://minayu.site/en/categories/architectural-design-and-innovative-solutions">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">Architectural Design and Innovative Solutions 
+      <span class="font-color-gold-1">(1)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+  <div id="posts-list-research-and-learning-note" data-category="Research and Learning Note" data-parent-categories="it-things-and-development">
+  <a href="https://minayu.site/en/categories/research-and-learning-note">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">Research and Learning Note 
+      <span class="font-color-gold-1">(6)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+  <div id="posts-list-start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy" data-category="[Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy!" data-parent-categories="it-things-and-development">
+  <a href="https://minayu.site/en/categories/start-up-diary-miri-robot-fortune-teller-making-product-is-not-easy">
+    <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[Start-Up Diary] Miri Robot Fortune Teller - Making Product Is Not Easy! 
+      <span class="font-color-gold-1">(3)</span>
+    </div>
+  </a>
+  
+  
+  
+  </div>
+
+
+                      
+                    
+                  </div>
+                </div>
+              
+            
+            </div>
+
+  
+          <div class="mb-10 border border-solid py-4 mt-10">
+              <p class="font-bold text-center text-gray grid-subtitle text-md">GALLERY</p>
+          </div>
+  
+          </div>
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+  
+  
+    
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div class="bg-white border-t border-solid">
+      <div class="container px-5 mx-auto">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <div class="text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2">
+        Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, 
+        my dream is designing my own personal website and now I did it, 
+        I changed the website name to @Mina Influence, want to encourage people by my influence.
+        I will continue to achieve more my dream in the future.
+        I just want to tell you, no matter your plan looks how hard and how unachievable, 
+        Once you begin to do it, everything will be changed.
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="bg-cyan-50 border-t border-solid">
+      <div class="text-gray-300 text-center text-md motto-block py-8 px-4">
+        Copy Right © 2022 @Mina Influence. Designed by MINA YU. Sign @MinaYu.
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+  </div>

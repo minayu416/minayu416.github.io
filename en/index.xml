@@ -6,7 +6,16 @@
     <description>Recent content on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Dec 2023 18:24:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2023 17:01:20 +0800</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Back-end skill] How to use Black Duck and Fortify On Demand APIs? (with Python Requests and Postman</title>
+      <link>https://minayu.site/en/2023/12/blackduck-fortify-on-demand-api-research/</link>
+      <pubDate>Wed, 06 Dec 2023 17:01:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/en/2023/12/blackduck-fortify-on-demand-api-research/</guid>
+      <description>&lt;p&gt;We have a lengthy security detection flow need to pass before each time we have new release to production, in the part of this flow, there are Black Duck and Fortify On Demand scans.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[Solutions] Research the lengthy security detection flow of product release, design and propose automating solutions (Fortify on Demand and Black Duck scans)</title>
       <link>https://minayu.site/en/2023/12/design-innovative-solutions-on-automating-product-release-flow/</link>
