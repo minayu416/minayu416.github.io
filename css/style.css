@@ -1261,10 +1261,6 @@ video {
   z-index: 10;
 }
 
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
 .-m-2{
   margin: -0.5rem;
 }
@@ -2688,6 +2684,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -2730,6 +2730,10 @@ video {
 }
 
 @media (min-width: 1024px){
+  .lg\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
