@@ -171,6 +171,11 @@
 	font-family: 'Fondamento';
 }
 
+.font-blink-mac-system-font {
+	font-family: 'BlinkMacSystemFont', ui-sans-serif;
+	font-weight: 200;
+}
+
 .font-honeybb {
 	font-family: HoneyMead BB;
 }
@@ -261,6 +266,37 @@
 
  .blog-carousel-img {
 	height: 35rem;
+}
+
+/* Miri official CSS */
+
+.miri-bg-color {
+	background: linear-gradient(to bottom, rgba(53, 53, 119) 60%, rgba(128, 103, 168));
+}
+
+.miri-navbar-color {
+	background-color: #242542;
+	border-color: #F8D77F;
+}
+
+.miri-title-color {
+ 	color: #F8D77F;
+}
+
+.miri-roadmap-color {
+	color: #C5A4E4;
+}
+
+.miri-develop-border-color {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.miri-motto-block-color {
+	background-color: #F8D77F;
+}
+
+.miri-develop-diary-wallpaper {
+	background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
 }
 
 
