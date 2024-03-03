@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[後端] 後端技術研究 on 月水瓶 @Mina 的人生實驗室</title>
+    <link>https://minayu.site/categories/%E5%BE%8C%E7%AB%AF-%E5%BE%8C%E7%AB%AF%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in [後端] 後端技術研究 on 月水瓶 @Mina 的人生實驗室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 04 Dec 2023 21:37:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E5%BE%8C%E7%AB%AF-%E5%BE%8C%E7%AB%AF%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[後端技術研究] Black Duck APIs 和 Fortify On Demand APIs 怎麼使用？ (透過Python Requests或Postman)</title>
+      <link>https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/</link>
+      <pubDate>Mon, 04 Dec 2023 21:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/12/blackduck-fortify-on-demand-api-research/</guid>
+      <description>&lt;p&gt;公司有一項冗長繁瑣的程式資安審核流程使用Black Duck和Fortify On Demand Scans，為了能達成自動化兩個掃描功能，我們研究了這兩項掃描服務的APIs，並在此文章紀錄我們的研究成果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[後端] 解決CORS跨域請求的研究筆記(Python FastAPI &#43; Firebase/Firestore)</title>
+      <link>https://minayu.site/2023/07/cors-resolution-note/</link>
+      <pubDate>Fri, 07 Jul 2023 13:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/07/cors-resolution-note/</guid>
+      <description>&lt;p&gt;由於最近在將我的命理服務的前端和後端串接，又遇到了CORS跨域問題，但我記得這個問題先前也有遇過，可是完全忘記之前怎麼解決，所以這次特地寫了一篇文章紀錄。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[後端] 如何使用Python Requests通過Jira APIs 達成基本的自動化功能 (創建Ticket、留Comment及上傳Attachment)</title>
+      <link>https://minayu.site/2023/07/jira-api-research/</link>
+      <pubDate>Sun, 02 Jul 2023 10:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/07/jira-api-research/</guid>
+      <description>&lt;p&gt;Jira 應該是許多軟體開發團隊會使用的一個專案管理進度控管工具。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[後端技術研究] Amazon Neptune 圖資料庫 (Graph Database)學習和資料視覺化(Data Visualization)</title>
+      <link>https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</link>
+      <pubDate>Fri, 16 Dec 2022 22:37:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2022/12/research-on-graph-database-and-its-visualization-with-neptune/</guid>
+      <description>&lt;p&gt;Amazon Neptune 圖資料庫 (Graph Database)學習和資料視覺化(Data Visualization)是我在公司這次的創新Idea Sprint的研究主題。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>從Heroku到Vercel | 將我的Python Web server 改成 Serverless Function (含其它Host選項)</title>
+      <link>https://minayu.site/2022/12/from-heroku-to-vercel/</link>
+      <pubDate>Sat, 10 Dec 2022 20:06:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2022/12/from-heroku-to-vercel/</guid>
+      <description>&lt;p&gt;我說，軟體開發這門領域的技術真的發展得十分迅速，還記得讀碩士時，前端的三大框架才剛出現。接著在第一家公司好不容易了Flask怎麼使用，如何建立一個App, 架起Web Server 跟寫API，沒想到在面試第二家公司時，Micro Service正夯，又是新的軟體架構設計模式。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

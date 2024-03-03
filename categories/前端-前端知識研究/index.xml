@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[前端] 前端知識研究 on 月水瓶 @Mina 的人生實驗室</title>
+    <link>https://minayu.site/categories/%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AD%98%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in [前端] 前端知識研究 on 月水瓶 @Mina 的人生實驗室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 18 Aug 2023 20:26:20 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AD%98%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[前端] 使用CSS linear-gradient與Figma轉化SVG達成簡單的漸層星空特效。</title>
+      <link>https://minayu.site/2023/08/frontend-how-to-do-simple-starry-sky-effect/</link>
+      <pubDate>Fri, 18 Aug 2023 20:26:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/08/frontend-how-to-do-simple-starry-sky-effect/</guid>
+      <description>&lt;p&gt;在開發自己設計的命理軟體，終於逐漸地進入到開發一些當初我覺得比較困難的效果設計。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[前端] CSS背景若使用漸層效果(linear-gradient)，又需要有改變背景顏色的需求，該如何做？</title>
+      <link>https://minayu.site/2023/08/frontend-linear-gradient-change-background/</link>
+      <pubDate>Sat, 12 Aug 2023 20:56:20 +0800</pubDate>
+      
+      <guid>https://minayu.site/2023/08/frontend-linear-gradient-change-background/</guid>
+      <description>&lt;p&gt;由於我自己開發的命理服務產品，有大量使用漸層效果渲染前端，為求美麗的頁面呈現，加上是自己自學前端工程，所以卡了這個問題有一段時間，後來解決了，撰寫一篇文章分享給需要的其他工程師小夥伴們。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
