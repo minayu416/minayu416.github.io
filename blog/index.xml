@@ -6,27 +6,36 @@
     <description>Recent content in Blogs on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 14 Mar 2024 16:47:56 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2024 20:26:56 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[前端小菜鳥] 前端工程師成長計畫 - 面試篇(0) | General 問題</title>
+      <title>[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(1) | Internet</title>
+      <link>https://minayu.site/2024/03/front-end-engineer-growing-up-plan-1/</link>
+      <pubDate>Sat, 16 Mar 2024 20:26:56 +0800</pubDate>
+      
+      <guid>https://minayu.site/2024/03/front-end-engineer-growing-up-plan-1/</guid>
+      <description>&lt;p&gt;第一篇讀書計畫的主題是網路Internet。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[前端小菜鳥] 前端工程師成長計畫 - 面試篇(2)</title>
+      <link>https://minayu.site/2024/03/front-end-engineer-interview-plan-2/</link>
+      <pubDate>Thu, 14 Mar 2024 14:36:56 +0800</pubDate>
+      
+      <guid>https://minayu.site/2024/03/front-end-engineer-interview-plan-2/</guid>
+      <description>&lt;p&gt;計畫趕不上變化，在我還準備要開始進入讀書計畫時，就有面試邀約，當下馬上調整為直接進入研讀面試題目的模式。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[前端小菜鳥] 前端工程師成長計畫 - 面試篇(1) | General 問題</title>
       <link>https://minayu.site/2024/03/front-end-engineer-interview-plan-general/</link>
-      <pubDate>Thu, 14 Mar 2024 16:47:56 +0800</pubDate>
+      <pubDate>Thu, 14 Mar 2024 13:47:56 +0800</pubDate>
       
       <guid>https://minayu.site/2024/03/front-end-engineer-interview-plan-general/</guid>
       <description>&lt;p&gt;由於最近我有些面試邀約，希望能將準備的過程記錄下來。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>[前端小菜鳥] 前端工程師成長計畫 - 面試篇(1)</title>
-      <link>https://minayu.site/2024/03/front-end-engineer-interview-plan-1/</link>
-      <pubDate>Thu, 14 Mar 2024 14:36:56 +0800</pubDate>
-      
-      <guid>https://minayu.site/2024/03/front-end-engineer-interview-plan-1/</guid>
-      <description>&lt;p&gt;計畫趕不上變化，在我還準備要開始進入讀書計畫時，就有面試邀約，當下馬上調整為直接進入研讀面試題目的模式。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(0)</title>
+      <title>[前端小菜鳥] 前端工程師成長計畫 - 完整讀書計畫</title>
       <link>https://minayu.site/2024/03/front-end-engineer-growing-up-plan/</link>
       <pubDate>Sun, 03 Mar 2024 22:56:56 +0800</pubDate>
       
