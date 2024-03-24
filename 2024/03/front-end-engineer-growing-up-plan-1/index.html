@@ -33,7 +33,7 @@
         "datePublished": "2024-03-16 20:26:56 \u002b0800 CST",
         "dateModified" : "2024-03-16 20:26:56 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2024\/03\/front-end-engineer-growing-up-plan-1\/",
-        "wordCount" : "840",
+        "wordCount" : "917",
         "keywords" : [ "前端工程師","讀書計畫","Internet","HTTP, TCP, UDP","Ajax react-query SWR fetchAPI","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(1) | Internet">
 <meta itemprop="description" content="按照初章節的前端讀書計畫目錄，第一項目我想從網路Internet的知識下手，此項目的知識關乎網際網路是如何溝通，前端又是如何和後端聯繫，這部分的知識由於在我作為後端工程師的前幾年面試也常被問到，所以將它作為首要研讀的項目。"><meta itemprop="datePublished" content="2024-03-16T20:26:56+08:00" />
 <meta itemprop="dateModified" content="2024-03-16T20:26:56+08:00" />
-<meta itemprop="wordCount" content="840">
+<meta itemprop="wordCount" content="917">
 <meta itemprop="keywords" content="前端工程師,讀書計畫,Internet,HTTP, TCP, UDP,Ajax react-query SWR fetchAPI," />
 
         
@@ -399,6 +399,8 @@ if (!doNotTrack) {
 <br>
 <h2 id="第二區---inernet-connection">第二區 - Inernet Connection</h2>
 <p><strong>幾種協議 (Protocols) 跟溝通方式 HTTP Requests, Server-Sent Event, 雙向溝通技術 WebSockets。補充: MQTT, SOAP, GraphQL</strong></p>
+<p><img src="https://mingjungyu.files.wordpress.com/2024/03/img_8755.png" alt=""></p>
+<p><em>這是我在LinkedIn上看到的圖，這些是比較常用的協定，有興趣可以深入探索，我也會在下面補充</em></p>
 <p>有鑒於<a href="/2024/03/front-end-engineer-interview-plan-1">面試篇</a>提及很多關於網路的知識，早期的我作為後端工程師對這些網路知識並沒有太多設略，但後來發現了解網路知識不但對面試或者是實作，無論是前端還是後端都很實用，是熱門的面試考題。</p>
 <p>既然面試篇有提到 Protocol，那邊這篇先從各項協議 Protocols開始介紹。</p>
 <ul>
@@ -417,6 +419,7 @@ if (!doNotTrack) {
 </ul>
 </li>
 <li>UDP</li>
+<li>TCP vs UDP</li>
 <li>MQTT 通訊協議 (IoT物聯網感測器通信)</li>
 <li>補充: SOAP</li>
 <li>補充: GraphQL</li>
@@ -487,6 +490,67 @@ If-Modified-Since: Fri, 10 Dec 2004 11:22:13 GMT
 <p>Websockets則是適合資料即時串流以及雙向資料傳輸，建立在TCP協議的穩定連線上，使資料能夠雙向交流，且確保資料能夠穩定傳輸。</p>
 <br>
 <h3 id="udp">UDP</h3>
+<p>UDP（User Datagram Protocol）是使用者資料報協定，是一種簡單的面向資料包的通信協定，位於OSI模型的傳輸層(第6層)。</p>
+<p>UDP與TCP（Transmission Control Protocol）是兩種最常用的傳輸層協定。TCP是一種可靠的協定，它會在發送端和接收端之間建立連線，並在傳輸資料時進行錯誤檢查和糾正。UDP則是一種不可靠的協定，它不會在發送端和接收端之間建立連線，也不進行錯誤檢查和糾正。</p>
+<p>UDP的優點是效率高、延遲低。由於UDP不需要進行錯誤檢查和糾正，因此其傳輸效率比TCP高。此外，UDP也不需要建立連線，因此其延遲比TCP低。</p>
+<p>UDP的缺點是不可靠。由於UDP不進行錯誤檢查和糾正，因此其傳輸的資料可能會丟失或損壞。</p>
+<p>UDP通常用於以下應用：</p>
+<ul>
+<li>
+<p>即時通訊: 即時通訊應用需要低延遲，因此通常使用UDP協定。</p>
+</li>
+<li>
+<p>流媒體: 流媒體應用需要高效率，因此通常使用UDP協定。</p>
+</li>
+<li>
+<p>遊戲: 遊戲應用需要低延遲，因此通常使用UDP協定。</p>
+</li>
+</ul>
+<br>
+<h3 id="tcp-vs-udp">TCP vs UDP</h3>
+<p>TCP 和 UDP 是兩種是最常用的「傳輸層」(第六層)協定。</p>
+<table>
+<thead>
+<tr>
+<th>協議</th>
+<th>TCP</th>
+<th>UDP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>解說</td>
+<td>TCP 是一種可靠的協定，它會在發送端和接收端之間建立連線，並在傳輸資料時進行錯誤檢查和糾正。</td>
+<td>UDP 則是一種不可靠的協定，它不會在發送端和接收端之間建立連線，也不進行錯誤檢查和糾正。</td>
+</tr>
+<tr>
+<td>優缺點</td>
+<td>TCP 的優點是可靠，能夠保證資料的完整性和正確性。TCP 的缺點是效率低、延遲高。</td>
+<td>UDP 的優點是效率高、延遲低。UDP 的缺點是不可靠，資料可能會丟失或損壞。</td>
+</tr>
+<tr>
+<td>運用場景</td>
+<td>Web 瀏覽: Web 瀏覽需要傳輸大量資料，並且需要保證資料的完整性和正確性，因此通常使用 TCP 協定。</td>
+<td>即時通訊: 即時通訊應用需要低延遲，因此通常使用 UDP 協定。</td>
+</tr>
+<tr>
+<td></td>
+<td>電子郵件: 電子郵件需要傳輸重要資訊，因此需要保證資料的完整性和正確性，因此通常使用 TCP 協定。</td>
+<td>流媒體: 流媒體應用需要高效率，因此通常使用 UDP 協定。</td>
+</tr>
+<tr>
+<td></td>
+<td>檔案傳輸: 檔案傳輸需要保證資料的完整性和正確性，因此通常使用 TCP 協定。</td>
+<td>遊戲: 遊戲應用需要低延遲，因此通常使用 UDP 協定。</td>
+</tr>
+<tr>
+<td>實際運用案例</td>
+<td>Web 瀏覽器（HTTP）、電子郵件（SMTP）、檔案傳輸（FTP）、遠端登入（Telnet）、資料庫存取（SQL）</td>
+<td>即時通訊（VoIP）、域名解析（DNS）、簡單網路管理協定（SNMP）、流媒體（RTP、RTCP）、遊戲</td>
+</tr>
+</tbody>
+</table>
+<p>在實際應用中，可以根據應用需求選擇合適的協定。如果需要保證資料的完整性和正確性，則應使用 TCP 協定。如果需要高效率或低延遲，則應使用 UDP 協定。</p>
 <br>
 <h3 id="mqtt-通訊協議">MQTT 通訊協議</h3>
 <p>有幸在作為軟體工程師的職涯中遇到IoT物聯網領域的專案，所以特別補充這項溝通協議。</p>
