@@ -33,7 +33,7 @@
         "datePublished": "2024-03-16 20:26:56 \u002b0800 CST",
         "dateModified" : "2024-03-16 20:26:56 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2024\/03\/front-end-engineer-growing-up-plan-1\/",
-        "wordCount" : "917",
+        "wordCount" : "959",
         "keywords" : [ "前端工程師","讀書計畫","Internet","HTTP, TCP, UDP","Ajax react-query SWR fetchAPI","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(1) | Internet">
 <meta itemprop="description" content="按照初章節的前端讀書計畫目錄，第一項目我想從網路Internet的知識下手，此項目的知識關乎網際網路是如何溝通，前端又是如何和後端聯繫，這部分的知識由於在我作為後端工程師的前幾年面試也常被問到，所以將它作為首要研讀的項目。"><meta itemprop="datePublished" content="2024-03-16T20:26:56+08:00" />
 <meta itemprop="dateModified" content="2024-03-16T20:26:56+08:00" />
-<meta itemprop="wordCount" content="917">
+<meta itemprop="wordCount" content="959">
 <meta itemprop="keywords" content="前端工程師,讀書計畫,Internet,HTTP, TCP, UDP,Ajax react-query SWR fetchAPI," />
 
         
@@ -418,6 +418,7 @@ if (!doNotTrack) {
 <li>WebSockets (雙向溝通技術)</li>
 </ul>
 </li>
+<li>HTTP Requests vs Websockets</li>
 <li>UDP</li>
 <li>TCP vs UDP</li>
 <li>MQTT 通訊協議 (IoT物聯網感測器通信)</li>
@@ -485,9 +486,51 @@ If-Modified-Since: Fri, 10 Dec 2004 11:22:13 GMT
 <p>與HTTP不同，WebSockets連接一旦建立，可以持續存在，並且可以在任何時候雙向傳送資訊。(由於我也沒什麼經驗碰過WebSockets，所以這個時候就可以斗膽猜測魔獸世界只要經過最一開始的登入頁面，登入等同連線建立，那之後的角色列表跟進入遊戲冒險應該都是不間斷的資料傳輸囉!?)</p>
 <p>詳細應用可參考網站：<a href="https://medium.com/enjoy-life-enjoy-coding/javascript-websocket-%E8%AE%93%E5%89%8D%E5%BE%8C%E7%AB%AF%E6%B2%92%E6%9C%89%E8%B7%9D%E9%9B%A2-34536c333e1b">JavaScript | WebSocket 讓前後端沒有距離</a></p>
 <br>
-<p>HTTP vs Websockets</p>
+<h3 id="http-requests-vs-websockets">HTTP Requests vs Websockets</h3>
 <p>HTTP主要基於 Client-Server Model，也就是由客戶端傳需求至伺服器端，再由伺服器端收到需求後處理完回傳回應(Response)，每次HTTP需求都是獨立且斷開，而且只能由客戶端發送單向請求。</p>
 <p>Websockets則是適合資料即時串流以及雙向資料傳輸，建立在TCP協議的穩定連線上，使資料能夠雙向交流，且確保資料能夠穩定傳輸。</p>
+<table>
+<thead>
+<tr>
+<th>協議</th>
+<th>HTTP</th>
+<th>WebSocket</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>連線方式</td>
+<td>HTTP 是一種<code>短連線</code>協定，每次請求都需要建立新的連線。</td>
+<td>WebSocket 是一種<code>長連線</code>協定，在建立連線後，客戶端和服務器可以一直保持連線狀態。</td>
+</tr>
+<tr>
+<td>通訊方式</td>
+<td>HTTP 是一種<code>單向</code>通訊協定，只能由客戶端向服務器發送請求。</td>
+<td>WebSocket 是一種<code>雙向</code>通訊協定，客戶端和服務器都可以互相發送資料。</td>
+</tr>
+<tr>
+<td>資料格式</td>
+<td>HTTP 只能傳輸<code>文字</code>資料。</td>
+<td>WebSocket 可以傳輸<code>文字資料、二進位制資料</code>和<code>其他類型資料</code>。</td>
+</tr>
+<tr>
+<td>應用場景</td>
+<td>HTTP 通常用於 <code>Web 瀏覽</code>、<code>檔案下載</code>等應用。</td>
+<td>WebSocket 通常用於<code>即時通訊</code>、<code>流媒體</code>等應用。</td>
+</tr>
+<tr>
+<td>優點</td>
+<td>簡單易用、通用性強</td>
+<td>效率高、延遲低</td>
+</tr>
+<tr>
+<td>缺點</td>
+<td>效率低、延遲高</td>
+<td>複雜度高、通用性弱</td>
+</tr>
+</tbody>
+</table>
+<p>HTTP 和 WebSocket 都是用於在客戶端和服務器之間傳輸資料的協定。HTTP 是一種簡單易用、通用性強的協定，但效率低、延遲高。WebSocket 是一種效率高、延遲低的協定，但複雜度高、通用性弱。在實際應用中，可以根據應用需求選擇合適的協定。</p>
 <br>
 <h3 id="udp">UDP</h3>
 <p>UDP（User Datagram Protocol）是使用者資料報協定，是一種簡單的面向資料包的通信協定，位於OSI模型的傳輸層(第6層)。</p>
