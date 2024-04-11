@@ -6,6 +6,52 @@
     <description>Recent content in Miri on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/miri/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/miri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>網站版本 - 用Next.js重構 &#43; 修改使用者體驗</title>
+      <link>https://minayu.site/miri/ver.2.1.0/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.2.1.0/</guid>
+      <description>此版正在使用者測試中。順帶根據某些使用者體驗後的回饋意見做修改。
+改善動畫會卡頓跟遲鈍的效能問題 (remove transition all)。 改善會造成誤會的筊杯解釋。 將切牌跟選牌陣的步驟交換。 將服務部署於新的網域。 用Next.js重構服務，優化SEO問題。 </description>
+    </item>
+    
+    <item>
+      <title>開發網站版本</title>
+      <link>https://minayu.site/miri/ver.2.0.0/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.2.0.0/</guid>
+      <description>開始學習前端軟體技術，並使用React.js開發Miri網頁版本，此版本先用Figma設計UI流程、將原先在Line聊天機器人的內容重建於網頁，以及開放塔羅牌占卜的解釋。Line 和 Telegram聊天機器人可能會走入歷史。</description>
+    </item>
+    
+    <item>
+      <title>Line 聊天機器人 x Telegram 聊天機器人版本 - 新增5個占卜模式</title>
+      <link>https://minayu.site/miri/ver.1.2.0/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.2.0/</guid>
+      <description>歷經第二份工作畢業後，版本1.2新增Telegram的聊天機器人版本，並在原本僅有盧恩符文一個占卜方式，新增為六個占卜方式: 盧恩符文、塔羅牌占卜、雷諾曼牌卡、寺廟筊杯、自然絮語短語卡、智慧贈言，塔羅牌占卜此版僅開放抽牌，未開放解釋。</description>
+    </item>
+    
+    <item>
+      <title>Line 聊天機器人版本 - 開發盧恩符文占卜</title>
+      <link>https://minayu.site/miri/ver.1.0.1/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.0.1/</guid>
+      <description>歷經第一份工作畢業後，版本1.1決定把Miri的定位改成線上命理與占卜，並在Line聊天機器人版本新增第一個占卜方法: 盧恩符文占卜。</description>
+    </item>
+    
+    <item>
+      <title>建立 Line 聊天機器人版本</title>
+      <link>https://minayu.site/miri/ver.1.0.0/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.0.0/</guid>
+      <description>Miri機器人占卜師最一開始的定位是聊天機器人，最初版是創建Line聊天機器人。想向Apple的Siri致敬，因此取名 Miri。</description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,6 +6,52 @@
     <description>Recent content in Miri on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/miri/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/miri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web App - Refactor by Next.js &#43; Optimize UX flow</title>
+      <link>https://minayu.site/en/miri/ver.2.1.0/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.2.1.0/</guid>
+      <description>In UAT testing now. Also fixed some UX experience based on Users feedback.
+Fixed lag animation and optimization performance (remove transition all). Removed confused Poe description. Switch the step of meditation and choose spread. Deploy service to new domain. Optimized SEO by using Next.js to refactor service. </description>
+    </item>
+    
+    <item>
+      <title>Developed Web App</title>
+      <link>https://minayu.site/en/miri/ver.2.0.0/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.2.0.0/</guid>
+      <description>Embarking on the journey of learning frontend software technologies and developing the Miri web version using React.js. For this version, UI flow is designed using Figma, and the content originally present in the Line chatbot is reconstructed for the web. Additionally, Tarot card divination explanations are made available. The Line and Telegram chatbots may eventually become part of history.</description>
+    </item>
+    
+    <item>
+      <title>Line Chatbot x Telegram Chatbot - Create additional 5 new divination methods</title>
+      <link>https://minayu.site/en/miri/ver.1.2.0/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.1.2.0/</guid>
+      <description>Following the completion of the second job experience, version 1.2 introduced a Telegram chatbot version. In addition to the existing Runes divination method, six new divination methods were added: Runes, Tarot Card Reading, Lenormand Card Reading, Temple Poe (筊杯), Nature Whispers Phrase Cards, and Inspirational Wisdom Sentences. The Tarot Card Reading feature in this version is limited to card drawing, with no available interpretations.</description>
+    </item>
+    
+    <item>
+      <title>Line Chatbot - Developed Rune divination</title>
+      <link>https://minayu.site/en/miri/ver.1.0.1/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.1.0.1/</guid>
+      <description>Following the first job experience, version 1.1 saw Miri redefining its focus as an online fortune-telling and divination service. The initial divination method, Runes divnation, was introduced in the Line chatbot version.</description>
+    </item>
+    
+    <item>
+      <title>Create Line Chatbot</title>
+      <link>https://minayu.site/en/miri/ver.1.0.0/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.1.0.0/</guid>
+      <description>Miri Robot fortune-teller, was originally conceived as a chatbot, and the initial version was developed as a Line chatbot. The name Miri was chosen as a homage to Apple&amp;rsquo;s Siri.</description>
+    </item>
+    
   </channel>
 </rss>

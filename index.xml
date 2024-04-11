@@ -6,7 +6,26 @@
     <description>Recent content on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 16 Mar 2024 20:26:56 +0800</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>網站版本 - 用Next.js重構 &#43; 修改使用者體驗</title>
+      <link>https://minayu.site/miri/ver.2.1.0/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.2.1.0/</guid>
+      <description>此版正在使用者測試中。順帶根據某些使用者體驗後的回饋意見做修改。
+改善動畫會卡頓跟遲鈍的效能問題 (remove transition all)。 改善會造成誤會的筊杯解釋。 將切牌跟選牌陣的步驟交換。 將服務部署於新的網域。 用Next.js重構服務，優化SEO問題。 </description>
+    </item>
+    
+    <item>
+      <title>開發網站版本</title>
+      <link>https://minayu.site/miri/ver.2.0.0/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.2.0.0/</guid>
+      <description>開始學習前端軟體技術，並使用React.js開發Miri網頁版本，此版本先用Figma設計UI流程、將原先在Line聊天機器人的內容重建於網頁，以及開放塔羅牌占卜的解釋。Line 和 Telegram聊天機器人可能會走入歷史。</description>
+    </item>
+    
     <item>
       <title>[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(1) | Internet</title>
       <link>https://minayu.site/2024/03/front-end-engineer-growing-up-plan-1/</link>
@@ -554,6 +573,15 @@
     </item>
     
     <item>
+      <title>Line 聊天機器人 x Telegram 聊天機器人版本 - 新增5個占卜模式</title>
+      <link>https://minayu.site/miri/ver.1.2.0/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.2.0/</guid>
+      <description>歷經第二份工作畢業後，版本1.2新增Telegram的聊天機器人版本，並在原本僅有盧恩符文一個占卜方式，新增為六個占卜方式: 盧恩符文、塔羅牌占卜、雷諾曼牌卡、寺廟筊杯、自然絮語短語卡、智慧贈言，塔羅牌占卜此版僅開放抽牌，未開放解釋。</description>
+    </item>
+    
+    <item>
       <title>[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)</title>
       <link>https://minayu.site/2020/08/love-anxious-preoccupied-attachment-1-message/</link>
       <pubDate>Sun, 02 Aug 2020 19:32:12 +0800</pubDate>
@@ -704,6 +732,15 @@
       <guid>https://minayu.site/2019/10/travel-2019-alishan-and-tsou-hordes-part1/</guid>
       <description>&lt;p&gt;我想要不是這次想到可以克制暈車就是坐在司機旁前座，我大概也像以往一樣坐後座上車睡覺下車尿尿不知何去處。&lt;/p&gt;
 &lt;p&gt;為何？ 因為司機旁前座的人要導航要清醒著和司機聊天，也就知道我們現在在何處待會要去何處，以及了解更多原住民部落的歷史、文化與各種傳奇故事(八卦 XD)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Line 聊天機器人版本 - 開發盧恩符文占卜</title>
+      <link>https://minayu.site/miri/ver.1.0.1/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.0.1/</guid>
+      <description>歷經第一份工作畢業後，版本1.1決定把Miri的定位改成線上命理與占卜，並在Line聊天機器人版本新增第一個占卜方法: 盧恩符文占卜。</description>
     </item>
     
     <item>
@@ -2067,6 +2104,15 @@ truncate TABLE User;
 &lt;p&gt;而這讓我產生了想養蝦的慾望&lt;/p&gt;
 &lt;p&gt;而這個慾望在我去年從北海道將綠球藻帶回來的時候成真了！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>建立 Line 聊天機器人版本</title>
+      <link>https://minayu.site/miri/ver.1.0.0/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/miri/ver.1.0.0/</guid>
+      <description>Miri機器人占卜師最一開始的定位是聊天機器人，最初版是創建Line聊天機器人。想向Apple的Siri致敬，因此取名 Miri。</description>
     </item>
     
     <item>
