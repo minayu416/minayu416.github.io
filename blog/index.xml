@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 16 Mar 2024 20:26:56 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 22:57:00 +0800</lastBuildDate><atom:link href="https://minayu.site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>購買新的Domain後，如何跟Github Page連接</title>
+      <link>https://minayu.site/2024/04/buy-domain-and-host-on-github/</link>
+      <pubDate>Sat, 20 Apr 2024 22:57:00 +0800</pubDate>
+      
+      <guid>https://minayu.site/2024/04/buy-domain-and-host-on-github/</guid>
+      <description>&lt;p&gt;前陣子我把我自己設計的占卜軟體 Miri 用Next.js重構完成。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(1) | Internet</title>
       <link>https://minayu.site/2024/03/front-end-engineer-growing-up-plan-1/</link>
