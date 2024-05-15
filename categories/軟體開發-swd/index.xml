@@ -6,7 +6,16 @@
     <description>Recent content in 軟體開發 SWD on 月水瓶 @Mina 的人生實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 28 Apr 2024 22:10:56 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 May 2024 22:10:56 +0800</lastBuildDate><atom:link href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(2) | HTTP/CSS(1)</title>
+      <link>https://minayu.site/2024/05/front-end-engineer-growing-up-plan-2/</link>
+      <pubDate>Wed, 15 May 2024 22:10:56 +0800</pubDate>
+      
+      <guid>https://minayu.site/2024/05/front-end-engineer-growing-up-plan-2/</guid>
+      <description>&lt;p&gt;第二篇讀書計畫的主題是HTML/CSS。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>[前端小菜鳥] 前端工程師成長計畫 - 實戰經驗篇(1) | React.js &#43; Class Component with Lifecycle Methods vs Functional Hook</title>
       <link>https://minayu.site/2024/04/front-end-engineer-growing-up-experience-1/</link>
