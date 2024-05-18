@@ -6,7 +6,17 @@
     <description>Recent content on @Mina Influence</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://minayu.site/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web App - UI/UX optimization</title>
+      <link>https://minayu.site/en/miri/ver.2.1.1/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://minayu.site/en/miri/ver.2.1.1/</guid>
+      <description>In UAT testing now. Also fixed some UX experience based on Users feedback.
+Click cards in Introduction page, now will go to next step. Fixed double title when scrolling the card explanation. Fixed the English explanation oversized in card. Optimized the UI effect in button. Fixed some special characters in card explanation. </description>
+    </item>
+    
     <item>
       <title>Web App - Refactor by Next.js &#43; Optimize UX flow</title>
       <link>https://minayu.site/en/miri/ver.2.1.0/</link>
