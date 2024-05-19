@@ -33,7 +33,7 @@
         "datePublished": "2024-05-15 22:10:56 \u002b0800 CST",
         "dateModified" : "2024-05-15 22:10:56 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2024\/05\/front-end-engineer-growing-up-plan-2\/",
-        "wordCount" : "1033",
+        "wordCount" : "1085",
         "keywords" : [ "前端工程師","讀書計畫","HTML","CSS","Box-model selectors","Personal Website", "個人網站"]
     }
     </script>
@@ -91,7 +91,7 @@
         <meta itemprop="name" content="[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(2) | HTTP/CSS(1)">
 <meta itemprop="description" content="此篇文章會正式進入研讀前端的HTTP/CSS知識，文章最初有將預計的讀書資源列出，其他的就是自己本身做筆記而已。"><meta itemprop="datePublished" content="2024-05-15T22:10:56+08:00" />
 <meta itemprop="dateModified" content="2024-05-15T22:10:56+08:00" />
-<meta itemprop="wordCount" content="1033">
+<meta itemprop="wordCount" content="1085">
 <meta itemprop="keywords" content="前端工程師,讀書計畫,HTML,CSS,Box-model selectors," />
 
         
@@ -401,6 +401,7 @@ if (!doNotTrack) {
 <li><input checked="" disabled="" type="checkbox"> <a href="#compound">Compound selectors</a></li>
 </ul>
 </li>
+<li><input checked="" disabled="" type="checkbox"> <a href="lesson">本節小課程 - Hidden vs Visibility</a></li>
 </ul>
 </li>
 </ul>
@@ -580,8 +581,6 @@ Disallow: /
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>CSS 預設使用 default box-sizing: content-box，所以第一個css實際上寬度是 260px，而第二個是200px (總寬)。</p>
 <br>
-<p>跳痛一下：有興趣可以探索一下 hidden vs invisible 的不同，個人強烈的感覺&hellip;，面試有機會考到XD。</p>
-<br>
 <h3 id="a-nameselectoraselector"><a name="selector"></a>Selector</h3>
 <h4 id="a-nameselecror-typeaselector-type"><a name="selecror-type"></a>Selector Type</h4>
 <p>再來進入 Selector的概念，基本上本人也只用過幾個，最常用的還是 <code>.class</code>，正所謂 .class 從頭到尾。</p>
@@ -721,6 +720,32 @@ Disallow: /
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>這個範例是這個style效果只會 apply 到 <code>&lt;a class=&quot;.my-class&quot;&gt;</code>。</p>
 <p>未來的章節也會學習到。</p>
+<br>
+<h3 id="a-namelessona本節小課程---hidden-vs-visibility"><a name="lesson"></a>本節小課程 - Hidden vs Visibility</h3>
+<p>關於這個CSS的知識點，今天來介紹 Hidden vs Visibility，兩者都跟視覺上的<code>不見</code>或<code>顯示</code>相關。</p>
+<p>我們來看一下TailwindCSS的官方網站</p>
+<ul>
+<li><a href="https://tailwindcss.com/docs/display#hidden">Display</a></li>
+<li><a href="https://tailwindcss.com/docs/visibility">Visibility</a></li>
+</ul>
+<p>眼尖的人可以看到關於 hidden 有兩個概念</p>
+<ul>
+<li>display: none;</li>
+<li>visibility: hidden;</li>
+</ul>
+<p><code>display: none;</code> 是廣義上的 hidden，大部分的網頁設計，如果透過css class或 javascript去手動加入 hidden，都跟 <code>display: none;</code> 相關，這一行的意思是<code>隱藏</code>整個元素，所以如果有相鄰的其他元素，會因為他的隱藏而變動</p>
+<p>抽象概念圖是這樣的</p>
+<p>[div1][div2][div3]</p>
+<p>假設今天把 div2 設成 <code>display: none;</code>，那會變成以下的樣子</p>
+<p>[div1][div3]</p>
+<p>相當於整個元素都被移除隱藏掉。</p>
+<br>
+<p>可是如果今天是 visibility 的 <code>visibility: hidden;</code>，則只是讓那個元素不顯示，但他的位置實際還是在的。</p>
+<p>所以假設三個div位置是這樣</p>
+<p>[div1][div2][div3]</p>
+<p>將 div2 設成 <code>visibility: hidden;</code>後，長這樣:</p>
+<p>[div1][___][div3]</p>
+<p>大概就是這樣，這邊用字很容易混淆，但如果有特別被問到，要記得他們不太一樣，或者實際案例需要實作時，可以有兩種不同的隱藏方式。</p>
               </article>
               </div>
   
@@ -802,6 +827,39 @@ Disallow: /
         
           
           
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
           
         
         
@@ -9655,7 +9713,7 @@ Disallow: /
                 <div id="posts-list-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd" data-category="軟體開發 SWD" data-parent-categories="">
                   <a href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">軟體開發 SWD
-                    <span class="font-color-gold-1">(100)</span>
+                    <span class="font-color-gold-1">(101)</span>
                     </div>
                   </a>
 
@@ -9720,7 +9778,7 @@ Disallow: /
   <div id="posts-list-%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E6%88%90%E9%95%B7%E8%A8%88%E7%95%AB" data-category="[前端] 前端小菜鳥成長計畫" data-parent-categories="%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd">
   <a href="https://minayu.site/categories/%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E6%88%90%E9%95%B7%E8%A8%88%E7%95%AB">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[前端] 前端小菜鳥成長計畫 
-      <span class="font-color-gold-1">(6)</span>
+      <span class="font-color-gold-1">(7)</span>
     </div>
   </a>
   
