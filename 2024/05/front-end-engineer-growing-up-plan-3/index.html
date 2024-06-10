@@ -33,8 +33,8 @@
         "datePublished": "2024-05-20 00:10:56 \u002b0800 CST",
         "dateModified" : "2024-05-20 00:10:56 \u002b0800 CST",
         "url" : "https:\/\/minayu.site\/2024\/05\/front-end-engineer-growing-up-plan-3\/",
-        "wordCount" : "822",
-        "keywords" : [ "前端工程師","讀書計畫","CSS","The cascade","Specificity","Personal Website", "個人網站"]
+        "wordCount" : "1044",
+        "keywords" : [ "前端工程師","CSS","The cascade","Specificity","Inheritance","Personal Website", "個人網站"]
     }
     </script>
         
@@ -91,8 +91,8 @@
         <meta itemprop="name" content="[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(3) | CSS(2) css樣式優先度計算">
 <meta itemprop="description" content="此篇文章將介紹CSS的知識，特別與CSS樣式的優先度規則與計算相關的知識。最後附上關於CSS不同的單位介紹"><meta itemprop="datePublished" content="2024-05-20T00:10:56+08:00" />
 <meta itemprop="dateModified" content="2024-05-20T00:10:56+08:00" />
-<meta itemprop="wordCount" content="822">
-<meta itemprop="keywords" content="前端工程師,讀書計畫,CSS,The cascade,Specificity," />
+<meta itemprop="wordCount" content="1044">
+<meta itemprop="keywords" content="前端工程師,CSS,The cascade,Specificity,Inheritance," />
 
         
             
@@ -369,6 +369,17 @@ if (!doNotTrack) {
 <li><input checked="" disabled="" type="checkbox"> <a href="#increasing-specificity">Pragmatically increasing specificity</a></li>
 </ul>
 </li>
+<li><input checked="" disabled="" type="checkbox"> <a href="#inheritance">Inheritance</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="#control-inherit">How to explicitly inherit and control inheritance</a>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="#inherit">Inherit</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="#initial">Initial</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="#unset">Unset</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><input checked="" disabled="" type="checkbox"> <a href="#lesson">本節小課程 - CSS 大小單位</a></li>
 </ul>
 </li>
@@ -581,6 +592,99 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>這樣按鈕就是 blue。</p>
 <br>
+<h3 id="a-nameinheritanceainheritance"><a name="inheritance"></a>Inheritance</h3>
+<p>後來發現這個章節跟前面相關，所以就將 Inheritance 更新在此篇文章。</p>
+<p>先來引用這個章節的第一個例子，但我做了些改變</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">my-button</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">inline-block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">pink</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">article</span> <span style="color:#f92672">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">maroon</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://example.com&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-button&#34;</span>&gt;I am a button link&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><p>你認為 a link 的字的顏色是什麼顏色？</p>
+<p>如果結合上面兩個章節來看，會是 blue。因為在前兩個章節提到， class的selector分數比html attribute (article, a)高，所以在優先度來看，會優先選擇 <code>class=&quot;.my-button&quot;</code>的樣式，再選擇 <code>article a</code>，如果他內部有其他樣式是<code>.my-button</code>沒有定義的。</p>
+<br>
+<h4 id="a-namecontrol-inheritahow-to-explicitly-inherit-and-control-inheritance"><a name="control-inherit"></a>How to explicitly inherit and control inheritance</h4>
+<p>接著本章重點介紹這三個相關的關鍵字怎麼使用</p>
+<ul>
+<li>The inherit keyword</li>
+<li>The initial keyword</li>
+<li>The unset keyword</li>
+</ul>
+<br>
+<p><a name="inherit">Inherit</p>
+<p><code>inherit</code> 關鍵字就是字面上的意思「繼承」，使用後他會繼承父元素所設定的值。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">parent</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">child</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">inherit</span>; <span style="color:#75715e">/* child 會繼承 parent 設定的值，也就是 color: red */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>但這例子很抽象，再舉一個</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">strong</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">900</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">my-component</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#ae81ff">500</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">my-component</span> <span style="color:#f92672">strong</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-component&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">strong</span>&gt;test
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">strong</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><p>今天想要特別在<code>class=&quot;my-component&quot;</code>底下的<code>strong</code>他的font-weight繼承<code>class my-component</code> (即500)，我就用上面列舉的寫法</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">my-component</span> <span style="color:#f92672">strong</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>這樣，所有在 <code>div class=&quot;my-component&quot;</code>底下的<code>strong</code>，他們的font-weight就都會是500，繼承<code>class my-component</code>所設定。</p>
+<br>
+<p><a name="initial">Initial</p>
+<p>而<code>initial</code>這個關鍵字，則是賦予你有重置(reset)的功能，然後再將值繼承最<code>default</code>的值(通常是瀏覽器原生的值)。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">aside</span> <span style="color:#f92672">strong</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">initial</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>比方說，他把原先 <code>strong</code>的設定透過 <code>initial</code> 重設， 那原先strong會是<code>粗體字</code>或者設為 <code>font-weight: 900;</code>，重置後，字會變成瀏覽器原先設計的粗細 (也許是<code>細字</code>或<code>font-weight: 200;</code>)。</p>
+<br>
+<p><a name="unset">Unset</p>
+<p>最後則是 <code>unset</code> 關鍵字，這個關鍵字有兩種用法，「他<code>保留</code> 擁有繼承屬性的值、但<code>重設</code> 沒有繼承屬性的值」。</p>
+<p>舉下面這個例:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">foo</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">bar</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">bar</span> <span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">unset</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>在這樣的情況下 <code>.bar p</code> 的字會是綠色，因為 <code>&lt;div class=&quot;.bar&quot;&gt;</code> 是父元素，底下的 <code>&lt;p&gt;</code> 繼承父元素的顏色，所以是綠色。</p>
+<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">div</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">green</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">bar</span> <span style="color:#f92672">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-color</span>: <span style="color:#66d9ef">unset</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>在這個例子中，<code>&lt;p&gt;</code>設置的邊框樣式是 <code>1px solid red;</code>，邊框顏色是紅色。但是在 <code>.bar p</code> 樣式時，<code>unset</code> 了 <code>border-color</code> 這個值，我們可以看到上面的selector都沒有賦予 <code>border-color</code>這個屬性，所以在這 <code>.bar p</code> 邊框顏色其實會被重設為跟瀏覽器一樣 (通常是黑色)。</p>
+<br>
 <h3 id="a-namelessona本節小課程---css-大小單位"><a name="lesson"></a>本節小課程 - CSS 大小單位</h3>
 <p>最後，我自己塞一個小小的課程，就是有關CSS的單位大小。</p>
 <p><a href="https://www.oxxostudio.tw/articles/201809/css-font-size.html">參考網站</a></p>
@@ -673,6 +777,39 @@ if (!doNotTrack) {
         
           
           
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+            
+            
+            
           
         
         
@@ -9559,7 +9696,7 @@ if (!doNotTrack) {
                 <div id="posts-list-%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd" data-category="軟體開發 SWD" data-parent-categories="">
                   <a href="https://minayu.site/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd" class="blog-link-style">
                     <div class = "py-3 text-sm border-b border-solid font-fondamento">軟體開發 SWD
-                    <span class="font-color-gold-1">(101)</span>
+                    <span class="font-color-gold-1">(102)</span>
                     </div>
                   </a>
 
@@ -9624,7 +9761,7 @@ if (!doNotTrack) {
   <div id="posts-list-%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E6%88%90%E9%95%B7%E8%A8%88%E7%95%AB" data-category="[前端] 前端小菜鳥成長計畫" data-parent-categories="%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-swd">
   <a href="https://minayu.site/categories/%E5%89%8D%E7%AB%AF-%E5%89%8D%E7%AB%AF%E5%B0%8F%E8%8F%9C%E9%B3%A5%E6%88%90%E9%95%B7%E8%A8%88%E7%95%AB">
     <div class="py-3 pl-6 text-sm border-b border-solid font-color-black-1 font-fondamento">[前端] 前端小菜鳥成長計畫 
-      <span class="font-color-gold-1">(7)</span>
+      <span class="font-color-gold-1">(8)</span>
     </div>
   </a>
   
