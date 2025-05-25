@@ -1,0 +1,198 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2020/05/three-class-in-my-life-problem-solving","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2020/05/three-class-in-my-life-problem-solving","c"],{"children":["__PAGE__?{\"routes\":[\"2020\",\"05\",\"three-class-in-my-life-problem-solving\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2020/05/three-class-in-my-life-problem-solving","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(2) - 解決問題的能力 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"受公司的福利，我有機會在線上選修三門自己認為需要的課程，分別是: 壓力與情緒、溝通、解決問題的能力, 我認為這是現階段，我最需要的課題與最想去了解的心理學。在這篇文章，我會寫有關我上的第二堂課: 解決問題的能力。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"solve problem,解決問題的能力"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2020/05/three-class-in-my-life-problem-solving/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2020/05/three-class-in-my-life-problem-solving/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(2) - 解決問題的能力"}],["$","meta","19",{"property":"og:description","content":"受公司的福利，我有機會在線上選修三門自己認為需要的課程，分別是: 壓力與情緒、溝通、解決問題的能力, 我認為這是現階段，我最需要的課題與最想去了解的心理學。在這篇文章，我會寫有關我上的第二堂課: 解決問題的能力。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2020/05/three-class-in-my-life-problem-solving/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2020-05-31T07:39:21.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(2) - 解決問題的能力"}],["$","meta","33",{"name":"twitter:description","content":"受公司的福利，我有機會在線上選修三門自己認為需要的課程，分別是: 壓力與情緒、溝通、解決問題的能力, 我認為這是現階段，我最需要的課題與最想去了解的心理學。在這篇文章，我會寫有關我上的第二堂課: 解決問題的能力。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T4004,<p>來到了本次選修的第二堂課 - 解決問題的能力</p>
+<p>還記得當初公司送課單過來時，我記得有八堂課</p>
+<p>在一個平時要挪時間出來學新的程式語言以及練演算法，再加上學西班牙文的三重狀況下，我看到了我幾門課想選修，感覺會對我特別有幫助，我就選了這三堂我認為現階段對我非常有幫助，也是我認為自己很缺乏的課程</p>
+<p>壓力控管, 溝通能力和解決問題的能力。</p>
+<p>最近在公司工作的狀況，我有很大的體悟，繼上篇文章 <a href="/2020/05/three-class-in-my-life-stress-and-emotion/">[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(1) - 壓力與情緒</a>，文章開頭就有說明自己最近到底在忙什麼，很感謝今年的自己與上天給了我一個這麼大的機會，讓我能夠挑戰我以前認為很困難，甚至覺得這輩子大概都學不好的三門新的知識領域: <code>西班牙文</code>, <code>Java</code>, <code>演算法</code>。</p>
+<p>而雖然點進來的觀眾也許是想了解這堂課在做什麼，但我認為我最近發生的這些事情跟領悟的道理還真的有這麼點扣題呢。</p>
+<p>那在開頭就先分享一下自己最近在職場上遇到的事情跟觀念牴觸後的改觀吧！</p>
+<p>有看我介紹或者文章，應該會知道我是一個軟體開發技術團隊的後端軟體工程師，接下來的一些個人見解，會以 <code>我是一個工程師的角度出發</code>，當然我知道有很多很多的故事及愛恨情仇圍繞在 <code>業務人員</code>, <code>設計師</code>, <code>專案管理</code>, <code>公司營運</code> 當中，來看看最近我的體悟。</p>
+<h3>前言一 - 人不是完美的</h3>
+<p>我總是覺得自己不夠完美，每次看心理測驗或者焦慮測量表，都會寫著 <code>對事情要求完美的特質</code>，然而我從來不這麼的覺得，就我自己本人感覺，我並不覺得我要求完美。</p>
+<p>然而最近我真的就像一顆燈泡亮出來的瞬間，我發現 <code>原來我是真的很要求完美，而把自己逼進死角</code>。</p>
+<p>當跑 Scrum 會議，我已經大概有幾週進度都 Fail，都是那種我覺得這任務很簡單，一定做得完，但卻一直 Fail</p>
+<p>我開始抽絲剝繭的去分析，當然我也同時跟我的主管兼專案經理解釋，為什麼我會 Fail。</p>
+<p>我慢慢把問題抽絲剝繭後，我發現:</p>
+<ul>
+<li>因為技術能力變好了，所以我開始在想如何能夠讓程式碼更精簡，並利用更好的寫法與更好的資料結構來完成功能</li>
+<li>追求要能夠運行無 bug，設想所有可能會出的錯誤，並作避免</li>
+</ul>
+<p>即便技術能力變好了，但我的技術能力也還是沒有寫 3.4 年技術的前輩們厲害，以上兩點是我覺得我花最多時間的要點</p>
+<p>尤其是每次每週結束後，開檢討會議，主管兼專案經理都會提出我們的程式可以怎麼改善，例如怎麼寫用什麼技術比較好，例如怎麼提昇資料庫效能，例如使用什麼設計模式。</p>
+<p>每週 每週的 提出需要改善的點，直到現在我在撰寫程式時，我都會想得十分的細節，瞻前顧後，希望能夠面面俱到，追求完美。</p>
+<p>然而這樣拖慢了我的進度，於是我開始在想一件事。</p>
+<p><code>要怎麼能夠在有限的時間內，既能夠做到程式品質高, 效能高並無Bug?</code>, 這個問題我在週一會議時，直接就問了我們主管，並反映因為上述的原因，我讓這週任務 Fail 了，我很追求完美，我覺得這個程式沒到達我的完美底線，我是不會想送上 PR 跟主線 Merge。</p>
+<p>我原本以為有可能是我的技術能力不夠，事實上是有可能的。但我們主管則是回復了我這些話:</p>
+<p><code>你程式寫得再好，客戶也不會感激你</code>，<code>那是因為我們是技術團隊，我們才需要去要求技術精進</code></p>
+<p>可是你要知道，公司為什麼要營運？就是為了賺錢，業務怎麼賺錢，就是跟廠商達成時間交付產品，而我們是技術團隊，要按時開發出產品並交付。那是因為你現在處在技術團隊，你看不到其他團隊的運作，所以你會很沈浸在追求技術完美的旋窩中</p>
+<p>這沒有不對，技術團隊本來就要追求技術精進，但卻忘了最終目的是開發出產品然後賣給客戶賺錢。所以呢，我們必須在有效的時間內做出可行性的產品，意思就是他不可能會是 99%完美，他可能只會是 70-80%完美，在一定的時間內做出最低限度能夠被接受的產品。</p>
+<p><code>完美要有多完美？你定義的出來嗎？完美是能夠被量化的嗎？</code>, <code>你就是常常提到完美跟頂點，但這些都無法被精準定義出來，你又要怎麼知道自己做的是多完美了?</code></p>
+<p>給大家上一張我自己畫的圖，左方是時間，下方式完美／完成度。</p>
+<p>確實從 0 開始做到 60%，不用花太多時間，但真的到 70-85%時會稍微需要花點時間，然而最後 85%-99%花更多更多的時間。</p>
+<p>而圖上畫了兩個 X，寫著 Feasible 就是可行性，也就是一定的時間內，做到這樣的成果，就可以被接受以及拿去銷售。</p>
+<p><img src="https://minayu0416.files.wordpress.com/2020/05/screen-shot-2020-05-31-at-4.21.08-pm.png" alt=""></p>
+<p>而套用在我身上，我真的覺得我常常要求完美，然後想要變厲害，而給了自己超多無形的壓力，常常讓自己處在一個焦慮的邊緣。</p>
+<p>就像我計畫自己兩年後想去歐洲找工作看看，我現在就開始盤點出哪些技術跟能力是我需要的，攤開來我發現一堆，然後每個都要達到我內心所想的完美，突然讓我感受到壓力爆棚。</p>
+<p>這就像我在上家公司工作時，我總是覺得自己達不到自己內心要求的完美頂點，於是總是覺得自己弱，而不管怎麼被剝削，我都不敢離開找下份工作。</p>
+<p>直到離開後，我才發現雖然沒有達到內心的完美度，卻也已經有著 70-80%的提升 (相較於剛畢業的自己)，很快的我就馬上找到這份工作。</p>
+<p>只是說，雖然不能拿 <code>人不是完美的</code> 來讓自己怠惰，但至少當自己真的被各種追求完美的想法給壓垮時，改觀成這樣的想法能夠調和自己那種時時刻刻想追求完美的好勝心。</p>
+<p>並且要告訴自己真的有盡力去努力提升自己，也許並不用真的達到內心的頂點跟完美，才讓自己放手去挑戰國外的工作。</p>
+<p>慢慢的我就釋懷了，技術, 工作, 溝通, 解決問題 以及 語言能力我都有在進步，但我決定不要把自己卡死在完美的概念中，也許進步了一陣子，就可以開始嘗試看看國外的工作機會，而並非自己目前給自己定一個目標，非得達到頂點才能去嘗試。</p>
+<p>好了扯遠了，來進到今天的主題吧</p>
+<p>我自己是覺得這堂課沒有上堂課給我我過多的資訊，但並不是說不好，反而我覺得這堂課整體來說扣住幾個很重要的要點，雖然說感覺上內容少，但真的要領悟他並實行的好，我認為並不簡單。</p>
+<h3>第一章 - 解決問題的三個要點</h3>
+<ul>
+<li>批判思考</li>
+<li>邏輯思考</li>
+<li>假說思考</li>
+</ul>
+<p>當遇到一個問題時，先學著擁有 <code>批判性的思考</code> ：</p>
+<p>為什麼商品賣不出去？一定是商品爛嗎？</p>
+<p>有沒有可能只是不符合客戶需求，有沒有可能是因為店面在比較無人的地點開設。</p>
+<p>而並非直接順著別人的邏輯走，要帶有批判性思考去嘗試思考問題。</p>
+<p>再來第二點是 <code>邏輯思考</code>，釐清好問題後，需要透過個人能力與技術搭配清晰的邏輯思考來將問題抽絲剝繭，並廣泛收集資訊，嘗試去各方面了解問題根本以及可行的解決方法。</p>
+<p>最後是<code>假說思考</code>，軟體工程師都需要寫測試 Case 來測試程式了。需要綜合以上的資訊與思考來輔助自己提出假說</p>
+<p>例如我認為商品賣不出去，可能是由於商品本身是屬於寒冷地區販售較好，卻於炎熱地區販售，那商品當然賣不出去，以及其他可行的方法。</p>
+<p>當遇到問題時，詢問自己三個問題來幫助自己釐清根本問題。</p>
+<ul>
+<li>
+<p>It is true? 這是真的嗎</p>
+</li>
+<li>
+<p>So what? 那又怎麼樣</p>
+</li>
+<li>
+<p>Why so? 為什麼如此</p>
+</li>
+</ul>
+<p>先問問這個問題是真的還是假的，也許他只是因為平日人比較少，短暫的時間有較少的人流，過陣子就沒事了，那麼就沒這個問題。</p>
+<p>那又怎麼樣？這個問題的嚴重性？是否真的會造成營運虧損或者其實無妨？</p>
+<p>為什麼如此？才開始正視這個問題很重要，去抽絲剝繭。</p>
+<p>三個要點判斷解決能力</p>
+<ul>
+<li>
+<p>是否有理解解題目的目的：為什麼要解決這個問題，他的目的是什麼？</p>
+</li>
+<li>
+<p>是否有邏輯思考的框架：使用的邏輯框架是什麼，可否有效提出假說，以及自我的觀點？</p>
+</li>
+<li>
+<p>是否能提出假設觀點：提出假說與觀點</p>
+</li>
+</ul>
+<h3>第二章 - 3C，從哪些方面下手分析問題</h3>
+<p>3C: Customer, Competitor, Company</p>
+<p><code>Customer</code></p>
+<p>目標客戶是誰？ 目標客戶的痛點與需求？</p>
+<p><code>Competitor</code></p>
+<p>苦能面臨的競爭對手有哪些？競爭優勢是什麼？</p>
+<p><code>Company</code></p>
+<p>網站該怎麼製作，該上架哪修商品，客戶服務怎麼做，技術怎麼開發？</p>
+<p>解決問題最重要的點：</p>
+<p><code>先在有限資源的情況下，提出自己的假說與觀點，再去做驗證。</code></p>
+<h3>第三章 - 你有解決問題嗎？</h3>
+<p>解決問題遇到的困難： <code>不是因為找不到答案，而是因為抓錯問題來解決。</code></p>
+<p><code>或者是問題該怎麼定義, 不清楚</code></p>
+<p>這個我本身就蠻有感受的，還記得一開始當菜鳥工程師時，常常看到程式出一個問題，但怎麼找都找不到問題根源，怎麼查 google，怎麼自己抓蟲都解決不了問題，為什麼前輩能夠十分鐘就找到方法解決？</p>
+<p>原本以為是我自己能力上的問題，直到我來了第二家公司，我才發現，也許能力上是個問題，但最主要的還是自己沒有搞清楚問題是什麼，進而也不曉得怎麼表達出自己的問題給對方知道，對方也會不知道怎麼幫助你。</p>
+<p>所以說，這兩點我認為非常重要，也是我在職場上學習到的要點:</p>
+<ul>
+<li>針對對的問題解決，嘗試定義出根源問題</li>
+<li>嘗試表達出出問題的根源，尋求幫助</li>
+</ul>
+<p>事實基礎</p>
+<p><code>事實(Fact)</code> 跟 <code>觀點(Opinion)</code></p>
+<p>常常會有人把事實跟觀點作混淆 （事實基礎），事實證明不容易，尤其有時候我們分不清楚這是事實還是別人的觀點。</p>
+<p>例如 <code>這是杯子</code> 這是事實</p>
+<p><code>這是美麗的杯子</code>，這是別人的觀點，因為也許我不忍為杯子美麗。</p>
+<p>所以有時候很常犯的錯誤就是： <code>公開數據不能當事實基礎</code></p>
+<p>尤其是 <code>大眾的數據</code>，不要去抓大環境的數據當作自己的數據，而是針對本公司的數據做分析。</p>
+<p>這有點像我最近這兩天在研究星座。</p>
+<p>常常我覺得明明跟前男友的盤特別合，卻還是分手了。由於已經看了各大命理，發現自己吸收過多的資訊，引發了自己反骨的特性，開始會想去打破這些命理的道理。</p>
+<p>最近研究到一個理論，他的意思是說 給出一個符合每個人的基本特質 很模糊的文章給受試者，受試者都認為很準，這就是他，殊不知這些模糊的文章是利用心理學的道理，讓受試者覺得這些例句很符合自己。</p>
+<p>如此一來大眾的道理是準的，但其實那只是假象，真正的還是個人真正的特性以及個人後天的環境跟努力以及發展。</p>
+<h3>第四章 - Case 分享</h3>
+<p>Case 1</p>
+<p>一個公司由於今年的商品販售不佳，總經理很著急，並找來各部門開會做協商</p>
+<p>業務：這個商品不好賣，每次客戶聽了規格都覺得不錯，可是聽到價錢都拒絕購買
+行銷：我們已經盡到最大的能力來做行銷，但跟市場不符
+技術團隊：我們已經把公司全部最好的技術都加到這個商品了</p>
+<p>當我看完這樣的描述，根據自己最近的經驗，我已經知道大概是技術團隊出的問題。</p>
+<p><code>我們已經把公司全部最好的技術都加到這個商品了</code>，這就有點像是我主管跟我說的: <code>程式寫得再好，客戶也不會感激你</code></p>
+<p>也許客戶就是只要那一兩個功能，你卻加了八個功能，然後把價格提高，那他們自然不會覺得說另外新加的幾個功能他們需要，也不會購買。</p>
+<p>問題點：</p>
+<ul>
+<li>
+<p>技術導向訂規格，規格基本上可以尋求市場跟客戶的討論作定義，而非一昧的把公司全部好的技術都加進來，這就像是技術團隊認為我們這個功能很厲害。可是實際上使用者用不到，那就沒意思了。</p>
+</li>
+<li>
+<p>加了客戶不需要的功能，導致成本夠高。</p>
+</li>
+</ul>
+<p>所以解決問題的根本其實是:</p>
+<ul>
+<li>拿掉客戶不要的功能，將成本降低</li>
+<li>多和客戶討論或市場調查，以定出符合賣點的商品</li>
+</ul>
+<p>Case 2</p>
+<p>當產品賣不出去時，我們要怎麼去做思考？</p>
+<ul>
+<li>
+<p>為什麼客戶買我們的產品？</p>
+</li>
+<li>
+<p>我們的產品有什麼好？</p>
+</li>
+<li>
+<p>為什麼去買競爭對手的產品？</p>
+</li>
+<li>
+<p>是不是客戶不了解我們的產品？</p>
+</li>
+</ul>
+<p>解決的方法假說可以是：</p>
+<ul>
+<li>去跟客戶談，去跟通路夥伴談 (直接找對方談)</li>
+</ul>
+<p>以及有可能會發生後續的問題:</p>
+<ul>
+<li>為什麼客戶不來試用？因為試用成本高嗎？還是產品參與度低？</li>
+</ul>
+<p>Case 3</p>
+<p><code>有樣學樣</code> 以及 <code>模仿</code></p>
+<p>就像 Apple 的產品真的很成功，就開始會出現很多公司想抄襲 Apple 的商品規格與設計。</p>
+<p>比方說競爭對手出了白色外觀，公司也要不要試試看推出白色外觀的商品</p>
+<p>問題：</p>
+<p>白色商品是賣得很好嗎？還是話題性？</p>
+<p>如果真的賣得比較好，為什麼會賣得比較好？</p>
+<p>對公司來講，技術達的到嗎，供應商可以配合嗎？</p>
+<p>如果白色商品做得出來，符合公司產品價值嗎？我們有競爭優勢嗎？</p>
+<p>其實這個問題的本質是：</p>
+<p><code>提供個性化商品</code></p>
+<p>所以要不要推白色商品，不是最重要的問題</p>
+<p>最重要的問題是，公司能不能推出符合消費者的個性化商品。</p>
+<h3>最終章</h3>
+<p>光有洞察力還不夠，擁有解決問題的能力還不夠，這時候你需要 <code>說服關鍵人物</code></p>
+<p>這就跟你已經做了一堆功課，結果老闆跟 CEO 不接受，還是把你打回原形 XDD</p>
+<p><code>NG 說服方法：</code></p>
+<ul>
+<li>簡報不夠簡明扼要</li>
+<li>提案不夠明確</li>
+</ul>
+<p><code>COAST 框架</code> 說服 CEO</p>
+<ul>
+<li>Content 觀點內容 ：提出觀點內容</li>
+<li>Objective 目的 ：了解會面目的</li>
+<li>Audience 目標觀眾 ：目標聽眾及主要觀眾的喜好。可以有個 <code>會前會</code> 來和關鍵人物先做討論，並作足功課</li>
+<li>Touch 讓對方有感 ：從頭到尾都講 cost down，那 CEO 當然聽不下去。要用妥善的溝通能力然圓滑事實。</li>
+<li>Simple 簡報與內容 簡單明瞭</li>
+</ul>
+<p>解決問題雖然很重要，但最重要的還是說服老闆，然後讓整個團隊動起來！</p>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"日常生活"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"life"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(2) - 解決問題的能力"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","May"," ",31,", ",2020]}]]}],["$","div",null,{"className":"flex-wrap","children":["",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

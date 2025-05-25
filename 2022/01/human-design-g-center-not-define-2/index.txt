@@ -1,0 +1,165 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2022/01/human-design-g-center-not-define-2","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2022/01/human-design-g-center-not-define-2","c"],{"children":["__PAGE__?{\"routes\":[\"2022\",\"01\",\"human-design-g-center-not-define-2\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2022/01/human-design-g-center-not-define-2","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[人類圖探討] G中心空白及未定義的自我觀察心得 (附上流程圖) | 如何利用G中心來穩固自我價值及找出適合自己的人事物 | 我是誰？ | 為什麼一直待在錯誤的環境跟遇到不對的人呢？ - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"最近這兩個月過得實在非常的不開心，我自己的薦骨都在跟我鬧革命，明知道不開心，你為什麼還離不開？研究人類圖，發現自己的G中心是空白未定義的，觀察自己過去的一兩年經驗，常常深陷不合適的人與環境，卻沒辦法輕鬆離開，一直相信自己是可以改變，可以磨合。在錯誤的環境中不斷的在尋找自我，卻常常失去自我，擁有不穩定的狀況。究竟G中心空白未定義可以怎麼調整自我，讓我們來探討及聊聊這個主題。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"人類圖 Human Design,G中心 G CENTER,失去自我,遠來不適合的環境,未定義"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2022/01/human-design-g-center-not-define-2/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2022/01/human-design-g-center-not-define-2/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[人類圖探討] G中心空白及未定義的自我觀察心得 (附上流程圖) | 如何利用G中心來穩固自我價值及找出適合自己的人事物 | 我是誰？ | 為什麼一直待在錯誤的環境跟遇到不對的人呢？"}],["$","meta","19",{"property":"og:description","content":"最近這兩個月過得實在非常的不開心，我自己的薦骨都在跟我鬧革命，明知道不開心，你為什麼還離不開？研究人類圖，發現自己的G中心是空白未定義的，觀察自己過去的一兩年經驗，常常深陷不合適的人與環境，卻沒辦法輕鬆離開，一直相信自己是可以改變，可以磨合。在錯誤的環境中不斷的在尋找自我，卻常常失去自我，擁有不穩定的狀況。究竟G中心空白未定義可以怎麼調整自我，讓我們來探討及聊聊這個主題。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2022/01/human-design-g-center-not-define-2/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu0416.files.wordpress.com/2021/01//screen-shot-2021-01-16-at-8.18.07-pm.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2022-01-03T06:15:59.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[人類圖探討] G中心空白及未定義的自我觀察心得 (附上流程圖) | 如何利用G中心來穩固自我價值及找出適合自己的人事物 | 我是誰？ | 為什麼一直待在錯誤的環境跟遇到不對的人呢？"}],["$","meta","33",{"name":"twitter:description","content":"最近這兩個月過得實在非常的不開心，我自己的薦骨都在跟我鬧革命，明知道不開心，你為什麼還離不開？研究人類圖，發現自己的G中心是空白未定義的，觀察自己過去的一兩年經驗，常常深陷不合適的人與環境，卻沒辦法輕鬆離開，一直相信自己是可以改變，可以磨合。在錯誤的環境中不斷的在尋找自我，卻常常失去自我，擁有不穩定的狀況。究竟G中心空白未定義可以怎麼調整自我，讓我們來探討及聊聊這個主題。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu0416.files.wordpress.com/2021/01//screen-shot-2021-01-16-at-8.18.07-pm.png"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T5fa8,<p>今天特定起了個大早，其實也沒多早 XD，早上九點醒來。</p>
+<p>至從離開上份工作後，長達半年多的時間我都在家自己開發自己的軟體，這是我個人的夢想之一。但是在家的生活就是，可以要多晚睡，就多晚睡 XD</p>
+<p>享受深夜時期專注開發的時光，也是很不錯的，但其實我發現晚睡真的是會蠻影響心情。</p>
+<p><strong>[2023/03/26 更正解釋]</strong></p>
+<p>我最近特別針對 G 中心空白寫了一篇文章，建議第一次看本篇文章的讀者可以先看新的文章，因為我發現早期的文章除了 G 中心空白之外，可能也參雜了意志力中心空白的內容。</p>
+<ul>
+<li><a href="https://minayu.site/2023/03/human-design-g-center-not-define-3/">[人類圖探討] 聊聊 G 中心空白及未定義的茫然人生 | 未來的方向？總是常常受到干擾？</a></li>
+</ul>
+<p>以及列出全部我撰寫和人類圖相關的文章列表: <a href="https://minayu.site/2023/03/human-design-related-articles/">[人類圖探討] 人類圖相關文章系列 - 自身經驗與心得分享</a></p>
+<p>以下為此篇文章的正文</p>
+<p>新年後的第一篇文章，就獻給人類圖了</p>
+<p>因為最近這陣子觀察自我後，突然有了重大的領悟，個人非常的有感，再加上我因為這個領悟，離開了不適合自己的人跟環境，讓自己又慢慢地重回歡樂，並穩固自我價值。</p>
+<p>我希望這篇文章可以比較簡短，但又可以解釋的很清晰。因為這幾天有點忙，我怕再拖下去，就沒有時間撰寫了 QQ</p>
+<p>那我們開始吧？</p>
+<h2>前言</h2>
+<p>先提及一下自己前一篇寫的文章:</p>
+<p><strong><a href="https://minayu.site/2021/01/human-design-g-center-not-define/">[人類圖探討] 來說說 G 中心空白及為定義的心得感想 | 不斷向外尋找愛與方向 ｜ 我是誰？ 會有人愛我嗎？</a></strong></p>
+<p>挖，沒想到這篇文章已經過了一年了，他是我之前剛失戀時，歷經了兩段很痛苦的戀愛經驗，再歷經離職前被職場逼迫離職後，自我價值感一下降落到最底，我經歷了 1 個多月每天自我懷疑的時間，直到後來才慢慢的走出，所以寫下了那篇文章。</p>
+<p>非常的長，我現在回來看雖然有些觀念也許不能這麼一偏概全，畢竟每個人狀況都不同，但都有把我當時的想法記錄下來了。</p>
+<p>最近，我算是歷經錯誤的人跟環境，也是歷經了 2-3 個月的糾結跟自我折磨，直到前幾天才發現自己由於 G 中心空白緣故會一直反反覆覆的在意，直到昨天才釋懷，所以想撰寫文章記錄下來。</p>
+<h2>來介紹一下 G 中心</h2>
+<p>點進來應該都有看到開頭的圖，我這邊在發一次這張圖</p>
+<p><img src="https://minayu0416.files.wordpress.com/2021/01/screen-shot-2021-01-16-at-8.18.07-pm.png" alt=""></p>
+<p>這張圖我在前一篇文章也有使用，這次在使用一次。</p>
+<p>G 中心 就是上圖圖中，最中間，箭頭指到 <code>G中心</code> / <code>G CENTER</code> 的位置，如果你的人類圖那個位置是空白的，代表你的 G 中心是空白，亦或者說是 <code>未定義</code>。</p>
+<p>在人類圖九大能量中心中，空白/未定義的區塊不單單只是代表 你沒這方面的天賦，更多指的是這輩子你要克服的功課/問題。</p>
+<blockquote>
+<p><code>G 中心</code> 代表的是: 自我，愛，方向，自我價值，愛自己，喜歡自己，我是誰？</p>
+</blockquote>
+<blockquote>
+<p>當 <code>G 中心</code> 能量不穩定時，你會: 不斷向外尋找愛與方向</p>
+</blockquote>
+<p>G 中心有定義的人，能夠自愛，感受到自我的存在，擁有強大的自我，感受到愛與擁有自己固定的方向。</p>
+<p>然而，G 中心無定義的人，解說是這樣寫的:</p>
+<p><strong><em>就代表你此生都不會有穩定的自我。你不知道自己是誰，你沒有固定的方向，也沒有固定的愛。</em></strong></p>
+<p>我在上一篇文章是提倡: <strong>G 中心未定義的人，代表著你其實有 <code>真正的自我</code> ，可是很容易受到外在的環境與人事物影響，而暫時改變了你的自我/你的想法。</strong></p>
+<p>經歷這次的糾結後，我對這段話甚至是 G 中心空白有比較大的一個改觀。</p>
+<p>一樣給出人類圖報告給出的建議:</p>
+<p><strong><em>你是來到世上適應身邊的人事物與環境的。因為你沒有固定的自我，也就是沒有固定的形象，所以你與什麼人在一起，你就會適應並變得像那些人。你可以融入到不同的環境與人事物裡。所以，你尋找自我身分認同的方式，來自於與「對的人」建立關係，然後變成像他們。</em></strong></p>
+<h2>我的觀察</h2>
+<p>在報告書上說，其實有 43%的人，G 中心都是空白的/未定義的，代表著其實世界上有很多很多的人 G 中心是空白的，搞不好你周圍的朋友或親人就有些是 G 中心空白的人。</p>
+<p>而我觀察自己，再加上有幸我的朋友們都會一起討論人類圖，還有我有時候會去偷看父母親的人類圖 XDDD</p>
+<p>我的朋友有的也是 G 中心空白，有的是 G 中心飽滿/有定義，我等等來說一下哪邊不同。</p>
+<p>先說說空白的朋友，我發現 G 中心空白的人，大部分會有這些特徵:</p>
+<blockquote>
+<ul>
+<li>很容易自我懷疑，很容易沒自信，懷疑自己辦不辦得到，甚至會沒自信嘗試或者沒自信離開不適合的人事物 (除非被逼到極致)</li>
+<li>常常沒辦法感知自我的樣貌，很常常去問別人: 你覺得我是一個怎麼樣的人？給人什麼感覺？很試圖去找一些大眾化的標籤來貼在自己身上，尋找自我價值</li>
+<li>不健康不穩定時，甚至貶低自我去迎合別人或環境，或者過度自滿</li>
+<li>如果加上情緒不穩定，很容易會有焦慮，然後說出: <code>對，我就是爛，我就是差，我差勁到了極點，都沒人要我了</code></li>
+<li>最後，會向外去尋求自我價值的建立，比方說容易透過外界給予的<code>批判</code>，<code>評論</code>或<code>讚美</code>來定義自己目前的狀況跟自己的能力。</li>
+</ul>
+</blockquote>
+<p>我自己是蠻常這樣的，而我觀察我一些 G 中心未定義的朋友們也是，大家尤其待在不適合的人跟環境時，特別容易引發自我價值缺失，最嚴重就是任由外界攻擊到自身心理，然後以貶低自己的方式，尋求外界的關注，關愛跟認同，藉此來回補自己的自我價值感。</p>
+<p>特別容易遭受情緒勒索，深陷在被渣男渣女傷害的場景，或被家暴但不願離開，職場與人際霸凌跟排擠，我自己是這麼覺得。</p>
+<p>那來看看 G 中心有定義的朋友，他們呈現出來的樣子呢?</p>
+<p>我有兩個很要好的朋友，他們的 G 中心都是有定義的 (其中一個我不太確定，但我覺得應該是)，我常常覺得他們就是:</p>
+<blockquote>
+<ul>
+<li>完全瞭解自己的風格，能夠根據自己的外貌跟內涵氣質選擇完全適合自己的搭配</li>
+<li>很知道自己要的是什麼，不要什麼，適合什麼，不適合什麼，或者勇於嘗試去驗證自己適不適合</li>
+<li>也是會遭受到他人給予的批評受挫折，但基本上是可以理性依據自己穩固的自我價值去做回擊或置之不理</li>
+</ul>
+</blockquote>
+<p>我最羨慕他們，就是他們能夠觀察自我的樣貌跟內涵，然後去找出適合自己風格的衣服跟風格物品。</p>
+<p>這對於很多 G 中心空白的人，我們未必能夠觀察自我，我覺得我以前最大的一個問題就是，大部分都把焦點放在別人身上，我不懂觀察自己的概念。</p>
+<p>也有段時期覺得，我只要套上 AKB48 (一個日本偶像團體) 的衣服，我就會 <code>看起來</code> 像 AKB48 的可愛女生，然後搞的自己四不像，內心仍舊覺得自己穿的差不多那個樣子，就是日系萌妹，但實際上我後來回去看我的照片我都覺得有很重的違和感 XDD</p>
+<p>也有段時期，覺得自己想變成炫雅，然後硬是給自己畫了眼線，弄上濃密的睫毛，買了露肚之類的衣服，結果穿在自己身上，又是另外一波嚴重的違和感。</p>
+<p>後來學會多看看自己的照片，多錄影，對自己錄影，多照鏡子，才知道自己的樣子就是不適合這些打扮，然後不斷嘗試去慢慢找出適合的風格。</p>
+<p>我有個 G 中心定義的朋友在一家蠻知名且大家的 IT 廠，那個公司文化是知名有嚴重的<code>罵人</code>跟<code>責罵</code>文化，我那個朋友在裡面也是遭受嚴重的羞辱跟責罵，但他還是有辦法待著一年半多，然後最後提離職。</p>
+<p>我光想就覺得，如果是我被連續罵，搞不好早就嚴重自我懷疑，然後提離了，順便帶著很心裡重傷離開。</p>
+<p>我朋友雖然也是受了不少壓力跟刺激，但我看他仍舊能保持穩固的自我價值，看起來很大器的享受在他美好的生活中。</p>
+<h2>流程圖</h2>
+<p>接著我畫了流程圖，根據我自己觀察我自己內心狀態，當然是總結自己在戀愛經驗跟職場滑鐵盧的各種慘痛糾結經驗。</p>
+<p>大家可以參考看看，然後最下面會解釋要怎麼處理跟改善</p>
+<p>首先是廣義的流程圖，就是遇到不適合/合適的人事物跟環境會有的大致上反應</p>
+<p><img src="https://minayu0416.files.wordpress.com/2022/01/screen-shot-2022-01-03-at-5.09.17-pm.png" alt=""></p>
+<p>所以選對人跟選對環境很重要，正所謂好的人跟環境帶你上天堂，不好的人跟環境，讓你深陷泥沼，還相信對方是對的人跟環境，只需要時間跟磨合？只需要自己多退讓多忍耐？</p>
+<p>接著看看，如果放到了戀愛關係呢？</p>
+<p><img src="https://minayu0416.files.wordpress.com/2022/01/screen-shot-2022-01-03-at-5.09.29-pm.png" alt=""></p>
+<p>我不敢說適合的關係就這麼一帆風順，因為還沒遇到適合的(慘)，我舉朋友的例子的話，就是總會有幾個朋友讓你相處上覺得很舒適，你能感受到他正向的回饋，你們即便有衝突，也是理性的溝通，而不是一方用激烈的言語或者貶低的話語來針對你。</p>
+<p>那，感覺上 G 中心空白好像如果自我價值不穩定，那其實很長深陷在不適合的關係中，但卻又無法自拔的選擇繼續待著。</p>
+<p>拿我自己的例子來說的話，我在第二段戀情就是遇到了不對的人，但我第一次約會可能因為覺得可以嘗試看看，所以就繼續互動下去。其實第一次約會就可以發現說其實是不適合的，但仍然覺得可以試試看，我當下的狀況其實是三年空窗期，自我價值不穩，所以好不容易有男生追，我就答應，也透過有人追，代表有價值的錯誤觀念，緊緊死抓著對方。</p>
+<p>剛開始我就知道不太對勁了，但也許是害怕失去這個好不容易有人追的機會，當下的想法是沒人追等於自己沒價值等於自己沒人愛很差。但忍耐了，算是隱藏自己的個性，硬是把自己塑造成好女友/好太太/溫柔/付出的樣貌。</p>
+<p>默默陪伴，給予溫柔的建議，默默忍受，而後來換來的是對方貶低自己的工作，不支持自己的興趣，然後身材走樣常常用不堪入耳的字樣貶低我。接著我就真的自我懷疑，是不是自己哪邊做錯了，很希望獲得對方稱讚，然後開始過度付出，也絲毫感受不到任何安全感，卻又渴望對方關注，自我貶低，在這樣不對的狀態下輪迴著。</p>
+<p>最後是我自己受不了內心的糾結，然後主動提分，事後回想才發現原來自己承受了這麼厚重的壓力跟不平等對待。</p>
+<p>對於 G 中心不健康的狀態，人類圖的報告書有一段這樣的解讀:</p>
+<blockquote>
+<p>對於 G 中心沒有亮起顏色的你來說，不健康的狀態就是不斷沈迷於找出自己人生的下一步，或不斷尋找愛情，不懂放鬆，甚至貶低自己去得到一些位置!</p>
+</blockquote>
+<p>接著，我們看看如果進到了職場關係跟環境呢？</p>
+<p><img src="https://minayu0416.files.wordpress.com/2022/01/screen-shot-2022-01-03-at-5.09.40-pm.png" alt=""></p>
+<p>有沒有很常遇到一種狀況?</p>
+<p>被主管勒索說要加班，不然案子做不出來 -> 你因為害怕/覺得確實是自己的問題/想說利用加班付出努力取得讚賞 -> 加了班，結果換來的還是主管貶低跟嫌棄說做得很糟糕，再回去重做 -> 自我價值被否定，但是自我懷疑跟沒自信，覺得確實自己做的糟糕 -> 再繼續付出努力 -> 再度取得批評跟謾罵。</p>
+<p>對於職場關係，我自己也有些經驗。</p>
+<p>我在上份工作非常努力的工作，幾乎就是要求案子要完美呈現，不斷追求自己要進步，但是每每週會收到的就是主管把看不慣的地方挑出來，而我也照著做改善。</p>
+<p>就這樣每週都有得挑，永遠沒有不被挑的一天，直到某天我才問:</p>
+<blockquote>
+<p>時間就這麼多，我們人也就這麼多，要怎麼做到每個點都很完美？</p>
+</blockquote>
+<p>這才得到回應是，其實不用完美...，就是要在有限的時間內，做出 60-70%的成品，如果可以/有時間再往 80-90%前進。</p>
+<p>再來，也有我一直很渴望獲得主管的稱讚，一直不斷精進自己跟改善每次工作流程，但最後因為公司決策關係，部門要被裁掉轉型，我不管再怎麼努力，換來的都是主管想要用各種言語霸凌把我們都趕走，讓我陷入嚴重的自我懷疑。</p>
+<p>是我能力不足嗎？怎麼我努力了這麼久還是這麼差？</p>
+<p>另外，除了以上大部分舉的例子都是比較負面些，報告書其實也給出這樣的解答:</p>
+<blockquote>
+<p>對於自己現在所擁有的身份認同感到過份自豪，例如說著:「看，我是什麼什麼醫生，什麼什麼律師」，卻不理解這些都不是「你」。你就是不知道自己是誰，你要學會接受這個事實，並讓命運為你揭曉，它將會帶領你走上對你來說正確的命運軌跡。你要接受自己有一點好像被朦著眼的感覺，同時信任人生會帶你到正確的環境遇見正確的人事物。你只需要信任它。命運是確實存在的力量。</p>
+</blockquote>
+<h2>重新定義跟如何運用你的空白 G 中心？</h2>
+<p>我有看過一篇文章說過，他擁有著空白 G 中心，然後受到社會價值的制約，他短短幾年內換了 20 幾份工作(我不記得有沒有這麼多)，也有可能一直更換戀愛對象。</p>
+<p>如果對自己的自我價值已經感受不明確了，更渴望由外在環境給予自己能量，再加上旁人或者社會價值教你<code>怎麼樣的環境才是適合你</code>，很容易就把自己推到了不適合的環境，然後進行一段自我懷疑後，再換到下一個不適合的環境。</p>
+<p>幾個觀念做個導正</p>
+<h2>第一個觀念: 吸收你喜歡的事物，從中得知你想要什麼/你渴望成為什麼</h2>
+<p><strong><em>還記得上面有說過，G 中心空白的人是來到世上適應身邊的人事物與環境的。因為你沒有固定的自我，也就是沒有固定的形象，所以你與什麼人在一起，你就會適應並變得像那些人。你可以融入到不同的環境與人事物裡。所以，你尋找自我身分認同的方式，來自於與「對的人」建立關係，然後變成像他們。</em></strong></p>
+<p>所以你必須多去感受外界，可以多跟人交流，多變換不同的環境，多吸取外界的知識跟文化。</p>
+<blockquote>
+<p>哪些是好的，你喜歡的，你就拿個 Memo 或者記事本把他們都寫下來，哪些是壞的，你不愛的，感到不舒服的，也可以寫下來。</p>
+</blockquote>
+<p>透過外在你吸收到，你喜歡的人事物，來找出什麼是自己喜歡且想要的，比如說興趣或者個性或者文化，然後從中效仿去建立起自我價值，你想成為怎麼樣的人?</p>
+<p>接著就去接觸那些你記錄下喜好的人事物，慢慢尋找，慢慢的找到適合的人與環境。</p>
+<p>就算因此不小心接觸到不適合的人跟環境，你也可以在<code>獨處時</code>回想自己所喜好所嚮往的，告訴自己不是自己的問題，而是目前的環境不適合自己。</p>
+<p>打個比方，我很喜歡一種人的個性，他會用正向的言語去鼓勵你多嘗試，或者你跟他說話時會覺得我沒被否定，反而這鼓舞了我去嘗試，不要害怕。</p>
+<p>我比較常在西方國家的朋友們互動中找到這種感覺，雖然說不是崇洋，但確實很喜歡他們鼓勵你正向發展，多多嘗試或者每個人都是獨立的個體，不要跟隨社會價值觀起舞。</p>
+<p>這就是為什麼我創立這個部落格的主旨，而我本身也很努力讓自己改觀，並發展屬於自己的一個個性跟與眾不同的生活。</p>
+<p>雖說這樣我也還是常常會被不適合的環境影響，畢竟 G 中心空白的人，真的會去融入不同的環境，適合的的不適合的都會去融入。我個人覺得大部分的台灣人還是會比較遵從被社會渲染出來的社會價值觀，反而對那些 <code>相比</code> 下來不這麼符合社會觀的人給予質疑跟批評。</p>
+<p>但只要去想想自己真正嚮往真正喜歡的人事物，遲早都還是會脫離不適合的環境跟有毒的關係，回到獨身一個然後重整自我價值。</p>
+<h2>第二個觀念: 學會分辨不適合的環境跟人，然後就灑脫地離開吧~</h2>
+<p>這就是我說的，不要讓 G 中心空白變成一個缺點，他學著利用他幫助自己遠離不適合的環境跟人。</p>
+<p>如果不知道怎麼樣是適合的人或者環境，我們可以選擇<code>離開不適合的環境跟人</code></p>
+<p>可以磨合，可以努力，自己需要進步進修，也需要努力向上，但必須是在對的地方遇到對的人</p>
+<blockquote>
+<p>讓你沒成長的環境，讓你常常感到自我懷疑，讓你感受到負面能量的場所或者關係
+遭受不平等待遇，感受到被對方貶低，質疑，謾罵，或者任何你的直覺感到非常不開心，甚至讓你失去自我，甚至讓你很精神匱乏的去煩惱</p>
+</blockquote>
+<p>即便你沒自信，甚至是懷疑自我到覺得是自己的問題，如果有以上的的狀況，那這個環境或者人就是不適合你，請果斷離開，請不要覺得自己還可以再付出努力，以為可以改善，或者以為可以獲取認同來建立自我價值。也不要覺得是自己的問題，是不是自己很差很弱，千萬別這樣！</p>
+<p>還有一點，適合的人跟環境會隨時間有可能變成不適合的。但不適合的，一開始就是不適合，不要抱有可以磨合或者忍耐下去的心態，也許真的有奇蹟，但一般來說一開始感覺到不適合不舒服，後面會很難扳回。</p>
+<p><strong>建議遵從自己的內在權威去做決定</strong></p>
+<p><strong>也許沒辦法立刻找到適合自己的環境，但可以先遠離不適合自己的環境，是吧？</strong></p>
+<p>最後我分享一下自己的一些案例。</p>
+<p>我人生中比較有印象兩次關係比較大，運用到 G 中心空白來做選擇的時機點，分別是<code>選擇大學</code>跟<code>選擇第一份工作</code>。</p>
+<p>還記得那時我在面試時其實是沒有想要去我後來就讀的大學面試，因為當時我很想要讀日文系，而我後來就讀的大學是申請資管系。</p>
+<p>再經過很趕的面試後，我最後終於趕到了我就讀的大學，一進門衝到資訊系面試教室外，我感受到明亮且科技感的教室與外觀，很生氣勃勃且明亮的氛圍與氣氛，引導面試的學長姐非常的和藹可親，教授們也很好。</p>
+<p>我當下就產生了一個，<code>恩，這就我要的，我就想要這</code>，即便這個科系不是我當時很想要的日文系。最後也覺得自己當時的選擇真的是很正確，我在大學度過了 6-7 年(含研究所)的生活。</p>
+<p>在一個例子是第一份工作，有同時兩個 offer 拿到了，父母親比較喜歡另外一個公司，覺得老公司又穩定，但我自己實際去面試時，覺得那家公司的工作環境很昏暗，人資跟主管感覺都不是很尊重我，只是想隨便請一個員工進來。</p>
+<p>相反的我後來選擇的公司，從一開始人資跟我後來的主管都很認真看我的履歷跟部落格，包括工作環境也是異常的明亮，開放式辦公室。我也是有一種<code>哇咧，如果上了，我一定要來這啊</code>的一股衝勁。後來選擇了，我很喜歡也不後悔，如果當時去另外一家公司，搞不好待不久又很痛苦。</p>
+<p>再舉一個例子，我當時去年還在工作時，本來適合的環境，因為某些公司決策問題已經轉為不適合的環境，而我在主管的負面能量散撥下，開始了長達一個月的自我懷疑期，整個環境跟人都不對了，讓我每天都覺得是不是在這樣下去會產生憂鬱症，那種感覺很像是我這個精神在一個密不透風的黑洞裡，怎麼爬都爬不出來。</p>
+<p>趁好幾次我有假的時候，我請假跑回去我的大學母校，以及風光明媚的淡水海岸，我突然感受到很開朗的氣息，生活充滿希望，未來充滿著衝勁。所以我暫時離開了不適合的環境，然後進入到適合的環境後，就發現其實是時候該離開公司了。</p>
+<p>最後一個例子，也是我開頭說的，我最近的例子。</p>
+<p>我在網路遊戲中認識了一個男生，我們一起練功然後產生了感情，但是在某個時段後，他變得開始很在乎他的裝備，他想要成為頂裝頂傷害的達人，於是開始結識其他人，運用其他人來幫自己達成目標。當然同時他為了追求那樣的境界，也讓我們的關係冷卻很多。</p>
+<p>早在第一次約會時，我已經感覺到這個人不太適合，甚至更早，在我們聊天時，我已經覺得我們三觀不同了，但我不以為意，覺得也許慢慢相處跟磨合可以改變？</p>
+<p>但隨著他的態度改變，我也陷入了自我懷疑跟糾結，他開始結識其他人，我為了跟他拉進距離，我也去結識那些人，但我發現我們磁場不合，因此發生了一些讓我很難過很悲傷的事情，<code>他</code>跟<code>那些人</code>嚴重的影響到了我的生活，即便只是在虛擬世界中，我還是歷經了兩個月自我懷疑跟糾結鑽牛角尖的時間。</p>
+<p>即便如此，我還是一直很渴望獲得<code>他</code>的關愛，還是很想取得<code>那些人</code>的認同，於是我每天都在糾結跟不舒適的情況下掙扎，甚至滿腦子每天都在煩惱，而且這還只是虛擬世界的人際關係。</p>
+<p>那我怎麼醒來的？</p>
+<p>其實是因為我都有陸續在找工作，我有陣子沒工作，生活沒重心還容易這樣，想要透過虛擬世界的環境來取得外界的認同跟自己的身份，但是沒想到這些是不適合的人跟環境。</p>
+<p>直到某天，我收到了面試通知，這就像把我整個人從虛擬世界抽身出來，然後我從那些面試互動跟經驗的互動，獲得了肯定跟認同，開始訂定努力的目標跟方向，這才讓我感受到正向的能量。</p>
+<p><strong>所以，我明白<code>他</code>跟<code>他們</code>都不是適合的人，我就算再怎麼努力改變自己去融合別人，也沒辦法獲得認同，甚至產生糾結跟煩惱。於是我轉個念，便離開了這些關係，離開後我開始感受到我的人生正往上坡爬，許多許久未見的正面能量一湧而進。</strong></p>
+<p>以上就是我這次的經驗分享，也許寫的不是很好，之後有新的領悟再回來修正，期望能幫到相同困擾的朋友們。</p>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"神秘學與命理研究談"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"mysticism-and-numerology"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[人類圖探討] G中心空白及未定義的自我觀察心得 (附上流程圖) | 如何利用G中心來穩固自我價值及找出適合自己的人事物 | 我是誰？ | 為什麼一直待在錯誤的環境跟遇到不對的人呢？"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","Jan"," ",3,", ",2022]}]]}],["$","div",null,{"className":"flex-wrap","children":[["$","img",null,{"className":"h-full w-full object-cover object-center mb-6 border border-solid","src":"https://minayu0416.files.wordpress.com/2021/01/screen-shot-2021-01-16-at-8.18.07-pm.png","alt":""}],["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

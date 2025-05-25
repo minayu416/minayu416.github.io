@@ -1,0 +1,178 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2019/01/from-wordpress-to-hugo","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2019/01/from-wordpress-to-hugo","c"],{"children":["__PAGE__?{\"routes\":[\"2019\",\"01\",\"from-wordpress-to-hugo\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2019/01/from-wordpress-to-hugo","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[Blog] 從Wordpress 移動到 Hugo - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","4",{"name":"author","content":"minayu416"}],["$","link","5",{"rel":"author","href":"https://minayu.site"}],["$","meta","6",{"name":"author","content":"@Mina Influence"}],["$","meta","7",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","8",{"name":"keywords","content":"hugo,wordpress,github,blog"}],["$","meta","9",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","10",{"name":"creator","content":"minayu416"}],["$","meta","11",{"name":"publisher","content":"minayu416"}],["$","meta","12",{"name":"robots","content":"index, follow"}],["$","meta","13",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","14",{"rel":"canonical","href":"https://minayu.site/2019/01/from-wordpress-to-hugo/"}],["$","link","15",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2019/01/from-wordpress-to-hugo/"}],["$","meta","16",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","17",{"property":"og:title","content":"[Blog] 從Wordpress 移動到 Hugo"}],["$","meta","18",{"property":"og:url","content":"https://minayu.site/2019/01/from-wordpress-to-hugo/"}],["$","meta","19",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","20",{"property":"og:locale","content":"zh-TW"}],["$","meta","21",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","22",{"property":"og:image:width","content":"1200"}],["$","meta","23",{"property":"og:image:height","content":"630"}],["$","meta","24",{"property":"og:type","content":"article"}],["$","meta","25",{"property":"article:published_time","content":"2019-01-08T16:42:45.000Z"}],["$","meta","26",{"property":"article:author","content":"Mina Yu"}],["$","meta","27",{"name":"twitter:card","content":"summary"}],["$","meta","28",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","29",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","30",{"name":"twitter:title","content":"[Blog] 從Wordpress 移動到 Hugo"}],["$","meta","31",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","32",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","33",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","34",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","35",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","36",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T278f,<p>看著草稿夾有七篇文章等待我撰寫，就知道有一陣子沒有在 update 近況</p>
+<p>感覺好久沒打文章了，我應該神隱一陣子了</p>
+<p>我成功用 Hugo 架出我的網站，並部屬到 Github 上</p>
+<p>這是我的新網站: <strong><em><a href="https://minayu.site">minayu.site</a></em></strong></p>
+<p>還有許多功能還沒 Ready，不過大致上已經做好根基了</p>
+<p>該是寫文章來分享一下</p>
+<p>由於上班之後，能夠做自己的事的時間很少，在動工之前，我找了兩三周的資料</p>
+<p>就是不希望我又像 <strong><em><a href="/2018/12/experience-in-build-web-wordpress-bluehost/">上次衝動租 Bluehost</a></em></strong> ，架好網站後發現苗頭不對，所以趕緊搬回這邊 XD</p>
+<p>雖然找了很多網站，但是真正施工時，又遇上不少問題</p>
+<h2>找尋資料</h2>
+<p>對於 Hugo 還一無所知，Hugo 與 Wordpress 這種 CMS 是不太一樣的系統
+
+我前後參考了幾了網站來了解 Hugo 是一個 靜態網站生產器
+
+一開始覺得很不靠鋪，我也是 wordpress 用戶，少了資料庫的靜態網頁生產器怎麼能媲美功能美滿的 CMS 呢?
+
+後來我錯了, 架好 Hugo 後，我發現我可以離開 Wordpress 的限制，自由的改動網站的外觀，以及添加任何我想要的功能</p>
+<p>非常的自由，但要有一個認知就是</p>
+<p>所以我看了些比對的文章，像是選個最好的靜態網頁生產器, Jekyll vs Hugo
+
+首先也要記得參觀Hugo 官網,選主題時你會常常在主題頁面中停留
+
+用 Hugo 怎能不看 Hugo 官網呢?
+
+再來我擔心沒有後台我就變成了不會寫文章的手殘
+
+所以我找到了跟 Hugo 與 Github 相容的 CMS: Forestry
+
+(可是我昨天實際用過 Forestry，不可否認很好用，但我現在卻正在調查她是不是造成我的網頁掛掉的兇手 ...，等我查明後才會推薦，這讓我的心情很鬱悶)
+
+有機會分下個文章跟大家分享</p>
+<h2>架設 Hugo</h2>
+<p>我找了一堆網站，來輔助我架設 Hugo</p>
+<p>等到我真的開始實作後，我發現完全架不起來</p>
+<p>這份簡報是我歷經千辛萬苦，架了幾十次，跟著架才成功的指南</p>
+<p><code>讚</code></p>
+<p><strong><a href="https://speakerdeck.com/fukuball/create-static-website-with-hugo-in-2-minutes">請服用</a></strong></p>
+<p><code>我是使用Mac</code></p>
+<h3>首先安裝 Hugo</h3>
+<pre><code>$ brew install hugo
+</code></pre>
+<p>如果沒有 brew，可以試試看
+<strong><em><a href="http://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/">這篇文章</a></em></strong> 裝一下</p>
+<p>＊註： <code>brew</code> 就是 mac 系統的套件管理系統 <code>Homebrew</code>, 若是沒有 homebrew，可以找尋安裝指南，幾行指令就搞定!</p>
+<h3>新建一個網站</h3>
+<pre><code>hugo new site mysite
+</code></pre>
+<p>此時您的網站已經初始生成</p>
+<h3>進入網站資料夾</h3>
+<pre><code>cd mysite
+</code></pre>
+<p>內部的資料夾包刮 content, theme, layout, ....</p>
+<h2>安裝 Theme</h2>
+<p>接著就去 Hugo 官網挑挑你愛的主題吧!
+
+我是挑 <strong><em><a href="https://themes.gohugo.io/hugo-tranquilpeak-theme/">Tranquilpeak</a></em></strong>
+
+每個主題點進 Download 都會進到該主題的 Github
+
+那我們就用 Git 指令把主題裝到我們的網站資料夾內</p>
+<p>進到主題資料夾安裝</p>
+<pre><code>$ cd themes
+</code></pre>
+<p>這邊以 Tranquilpeak 為例</p>
+<pre><code>$ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
+</code></pre>
+<p>裝好後利用 ls 指令會看到 hugo-Tranquilpeak-theme 資料夾在您眼前</p>
+<pre><code>$ ls
+hugo-Tranquilpeak-theme
+</code></pre>
+<p>接著看你要使用編譯器，還是手動拉</p>
+<p>將一些相關文件從 theme 複製到你的根目錄</p>
+<p><strong><em>將你的主題 theme 資料夾內 "archetyps" 內的檔案複製到你的"archetyps"</em></strong></p>
+<p>這邊是用 hugo-Tranquilpeak-theme 主題</p>
+<p>將<code>hugo-Tranquilpeak-theme/archetyps/</code>內容移動至 <code>mysite/archetyps/</code>內</p>
+<p><strong><em>將你的主題 theme 資料夾內  exampleSite 內的檔案, 直接取代根目錄的檔案</em></strong></p>
+<p>忘記在哪邊看到，在簡報中是沒有看到這個部分</p>
+<p>要順利先將主題的頁面刻出來，就將 <code>exampleSite</code> 內像是 content, static 都直接複製取代掉你的<code>mysite/</code> 中的 content 及 static</p>
+<p><strong><em>將你的主題 theme 資料夾內  exampleSite 內的 config.toml, 直接取代掉根目錄的 config.toml</em></strong></p>
+<p>就是取代<code>mysite/config.toml</code> 中</p>
+<p>接下來回到根目錄</p>
+<p>將 hugo run 起來 就能看到完整的主題頁面</p>
+<pre><code>$ hugo server
+</code></pre>
+<p>先求有再求好</p>
+<p>接下來就是您的工作囉~</p>
+<p>打開根目錄的 config.toml 檔案, 將參數改一改，改成你要的</p>
+<h2>將 Wordpress 文章輸出, 轉為，並放入 Hugo</h2>
+<p>當初要實作時，我參考了一個網站，發現完全不 work</p>
+<p>我也實際參觀Hugo migrations的頁面，照著上面的一些功能，也是不 work xD</p>
+<p>後來參照from wordpre to hugo 的文章後，使用了Exitwp ，才順利把文章從 xml 轉到 md 檔</p>
+<h3>Wordpress 後台 Export 你的文章 .xml</h3>
+<pre><code>[你的wordpress url]/wp-admin/
+</code></pre>
+<p>可以進到 wordpress 的管理員後台</p>
+<pre><code class="language-">點選 Tools > Export
+</code></pre>
+<p>可以進去 Export 文章的網頁</p>
+<p>＊若沒有 Export 要去 Plugin 安裝，wordpress.com 都會有，Wordpress.org 可能要安裝套件 Plugin</p>
+<pre><code>選擇免費的 Start Export
+</code></pre>
+<p>開始把你的部落格點匯出，完成的檔案會寄信到您的信箱</p>
+<h3>用外部套件將 Wordpress XML 轉為 Hugo 使用 md</h3>
+<p>參考網站: from wordpre to hugo,  Exitwp</p>
+<p>將 exitwp 下載下來</p>
+<pre><code>git clone https://github.com/thomasf/exitwp.git
+</code></pre>
+<p>＊請注意這個套件的環境為 python 2.7</p>
+<pre><code>pip install pip_requirements.txt
+</code></pre>
+<p>或者</p>
+<pre><code>pip install
+</code></pre>
+<p>驅動 python 程式來轉檔</p>
+<pre><code>python exitwp.py
+</code></pre>
+<p>幸運沒報錯的話，就可以進<code>build</code>資料夾領取 md 囉~</p>
+<h3>將轉出的.md 檔放進 hugo 內</h3>
+<p>這個部分老實說要看不同的主題會有不同的要求，主要看你的 網站資料夾 內的 "archetyps" / themes/你的主題/archetyps/內的.md 檔怎麼定義一篇部落格</p>
+<p>將輸出的.md 檔放進 Hugo, 通常會是這幾個資料夾，取決於你的 theme/exampleSite/content 內容</p>
+<pre><code>content/blog
+content/post
+content/posts
+</code></pre>
+<p>確認一下每篇 md 檔有沒有和 archetyps 內.md 規範符合</p>
+<p>至少要有 archetyps 內.md 內規定的幾個元素</p>
+<p>有可能是</p>
+<pre><code>title
+layout
+</code></pre>
+<p>或</p>
+<p>最後，到根目錄跑一次建置，進入 1313 看一下網頁有沒有問題，就可以準備部署囉!</p>
+<pre><code>hugo server
+</code></pre>
+<h2>部屬至 Github</h2>
+<p>將網頁建在哪都可以，AWS, GCP 或其他平台，而我看大部分的人都部屬在 github 上</p>
+<p>這部分我自己做的也不是很好，沒辦法建議甚麼 qq</p>
+<p>2019.05.19</p>
+<p><strong><em>跟大家說個福音</em></strong>，那就是, 隨著我後來的功力大增，我終於知道怎麼好好的部署至 Github 啦！！！！</p>
+<p>傳送門在此: <strong><em><a href="/2019/04/how-to-host-hugo-on-github/">[BLOG] 如何在 GITHUB 上架設 HUGO 網站</a></em></strong></p>
+<p>當然還是可以繼續往下讀，只是當時不怎麼會弄寫得不怎麼好就是 XD</p>
+<p>你可以參考hugo 本身的網站</p>
+<p>但我用的方法:<a href="https://medium.com/@chs_wei/%E5%9C%A8-github-%E9%83%A8%E7%BD%B2-hugo-%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-9c40682dfe40">這位部落格主提供的方法</a></p>
+<p>在 github 分成兩個 repo，一個是放你 build 網站的程式資料夾(當然你也可以選擇不存)</p>
+<p>另外一個則是取名為</p>
+<p>這個指令會生成 public 資料夾</p>
+<p>接著再按照新開的 repo 上有指南，把 git init 後，往 github repo 推送</p>
+<p>應該不用幾分後，進入你的網站</p>
+<p>就可以看到你的網站囉!</p>
+<p>除了注意一下環境要是 python2.7 外，若想使用 python3 執行</p>
+<p>我想可以試試看在 exitwp.py 程式裡，把 print 換成 print() 語法</p>
+<p>我有試過，但我忘了有沒有成功</p>
+<p>＊exitwp 系統說缺少 yaml，可是我執行 pip install yaml 卻說沒有這個套件?</p>
+<p>正確的套件是 PyYAML</p>
+<p>＊theme 內只有 theme.toml 沒有 config.toml?</p>
+<p>theme 內的 config.toml 在 範例網站的資料夾內</p>
+<p>應該會有個 exampleSite 的 demo 網站\，裡面有 demo 用的 config.toml</p>
+<p>＊為什麼我 hugo server 後畫面是空白的?</p>
+<p>很多教學文章都是說將 theme clone 下來後，把 config.toml 檔改一改就好了</p>
+<p>但實際上需要把 exampleSite 內的 archetyps, static 及 content 最好都取代根目錄的資料</p>
+<p>(注意不要把 exampleSite 內的 content/post 內容取代掉你的文章)</p>
+<p>確認主題可以顯示後，再把你的部落格文章.md 檔放進 content 內</p>
+<p>＊為什麼我把我的文章放進 content 後跑不出來？</p>
+<p>我想這要參考一下 theme 內的 archetyps 怎麼定義為一篇文章</p>
+<p>以上大致上是我架站時發生的一些問題</p>
+<p>原先以為調查兩三周後可以順利實作，但真正到了實作時又遇上了一些困難，但我的網頁初版還是用了我半天的時間內完成</p>
+<p>只不過我昨天手賤 去使用了第三方的網站來讀取我的 github 直接做操作</p>
+<p>在我歡樂愉悅的沉浸在這美麗又舒服的操作時，發現他把我很多網頁都搞壞了</p>
+<p>偏偏這假日忘了帶電腦回來， 好鬱悶阿 .....</p>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[Blog] 從Wordpress 移動到 Hugo"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","Jan"," ",9,", ",2019]}]]}],["$","div",null,{"className":"flex-wrap","children":["$undefined",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

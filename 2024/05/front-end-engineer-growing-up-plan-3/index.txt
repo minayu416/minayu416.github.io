@@ -1,0 +1,378 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2024/05/front-end-engineer-growing-up-plan-3","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2024/05/front-end-engineer-growing-up-plan-3","c"],{"children":["__PAGE__?{\"routes\":[\"2024\",\"05\",\"front-end-engineer-growing-up-plan-3\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2024/05/front-end-engineer-growing-up-plan-3","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(3) | CSS(2) css樣式優先度計算 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"此篇文章將介紹CSS的知識，特別與CSS樣式的優先度規則與計算相關的知識。最後附上關於CSS不同的單位介紹"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"前端工程師,CSS,The cascade,Specificity,Inheritance"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2024/05/front-end-engineer-growing-up-plan-3/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2024/05/front-end-engineer-growing-up-plan-3/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(3) | CSS(2) css樣式優先度計算"}],["$","meta","19",{"property":"og:description","content":"此篇文章將介紹CSS的知識，特別與CSS樣式的優先度規則與計算相關的知識。最後附上關於CSS不同的單位介紹"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2024/05/front-end-engineer-growing-up-plan-3/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2024-05-19T16:10:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(3) | CSS(2) css樣式優先度計算"}],["$","meta","33",{"name":"twitter:description","content":"此篇文章將介紹CSS的知識，特別與CSS樣式的優先度規則與計算相關的知識。最後附上關於CSS不同的單位介紹"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T43b7,<p>第三篇讀書計畫的主題是 CSS。</p>
+<p>正式進入 CSS 後，我決定花費大約一個半月的時間去刷<a href="https://web.dev/learn/css/">這個網站</a>的內容，所以接下來的文章都會是以這篇網站的內容學習為主。</p>
+<p>如果按照我的讀書計畫排列來讀的話，估計 CSS 的篇幅可能會出個至少 7-8 篇吧，除了網站內容外，後面還有關於面試題目跟一些影片要看。</p>
+<p>若對 CSS 沒有太大興趣的話，可以直上替代方案: <a href="https://htmlcheatsheet.com/css/">CSS Cheatsheet</a> + <a href="https://www.w3schools.com/css/">標準語法糖 - w3schools</a>。</p>
+<p>但本人的讀書計畫可能近期兩個月都會是更新跟 CSS 相關，希望年底能真的把整套讀書計畫 run 一次 XD。</p>
+<h1>CSS 讀書項目</h1>
+<ul>
+<li>[ ] HTML/CSS
+<ul>
+<li>[x] [HTML] <a href="https://htmlcheatsheet.com/">Cheatsheet</a></li>
+<li>[ ] [CSS] <a href="https://web.dev/learn/css">Learn CSS - web.dev</a> 搭配 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a> 搭配 <a href="https://developer.mozilla.org/zh-TW/docs/Web/CSS">MDN</a> (每天慢慢看可能也要個一個月吧，算很扎實)</li>
+<li>[ ] [CSS(替代方案)] <a href="https://htmlcheatsheet.com/css/">Cheatsheet</a> + <a href="https://www.w3schools.com/css/">標準語法糖 - w3schools</a> (如果對 CSS 沒興趣，可以直接這項簡單帶過)</li>
+<li>[ ] [CSS] 搭配 Hackerrank 證照題目交互學習</li>
+<li>[ ] [CSS] <a href="https://dev.to/m_midas/41-frontend-interview-questions-css-4imc">41 CSS 面試題目</a> (選擇擺在這看或者移到最後皆可)</li>
+<li>[ ] [CSS] 看 <a href="https://www.bilibili.com/video/BV1xP4y1X7CH/?spm_id_from=333.788">創意構想</a> 有 2 個影片 (滿滿的知識)</li>
+<li>[ ] (Pending) [CSS] 了解 Canvas, WebGL, SVG, CSS 3 階層樣式表 or three.js，了解一下就好，不用太深入</li>
+<li>[ ] [Front-end] 簡單了解一些 CSS 框架 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a>, Sharon UI</li>
+</ul>
+</li>
+</ul>
+<p>詳請可參考<a href="/2024/03/front-end-engineer-growing-up-plan/">完整讀書計畫目錄</a></p>
+<h1>Table of Content 內容</h1>
+<ul>
+<li>[x] CSS
+<ul>
+<li>[x] The Cascade
+<ul>
+<li>[x] Position and order of appearance</li>
+<li>[x] Specificity</li>
+<li>[x] Origin</li>
+<li>[x] Importance</li>
+</ul>
+</li>
+<li>[x] Specificity
+<ul>
+<li>[x] Specificity scoring</li>
+<li>[x] Visualizing specificity</li>
+<li>[x] Pragmatically increasing specificity</li>
+</ul>
+</li>
+<li>[x] Inheritance
+<ul>
+<li>[x] How to explicitly inherit and control inheritance
+<ul>
+<li>[x] Inherit</li>
+<li>[x] Initial</li>
+<li>[x] Unset</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[x] 本節小課程 - CSS 大小單位</li>
+</ul>
+</li>
+</ul>
+<h2>CSS</h2>
+<h3>The Cascade</h3>
+<p>The cascade 是用來解決當許多 css 規則造成矛盾跟衝突時，哪些 css 樣式跟規則會優先被史用。</p>
+<ul>
+<li>Position and order of appearance: the order of which your CSS rules appear (你擺放 css 的位置)</li>
+<li>Specificity: an algorithm which determines which CSS selector has the strongest match (不同的 selector 優先度不同，這個在下個章節有更詳細的分數計算)</li>
+<li>Origin: the order of when CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS (是瀏覽器本身、使用者套用、CSS Framework 的優先度)</li>
+<li>Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type (!important 就是非常重要，通常優先度很高、但是 transition 的優先度會比!important 高)</li>
+</ul>
+<h4>Position and order of appearance</h4>
+<p>後者宣告的永遠贏，就算是 link sheet (<code>&#x3C;link rel="stylesheet" href="./test.css" /></code>) 和 <code>&#x3C;style></code> tag，混在一起時，也是自然而然最後宣告的 css 樣式優先使用。</p>
+<p>但然而，如果最後宣告的樣式該瀏覽器不支援，那就會渲染倒數第二個宣告的樣式，以此類推。</p>
+<h4>Specificity</h4>
+<pre><code class="language-html">&#x3C;h1 class="my-element">Heading&#x3C;/h1>
+</code></pre>
+<pre><code class="language-css">.my-element {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+</code></pre>
+<p>以上的舉例來說， <code>class</code> 優先度高於 <code>html tag</code>。</p>
+<p>然後，id 的優先度會高於所有其他元素，所以建議不要直接用 id 撰寫 css 樣式，如果有其他需要 override 的需求的話，會比較難維護。</p>
+<p><code>a.my-class.another-class[href]:hover</code>，雖然可以用這種方式對 css 命名指定(selector)，但會造成維運困難或者若需要樣式可重複利用的話，建議讓 selector 越簡單越好。</p>
+<p>這個部分的分數計算在下個章節會有更詳細的解說。</p>
+<h4>Origin</h4>
+<p>The order of specificity of these origins, from least specific, to most specific is as follows:</p>
+<p>因為會有來自不同地方 import 的 css 樣式，包括瀏覽器原生有的，其優先度如下：</p>
+<p>低 -> 高</p>
+<ul>
+<li>User agent base styles. These are the styles that your browser applies to HTML elements by default.</li>
+<li>Local user styles. These can come from the operating system level, such as a base font size, or a preference of reduced motion. They can also come from browser extensions, such as a browser extension that allows a user to write their own custom CSS for a webpage.</li>
+<li>Authored CSS. The CSS that you author.</li>
+<li>Authored !important. Any !important that you add to your authored declarations.</li>
+<li>Local user styles !important. Any !important that come from the operating system level, or browser extension level CSS.</li>
+<li>User agent !important. Any !important that are defined in the default CSS, provided by the browser.</li>
+</ul>
+<p>!important -> 不是不重要，反而是最重要，優先度最高。</p>
+<h4>Importance</h4>
+<p>Not all CSS rules are calculated the same as each other, or given the same specificity as each other.</p>
+<p>The order of importance, from least important, to most important is as follows:</p>
+<ul>
+<li>normal rule type, such as font-size, background or color</li>
+<li>animation rule type</li>
+<li>!important rule type (following the same order as origin)</li>
+<li>transition rule type</li>
+</ul>
+<p>animation 跟 transition 的優先度會比較高，主要是因為當有這兩個樣式時，他們主要是改變視覺狀態的因子。</p>
+<p><strong>Note: 最後就是善用開發者工具去觀察 css 樣式的優先層級。</strong></p>
+<p>腦子是不用這麼可憐塞這些計算，開發者工具是你的好朋友。</p>
+<h3>Specificity</h3>
+<p>這個章節主要是針對上一個章節 The Cascade 的 Specificity 去做補充。</p>
+<p>Specificity 對於每個 selector 都有一個分數制，哪一個 selector 擁有高分，他的優先度最高被採用作為渲染 css 樣式，打個比方:</p>
+<pre><code class="language-html">&#x3C;button class="branding">Hello, Specificity!&#x3C;/button>
+</code></pre>
+<pre><code class="language-css">button {
+  color: red;
+}
+
+.branding {
+  color: blue;
+}
+</code></pre>
+<p>按鈕會是藍色的，因為就 <code>HTML tag</code> 跟 <code>class selector</code>，class 的分數會高一些。</p>
+<h4>Specificity scoring</h4>
+<p>以下列舉不同的 selector 以及他們的分數</p>
+<ul>
+<li>Universal selector (*): no specificity and gets 0 points</li>
+<li>Element or pseudo-element selector (div, ::selection): 1 point of specificity.</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']): 10 points of specificity.</li>
+<li>ID selector (#id): 100 分</li>
+<li>Inline style attribute (<code>&#x3C;div style="color: red">&#x3C;/div></code>): 1000 分</li>
+<li>!important rule: 10000 分</li>
+</ul>
+<p><strong>Note: pseudo-class 例外，當使用 :not() 等同使用 pseudo-class，所以下面這個分數是 11 分，div 1 分 + pseudo-class 10 分</strong></p>
+<pre><code class="language-css">div:not(.my-class) {
+  color: red;
+}
+</code></pre>
+<p><strong>Note: !important</strong></p>
+<pre><code class="language-css">.my-class {
+  color: red !important; /* 10,000 points */
+  background: white; /* 10 points */
+}
+</code></pre>
+<p>簡單來說可以累加</p>
+<pre><code class="language-html">&#x3C;a class="my-class another-class" href="#">A link&#x3C;/a>
+</code></pre>
+<pre><code class="language-css">/* 1分 */
+a {
+  color: red;
+}
+
+/* 11分 */
+a.my-class {
+  color: green;
+}
+
+/* 21分 */
+a.my-class.another-class {
+  color: rebeccapurple;
+}
+
+/* 31分 */
+a.my-class.another-class[href] {
+  color: goldenrod;
+}
+
+/* 41分 */
+a.my-class.another-class[href]:hover {
+  color: lightgrey;
+}
+</code></pre>
+<h4>Visualizing specificity</h4>
+<p>這個部分參考了 chatGPT 的回答才會計算，簡單來說上半部已經介紹了如何計算分數，這個章節比較像是當所有的 selector 都拼在一起時，你可以怎麼用各種進位制計算。</p>
+<p>chatGPT 的回答是 specificity 分數由四個部分組成數字(文章是 3 個)</p>
+<ol>
+<li>Inline styles (1000 分)</li>
+<li>ID (100 分)</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']) (10 分)</li>
+<li>Element or pseudo-element selector (div, ::selection) (0 分)</li>
+</ol>
+<p>然後以上的數字用進位制去計算</p>
+<p>Inline styles - ID - Class - Element</p>
+<pre><code class="language-css">/* Example 1 */
+div {
+  color: blue;
+}
+</code></pre>
+<ol>
+<li>Inline styles: 沒有</li>
+<li>ID: 沒有</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']): 沒有</li>
+<li>Element or pseudo-element selector (div, ::selection): 1 個</li>
+</ol>
+<p>所以分數是 0-0-0-1，就是 1 分。</p>
+<pre><code class="language-css">/* Example 2 */
+ul li a:hover {
+  color: purple;
+}
+</code></pre>
+<ol>
+<li>Inline styles: 沒有</li>
+<li>ID: 沒有</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']): 1 個 (hover)</li>
+<li>Element or pseudo-element selector (div, ::selection): 3 個 (ul, li, a)</li>
+</ol>
+<p>分數是 0-0-1-3，就是 13 分</p>
+<p>來看看網站內的範例</p>
+<pre><code class="language-css">a.my-class.another-class[href]:hover {
+  color: lightgrey;
+}
+</code></pre>
+<ol>
+<li>Inline styles: 沒有</li>
+<li>ID: 沒有</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']): 4 個 (.my-class, .another-class[href], :hover)</li>
+<li>Element or pseudo-element selector (div, ::selection): 1 個 (a)</li>
+</ol>
+<p>所以分數是 0-0-4-1 (網站寫 0-4-1，因為他沒有把 Inline styles 算進去)， 41 分</p>
+<p>另一個網站範例</p>
+<p>Which of the following selectors is 1-2-1?</p>
+<pre><code class="language-css">#specialty: hover li.dark;
+</code></pre>
+<ol>
+<li>Inline styles: 沒有</li>
+<li>ID: 1 個 (#)</li>
+<li>Class, pseudo-class, or attribute selector (.my-class, :hover, [href='#']): 2 個 (:hover, .dark)</li>
+<li>Element or pseudo-element selector (div, ::selection): 1 個 (li)</li>
+</ol>
+<p>所以答案是 0-1-2-1 (1-2-1), 121 分</p>
+<h4>Pragmatically increasing specificity</h4>
+<pre><code class="language-css">.my-button {
+  background: blue;
+}
+
+button[onclick] {
+  background: grey;
+}
+</code></pre>
+<pre><code class="language-html">&#x3C;button class="my-button" onclick="alert('hello')">Click me&#x3C;/button>
+</code></pre>
+<p>接著以上的答案來計算的話</p>
+<ul>
+<li>.my-button: 10 分</li>
+<li>button[onclick]: 11 分，因為 button 是 1 分、[onclick]算 attribute selector 所以 10 分</li>
+</ul>
+<pre><code class="language-css">.my-button {
+  background: blue;
+}
+
+[onclick] {
+  background: grey;
+}
+</code></pre>
+<p>這樣的話兩週都是 10 分，可是 grey 贏，因為他是在最後被宣告。</p>
+<p>所以如果想要按鈕是 blue 的話，倒過來寫就可以了，分數相同的，以最後宣告的為主。</p>
+<pre><code class="language-css">[onclick] {
+  background: grey;
+}
+
+.my-button {
+  background: blue;
+}
+</code></pre>
+<p>這樣按鈕就是 blue。</p>
+<h3>Inheritance</h3>
+<p>後來發現這個章節跟前面相關，所以就將 Inheritance 更新在此篇文章。</p>
+<p>先來引用這個章節的第一個例子，但我做了些改變</p>
+<pre><code class="language-css">.my-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background: pink;
+  font: inherit;
+  text-align: center;
+  color: blue;
+}
+
+article a {
+  color: maroon;
+}
+</code></pre>
+<pre><code class="language-html">&#x3C;a href="http://example.com" class="my-button">I am a button link&#x3C;/a>
+</code></pre>
+<p>你認為 a link 的字的顏色是什麼顏色？</p>
+<p>如果結合上面兩個章節來看，會是 blue。因為在前兩個章節提到， class 的 selector 分數比 html attribute (article, a)高，所以在優先度來看，會優先選擇 <code>class=".my-button"</code>的樣式，再選擇 <code>article a</code>，如果他內部有其他樣式是<code>.my-button</code>沒有定義的。</p>
+<h4>How to explicitly inherit and control inheritance</h4>
+<p>接著本章重點介紹這三個相關的關鍵字怎麼使用</p>
+<ul>
+<li>The inherit keyword</li>
+<li>The initial keyword</li>
+<li>The unset keyword</li>
+</ul>
+<p>Inherit</p>
+<p><code>inherit</code> 關鍵字就是字面上的意思「繼承」，使用後他會繼承父元素所設定的值。</p>
+<pre><code class="language-css">.parent {
+  color: red;
+}
+.child {
+  color: inherit; /* child 會繼承 parent 設定的值，也就是 color: red */
+}
+</code></pre>
+<p>但這例子很抽象，再舉一個</p>
+<pre><code class="language-css">strong {
+  font-weight: 900;
+}
+
+.my-component {
+  font-weight: 500;
+}
+
+.my-component strong {
+  font-weight: inherit;
+}
+</code></pre>
+<pre><code class="language-html">&#x3C;div class="my-component">
+  &#x3C;strong>test &#x3C;/strong>
+&#x3C;/div>
+</code></pre>
+<p>今天想要特別在<code>class="my-component"</code>底下的<code>strong</code>他的 font-weight 繼承<code>class my-component</code> (即 500)，我就用上面列舉的寫法</p>
+<pre><code class="language-css">.my-component strong {
+  font-weight: inherit;
+}
+</code></pre>
+<p>這樣，所有在 <code>div class="my-component"</code>底下的<code>strong</code>，他們的 font-weight 就都會是 500，繼承<code>class my-component</code>所設定。</p>
+<p>Initial</p>
+<p>而<code>initial</code>這個關鍵字，則是賦予你有重置(reset)的功能，然後再將值繼承最<code>default</code>的值(通常是瀏覽器原生的值)。</p>
+<pre><code class="language-css">aside strong {
+  font-weight: initial;
+}
+</code></pre>
+<p>比方說，他把原先 <code>strong</code>的設定透過 <code>initial</code> 重設， 那原先 strong 會是<code>粗體字</code>或者設為 <code>font-weight: 900;</code>，重置後，字會變成瀏覽器原先設計的粗細 (也許是<code>細字</code>或<code>font-weight: 200;</code>)。</p>
+<p>Unset</p>
+<p>最後則是 <code>unset</code> 關鍵字，這個關鍵字有兩種用法，「他<code>保留</code> 擁有繼承屬性的值、但<code>重設</code> 沒有繼承屬性的值」。</p>
+<p>舉下面這個例:</p>
+<pre><code class="language-css">.foo {
+  color: blue;
+}
+.bar {
+  color: green;
+}
+p {
+  color: red;
+}
+.bar p {
+  color: unset;
+}
+</code></pre>
+<p>在這樣的情況下 <code>.bar p</code> 的字會是綠色，因為 <code>&#x3C;div class=".bar"></code> 是父元素，底下的 <code>&#x3C;p></code> 繼承父元素的顏色，所以是綠色。</p>
+<pre><code class="language-css">div {
+  border: 1px solid green;
+}
+p {
+  border: 1px solid red;
+}
+.bar p {
+  border-color: unset;
+}
+</code></pre>
+<p>在這個例子中，<code>&#x3C;p></code>設置的邊框樣式是 <code>1px solid red;</code>，邊框顏色是紅色。但是在 <code>.bar p</code> 樣式時，<code>unset</code> 了 <code>border-color</code> 這個值，我們可以看到上面的 selector 都沒有賦予 <code>border-color</code>這個屬性，所以在這 <code>.bar p</code> 邊框顏色其實會被重設為跟瀏覽器一樣 (通常是黑色)。</p>
+<h3>本節小課程 - CSS 大小單位</h3>
+<p>最後，我自己塞一個小小的課程，就是有關 CSS 的單位大小。</p>
+<p><a href="https://www.oxxostudio.tw/articles/201809/css-font-size.html">參考網站</a></p>
+<ul>
+<li>px：絕對單位，代表螢幕中每個「點」( pixel )。</li>
+<li>em：相對單位，每個子元素透過「倍數」乘以父元素的 px 值。</li>
+<li>rem：相對單位，每個元素透過「倍數」乘以根元素的 px 值。</li>
+<li>%：相對單位，每個子元素透過「百分比」乘以父元素的 px 值。</li>
+</ul>
+<p>簡單來說，網站 CSS 單位有這些，特別是早期的網站都是運用 px 值去撰寫。</p>
+<p>而最近比較熱門的類似 TailwindCSS 這種 CSS 框架比較常用 rem 作為計算單位，應該是由於現在的網站都很要求響應式(RWD)，再加上 rem 是基於跟元素的 px 值去以倍數乘除，所以不需要像 px 單位，每個元素都要特別定義，rem 的單位可以做到一致性的比例控制，縮放整個頁面的大小，而不用調整每個元素。</p>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(3) | CSS(2) css樣式優先度計算"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","May"," ",20,", ",2024]}]]}],["$","div",null,{"className":"flex-wrap","children":["",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

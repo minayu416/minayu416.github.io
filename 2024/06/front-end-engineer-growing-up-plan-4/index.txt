@@ -1,0 +1,258 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2024/06/front-end-engineer-growing-up-plan-4","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-4","c"],{"children":["__PAGE__?{\"routes\":[\"2024\",\"06\",\"front-end-engineer-growing-up-plan-4\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-4","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(4) | CSS(3) 顏色、尺寸、大小 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"此篇文章將研讀CSS的顏色、不同的尺寸單位及大小。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"前端工程師,讀書計畫,CSS,Color,Sizing Units"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-4/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-4/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(4) | CSS(3) 顏色、尺寸、大小"}],["$","meta","19",{"property":"og:description","content":"此篇文章將研讀CSS的顏色、不同的尺寸單位及大小。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-4/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2024-06-10T16:10:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(4) | CSS(3) 顏色、尺寸、大小"}],["$","meta","33",{"name":"twitter:description","content":"此篇文章將研讀CSS的顏色、不同的尺寸單位及大小。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T3a4a,<p>第四篇讀書計畫的主題還是 CSS。</p>
+<p>正式進入 CSS 後，會花費大約一個半月的時間去刷<a href="https://web.dev/learn/css/">這個網站</a>的內容，所以接下來的文章都會是以這篇網站的內容學習為主。</p>
+<p>若對 CSS 沒有太大興趣的話，可以直上替代方案: <a href="https://htmlcheatsheet.com/css/">CSS Cheatsheet</a> + <a href="https://www.w3schools.com/css/">標準語法糖 - w3schools</a>。</p>
+<p>此系列的文章都是屬於本人先將<a href="https://web.dev/learn/css/">網站內容</a>消化過再總結紀錄，但如果內容太長的話...就會只挑自己覺得重要的跟要提醒的紀錄。</p>
+<p>感覺...，憑著這股奮力往前衝的氣勢，刷 CSS 這些知識也許有望刷完唷(X)，雖然在後面的篇章看一看覺得很乏味，不小心買了 Unity 課程，載了 Unity (X)，但我還是會努力刷完這些知識的 Q.Q。</p>
+<h1>CSS 讀書項目</h1>
+<ul>
+<li>[ ] HTML/CSS
+<ul>
+<li>[x] [HTML] <a href="https://htmlcheatsheet.com/">Cheatsheet</a></li>
+<li>[ ] [CSS] <a href="https://web.dev/learn/css">Learn CSS - web.dev</a> 搭配 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a> 搭配 <a href="https://developer.mozilla.org/zh-TW/docs/Web/CSS">MDN</a> (每天慢慢看可能也要個一個月吧，算很扎實)</li>
+<li>[ ] [CSS(替代方案)] <a href="https://htmlcheatsheet.com/css/">Cheatsheet</a> + <a href="https://www.w3schools.com/css/">標準語法糖 - w3schools</a> (如果對 CSS 沒興趣，可以直接這項簡單帶過)</li>
+<li>[ ] [CSS] 搭配 Hackerrank 證照題目交互學習</li>
+<li>[ ] [CSS] <a href="https://dev.to/m_midas/41-frontend-interview-questions-css-4imc">41 CSS 面試題目</a> (選擇擺在這看或者移到最後皆可)</li>
+<li>[ ] [CSS] 看 <a href="https://www.bilibili.com/video/BV1xP4y1X7CH/?spm_id_from=333.788">創意構想</a> 有 2 個影片 (滿滿的知識)</li>
+<li>[ ] (Pending) [CSS] 了解 Canvas, WebGL, SVG, CSS 3 階層樣式表 or three.js，了解一下就好，不用太深入</li>
+<li>[ ] [Front-end] 簡單了解一些 CSS 框架 <a href="https://tailwindcss.com/docs/installation">TailwindCSS</a>, Sharon UI</li>
+</ul>
+</li>
+</ul>
+<p>詳請可參考<a href="/2024/03/front-end-engineer-growing-up-plan/">完整讀書計畫目錄</a></p>
+<h1>Table of Content 內容</h1>
+<ul>
+<li>[x] CSS
+<ul>
+<li>[x] Color
+<ul>
+<li>[x] Where to use color in CSS rules</li>
+<li>[x] Numeric colors</li>
+<li>[x] Color Keywords</li>
+</ul>
+</li>
+<li>[x] Sizing Units
+<ul>
+<li>[x] ch</li>
+<li>[x] Number</li>
+<li>[x] Percentage</li>
+<li>[x] Dimensions and lengths</li>
+<li>[x] Miscellaneous units</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>CSS</h2>
+<h3>Color</h3>
+<p>探討過 css 樣式的優先度計算後，此篇當進到色彩與尺寸大小，和 css 樣式屬性較爲相關連的內容。</p>
+<h4>Where to use color in CSS rules</h4>
+<p>在網站內容的最下方，但我決定將它移動到上方先解釋。</p>
+<p>只要是 屬性的值 <code>data-type</code> 為 <code>color</code> 的值欄位都可以放 color 值，所以相關的屬性:</p>
+<ul>
+<li>color: 文字</li>
+<li>text-shadow</li>
+<li>text-decoration-color</li>
+<li>border</li>
+<li>border-color</li>
+<li>background-color 或 background: 背景顏色</li>
+</ul>
+<p>都可以，然後 color 也可以使用各種漸層效果，像是 <code>linear-gradient</code>，這個會在之後的篇幅特別有一篇介紹。</p>
+<p>那麼定義或形成顏色的值主要兩大項幾個小項目</p>
+<ul>
+<li>Numeric colors (由數字、英文字組成)
+<ul>
+<li>Hex colors</li>
+<li>RGB (Red, Green, Blue)</li>
+<li>HSL (Hue, Saturation, Lightness)</li>
+<li>...</li>
+</ul>
+</li>
+<li>Color Keywords (該英文單字對應一個固定的顏色)</li>
+</ul>
+<h4>Numeric colors</h4>
+<p>在此項目內容中，有介紹三種模式組成顏色，分別是以下</p>
+<ul>
+<li>Hex colors</li>
+<li>RGB (Red, Green, Blue)</li>
+<li>HSL (Hue, Saturation, Lightness)</li>
+</ul>
+<p>但我後來去翻文獻時，我發現還蠻多調整顏色的模式。</p>
+<p>詳細可以看<a href="https://ithelp.ithome.com.tw/articles/10340417">這篇文章</a></p>
+<p>像本人有接觸到彩妝，就有接觸過 HSL，以及與設計師好朋友的聊天內容，也接觸過 <code>CMYK</code>，不過還有很多種不同調顏色的模式，所以詳細狀況，還是要看需求而定。</p>
+<p>今天先針對三種介紹。</p>
+<p><strong>Hex colors</strong></p>
+<p>通常由 <code>6位數</code> 或者 <code>8位數</code> 的 0-9 跟 A-F 數值組成，他們會被翻譯成 RGB 原始三元素。</p>
+<ul>
+<li><code>6位字</code>組成一個顏色，例如: #b71540、#60a3bc、#f6b93b</li>
+<li><code>8位字</code>也就是原本<code>6位字</code>的顏色加上額外<code>2位</code>可以顯示他的<code>透明度</code>，例如: #00000080 (黑色, 透明 50%)、#000000BF(黑色, 透明 75%)</li>
+</ul>
+<p>網路上都蠻多 Hex colors 網站可以慢慢選，我倒是覺得不用特別去記怎麼計算。</p>
+<p><strong>RGB (Red, Green, Blue)</strong></p>
+<p>怎麼可以缺少色彩學大神 RGB 三元素呢。</p>
+<p>通常會用函式 <code>rgb()</code>包裹，內含三個值(紅綠藍) <code>0~255</code> 或 <code>百分比%</code>顯示，例如</p>
+<ul>
+<li>rgb(255, 255, 255) or rgb(100%, 100%, 100%).</li>
+<li>rgb(113, 221, 101) or (%數我不知道 XD).</li>
+</ul>
+<p>那如果要調透明度的話，有兩種方式</p>
+<ul>
+<li>保持使用 <code>rgb()</code>: 需要新增 / 在函式內，比方說: rgb(0 0 0 / 50%) or rgb(0 0 0 / 0.5)</li>
+<li>改用 <code>rgba()</code>: rgba(0, 0, 0, 50%) or rgba(0, 0, 0, 0.5)</li>
+</ul>
+<p>兩者都能增加透明度。</p>
+<p><strong>HSL (Hue, Saturation, Lightness)</strong></p>
+<pre><code class="language-css">h1 {
+  color: hsl(344, 79%, 40%);
+}
+</code></pre>
+<p>HSL 代表<code>色調</code>、<code>飽和度</code>跟<code>明亮度</code>，通常我比較常在彩妝或者服飾穿搭上看到相關的名詞，css 上很少遇到這個案例。</p>
+<p>使用 hsl() 函式包裹</p>
+<ul>
+<li>Hue (色調) - 值為 0-360 度</li>
+<li>Saturation (飽和度) - 0% ~ 100%</li>
+<li>Lightnextt (明亮度) - 0% ~ 100%</li>
+</ul>
+<p>那一樣如果要定義透明度 alpha，跟 rgb 很相似，兩種方式:</p>
+<ul>
+<li>同樣使用 hsl() - hsl(0 0% 0% / 50%) or hsl(0 0% 0% / 0.5)</li>
+<li>改用 hsla() - hsla(0, 0%, 0%, 50%) or hsla(0, 0%, 0%, 0.5)</li>
+</ul>
+<h4>Color Keywords</h4>
+<p>再來是有命名的顏色，目前看文章是寫有 148 種顏色在 css 是有直接用英文命名的。</p>
+<p>有興趣在自己看網站列出的<a href="https://web.dev/learn/css/color#color_keywords">顏色命名表</a>。</p>
+<p>最後特別介紹兩個單詞</p>
+<ul>
+<li>transparent: 這個是代表一個完全透明的顏色</li>
+<li>currentColor: 這個詞指的是現在的顏色，比方說如果 color 設 red，那你 border-color 填 currentColor，則 border-color 也會是 red。</li>
+</ul>
+<h3>Sizing Units</h3>
+<p>Sizing Units 這個章節介紹的內容跟上一篇文章的小課程內容相關，主要是介紹各個 css 屬性值的不同尺寸單位。</p>
+<p>那麼因應 CSS 跟響應式網站的發展，前端網頁設計的技術會越來越精緻，從原本常見的 <code>px</code> 去調整各個空間、文字的絕對大小，到後來延伸出 <code>rem</code>, <code>%</code> 之類的單位依據 <code>子元素</code> 或 <code>default數值</code> 為基準放大縮小因應響應式設計，究竟有多少不同的單位呢？會在此篇介紹。</p>
+<ul>
+<li>ch</li>
+<li>Number</li>
+<li>Percentage</li>
+<li>Dimensions and lengths
+<ul>
+<li>Absolute lengths</li>
+<li>Relative lengths</li>
+<li>Viewport-relative units (?)</li>
+</ul>
+</li>
+<li>Miscellaneous units
+<ul>
+<li>Angle units</li>
+<li>Resolution units (?)</li>
+</ul>
+</li>
+</ul>
+<h4>ch</h4>
+<p>雖不明白為什麼開場用 ch 這個單位，但確實好像也不知道這單位該屬於哪個分類，那就從 <code>ch</code> 開始講起吧。</p>
+<ul>
+<li>ch 這個單位是指等同一個字元 <code>0</code> 的 <code>寬度</code>大小，你可以使用 <code>ch</code> 來度量 <code>width</code>，假設 <code>70ch</code> 則為等同 70 個 <code>0</code> 字元的寬度。</li>
+</ul>
+<p>範例:</p>
+<pre><code class="language-css">h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  max-width: 15ch;
+}
+
+p {
+  font-size: 1.25rem;
+  max-width: 70ch;
+}
+</code></pre>
+<p>這特別運用在某些文章需要固定寬高的情況下，如果想用的是文字的寬度為尺寸，比方說寬度限定 40 個英文字，而不是固定的 <code>px</code> 或 <code>cm</code> 這種尺寸時的場景。</p>
+<h4>Number</h4>
+<p>基本上，大部分的 css 屬性的值都是使用數字作為單位，像是 opacity(透明度)、line-height(行高)、rgb(color 色彩)，有的是用整數(1,2,3...,100)有的是小數(0.1, 0.2,...)</p>
+<p>範例</p>
+<pre><code class="language-css">p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+</code></pre>
+<p>其中 1.5 這個小數指的是放大 150% 倍的 <code>&#x3C;p></code>尺寸，所以假設原本字的大小是 <code>24px</code>放大後變成<code>36px</code>。</p>
+<p>其他案例</p>
+<ul>
+<li><code>filter: sepia(0.5)</code> -> 50% sepia filter to the element.</li>
+<li><code>opacity: 0.5</code> -> 50% 透明度</li>
+<li><code>rgb(50, 50, 50)</code> -> 各 50 的 R, G, B 色彩 (0-255)</li>
+<li><code>transform: scale(1.2)</code> 放大元素 120% 大小</li>
+</ul>
+<h4>Percentage</h4>
+<p>除了用數字去精準訂定尺寸之外，還可以使用百分比作為尺寸單位。</p>
+<pre><code class="language-css">div {
+  width: 300px;
+  height: 100px;
+}
+
+div p {
+  width: 50%;
+}
+</code></pre>
+<p>假設 div 長跟寬 分別是 100px 跟 300px，那 div 下的文字段 p 就會是寬度*50% -> 150px 寬。</p>
+<p>除了長寬以外，<code>transform: translateX</code>、剛剛列舉的透明度、跟其他元素也能使用百分比作為單位。</p>
+<p>但需要注意的是 (我還沒查證過 XD)，使用百分比作為單位時%，要注意子元素或者初始值(default)有沒有先設原先的數值，如果沒有那就算寫多少百分比，也會沒有效用。</p>
+<h4>Dimensions and lengths</h4>
+<p>再來就是更多單位的介紹，分為</p>
+<ul>
+<li><a href="https://web.dev/learn/css/sizing#absolute_lengths">Absolute lengths (絕對)</a></li>
+<li><a href="https://web.dev/learn/css/sizing#relative_lengths">Relative lengths (相對)</a></li>
+</ul>
+<p>更詳細的介紹可以直接點網站查看。</p>
+<p><strong>Absolute lengths (絕對長度)</strong> 包括像是常用得 <code>px</code>，還有 <code>cm</code>、<code>mm</code>...等許多不同的尺寸標示具體的固定的大小，比方說<code>cm</code>就是標記具體的幾公分，<code>px</code>也是早期蠻常被使用做固定長寬大小的單位。</p>
+<p>但隨著響應式網站的需求增多，很多新設計的網站比較少使用這類型的絕對長度來訂定尺寸，因為當網頁縮放不同的裝置 (大螢幕的網站、中螢幕的網站、不同尺寸的平板及不同尺寸的手機)時，這類型寫固定(寫死)的單位就變得很不靈活。</p>
+<p>因此，現在大部分都使用相對長度的單位來訂定尺寸。</p>
+<p><strong>Relative lengths (相對長度)</strong></p>
+<ul>
+<li>Font-size-relative units (字體大小相對單元)</li>
+<li>Viewport-relative units (視圖大小相對單元)</li>
+</ul>
+<p>(中文真不知道怎麼翻比較好)</p>
+<p>相對長度跟絕對長度不同，絕對長度通常是寫固定的大小，比方說<code>3cm</code> 或者 <code>20px</code>(Pixels)，而相對長度大多是以比方說<code>一個單字的大小</code>或者<code>父元素的基準為縮放</code>。</p>
+<p>假設以<code>rem</code>舉例，如果根元素(root element)的字大小(font size) 為 <code>16px</code>，那麼 <code>1rem</code> = <code>16px</code>，<code>2rem</code> = <code>32px</code> 以此類推。</p>
+<p>相對長度(Relative lengths)又分為<code>Font-size</code>跟<code>Viewport</code>兩種相對單元。</p>
+<p><strong>1. Font-size-relative units</strong></p>
+<p>開頭的 <code>ch</code> 就是一種相對長度，因為他並沒有寫死固定為幾公分，而是透過一個文字的寬度做定義，所以<code>1ch</code>等同一個字的寬度，而<code>2ch</code>等同兩個字的寬度。</p>
+<p>我本人比較常看到的是 <code>rem</code> 跟 <code>em</code>，尤其現在熱門的 css 框架 <code>TailwindCSS</code> 就是使用 <code>rem</code> 作為單位，而這類型的相對尺寸是基於根元素(root element)的初始值去縮放其絕對長度。rem 的計算上面有提及了就不再寫一次啦。</p>
+<p>更多的 Font-size-relative 單位可以查看<a href="https://web.dev/learn/css/sizing#font-size-relative_units">web.dev 網站內容</a></p>
+<p><strong>2. Viewport-relative units</strong></p>
+<p>這個單元我比較不熟，比較少看到。</p>
+<p>解釋的話是運用瀏覽器視窗的尺寸作為相對基礎來縮放大小，我想可以理解為直接用瀏覽器的長寬拆解成單位，依照比例去縮放吧。</p>
+<p>印象比較深刻是我先前在用<code>react.js</code>跟<code>next.js</code> 開發網站時，當時我希望我的網頁背景是固定滿版，但我不管是設定了</p>
+<pre><code class="language-css">#root {
+  height: 100%;
+}
+</code></pre>
+<p>或其他 css 都沒有用處，後來我去查文件發現若需要固定滿版不能滾動的話，高度需要這樣設定：</p>
+<pre><code class="language-css">#root {
+  height: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+</code></pre>
+<p><code>vh</code>: 瀏覽器尺寸 1%的高度，所以<code>100vh</code>就是<code>瀏覽器100%</code>高度，也就是讓背景跟網站固定滿版呈現。</p>
+<p>這大概是我第一次遇到這種 Viewport-relative 的單位，由於遇到的次數不多，所以不知道未來會不會常使用，或者說未來若遇到同樣的問題，就能用這類型的單位解決。</p>
+<p>更多的 Viewport-relative 單位可以查看<a href="https://web.dev/learn/css/sizing#viewport-relative_units">web.dev 網站內容</a></p>
+<h4>Miscellaneous units</h4>
+<p>最後一章節是關於其他單位的介紹。</p>
+<p>首先是角度 (Angle units)，當你需要旋轉某個物件或者旋轉效果，其單位是使用 deg，旋轉<code>360度</code>就是<code>360deg</code>。</p>
+<pre><code class="language-css">div {
+  width: 150px;
+  height: 150px;
+  transform: rotate(60deg);
+}
+</code></pre>
+<p>有其他的角度單位分別是 rad (radians), grad (gradians) 和 turn， 1turn = 360deg, 0.5turn = 180deg.</p>
+<p>再來是解析度 (Resolution units) 的單位 (dpi)，比方說 192 解析度就是 <code>192dpi</code>。</p>
+<p>那麼這次的章節就到這啦。</p>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(4) | CSS(3) 顏色、尺寸、大小"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","Jun"," ",11,", ",2024]}]]}],["$","div",null,{"className":"flex-wrap","children":["",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

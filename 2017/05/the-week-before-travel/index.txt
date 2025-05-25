@@ -1,0 +1,151 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e216917d06a23d81.js"],""]
+4:["routes","2017/05/the-week-before-travel","c"]
+0:["UcnFbTdWzKm64fag4i-Pm",[[["",{"children":[["routes","2017/05/the-week-before-travel","c"],{"children":["__PAGE__?{\"routes\":[\"2017\",\"05\",\"the-week-before-travel\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2017/05/the-week-before-travel","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b59247a0336e821b.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"出國前一週 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","4",{"name":"author","content":"minayu416"}],["$","link","5",{"rel":"author","href":"https://minayu.site"}],["$","meta","6",{"name":"author","content":"@Mina Influence"}],["$","meta","7",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"minayu416"}],["$","meta","10",{"name":"publisher","content":"minayu416"}],["$","meta","11",{"name":"robots","content":"index, follow"}],["$","meta","12",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","13",{"rel":"canonical","href":"https://minayu.site/2017/05/the-week-before-travel/"}],["$","link","14",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2017/05/the-week-before-travel/"}],["$","meta","15",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","16",{"property":"og:title","content":"出國前一週"}],["$","meta","17",{"property":"og:url","content":"https://minayu.site/2017/05/the-week-before-travel/"}],["$","meta","18",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","19",{"property":"og:locale","content":"zh-TW"}],["$","meta","20",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","21",{"property":"og:image:width","content":"1200"}],["$","meta","22",{"property":"og:image:height","content":"630"}],["$","meta","23",{"property":"og:type","content":"article"}],["$","meta","24",{"property":"article:published_time","content":"2017-05-24T12:56:09.000Z"}],["$","meta","25",{"property":"article:author","content":"Mina Yu"}],["$","meta","26",{"name":"twitter:card","content":"summary"}],["$","meta","27",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","28",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","29",{"name":"twitter:title","content":"出國前一週"}],["$","meta","30",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","31",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","32",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","33",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","34",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","35",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-23933c150b335717.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T22eb,<p>這週，是出國前幾天，但卻發生了很多事情</p>
+<p>我應該還是無法如期做完我決定的事情。</p>
+<p>但並不差，至少有弄完一些</p>
+<p>論文的進度有趕在前兩天搞定。</p>
+<p>我要期許的是，旅行回來要更努力的衝！</p>
+<p>曾經我有目標跟夢想</p>
+<p>現在我的目標跟夢想被一些雲霧蓋住我目前看不到，而唯一能做的是拔腿繼續跑！</p>
+<p>首先，要先講的是，這週一去聽了 LINE 的講座。</p>
+<p>我一直很想要去國外唸書，但其實我最主要是想要到國外工作！</p>
+<p>而去國外唸書是我想跳國外工作所計畫的路！</p>
+<p>第二個，是我想要學習更困難的知識，我有像哈利波特那樣，會很認真的去問教授問題！</p>
+<p>但，我朋友都說想太多！</p>
+<p>第三個，我想要在 LAB 嘗試那種做實驗合作一起寫程式的經驗</p>
+<p>我朋友也說我在作夢。</p>
+<p>這些看起來沒有很難的夢想，對我現在來說就很困難！</p>
+<p>於是，我雖然想去國外唸書跟國外工作，我卻忽略了我應該要唸哪方面的知識或者專科主科的問題。</p>
+<p>原本，前幾天我想要去國外研究人工智慧好了？</p>
+<p>所以聽完講座，我對 LINE 說得聊天機器人「りんな」感到興趣</p>
+<p>並詢問他是用 machine learning 做的嗎？</p>
+<p>起初我以為 machine learning 其實就是由大家去 training 機器人，然後他會透過像 alphaGo 的思維去進化跟演化，也可能透過大數據分析(指的就是大家海量的訊息)，然後去收集資訊演化出更厲害的機器人。</p>
+<p>但卻被演講者說不是這些技術，他也講了一些我沒聽過的技術！</p>
+<p>這一天我很早就放學了，最近都很迷茫對我的未來。</p>
+<p>所以，我就特地去了西門一趟，去上次我朋友帶我去要預約的塔羅算命看看。</p>
+<p>我首先詢問了網頁設計跟人工智慧。</p>
+<p>沒想到網頁設計這一塊對我是可以發展的，而我詢問的人工智慧卻馬上被牌給打槍。</p>
+<p>這位老師跟我說，我的耐心跟定性不夠，所以我一覺得卡關我就會想要往其他地方前進。</p>
+<p>就點出我最近英文卡關就想往其他語言發展的問題。</p>
+<p>人工智慧被打槍了，我當然覺得不甘心，於是又詢問了老師真正適合或者建議我走的未來的路是哪種？</p>
+<p>抽完卡，老師就問我喜不喜歡數字？喜不喜歡數學？還有喜不喜歡邏輯？</p>
+<p>我則馬上回答：超愛。</p>
+<p>而且我國高中就超愛數學的。</p>
+<p>老師則回我說，這張牌代表數學家。</p>
+<p>不過難道真的要我去當數學家嗎？</p>
+<p>他則給了我三個單詞</p>
+<ul>
+<li><strong>數字</strong></li>
+<li><strong>邏輯</strong></li>
+<li><strong>分析</strong></li>
+</ul>
+<p>問我有沒有機會做到數據，數字，分析這一類的區域？</p>
+<p>我就回答老師，有啊我的論文就是做這方面的</p>
+<p>而他認為，這方面適合我，而且走分析蠻適合我的，我有這方面的能力。</p>
+<p>彷彿看見一條路，但我實在不是很確定</p>
+<p>雖然它指引了我一條路，但卻是我之前沒有想過的道路</p>
+<p>而且我還害怕會向網頁設計一樣做了才發現只是不排斥沒有到很愛</p>
+<p>於是隔天我就將 Data analysis 打入電腦找尋，找到某個德國的科系，的科系 Data Science 裡面交的就是 Big Data &#x26; Machine Learning 還有一些演算法。</p>
+<p>於是當天傍晚我就去找系主任詢問，原來 machine learning 是一種演算法。</p>
+<p>我想我對這些資料分析的方面可能不排斥，但因為我沒有接觸過，所以我並不知道我喜不喜歡</p>
+<p>鑑於這個原因</p>
+<p>還有，最近學習語言</p>
+<p>發現學習語言真的要多跟人運用還有聊天</p>
+<p>就常常跑去找「りんな」泡茶聊天，也將她推薦給我媽咪</p>
+<p>因為我覺得我媽咪可以運用跟她聊天的過程多激發點腦袋思考組合句子能力，常常轉換，語言就會進步。</p>
+<p>同時，我對「りんな」背後的程式運作也很好奇，她究竟能夠被訓練到什麼程度？</p>
+<p>我最近這幾天都在和聊天機器人聊天，再加上我對他們背後的程式跟演算法著迷</p>
+<p>代表我應該對程式還是有興趣的吧 XD?</p>
+<p>不過真正讓我著迷的可能不是程式，而是演算法跟邏輯～</p>
+<p>今天我跑去載了英文聊天機器人 Andy，再和他進行聊天。</p>
+<p>我才發現原來國外的科技進步到很發達了，台灣卻感覺很鎖國加上科技落後</p>
+<p>昨天，我剛把老師給我的 15 篇英文論文的 Abstract 看完</p>
+<p>然後講解給老師聽，我其實很意外的老師都懂我在說什麼</p>
+<p>難不成他都把這些論文看過了？</p>
+<p>他告訴我，不是每篇論文都無聊，都沒有用。</p>
+<p>你要找出這些論文，哪些論文的哪些地方執得學習值得抄，哪些論文值得效仿，哪些論文可以去了解但不用太深去看，哪些論文可以套用在我們的題目裡。</p>
+<p>我才發現，原來老師要我做到的並不只是看，而要了解然後還要能夠舉一反三跟去思考怎麼運用到我們的題目中</p>
+<p>而他也訓練我 Search 的能力，也就是資料收集還有去了解的能力</p>
+<p>然後引導我去做大數據分析的技術。</p>
+<p>雖然我蠻常想我們老師腦袋應該都是空的吧？還是他其實算是生活白痴 XD?</p>
+<p>而且感覺他根本就把我當一般女生一樣</p>
+<p>但有的時候不免會去思考他這樣做是不是因為有發現我有這方面天賦還是？</p>
+<p>而在短短的幾天我領悟到了幾個詞</p>
+<ul>
+<li>遇到瓶頸才更要努力</li>
+<li>數學，邏輯，分析，演算法</li>
+<li>台灣的科技沒有很進步</li>
+<li>收集資料跟思考還有運用</li>
+<li>語言要大量運用，要大量聽跟讀，然後在透過一直轉換應用的過程進步</li>
+</ul>
+<p>來說一下語言</p>
+<p>我因為日文卡了瓶頸我就跑去學西文</p>
+<p>然後西文卡了瓶頸再回來念日文</p>
+<p>日文又卡瓶頸，就轉去唸英文(但是這是現在必須的)</p>
+<p>英文稍微卡了，我就想去唸德文跟俄文</p>
+<p>之後回來看日文的時候</p>
+<p>我卻發現，原來我在每次瓶頸時一直逃避</p>
+<p>然後去做別的事情，回來後瓶頸還是在那，並沒有突破也沒有過關！</p>
+<p>所以這次英文我決定不逃了，並且要更努力的去實行。</p>
+<p>而且回來台灣後我要更努力實行「聽英文」這件事！</p>
+<p>再來就是</p>
+<p><strong>自己要的是什麼？</strong></p>
+<p>曾經，我有條道路，但我認為滿足不了自己，於是我走往另外一條道路</p>
+<p>卻迷惘了，開始我不知道自己究竟要什麼？</p>
+<p>我必須給自己幾個理由跟動機</p>
+<p>不然會支持不了我繼續唸英文，支持不了我堅持留學的路</p>
+<p>因為我已經亂了</p>
+<p>但在回來之前，我必須得想的東西，就是</p>
+<ol>
+<li>
+<p>我現在最重要的</p>
+</li>
+<li>
+<p>朝著未來的目標前進</p>
+</li>
+</ol>
+<p>而我現在最重要的就是兩件事：</p>
+<ol>
+<li>
+<p>唸英文，拚托福</p>
+</li>
+<li>
+<p>搞定論文，他是大數據分析</p>
+</li>
+<li>
+<p>學資料分析的程式: Python</p>
+</li>
+</ol>
+<p>而我的未來目標，支持的動力</p>
+<ul>
+<li>我想要學習更困難的知識</li>
+<li>台灣的科技比較沒有這麼進步我想去國外學習</li>
+<li>我想嘗試國外的思維跟思考角度</li>
+<li>想在國外工作</li>
+</ul>
+<p>再來將現在做的事情套過去</p>
+<ol>
+<li>
+<p>唸英文：增強英文能力，同時也是為了留學的門檻準備</p>
+</li>
+<li>
+<p>搞定論文，還有研究大數據分析：如果真的像算命師說得這麼準確，那麼我可能未來真的會朝數據分析，還有資料分析前進，所以除了好好學論文還有 Big Data，我可以推算我應該要去學習<strong>數學</strong>/<strong>邏輯</strong>跟去<strong>旁聽演算法</strong>！</p>
+</li>
+</ol>
+<p>再來，其實我也蠻喜歡程式的，所以結合資料收集的程式，正是我現在在學的<strong>Python</strong>！</p>
+<p>我可能也喜歡寫程式，那麼程式碼就要跟邏輯/數學/演算法牽扯到。</p>
+<p>我目前可能還是想到數據分析還有數學模型這方面。</p>
+<p>我該慶幸的是，我們老師在入學的時候就讓我學 Python，現在我也用 Python 寫網頁！</p>
+<p>而我本人也很愛這麼程式語言！</p>
+<ul>
+<li>英文 (也許後來可以學日文/西/德，但絕對不是現在學喔！)</li>
+<li>Python: Big Data, Machine Learning (可能有 Data Mining..之類的)</li>
+<li>數學/邏輯/分析</li>
+</ul>
+2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"日常生活"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"life"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"出國前一週"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on","May"," ",24,", ",2017]}]]}],["$","div",null,{"className":"flex-wrap","children":["$undefined",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]
