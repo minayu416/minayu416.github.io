@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="42" fill="none" viewBox="0 0 46 42">
+  <path stroke="#F2F3FF" d="M30.16 20.5c0 3.856-3.198 7-7.166 7-3.967 0-7.164-3.144-7.164-7s3.197-7 7.164-7c3.968 0 7.165 3.144 7.165 7ZM23.005 42V0M0 20.5h46"/>
+  <path stroke="#F2F3FF" d="M0-.5h45.755" transform="scale(1.0108 .98908) rotate(45 -3.07 9.85)"/>
+  <path stroke="#F2F3FF" d="M0-.5h45.03" transform="matrix(.70373 -.71046 .72558 .68814 7.154 37)"/>
+  <path stroke="#F2F3FF" d="M3.066 15.5h4.088m-.5 10.5V16m-3.588 9.5h3.066"/>
+  <path stroke="#F2F3FF" d="M0-.5h2.873" transform="rotate(89.599 -2.39 27.932) skewX(-.017)"/>
+  <path stroke="#F2F3FF" d="M0-.5h6.143" transform="rotate(-.38 4941.297 -2884.63) skewX(.017)"/>
+  <path stroke="#F2F3FF" d="M0-.5h2.155" transform="rotate(89.599 -5.483 24.86) skewX(-.017)"/>
+  <path stroke="#F2F3FF" d="M19.939 10.873V8m6.643.5h-6.143m5.643 2.373V8.718M42.364 25.5h-3.529m.5-10.5v10m3.029-9.5h-2.647m-19.278-12h5.11m-5.11 2h5.11m-5.11 31h5.11m-5.11 2h5.11"/>
+</svg>

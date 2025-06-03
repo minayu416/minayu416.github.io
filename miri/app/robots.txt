@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /en/*/
+Disallow: /tw/*/
+Allow: /en/$
+Allow: /tw/$
+
+User-agent: Googlebot
+Disallow: /en/*/
+Disallow: /tw/*/
+Allow: /en/$
+Allow: /tw/$
+
+User-agent: Bingbot
+Disallow: /en/*/
+Disallow: /tw/*/
+Allow: /en/$
+Allow: /tw/$
+
+User-agent: Slurp
+Disallow: /en/*/
+Disallow: /tw/*/
+Allow: /en/$
+Allow: /tw/$
+
+User-agent: DuckDuckBot
+Disallow: /en/*/
+Disallow: /tw/*/
+Allow: /en/$
+Allow: /tw/$
+
+Sitemap: https://minayu.site/miri/app/sitemap.xml
