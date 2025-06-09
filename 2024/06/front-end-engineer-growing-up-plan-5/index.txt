@@ -2,15 +2,15 @@
 5:I[1343,[],""]
 6:I[4080,["185","static/chunks/app/layout-db013eb9512fa384.js"],""]
 4:["routes","2024/06/front-end-engineer-growing-up-plan-5","c"]
-0:["nJd3ZsjMBZm8NQL8afS38",[[["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-5","c"],{"children":["__PAGE__?{\"routes\":[\"2024\",\"06\",\"front-end-engineer-growing-up-plan-5\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-5","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"https://minayu.site/_next/static/css/62412e0261ddfa11.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+0:["75kPjnITKhYBxmafdtBYe",[[["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-5","c"],{"children":["__PAGE__?{\"routes\":[\"2024\",\"06\",\"front-end-engineer-growing-up-plan-5\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2024/06/front-end-engineer-growing-up-plan-5","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"https://minayu.site/_next/static/css/947d5ec7c9e084ed.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
 7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(5) | CSS(4) Layout 樣式、Flexbox、Grid 佈局 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"此篇文章將紀錄本人研讀跟鑽研CSS Layout佈局、Flexbox及Grid的相關知識，最後附上關於Portrait跟Landscape頁面的小知識。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"前端工程師,讀書計畫,CSS,Flexbox,Grid"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-5/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-5/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(5) | CSS(4) Layout 樣式、Flexbox、Grid 佈局"}],["$","meta","19",{"property":"og:description","content":"此篇文章將紀錄本人研讀跟鑽研CSS Layout佈局、Flexbox及Grid的相關知識，最後附上關於Portrait跟Landscape頁面的小知識。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2024/06/front-end-engineer-growing-up-plan-5/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2024-06-29T16:10:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(5) | CSS(4) Layout 樣式、Flexbox、Grid 佈局"}],["$","meta","33",{"name":"twitter:description","content":"此篇文章將紀錄本人研讀跟鑽研CSS Layout佈局、Flexbox及Grid的相關知識，最後附上關於Portrait跟Landscape頁面的小知識。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu.site/static/img/cover-image.jpeg"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
 1:null
 8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-4671ee34442d690f.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
-9:T89af,<p>第五篇讀書計畫的主題還是 CSS。</p>
+9:T8e36,<p>第五篇讀書計畫的主題還是 CSS。</p>
 <p>正式進入 CSS 後，會花費大約一個半月的時間去刷<a href="https://web.dev/learn/css/">這個網站</a>的內容，所以接下來的文章都會是以這篇網站的內容學習為主。</p>
 <p>若對 CSS 沒有太大興趣的話，可以直上替代方案: <a href="https://htmlcheatsheet.com/css/">CSS Cheatsheet</a> + <a href="https://www.w3schools.com/css/">標準語法糖 - w3schools</a>。</p>
 <p>此系列的文章都是屬於本人先將<a href="https://web.dev/learn/css/">網站內容</a>消化過再總結紀錄，但如果內容太長的話...就會只挑自己覺得重要的跟要提醒的紀錄。</p>
-<h2>CSS 讀書項目</h2>
+<h2 id="css-讀書項目">CSS 讀書項目</h2>
 <ul>
 <li>[ ] HTML/CSS
 <ul>
@@ -26,7 +26,7 @@
 </li>
 </ul>
 <p>詳請可參考<a href="/2024/03/front-end-engineer-growing-up-plan/">完整讀書計畫目錄</a></p>
-<h2>Table of Content 內容</h2>
+<h2 id="table-of-content-內容">Table of Content 內容</h2>
 <p>這篇文章的內容主要是講 CSS 的 Layout, Flexbox 跟 Grid。</p>
 <p>此篇文章內容非常龐大，我大概是刷了好幾次才把他們看完，大概也 delay 了兩週左右，目錄的部分就看能不能用最直接簡單暴力的方式把重點節錄出來，有興趣直接點就好。</p>
 <ul>
@@ -89,7 +89,7 @@
 </li>
 <li>[x] 本節小課程 - Portrait 和 Landscape，談螢幕方向</li>
 </ul>
-<h2>Layout</h2>
+<h2 id="layout">Layout</h2>
 <p>一個網頁的設計通常會是混用不同的 Layout。</p>
 <p>通常 layout 會使用 css 的<code>display</code>屬性去設置，包含以下幾個常用的 layout。</p>
 <p>display</p>
@@ -100,7 +100,7 @@
 <li>grid</li>
 </ul>
 <p>更多 layout: 參考<a href="https://tailwindcss.com/docs/display">TailwindCSS</a></p>
-<h3>Inline and Block spaces</h3>
+<h3 id="inline-and-block-spaces">Inline and Block spaces</h3>
 <p>這一小節是我自己加的，根據<a href="https://web.dev/learn/css/layout#understanding_the_display_property">這個圖</a>，我們能知道無論 layout 是 inline 或者 block，都有相對應的 space，如以下。</p>
 <ul>
 <li>margin</li>
@@ -110,7 +110,7 @@
 <li>content</li>
 </ul>
 <p>設計上 inline (就是橫向)、 block (區塊) 都有其對應的空間的屬性，如圖所示，所以當調整某個空間屬性 (margin, padding)，則會依據他的 display 去調整空間。</p>
-<h3>Flex &#x26; Grid</h3>
+<h3 id="flex--grid">Flex &#x26; Grid</h3>
 <p>Flexbox 跟 Grid 在 Layout 佈局很常使用，尤其現代網頁特別的花俏以及許多需求，懂得運用這兩者 layout 將能做出排版更好的網站。</p>
 <ul>
 <li>flex: 是一個一維(one-dimensional)的 layout，跨單個軸線(single axis)的佈局，可以是水平方向或垂直方向。</li>
@@ -144,7 +144,7 @@
   &#x3C;!-- ... -->
 &#x3C;/div>
 </code></pre>
-<h3>Flow layout</h3>
+<h3 id="flow-layout">Flow layout</h3>
 <p>在來是一些其他的 layout。</p>
 <ul>
 <li>Inline block</li>
@@ -152,7 +152,7 @@
 <li>Multicolumn layout</li>
 <li>Positioning</li>
 </ul>
-<h4>Position</h4>
+<h4 id="position">Position</h4>
 <p>這邊直接補充 Position 的內容，position 也是很常被使用的佈局，但他不是使用 display 設定，而是使用 position。</p>
 <p>簡單介紹一下幾個常用的 position</p>
 <ul>
@@ -208,7 +208,7 @@
 <p>後者是其實 relative 也能使用 top, left, right, bottom 將內容擺放不同的區域，但與 absolute 不同的差別是: <code>relative 會保持原有的空間，在當下個空間做位置的偏移。而absolute則會不會保留空間，直接浮在內容的上方，所以若下方原本有其他內容，則會直接往上移把原本的空間佔去</code></p>
 <p>詳細的範例圖，請參考網站。</p>
 <p>Note: 只能說早期我並不覺得 relative 有什麼作用，就是加了好像也跟沒加沒什麼關係，但後來發現正是因為某些場合不需要 relative 但我加了造成某些 css 的錯誤，這樣看起來我本身許多專案的 code，如果不需要用到 relative 的場合就儘量拿掉比較好。</p>
-<h2>Flexbox</h2>
+<h2 id="flexbox">Flexbox</h2>
 <p>Flexbox 是一個設計 sidebar 的設計模式。彈性的佈局模式 (Flexible Box Layout Model) 設計為一維陣列的內容，能在這一維陣列中擺放不同尺寸的內容，然後為他們調整合適的空間跟佈局。</p>
 <p>列舉一些使用 flex layout 達成的效果:</p>
 <ul>
@@ -227,7 +227,7 @@
 </ul>
 <p>在水平方向時，主軸就是水平方向、一維內的 items 或內容就是呈現水平方向擺放，而跨軸就是垂直方向，如果你需要調整空間或者使用到一些額外擺放屬性 (align)，就會動到跨軸。</p>
 <p>關於跨軸的運用，當你使用 wrap 屬性將內容切成多行時，或者能使用 align 屬性來在在跨軸安排更多的空間或者佈置內容的擺放。</p>
-<h3>Creating a flex container (display: flex)</h3>
+<h3 id="creating-a-flex-container-display-flex">Creating a flex container (display: flex)</h3>
 <p>創造一個 flexbox 佈局，你需要先在一個 div 中設置 <code>display: flex</code>。接著在這個 div 中，加入更多 divs (不同的 Items)</p>
 <p>如果你沒有設置其他屬性，那麼以下是初始值:</p>
 <ul>
@@ -236,7 +236,7 @@
 <li>Items 不會填滿 container</li>
 <li>Items 會在 container 的 start 位置</li>
 </ul>
-<h3>Controlling the direction of items (flex-direction)</h3>
+<h3 id="controlling-the-direction-of-items-flex-direction">Controlling the direction of items (flex-direction)</h3>
 <p>兩種方式能調整 flex 的方向：</p>
 <ul>
 <li>flex-direction: row, row-reverse, column, column-reverse</li>
@@ -250,7 +250,7 @@
 <li>writing-mode: <code>horizontal-tb</code>, <code>vertical-lr</code>, <code>vertical-rl</code></li>
 </ul>
 <hr>
-<h3>Wrapping flex items (flex-wrap)</h3>
+<h3 id="wrapping-flex-items-flex-wrap">Wrapping flex items (flex-wrap)</h3>
 <p>如果想要超出的 flex 內容自動換行，可以使用 flex-wrap 屬性達成。initial 的值是 no-wrap，就是不自動換行。</p>
 <p>當設置換行時，設定以下的 css 就可以自動把內容換行，而不會讓他超出 div</p>
 <pre><code class="language-css">.container {
@@ -284,7 +284,7 @@ flex-flow: column-reverse wrap-reverse;
 </code></pre>
 <p>Warning: Using order has the same problems as the row-reverse and column-reverse values of flex-direction. It would be very easy to create a disconnected experience for some users. Do not use order because you are fixing things being out of order in the document. If the items logically should be in a different order, change your HTML!</p>
 <p>總之就是類似這類型<code>視覺上</code>的順序變化，邏輯端是沒有改變的，所以使用時要多注意。</p>
-<h3>Controlling space inside flex items (flex-grow, flex-shrink, flex-basis and flex)</h3>
+<h3 id="controlling-space-inside-flex-items-flex-grow-flex-shrink-flex-basis-and-flex">Controlling space inside flex items (flex-grow, flex-shrink, flex-basis and flex)</h3>
 <p>通常在沒有設置任何有關縮放屬性的值時，flex 裡的 div 會根據其內容做縮放 (也就是內在尺寸 Intrinsic Sizing)，所以如果在一般情況下，有三個 div，很有可能 3 個 div 都擠在 main axis 的左方，右方留很大一個空間。</p>
 <p>為了能夠更自由的調整縮放這些內容，有幾種方式:</p>
 <ul>
@@ -324,7 +324,7 @@ flex-flow: column-reverse wrap-reverse;
 </code></pre>
 <p>以上的範例就是 item1 的 div，其 flex-grow: 1, flex-shrink: 1 及 flex-basis: 0%</p>
 <p>你可以參考 <a href="https://tailwindcss.com/docs/flex">TailwindCSS</a>去理解。</p>
-<h3>Reordering flex items</h3>
+<h3 id="reordering-flex-items">Reordering flex items</h3>
 <pre><code class="language-css">.container {
   display: flex;
   gap: 1rem;
@@ -339,7 +339,7 @@ flex-flow: column-reverse wrap-reverse;
 }
 </code></pre>
 <p>可以用 order 這個屬性來改變 div 的排序位置，但跟 reverse 一樣要小心運用。</p>
-<h3>Flexbox alignment overview (alignment-overview)</h3>
+<h3 id="flexbox-alignment-overview-alignment-overview">Flexbox alignment overview (alignment-overview)</h3>
 <p>再來是有三個方式可以在 flex layout 中分佈與調整空間。</p>
 <ul>
 <li>justify-content: 調整 main axis 的空間</li>
@@ -352,7 +352,7 @@ flex-flow: column-reverse wrap-reverse;
 <li>align-items: 在 cross axis 調整 一群組的 div 或者 items - 整排</li>
 </ul>
 <p>口訣: 如果跟調整 main axis 有關的空間就使用 <code>justify-</code> 開頭，如果調整跟 cross-axis 有關的空間就使用<code>align-</code>開頭的屬性。</p>
-<h3>Distributing space on the main axis (Justify-)</h3>
+<h3 id="distributing-space-on-the-main-axis-justify-">Distributing space on the main axis (Justify-)</h3>
 <p>調整 main axis 空間的屬性叫 <code>justify-</code>，justify 的初始值為 <code>flex-start</code></p>
 <pre><code class="language-css">.container {
   display: flex;
@@ -375,7 +375,7 @@ flex-flow: column-reverse wrap-reverse;
 <li>center: 至中</li>
 <li>space-between: 均等空間分散</li>
 </ul>
-<h3>Distributing space on the cross axis (Align-)</h3>
+<h3 id="distributing-space-on-the-cross-axis-align-">Distributing space on the cross axis (Align-)</h3>
 <p>調整 cross axis 空間的屬性叫 <code>align-</code>，但調整的 align 屬性有兩種。</p>
 <ul>
 <li>align-self: 在 cross axis 調整單個 div or item. (參考網站:<a href="https://tailwindcss.com/docs/align-self">TailwindCSS/align-self</a>)</li>
@@ -385,7 +385,7 @@ flex-flow: column-reverse wrap-reverse;
 <p>基本上值都差不多，只需要搭配圖像意會一下，align 就是在 cross-axis 調整單個或整排的上下空間 (往上浮、至中、往下浮或者其他..)。</p>
 <p>如果是 flex-direction: column，其 cross-axis 就會變成左右的空間。</p>
 <p>是需要一點時間了解。</p>
-<h3>The place-content shorthand (place-content)</h3>
+<h3 id="the-place-content-shorthand-place-content">The place-content shorthand (place-content)</h3>
 <p>就是用 place-content 這個屬性可以一次賦予調整兩個 axis 的屬性。</p>
 <pre><code class="language-css">place-content: [align-content] [justify-content]
 /* 如果只設定一個值，那代表這個值會同時實現兩個空間的調整，請注意使用 */
@@ -394,9 +394,9 @@ place-content: [值]
 <ul>
 <li></li>
 </ul>
-<h3>Margin auto</h3>
+<h3 id="margin-auto">Margin auto</h3>
 <p>如果你在 flexbox 樣式裡，你想把一個 div 刻意推遠，那麼你可以使用 <code>margin: auto</code> 來達成這個效果，將 <code>margin: auto</code> 下在你希望那個被推遠的 div 樣式上。</p>
-<h3>How to center an item vertically and horizontally</h3>
+<h3 id="how-to-center-an-item-vertically-and-horizontally">How to center an item vertically and horizontally</h3>
 <p>使用下面的樣式，就能把一個 div 完全置中。</p>
 <pre><code class="language-css">.container {
   width: 400px;
@@ -406,7 +406,7 @@ place-content: [值]
   align-items: center;
 }
 </code></pre>
-<h2>Grid</h2>
+<h2 id="grid">Grid</h2>
 <p>本來沒有要很詳細寫 Grid 的內容，因為當初第一次看完的時候，覺得內容很多又不懂。</p>
 <p>但神奇的是，靜下心來再刷第二次時，就突然看懂了，一邊讀一邊做筆記。</p>
 <p>阿不過，就在我進入後半邊後，又開始不懂了，隨便寫了，那個...概念上就是那些要讀 XD</p>
@@ -415,7 +415,7 @@ place-content: [值]
 <li>Flexbox: 一維的佈局，比較彈性去分佈跟調整佈局內 Items 的大小跟空間</li>
 </ul>
 <p>當你創一個 grid 佈局時，你會同時創立 rows 跟 columns</p>
-<h3>Grid Terminology (Basic terms of Grid)</h3>
+<h3 id="grid-terminology-basic-terms-of-grid">Grid Terminology (Basic terms of Grid)</h3>
 <p>關於 Grid 的專有名詞就保留英文吧，比較好懂。</p>
 <ul>
 <li>Grid Terminology
@@ -430,7 +430,7 @@ place-content: [值]
 </ul>
 </li>
 </ul>
-<h3>Rows and columns</h3>
+<h3 id="rows-and-columns">Rows and columns</h3>
 <ul>
 <li>Intrinsic sizing keywords
 <ul>
@@ -454,7 +454,7 @@ place-content: [值]
 }
 </code></pre>
 <p>用 <code>grid-template-columns</code> 跟 <code>grid-template-rows</code> 來定義 grid 內容。</p>
-<h4>Intrinsic sizing keywords</h4>
+<h4 id="intrinsic-sizing-keywords">Intrinsic sizing keywords</h4>
 <p>就是當你沒有刻意定義長寬高的值時，他會根據實際的內容去縮放格子(grid or div)的大小。這邊提供三個函式根據內在尺寸去縮放每個 grid 格子的大小。</p>
 <ul>
 <li>
@@ -467,7 +467,7 @@ place-content: [值]
 <p>fit-content(): 就是可以下一個函式裡面擺想要指定的固定寬高值，格子就會固定那個值。比方說 fit-content(10em) ，那格子的尺寸就不會超過 10em。</p>
 </li>
 </ul>
-<h4>The fr unit</h4>
+<h4 id="the-fr-unit">The fr unit</h4>
 <pre><code class="language-css">.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -480,9 +480,9 @@ place-content: [值]
 // 當設為 1fr, 1fr, 2fr
 |    |    |       |
 </code></pre>
-<h4>The minmax() function</h4>
+<h4 id="the-minmax-function">The minmax() function</h4>
 <p>可以運用一個 minmax()去定義最小跟最大的尺寸，比方說 <code>minmax(auto, 1fr)</code>就是最小隨著內容而定，但最大不會超過 1 個 fr 的尺寸。</p>
-<h4>The repeat()</h4>
+<h4 id="the-repeat">The repeat()</h4>
 <p>假設今天你要寫好多好多的格子，是不是就要這樣寫？</p>
 <pre><code class="language-css">.container {
   display: grid;
@@ -506,14 +506,14 @@ place-content: [值]
   grid-template-columns: 200px repeat(2, 1fr 2fr) 200px; /*creates 6 tracks*/
 }
 </code></pre>
-<h4>auto-fill and auto-fit</h4>
+<h4 id="auto-fill-and-auto-fit">auto-fill and auto-fit</h4>
 <p>有點難解釋，先發一個<a href="https://ithelp.ithome.com.tw/articles/10304861">參考的網站</a></p>
 <p>簡單來說</p>
 <ul>
 <li>auto-fill: 如果你給予他固定的 size，他就產固定 size 的格子，如果剛好目前的 container 第一排可以足夠擺 5 個固定 size 的格子，那他就會擺滿 5 個，第二排只需要 2 個格子，那就是 2 個固定 size 的格子其他留空。</li>
 <li>auto-fit: 你雖然給他固定的 size，但如果你寫的 divs 不夠，比方說第二排只有 2 個格子，那這個屬性會特別延展這兩個格子的 size，不按照原本定好的，而是自動延展至符合 5 個格子的寬度。</li>
 </ul>
-<h3>Auto-placement</h3>
+<h3 id="auto-placement">Auto-placement</h3>
 <ul>
 <li>Placing items in columns: 預設</li>
 <li>Spanning tracks</li>
@@ -521,7 +521,7 @@ place-content: [值]
 </ul>
 <p>就是說上面介紹了 Grid 的基本概念以及如何產生 Grid 後，接下來的章節就會跟空間、擺放之類的相關知識。</p>
 <p>應該也就是我開始感到看不懂且痛苦的地方了 Q.Q</p>
-<h4>Placing items in columns</h4>
+<h4 id="placing-items-in-columns">Placing items in columns</h4>
 <p>基本上沒有設置任何方向的話，預設的 grid 排盤是依據 row 的方向，但由於實際運用場景會有不同的狀況以及不同的書寫方向(就是日文、英文、阿拉伯文跟其他)，所以可以透過兩種方式變更 grid 排盤方向。</p>
 <ul>
 <li>grid-auto-flow: column: 特地將屬性設為 column，那 grid 就會按照 column 方向渲染</li>
@@ -534,7 +534,7 @@ place-content: [值]
 </li>
 </ul>
 <p>詳細 grid 怎麼變化就看<a href="https://web.dev/learn/css/grid#placing_items_in_columns">網站範例</a></p>
-<h4>Spanning tracks</h4>
+<h4 id="spanning-tracks">Spanning tracks</h4>
 <p>可以使用 span 來設定你的 grid 延展空間。</p>
 <ul>
 <li>grid-row-end</li>
@@ -548,10 +548,10 @@ place-content: [值]
   grid-column: auto / span 2;
 }
 </code></pre>
-<h4>Filling gaps</h4>
+<h4 id="filling-gaps">Filling gaps</h4>
 <p>運用 grid-auto-flow 屬性 可以將 grid 自動填補可填補的空間。</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow">參考範例</a></p>
-<h3>Placing items</h3>
+<h3 id="placing-items">Placing items</h3>
 <ul>
 <li>Placing items
 <ul>
@@ -581,17 +581,17 @@ place-content: [值]
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a></li>
 </ul>
-<h4>Stacking items</h4>
+<h4 id="stacking-items">Stacking items</h4>
 <p>再來是可以利用 z-index 去堆疊 Grid ，z-index 就是可以決定元素的 z 軸位置 (視覺上來看就是前跟後)，前面運用很多不同的 span 延伸空間、運用 place items 去決定從哪條 line 渲染，而這個小章節是指可以用 z-index 達到 grid 格子的堆疊視覺效果。</p>
 <p>這個呢，就只能多練習了，用文字感覺也很難達到解說。</p>
-<h4>Negative line numbers</h4>
+<h4 id="negative-line-numbers">Negative line numbers</h4>
 <ul>
 <li>explicit grid 明式格線</li>
 <li>implicit grid 暗式格線</li>
 </ul>
 <p>Use <code>grid-template-rows</code> and <code>grid-template-columns</code> to create what is known as the <code>explicit grid</code> (明式格線). - 基本上就是當你建立格線時，格線自己也建立了暗式格線(implicit grid)。</p>
 <p>你能在暗式格線內透過 <code>grid-auto-rows</code> 與 <code>grid-auto-columns</code> 屬性，給軌道定義一套大小。</p>
-<h3>Named grid lines</h3>
+<h3 id="named-grid-lines">Named grid lines</h3>
 <p>你能為 grid line 格線命名。</p>
 <pre><code class="language-css">.container {
   display: grid;
@@ -611,7 +611,7 @@ footer {
   /* right across the layout from line 1 to line 3*/
 }
 </code></pre>
-<h3>Grid Template Areas</h3>
+<h3 id="grid-template-areas">Grid Template Areas</h3>
 <p>也能幫某個領域的 grid 命名，使用 <code>grid-area</code>去命名。</p>
 <pre><code class="language-css">header {
   grid-area: header;
@@ -647,13 +647,13 @@ footer {
 <li>The areas created by repeating the name must be rectangular and cannot be disconnected. (重複名稱的領域必須是矩形，而且不能斷開)</li>
 </ul>
 <p><a href="https://web.dev/learn/css/grid#grid_template_areas">參考內容</a></p>
-<h3>Shorthand properties</h3>
+<h3 id="shorthand-properties">Shorthand properties</h3>
 <p><strong>Shorthand properties (就是某些屬性可以縮寫)</strong></p>
 <ul>
 <li>grid-template</li>
 <li>grid</li>
 </ul>
-<h4>Alignment</h4>
+<h4 id="alignment">Alignment</h4>
 <p>感覺這樣看下來，比起 flex，grid 在很後面的地方才開始介紹 Alignment。</p>
 <p>基本上在 <code>flexbox</code> 學習到的 align 內容也都適用於 grid。</p>
 <p>我們再複習一次</p>
@@ -688,7 +688,7 @@ footer {
 </ul>
 <p>好吧，承認後面有點小亂，因為想趕快結束這篇章，而且半夜 2 點了 Q.Q。</p>
 <p>但關於 Grid 的內容比較多，我想接下來幾天我應該還是會多花點時間複習。</p>
-<h2>本節小課程 - Portrait 和 Landscape，談螢幕方向</h2>
+<h2 id="本節小課程---portrait-和-landscape談螢幕方向">本節小課程 - Portrait 和 Landscape，談螢幕方向</h2>
 <p>接下來要談一下 Portrait 和 Landscape，是我在寫公司專案時遇到的知識。</p>
 <pre><code class="language-css">@media (orientation: landscape) {
   body {
@@ -712,5 +712,4 @@ footer {
 <p>另外某些例外是，在某些直立 (Portrait) 會有部分功能被隱藏，因為不夠顯示，但是當轉橫式(Landscape)時，由於螢幕跟空間夠大，某些功能就可以顯現出來，這些特別的設計也會使用到 orientation 屬性去特別撰寫。</p>
 <p>那這堂小課程就到這，主要是因為我很少見到這個寫法，當初在公司專案裡的 css 檔案中有幸遇見不熟悉，所以特別在此篇讀書計畫提出。</p>
 <p>詳細就請前往參考網站拜讀囉～</p>
-<p>參考網站: <a href="https://blog.akanelee.me/posts/162198-portrait-and-landscape/">Portrait 和 Landscape，談螢幕方向</a></p>
-2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(5) | CSS(4) Layout 樣式、Flexbox、Grid 佈局"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on ","Jun"," ",30,", ",2024]}]]}],["$","div",null,{"className":"flex-wrap","children":["",["$","article",null,{"className":"prose prose-slate prose-lg max-w-none break-words whitespace-pre-wrap","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",104,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",21,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]
+<p>參考網站: <a href="https://blog.akanelee.me/posts/162198-portrait-and-landscape/">Portrait 和 Landscape，談螢幕方向</a></p>2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[前端小菜鳥] 前端工程師成長計畫 - 讀書篇(5) | CSS(4) Layout 樣式、Flexbox、Grid 佈局"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on ","Jun"," ",30,", ",2024]}]]}],["$","div",null,{"className":"flex-wrap","children":["",["$","article",null,{"className":"prose prose-slate prose-lg md:prose-base max-w-none break-words whitespace-pre-wrap [&_h1]:text-2xl [&_h1]:mb-0 [&_h2]:mb-0 [&_h2]:text-xl [&_p]:mt-2 [&_p]:mb-2 [&_li]:mt-1 [&_li]:mb-1 [&_li]:leading-snug [&_ul]:mt-0 [&_ul]:mb-0 [&_ul]:leading-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",105,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",22,")"]}]]}]}],["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]

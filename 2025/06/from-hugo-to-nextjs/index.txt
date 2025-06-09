@@ -1,0 +1,506 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-db013eb9512fa384.js"],""]
+4:["routes","2025/06/from-hugo-to-nextjs","c"]
+0:["75kPjnITKhYBxmafdtBYe",[[["",{"children":[["routes","2025/06/from-hugo-to-nextjs","c"],{"children":["__PAGE__?{\"routes\":[\"2025\",\"06\",\"from-hugo-to-nextjs\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2025/06/from-hugo-to-nextjs","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"https://minayu.site/_next/static/css/947d5ec7c9e084ed.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"從 Hugo 到 Next.js (SSG)：重構個人網站並保住 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果 - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"紀錄使用Next.js重構個人網站並維持擁有 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果。本文適用於使用 Next.js 開發網站、希望維持或優化 SEO，或使用其他框架但想加強 SEO 表現的讀者。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"Next.js,SEO 優化,Metadata,Blog"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2025/06/from-hugo-to-nextjs/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2025/06/from-hugo-to-nextjs/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"從 Hugo 到 Next.js (SSG)：重構個人網站並保住 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果"}],["$","meta","19",{"property":"og:description","content":"紀錄使用Next.js重構個人網站並維持擁有 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果。本文適用於使用 Next.js 開發網站、希望維持或優化 SEO，或使用其他框架但想加強 SEO 表現的讀者。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2025/06/from-hugo-to-nextjs/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06//screenshot-2025-06-08-at-4.49.43e280afpm.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2025-06-09T16:50:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"從 Hugo 到 Next.js (SSG)：重構個人網站並保住 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果"}],["$","meta","33",{"name":"twitter:description","content":"紀錄使用Next.js重構個人網站並維持擁有 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果。本文適用於使用 Next.js 開發網站、希望維持或優化 SEO，或使用其他框架但想加強 SEO 表現的讀者。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06//screenshot-2025-06-08-at-4.49.43e280afpm.png"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-4671ee34442d690f.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T8f55,<p>本文適用於使用 Next.js 開發網站、希望維持或優化 SEO，或使用其他框架但想加強 SEO 表現的讀者。</p>
+<p>其 SEO 的知識跟優化核心理念都是相同的。</p>
+<h1 id="文章目錄-table-of-contents">文章目錄 Table of Contents</h1>
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li><a href="#%E6%B1%BA%E5%AE%9A%E5%BE%9E-hugo-%E6%90%AC%E9%81%8B%E5%8E%BB-nextjs">決定從 Hugo 搬運去 Next.js</a></li>
+<li><a href="#%E5%8B%95%E6%85%8B%E8%B7%AF%E5%BE%91%E7%9A%84%E5%95%8F%E9%A1%8C">動態路徑的問題</a></li>
+<li><a href="#%E4%B8%8A%E7%B7%9A%E6%88%90%E6%9E%9C%E8%88%87%E5%BE%8C%E7%BA%8C%E8%A7%80%E5%AF%9F">上線成果與後續觀察</a></li>
+<li><a href="#seo-%E5%84%AA%E5%8C%96%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%BB%9E">SEO 優化需要注意的點</a>
+<ul>
+<li><a href="#1-metadata">1. Metadata</a></li>
+<li><a href="#2-%E9%9C%80%E8%A6%81-seo-%E5%84%AA%E5%8C%96%E7%9A%84%E9%A0%81%E9%9D%A2%E7%A2%BA%E8%AA%8D%E6%98%AF-ssg-%E6%88%96-ssr-%E6%B8%B2%E6%9F%93%E6%A8%A1%E5%BC%8F">2. 需要 SEO 優化的頁面，確認是 SSG 或 SSR 渲染模式</a>
+<ul>
+<li><a href="#1-%E9%9C%80%E8%A6%81%E5%9C%A8-nextconfigmjs-%E5%AE%9A%E7%BE%A9-export-%E8%B7%9F-distdir">1. 需要在 <code>next.config.mjs</code> 定義 export 跟 distDir</a></li>
+<li><a href="#3-%E7%A2%BA%E4%BF%9D%E8%B7%AF%E5%BE%91%E4%B8%80%E8%87%B4%E4%BB%A5%E5%8F%8A%E7%94%A2%E7%94%9F%E8%B7%AF%E5%BE%91">2. 所有的路徑都要先產出</a></li>
+<li><a href="#3-%E6%B3%A8%E6%84%8F%E4%B8%8D%E8%A6%81%E7%94%A8%E5%88%B0-csr-%E6%A8%A1%E5%BC%8F">3. 注意不要用到 CSR 模式。</a></li>
+<li><a href="#4-%E6%AA%A2%E6%9F%A5%E7%B6%B2%E9%A0%81%E6%98%AF%E5%90%A6%E7%82%BA-ssg">4. 檢查網頁是否為 SSG？</a></li>
+</ul>
+</li>
+<li><a href="#3-%E7%A2%BA%E4%BF%9D%E8%B7%AF%E5%BE%91%E4%B8%80%E8%87%B4%E4%BB%A5%E5%8F%8A%E7%94%A2%E7%94%9F%E8%B7%AF%E5%BE%91">3. 確保路徑一致以及產生路徑</a></li>
+<li><a href="#4-%E5%BB%BA%E8%AD%B0route-%E4%B8%8D%E8%A6%81%E7%94%A8%E4%B8%AD%E6%96%87%E7%9B%A1%E9%87%8F%E6%98%AF%E8%8B%B1%E6%96%87">4. 建議：route 不要用中文，盡量是英文</a></li>
+<li><a href="#5-sitemap-robots">5. sitemap, robots</a>
+<ul>
+<li><a href="#sitemap">sitemap</a>
+<ul>
+<li><a href="#1-%E5%9C%A8%E6%A0%B9%E7%9B%AE%E9%8C%84%E5%89%B5%E7%AB%8B%E4%B8%80%E5%80%8B%E6%AA%94%E6%A1%88-next-sitemapconfigjs">1. 在根目錄創立一個檔案 <code>next-sitemap.config.js</code></a></li>
+<li><a href="#2-%E5%AE%9A%E7%BE%A9%E5%9F%BA%E6%9C%AC-sitemap-%E8%B3%87%E8%A8%8A">2. 定義基本 sitemap 資訊</a></li>
+<li><a href="#3-%E5%9C%A8-packagejson-%E5%8A%A0%E4%B8%8A-prebuild%E5%9C%A8%E4%BD%A0%E8%A6%81%E8%B7%91-build-%E5%89%8D%E5%85%88%E7%94%A2%E5%87%BA-sitemap-%E5%9C%A8-public-%E8%A3%A1%E5%9C%A8%E4%B8%80%E8%B5%B7%E6%89%93%E5%8C%85%E9%80%B2%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99%E8%A3%A1">3. 在 package.json 加上 prebuild</a></li>
+<li><a href="#4-%E5%AF%A6%E9%9A%9B%E7%94%A2%E5%87%BA-sitemap">4. 實際產出 Sitemap</a></li>
+</ul>
+</li>
+<li><a href="#robottxt">robots.txt</a></li>
+</ul>
+</li>
+<li><a href="#6-%E9%83%A8%E7%BD%B2%E6%99%82-assetroute-basepath-trailingslash-cname-nojekyll">6. 部署時, assetRoute, basePath, trailingSlash, CNAME, .nojekyll</a>
+<ul>
+<li><a href="#1-cname">1. CNAME</a></li>
+<li><a href="#2-nojekyll">2. .nojekyll</a></li>
+<li><a href="#3-nextjs-%E7%9A%84%E9%83%A8%E7%BD%B2%E8%A8%AD%E5%AE%9A">3. Next.js 的部署設定</a></li>
+</ul>
+</li>
+<li><a href="#7-%E9%83%A8%E7%BD%B2%E5%BE%8C%E7%9A%84-seo-%E8%A7%80%E5%AF%9F-google-analytics-ga-%E8%B7%9F-google-search-console">7. 部署後的 SEO 觀察: <code>Google Analytics (GA)</code> 跟 <code>Google Search Console</code></a></li>
+</ul>
+</li>
+</ul>
+<h1 id="前言">前言</h1>
+<p>至從高中迷上部落格網站跟前端設計後，我就一直希望能夠自己做一個個人網站。早期在還沒有接觸 Jamstack 跟 SSG 概念時，我運用許多不同的部落格服務並換了不同的平台撰寫文章。</p>
+<p>2019 年熱門的 Static Site Generation (SSG) 框架 -- Hugo 火紅竄起，作為軟體工程師的我運用 Hugo 框架搭配 Github Page 自己動手架起了我的個人網站，並把過往處於部落格平台服務上的文章與設計搬運到 Hugo 的個人網站上。 Hugo 也陪我從在 Wordpress 經營 2-3 年的部落格只有 10000 人觀看人次一直到現在累積 30 萬造訪次數的個人網站。</p>
+<p>使用 Hugo 框架架設個人網站，完全在我的意料之外，與自己的職涯技術道路沒有重疊，對於 Golang 跟 Hugo 的語法始終沒有花時間去熟悉，只能使用別人做好的套版主題，無法自己設計網站的 UI/UX。</p>
+<p>兩三年前，我先用 Nuxt.js（Vue）嘗試重寫網站，當時我對 CSR、SSR、SSG、ISR 等渲染方式一無所知，只知道一古腦兒的完成網站。花了半年設計 UI、學語法，甚至用整個中秋連假做最後的衝刺把網站上線，但幾天後我卻看著每日穩定的流量直接直線下降，某些比較熱門的文章在 Google 搜尋結果整個消失，讓我當下非常慌張 —— 我是不是這半年的開發都白費了？</p>
+<p>後來緊急把原先的 Hugo 的版本 Rollback，並又花了額外兩週的時間將我設計的網站樣式(JS,CSS,TailwindCSS)的部分用 Hugo 重構，才終於沒有讓半年的時間白費，只是又回頭用原本的 Hugo 重做網站了。</p>
+<h1 id="決定從-hugo-搬運去-nextjs">決定從 Hugo 搬運去 Next.js</h1>
+<p>前幾年我突然想嘗試轉行前端工程師，當時我的想法是 --</p>
+<blockquote>
+<p>如果能夠使用現有的前端框架去實作我的個人網站，這樣我不但能夠學習前端的技術，而且也能夠依據我自己的個人想法去設計我想要呈現的個人網站風格。</p>
+</blockquote>
+<p>後來我轉往研究 React.js 框架，進而得知 Next.js 框架不只支援 SEO 優化，又同時支援 SSR, CSR, ISR 以及 SSG 等不同的渲染模式，剛好符合我能邊學習前端技術並設計自己的網頁風格的需求，於是在上一家公司一年的前端實戰經驗磨練、以及對渲染模式更了解後，我決定在這個時候起身用 Next.js 重構網站。</p>
+<p>在使用 Next.js 重構網站的過程中，我深刻體會到 Hugo 作為熱門的靜態網站生成器（SSG），確實有其優勢。對於不熟悉技術的新手來說，Hugo 提供了極為友善的使用體驗：只需幾行指令、搭配現成主題，並部署至 GitHub Pages，就能快速建立個人網站。更重要的是，SEO 設定也相當簡便，只要完成基本設定，系統就會自動生成 SEO 所需的檔案，如 Metadata、Sitemap 與 Robots.txt，幾乎不需理解背後的實作原理。</p>
+<p>相較之下，使用 Next.js 重構網站時，對 SEO 與前端渲染方式（如 SSR、SSG、ISR）需要有基本的理解。同時，也建議具備一定的程式基礎再進行實作，才能更順利地掌握 SEO 整合與網站效能優化的細節。</p>
+<h1 id="動態路徑的問題">動態路徑的問題</h1>
+<p>2 年前曾想用 Next.js 重構，當對於技術不熟悉加上尚未找到符合需求的動態路徑解法，一直都沒有下定決心執行重構。</p>
+<p>我的個人網站在 Hugo 時期的 5-6 年左右累積了 30 萬瀏覽造訪人次、每天維持 50+ 左右的人造訪，且許多文章也都已經在 Google 建立搜尋排名。</p>
+<p>要維持現有的 SEO 表現，其中一個條件是不能變動到現有的 <code>文章/網頁的路徑（URL）</code>，不然會造成<code>404找不到網頁</code>或者還得<code>額外轉址</code>，進而讓 Google 搜尋排名掉落。</p>
+<p>當時用 Hugo 時，我的語系設定是：</p>
+<ul>
+<li>中文主頁：/</li>
+<li>英文主頁：/en/</li>
+<li>中文文章：/&#x3C;年>/&#x3C;月>/&#x3C;文章></li>
+<li>英文文章：/en/&#x3C;年>/&#x3C;月>/&#x3C;文章></li>
+</ul>
+<p>最一開始用 Next.js 時，為了保持不同語系的支援，採用 Dynamic Route 設計成 <code>/[lang]/page.js</code>，原本 <code>/2024/04/post</code> 的文章變成 <code>/zh-TW/2024/04/post</code>，這直接改變了 URL 結構，導致 Google 會找不到原本的頁面，讓文章排名掉落。</p>
+<p>後來我發現 Next.js 關於動態路徑的處理還有一個很重要的功能叫做 <a href="https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes#catch-all-segments">Catch-all Segments</a>，只要定義一個 <code>/[...routes]/page.js</code> 的動態路徑，再搭配 generateStaticParams，他能透過串列的方式自由定義動態路徑，不受限於語言前綴或 slug 的規則。</p>
+<p>比如說，傳遞 路徑串列 <code>['en', '2024', '04', 'post']</code> 他會組成 <code>/en/2024/04/post</code>，傳遞 <code>['2023', '01', 'post']</code> 會組成 <code>/2023/01/post</code>，這麼一來不需要受限於原先固定的動態路徑格式 <code>/[lang]/page.js</code>，必須要傳遞一個 <code>lang</code> 的值強制更改路徑。</p>
+<p>這方法讓我可以維持現有的文章路徑結構 <code>/2024/04/post</code>，讓讀者可透過搜尋引擎導到相同的文章。在找到這個問題的解決方法後，我下定決心開始進行重構。</p>
+<h1 id="上線成果與後續觀察">上線成果與後續觀察</h1>
+<p>用 Next.js 重構並正式上線的時間為 2025/05/26，到現在 06/05 也過去快 2 週了，運用 <code>Google Analytics (GA)</code> 跟 <code>Google Search Console</code> 觀察了幾天，點閱數跟 SEO 都有維持而且有比之前更好的狀況，此次直接用另外一個程式語言重構的結果很順利。</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.49.43e280afpm.png" alt="Google Analytics"></p>
+<p>依據 Google Analytics 5/26 上線後每日的訪客與讀者量沒有直線下降。</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.50.25e280afpm.png" alt="Google Search Performance"></p>
+<p>在 Google Search Console 的 Performance 也是呈現一樣的成果</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.50.37e280afpm.png" alt="Google Search Indexing"></p>
+<p>至於在 Google Search Console 的 Indexing 則是有偵測出更多的有效頁面，其他一些未被 Indexed 的頁面可能是過去過期的或者之前亂寫的時候產出錯誤的路徑，未來會手動將他們註銷掉。</p>
+<p>SEO 排名保持穩定、舊連結沒有 404 錯誤、而且 Google Robots 偵測出更多頁面並登入 Index，證明這次重構總算沒白費，也沒有失敗，讓我累積了不少關於 SEO 優化跟 Next.js 的實戰經驗。</p>
+<p>不過，我的個人網站流量雖不像電商網站每日幾千人、幾萬人造訪，但至少不像先前那樣重構後整體文章排名下滑以及造訪人數直線下降，也算這次重構成功。</p>
+<p>接下來的幾點我想就維持/優化 SEO 的技巧跟大家分享幾個重要的點。</p>
+<h1 id="seo-優化需要注意的點">SEO 優化需要注意的點</h1>
+<p>我用的 Next.js 版本: 14.2.5</p>
+<h2 id="1-metadata">1. Metadata</h2>
+<p>Metadata 是為每個網頁定義關於它的資訊，這些資訊可以告訴 Google 爬蟲，這個頁面的主題、重點內容、作者、其他資訊(例如語系)，以及當這個網站被分享時，他會怎麼呈現。</p>
+<p>儘可能的在每個你希望登入 Google 搜尋引擎的網站頁面/部落格文章頁面，都定義專屬於他的 Metadata。</p>
+<p>以下是我自己在我的網站中實作 Metadata 資訊，可以斟酌參考。</p>
+<ul>
+<li>網站的基本資訊：title, description, keywords。雖然有更新說 keywords 的參考因為有文章過度濫用而參考度減少，但還是建議擺五個關鍵字。</li>
+<li>Favicon：如果想讓你的網站更有辨識度、更專業，Favicon 是在網頁瀏覽器的分頁標籤中 [&#x3C;小圖示> &#x3C;你的網頁名稱> ] 的小圖示，建議可以擺個自行設計符合網站的小圖示。</li>
+<li>網站的額外資訊: generator, authors, creator。</li>
+<li>Robots.txt: 通常會直接有個<code>Robots.txt</code>檔案在網頁的根目錄定義你的網站哪些要被爬蟲哪些不需要。可以依據個人偏好選擇要不要針對個別網頁去定義。</li>
+<li>alternates: 若實作多語系的網站，會建議定義 alternates 資訊告訴爬蟲相同的內容在其他語系是哪些網址。 <strong>要注意如果 canonical 網址沒寫好會影響你分享時或者他人造訪你的網站可能不會被導到正確的網址，所以要自行檢查一下 canonical 有沒有設定對，原則上在 head 裡看到網址是正確的就可以了。</strong></li>
+<li>openGraph (OG): 當你分享文章到不同的平台時，他會怎麼被呈現，建議一定要定義。</li>
+<li>twitter: 特別針對如果在 twitter (X) 分享網站時會怎麼呈現。</li>
+</ul>
+<p>每一頁面都建議為它定義專屬的 Metadata，這對優化 SEO 非常重要。</p>
+<p>範例：</p>
+<pre><code class="language-js">const metadata = {
+  // 關於網站的基本資訊
+  title: "分頁名稱 - 網站名稱", // iPhone - Apple (台灣)
+  description: "描述",
+  keywords: ["關鍵字1", "關鍵字2", "關鍵字3", "關鍵字4", "關鍵字5"],
+
+  // 關於網站其他的資訊
+  generator: "Next.js 14.2.5",
+
+  // Favicon 是顯示在網站標籤的小圖
+  icons: {
+    icon: "/static/favicon.jpg",
+    shortcut: "/static/favicon.jpg",
+    apple: "/static/favicon.jpg",
+  },
+  applicationName: "網站名稱",
+  referrer: "origin-when-cross-origin",
+
+  authors: [
+    { name: "Mina" },
+    { name: "@Mina Influence", url: "https://minayu.site" },
+  ],
+  creator: "Mina",
+  publisher: "Mina",
+
+  // Safari或手機網站: 是否要偵測網頁內有無包含Email, Address, 電話格式
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  // Robots.txt，告訴爬蟲機器人哪些網站需要被收錄、哪些不需要
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  // 多語系的話，可以在這列出。canonical 是當前網站的網址。languages 則是列出相同內容但是不同語系的網址。
+  // 要注意後面不要有底線，或者要親自檢查 Head 中的 canonical 網址是否正確，這會關乎你點擊分享按鈕時複製的網站是否正確。
+  alternates: {
+    canonical: "https://minayu.site/about",
+    languages: {
+      en: "https://minayu.site/en/about",
+    },
+  },
+
+  // OG，當你分享文章到不同的平台時，他會怎麼被呈現
+  openGraph: {
+    title: "關於我 - 月亮水瓶座 @Mina 的網站",
+    description: "紀錄這個網站的資訊、歷史及關於我的個人資料。",
+    url: "https://minayu.site/about",
+    type: "article",
+    publishedTime: "",
+    authors: ["Mina Yu"],
+    siteName: "月亮水瓶座 @Mina 的網站",
+    images: [
+      {
+        url: "https://&#x3C;test-website>/static/img.jpg", // Must be an absolute URL
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "zh-TW",
+  },
+
+  // Twitter
+  twitter: {
+    card: "summary",
+    title: "關於我 - 月亮水瓶座 @Mina 的網站",
+    description: "紀錄這個網站的資訊、歷史及關於我的個人資料。",
+    siteId: "@MingJungYU",
+    creator: "@MingJungYU",
+    creatorId: "",
+    images: {
+      url: "https://&#x3C;test-website>/static/img.jpg",
+      alt: "@Mina Influence Image",
+    },
+  },
+};
+</code></pre>
+<h2 id="2-需要-seo-優化的頁面確認是-ssg-或-ssr-渲染模式">2. 需要 SEO 優化的頁面，確認是 SSG 或 SSR 渲染模式</h2>
+<p>前端網頁有不同的渲染模式如下，若無專攻前端技術會比較難理解。</p>
+<ul>
+<li>CSR (Client Site Rendering)</li>
+<li>SSR (Server Site Rendering)</li>
+<li>SSG (Static Site Generation)</li>
+<li>ISR</li>
+<li>...</li>
+</ul>
+<p>CSR 模式是因應前端頁面可以擁有即時且高互動的特效與動態而產生，其頁面只會有一個 <code>div</code> 作為節點，透過 JavaScript 去快速產生不同的交互動態，爬蟲程式只會看到一個 div 或者固定的 metadata 資訊，會認為這一頁網頁不重要而選擇將搜尋排名定義最低。</p>
+<p>SSR 是會在載入時渲染好整個 Html 頁面並直接呈現於當前頁面，適用於高度更新的網站，他可以即時讀取像是後端的資料庫或者其他網站的 API，每次載入都依據最新的資訊重新渲染一次網站返回前端，像是電商平台的商品頁面。</p>
+<p>SSG 是當你在 build 網站時，就會直接產出靜態網站，包含定義好的 Metadata 以及 文章或網頁內容，適用於低更新的網站，部落格就算是一種低更新的網站，因為當你發布文章後，你不需要每分每秒都更改你的文章。</p>
+<p><strong>確保需要 SEO 優化的頁面都是 SSR 跟 SSG</strong></p>
+<p>如果是架設個人網站，對於渲染方式不熟悉，建議可以使用其他熱門且直接運用 SSG 渲染模式的 <a href="https://jamstack.org/generators/">Jamstack 框架</a>，比如 Hugo，盡量找星星數多一點、使用人數跟支援多一點的框架，會比較好找資料。</p>
+<p>這麼一來也不用擔心自己的網站是屬於哪種渲染模式，統一都是產出 SSG 靜態網站。</p>
+<p>以下是關於 Next.js 的 SSG 模式設定。</p>
+<h4 id="1-需要在-nextconfigmjs-定義-export-跟-distdir">1. 需要在 <code>next.config.mjs</code> 定義 export 跟 distDir</h4>
+<pre><code class="language-js">const nextConfig = {
+  output: "export",
+  distDir: "out",
+  // 這一行看你要不要加，有加的會產出架構為 /blog/index.html or /2024/05/11/post/index.html 的架構，當訪問 /blog/ 或 /blog，Github Page 都會指向 /blog/index.html。
+  trailingSlash: true,
+  assetPrefix: isDev ? "" : "&#x3C;hostname>",
+  // For build for staging.
+  // basePath: "/staging",
+};
+
+export default nextConfig;
+</code></pre>
+<p>當你要將網站產出成靜態網站時，只要下指令 <code>npm run build</code>，等待建造網站且沒有任何錯誤，靜態網站會在 <code>/out/</code> 資料夾裡產出。</p>
+<h4 id="2-所有的路徑都要先產出這個在下個-section-會寫">2. 所有的路徑都要先產出，這個在下個 Section 會寫。</h4>
+<h4 id="3-注意不要用到-csr-模式">3. 注意不要用到 CSR 模式。</h4>
+<p>由於長期撰寫 React.js，所以很習慣大部分的程式都是 CSR，剛轉到 Next.js 時十分不習慣 CSR 功能需要使用 <code>'use client'</code>自行定義那一個頁面是需要使用 CSR 模式渲染。</p>
+<p>不熟悉時，我常常習慣在最上方統一套入 <code>'use client'</code> 把那一整頁直接渲染成 CSR 模式，這整頁頁面就變成只會有一個 div 節點，沒有其他內容。</p>
+<p>那若希望這個頁面能夠使用 useHook 去存一些狀態、做一些特效跟動畫，又同時針對頁面優化 SEO，該怎麼做呢？</p>
+<p>正因為 Next.js 是需要自己手動加上 <code>'use client'</code> 來定義 CSR 渲染模式，所以只要把需要使用到 useHook (useState, useEffect, ..) 的 Component 抽出到另外一隻 .js/.ts 檔案再 import 到頁面就可以。</p>
+<p>簡單來說，假設我今天有一個 blog 頁面如下</p>
+<pre><code class="language-js">export default function Page({ params: { lng } }) {
+  return (
+    &#x3C;>
+      &#x3C;Header />
+      &#x3C;Navbar />
+      &#x3C;Carousel />
+      &#x3C;Posts />
+      &#x3C;Categories />
+      &#x3C;Footer />
+    &#x3C;/>
+  );
+}
+</code></pre>
+<p><code>Carousel</code> 會運用到一些 useState 跟 useEffect 狀態管理去做動態變化，那我只需要把 carousel 函式抽出來獨立一個檔案再 import 回原本的頁面，就可以保持原本的頁面還是 SSR/SSG 渲染，只有 Carousel 是 CSR 渲染。</p>
+<pre><code class="language-js">// carousel.js
+"use client";
+export function Carousel() {
+  return &#x3C;>{/* TODO: Carousel */}&#x3C;/>;
+}
+</code></pre>
+<pre><code class="language-js">// page.js
+// 這麼一來這一頁就可以定義SEO屬性了。
+import { Carousel } from "@app/component/carousel";
+export default function Page({ params: { lng } }) {
+  return (
+    &#x3C;>
+      &#x3C;Header />
+      &#x3C;Navbar />
+      &#x3C;Carousel />
+      &#x3C;Posts />
+      &#x3C;Categories />
+      &#x3C;Footer />
+    &#x3C;/>
+  );
+}
+</code></pre>
+<h4 id="4-檢查網頁是否為-ssg">4. 檢查網頁是否為 SSG？</h4>
+<p>當你使用 <code>npm run build</code> 產出靜態網頁成功後，你可以到 <code>distDir</code> (這裡設為 <code>out</code>) 去檢查產出的檔案，比方說我希望 <code>/2024/05/11/post/</code> 這篇文章是靜態網站且有 SEO，那我就將 <code>/2024/05/11/post/index.html</code>使用程式編譯器 (vscode, vim, ...) 或文字編譯器(nopad++, txt)打開檔案而不是透過瀏覽器，打開 index.html 檔案後如果能看到  裡你設定的 metadata 跟  內有內容的話，就代表順利產成靜態網站了。如果你看到的不是正確的 metadata 或是只有一個  沒有其他內容的話，就代表可能運用到 CSR 模式了，這樣對於 SEO 優化是沒有效果的。</p>
+<h2 id="3-確保路徑一致以及產生路徑">3. 確保路徑一致以及產生路徑</h2>
+<p>大部分的靜態網站生產器(SSG, Static Site Generator) 其實都會依據你的程式資料夾架構跟 <code>.md</code> 的名稱或者你自定義的設定檔路徑去 <code>自動產出</code> 相對應的靜態路徑。</p>
+<p>打個比方在 hugo 裡，只要在 <code>config.toml</code> 設定好 permalinks，他就會依照設定的格式去產出路徑，如下</p>
+<pre><code class="language-go">[permalinks]
+  blog = "/:year/:month/:slug/"
+
+// 會自動產出 /2024/05/11/my-first-post, /2024/05/14/my-second-post 等路徑。
+
+</code></pre>
+<p>在 Next.js 有其他套件可以協助，我本身是使用 Next.js 的原生函式達成。</p>
+<p>如果要完全產出靜態網頁 SSG 的話，代表你網站內所有的路徑都要定義。如果你的資料夾架構 <code>沒有</code> 使用到動態路徑，例如 <code>/[lang]/</code>, <code>/product/[id]</code>, <code>[...routes]</code> 這種的話，Next.js 會依據你的資料夾自動產出相對應的路徑。</p>
+<p>比方說</p>
+<pre><code>app
+|   layout.js // 會自動產出 &#x3C;hostname>/ 主頁
+|   page.js
+|
++---about
+|       layout.js // 會自動產出 /about/
+|       page.js
+|
++---blog
+|       layout.js // 會自動產出 /blog/
+|       page.js
+|
++---product
+    |   layout.js // 會自動產出 /product/
+    |   page.js
+    |
+    +---[id]
+            layout.js // 不會自動產出，需要自行在 layout 中定義 id後，會依據定義的參數 產出類似 /product/1, /product/2
+            page.js
+
+</code></pre>
+<p>處理動態路徑的話，需要在該 layout.js 或 layout.ts 下 使用 generateStaticParams 處理跟帶入參數，並產出路徑。</p>
+<p>範例的話是這樣，如果我今天的資料夾長這樣</p>
+<pre><code class="language-js">// 假設今天做了占卜網站，我有不同的占卜方式: runes, tarot, lenormand
+// 我的資料夾: /divination/[method]/layout.js
+
+const METHOD = ["runes", "tarot", "lenormand"];
+
+// 要在這個函式裡列出所有 [method] 的可能參數，有列出來的話，該網址才會被找到不會404
+export async function generateStaticParams() {
+  const params = [];
+
+  METHODS.forEach((method) => {
+    // 實際格式我忘記長怎麼樣了，要確認一下 xD
+    params.push({ method });
+  });
+
+  return params;
+}
+
+export default async function Layout({ children }) {
+  return children;
+}
+</code></pre>
+<pre><code class="language-js">// 變形動態路徑範例
+// 我的資料夾: /[...routes]/layout.js
+
+export async function generateStaticParams() {
+  const allPosts = await getAllPosts();
+  const posts = allPosts.map((post) => {
+    // For loop 每個文章後，定義他的路徑
+    return {
+      routes: [post.lang, post.year, post.month,post.slug ];,
+    };
+  });
+
+  // 實際傳出去的資料會是
+  // [
+  //    {routes: ['2024', '05', '11', 'my-first-post']},
+  //    {routes: ['2024', '06', '11', 'my-second-post']},
+  //    {routes: ['2024', '07', '02', 'my-third-post']}, ...
+  // ]
+
+  return [...posts];
+}
+</code></pre>
+<p>只要使用到動態路徑，都需要在 layout.js 或 page.js 定義靜態路徑，產出靜態網站時才會跟著一併產出靜態網址(路徑)，才不會 404 找不到網站。</p>
+<h2 id="4-建議route-不要用中文盡量是英文">4. 建議：route 不要用中文，盡量是英文</h2>
+<p>我的部落格搬家了很多次，歷經多次文章檔案格式的轉換，某些從 Wordpress 轉檔的 <code>.md 檔</code> (我的文章)，沒有特別定義額外的 slug (網址)，且都是使用中文編碼命名。這種命名模式在很容易造成編碼加解密的問題，目前我知道 Hugo 能夠很好的支援中文網址轉換編碼。</p>
+<ul>
+<li>在瀏覽器看到的路徑是 <code>/2024/05/11/我的第一篇文章</code>，但實際上進入程式碼會變成 <code>/2024/05/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0</code></li>
+</ul>
+<p>這個情況是因為瀏覽器會幫你處理編碼加解密，而 Next.js 也會幫你處理。但我在重構的過程一直遇到瀏覽器、Next.js 跟 Babel 編譯後產出的靜態網站三者混在一起加解密，導致網址一直出錯，所以後來還是決定將可能會出錯的文章通通加上英文的 slug 網址定義路徑。</p>
+<p>且這類型的編碼並不利於 SEO 的優化，因此還是建議路徑能夠自己定義 <code>slug</code> 且使用英文定義是最好的。</p>
+<ul>
+<li><code>/2024/05/11/我的第一篇文章</code> 定義成 <code>/2024/05/11/my-first-post</code></li>
+<li><code>/blog/categories/旅行日記</code> 定義成 <code>/blog/categories/travel-diary</code></li>
+</ul>
+<p>這樣也不用擔心中文編碼造成網址找不到的問題發生。</p>
+<p>可以測試如果使用的框架能把網址中文編碼處理得很好，也是不需要更改，我是因為踢到鐵板，才想說乾脆一次全部改成英文路徑。</p>
+<h2 id="5-sitemap-robots">5. sitemap, robots</h2>
+<p>這兩個檔案的設定也會增加 SEO 的優化。</p>
+<ul>
+<li>sitemap: 告訴爬蟲程式這個網站有哪些網頁、更新頻率以及更新日期。</li>
+<li>robots.txt: 定義爬蟲程式哪些網站可以追蹤、讀取資訊，哪些網站不被允許讀取資訊。</li>
+</ul>
+<h3 id="sitemap">sitemap</h3>
+<p>sitemap 是一個 .xml 檔案，通常會放在整個靜態網站資料夾的根目錄: <code>sitemap.xml</code></p>
+<p>內容大概如下</p>
+<pre><code class="language-xml">&#x3C;?xml version="1.0" encoding="UTF-8"?>
+&#x3C;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+&#x3C;url>&#x3C;loc>https://minayu.site/en/&#x3C;/loc>&#x3C;lastmod>2025-06-03T16:47:28.136Z&#x3C;/lastmod>&#x3C;changefreq>weekly&#x3C;/changefreq>&#x3C;priority>0.8&#x3C;/priority>&#x3C;/url>
+&#x3C;url>&#x3C;loc>https://minayu.site/&#x3C;/loc>&#x3C;lastmod>2025-06-03T16:47:28.136Z&#x3C;/lastmod>&#x3C;changefreq>weekly&#x3C;/changefreq>&#x3C;priority>0.8&#x3C;/priority>&#x3C;/url>
+&#x3C;url>&#x3C;loc>https://minayu.site/2024/06/front-end-engineer-growing-up-plan-4/&#x3C;/loc>&#x3C;lastmod>2024-06-10T16:10:56.000Z&#x3C;/lastmod>&#x3C;changefreq>weekly&#x3C;/changefreq>&#x3C;priority>0.8&#x3C;/priority>&#x3C;/url>
+&#x3C;url>&#x3C;loc>https://minayu.site/2024/06/front-end-engineer-growing-up-plan-5/&#x3C;/loc>&#x3C;lastmod>2024-06-29T16:10:56.000Z&#x3C;/lastmod>&#x3C;changefreq>weekly&#x3C;/changefreq>&#x3C;priority>0.8&#x3C;/priority>&#x3C;/url>
+&#x3C;/urlset>
+
+</code></pre>
+<p>通常 SSG 框架都會支援產出 Sitemap 檔案的功能，或者有相關的套件，這個檔案不用自己寫，應當透過套件或功能產出，只需要自己處理路徑跟參數的邏輯。</p>
+<p>關於 Next.js 對於 sitemap 的處理，我是使用 <a href="https://www.npmjs.com/package/next-sitemap">next-sitemap</a>套件處理。</p>
+<h4 id="1-在根目錄創立一個檔案-next-sitemapconfigjs">1. 在根目錄創立一個檔案 <code>next-sitemap.config.js</code></h4>
+<h4 id="2-定義基本-sitemap-資訊">2. 定義基本 sitemap 資訊</h4>
+<pre><code class="language-js">module.exports = {
+  siteUrl: "https://&#x3C;hostname>", // ← 請改成你的 GitHub Pages 網址
+  generateRobotsTxt: true,
+  outDir: "public",
+  changefreq: "weekly",
+  priority: 0.8,
+
+  // 你希望哪些網址是被 exclude 排除，不要加進sitemap
+  exclude: [
+    "/blog/page/*",
+    "/blog/category/*/page/*", // 可依實際路由調整
+  ],
+
+  //  這個就蠻重要了，這個是關於動態網址，動態網址需要自己手動寫並新增在這，所有你需要他們出現在 sitemap 檔案裡並被爬蟲讀取到的動態路徑都需要在這邊處理。
+  additionalPaths: async (config) => {
+    // 這邊我放上我自己在處理動態部落格網址的處理邏輯
+
+    const posts = await getAllPosts();
+    const postPaths = posts.map((post) => {
+      const basePath = post.lang === "en" ? "/en" : ""; // 因為我的網址預設中文是沒有在最前面加語系
+      return {
+        // 需要直接用 / 串起路徑
+        loc: `${basePath}/${post.year}/${post.month}/${post.slug}`,
+        lastmod: post.date.toISOString(),
+      };
+    });
+
+    return [...postPaths];
+  },
+};
+</code></pre>
+<h4 id="3-在-packagejson-加上-prebuild在你要跑-build-前先產出-sitemap-在-public-裡在一起打包進靜態網站裡">3. 在 package.json 加上 prebuild，在你要跑 build 前先產出 sitemap 在 public 裡，在一起打包進靜態網站裡。</h4>
+<pre><code class="language-js">  "scripts": {
+    ...,
+    // 這一行
+    "prebuild": "next-sitemap",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+</code></pre>
+<h4 id="4-實際產出-sitemap">4. 實際產出 Sitemap</h4>
+<p>當在 Terminal 執行 <code>npm run build</code>後，會先看到 next-sitemap 開始處理 sitemap 檔案，順利產出檔案後，會進行 build 打包，記得檢查產出的 sitemap.xml 內容有無問題。</p>
+<h3 id="robottxt">robot.txt</h3>
+<p>至於 robot.txt 可以直接手動撰寫，也是在靜態網站的根目錄或者 Next.js 的 public 裡打開一個新檔案。</p>
+<p>如果你上面使用了 <code>next-sitemap</code> 產出 sitemap 檔案的話，可以參考上面多加一條參數定義就可以順便產出 robots.txt 而不用自己額外寫。 <code>generateRobotsTxt: true,</code></p>
+<p>額外撰寫，請在靜態網站個根目錄或者 public 資料夾中建立一個檔案<code>robots.txt</code>，然後依據個人需求寫</p>
+<pre><code class="language-txt"># *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://&#x3C;hostname>
+
+# Sitemaps
+Sitemap: https://&#x3C;hostname>/sitemap.xml
+</code></pre>
+<p>記得將 Host 改為自己的網站網址，Sitemap 也要指向自己正確的 Sitemap 檔案位置。</p>
+<p>其他需要排除或者 Forbidden 不允許 爬蟲程式訪問的寫法，再麻煩參照網路囉。</p>
+<p>這兩個檔案非常重要唷！</p>
+<h2 id="6-部署時-assetroute-basepath-trailingslash-cname-nojekyll">6. 部署時, assetRoute, basePath, trailingSlash, CNAME, .nojekyll</h2>
+<p>快到尾聲了，部署時跟在自己的電腦 Local 開發會有一些不同。</p>
+<p>通常在 local 開發的網址會長成 <code>http://localhost:3000</code>，但實際上部署到某個網站後，這段網址會變成你的網域，或者你會需要部署到有某個前綴比如說 <code>http://localhost:3000/staging/</code> 這種網域，就需要特別處理。</p>
+<h4 id="1-cname">1. CNAME</h4>
+<p>無論是不是使用 Next.js，只要你是使用自己購買的網域，你需要在 public 資料夾裡創建一個檔案 <code>CNAME</code> 沒有檔案格式，並只需要寫一行你的網域 <code>&#x3C;hostname></code> 在裡面即可。</p>
+<h4 id="2-nojekyll">2. .nojekyll</h4>
+<p>由於 Next.js 的 style 跟 JS 檔案都存放在 <code>_next/</code> ，如果是用 Github Page 架設網站，他會使用預設的 jekyll 作為 Style 的使用，會忽略所有以 <code>_</code> 底先開頭的檔案，這個時候 <code>_next/</code> 就會被忽略。</p>
+<p>想要正確讓網站找到 <code>_next/</code> 資料夾裡的 js 跟 css 檔案，請要在 public 檔案 創建一個 <code>.nojekyll</code> 一樣沒有檔案名，不需要有內容，並確保他在你的靜態網站的根目錄中出現。</p>
+<h4 id="3-nextjs-的部署設定">3. Next.js 的部署設定</h4>
+<p>剛將 build 檔案放上網域後，可能會發現圖片、JS 檔案、CSS 檔案的路徑都 404 找不到的問題。</p>
+<pre><code class="language-js">// next.config.mjs
+
+const nextConfig = {
+  output: "export",
+  distDir: "out",
+  // Next.js 一般不會去做 最後面的 slash / 轉址
+  // 你會發現 /blog 會找到網頁， /blog/ 會 404
+  // 仔細檢查如果沒有設定這個trailingSlash，你會發現只會產出 blog.js 檔案，這個時候路徑必須精準指向 /blog。加上這個設定後檔案會變成 /blog/index.html，部署到 Github Page 上之後，Github Page 會自動將 /blog 轉址至 /blog/，所以兩者都找得到網站。
+  trailingSlash: true,
+  // 當部署到Github時，你需要設定 那些 JS/Style檔案 從原本的 localhost ("") 指向你的網域 https://&#x3C;hostname>/，才會找到正確的路徑。
+  assetPrefix: isDev ? "" : "https://&#x3C;hostname>/",
+  // 如果你的網站有前綴，像是 /staging/ 或者架設在其他repo上，basePath需要改為前綴。
+  // basePath: "/staging",
+};
+export default nextConfig;
+</code></pre>
+<p>當你發現部署上去後，都找不到 <code>_next/</code> 資料夾或者圖片都亂掉的話，不妨檢查一下部署設定，或者檢查一下圖片的路徑有無錯誤，除了設定要改之外， 第二項的 <code>.nojekyll</code> 也需要建立檔案。</p>
+<p>祝福部署成功！</p>
+<h2 id="7-部署後的-seo-觀察-google-analytics-ga-跟-google-search-console">7. 部署後的 SEO 觀察: <code>Google Analytics (GA)</code> 跟 <code>Google Search Console</code></h2>
+<p>最後當網站順利上線後，我們可以透過 <a href="https://developers.google.com/analytics?hl=zh-tw">Google Analytics (GA)</a> 跟 <a href="https://search.google.com/search-console/about">Google Search Console</a> 來後續觀察你的網站造訪人數與 SEO 設定的狀況如何。</p>
+<p>Google Analytics (GA)，你需要自行去網站中，對於你的個人網域生產一個 GA 碼，然後安插進你的網頁裡，有不同的安裝方式，可以自行尋找。</p>
+<p>我這個懶惰鬼選擇在 Next.js home page 的 layout 自行安插這段程式碼，有需要可以自己取用，記得將 <code>G-XXXXXXXXXX</code> 改成自己的 GA 碼。</p>
+<pre><code class="language-js">export default function RootLayout({ children }) {
+  return (
+    &#x3C;html lang="en">
+      &#x3C;head>
+        {/* GA4 Script */}
+        &#x3C;Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          strategy="afterInteractive"
+        />
+        &#x3C;Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX', {
+              page_path: window.location.pathname,
+            });
+          `}
+        &#x3C;/Script>
+      &#x3C;/head>
+      &#x3C;body>{children}&#x3C;/body>
+    &#x3C;/html>
+  );
+}
+</code></pre>
+<p>相較之下 Google Search Console 使用好像就比較沒這麼複雜了，還是也需要設定 GA，我忘記了。</p>
+<p>最後記得手動將 Sitemap 的網址 登入 Google Search Console，讓 Google 爬蟲去造訪你的 Sitemap 將網頁們收入至搜尋的 Index 資料庫裡吧。</p>2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"軟體開發 SWD"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"software-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"從 Hugo 到 Next.js (SSG)：重構個人網站並保住 30 萬歷史瀏覽與每日 60+ 穩定造訪的 SEO 成果"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on ","Jun"," ",10,", ",2025]}]]}],["$","div",null,{"className":"flex-wrap","children":[["$","img",null,{"className":"h-full w-full object-cover object-center mb-6 border border-solid","src":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.49.43e280afpm.png","alt":"Google Analytics Screenshots"}],["$","article",null,{"className":"prose prose-slate prose-lg md:prose-base max-w-none break-words whitespace-pre-wrap [&_h1]:text-2xl [&_h1]:mb-0 [&_h2]:mb-0 [&_h2]:text-xl [&_p]:mt-2 [&_p]:mb-2 [&_li]:mt-1 [&_li]:mb-1 [&_li]:leading-snug [&_ul]:mt-0 [&_ul]:mb-0 [&_ul]:leading-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",105,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",22,")"]}]]}]}],["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",42,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",33,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]
