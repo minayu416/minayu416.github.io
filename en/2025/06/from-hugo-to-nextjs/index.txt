@@ -1,0 +1,446 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-e39bf6f0e9a90cbf.js"],""]
+4:["routes","en/2025/06/from-hugo-to-nextjs","c"]
+0:["0AiMtaQTCx_Ycy1Lw8veq",[[["",{"children":[["routes","en/2025/06/from-hugo-to-nextjs","c"],{"children":["__PAGE__?{\"routes\":[\"en\",\"2025\",\"06\",\"from-hugo-to-nextjs\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","en/2025/06/from-hugo-to-nextjs","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"https://minayu.site/_next/static/css/48a85a1880fd302d.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"From Hugo to Next.js (SSG): Refactor personal website and keep 300k history views and 50+ stable visits everyday SEO result - @Mina Influence"}],["$","meta","3",{"name":"description","content":"A practical guide: Use Next.js to refactor the original Hugo personal website, and maintain the SEO results of 300,000 historical views and 50+ stable visits per day. The post include metadata, key points of SEO optimization, and settings for deploying static websites."}],["$","meta","4",{"name":"application-name","content":"@Mina Influence"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"Next.js,SEO Optimization,Metadata,Blog"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/en/2025/06/from-hugo-to-nextjs/"}],["$","link","16",{"rel":"alternate","hrefLang":"en","href":"https://minayu.site/en/2025/06/from-hugo-to-nextjs/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"From Hugo to Next.js (SSG): Refactor personal website and keep 300k history views and 50+ stable visits everyday SEO result"}],["$","meta","19",{"property":"og:description","content":"A practical guide: Use Next.js to refactor the original Hugo personal website, and maintain the SEO results of 300,000 historical views and 50+ stable visits per day. The post include metadata, key points of SEO optimization, and settings for deploying static websites."}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/en/2025/06/from-hugo-to-nextjs/"}],["$","meta","21",{"property":"og:site_name","content":"@Mina Influence"}],["$","meta","22",{"property":"og:locale","content":"en"}],["$","meta","23",{"property":"og:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06//screenshot-2025-06-08-at-4.49.43e280afpm.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2025-06-16T14:00:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"From Hugo to Next.js (SSG): Refactor personal website and keep 300k history views and 50+ stable visits everyday SEO result"}],["$","meta","33",{"name":"twitter:description","content":"A practical guide: Use Next.js to refactor the original Hugo personal website, and maintain the SEO results of 300,000 historical views and 50+ stable visits per day. The post include metadata, key points of SEO optimization, and settings for deploying static websites."}],["$","meta","34",{"name":"twitter:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06//screenshot-2025-06-08-at-4.49.43e280afpm.png"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-06c8f4fac5ec5c0f.js","619","static/chunks/619-4671ee34442d690f.js","432","static/chunks/app/%5B...routes%5D/page-ab50a535e409addd.js"],"Navbar"]
+9:T672a,<p>This post suits for readers who use Next.js to develop websites or want to maintain or optimize SEO performance. The knowledge and core concepts of SEO are the same.</p>
+<p>The content is based on my own experience. Please refer to other websites and books for more advanced SEO knowledge and information. If there are any errors or questions, please send an email to inform us. Thank you!</p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#migrate-from-hugo-to-nextjs">Migrate From Hugo to Next.js</a></li>
+<li><a href="#successful-migration-from-hugo-to-nextjs-seo-and-traffic-maintained">Successful Migration from Hugo to Next.js: SEO and Traffic Maintained</a>
+<ul>
+<li><a href="#search-console-metrics">Search Console Metrics</a></li>
+<li><a href="#key-takeways">Key Takeways</a></li>
+</ul>
+</li>
+<li><a href="#seo-key-points">SEO Key Points</a>
+<ul>
+<li><a href="#1-metadata">1. Metadata</a></li>
+<li><a href="#2-pages-need-seo-should-use-ssr-or-ssg">2. Pages need SEO should use SSR or SSG</a>
+<ul>
+<li><a href="#1-configuration-in-nextconfigmjs">1. Configuration in <code>next.config.mjs</code></a></li>
+<li><a href="#2-define-static-route-paramters">2. Define static route paramters</a></li>
+<li><a href="#3-avoid-whole-page-csr">3. Avoid whole page CSR</a></li>
+<li><a href="#4-check-pages-successfully-statically-generated">4. Check pages successfully statically generated</a></li>
+</ul>
+</li>
+<li><a href="#3-suggestion-avoid-using-chinese-in-url-routes-slug">3. Suggestion: Avoid using Chinese in URL routes (slug)</a></li>
+<li><a href="#4-enable-sitemapxml-and-robotstxt-for-seo">4. Enable sitemap.xml and robots.txt for SEO</a>
+<ul>
+<li><a href="#sitemap">sitemap</a>
+<ul>
+<li><a href="#1-create-next-sitemapconfigjs-and-configure-it">1. Create <code>next-sitemap.config.js</code> and configure it</a></li>
+<li><a href="#2-additionalpaths-additional-path-needs-to-define-or-re-define-existing-paths">2. additionalPaths: additional path needs to define or re-define existing paths.</a></li>
+<li><a href="#3-add-prebuild-sitemap-to-your-packagejson-scripts">3. Add prebuild sitemap to your package.json scripts</a></li>
+<li><a href="#4-running-npm-run-build-will-generate-the-sitemap-before-building-the-static-site">4. Running npm run build will generate the sitemap before building the static site.</a></li>
+</ul>
+</li>
+<li><a href="#robottxt">robots.txt</a></li>
+</ul>
+</li>
+<li><a href="#5-deployment-settings-assetprefix-basepath-trailingslash-cname-nojekyll">5. Deployment Settings: assetPrefix, basePath, trailingSlash, CNAME, .nojekyll</a>
+<ul>
+<li><a href="#1-cname">1. CNAME</a></li>
+<li><a href="#2-nojekyll">2. .nojekyll</a></li>
+<li><a href="#3-nextjs-config">3. Next.js Config</a></li>
+</ul>
+</li>
+<li><a href="#6-seo-monitoring-tools-ga--search-console">6. SEO Monitoring Tools: GA &#x26; Search Console</a>
+<ul>
+<li><a href="#google-analytics-ga">Google Analytics (GA)</a></li>
+<li><a href="#google-search-console">Google Search Console</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#final-thoughts">Final Thoughts</a></li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<p>Building and designing my own personal website has always been a dream of mine.</p>
+<p>Back when I was still getting familiar with software development, I started with WordPress to build my site. It was a great starting point, but I found myself craving more flexibility — I wanted greater control over how content was structured and displayed on the front end. That led me to explore other tools that would give me the creative freedom I was looking for.</p>
+<p>In 2019, thanks to a recommendation from a former colleague, I discovered Hugo — a popular Jamstack framework known for its speed and SEO-friendly static site generation. Using Hugo, I rebuilt my personal website and began writing more consistently. Over time, the site grew from around 10,000 views on WordPress to over 300,000 page views today, with an average of 50+ daily visitors. (Most of my blog posts are written in Traditional Chinese.)</p>
+<p>However, as a developer with a backend background in Python and recently transitioning into frontend development with JavaScript, I found Hugo’s reliance on Go (Golang) to be a bit of a hurdle. Customizing themes and experimenting with new UI ideas became increasingly limiting.</p>
+<p>That’s what pushed me to take the next step — to find a path where I could keep learning modern frontend technologies while also having the flexibility to design and shape my personal site’s UI exactly the way I envision it.</p>
+<h1 id="migrate-from-hugo-to-nextjs">Migrate From Hugo to Next.js</h1>
+<p>Back when I was still in grad school, the modern frontend frameworks — React, Vue, and Angular — hadn't even been released yet. At that time, we were building websites using plain HTML, CSS, and JavaScript (or jQuery), typically combined with MVC architecture and backend technologies.</p>
+<p>Fast forward to a couple of years ago, I began transitioning from backend to frontend development. When I first started learning Next.js, I was completely unfamiliar with different rendering strategies like CSR, SSR, SSG, and ISR. The nuances — and sometimes conflicts — between CSR and SSR gave me quite a headache. Compared to React.js, which uses a straightforward CSR model, and Hugo, which is based on static site generation (SSG), jumping straight into Next.js felt overwhelming. I tried multiple times to rebuild my Hugo blog with Next.js, but the learning curve — especially around rendering — kept holding me back.</p>
+<p>There were a few major hurdles:</p>
+<ul>
+<li>My frontend knowledge was still limited, especially regarding rendering strategies, which made development difficult.</li>
+<li>I had little experience optimizing for SEO, and I was concerned that the SEO performance wouldn’t match what Hugo had been effortlessly handling for me.</li>
+<li>URL structure changes could seriously affect search engine rankings.</li>
+</ul>
+<p>My blog, built with Hugo, has been running for about 5–6 years and has accumulated over 300,000 page views, with around 50+ daily visitors. Many of the articles rank well on Google, thanks to Hugo's excellent SEO handling.</p>
+<p>One critical SEO requirement is preserving the original URL structure. Any change could result in 404 Page Not Found errors or require redirects — both of which can hurt Google rankings.</p>
+<p>The original URL structure in Hugo looked like this:</p>
+<ul>
+<li>Chinese homepage: <code>/</code></li>
+<li>English homepage: <code>/en/</code></li>
+<li>Chinese posts: <code>/&#x3C;year>/&#x3C;month>/&#x3C;slug></code></li>
+<li>English posts: <code>/en/&#x3C;year>/&#x3C;month>/&#x3C;slug></code></li>
+</ul>
+<p>However, when I tried rebuilding the site using Next.js and its dynamic routing system (e.g., <code>/[lang]/page.js</code>), my URLs changed. For example, a post originally at <code>/2024/04/post</code> became <code>/zh-TW/2024/04/post</code>. That change broke the existing URLs and caused Google to lose track of the pages.</p>
+<p>Eventually, I discovered a powerful feature in Next.js: <a href="https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes#catch-all-segments">Catch-all Segments</a>. By defining a dynamic route like <code>/[...routes]/page.js</code> and using <code>generateStaticParams</code>, I could define flexible route arrays, regardless of language or slug format.</p>
+<p>For example:</p>
+<ul>
+<li>Passing <code>['en', '2024', '04', 'post']</code> gives <code>/en/2024/04/post</code></li>
+<li>Passing <code>['2023', '01', 'post']</code> gives <code>/2023/01/post</code></li>
+</ul>
+<p>This approach allowed me to maintain the original URL structure (like <code>/2024/04/post</code>), ensuring existing search engine links would still work.</p>
+<p>After figuring this out, I finally made the decision to migrate from Hugo to Next.js — and officially started the process of rebuilding my site.</p>
+<h1 id="successful-migration-from-hugo-to-nextjs-seo-and-traffic-maintained">Successful Migration from Hugo to Next.js: SEO and Traffic Maintained</h1>
+<p>After the full site refactor using Next.js, the official relaunch was on May 26, 2025. As of June 5, it has been nearly two weeks since going live. During this time, I closely monitored performance through Google Analytics (GA) and Google Search Console (GSC). The results so far have been quite positive—both traffic and SEO rankings have remained stable, indicating a smooth transition.</p>
+<p>This is especially reassuring considering a previous attempt to migrate using Nuxt.js resulted in a significant SEO drop. So seeing these stable numbers now feels like a small victory.</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.49.43e280afpm.png" alt="Google Analytics"></p>
+<p>Daily users and pageviews remain steady post-launch.</p>
+<h2 id="search-console-metrics">Search Console Metrics</h2>
+<p>In Google Search Console, both performance and indexing results mirrored what I observed in GA:</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.50.25e280afpm.png" alt="Google Search Performance"></p>
+<p>No major dip in impressions or clicks after switching to Next.js.</p>
+<p><img src="https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.50.37e280afpm.png" alt="Google Search Indexing"></p>
+<p>More valid pages are now detected and indexed.</p>
+<p>Some of the non-indexed pages are likely outdated or contain old broken paths from earlier versions of the site. I plan to manually clean those up in future revisions.</p>
+<h2 id="key-takeways">Key Takeways</h2>
+<ul>
+<li>No major drop in search rankings or traffic</li>
+<li>No 404 errors from old links</li>
+<li>Increased number of pages indexed by Google robots</li>
+</ul>
+<p>Overall, this migration wasn’t a waste of effort—it actually paid off. It not only maintained the existing SEO performance but also gave me valuable hands-on experience in SEO tuning and working with Next.js.</p>
+<p>I’ve also been deepening my understanding of SEO, including tools and best practices such as <code>Schema.org</code> markup, Google <code>Lighthouse</code> audits, and structured data enhancements. At the same time, I’m re-evaluating my site’s content to ensure it's still engaging and relevant to readers.</p>
+<p>Sure, my blog doesn’t pull thousands or tens of thousands of visitors a day like an e-commerce site. But unlike the failed Nuxt.js migration where traffic and rankings plummeted, this time the outcome was solid.</p>
+<p>In the next section, I’ll share some of the key lessons and techniques I used to preserve and optimize SEO during the transition—hopefully, they’ll help others avoid common pitfalls.</p>
+<h1 id="seo-key-points">SEO Key Points</h1>
+<p>The Next.js version: 14.2.5</p>
+<h2 id="1-metadata">1. Metadata</h2>
+<p>Metadata provides structured information about each webpage, helping search engines like Google understand the content, language, author, and how the page should appear when shared on social platforms.</p>
+<p>For every page you want indexed by Google—especially blog posts—it's recommended to define unique metadata. Here are the key components I used in my implementation:</p>
+<ul>
+<li>Basic Info: title, description, and keywords. (Although the impact of keywords has decreased, it's still advisable to include around five.)</li>
+<li>Favicon: A small tab icon to increase brand recognition and professionalism.</li>
+<li>Additional Info: Such as generator, authors, and creator.</li>
+<li>Robots.txt Configuration: Instructs search engine bots on which pages to index.</li>
+<li>Alternates: Useful for multilingual websites; specify language-specific URLs.
+Be sure the canonical URL is correct, or your shared links might lead to the wrong page.</li>
+<li>openGraph (OG) &#x26; Twitter Tags: Define how your content appears when shared across platforms.</li>
+</ul>
+<p>Defining clear, relevant metadata for each page is crucial to strong SEO performance. Here is a sample metadata object implemented in <code>Next.js (v14.2.5)</code> based on my personal website:</p>
+<pre><code class="language-js">const metadata = {
+  // Basic Info
+  title: "About - @Mina Influence", // iPhone - Apple
+  description: "Some description here.",
+  keywords: ["keywords1", "keywords2", "keywords字3", "keywords4", "keywords5"],
+
+  // Additional Info
+  generator: "Next.js 14.2.5",
+
+  // Favicon
+  icons: {
+    icon: "/static/favicon.jpg",
+    shortcut: "/static/favicon.jpg",
+    apple: "/static/favicon.jpg",
+  },
+  // Put website name
+  applicationName: "@Mina Influence",
+  referrer: "origin-when-cross-origin",
+
+  // Additional Info
+  authors: [
+    { name: "Mina" },
+    { name: "@Mina Influence", url: "https://minayu.site" },
+  ],
+  creator: "Mina",
+  publisher: "Mina",
+
+  // Safari or mobile browsers will detect if match the format of Email, Address, phone.
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  // Robots.txt for Google Crawler
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  // for multilingual settings.
+  alternates: {
+    canonical: "https://minayu.site/about",
+    languages: {
+      en: "https://minayu.site/en/about",
+    },
+  },
+
+  // openGraph (OG) &#x26; Twitter Tags
+  openGraph: {
+    title: "About - @Mina Influence",
+    description: "Record the information about this site.",
+    url: "https://minayu.site/about",
+    type: "article",
+    publishedTime: "",
+    authors: ["Mina Yu"],
+    siteName: "@Mina Influence",
+    images: [
+      {
+        url: "https://&#x3C;test-website>/static/img.jpg", // Must be an absolute URL
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "zh-TW",
+  },
+
+  // Twitter
+  twitter: {
+    card: "summary",
+    title: "About - @Mina Influence",
+    description: "Record the information about this site.",
+    siteId: "@MingJungYU",
+    creator: "@MingJungYU",
+    creatorId: "",
+    images: {
+      url: "https://&#x3C;test-website>/static/img.jpg",
+      alt: "@Mina Influence Image",
+    },
+  },
+};
+</code></pre>
+<h2 id="2-pages-need-seo-should-use-ssr-or-ssg">2. Pages need SEO should use SSR or SSG</h2>
+<p>There are several frontend rendering methods like CSR, SSR, SSG, ISR, and Hydration. If you're not focused on frontend development, they can be hard to grasp. Let's skip the technical differences and remember the key point:</p>
+<p><strong>Pages that need SEO should use SSR or SSG.</strong></p>
+<p>If you're just building a personal website and unfamiliar with rendering methods, it's easier to use a <a href="(https://jamstack.org/generators/)">Jamstack framework</a> like Hugo that uses SSG by default. Choose a popular one with good community support.</p>
+<p>For Next.js, configure the project like this for static export:</p>
+<h4 id="1-configuration-in-nextconfigmjs">1. Configuration in <code>next.config.mjs</code></h4>
+<pre><code class="language-js">const nextConfig = {
+  output: "export",
+  distDir: "out",
+  // If add this line, the generated structure will be /blog/index.html or /2024/05/11/post/index.html when visit /blog/ or /blog, Github Page will direct to /blog/index.html。
+  trailingSlash: true,
+  // Change to your host url when deploying, this will direct to corract CSS/JS routes.
+  assetPrefix: isDev ? "" : "&#x3C;hostname>",
+};
+
+export default nextConfig;
+</code></pre>
+<p>Run <code>npm run build</code> to generate the static site in the <code>/out/</code> folder.</p>
+<h4 id="2-define-static-route-paramters">2. Define static route paramters</h4>
+<p>All routes must be pre-generated. Next.js will automatically create static paths based on your folder structure.</p>
+<p>If using dynamic routes like <code>[id]</code> or <code>[...routes]</code>, you must define them using <code>generateStaticParams</code>. Otherwise, the page won't be found (404 error).</p>
+<p>Examples:</p>
+<pre><code class="language-js">// /divination/[method]/layout.js
+
+const METHOD = ["runes", "tarot", "lenormand"];
+
+export async function generateStaticParams() {
+  const params = [];
+
+  METHODS.forEach((method) => {
+    params.push({ method });
+  });
+
+  return params;
+}
+
+export default async function Layout({ children }) {
+  return children;
+}
+</code></pre>
+<pre><code class="language-js">// /[...routes]/layout.js
+
+export async function generateStaticParams() {
+  const allPosts = await getAllPosts();
+  const posts = allPosts.map((post) => {
+    // For loop each post and define the route path
+    return {
+      routes: [post.lang, post.year, post.month,post.slug ];,
+    };
+  });
+
+  // data:
+  // [
+  //    {routes: ['2024', '05', '11', 'my-first-post']},
+  //    {routes: ['2024', '06', '11', 'my-second-post']},
+  //    {routes: ['2024', '07', '02', 'my-third-post']}, ...
+  // ]
+
+  return [...posts];
+}
+</code></pre>
+<h4 id="3-avoid-whole-page-csr">3. Avoid whole page CSR</h4>
+<p>If you add <code>"use client"</code> to the entire page, it becomes CSR and loses SEO benefits. Instead:</p>
+<p><strong><em>Keep the main page as SSR/SSG</em></strong></p>
+<p>Extract components that use hooks (e.g., Carousel) into separate files with <code>"use client"</code>, then import them back.</p>
+<pre><code class="language-js">// carousel.js
+"use client";
+export function Carousel() {
+  return &#x3C;>{/* TODO: Carousel */}&#x3C;/>;
+}
+</code></pre>
+<pre><code class="language-js">// page.js
+import { Carousel } from "@app/component/carousel";
+export default function Page({ params: { lng } }) {
+  return (
+    &#x3C;>
+      &#x3C;Header />
+      &#x3C;Navbar />
+      &#x3C;Carousel />
+      &#x3C;Posts />
+      &#x3C;Categories />
+      &#x3C;Footer />
+    &#x3C;/>
+  );
+}
+</code></pre>
+<h4 id="4-check-pages-successfully-statically-generated">4. Check pages successfully statically generated</h4>
+<p>How to check if your page was successfully statically generated:</p>
+<ul>
+<li>Run <code>npm run build</code> to generate static site.</li>
+<li>Open the HTML file in <code>/out/</code> with a text editor (not a browser)</li>
+<li>If you see <code>&#x3C;head></code> metadata and full <code>&#x3C;body></code> content, it's a valid static site (Make sure the metadata in head tag set correspondingly with you defined not the default value set in layout.js. Next.js will use the default or metadata in home page if it gets defined metadata failed.)</li>
+<li>If you only see a single empty <code>&#x3C;div></code>, it's CSR and won't be SEO-friendly</li>
+</ul>
+<h2 id="3-suggestion-avoid-using-chinese-in-url-routes-slug">3. Suggestion: Avoid using Chinese in URL routes (slug)</h2>
+<p>Since I migrated my blog several times, some posts (converted from WordPress .md files) didn’t have defined slugs and used Chinese filenames instead. This caused encoding issues.</p>
+<ul>
+<li>URL appears as: <code>/2024/05/11/我的第一篇文章</code></li>
+<li>But becomes: <code>/2024/05/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0</code> in actual requests</li>
+</ul>
+<p>Browsers and frameworks like Next.js try to handle encoding, but I still ran into decoding issues when building static pages. So I decided to define all slugs in English to avoid errors.</p>
+<p>Also, Chinese URLs don’t perform well in SEO. I recommend defining English slugs manually:</p>
+<ul>
+<li><code>/2024/05/11/我的第一篇文章</code> → <code>/2024/05/11/my-first-post</code></li>
+<li><code>/blog/categories/旅行日記</code> → <code>/blog/categories/travel-diary</code></li>
+</ul>
+<p>That way, you avoid encoding problems and improve SEO.</p>
+<p>If your framework handles Chinese URLs flawlessly, no need to change. I only did this after hitting multiple encoding issues.</p>
+<h2 id="4-enable-sitemapxml-and-robotstxt-for-seo">4. Enable sitemap.xml and robots.txt for SEO</h2>
+<h3 id="sitemap">sitemap</h3>
+<p>A sitemap helps search engines understand your site's structure and update frequency. It’s an XML file usually located at the root: <code>public/sitemap.xml</code></p>
+<pre><code class="language-xml">&#x3C;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  &#x3C;url>
+    &#x3C;loc>https://example.com/&#x3C;/loc>
+    &#x3C;lastmod>2025-06-03&#x3C;/lastmod>
+    &#x3C;changefreq>weekly&#x3C;/changefreq>
+    &#x3C;priority>0.8&#x3C;/priority>
+  &#x3C;/url>
+&#x3C;/urlset>
+</code></pre>
+<p>To auto-generate it in Next.js, use the <a href="https://www.npmjs.com/package/next-sitemap">next-sitemap</a> package.</p>
+<h4 id="1-create-next-sitemapconfigjs-and-configure-it">1. Create <code>next-sitemap.config.js</code> and configure it</h4>
+<h4 id="2-additionalpaths-additional-path-needs-to-define-or-re-define-existing-paths">2. additionalPaths: additional path needs to define or re-define existing paths.</h4>
+<p>The sitemap URLs automatically generated by the next-sitemap package with the current date. I don't know how to set the <code>lastmod</code> for different websites.</p>
+<p>I checked the official documentation and found that you can overwrite the information of the existing paths by adding the paths again in <code>additionalPaths</code>, no duplicate path issues.</p>
+<p>So I overwrite the posts lastmod by re-defining the paths and information as follows:</p>
+<pre><code class="language-js">module.exports = {
+  siteUrl: "https://&#x3C;your-domain>",
+  generateRobotsTxt: true,
+  outDir: "public",
+  changefreq: "weekly",
+  priority: 0.8,
+
+  exclude: ["/blog/page/*", "/blog/category/*/page/*"],
+
+  additionalPaths: async (config) => {
+    // In layout.js, I have defined the paths before, but I want to overwrite the lastmod based on post date after auto-generating with current date.
+    const posts = await getAllPosts();
+
+    return posts.map((post) => {
+      const prefix = post.lang === "en" ? "/en" : "";
+      return {
+        loc: `${prefix}/${post.year}/${post.month}/${post.slug}`,
+        lastmod: post.date.toISOString(),
+      };
+    });
+  },
+};
+</code></pre>
+<h4 id="3-add-prebuild-sitemap-to-your-packagejson-scripts">3. Add prebuild sitemap to your package.json scripts:</h4>
+<pre><code class="language-js">"scripts": {
+  "prebuild": "next-sitemap",
+  "build": "next build"
+}
+</code></pre>
+<h4 id="4-running-npm-run-build-will-generate-the-sitemap-before-building-the-static-site">4. Running npm run build will generate the sitemap before building the static site.</h4>
+<h3 id="robottxt">robot.txt</h3>
+<p>The <code>robots.txt</code> file tells search engines which paths to crawl. You can either:</p>
+<p>Auto-generate it with next-sitemap (set <code>generateRobotsTxt: true</code>), or</p>
+<p>Create it manually in your <code>public/</code> folder:</p>
+<pre><code class="language-txt">User-agent: *
+Allow: /
+
+Host: https://&#x3C;your-domain>
+Sitemap: https://&#x3C;your-domain>/sitemap.xml
+
+</code></pre>
+<p>Make sure to replace the host with your actual domain and adjust exclusions if needed.</p>
+<h2 id="5-deployment-settings-assetprefix-basepath-trailingslash-cname-nojekyll">5. Deployment Settings: assetPrefix, basePath, trailingSlash, CNAME, .nojekyll</h2>
+<p>When deploying your site, the URL will differ from the local <code>http://localhost:3000</code>. It might use a custom domain or have a subpath like <code>/staging/</code>.</p>
+<h4 id="1-cname">1. CNAME</h4>
+<p>If you're using a custom domain, create a <code>CNAME</code> file in the <code>public</code> folder (no file extension) with your domain as the only line inside.</p>
+<h4 id="2-nojekyll">2. .nojekyll</h4>
+<p>Next.js puts assets in <code>_next/</code>. GitHub Pages uses Jekyll by default, which ignores folders starting with <code>_</code>. To fix this, create a <code>.nojekyll</code> file (empty, no extension) in the <code>public</code> folder.</p>
+<h4 id="3-nextjs-config">3. Next.js Config</h4>
+<pre><code class="language-js">// next.config.mjs
+const nextConfig = {
+  output: "export",
+  distDir: "out",
+  trailingSlash: true, // Ensures URLs like /blog/ work properly
+  assetPrefix: isDev ? "" : "https://&#x3C;hostname>/", // For static asset URLs
+  // basePath: "/staging", // Use this if your site is deployed under a subpath
+};
+export default nextConfig;
+</code></pre>
+<p>If images or CSS/JS files aren’t loading, check your config of <code>assetPrefix</code> and make sure <code>.nojekyll</code> is in place.</p>
+<h2 id="6-seo-monitoring-tools-ga--search-console">6. SEO Monitoring Tools: GA &#x26; Search Console</h2>
+<p>Once your site is live, use these tools to track traffic and SEO performance:</p>
+<h3 id="google-analytics-ga">Google Analytics (GA)</h3>
+<ul>
+<li><a href="https://developers.google.com/analytics?hl=zh-tw">Google Analytics (GA)</a></li>
+</ul>
+<p>Generate a GA tracking ID and add this code in your Next.js layout <code>&#x3C;head></code>. Replace G-XXXXXXXXXX with your GA ID:</p>
+<pre><code class="language-js">export default function RootLayout({ children }) {
+  return (
+    &#x3C;html lang="en">
+      &#x3C;head>
+        {/* GA4 Script */}
+        &#x3C;Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          strategy="afterInteractive"
+        />
+        &#x3C;Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX', {
+              page_path: window.location.pathname,
+            });
+          `}
+        &#x3C;/Script>
+      &#x3C;/head>
+      &#x3C;body>{children}&#x3C;/body>
+    &#x3C;/html>
+  );
+}
+</code></pre>
+<h3 id="google-search-console">Google Search Console</h3>
+<ul>
+<li><a href="https://search.google.com/search-console/about">Google Search Console</a></li>
+</ul>
+<p>Submit your sitemap URL in the Search Console to help Google index your site correctly. Auto monitoring SEO metrics through the tool.</p>
+<h1 id="final-thoughts">Final Thoughts</h1>
+<p>I’m not an expert in frontend or SEO—just sharing my personal experience. I hope this guide helps you deploy your Next.js site and improve its SEO effectively!</p>2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/en","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"Sometimes, you just meet some stories and invoked your inspiration, then later you use a totally different way, different concept to have a different life in the future."}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"IT Things and Development"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"it-things-and-development"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"From Hugo to Next.js (SSG): Refactor personal website and keep 300k history views and 50+ stable visits everyday SEO result"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on ","Jun"," ",16,", ",2025]}]]}],["$","div",null,{"className":"flex-wrap","children":[["$","img",null,{"className":"h-full w-full object-cover object-center mb-6 border border-solid","src":"https://minayu0416.wordpress.com/wp-content/uploads/2025/06/screenshot-2025-06-08-at-4.49.43e280afpm.png","alt":"Google Analytics Screenshots"}],["$","article",null,{"className":"prose prose-slate prose-lg md:prose-base max-w-none break-words whitespace-pre-wrap [&_h1]:text-2xl [&_h1]:mb-0 [&_h2]:mb-0 [&_h2]:text-xl [&_p]:mt-2 [&_p]:mb-2 [&_li]:mt-1 [&_li]:mb-1 [&_li]:leading-snug [&_ul]:mt-0 [&_ul]:mb-0 [&_ul]:leading-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"Hi, this is Mina, an ENTP type person always with innovative ideas. Cheerful, lively, also romantic. A software engineer, blogger, love to explore different cultures and build entrepreneurship. "}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","it-things-and-development",{"children":[["$","a",null,{"href":"/en/categories/it-things-and-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["IT Things and Development"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","research-and-learning",{"className":"link-unstyled","href":"/en/categories/research-and-learning/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["Research and Learning Note"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",7,")"]}]]}]}],["$","a","architecture-design-and-solution",{"className":"link-unstyled","href":"/en/categories/architecture-design-and-solution/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["Architectural Design and Innovative Solutions"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",1,")"]}]]}]}],["$","a","miri",{"className":"link-unstyled","href":"/en/categories/miri/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["Miri Robot Fortune Teller - Making Product Is Not Easy!"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}]]}]]}],["$","div","espanol-posts",{"children":[["$","a",null,{"href":"/en/categories/espanol-posts/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["Español Posts"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","somos-familia",{"className":"link-unstyled","href":"/en/categories/somos-familia/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["Novel - Somos familia"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"mb-10 border border-solid py-4 mt-10","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"GALLERY"}]}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]
