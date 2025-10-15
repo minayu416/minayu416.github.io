@@ -1,0 +1,223 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[4080,["185","static/chunks/app/layout-ec544ff4f2ff3440.js"],""]
+4:["routes","2025/10/mbti-road-of-entp-to-mature","c"]
+0:["orqZHH3qjS87VhBXfPban",[[["",{"children":[["routes","2025/10/mbti-road-of-entp-to-mature","c"],{"children":["__PAGE__?{\"routes\":[\"2025\",\"10\",\"mbti-road-of-entp-to-mature\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2025/10/mbti-road-of-entp-to-mature","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8587339419276812","strategy":"afterInteractive","crossOrigin":"anonymous"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/22fbc6a163a2e7a8.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[MBTI/16型人格測試] 邁向成熟的ENTP之路 (內涵榮格八維知識) - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"ENTP邁向成熟的成長歷程與階段解析：從 Ne 好奇心到 Ti 邏輯思維，再到 Fe 共感與 Si 穩定的修煉。了解 ENTP 如何從幻想走向成熟，整合 MBTI 八維、情感與行動，活出真實又自由的自己。"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"@Mina Influence"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"MBTI,ENTP,榮格八維,16型人格測試"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2025/10/mbti-road-of-entp-to-mature/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2025/10/mbti-road-of-entp-to-mature/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[MBTI/16型人格測試] 邁向成熟的ENTP之路 (內涵榮格八維知識)"}],["$","meta","19",{"property":"og:description","content":"ENTP邁向成熟的成長歷程與階段解析：從 Ne 好奇心到 Ti 邏輯思維，再到 Fe 共感與 Si 穩定的修煉。了解 ENTP 如何從幻想走向成熟，整合 MBTI 八維、情感與行動，活出真實又自由的自己。"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2025/10/mbti-road-of-entp-to-mature/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/10//e7b4abe889b2e8aabfe79a84e584aae99b85e5b08de8a9b1.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2025-10-14T08:43:56.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[MBTI/16型人格測試] 邁向成熟的ENTP之路 (內涵榮格八維知識)"}],["$","meta","33",{"name":"twitter:description","content":"ENTP邁向成熟的成長歷程與階段解析：從 Ne 好奇心到 Ti 邏輯思維，再到 Fe 共感與 Si 穩定的修煉。了解 ENTP 如何從幻想走向成熟，整合 MBTI 八維、情感與行動，活出真實又自由的自己。"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu0416.wordpress.com/wp-content/uploads/2025/10//e7b4abe889b2e8aabfe79a84e584aae99b85e5b08de8a9b1.png"}],["$","meta","35",{"name":"twitter:image:alt","content":"@Mina Influence Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
+1:null
+8:I[619,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-7f08f6c7a3581ff5.js","340","static/chunks/340-16bd9d7c51f73a55.js","432","static/chunks/app/%5B...routes%5D/page-6dfcf22b3d57bea8.js"],"Navbar"]
+a:I[5758,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","168","static/chunks/168-7f08f6c7a3581ff5.js","340","static/chunks/340-16bd9d7c51f73a55.js","432","static/chunks/app/%5B...routes%5D/page-6dfcf22b3d57bea8.js"],"GoogleAdWrapper"]
+9:T79e2,<p>許久未執筆撰寫新的文章，最近在人生的道路上有些迷茫，雖然知道這是件好事，就像是將時間按下暫停，好好釐清自己內心真實的想法，確認新的人生方向跟目標後，然後再次啟程。</p>
+<p>在這段時間的反思下，想到可以將幾個月前偶然撰寫「對於 ENTP 人格成長之路」的草稿，補上近期的心得後發布新的文章。</p>
+<h2 id="table-of-content-目錄">Table of Content 目錄</h2>
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li><a href="#%E5%88%9D%E6%9C%9F%E7%AC%AC%E4%B8%80%E5%8A%9F%E8%83%BD-ne--%E5%A5%BD%E5%A5%87%E8%88%87%E5%B9%BB%E6%83%B3%E7%9A%84%E8%90%8C%E8%8A%BD">初期：第一功能 Ne — 好奇與幻想的萌芽</a>
+<ul>
+<li><a href="#%E5%AE%B9%E6%98%93%E9%99%B7%E5%85%A5%E5%B9%BB%E6%83%B3%E8%88%87%E6%9A%A2%E6%83%B3">容易陷入幻想與暢想</a></li>
+<li><a href="#%E6%83%B3%E5%83%8F%E4%BD%86%E6%98%AF%E6%B2%92%E6%9C%89%E8%A1%8C%E5%8B%95">想像但是沒有行動</a></li>
+<li><a href="#%E6%90%9E%E4%B8%8D%E6%B8%85%E6%A5%9A%E5%B9%BB%E6%83%B3%E8%B7%9F%E7%8F%BE%E5%AF%A6">搞不清楚幻想跟現實</a></li>
+<li><a href="#%E8%BF%B7%E6%88%80%E5%90%84%E7%A8%AE%E6%96%B0%E5%A5%87%E7%9A%84%E4%BA%BA%E4%BA%8B%E7%89%A9%E7%94%9A%E8%87%B3%E4%B8%89%E5%88%86%E9%90%98%E7%86%B1%E5%BA%A6">迷戀各種新奇的人事物、甚至三分鐘熱度</a></li>
+</ul>
+</li>
+<li><a href="#%E8%90%BD%E5%AF%A6%E8%90%BD%E5%9C%B0---%E7%AC%AC%E4%BA%8C%E5%8A%9F%E8%83%BD---ti">落實、落地 - 第二功能 - Ti</a>
+<ul>
+<li><a href="#%E6%93%85%E9%95%B7%E6%8C%91%E5%87%BA%E9%82%8F%E8%BC%AF%E9%8C%AF%E8%AA%A4%E8%88%87%E8%AA%A4%E5%8D%80%E5%AE%B9%E6%98%93%E5%87%BA%E7%8F%BE%E8%BE%AF%E8%AB%96%E6%A7%93%E7%B2%BE">擅長挑出邏輯錯誤與誤區，容易出現辯論槓精</a></li>
+<li><a href="#%E9%81%8E%E6%96%BC%E7%90%86%E6%80%A7%E5%B0%8D%E6%83%85%E6%84%9F%E7%82%BA%E5%86%B7%E8%A1%80%E8%84%AB%E9%9B%A2%E7%8F%BE%E5%AF%A6%E4%B8%8D%E9%81%B5%E5%AE%88%E8%A6%8F%E5%89%87">過於理性、對情感為冷血、脫離現實、不遵守規則</a></li>
+<li><a href="#%E5%AE%B9%E6%98%93%E9%99%B7%E5%85%A5-ne-fe-loop-%E6%9C%89%E5%AE%B3%E5%BE%AA%E7%92%B0">容易陷入 Ne-Fe loop 有害循環</a></li>
+<li><a href="#%E6%9C%83%E9%84%99%E8%A6%96-s-%E4%BA%BA-%E8%B7%9F-%E6%83%85%E6%84%9F%E8%B1%90%E5%AF%8C%E7%9A%84%E4%BA%BA">會鄙視 S 人 跟 情感豐富的人</a></li>
+<li><a href="#si---%E5%89%B5%E6%96%B0%E6%8C%91%E6%88%B0%E8%88%87%E5%82%B3%E7%B5%B1%E4%BF%9D%E5%AE%88%E7%9A%84%E6%8B%89%E6%89%AF%E5%BC%B1%E5%8B%A2%E7%9A%84%E8%A8%98%E6%86%B6%E8%83%BD%E5%8A%9B%E5%BF%BD%E7%95%A5%E7%B4%B0%E7%AF%80">Si - 創新挑戰與傳統保守的拉扯、弱勢的記憶能力、忽略細節</a></li>
+<li><a href="#%E9%97%9C%E6%96%BC%E7%99%BC%E5%B1%95-te">關於發展 Te</a></li>
+<li><a href="#%E9%97%9C%E6%96%BC%E5%BC%B1%E5%8B%A2-fe-%E8%B7%9F%E5%8A%A3%E5%8B%A2-fi">關於劣勢 Fe 跟弱勢 Fi</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AE%93%E6%88%91%E5%80%91%E4%BE%86%E8%AB%87%E8%AB%87%E7%AC%AC%E4%B8%89%E5%8A%9F%E8%83%BD---fe">讓我們來談談第三功能 - Fe</a>
+<ul>
+<li><a href="#%E8%BD%89%E5%88%A9%E5%B7%B1%E7%82%BA%E5%88%A9%E4%BB%96">轉利己為利他</a></li>
+<li><a href="#%E8%B5%B0%E5%87%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%96%E7%95%8C%E7%90%86%E8%A7%A3%E4%BB%96%E4%BA%BA%E6%9B%B4%E8%B2%BC%E8%BF%91%E7%8F%BE%E5%AF%A6%E8%B5%B0%E5%87%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%96%E7%95%8C">走出自己的世界、理解他人、更貼近現實，走出自己的世界</a></li>
+<li><a href="#%E5%BB%BA%E7%AB%8B%E8%89%AF%E5%A5%BD%E7%A9%A9%E5%AE%9A%E4%B8%94%E4%BA%92%E5%88%A9%E7%9A%84%E9%97%9C%E4%BF%82">建立良好、穩定且互利的關係</a></li>
+</ul>
+</li>
+<li><a href="#%E6%9C%80%E5%BE%8C---%E7%AC%AC%E5%9B%9B%E5%8A%9F%E8%83%BD-si">最後 - 第四功能 Si</a></li>
+<li><a href="#%E8%BF%91%E6%B3%81---%E7%84%A6%E6%85%AE%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%A4%B1%E8%AA%BF%E5%9B%9E%E6%AD%B8%E5%A5%BD%E5%A5%87%E5%BF%83%E8%88%87%E9%8D%9B%E9%8D%8A%E5%AF%A6%E6%84%9F">近況 - 焦慮、自律神經失調、回歸好奇心與鍛鍊實感</a></li>
+</ul>
+<h2 id="系列文章">系列文章</h2>
+<ul>
+<li><a href="/2022/10/mbti-road-from-esfp-to-entp/">[MBTI/16 型人格測試] ENTP 的個性剖析及成長道路 (帶到一些個性誤區跟弱點改善)(內含些榮格八維知識)</a></li>
+<li>[MBTI/16 型人格測試] 邁向成熟的 ENTP 之路 (內涵榮格八維知識) 👈 你在這篇</li>
+</ul>
+<h2 id="前言">前言</h2>
+<p>近年 MBTI 與 16 型人格測驗盛行，讓我這個長期對自我定位感到矛盾的人，終於在分類中找到了一點方向——我是一名 ENTP 女性。</p>
+<p>成長的過程中，我常覺得自己太活潑、太愛動腦、太不「乖巧」。興趣偏向中性甚至男性化，像是打球、拼模型機器人、愛玩電腦、想學電吉他跟民俗甩棍，因此時常感到格格不入，甚至不符合一般社會大眾認定標準的女性化特質角色，使我在成長之路感到自我矛盾。</p>
+<p>得知自己是 ENTP 之後，我開始試著理解、接納並發揮這份特質，並將它與人類圖、個人性格整合成屬於「我」的樣子。</p>
+<p>這篇文章，是我十多年來在不同階段的成長與反思。每個階段的功能發展都會遇到挑戰，但那些坎，其實是成熟的起點。</p>
+<p>想跟處在不同時期的 ENTP 們，無論處於低潮、不如意還是困難。</p>
+<blockquote>
+<p>永遠對世界保持好奇心、稚嫩童心與純真，這與成熟並不衝突。
+別因為你的與眾不同，被大眾影響，你值得活出自己。</p>
+</blockquote>
+<p>再往下閱讀前，我希望讀者先得知兩件事</p>
+<ul>
+<li>你需要對榮格八維有基本概念，文中會頻繁提及。</li>
+<li>雖然 MBTI 將人格分為 16 型，但每個人因家庭、文化與性別差異，呈現的性格會不同。請以真實的自己為準。</li>
+</ul>
+<p>正如我男友曾對我說：</p>
+<blockquote>
+<p>我希望你是透過相處了解真實的我，而不是透過心理測驗。</p>
+</blockquote>
+<h2 id="初期第一功能-ne--好奇與幻想的萌芽">初期：第一功能 Ne — 好奇與幻想的萌芽</h2>
+<blockquote>
+<p>我定義 Ne 為「好奇心、創造力、想像力，以及突破常規的可能性」，也是邁入精神層面的初始階段。</p>
+</blockquote>
+<p>在 ENTP 成長的旅途中，我遇見過 INTP、INTJ、INFP、INFJ 等朋友，他們都在這條路上陪我一程。而在邁向成熟的中途，我遇到了我的 INFJ 伴侶。</p>
+<p>ENTP 的主要功能是 <code>Ne-Ti-Fe-Si</code>，這四個構成我們的核心特質。<code>Ne</code> 通常在青春期最先被喚醒。</p>
+<p>我的 Ne 功能大約在國中/高中時期被激發。發展契機來自於求學過程被同學排擠，由於是小學舞蹈科班轉升學精英班，我對讀書不怎麼在行，學業成績不好，加上與大家無共同的興趣與話題，常常成為被排擠的對象，在現實生活，學校跟班級就像大型牢籠，每天上學都一定會遇到同樣的人跟環境，在接受不了現實的痛苦後，我轉而嘗試在精神層面尋找出口。</p>
+<p>我會專注在線上遊戲、影劇、學習外語與廣泛探索不同的知識與興趣。我會在休閒時間幻想大學的理想與美好生活，我對未來寄予厚望，也會為此上進的做一些額外的知識學習，像是電腦資訊以及學習外語。也會在大眾運輸上開始幻想自己成為動畫的一個角色或者擁有特殊能力。</p>
+<p>Ne 功能的特徵：</p>
+<ul>
+<li>好奇心爆棚、愛嚐鮮，對各個能激發我的新事物特別有興趣去了解跟嘗試</li>
+<li>喜歡對不同的事物做聯想</li>
+<li>喜歡想像與幻想</li>
+<li>開始探索跟滿足於精神層面的世界</li>
+</ul>
+<p>此時此刻的 ENTP 容易呈現這些狀況：</p>
+<h3 id="容易陷入幻想與暢想">容易陷入幻想與暢想</h3>
+<p>像是搭乘大眾運輸或者走在路上，一不留神就展開了各種自由自在的幻想。例如：公車進來了一位老奶奶，年輕人會讓位，可是如果後面接著 100 位老奶奶，那他們會為了這個位置吵架嗎？還是不斷的讓位呢？於是乎開始幻想著老奶奶們各種互相讓位的寒喧。</p>
+<h3 id="想像但是沒有行動">想像但是沒有行動</h3>
+<p>很多時候像是我乘坐公車時我會快速起了一個點子，並且在腦袋高速運轉，覺得「阿這個一定會大發、這個一定可以很棒、未來會大賺、會出名」，結果回到家就懶得做了。</p>
+<p>像是幻想未來去日本留學、工作，像是在德國留學，然後畢業後成為當地公司的精英，走在兩排歐式精品商店，每天都很風光。但行為卻沒有跟上或者說自己現實的能力達不到或懶散，做一下就懶惰了。</p>
+<h3 id="搞不清楚幻想跟現實">搞不清楚幻想跟現實</h3>
+<p>比方說早期我覺得自己只要穿得很辣跟化歐美妝，甚至覺得自己跟某個明星打扮一樣，我就是他那個樣貌，我會覺得自己就長得那個樣子，實際上我的身材既胖又頂著不適合自己的髮型、畫著不適合自己的妝，根本可怕。</p>
+<p>會時常陷入幻想，並且容易將幻想跟現實搞混。有一定的機率是好動，無法專注在眼前，活在精神與自身世界。</p>
+<p>只有 Ne 時，我常常是生活在精神裡的世界，並且時常與現實世界跟現實生活展現高度的抽離。</p>
+<h3 id="迷戀各種新奇的人事物甚至三分鐘熱度">迷戀各種新奇的人事物、甚至三分鐘熱度</h3>
+<p>無論是在購物、探索或者學習都有可能呈現嚐鮮、冒險但是不持久的狀態。</p>
+<p>像是學習吉他，然後可能上個幾次課，又跑去學習其他興趣。</p>
+<h2 id="落實落地---第二功能---ti">落實、落地 - 第二功能 - Ti</h2>
+<blockquote>
+<p>Ti 是邏輯、手段與落地的方法。能去輔助並把 Ne 產生的幻想化為目標並規劃實際的執行計劃，然後將目標執行落地。</p>
+</blockquote>
+<p>大約在大學時期有初步的 Ti 發展，我希望能夠使大學生活多采多姿，因此進行了許多挑戰包括接受游泳救生員訓練、挑戰交換學生、學日文與西班牙文、接觸不同國家的文化跟朋友。而不只是停留在想像。</p>
+<p>真正充分發展 Ti 大約是在開始工作的第一年到第四年 (25 ～ 30 歲)，我作為後端軟體工程師，時常需要將功能透過邏輯思考落實成程式執行，再加上這個時期我開始撰寫部落格，撰寫文章需要時常組織自己的言語與文章邏輯，讓我的 Ti 功能有很好的鍛鍊。</p>
+<p>這階段的要點是</p>
+<ol>
+<li>發展 Ti 功能來發揮行動力與將計劃執行落地的能力，其特徵是<code>會去思考用什麼手段、方法與邏輯去達成目標</code>。</li>
+<li>學習結合 Ne 跟 Ti 功能，讓 Ti 可以輔助 Ne 功能，達到 <code>訂目標、想像最終結果、夢想、想法。然後去規劃執行計劃並落實。</code>的能力。</li>
+</ol>
+<p>我在這段期間我運用 Ne 去想像我想達成的目標，無論是完成一幅畫的最終成果、這一個專案的最終呈現、這一篇文章的大致上架構，接著再用 Ti 去構思，然後列出可行的執行計劃並一步一步達成。我創作了這個網站，還有其他大大小小的線上服務跟作品，也學習了西班牙文跟其他語言，也看了不少書跟鑽研不少知識並撰寫成文章分享。</p>
+<p>這個階段的 ENTP 能夠具備</p>
+<ol>
+<li>在思想上更務實，Ti 會針對 Ne 各種奇耙的幻想去做篩選。會理性思考「這可行嗎？」、「要做這個嗎」、「如果可行要怎麼做」，然後將 Ne 不切實際的幻想給過濾掉，留下可落實的想法跟目標，然後制定執行計劃並落實。</li>
+<li>根據觀察到的現象、人的言行舉止去推測其前因後果或者過往與未來發展，像個小偵探。</li>
+<li>讓你在表達上能夠更有邏輯跟架構。</li>
+</ol>
+<p>Ne 還是會喜歡嚐鮮或者追求創新跟創作，但是發展的 Ti 會幫助 Ne 去思考怎麼將這個計劃落地，而不是空做白日夢。</p>
+<p>但以下是在這個階段會遇到的一些點：</p>
+<h3 id="擅長挑出邏輯錯誤與誤區容易出現辯論槓精">擅長挑出邏輯錯誤與誤區，容易出現辯論槓精</h3>
+<p>像是發現他人說話的邏輯漏洞、或者各種遇到的生活中不符合邏輯的場景以及不合邏輯的設計 —— 這個時候很直白地指出，覺得怎麼會有不符合邏輯的事物，並想要解決。</p>
+<p>這個時期非常容易展開辯論，對什麼邏輯上的不合理跟漏洞都會下意識看不慣的想要導正或者提出，也就是網路上說的常出槓精角色。</p>
+<p>但必須意識到在現實中，很多時候、很多場景本來就是不符合邏輯的，在更成長後會明白這個道理。</p>
+<h3 id="過於理性對情感為冷血脫離現實不遵守規則">過於理性、對情感為冷血、脫離現實、不遵守規則</h3>
+<p>雖然 Ti 的發展能夠解決工作、生活上的各種問題，能夠將目標跟想法落地，以及熱衷於解決困難問題，但是 Ti 本質是冷的，也就是說思考事情跟解決問題是 - 完全不帶感情的。</p>
+<p>會造成這樣情況是因為 Ti 的本質是非常理性的手段跟方法，而在這個時期 ENTP 尚未發展第三功能 Fe 與 Fi 劣勢，對於思考解方並不在乎合不合乎規則、規範或社會邏輯，也不在乎人類的情感。因此想出的解方有些會過於理性甚至是有點反社會或者反人類情感，但對於解決問題是有效的，只是不人性化也不遵守規則與規範。</p>
+<h3 id="容易陷入-ne-fe-loop-有害循環">容易陷入 Ne-Fe loop 有害循環</h3>
+<p>弱勢的第三功能 - Fe 導致 ENTP 在這個時期會很活在兩個極端 - 要碼太在乎他人的眼光而陷入內耗跟自我懷疑、要馬完全不在乎他人、忽略他人的情感然後勇敢做自己。</p>
+<p>Fe 這個功能強調的是為他人奉獻、對他人好、關懷他人、合群 (包括社會規範跟規則)。</p>
+<p>由於 Fe 並未發展太多，在 ENTP 嘗試去以 Ne-Ti 走遍天下時，常常 Ne 提出的想法跟創新以及 Ti 制定不符合規則跟過於理性的解法會受到他人的質疑，或者當勇敢做自己與創新時卻被社會或周圍的人反對，在接收到太多質疑時陷入 Ne-Fe 循環，要馬太在乎他人眼光、世俗給予的規則，陷入無限內耗與自我懷疑迴圈 (Ne-Fe loop)。</p>
+<p>比方說女生是不是就該溫柔謙讓，才有男生喜歡，我這麼活潑又機智，男生是不是都不愛。我做的這些是不是不符合標準？我是不是該更努力燃燒自己去做，他是不是覺得我在這件事上做得很爛。</p>
+<p>我的想法是錯誤的嗎？</p>
+<p>早期在職場上，我常常處於這兩者的搖擺 - 常常在公司上非常的做自己，甚至標新立異、特立獨行，也追求自己要是獨一無二的。但管理者常認為我太與眾不同，與他人不合群或者認為我的行為舉止與公司的制度不吻合，便開始要求我跟他人一樣或者遵守規則時，我便陷入了另一個內耗 - 我這樣做錯了嗎？</p>
+<p>另一個失衡的點是，我在跟任何朋友相處，我都是目中無人、完全不 care 他人，也不想理解他人，甚至由於早期被排擠，所以覺得反正哪天朋友就會斷聯了斷開了，在交新的朋友就好，ENTP 在維持友誼這件事上應該算是蠻不拿手吧。</p>
+<p>要解決 Ne-Fe loop 循環障礙的關鍵點就是回歸 Ti，也可以說是暫時遠離人群、進入獨處階段。</p>
+<p>可以參考這個文章：<a href="https://www.bilibili.com/opus/819703884382470197">MBTI 高阶下午茶：ENTP 如何走出有害的外倾功能循环</a></p>
+<h3 id="會鄙視-s-人-跟-情感豐富的人">會鄙視 S 人 跟 情感豐富的人</h3>
+<p>在發展 Ne-Ti 後，絕大部分的 ENTP 們能夠透過交流跟相處迅速分辨對方是否為 N 人，因為通常 N 人在相處跟聊天上會有一定程度的共鳴，大部分是無法跟 S 人產生深度的話題交流，甚至善於創新跟勇於挑戰的 ENTP 會鄙視保守守成的某些 SJ 人，也會試圖掙脫某些 SJ 人試圖強加他們自身的想法並試圖干涉 ENTP 們的行為跟思想。</p>
+<p>這個時期應該會對各種 S 人產生厭惡，甚至嘗試遠離，也討厭各種被侷限、被干涉沒有深度的交流。這個狀況在發展 Fe 後會有些改善。</p>
+<h3 id="si---創新挑戰與傳統保守的拉扯弱勢的記憶能力忽略細節">Si - 創新挑戰與傳統保守的拉扯、弱勢的記憶能力、忽略細節</h3>
+<p>我在思考這一章節要擺在 Ne 還是這裡，有部分發展 Ne-Ti 的人由於尚未發展 Fe，有一定的機率會熱衷於挑戰跟創新各種生活跟體驗，Ne-Ti 的發展使得 ENTP 們真正在青年時感受到「這就是我」的滿滿活力與能量。</p>
+<p>但這個時期周圍的環境，無論是在學校還是在初入職場都有一定的機率或者說高機率不太能允許 ENTP 們這麼的好動、活潑任意揮灑他們的創新與好奇心。</p>
+<p>我認為這個時期以及可能處在的環境跟時空會讓 ENTP 們在創新體驗與傳統保守產生強烈的拉扯與衝突，感受到局限甚至對被傳統觀念與規則拘束這件事情感到不諒解。</p>
+<p>同時弱勢、尚未發展的 Si 無法透過鑽研細節跟記憶力這兩件事情來學習任何需要反覆背誦的科目，也無法透過吸收大量細節來找出關聯。在讀書上可能會感到挫敗，但是對於需要邏輯去理解的科目(比如數學)應該會蠻在行的，或者呈現時好時不好的情形。</p>
+<p>另外，牽扯到非常細節的事，比方說地板上的灰塵，比方說特別是關於五官實感的體驗，細節基本上會被忽略。</p>
+<p>容易時常陷入幻想，然後忽略現實場景，有機率產生自己人已經從家裡出發到學校，但一路上都在想事情，不記得或下意識直接忽略中間過程中的任何細節。</p>
+<h3 id="關於發展-te">關於發展 Te</h3>
+<p>我個人覺得在更成熟後，可以嘗試去學習 Te 功能 - 「這個如果成了，能給予我什麼利益跟價值？」，適量發展 Te 能夠幫助 ENTP 們去先行規劃跟思考如果落實目標後能帶來什麼利益，能更精準在應該做哪些事以及值不值得做。</p>
+<p>但這終究不是 ENTP 的強項，所以不會比真正 Te 使用者還容易上手，當適量發展 Te 能夠幫助去先行規劃跟思考如果落實目標後能帶來什麼利益來回得值不值得做。</p>
+<p>說 Te 功能 是「利益導向、商業價值判斷」，也正確。不過對 Ne 主導的人來說，Te 還有一個障礙是：「它太快要你定義結論、目標、路線」，而這可能讓 Ne 覺得被限制。所以你的 Te 使用容易耗能是正常的，不用強求——你現在的 Ne-Ti 配合就已經很夠用了。</p>
+<h3 id="關於弱勢-fe-跟劣勢-fi">關於弱勢 Fe 跟劣勢 Fi</h3>
+<p>由於此階段 Fe 尚未發展，加上 Fi 處於第七功能很少被運用，ENTP 們在這個階段有可能會產生一種現象 - 感知不到自己的情緒、感受不到穩定的自我價值。</p>
+<p>劣勢 Fi 代表 ENTP 其實很無我，會無法感知到自己的個性、自己整個人以及自我價值，如果 Fe 發展不好很容易無下限接受與容忍他人不合理的要求。或者反過來過度討好對方。好處是適當運用的話是能夠很彈性的包容各種人跟應付各種突發狀況。</p>
+<p>在感受到難過或者任何情緒時很容易不明白自己怎麼了也不清楚自己現在該用什麼情緒表示，像是總覺得內心哪邊怪怪的，但是卻不知道是因為什麼事情感受到難過或者生氣。下意識運用 Ti 去理性分析自己為什麼難過以及為什麼生氣。</p>
+<p>當然劣勢 Fi 除了自我價值低落跟很無我之外，也會無法基於自我的一些規則跟條件去做一些堅持，反而能夠去因應各種局勢或者依據他人的條條框框去調整迎合，這方面需要適當。</p>
+<p>你會覺得 ENTP 們很隨和，好像情緒很穩定很包容。</p>
+<p>適當發展 Fe，以及歷經一些事情後，我認為能夠穩固一些自我價值感，也會慢慢地了解跟允許自己有各種不同的情緒。</p>
+<p>但要注意早期在戀愛、工作中可能會呈現男/女朋友明明對自己做了過分的事，但卻因為低敏低感受度所以假性接受跟忍受。或者在職場上因為不穩定自我價值，而壓榨自己過度付出。</p>
+<p>叮嚀一下：記住優先回到 Ne 跟 Ti 功能。</p>
+<h2 id="讓我們來談談第三功能---fe">讓我們來談談第三功能 - Fe</h2>
+<blockquote>
+<p>Fe 為 與人來往、為他人奉獻、關懷彼此、合群。</p>
+</blockquote>
+<p>約莫在工作第四年 (29-30 歲左右)，某次工作提出離職後，我在自省如何讓自己更成熟的道路上，我看了一篇文章啟發了我開始學習 Fe 功能的道路</p>
+<ul>
+<li><a href="https://vocus.cc/article/63dfcd4dfd897800014707c4">53 MBTI-ENTP 開創理性主義的發明家</a></li>
+</ul>
+<p>這篇文章的作者介紹了一個過往的 ENTP 歷史人物是如何展現自己的個人魅力，並運用自己的個人魅力與發展成熟的八維創造了各種成就與奇蹟。簡單來說這位 ENTP 發明且創新一種戰鬥方式(Ne-Ti)、並且在團體戰鬥中試圖以不同的創新方式(Ne-Ti)掩護跟領導隊友(Fe)一起打勝仗，在研發這些戰術跟戰鬥好幾次，他從來沒有失誤過甚至能夠很細心的處理每個細節(Si)。</p>
+<p>成為成熟的 ENTP 其中一個關鍵點在於 —— 從利己轉為利他。發展 Fe 能使得 ENTP 們</p>
+<ul>
+<li>能夠制定更人性化、更符合社會規範的解決方法。</li>
+<li>在遵守規則的情況下發揮創新創造力、提出創新的解決方案。</li>
+<li>能夠基於為社會、團隊與人們提出並發明創新的想法、解決方案。站在團隊的利益著想，是成為有領導帶領能力的關鍵。</li>
+<li>能夠發揮與他人、團隊互惠互利的交流，進而建立合作與交流。學習感受他人對自己付出、學習基於情感層面對家人與自己的伴侶付出。</li>
+<li>能夠走出自己的世界，使 ENTP 更考量現實、更考量不符合邏輯的場景、更考量基於情感層面、基於社會規範各方面的場景判斷。</li>
+</ul>
+<p>發展 Fe（外向情感）後，我發現自己的人生開始變得更順暢——無論在工作還是愛情。</p>
+<h3 id="轉利己為利他">轉利己為利他</h3>
+<p>我開始有意識地去感受他人的情緒，試著理解他們的反應與思維脈絡。重心從「利己」轉為「利他」，不再只是思考我能獲得什麼，而是思考：我能如何運用我的 Ne-Ti 去幫助他人、幫助公司、創造價值。這樣的轉變，讓我在團隊中逐漸獲得信任與支持。</p>
+<h3 id="走出自己的世界理解他人更貼近現實走出自己的世界">走出自己的世界、理解他人、更貼近現實，走出自己的世界</h3>
+<p>Fe 的發展讓我真正走出了自己的世界——開始貼近現實、理解那些看似「不合邏輯」的情境。它幫助我更全面地判斷局勢、找到更符合人性的解決方案。</p>
+<p>在情感層面上，我學會去感受來自家人與伴侶的愛，並學習如何在關係中付出與回應。當我能意識地運用 Fe，我發現自己在職場上表現得更穩定、更具光彩。我真心為產品著想，從利他角度出發，思考如何優化使用者體驗、如何讓團隊協作更順暢。</p>
+<p>我開始主動記錄問題、撰寫教學指南，幫助其他工程師能更快上手；參與產品設計與溝通，讓想法能被落地實現。也會基於對團隊文化與規則的理解，延伸更多可行的創意方案——不再只是「為了挑戰而挑戰」，而是在規則內創造更多可能性。</p>
+<p>有時，我甚至會額外為團隊設計自動化工具、簡化報表與流程，只因真心想讓大家的工作更有效率。
+我開始思考：「我們這個團隊要怎麼一起變好？我能為整體帶來什麼價值？」</p>
+<h3 id="建立良好穩定且互利的關係">建立良好、穩定且互利的關係</h3>
+<p>在家庭中，我也學會用不同的眼光看待愛。早期我常誤以為父母不愛我，只因他們表達愛的方式與我期待的不同。當我用 Fe 去理解他們，我發現：我們其實一直都在愛，只是語言不同。那一刻，許多陰影被化解，我也開始學會用他們能理解的方式去愛他們。</p>
+<p>年輕時的 Ne 讓我不斷追求新鮮感，而 Ti 讓我冷靜理性、容易抽離。這也使我在關係中容易厭倦、轉移注意力——很多 ENTP 在這階段會被誤解為花心或冷漠。
+但當 Fe 發展後，我開始能真正感受情感的深度，也更懂得珍惜與經營關係。</p>
+<p>在社交中，我學會理解 S 型人的思維與喜好，不再以理性或優越眼光看待他們。當他們依循社會規範時，我能理解並尊重，同時也能穩住自己的價值與自由。</p>
+<p>最終，我學會在「利他」與「利己」之間取得平衡。
+我能在遵守規則的同時，發揮創造力、帶來創新；
+能以理性分析問題，也能以情感連結人心。</p>
+<p>這是 Fe 帶給 ENTP 的成長——讓創意不再只是腦中的火花，而能轉化為真正能照亮他人與世界的光。</p>
+<h2 id="最後---第四功能-si">最後 - 第四功能 Si</h2>
+<blockquote>
+<p>細心、經驗累積、主觀經驗、過往的蹤跡、傳統、有規則</p>
+</blockquote>
+<p>這是我目前正處於、並努力磨練的階段。</p>
+<p>我一直以來記憶力都不太好，常常會忘記發生過的事，甚至懷疑那是否真的存在過。這讓我在需要記誦或累積知識的領域中相對吃力。劣勢的 Si 也讓我傾向忽略過往經驗的價值 ── 即使當下成功繞過或解決問題，卻因為沒有記錄或反思，未來又可能重蹈覆轍。</p>
+<p>在工作中，這樣的傾向會使我忽略技術細節，難以深入理解原理與機制。於是在面試時，面對需要明確記憶與表達的技術問題，常感到焦慮與不安，也因此懷疑自己的能力。</p>
+<p>感情中亦是如此。弱勢的 Si 讓我像是一個沒有根的氣球 ── 即便關係中有過許多美好時光，卻難以被牢記或情感上延續。少了 Si 的穩定錨點，我容易在矛盾或爭執時萌生抽離的念頭，因為當下的衝突比過往的溫度更真實。</p>
+<p>另一方面，Si 也與「傳統」和「過往」的記憶相關。當它未被良好整合時，會讓人卡在舊有陰影，或被社會框架所束縛，使 Ne-Ti 的創造力被拉扯、難以自在展現。</p>
+<p>為了鍛鍊 Si，我開始主動建立「記錄」的習慣——</p>
+<ul>
+<li>無論是準備面試時整理技術筆記、歸納面試題型與概念延伸；</li>
+<li>還是將過往的專案經驗、約會過程、重要事件逐一寫下。</li>
+</ul>
+<p>基於 Ne-Ti 樹狀架構的方式紀錄Ｍ並是結合 Si 的穩定與細節，讓知識能沉澱為長期的結構。偶爾回顧這些筆記，也幫助我強化記憶與反思的深度。</p>
+<p>目前我對 Si 的發展仍在摸索階段，也許未來能更深刻體會它的力量。現在我所做的，只是一步步學習「讓經驗留下痕跡」，讓思考與情感都能更具延續性。</p>
+<h2 id="加碼entp-適合的讀書方式">加碼：ENTP 適合的讀書方式</h2>
+<p>我個人認為國高中時期那種一篇一篇課文唸的方式、一個章節一個章節的數學的概念去學習，這種細節導向的讀書方式非常不適合 ENTP。</p>
+<p>如果你是對讀書方式有困惑的人，我個人建議你可以像<a href="https://minayu.site/2021/07/learning-russian-a1-level/">這篇文章</a>的架構圖一樣。N 人通常喜歡先看整體的架構跟 Picture 然後再去一項一項鑽研跟填補細節。</p>
+<p>也就是說對於一本國文課本、數學或者各項知識，最好能夠花個幾天時間優先把整個大架構畫出來，包括在這本課本會讀到哪些課文、會學到什麼觀念、哪些主旨、哪些重要的關鍵，運用樹狀圖跟架構圖列出來。接著再依據每篇課文、每個觀念跟概念去向下展開樹狀圖或者 List 列表知識。</p>
+<p>擁有這個大架構圖，你能夠精準理解你人在哪、你學習到哪了、有多少東西要學、學這些東西的主要目的、主要主旨是什麼，才不會覺得自己模糊焦點、讀得很困惑。</p>
+<p>也能夠基於明確的主要目的去排開任何不需要的細節。</p>
+<p>另一個可以參考的樹狀題：<a href="https://roadmap.sh/python">Python Developer Roadmap</a>，參考這種樹狀圖跟架構圖去將你要學習跟掌握這一科目、興趣的大致上概念整理出來，再慢慢去鑽研跟研究細節。</p>
+<h2 id="近況---焦慮自律神經失調回歸好奇心與鍛鍊實感">近況 - 焦慮、自律神經失調、回歸好奇心與鍛鍊實感</h2>
+<p>最後，我前陣子經歷一段痛苦的焦慮時期是源自於我有很多事情想做，然後我一昧的每天只想在有限的時間內達標，卻忽略了我所認定每天可達成的進度放在實際上是不可能的，以及一昧的達標一點都不享受過程。</p>
+<p>在這個過程中，我在壓力的累積下，發作了自律神經失調的急症 -- 幾乎忘記了怎麼放鬆、何謂休息，也一直困在自己腦子裡的焦慮迴圈、忽略現實跟實感。</p>
+<p>由於是急症且交感神經過度活化，所以我最終還是去拜訪了中醫並獲得了中藥的支持讓自己慢下來。</p>
+<p>在中藥的幾天治療下，我慢慢恢復如初，還有幾個幫助我調整的點做一些分享。</p>
+<ul>
+<li>記得在這個情況還是要回歸 Ne 主導，也就是盡量在要做的事情上產生好奇心跟樂趣，並單純想把事情做好，真心享受在探索跟學習這件事上，而不是一昧的要求達標。</li>
+<li>高 Ne 跟高 Ni 由於過多著重在精神層面，很容易忽略現實跟實感，會困在自己腦子里，可以的話在當自己陷入腦袋風暴時，不要忘記透過運動、關注自己周圍的景色、摸摸周圍的傢俱及小物，來幫助自己脫離受困於腦袋風暴以及提升對於實感的專注度。</li>
+<li>讓時間慢下來，有的時候更快。適當的透過運動、發呆、按摩自身、深呼吸、允許自己在生活中放鬆跟慢下來，會因為這樣獲得身心靈的舒壓後，基於好奇心跟享受樂趣再次回到那些讓你興奮的目標與夢想上。</li>
+</ul>2:[["$","header",null,{"children":["$","div",null,{"className":"max-auto","children":["$","div",null,{"className":"mx-auto flex flex-wrap border-b border-solid","children":[["$","div",null,{"className":"lg:w-1/2 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"w-full h-full","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","img",null,{"className":"object-cover w-full brightness-75 h-[20rem]` md:h-[25rem]","src":"/static/img/blog-cover-image.jpg","alt":"Blog Cover Image"}],["$","div",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"absolute px-2 py-2 site-branding h-[25rem]","children":[["$","div",null,{"className":"site-title","children":["$","p",null,{"children":["$","a",null,{"href":"/","children":"@Mina Influence"}]}]}],["$","div",null,{"className":"site-description","children":["$","p",null,{"children":"Inspire you to have New thinking, Walk out your unique Road."}]}]]}]]}]]}]}]}],["$","div",null,{"className":"grid justify-items-center lg:w-1/2 w-full lg:h-auto lg:py-6 mt-6 lg:mt-0 hidden md:block","children":["$","div",null,{"className":"blog-branding-intro motto-block","children":["$","section",null,{"className":"text-gray-500 body-font","children":["$","div",null,{"className":"container px-6 mx-auto","children":["$","div",null,{"className":"w-full mx-auto text-center","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","className":"inline-block w-6 h-6 text-gray-400 mb-4","viewBox":"0 0 975.036 975.036","children":["$","path",null,{"d":"M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"}]}],["$","p",null,{"className":"leading-relaxed","children":"有的時候，你無意間遇到的一些故事，會激發你的靈感，改變你的想法，接下來你會用與之前全然不同的觀念去創造屬於你獨特的故事。"}],["$","span",null,{"className":"inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"}],["$","h2",null,{"className":"text-gray-900 font-medium title-font tracking-wider text-lg","children":"Sign @MinaYu."}]]}]}]}]}]}]]}]}]}],["$","section",null,{"className":"text-gray-600 body-font","children":["$","div",null,{"className":"container py-12 mx-auto","children":["$","div",null,{"className":"flex-wrap","children":["$","div",null,{"className":"p-2","children":["$","div",null,{"className":"mx-auto flex flex-wrap bg-white","children":[["$","div",null,{"className":"lg:w-2/3 w-full lg: h-full object-cover object-center bg-cover","children":["$","div",null,{"className":"px-4 mb-4","children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":[["$","p",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"日常生活"}],["$","h3",null,{"className":"text-center tracking-widest text-md font-medium post-category font-fondamento","children":"life"}],["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md font-fondamento px-4 pt-2 pb-2","children":"[MBTI/16型人格測試] 邁向成熟的ENTP之路 (內涵榮格八維知識)"}],["$","p",null,{"className":"text-center test-gray italic tracking-wider font-mario","children":["Posted on ","Oct"," ",14,", ",2025]}]]}],["$","div",null,{"className":"flex-wrap","children":[["$","img",null,{"className":"h-full w-full object-cover object-center mb-6 border border-solid","src":"https://minayu0416.wordpress.com/wp-content/uploads/2025/10/e7b4abe889b2e8aabfe79a84e584aae99b85e5b08de8a9b1.png","alt":"The Road to Mature of ENTP"}],["$","article",null,{"className":"prose prose-slate prose-lg md:prose-base max-w-none break-words whitespace-pre-wrap [&_h1]:text-2xl [&_h1]:mb-0 [&_h2]:mb-0 [&_h2]:text-xl [&_p]:mt-2 [&_p]:mb-2 [&_li]:mt-1 [&_li]:mb-1 [&_li]:leading-snug [&_ul]:mt-0 [&_ul]:mb-0 [&_ul]:leading-none","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}]]}],["$","div",null,{"className":"mt-10 mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"Google Ads"}]}],["$","$La",null,{"code":"7748159003"}]]}]}],["$","div",null,{"className":"lg:w-1/3 w-full lg:h-auto lg: mt-6 lg:mt-0","children":["$","div",null,{"className":"px-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-10 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"ABOUT ME"}]}],["$","div",null,{"className":"flex items-center justify-center","children":["$","img",null,{"className":"object-cover rounded-full","width":"175","height":"175","src":"/static/img/logo.jpg","alt":"Author Profile"}]}],["$","p",null,{"className":"leading-relaxed text-md text-center pt-3 pb-3 px-2 motto-block","children":"嗨，我是Mina. 一個ENTP奇女子，時常可以隨手拈來創意的Idea，正向､ 活躍且浪漫。是軟體開發工程師､ 部落客，還是多語學習者，喜歡去探索不同的文化跟發明些東東。"}],["$","p",null,{"className":"leading-relaxed text-2xl text-center pt-1 pb-4 motto-block","children":"@MinaYu Signed"}],["$","div",null,{"className":"border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"BLOG STATS"}]}],["$","div",null,{"className":"my-5 pl-5 font-bold font-voll","children":[["$","span",null,{"id":"busuanzi_container_site_pv","children":["$","p",null,{"className":"pb-2","children":["Visits: ",["$","span",null,{"id":"busuanzi_value_site_pv"}]]}]}],["$","span",null,{"id":"busuanzi_container_site_uv","children":["$","p",null,{"children":["Visitors: ",["$","span",null,{"id":"busuanzi_value_site_uv"}]]}]}]]}]]}],["$","div",null,{"className":"mb-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"CATEGORY"}]}],[["$","div","life",{"children":[["$","a",null,{"href":"/categories/life/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日常生活"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",43,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","life-experience",{"className":"link-unstyled","href":"/categories/life-experience/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["人生體驗與經驗"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",34,")"]}]]}]}],["$","a","anxiety-anti-diary",{"className":"link-unstyled","href":"/categories/anxiety-anti-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["我的焦慮對抗日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",4,")"]}]]}]}],["$","a","thinking-and-reflection",{"className":"link-unstyled","href":"/categories/thinking-and-reflection/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["想東想西日常故事"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}]]}]]}],["$","div","software-development",{"children":[["$","a",null,{"href":"/categories/software-development/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["軟體開發 SWD"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",105,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","building-diary-of-website-and-blog",{"className":"link-unstyled","href":"/categories/building-diary-of-website-and-blog/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["網頁與部落格的建築日記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",22,")"]}]]}]}],["$","a","frontend-senior-training-plan",{"className":"link-unstyled","href":"/categories/frontend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[前端] 前端小菜鳥的成長計畫"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}],["$","a","10000-hours-backend-senior-training-plan",{"className":"link-unstyled","href":"/categories/10000-hours-backend-senior-training-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[後端] 1萬小時 - 後端工程師養成計劃"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",39,")"]}]]}]}],["$","a","architectural-design-and-solutions",{"className":"link-unstyled","href":"/categories/architectural-design-and-solutions/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["架構設計與構思創新解決方案"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","working-travel-diary",{"className":"link-unstyled","href":"/categories/working-travel-diary/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["工作旅行記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",10,")"]}]]}]}],["$","a","crasy-master-paper",{"className":"link-unstyled","href":"/categories/crasy-master-paper/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["[專案] 碩論也瘋狂"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","mysticism-and-numerology",{"children":[["$","a",null,{"href":"/categories/mysticism-and-numerology/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學與命理研究談"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",26,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","divination",{"className":"link-unstyled","href":"/categories/divination/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["占卜"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","temple-and-buddha",{"className":"link-unstyled","href":"/categories/temple-and-buddha/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["寺廟與佛"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",2,")"]}]]}]}],["$","a","mysticism",{"className":"link-unstyled","href":"/categories/mysticism/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["神秘學相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",6,")"]}]]}]}],["$","a","chart",{"className":"link-unstyled","href":"/categories/chart/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["命理學與命盤"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",13,")"]}]]}]}]]}]]}],["$","div","language-learning",{"children":[["$","a",null,{"href":"/categories/language-learning/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["語言相關 LANGUAGE"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",31,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","experience-and-exam",{"className":"link-unstyled","href":"/categories/experience-and-exam/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["學習經驗與考試相關"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",14,")"]}]]}]}],["$","a","toefl-prepare-plan",{"className":"link-unstyled","href":"/categories/toefl-prepare-plan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["托福準備紀錄"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",17,")"]}]]}]}]]}]]}],["$","div","travel-diary",{"children":[["$","a",null,{"href":"/categories/travel-diary/","className":"blog-link-style","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["旅行日記 Travel"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",56,")"]}]]}]}],["$","div",null,{"className":"list-disc list-inside ml-4 text-gray-600","children":[["$","a","japan",{"className":"link-unstyled","href":"/categories/japan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["日本－自由行旅記"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",37,")"]}]]}]}],["$","a","taiwan",{"className":"link-unstyled","href":"/categories/taiwan/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["台灣－蕃薯故鄉走跳"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",5,")"]}]]}]}],["$","a","eu-europe",{"className":"link-unstyled","href":"/categories/eu-europe/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["歐洲－英國與冰島追逐幸福極光"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",3,")"]}]]}]}],["$","a","us-america",{"className":"link-unstyled","href":"/categories/us-america/","children":["$","div",null,{"className":"py-3 text-sm border-b border-solid font-fondamento","children":["美國－賓州Juniata姐妹校與企業參訪"," ",["$","span",null,{"className":"font-color-gold-1","children":["(",11,")"]}]]}]}]]}]]}]],["$","div",null,{"className":"my-5 border border-solid py-4","children":["$","p",null,{"className":"font-bold text-center text-gray grid-subtitle text-md","children":"Google Ads"}]}],["$","$La",null,{"code":"5221750782"}]]}]}]]}]}]}]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"bg-white border-t border-solid","children":["$","div",null,{"className":"container px-5 mx-auto","children":["$","div",null,{"className":"xl:w-1/2 lg:w-3/4 w-full mx-auto text-center","children":["$","div",null,{"className":"text-gray-600 text-center text-xl font-hand-writing tracking-wider py-8 px-2","children":"Hi, It's Mina Yu, a software engineer, blogger and polyglot learner. Since 7-9 years ago, my dream is designing my own personal website and now I did it, I changed the website name to @Mina Influence, want to encourage people by my influence. I will continue to achieve more my dream in the future. I just want to tell you, no matter your plan looks how hard and how unachievable, Once you begin to do it, everything will be changed."}]}]}]}],["$","div",null,{"className":"bg-cyan-50 border-t border-solid","children":["$","div",null,{"className":"text-gray-300 text-center text-md motto-block py-8 px-4","children":"Copy Right © 2024 @Mina Influence. Designed by MINA YU. Sign @MinaYu."}]}]]}]]
