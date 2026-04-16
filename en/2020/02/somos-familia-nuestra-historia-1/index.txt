@@ -2,16 +2,16 @@
 5:I[1343,[],""]
 6:I[4080,["185","static/chunks/app/layout-b341ee42d57556ee.js"],""]
 4:["routes","en/2020/02/somos-familia-nuestra-historia-1","c"]
-0:["SxkEY-ey0e8DA7JQWBaST",[[["",{"children":[["routes","en/2020/02/somos-familia-nuestra-historia-1","c"],{"children":["__PAGE__?{\"routes\":[\"en\",\"2020\",\"02\",\"somos-familia-nuestra-historia-1\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","en/2020/02/somos-familia-nuestra-historia-1","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8587339419276812","strategy":"lazyOnload","crossOrigin":"anonymous"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9eb7524aa49edc7a.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+0:["1-XMErl8HAX_EAGmqa105",[[["",{"children":[["routes","en/2020/02/somos-familia-nuestra-historia-1","c"],{"children":["__PAGE__?{\"routes\":[\"en\",\"2020\",\"02\",\"somos-familia-nuestra-historia-1\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","en/2020/02/somos-familia-nuestra-historia-1","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L6",null,{"src":"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","strategy":"afterInteractive"}],["$","$L6",null,{"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8587339419276812","strategy":"lazyOnload","crossOrigin":"anonymous"}],["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L6",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a9760b4992f57fb0.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
 7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Somos Familia - Una chica asiática contacta con la cultura española (1) - Moon Aqua @Mina"}],["$","meta","3",{"name":"description","content":"Soy una chica asiática quien vivo en Taiwan, estoy aprendiendo español, yo pasé algunas cosas que muy sorpresa, entonces quiero escribir en mi blog. Escribiré nuestra historia y que diferente de cultura."}],["$","meta","4",{"name":"application-name","content":"Moon Aqua @Mina"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"Moon Aqua @Mina Image"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"español,familia,cultura,asiática,historia"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/en/2020/02/somos-familia-nuestra-historia-1/"}],["$","link","16",{"rel":"alternate","hrefLang":"en","href":"https://minayu.site/en/2020/02/somos-familia-nuestra-historia-1/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"Somos Familia - Una chica asiática contacta con la cultura española (1)"}],["$","meta","19",{"property":"og:description","content":"Soy una chica asiática quien vivo en Taiwan, estoy aprendiendo español, yo pasé algunas cosas que muy sorpresa, entonces quiero escribir en mi blog. Escribiré nuestra historia y que diferente de cultura."}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/en/2020/02/somos-familia-nuestra-historia-1/"}],["$","meta","21",{"property":"og:site_name","content":"Moon Aqua @Mina"}],["$","meta","22",{"property":"og:locale","content":"en"}],["$","meta","23",{"property":"og:image","content":"https://minayu0416.files.wordpress.com/2020/02//img-e1581837811878.jpg"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2020-02-16T04:47:52.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"Somos Familia - Una chica asiática contacta con la cultura española (1)"}],["$","meta","33",{"name":"twitter:description","content":"Soy una chica asiática quien vivo en Taiwan, estoy aprendiendo español, yo pasé algunas cosas que muy sorpresa, entonces quiero escribir en mi blog. Escribiré nuestra historia y que diferente de cultura."}],["$","meta","34",{"name":"twitter:image","content":"https://minayu0416.files.wordpress.com/2020/02//img-e1581837811878.jpg"}],["$","meta","35",{"name":"twitter:image:alt","content":"Moon Aqua @Mina Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
 1:null
-8:I[4969,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"Navbar"]
-9:I[231,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],""]
-a:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"TOCContent"]
-b:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"TOCMobileContent"]
-11:I[5983,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"TogglePanel"]
-12:I[5280,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"CategoryTree"]
-20:I[5758,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-c443df7811c13e57.js","432","static/chunks/app/%5B...routes%5D/page-1ce8cb67e3e4ebd8.js"],"AdBox"]
+8:I[4969,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"Navbar"]
+9:I[231,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],""]
+a:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"TOCContent"]
+b:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"TOCMobileContent"]
+11:I[5983,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"TogglePanel"]
+12:I[5280,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"CategoryTree"]
+20:I[5758,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","977","static/chunks/977-913760eea4e21db2.js","332","static/chunks/332-779b2cb9fb4128e3.js","101","static/chunks/101-6085e952d1f68662.js","432","static/chunks/app/%5B...routes%5D/page-9eb7d9d9ba17d106.js"],"AdBox"]
 d:{"id":"etapa-1---presentarme","text":"Etapa 1 - presentarme","level":2}
 e:{"id":"etapa-2---cómo-comienza-esto","text":"Etapa 2 - Cómo comienza esto?","level":2}
 f:{"id":"etapa-3---somos-familia","text":"Etapa 3 - Somos familia","level":2}
@@ -493,24 +493,79 @@ export default nextConfig;
 <li>Learning how to use <code>schema.org</code> to enhance SEO</li>
 <li>Observing well-structured, high-ranking websites in search engine results and comparing them with my own to identify missing elements or areas that could be optimized.</li>
 </ul>
-<p>I hope this content helps you successfully deploy your website and set up SEO properly. I’m not an expert in frontend development or SEO—just sharing my personal experience in the hope that it might be useful to you!</p>14:T4563,<p>We have a lengthy security detection flow need to pass before each time we have new release to production, in the part of this flow, there are Black Duck and Fortify On Demand scans.</p>
+<p>I hope this content helps you successfully deploy your website and set up SEO properly. I’m not an expert in frontend development or SEO—just sharing my personal experience in the hope that it might be useful to you!</p>14:T4279,<p>We have a lengthy security detection flow need to pass before each time we have new release to production, in the part of this flow, there are Black Duck and Fortify On Demand scans.</p>
 <p>In this article, I would like to record the research of how to use the APIs of both scans to achieve our automation solution.</p>
 <p>This research was conducted for <a href="/en/2023/12/design-innovative-solutions-on-automating-product-release-flow/">this automation solution</a>, if you have interest you can visit it, these 2 articles don't have dependency, so you can only read this article.</p>
 <p><strong><em>Notice, we don't record all API endpoints here, only write the APIs which achieved our solutions, if you want to research more, please go to official Black Duck and Fortify On Demand document.</em></strong></p>
 <p>When I was researching how to use both scans APIs, I found there were less reference and articles, so I hope this article can help you.</p>
 <h2 id="table-of-content">Table of Content</h2>
 <p>Here is like the table of content.</p>
-<p>| Scan                  | Feature                         | Description                                                       | API                                                                                                                   |
-| --------------------- | ------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| <strong>Fortify On Demand</strong> | Oauth Authentication            | Get authorized Oauth token for requesting other APIs              | https://api.ams.fortify.com/oauth/token                                                                               |
-|                       | Get Application                 | Get all applications                                              | https://api.ams.fortify.com/api/v3/application                                                                        |
-|                       | Get Release (with filter)       | Get all release or belongs to specific application with filter    | https://api.ams.fortify.com/api/v3/release 或 https://api.ams.fortify.com/api/v3/application/&#x3C;application_id>/release |
-| <strong>Black Duck</strong>        | Authentication                  | Get authorized Bearer token for requesting other APIs             | https://&#x3C;host_name>/api/tokens/authenticate                                                                           |
-|                       | Query project                   | Find specific projct (with filter)                                | https://&#x3C;host_name>/api/projects                                                                                      |
-|                       | Get version                     | Get all version under specific project                            | https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions                                                                |
-|                       | Generate Version Details Report | Generate Version Details Report with specific project and version | https://&#x3C;host_name>/api/versions/&#x3C;version_id>/reports                                                                 |
-|                       | Download Version Details Report | Download report                                                   | https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions/&#x3C;version_id>/reports/&#x3C;report_id>/download                      |
-|                       | Visit components with filter    | Filter specific condition with project components                 | https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions/&#x3C;version_id>/components                                        |</p>
+<table>
+<thead>
+<tr>
+<th>Scan</th>
+<th>Feature</th>
+<th>Description</th>
+<th>API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fortify On Demand</strong></td>
+<td>Oauth Authentication</td>
+<td>Get authorized Oauth token for requesting other APIs</td>
+<td><a href="https://api.ams.fortify.com/oauth/token">https://api.ams.fortify.com/oauth/token</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Application</td>
+<td>Get all applications</td>
+<td><a href="https://api.ams.fortify.com/api/v3/application">https://api.ams.fortify.com/api/v3/application</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Get Release (with filter)</td>
+<td>Get all release or belongs to specific application with filter</td>
+<td><a href="https://api.ams.fortify.com/api/v3/release">https://api.ams.fortify.com/api/v3/release</a> 或 <a href="https://api.ams.fortify.com/api/v3/application/">https://api.ams.fortify.com/api/v3/application/</a>&#x3C;application_id>/release</td>
+</tr>
+<tr>
+<td><strong>Black Duck</strong></td>
+<td>Authentication</td>
+<td>Get authorized Bearer token for requesting other APIs</td>
+<td>https://&#x3C;host_name>/api/tokens/authenticate</td>
+</tr>
+<tr>
+<td></td>
+<td>Query project</td>
+<td>Find specific projct (with filter)</td>
+<td>https://&#x3C;host_name>/api/projects</td>
+</tr>
+<tr>
+<td></td>
+<td>Get version</td>
+<td>Get all version under specific project</td>
+<td>https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions</td>
+</tr>
+<tr>
+<td></td>
+<td>Generate Version Details Report</td>
+<td>Generate Version Details Report with specific project and version</td>
+<td>https://&#x3C;host_name>/api/versions/&#x3C;version_id>/reports</td>
+</tr>
+<tr>
+<td></td>
+<td>Download Version Details Report</td>
+<td>Download report</td>
+<td>https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions/&#x3C;version_id>/reports/&#x3C;report_id>/download</td>
+</tr>
+<tr>
+<td></td>
+<td>Visit components with filter</td>
+<td>Filter specific condition with project components</td>
+<td>https://&#x3C;host_name>/api/projects/&#x3C;project_id>/versions/&#x3C;version_id>/components</td>
+</tr>
+</tbody>
+</table>
 <h2 id="fortify-on-demand-fod">Fortify On Demand (FoD)</h2>
 <p>Fortify On Demand (FoD), it has the public <a href="https://api.ams.fortify.com/swagger/ui/index">official Swagger document</a>, offers many APIs and the convenient feature is using swagger to test the API endpoint, so if you get many Errors from response, you can try swagger UI first.</p>
 <p>Here is the API Endpoints I want to introduce:</p>
@@ -1323,7 +1378,7 @@ def add_jira_attachment(issue_key, files):
 </code></pre>
 <p>That's all the implementation I did in this research.</p>
 <p>More cases please refer the official document: <a href="https://developer.atlassian.com/server/jira/platform/rest-apis/">REST APIs - Jira Server</a></p>
-<p>Thank you!</p>1a:T5f57,<p>Amazon Neptune Graph Database and Data Visualization is the topic we want to research in this cross-ream collaboration in our company.</p>
+<p>Thank you!</p>1a:T4f98,<p>Amazon Neptune Graph Database and Data Visualization is the topic we want to research in this cross-ream collaboration in our company.</p>
 <h2 id="introduction">Introduction</h2>
 <p>We have a special scrum sprint called Innovative Idea Research every 3 months in our company, in this sprint, software engineers can choose the topics they have interesting to do research and show the result in last demo day.</p>
 <p>The company proposed the new rule allows us can collaborate with members from other team on same research for improving the cross-team communication and increase the research diversity.</p>
@@ -1371,30 +1426,93 @@ def add_jira_attachment(issue_key, files):
 </ul>
 <h3 id="nosql">NOSQL</h3>
 <p>Graph Database is a NoSQL database, unlike relational database, such as MySQL, PostgreSQL, SQLite, they are different and not each service suit the Relational Database(RDBMS).</p>
-<p>|       | Type           | Example           |
-| ----- | -------------- | ----------------- |
-| NoSQL | Key-Value      | Redis             |
-|       | Document-based | MongoDB           |
-|       | Column-based   | BigTable          |
-|       | Graph-based    | Neptune, Neo4j    |
-| RDBMS | Table-based    | MySQL, PostgreSQL |</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NoSQL</td>
+<td>Key-Value</td>
+<td>Redis</td>
+</tr>
+<tr>
+<td></td>
+<td>Document-based</td>
+<td>MongoDB</td>
+</tr>
+<tr>
+<td></td>
+<td>Column-based</td>
+<td>BigTable</td>
+</tr>
+<tr>
+<td></td>
+<td>Graph-based</td>
+<td>Neptune, Neo4j</td>
+</tr>
+<tr>
+<td>RDBMS</td>
+<td>Table-based</td>
+<td>MySQL, PostgreSQL</td>
+</tr>
+</tbody>
+</table>
 <p>Through the above table, we can know the Graph DB is one of NoSQL DB.</p>
 <h3 id="nodes-edges-label-and-property">Nodes, Edges, Label and Property</h3>
 <p>Then we introduce the concepts of how Graph DB save data. If the nouns in RDB are Table, Column, Primery Key and Foreign Key，then in Graph DB there are Nodes, Edges, Label 和 Property.</p>
-<p>| Object     | Description                                                                                                                                                                                                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nodes      | Represent entities like company, people, account, this is roughly the equivalent of a record or row in relational database.                                                                                                                                                                 |
-| Edges      | Like the relationship or connection between nodes, this is the key concept in graph database.                                                                                                                                                                                               |
-| Label      | Attribute that group similar nodes together, for example different company nodes belong to <strong>Label Company</strong>, like Google, Tesla, Apple, they are different <strong>Nodes</strong> but belong to <strong>Label called Company</strong>. so you can use like <strong><em>g.V().hasLabel("Company")</em></strong> to get all company Nodes. |
-| Properties | Such as the properties which nodes or edges have, for example, if one company is a node, there might have employees count, founded date or location properties. Also, you can add property in Edge.                                                                                         |</p>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nodes</td>
+<td>Represent entities like company, people, account, this is roughly the equivalent of a record or row in relational database.</td>
+</tr>
+<tr>
+<td>Edges</td>
+<td>Like the relationship or connection between nodes, this is the key concept in graph database.</td>
+</tr>
+<tr>
+<td>Label</td>
+<td>Attribute that group similar nodes together, for example different company nodes belong to <strong>Label Company</strong>, like Google, Tesla, Apple, they are different <strong>Nodes</strong> but belong to <strong>Label called Company</strong>. so you can use like <strong><em>g.V().hasLabel("Company")</em></strong> to get all company Nodes.</td>
+</tr>
+<tr>
+<td>Properties</td>
+<td>Such as the properties which nodes or edges have, for example, if one company is a node, there might have employees count, founded date or location properties. Also, you can add property in Edge.</td>
+</tr>
+</tbody>
+</table>
 <p>Graph Database is more suitable for the data have highly complicated relationship.</p>
 <h3 id="query-langauge-gremlin">Query Langauge: Gremlin</h3>
 <p>The relation of Query language and Database like SQL and MySQL. In Graph DB, there are many query language, like Gremlin, Cypher, GQL, SPARQL, PGQL, GraphQL.</p>
 <p>Sample:</p>
-<p>| Query Language | Statement                  |
-| -------------- | -------------------------- |
-| SQL            | SELECT * FROM table_name  |
-| Gremlin        | g.V().hasLabel(label_name) |</p>
+<table>
+<thead>
+<tr>
+<th>Query Language</th>
+<th>Statement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SQL</td>
+<td>SELECT * FROM table_name</td>
+</tr>
+<tr>
+<td>Gremlin</td>
+<td>g.V().hasLabel(label_name)</td>
+</tr>
+</tbody>
+</table>
 <p>In this research, we learn Gremlin and use it on AWS Neptune and Jupyter Notebook.</p>
 <p>The following is the Cheat Sheet</p>
 <pre><code class="language-Gremlin">%%Gremlin
@@ -1448,16 +1566,53 @@ g.E("&#x3C;id>")
 </code></pre>
 <p>More can refer other articles.</p>
 <h3 id="relational-databaserdb-vs-graph-databasegraph-db">Relational Database(RDB) VS Graph Database(Graph DB)</h3>
-<p>|               | Graph DataBase                                                                                                                                                                                                                                                                                                                                                                      | Relational Database                                                                                                                                                                                                             |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Format        | Nodes, Edges                                                                                                                                                                                                                                                                                                                                                                        | Tables with Rows and Columns                                                                                                                                                                                                    |
-| Relationship  | Considered data, represented by edges between nodes                                                                                                                                                                                                                                                                                                                                 | Related across tables, established using foreign keys between tables.                                                                                                                                                           |
-| Complex Query | Run quickly and do not require joins                                                                                                                                                                                                                                                                                                                                                | Require complex joins between tables                                                                                                                                                                                            |
-| Top Use Case  | Relationship-heavy use cases, including fraud detection and recommendation engines. Highly-connected data that comes with an intrinsic need for relationship analysis. Data model is inconsistent and demands frequent changes.                                                                                                                 | Transaction-focused use cases, including online transactions and accounting.                                                                                                                                  |
-| Example       | <img src="https://mingjungyu.files.wordpress.com/2022/12/screenshot-2022-12-14-at-11.14.47-am.png" alt="">                                                                                                                                                                                                                                                                                        | <img src="https://mingjungyu.files.wordpress.com/2022/12/screenshot-2022-12-14-at-11.15.00-am.png" alt="">                                                                                                                                    |
-| Pros          | Addtional attribute could be added at some point. Not all entities will have all the attribute in the table. The attribute types are not strictly defined.                                                                                                                                                                                      | it is faster when handling huge numbers of records because the structure of the data is known ahead of time. Relational database in tables with rows and columns and uses <code>JOIN</code> for fast querying.  |
-| Cons          | Run frequent table scans and searches for data that fits defined categories. When you have a known key and need to retrieve the data associated with it, a graph database is not particularly useful. If the entities in your model have very large attributes like BLOBs, CLOBs, long texts... then graph databases aren't the best solution.  | Relational databases are slower for large datasets. Relational database has poor performance for deep analytics.                                                                                     |</p>
-<p>Reference: https://www.techtarget.com/searchdatamanagement/feature/Graph-database-vs-relational-database-Key-differences</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Graph DataBase</th>
+<th>Relational Database</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Format</td>
+<td>Nodes, Edges</td>
+<td>Tables with Rows and Columns</td>
+</tr>
+<tr>
+<td>Relationship</td>
+<td>Considered data, represented by edges between nodes</td>
+<td>Related across tables, established using foreign keys between tables.</td>
+</tr>
+<tr>
+<td>Complex Query</td>
+<td>Run quickly and do not require joins</td>
+<td>Require complex joins between tables</td>
+</tr>
+<tr>
+<td>Top Use Case</td>
+<td>Relationship-heavy use cases, including fraud detection and recommendation engines. Highly-connected data that comes with an intrinsic need for relationship analysis. Data model is inconsistent and demands frequent changes. </td>
+<td>Transaction-focused use cases, including online transactions and accounting. </td>
+</tr>
+<tr>
+<td>Example</td>
+<td><img src="https://mingjungyu.files.wordpress.com/2022/12/screenshot-2022-12-14-at-11.14.47-am.png" alt=""></td>
+<td><img src="https://mingjungyu.files.wordpress.com/2022/12/screenshot-2022-12-14-at-11.15.00-am.png" alt=""></td>
+</tr>
+<tr>
+<td>Pros</td>
+<td>Addtional attribute could be added at some point. Not all entities will have all the attribute in the table. The attribute types are not strictly defined. </td>
+<td>it is faster when handling huge numbers of records because the structure of the data is known ahead of time. Relational database in tables with rows and columns and uses <code>JOIN</code> for fast querying. </td>
+</tr>
+<tr>
+<td>Cons</td>
+<td>Run frequent table scans and searches for data that fits defined categories. When you have a known key and need to retrieve the data associated with it, a graph database is not particularly useful. If the entities in your model have very large attributes like BLOBs, CLOBs, long texts... then graph databases aren't the best solution. </td>
+<td>Relational databases are slower for large datasets. Relational database has poor performance for deep analytics. </td>
+</tr>
+</tbody>
+</table>
+<p>Reference: <a href="https://www.techtarget.com/searchdatamanagement/feature/Graph-database-vs-relational-database-Key-differences">https://www.techtarget.com/searchdatamanagement/feature/Graph-database-vs-relational-database-Key-differences</a></p>
 <h2 id="implementation-part">Implementation Part</h2>
 <p>After learn concepts, we need to do some exercise, there will be 3 parts inside:</p>
 <ul>
