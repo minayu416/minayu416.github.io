@@ -2,7 +2,7 @@
 4:I[9275,[],""]
 6:I[1343,[],""]
 5:["routes","2020/08/love-anxious-preoccupied-attachment-1-message","c"]
-0:["mrKmvkXOLQP2Vj7fXRYth",[[["",{"children":[["routes","2020/08/love-anxious-preoccupied-attachment-1-message","c"],{"children":["__PAGE__?{\"routes\":[\"2020\",\"08\",\"love-anxious-preoccupied-attachment-1-message\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2020/08/love-anxious-preoccupied-attachment-1-message","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[[["$","$L3",null,{"id":"schema-site-navigation-zh-TW","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"SiteNavigationElement\",\"position\":1,\"name\":\"首頁\",\"url\":\"https://minayu.site/\"},{\"@type\":\"SiteNavigationElement\",\"position\":2,\"name\":\"部落格\",\"url\":\"https://minayu.site/blog\"},{\"@type\":\"SiteNavigationElement\",\"position\":3,\"name\":\"履歷\",\"url\":\"https://minayu.site/resume\"}]}"}}],["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c7ed45a17f3347a8.css","precedence":"next","crossOrigin":"$undefined"}]]}]],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L3",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L3",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/78d3f45bac07b8b7.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
+0:["gl-BafubjEvx6LF8e4MSn",[[["",{"children":[["routes","2020/08/love-anxious-preoccupied-attachment-1-message","c"],{"children":["__PAGE__?{\"routes\":[\"2020\",\"08\",\"love-anxious-preoccupied-attachment-1-message\"]}",{}]}]},"$undefined","$undefined",true],["",{"children":[["routes","2020/08/love-anxious-preoccupied-attachment-1-message","c"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},[[["$","$L3",null,{"id":"schema-site-navigation-zh-TW","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"SiteNavigationElement\",\"position\":1,\"name\":\"首頁\",\"url\":\"https://minayu.site/\"},{\"@type\":\"SiteNavigationElement\",\"position\":2,\"name\":\"部落格\",\"url\":\"https://minayu.site/blog\"},{\"@type\":\"SiteNavigationElement\",\"position\":3,\"name\":\"履歷\",\"url\":\"https://minayu.site/resume\"}]}"}}],["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c7ed45a17f3347a8.css","precedence":"next","crossOrigin":"$undefined"}]]}]],null],null]},[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L3",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-EETGWC7GNV","strategy":"afterInteractive"}],["$","$L3",null,{"id":"ga4-init","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-EETGWC7GNV', {\n              page_path: window.location.pathname,\n            });\n          "}]]}],["$","body",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/78d3f45bac07b8b7.css","precedence":"next","crossOrigin":"$undefined"}]],[null,"$L7"]]]]]
 7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖) - 月水瓶 @Mina 的人生實驗室"}],["$","meta","3",{"name":"description","content":"對方幾分鐘沒回訊息，你就很焦慮嗎？也許你是焦慮型依戀情人，那麼要如何改善這些狀況呢？身為一個軟體工程師女生，用軟體開發的分析方法，把眾多行為與情緒寫下並歸納，畫成流程圖，帶你解析你現在的狀況以及提出解決方法，讓我們一起改善愛情中的關係吧！"}],["$","meta","4",{"name":"application-name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","5",{"name":"author","content":"minayu416"}],["$","link","6",{"rel":"author","href":"https://minayu.site"}],["$","meta","7",{"name":"author","content":"Moon Aqr. @Mina Image"}],["$","meta","8",{"name":"generator","content":"Next.js 14.2.5"}],["$","meta","9",{"name":"keywords","content":"愛情,焦慮型依戀,love,改善"}],["$","meta","10",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","11",{"name":"creator","content":"minayu416"}],["$","meta","12",{"name":"publisher","content":"minayu416"}],["$","meta","13",{"name":"robots","content":"index, follow"}],["$","meta","14",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","15",{"rel":"canonical","href":"https://minayu.site/2020/08/love-anxious-preoccupied-attachment-1-message/"}],["$","link","16",{"rel":"alternate","hrefLang":"zh-TW","href":"https://minayu.site/2020/08/love-anxious-preoccupied-attachment-1-message/"}],["$","meta","17",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","18",{"property":"og:title","content":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)"}],["$","meta","19",{"property":"og:description","content":"對方幾分鐘沒回訊息，你就很焦慮嗎？也許你是焦慮型依戀情人，那麼要如何改善這些狀況呢？身為一個軟體工程師女生，用軟體開發的分析方法，把眾多行為與情緒寫下並歸納，畫成流程圖，帶你解析你現在的狀況以及提出解決方法，讓我們一起改善愛情中的關係吧！"}],["$","meta","20",{"property":"og:url","content":"https://minayu.site/2020/08/love-anxious-preoccupied-attachment-1-message/"}],["$","meta","21",{"property":"og:site_name","content":"月水瓶 @Mina 的人生實驗室"}],["$","meta","22",{"property":"og:locale","content":"zh-TW"}],["$","meta","23",{"property":"og:image","content":"https://minayu.site/static/img/seo/SeoImage.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:type","content":"article"}],["$","meta","27",{"property":"article:published_time","content":"2020-08-02T11:32:12.000Z"}],["$","meta","28",{"property":"article:author","content":"Mina Yu"}],["$","meta","29",{"name":"twitter:card","content":"summary"}],["$","meta","30",{"name":"twitter:site:id","content":"@MingJungYU"}],["$","meta","31",{"name":"twitter:creator","content":"@MingJungYU"}],["$","meta","32",{"name":"twitter:title","content":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)"}],["$","meta","33",{"name":"twitter:description","content":"對方幾分鐘沒回訊息，你就很焦慮嗎？也許你是焦慮型依戀情人，那麼要如何改善這些狀況呢？身為一個軟體工程師女生，用軟體開發的分析方法，把眾多行為與情緒寫下並歸納，畫成流程圖，帶你解析你現在的狀況以及提出解決方法，讓我們一起改善愛情中的關係吧！"}],["$","meta","34",{"name":"twitter:image","content":"https://minayu.site/static/img/seo/SeoImage.png"}],["$","meta","35",{"name":"twitter:image:alt","content":"Moon Aqr. @Mina Image"}],["$","link","36",{"rel":"shortcut icon","href":"/static/img/favicon.jpg"}],["$","link","37",{"rel":"icon","href":"/static/img/favicon.jpg"}],["$","link","38",{"rel":"apple-touch-icon","href":"/static/img/favicon.jpg"}],["$","meta","39",{"name":"next-size-adjust"}]]
 1:null
 8:I[3153,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","595","static/chunks/595-62c7d4278f78d354.js","140","static/chunks/140-bf79df48cd8d7c42.js","410","static/chunks/410-a161bf0918446a47.js","432","static/chunks/app/%5B...routes%5D/page-2565719097694c16.js"],"MobileMenu"]
@@ -10,47 +10,45 @@
 a:I[231,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","595","static/chunks/595-62c7d4278f78d354.js","140","static/chunks/140-bf79df48cd8d7c42.js","410","static/chunks/410-a161bf0918446a47.js","432","static/chunks/app/%5B...routes%5D/page-2565719097694c16.js"],""]
 b:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","595","static/chunks/595-62c7d4278f78d354.js","140","static/chunks/140-bf79df48cd8d7c42.js","410","static/chunks/410-a161bf0918446a47.js","432","static/chunks/app/%5B...routes%5D/page-2565719097694c16.js"],"TOCMobileContent"]
 d:I[9386,["676","static/chunks/870fdd6f-d8d8a996639eb86b.js","595","static/chunks/595-62c7d4278f78d354.js","140","static/chunks/140-bf79df48cd8d7c42.js","410","static/chunks/410-a161bf0918446a47.js","432","static/chunks/app/%5B...routes%5D/page-2565719097694c16.js"],"TOCContent"]
-c:T5e23,<p>曾經我也是覺得我這輩子大概跟愛情擦身而過，身為工科軟體工程師女性，談戀愛及人性感性什麼的真的很困難。</p>
+c:T7064,<p>曾經我也是覺得我這輩子大概跟愛情擦身而過，身為工科軟體工程師女性，談戀愛及人性感性什麼的真的很困難。</p>
 <p>在臉書上總能看到身邊好友姐妹們，男朋友一個換一個，打卡拍照各種甜蜜，然後到了我這把年紀，我會看到有的人結婚了，有的人生小孩了。</p>
 <p>其實愛情一直以來都需要透過練習來進步，在經歷過兩段戀情後，尤其最近剛開啟另外一段 (這個別來問我，時機到自然會公開嘿)</p>
 <p>在經歷過上一段很刻苦銘心的愛情後，原以為分手後的下一段戀情，會是一個新的開始</p>
 <p>然而，我卻發現，每次都重複一樣的戲碼，每次都發生一樣的事情，但這次我決定好好面對它</p>
-<h3 id="作者插播">作者插播</h3>
-<p>說到插播，那就是我回頭更改了文章內容，因為現況已經跟當時寫文章的狀況不符合了，所以回頭修改一點內容，但最精華的部分不會更動。</p>
+<h1 id="作者插播">作者插播</h1>
+<p>在2026年底，我回頭檢視了這篇文章。</p>
+<p>這幾年歷經了許多事，我的身心靈跟思維都有大幅度的提升，近期談的一段感情目前穩定了，同時這段感情也一步一步治癒了我的焦慮型依戀。</p>
+<p>我想就這幾年的經歷，再改動一下文章的內容，看看能不能用更精準的描述來呈現每個故事跟論點。</p>
 <p>這篇文章在 2020 年 8 月發佈後，瀏覽量以十分迅速的速度往上飆升，老實說我完全沒有想到這篇文章居然有這麼多人觀看，而且還能幫助到很多人，我很開心。</p>
-<p>當初其實是因為我本身兩段戀情的經驗發現我有這樣的情況，然後本人理解事情的思考比較偏向邏輯推論，因此就像解數學題目一樣，能夠推出一個規則，這個理論我沒看過任何心理學文章，也不是抄襲別人的文章，而是自己的經歷綜合理科背景所學所推出的邏輯圖，然後單純分享給有同樣狀況的朋友們。</p>
-<p>當初還在一段關係內，但在撰寫文章的兩個月後，男友(現為前任男友) 向我提出了分開的想法，後續故事其實蠻爛尾的，因為後續對方使出講話不清不楚或者藕斷絲連的絕招，他是為了讓這段關係留後路，但我以前向前走了。直到最近，沒錯就是半年後，對方還會傳訊息回憶當初，但是其實當時對方提分手時用的理由很含糊朦朧，完全沒有給我任何機會。不是劈腿，應該是因為我太過焦慮太過缺乏安全感，所以太逼迫對方個人空間導致的。 (但是本來天天都會聊天，變成一週沒幾次講話，也撥不出半點時間視訊，我當時十分焦慮緊張)</p>
-<p>相關情節加上這篇文章後續的故事，我已經寫了新的文章如下，交代了後續的故事，最近的近況以及最近如何調整自己的內容，有興趣的人可以看看，不過我建議事先把當前的流程圖文章先看完，有興趣再看後續。</p>
-<p><strong>但是要記住的是，每個人產生依戀的狀況不同，所以不一定我的經驗適合你，因為也有可能過陣子，我當下的問題解決了，又發現另外一個造成依戀的原因點。我們必須不斷地保持警覺的自省，慢慢從每個經驗中去抽絲剝繭，並慢慢修正，最終才會找到最根源的原因。</strong></p>
-<p><a href="https://minayu.site/2021/06/what-i-learn-in-those-love-experience/">[愛情] 那些戀愛經驗教會我的事 | 焦慮依戀型 | 關於愛自己 | 什麼是做自己 | 近況交代</a></p>
-<p>我知道很多讀者看到這可能會很緊張，畢竟後續的愛情故事並非美妙，但正在看文章的你/妳要知道，這只是我的個人經驗，有很多讀者寫信也有的找到我的 ig，他們都告訴我他們擁有安全型的另外一半，有的甚至剛在一起，他們擁有能夠體諒的另外一半陪著他們一起改善跟克服，所以千萬不要緊張。</p>
-<p>當然如果看到我這段文章或者你也在同樣的狀況中，那我想告訴的是，<code>結束就是另外一個開始</code>，<code>危機永遠都是轉機</code>。當下我確實非常的難過，被分手時是我在山上度假的第一天，但很快我才意識到原來我當時整顆心都在對方身上。</p>
-<p><strong><em>當你一直害怕跟焦慮的事情發生了，頓時你就會發現其實也沒什麼好焦慮跟怕的了，也只不過如此，然後你成長了。</em></strong></p>
-<p>2021/06/07 編輯</p>
-<h3 id="前言">前言</h3>
+<p>起初是因為我本身兩段戀情的經驗發現我有這樣的情況，然後本人理解事情的思考比較偏向邏輯推論，因此就像解數學題目一樣，能夠推出一個規則，這個理論我沒看過任何心理學文章，也不是抄襲別人的文章，而是自己的經歷綜合理科背景所學所推出的邏輯圖，然後單純分享給有同樣狀況的朋友們。</p>
+<p>我相信近幾年心理議題開始被大眾所重視，許多諮商心理權威們紛紛透過Youtube跟書提出更深層的心理議題與解法，也許比這篇文章更有效果。</p>
+<p>而我目前在這條治癒焦慮型依戀的道路上已有所心得，所以再度調整文章的內容，希望能幫助到更多人。</p>
+<p><strong>每個人產生的焦慮依戀狀況不同，我的經驗可能不一定適合你。有可能當下的問題被很表層的方式解決，但很快又會發現另外一個造成依戀的原因點。我們必須不斷地保持警覺的自省，慢慢從每個經驗中去抽絲剝繭，並慢慢修正，最終才會找到最根源的原因。</strong></p>
+<p>我當時撰寫那篇文章後，陸續還有撰寫幾篇文章，有興趣的話可以<a href="(https://minayu.site/2021/06/what-i-learn-in-those-love-experience/)">觀看</a>，不過我希望透過此次改寫，在這篇文章就能將這段旅程劃下一個句點。</p>
+<p>本文於 2026/10/22 再次改寫。</p>
+<h1 id="前言">前言</h1>
 <p>21 世紀除了開啟了電腦科技發達的大門外，另外一扇新知識則是 <code>心理學</code>，在人類擁有更多富裕的生活條件與資源後，<code>有錢</code> 終於不只是人類唯一的目標。</p>
 <p>其實你仔細觀察就會發現這個年代的人，特別在乎心理層面的照料，這也就是為什麼過去不怎麼敢被提起的憂鬱症, 焦慮症以及其他精神疾病紛紛被勇敢提出。</p>
 <p>還有各大命理技術及攸關心靈層面探索的知識紛紛流行。</p>
-<h3 id="經歷">經歷</h3>
-<p>愛情是需要被練習的，有的人幸運，初戀就是一輩子攜手的對象。有的人在愛情中則是跌跌撞撞每次都發生一樣的劇情，卻無從改善</p>
-<p>會有這篇的產出，是因為我剛開啟一段新戀情不久，原以為開啟新戀章代表著擺脫過去的陰影，但過去的經歷卻一在的發生在這次戀情中</p>
-<p>今年初我剛和交往兩年的前男友分手，其實倒也不是什麼不愛了這樣的理由，是因為我自己長期觀念上的矛盾與牴觸，讓忍了近兩年的自己決定放手這段戀情</p>
-<p>在要踏入現在這段感情前，其實我也很害怕過去的經驗會一再發生，因為新戀情發生的每件事幾乎都和上段戀情剛開始一樣</p>
-<p>熱戀，互相了解，訊息不間斷，熬夜講電話或視訊 ... 總總</p>
-<p>然而，這一切美好就在最近變了樣，而我又開始做出一些極端的行為跟情緒，就像重播上段戀情的劇情，一遍又一遍</p>
-<p>然後，我意識到我這樣的情況是不對的，隨著日子一天天過去，我發現不行，於是我也開始尋求網路上的資源</p>
-<p>當然再加上有著過去兩年已經經歷過，所以我對每個網路上的資訊都明瞭那種感受，但是文章中通常只有描述行為跟思緒，卻很少有改善方法</p>
-<p>亦或者是說，沒有<code>具體</code>的改善方法，身為一個軟體工程師，天天都被主管狗血淋頭的詢問 <code>話可不可以說的具體一點</code>, <code>那你有什麼建議？</code>, <code>你有什麼解法?</code>，怎麼能夠忍受文章中已經把 <code>Bug</code> 都找出，卻沒有附上原因跟解決方法呢！！</p>
-<p>於是我在十分焦慮的情況下，我把我所有的症狀跟發生原因跟可能的解決方法都寫在紙上，試圖讓已經一週不安心的自己冷靜點</p>
-<p>但我發現這樣還是沒有辦法降低我的不安感，於是我決定發揮身為一個軟體工程師的優勢，化這些<code>需求</code> 為 <code>流程圖</code>，並提出有效的解法 (改善方法)</p>
-<p>由於心理學很錯綜複雜，我後來回頭看了一下昨天一個晚上生出的流程圖，我發現我還可以依據我的個人經驗能夠有更多發展</p>
-<p>但我想就留到之後在做其他部分的探討，今天我先著重於 <code>回不回訊息</code> 這件事來做探討吧!</p>
-<h3 id="焦慮型依戀情人">焦慮型依戀情人</h3>
-<p>我想點進來看的朋友應該都已經調查過各大網站的內容，我就只稍微簡單介紹一下了</p>
-<p>當愛情初頭，無論你是面對面還是網路戀愛，很明顯剛開始會有頻繁聯絡的曖昧期及熱戀期，這時候雙方就像打了雞血一樣，半夜熬夜都要講上一小時的電話</p>
-<p>整天膩再一起都不嫌膩，這個時候呢是兩個人正在互看的階段，挖掘對方美麗跟奇妙的時段。</p>
-<p>但是時間久了，總是要回歸正常生活的，互看階段是不會有所成長，重點在於將互看階段轉為一起看未來的階段，但通常在這個轉變期，有些人不能適應就開始吵架了。</p>
-<p>依戀型分為 <code>安全型</code>, <code>焦慮矛盾型</code> 及 <code>逃避型</code>，大部分和童年成長與家庭相處模式有很大的影響，而我在這兩段戀情中，很清楚的意識到我是 <code>焦慮矛盾型戀人</code>，前言太多廢話，先上圖吧！</p>
+<h1 id="我的經歷">我的經歷</h1>
+<p>在我的人生中，我談過幾段戀情，從開始嚴重的焦慮型依戀一直到慢慢治癒漸漸轉成安全型依戀，有四段感情，並在最近這段穩定的感情中被治癒。</p>
+<p>焦慮型依戀如果沒有被治癒，每段感情就都會不斷重複發生一樣的事情，感情的結束對自己會是一種解脫，但單身一陣子後又會開始想談感情，進入一段感情後又會開始焦慮，明明單身時活得精彩，怎麼兩個人相處時自己就變成焦慮的一方，不斷擔憂。</p>
+<p>我的焦慮依戀始於第二任男友，這一段戀情交往了2年，最終分手的原因是因為我長期忍耐各種不滿，但是又不敢提出直到極限，加上我在這段感情絕大部分都感受到那種錐心扭緊心臟的焦慮感，我最後不太想再一直把關注度放在對方身上，所以產生熱情直線消減的毀滅性分手 (咦是這樣描述嗎)。</p>
+<p>回想起這段感情，有幾個要點我想也記錄一下。</p>
+<ul>
+<li>這段感情中，我可能沒有喜歡對方，我只是喜歡 <code>對方喜歡我的感覺</code>。</li>
+<li>沒有意識到雙方表達愛意的方式可能不同，所以彼此可能無法感受。比方說男方偏向行動陪伴，親自買高鐵票來約會，為了感情搬到離我更近的城市工作。但女方偏好訊息跟說表達愛意。</li>
+<li>為了關係的和諧，或者說害怕破壞關係，而不斷忍耐各種不公平待遇、不舒服的情境，不溝通、不表達。</li>
+<li>遭受到男生自尊心而產生的言語羞辱、思維貶低，像是男生會嘲諷說坐辦公室的工作有冷氣這麼爽還不知足、或是你學這些興趣沒有用啦。甚至開始嘲笑女方身材。</li>
+<li>一直跟我借錢，且有不切實際的賺錢想法。</li>
+</ul>
+<p>在往後三段的新戀情發生，每件事幾乎都和上段戀情剛開始一樣熱戀，互相了解，訊息不間斷，熬夜講電話或視訊 ... 總總，過陣子就會開始因焦慮而不斷延伸出各種後續的行為。</p>
+<p>我本身在那段戀情也做過像是 <code>傳一堆情緒性的訊息，冷靜後後悔全收回</code>，<code>焦慮到不敢跟對方說自己悶著內耗，待在房間大哭</code>，<code>任何委屈跟不舒適都忍著不講</code>..許多。</p>
+<p>隨著日子一天天過去，我發現不行，於是我也開始尋求網路上的資源，我對每個網路上的資訊都明瞭那種感受，但是文章中通常只有描述行為跟思緒，卻很少有改善方法。</p>
+<p>於是我決定，開始在每次十分焦慮的情況下，把我所有的症狀跟發生原因跟可能的解決方法都寫在紙上，然後將這些累積起來的事情，整理成清晰的 <code>流程圖</code>，並嘗試找出有無任何可破解的解法 (改善方法)</p>
+<p>這篇文章先著重於 <code>回不回訊息</code> 這件事來做探討吧!</p>
+<h1 id="焦慮型依戀情人">焦慮型依戀情人</h1>
+<p>依戀型分為 <code>安全型</code>, <code>焦慮矛盾型</code> 及 <code>逃避型</code>，但最近好像又有發現還有一個<code>恐懼型</code>，大部分和<code>童年成長</code>、<code>家庭相處模式</code>或者<code>過往戀情</code>有很大的影響。</p>
 <p>以女生角度出發的話，探討 <code>通訊軟體男朋友回覆訊息</code> 的問題:</p>
 <p><img src="https://minayu0416.files.wordpress.com/2020/08/anxiety-preocupied-1.jpg" alt=""></p>
 <p>會依據男朋友有無回覆訊息來代表男朋友是否繼續愛自己，通常最明顯的思緒是: <code>回訊息 == 愛</code>，在熱戀期時通常不會發現自己是焦慮依戀，因為從曖昧期到熱戀期幾乎是天天 24 小時膩在一起傳訊息。</p>
@@ -90,68 +88,134 @@ c:T5e23,<p>曾經我也是覺得我這輩子大概跟愛情擦身而過，身為
 <p><code>如果你不..., 我就 ....</code></p>
 <p>每個階段都要小心謹慎，因為看似解決問題了，但其實只是短暫內心獲得的安慰，只是短暫解渴，又回到最上方的迴圈，重蹈覆徹，這是我用上段感情近兩年跟這段戀情剛開始的經驗學到的。</p>
 <p>在每個階段如果沒有意識到自己是焦慮矛盾依戀型戀人的話，可能就會跌入迴圈，即便看似很好很不錯很理性的方法，其實也都只是治標不治本。</p>
-<p>我一共有三段戀情，現在處於第三段，第一段戀情我認為對方也是焦慮依戀型戀人，剛好兩個人在一起互相依戀就沒什麼大問題，那為什麼第一段戀情還是失敗了？</p>
-<p>不管再怎麼焦慮矛盾依戀，總會有真的結束熱戀期跟進入磨合期的階段，再加上如果心態不成熟不懂得溝通，其實不管剛好雙方都是焦慮矛盾或者都是安全型依戀，還是會有戀情走到尾聲的時候。</p>
 <p>了解自己的依戀型態是相處上的一個重要的步驟，但別忘了無論是人和人的相處還是愛情，都會時時刻刻有不同的問題產生，尊重, 溝通, 包容 都是非常重要的要點。</p>
 <p>最後來看看，你要怎麼跳脫這樣的迴圈吧！</p>
-<h3 id="改善方法">改善方法</h3>
-<p>我不敢說會解決，因為我也搞不清楚目前我的狀況是短暫解渴了，還是想開了，但這些方法是我綜合網路上所有的文章寫了加上自己親身嘗試一下。</p>
-<p>當然我認為沒有這麼簡單，當日就能想通，必須不斷的練習，每次發生迴圈的事或者在要發生之前都先意識到並告訴自己這些概念，然後想辦法改善，才有可能變得越來越好。</p>
-<p><strong><em>焦慮矛盾依戀，必須從內心改善</em></strong></p>
-<p><strong><em>要知道這種焦慮感是從內心的觀念發展，所以必須從內心改善</em></strong></p>
-<p>為什麼短短幾分鐘對方不回，你會焦慮。其實是打從內心有幾個觀念深深困擾著你:</p>
-<ol>
-<li>對自我沒有自信/ 又或者是說自卑，覺得自己不夠資格被愛</li>
-<li>無法相信與信任對方/ 老是覺得對方容易出軌</li>
-</ol>
-<p>改善方法如下:</p>
+<h1 id="改善方法">改善方法</h1>
+<p>這個章節，我會基於在2025-2026年左右，我最終治癒了焦慮型依戀的方法分享給大家。</p>
+<p>這幾年無論我在思想上還是心靈上都有許多成長跟提升，當然也嘗試過許多不同但又失敗的方式，以下會分享幾個我覺得很有效的方式。</p>
+<blockquote>
+<p>但首先我要再說一次，治癒焦慮型依戀這件事絕對不是容易的事，他會不斷重複的出現，有可能是同一段戀情，也有可能橫跨不同戀情，過程有可能會長達幾個月甚至幾年，你也許會嘗試不同的解決方法，可能會看很多書跟文章，可能會失敗，請保持耐心，請不要氣餒，這段療癒之路會在每一次焦慮發生並正確被解決後，傷口會一點一滴緩慢的被治癒。</p>
+</blockquote>
+<blockquote>
+<p>另外，可能諸多因素交錯複雜糾纏，也許看起來某個表層原因解決了，實際上只是其中一個因素，但其根源卻埋在很深層，需要有點耐心一步一步抽絲剝繭</p>
+</blockquote>
+<blockquote>
+<p>這條路可能不簡單，要有點耐心。</p>
+</blockquote>
+<p>當然這是我的經驗談，我並不是心理方面的專家，就像上面有提到，在近幾年心理議題開始被重視，許多心理諮商權威都有分享他們的論點，可以多去設略跟參考。</p>
+<p>以下，無關男女，男生也會有焦慮依戀的問題，我有收過讀者是男性來信詢問。</p>
+<p><strong>雙方的心態</strong></p>
+<p>首先，擁有 <code>焦慮型依戀</code> 的我們就是問題的一環 (這邊理性的面對，我們是在抽絲剝繭跟解決，不用怪罪自己也不必內耗)，因此我們需要調整一下心態，從<code>過度關注對方感到焦慮</code>，轉成<code>探索自己為何焦慮</code>，才能對內心的焦慮抽絲剝繭找原因。</p>
+<p>調整好準備探索內心的心態，就等於準備開始治癒自己。</p>
+<p>再來是</p>
+<blockquote>
+<p>選一個對的人，陪你一起解決問題。</p>
+</blockquote>
+<p>戀愛與熱戀可以是你很愛這個人的長相、身體、個性，可以是你們有共同興趣、共同話題，甚至可以是你們是同事常常一起上下班、一起打遊戲，也可以是一見鍾情、瞬間煞到。</p>
+<p>但如果要兩個人 <code>相處</code>，請找一個精神同頻、三觀 / 思維 / 做事與行為互補或相似，最重要的是這個人要 <code>情緒穩定</code>、願意 <code>陪你一起解決問題</code> (當然如果心態成熟的話是最好了)。</p>
+<p>雖然是老話常談，但如果能門當戶對是最好，因為相似環境、階級能保證你們在思維、三觀上、處在的環境、經歷過的事、面對事情的態度基本上相似不會差太多。</p>
+<p>門不當戶不對，我幫你們嘗試過了，嘗試了三段戀情，慘烈收尾，當然如果你想體驗那種刻苦銘心的愛，歡迎嘗試。</p>
+<p>千萬不要覺得自己是聖母，能拯救對方或者犧牲奉獻覺得這樣對方會變，你沒有多少個幾年能等一個人成長起來(因為我以前就是一直覺得我能等，能陪對方打拼)，如果你已經 Ready 了，請找另一個 Ready 的人。</p>
+<p>我認為如果最開始找的就不是對的人來相處，那就算最開始怎麼愛，最後也會因為相處上的矛盾而出問題。所以，我也有段感情是才交往沒多久，我就意識到對方不是對的人，在最愛的時候和對方提出分手。你可以愛對方的長相、愛對方很會甜言蜜語很疼你，但如果發現相處上三觀、思維都不同，而且沒有未來的人，還是要果斷做決定。</p>
+<p><strong>溝通、溝通、再溝通</strong></p>
+<p>當找到一位對的人，陪你一起度過這段療癒之路，你會發現每次發生焦慮、跟坦誠自己的感受跟想法、彼此溝通與了解後，這個黑洞大的焦慮會隨著每次溝通而一點一滴慢慢縮小而消失。</p>
+<p>溝通是什麼呢？</p>
+<blockquote>
+<p>就是我把我的想法跟感受，講給對方知道。對方也把他的感受與想法讓我知道。</p>
+</blockquote>
+<blockquote>
+<p>然後我們一起考量彼此的感受跟想法，找出一個雙方都能接受的平衡點的相處模式或行動。</p>
+</blockquote>
+<p>因此，以下幾點就不是有效的溝通</p>
 <ul>
-<li>建立自信，相信自己是最好的</li>
+<li>當你因焦慮而感到強烈不安，有哭跟憤怒。但是對方仍然冷感忽略不理，或者冷嘲熱諷，或者感到不耐煩跟生氣，那就是無效溝通 (但我這不是提倡我方要把所有情緒宣洩，下面會提到。) -- (著重於對方的心態不正確)</li>
+<li>當你因焦慮而感到強烈不安，然後你把所有的情緒宣洩給對方，甚至做出一堆極端的動作(比如情緒勒索、發脾氣摔東西、奪命連環打電話、內耗不爽) -- (著重於我方的心態不正確)</li>
+<li>因為不安，我就要提出一堆限制，限制對方不能做什麼，這樣我才會安心，這也不是有效溝通，這是在局限對方，長期下來容易分手。</li>
+<li>單方面覺得是對方的問題、怪罪對方，或者對方覺得是我的問題而怪罪於我，屬無效溝通。</li>
 </ul>
-<p>我相信很多文章都會這樣說，而身為一個工科人這樣模糊的字句完全無法接受，什麼叫建立自信，怎麼建立自信？</p>
-<p>我最近看過幾篇文章，他們說你怎麼判斷找到一個對的人？一個對的伴侶會讓你變得更喜歡自己。</p>
-<p>打個比方，我因為自己肥胖，所以對自己很沒自信，在上段戀情尾聲，我被我前任男朋友嫌體重嫌身材，嫌到極端但卻持續帶著我去吃吃到飽，然後嘴巴上一直講要我去運動。(即便我跟我前男友有一起去泳池，但我卻是最認真運動的那個)，嘴巴上一直說我很胖，但卻還是一直盧說要去吃吃到飽(每週都去吃兩次)。</p>
-<p>而在分手後，我以人生體重最重最胖的樣子遇到現任男友，他不在乎也不覺得我胖，但是他跟我說如果我對自己的身材不滿意，就去鍛鍊跟減肥，而他確實也找了一些瘦身的影片給我，也一起吃健康的食物陪著我減肥。</p>
-<p>到現在我減了四公斤並繼續減肥，也更喜歡自己現在的樣子了！</p>
-<p>當然舉這個例子只是說明對的人讓你變得更好，但是關於自信還是要自己去努力，最簡單的就是一些身材上的改善，長期的話就是興趣跟目標的達成，比如英文考多益或者學日文，亦或者是學一些專業跟知識，或者達成一些自訂目標讓自己有成就感，進而變得更有自信。</p>
+<p>首先，無論哪一方，都要能 <strong>自己學習如何處理自己的情緒</strong>，比方說當我知道焦慮來臨時，我會因為極度不安而情緒橫飛，那這個時候我的方式是拉開兩人距離，讓我先靜一靜，也可以好好慢慢緩下來去探索自己為什麼會焦慮，如果可以就寫下來包括剖析自己焦慮的原因以及焦慮時會有哪些行為。</p>
+<p>等到我方情緒穩定後，也寫下來焦慮不安的因素，此時兩人在根據這些因素好好的談談。</p>
+<p>在雙方的情緒都是穩定且理性的狀況下，開啟溝通。不要害怕感情會破裂，不要害怕關係會出問題，溫和的提出自己的感受，不舒適，讓對方知道，<code>請對方看著這些因素一起思考是什麼深層原因造成這些焦慮與不安 </code>(而不是單方面檢討)。</p>
+<p>另外，表達出自己的感受後，也請<strong>我方去了解對方對於這件事的想法跟感受，然後一起找到平衡的點</strong>，能舒適相處的改善，而不是要求對方單方面改變。</p>
+<p>通過每次和對方溝通，透過累積每次發生、溝通並解決的經驗，慢慢了解彼此的感受跟想法，慢慢的信任對方，使內心有踏實安全感，也會讓焦慮感慢慢減少。</p>
+<blockquote>
+<p>學習去處理自己的情緒是很重要的。</p>
+</blockquote>
+<blockquote>
+<p>雙方的心態也是很重要的，焦慮的一方要正視自己的焦慮是一個問題，並調整好心態開始探索焦慮的根源。不焦慮的一方能情緒穩定，陪伴一起溝通彼此的感受跟想法，並且一起達到良好的平衡。</p>
+</blockquote>
+<p>另外，這邊我想請大家關注一個點，就是在愛情中 <code>彼此表達愛的方式不同</code>，這件事很重要，如果能夠好好了解彼此愛的語言，也比較能感受到對方表達的愛意，就能在了解彼此的過程中，漸漸增加信任感，從而讓焦慮慢慢減少。</p>
+<p><strong>治癒心理議題</strong></p>
+<p>可能有點果斷，但是應該絕大部分會有焦慮型依戀都有 <code>心理議題</code>。</p>
 <ul>
-<li>試著把生活重心拉回自我，找尋自己人生的目標與夢想</li>
+<li>可能是小時候、成長時，親眼見證爸媽關係不和諧</li>
+<li>從小缺少爸媽、手足給予的關愛。</li>
+<li>也可能是在成長、過往期間遭受家人、過去的戀情的打壓、負面事情、背叛，被過往的戀人劈腿過，諸如此類。</li>
 </ul>
-<p>是的，跟上點一樣，其實熱戀談戀愛很容易失去自我，就是你會變得 24 小時都在欣賞對方，互看的階段，但是老實說，當兩個人要趨向於穩定一起成長並攜手走向未來時，你是得看向前方的，所以無論是雙方一起訂下假設幾年後買車買房，或者是存錢一起出去玩，亦或者是個人訂下的目標，都是得先回歸原本自己的生活重心，一邊努力實行一邊陪伴對方，而不是 24 小時都跟對方膩在一起。</p>
-<ul>
-<li>和對方溝通，透過累積的行為，慢慢的信任對方，使內心有踏實安全感</li>
-</ul>
-<p>上述兩點都是針對 <code>沒有自信</code> 去做改善，那如果是<code>對對方不信任呢？</code></p>
-<p>和對方溝通，看怎麼樣的行為能增加信任感，然後要真的去信任，一步一步累積去增加信任感，讓內心更踏實，有著穩固的信任感，就比較不會這麼的慌張。</p>
-<p>簡單來說，我每次一跌入迴圈，在上段戀情我是屬於比較不理性的情緒跟行為，而這段戀情我是屬於比較理性點但還是焦慮依戀，所以我會很怕打擾到對方，還有做出如果打擾到對方我就會趕緊跟對方說對不起。</p>
-<p>然爾每次發生這樣的狀況，我男朋友都會跟我說 <code>你想傳什麼訊息你就傳，不會打擾我</code>, <code>如果我有空，我就會傳給你</code>, <code>可是如果沒有回傳，我在忙工作跟其他事情</code>。</p>
-<p>然後，我剛開始還是會害怕，會給他壓力會打擾他，但在一次又一次這樣觀念的打架跟信任累積下，就像是每次都害怕打擾對方，但是想到對方說的那些話，就還是傳了訊息給對方。</p>
-<p>雙方就這樣，我傳訊息給他，然後他有空就會回傳，沒回傳就是在忙碌 (可是隔了一陣子後，會主動傳訊息給我)，慢慢建立起信任感。如果是跟對方交往，一定要學會和對方溝通這些事情，找到哪些方法會建立你們的信任感，是很重要的。</p>
-<ul>
-<li>愛情是互相的，不要為了討好或害怕被拋棄而給對方全部的愛，或做出懇求愛的行為與情緒</li>
-</ul>
+<p>以上許多總總因素，會造成焦慮型依戀，很多時候不一定跟<code>爸媽對自己</code>有關，有可能父母親的相處跟關係讓我們不信任愛情，也有可能是過往的戀情對方讓我們不信任愛情，所以這時候需要好好的在每次焦慮時紀錄下來焦慮的感受與探索自己內心深層造成焦慮的根源。</p>
+<p>找出那個讓你感受到失望、傷心難過的時刻，然後在你的心理、在你的腦袋裡，回到那個時刻，與自己以及與當時傷害你的人和解。</p>
+<p>你可能會覺得為什麼我要跟傷害自己的人和解，其實不用真的和那個人面對面和解，只是在你的內心與他和解，因為那個時刻或者那個事情發生的當下，可能對方或你的成熟度不夠，不懂怎麼處理當時的場景，或者做出了不正確的決策導致。</p>
+<p>但你現在可能明白，對方不是故意的，或者你不是故意的。每個人的成長背景、成長時代可能都不同，也許當時的你不知如何處理眼前的場景，但你現在能夠處理，我們要做的就是把過往的那個破洞修補起來。</p>
+<p>我自己探索自己的心理議題，也花了很多年的時間，因為<code>我以為的原因，可能其實不是根源</code>。近期有捲起諮商的風氣，也可以透過尋求心理諮商師的幫忙來一起探索焦慮的根源。</p>
+<p>這過程因為有可能是不同的原因交錯盤纏在一塊，所以需要時間跟經歷慢慢抽絲剝繭。</p>
+<p><strong>避免表層治癒或者忽視不見</strong></p>
+<p>我打個比方，</p>
+<blockquote>
+<p>他既然不理我，那我就去做我自己的事</p>
+</blockquote>
+<p>-- 這只是把注意力轉走，焦慮只是暫時悶著，沒有被解決。</p>
+<blockquote>
+<p>我要變得有自信，我要相信自己是最棒的</p>
+</blockquote>
+<p>-- 這類型的自信心喊話應當建立在有雄厚的自我信任基礎上，這樣像是建立在空泛、空洞的根基上，一推就倒。</p>
+<blockquote>
+<p>我很不安，所以我要局限對方不能亂跑，或者每天視訊或者黏在一起</p>
+</blockquote>
+<p>-- 這就是看似治療了那種因分離不見的焦慮，但並不是治癒了隱藏在深層的焦慮根源。</p>
+<blockquote>
+<p>因為強烈的不安，所以我們一直黏在一起</p>
+</blockquote>
+<p>-- 這也是表層治癒，因為透過密集的相處來解渴，但長期下來一定會有問題</p>
+<p><strong>心裡議題治癒好後，才是建立自信、成長、發展自我</strong></p>
+<p>我們常常說要愛自己、做自己，要有自信，但其實當一個人的內心充滿焦慮、充滿著未解決的心理議題，充滿著千瘡百孔，他的根基都不穩了，要怎麼在這樣空洞、不穩的根基上建立好 <code>自信</code> 這件事。</p>
+<p>所以，首要還是治癒心理議題，無論是單身的朋友還是正在關係中的朋友，無論是愛情的心理議題，還是家庭還是各方面的心理議題，優先好好的處理。</p>
+<p>隨著我們慢慢將心理議題治癒，我們的心裡根基會慢慢變得穩固，我們會開始相信自己能夠有能力妥善處理好事情、我們能夠相信根據我的思維跟經驗我能做出適合我的決定。</p>
+<p>之後，將那些心理議題與過往放下，從新開始，在穩固的根基上建立全新的自己，然後發展自我。</p>
+<p>抵達了這個階段，再好好的談原文還沒改寫前的內容：</p>
+<blockquote>
+<p>建立自信，相信自己是最好的</p>
+</blockquote>
+<blockquote>
+<p>試著把生活重心拉回自我，找尋自己人生的目標與夢想</p>
+</blockquote>
+<h1 id="治癒的現象">治癒的現象</h1>
+<p>當你們因為幾個小時或者一天沒有聯繫(取決於你們的相處)，不會感到焦慮，反而能夠深信對方。</p>
+<p>你知道你能安心的把你的不滿跟你的感受、想法 "理性的" 表達給對方知道，不會因此造成感情破裂時。</p>
+<p>當你發現遇到任何困難跟問題，你都能找對方溝通，一起面對、一起解決。</p>
+<p>能理解對方到能知道對方的習慣跟行為，知道對方處理情緒的方式，對方需要個人空間或者對方躲起來是因為一些事情的因素，不焦慮甚至能專注在自己的事跟生活，等待對方恢復後找自己。</p>
+<p>這會是一種因長期累積、多次有效溝通、一起度過許多困難而產生的信任跟踏實感。</p>
+<h1 id="最後">最後</h1>
+<p>最後，我想保留一些我原文中 (2020/8月撰寫)，寫過的話。</p>
+<blockquote>
+<p>愛情是互相的，不要為了討好或害怕被拋棄而給對方全部的愛，或做出懇求愛的行為與情緒</p>
+</blockquote>
 <p>給那些覺得自己沒有給對方全部的愛，就怕對方離開自己的人。愛情是兩個人互相的，如果你給花草一堆水，無限的水，花花草草也會淹死在這些水中，最好的是當花草有點乾涸時，給予水澆濕。</p>
 <p>愛不是不斷的給，而是在適當時給予，這點我目前也還在學習。</p>
 <p>上段戀情我學習到的很重要的概念是: 愛情是兩個人共同經營的，也就是說當一個人沒心了，那就別挽回了，因為只靠一個人，是走不下去的。</p>
 <p>學著在對方忙碌時，維持自己的生活，當下次相聚時，雙方都成長了一點，會更使愛情更進步更美滿。</p>
-<ul>
-<li>如果用情緒勒索的話取得關注，也許當下會滿足，但內心的黑洞永不滿足，得從內心著手改變</li>
-</ul>
-<p>就像我之前說的，每個階段獲得的回應都只是短暫的解渴，如果你沒有意識到你需要從內心改善，需要把目光放回自己身上，那麼當你一直把焦點關注在對方身上，身上的情感黑洞將會不斷地擴大。</p>
+<blockquote>
+<p>如果用情緒勒索的話取得關注，也許當下會滿足，但內心的黑洞永不滿足，得從內心著手改變</p>
+</blockquote>
+<p>每個階段獲得的回應都只是短暫的解渴，如果你沒有意識到你需要從內心改善，需要把目光放回自己身上，那麼當你一直把焦點關注在對方身上，身上的情感黑洞將會不斷地擴大。</p>
 <p>在每次回圈中，感情索取就會變得越來越大越來越不可收拾。</p>
-<ul>
-<li>相信男朋友選擇和你再一起，代表你有迷人之處</li>
-</ul>
-<p>我相信在正常的愛情下，你的男朋友選擇你當他的女朋友，代表你在他的心目中有你自己的迷人之處。</p>
-<p>關於這個問題我也有回去問過我的前男友，我到底哪裡迷人？你到底喜歡我哪裏？</p>
-<p>其實他回我說我很好，都很好就是胖了些。其實他們選擇你當他的女朋友，或者雙方同意進入一段關係中，意味著就是無論男方或女方都覺得對方已經達標，可以往下邁入一步，所以別再自卑。</p>
-<p>當然也不是說達標就不用努力，只是說不用顯得太自卑。</p>
-<p>以上我也還在練習，我也是焦慮矛盾型戀人，而這些是我自己用兩年多得戀愛經驗跟現在剛開始的戀愛經驗讓我有這些概念上的領悟，我不會抱怨上段戀情，而要感謝上段戀情讓我現在能夠意識到我的行為舉止並想辦法改善</p>
-<p>也很感謝這任男朋友，我能夠進步跟變得更好，然後持續一起和你走下去。</p>
-<p>我也還在學習愛情。</p>f:{"id":"作者插播","text":"作者插播","level":3}
-10:{"id":"前言","text":"前言","level":3}
-11:{"id":"經歷","text":"經歷","level":3}
-12:{"id":"焦慮型依戀情人","text":"焦慮型依戀情人","level":3}
-13:{"id":"改善方法","text":"改善方法","level":3}
-e:["$f","$10","$11","$12","$13"]
-2:["$","div",null,{"className":"post_page__EWWgy","children":[["$","div",null,{"className":"post_background__PiTuc","aria-hidden":"true"}],["$","$L8",null,{"lang":"zh-TW"}],["$","div",null,{"className":"hidden md:block","children":["$","$L9",null,{"lang":"zh-TW"}]}],["$","main",null,{"className":"post_paper__js_ou","children":["$","div",null,{"className":"post_inner__BDI6X","children":[["$","div",null,{"className":"post_readingGrid__Wd9tF ","children":[["$","div",null,{"id":"post-reading","className":"post_reading__vXW39","children":[["$","header",null,{"className":"post_header__Sx82S","children":[["$","nav",null,{"className":"post_breadcrumb__oQpu2","aria-label":"麵包屑導覽","children":[["$","$La",null,{"href":"/blog","children":"Writing"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"children":"Field notes"}],[["$","span","life-experience",{"children":[["$","span",null,{"aria-hidden":"true","children":" / "}],["$","$La",null,{"href":"/categories/life-experience","children":"人生體驗與經驗"}]]}]]]}],["$","p",null,{"className":"post_annotation__zORJY","aria-hidden":"true","children":["Better tools,",["$","br",null,{}],["$","span",null,{"children":"for a more open me."}]]}],["$","h1",null,{"children":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)"}],["$","p",null,{"className":"post_description__GatpQ","children":"對方幾分鐘沒回訊息，你就很焦慮嗎？也許你是焦慮型依戀情人，那麼要如何改善這些狀況呢？身為一個軟體工程師女生，用軟體開發的分析方法，把眾多行為與情緒寫下並歸納，畫成流程圖，帶你解析你現在的狀況以及提出解決方法，讓我們一起改善愛情中的關係吧！"}],["$","div",null,{"className":"post_meta__JQTde","children":[["$","time",null,{"dateTime":"2020-08-02T11:32:12.000Z","children":"2020.08.02"}],["$","span",null,{"aria-hidden":"true","children":"·"}],["$","span",null,{"children":[20," ","分鐘閱讀"]}]]}],null]}],["$","$Lb",null,{"lang":"zh-TW","toc":[{"id":"作者插播","text":"作者插播","level":3},{"id":"前言","text":"前言","level":3},{"id":"經歷","text":"經歷","level":3},{"id":"焦慮型依戀情人","text":"焦慮型依戀情人","level":3},{"id":"改善方法","text":"改善方法","level":3}]}],["$","article",null,{"id":"post-body","className":"post_prose__o_jB0 post-prose","aria-label":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]}]]}],["$","aside",null,{"className":"post_aside__TdcXF","children":["$","$Ld",null,{"lang":"zh-TW","toc":"$e"}]}]]}],["$","nav",null,{"className":"post_postNav__s2ViX","aria-label":"上下篇文章","children":[["$","$La","0",{"href":"/2020/06/three-class-in-my-life-international-communication","className":"$undefined","children":[["$","span",null,{"className":"post_navLabel__AcuTs","children":"←　 PREVIOUS NOTE"}],["$","span",null,{"className":"post_navTitle__IluHr","children":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(3) - 國際溝通的能力"}],["$","span",null,{"className":"post_navMeta__T7iJJ","children":["2020.06.07"," · 日常生活"]}]]}],["$","$La","1",{"href":"/2020/11/life-experience-test-perfumes","className":"post_next__KLawU","children":[["$","span",null,{"className":"post_navLabel__AcuTs","children":"NEXT NOTE　 →"}],["$","span",null,{"className":"post_navTitle__IluHr","children":"[香水測試] 運用工程師的理性與邏輯，透過大數據分析測試出適合自己的香水(內含Chanel, Dior, 潘海利根以及其他廠牌香水) | 穿著夾腳拖運動褲來去名牌香水店逛街！"}],["$","span",null,{"className":"post_navMeta__T7iJJ","children":["2020.11.13"," · 日常生活"]}]]}]]}],null,["$","footer",null,{"className":"post_footer__oWEjM","children":[["$","$La",null,{"href":"/blog","children":["← ",["$","span",null,{"children":"所有文章"}]]}],["$","span",null,{"className":"post_signature__aqW7O","aria-hidden":"true","children":"Keep exploring."}]]}]]}]}]]}]
+<blockquote>
+<p>相信對方選擇和你在一起，代表你有迷人之處</p>
+</blockquote>f:{"id":"作者插播","text":"作者插播","level":1}
+10:{"id":"前言","text":"前言","level":1}
+11:{"id":"我的經歷","text":"我的經歷","level":1}
+12:{"id":"焦慮型依戀情人","text":"焦慮型依戀情人","level":1}
+13:{"id":"改善方法","text":"改善方法","level":1}
+14:{"id":"治癒的現象","text":"治癒的現象","level":1}
+15:{"id":"最後","text":"最後","level":1}
+e:["$f","$10","$11","$12","$13","$14","$15"]
+2:["$","div",null,{"className":"post_page__EWWgy","children":[["$","div",null,{"className":"post_background__PiTuc","aria-hidden":"true"}],["$","$L8",null,{"lang":"zh-TW"}],["$","div",null,{"className":"hidden md:block","children":["$","$L9",null,{"lang":"zh-TW"}]}],["$","main",null,{"className":"post_paper__js_ou","children":["$","div",null,{"className":"post_inner__BDI6X","children":[["$","div",null,{"className":"post_readingGrid__Wd9tF ","children":[["$","div",null,{"id":"post-reading","className":"post_reading__vXW39","children":[["$","header",null,{"className":"post_header__Sx82S","children":[["$","nav",null,{"className":"post_breadcrumb__oQpu2","aria-label":"麵包屑導覽","children":[["$","$La",null,{"href":"/blog","children":"Writing"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"children":"Field notes"}],[["$","span","life-experience",{"children":[["$","span",null,{"aria-hidden":"true","children":" / "}],["$","$La",null,{"href":"/categories/life-experience","children":"人生體驗與經驗"}]]}]]]}],["$","p",null,{"className":"post_annotation__zORJY","aria-hidden":"true","children":["Better tools,",["$","br",null,{}],["$","span",null,{"children":"for a more open me."}]]}],["$","h1",null,{"children":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)"}],["$","p",null,{"className":"post_description__GatpQ","children":"對方幾分鐘沒回訊息，你就很焦慮嗎？也許你是焦慮型依戀情人，那麼要如何改善這些狀況呢？身為一個軟體工程師女生，用軟體開發的分析方法，把眾多行為與情緒寫下並歸納，畫成流程圖，帶你解析你現在的狀況以及提出解決方法，讓我們一起改善愛情中的關係吧！"}],["$","div",null,{"className":"post_meta__JQTde","children":[["$","time",null,{"dateTime":"2020-08-02T11:32:12.000Z","children":"2020.08.02"}],["$","span",null,{"aria-hidden":"true","children":"·"}],["$","span",null,{"children":[23," ","分鐘閱讀"]}]]}],null]}],["$","$Lb",null,{"lang":"zh-TW","toc":[{"id":"作者插播","text":"作者插播","level":1},{"id":"前言","text":"前言","level":1},{"id":"我的經歷","text":"我的經歷","level":1},{"id":"焦慮型依戀情人","text":"焦慮型依戀情人","level":1},{"id":"改善方法","text":"改善方法","level":1},{"id":"治癒的現象","text":"治癒的現象","level":1},{"id":"最後","text":"最後","level":1}]}],["$","article",null,{"id":"post-body","className":"post_prose__o_jB0 post-prose","aria-label":"[愛情] 焦慮型依戀情人行為及思想分析以及如何改善 - 訊息篇 (附上流程圖)","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$c"}}]}]]}],["$","aside",null,{"className":"post_aside__TdcXF","children":["$","$Ld",null,{"lang":"zh-TW","toc":"$e"}]}]]}],["$","nav",null,{"className":"post_postNav__s2ViX","aria-label":"上下篇文章","children":[["$","$La","0",{"href":"/2020/06/three-class-in-my-life-international-communication","className":"$undefined","children":[["$","span",null,{"className":"post_navLabel__AcuTs","children":"←　 PREVIOUS NOTE"}],["$","span",null,{"className":"post_navTitle__IluHr","children":"[心理學] 人生的三堂課: 壓力與情緒、溝通、解決問題的能力(3) - 國際溝通的能力"}],["$","span",null,{"className":"post_navMeta__T7iJJ","children":["2020.06.07"," · 日常生活"]}]]}],["$","$La","1",{"href":"/2020/11/life-experience-test-perfumes","className":"post_next__KLawU","children":[["$","span",null,{"className":"post_navLabel__AcuTs","children":"NEXT NOTE　 →"}],["$","span",null,{"className":"post_navTitle__IluHr","children":"[香水測試] 運用工程師的理性與邏輯，透過大數據分析測試出適合自己的香水(內含Chanel, Dior, 潘海利根以及其他廠牌香水) | 穿著夾腳拖運動褲來去名牌香水店逛街！"}],["$","span",null,{"className":"post_navMeta__T7iJJ","children":["2020.11.13"," · 日常生活"]}]]}]]}],null,["$","footer",null,{"className":"post_footer__oWEjM","children":[["$","$La",null,{"href":"/blog","children":["← ",["$","span",null,{"children":"所有文章"}]]}],["$","span",null,{"className":"post_signature__aqW7O","aria-hidden":"true","children":"Keep exploring."}]]}]]}]}]]}]
